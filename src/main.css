@@ -572,7 +572,7 @@ li {
   left: 50px;
   width: 52px;
   height: 52px;
-  background: url("https://www.osiztechnologies.com/asset/home-page-new/images/blueQuotes.webp") center/52px no-repeat;
+  background: url(https://www.osiztechnologies.com/asset/home-page-new/images/blueQuotes.webp) center/52px no-repeat;
 }
 
 .Main-section .osiz_testimonial_sec .item .testMoLst {
@@ -2829,7 +2829,7 @@ ul {
 .BtnPrimry span {
   padding-top: 10px !important;
   font-size: 14px;
-font-size: 14px !important;
+  font-size: 14px !important;
   background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
   display: block;
   position: absolute;
@@ -3499,7 +3499,7 @@ span.TxtGrdnt::after {
   margin-bottom: 20px;
 }
 
-.OurPrjctBg{
+.OurPrjctBg {
   background-image: url(../public/images/metaverse-bg-new.webp);
 }
 
