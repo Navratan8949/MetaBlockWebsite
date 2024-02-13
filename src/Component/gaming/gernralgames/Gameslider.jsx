@@ -26,32 +26,32 @@ export default class AutoPlaygame extends Component {
     const sliderdata = [
       {
         image:
-          "https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service1.webp",
-        name: "Web3 Game Development",
+          "./images/casino.png",
+        name: "Casino Game Development",
         paragraph:
-          "Utilizing blockchain technologies, our group of video game developers constructs secure and decentralized Web3 games. Our specialization includes decentralized governance, player ownership, and the provision of fair gameplay experiences.",
+          "Casino game development involves creating captivating and fair games of chance, integrating features like graphics, sound, and secure transactions.",
       },
       {
         image:
-          " https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service2.webp",
+          "./images/game.png",
         name: "NFT Game Development",
         paragraph:
           "Specializing in NFT-infused games, we elevate in-game assets with real-world significance. By utilizing top-tier blockchains, we empower players to craft, trade, and vend NFTs directly within the gaming ecosystem.",
       },
       {
         image:
-          "https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service3.webp",
+          "./images/winner.png",
         name: "Metaverse Game Development",
         paragraph:
           "As a premier video game development company, we strongly prioritize the creation of immersive metaverse games that evolve in sync with their communities. We encompass all the top metaverse features, including interactivity, user-generated content, and social connectivity.",
-        },
-        {
-            image:
-              "https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service4.webp",
-            name: "Blockchain Game Development",
-            paragraph:
-              "Covering a spectrum of blockchain game development solutions, our team offers services that span from incorporating smart contracts to conducting security audits. Our blockchain gaming projects encompass the integration of player-centric economies and the implementation of secure in-game transactions.",
-          },
+      },
+      {
+        image:
+          "./images/programmer.png",
+        name: "General Game Development",
+        paragraph:
+          "General game development encompasses the creation of interactive digital entertainment, involving various disciplines such as programming, design, art, and sound to craft immersive gaming experiences for diverse platforms and audiences.",
+      },
     ];
     return (
       <div>
@@ -67,6 +67,7 @@ export default class AutoPlaygame extends Component {
                   <div className="service_box">
                     <div className="img_sec">
                       <img
+                        style={{ width: "120px", padding: "20px" }}
                         src={item.image}
                         className="img-fluid lazyload"
                         alt={item.altText}

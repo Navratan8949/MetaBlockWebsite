@@ -13,11 +13,11 @@ const SimilarFile = () => {
 
 
         <div className="MtaverseSec DapsMainBg OurPrjctBg" style={{ background: 'black' }}>
-       
-       <div>
-        <WhyChooseUs/>
-       </div>
-       
+
+          <div>
+            <WhyChooseUs />
+          </div>
+
 
           <div className="MtaverseSec DapsMainBg OurPrjctBg">
             <div className="container container-1170">
@@ -1499,8 +1499,8 @@ const SimilarFile = () => {
               </div>
             </div>
           </div>
-      
- 
+
+
           <div className='AutoPlay-section' style={{ background: 'black' }}>
             <AutoPlay />
           </div>

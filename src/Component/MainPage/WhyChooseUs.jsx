@@ -7,8 +7,8 @@ const WhyChooseUs = () => {
             <div className="bg-filter" />
             {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
             <div className="devanshu">
-                <div className="col-lg-5 container c-contant-text ps-5 row gx-5 ms-5 align-items-center">
-                    <div style={{ marginBottom: "300px" }}>
+                <div className="col-lg-5 container c-contant-text  row gx-5 ms-5 align-items-center">
+                    <div className='why-choose-us-right-slider'>
 
                         <h1 style={{ fontSize: "50px" }} className="pb-3 glow-text c-head text-white fw-bold g-text g-text-h">Why Choose Us</h1>
                         <p className="lead fw-normal text-light mb-0 ">We feed the needs of our clients with the best team distribution. In addition, our pool of talent helps us achieve outstanding and astonishing results in each project that we undertake.</p>

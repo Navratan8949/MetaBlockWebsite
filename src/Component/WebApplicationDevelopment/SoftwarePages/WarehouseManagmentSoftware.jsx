@@ -14,46 +14,45 @@ import { useNavigate } from "react-router-dom";
 // import '../../main.css'
 
 const WarehouseManagmentSoftware = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <>
-      <>
-        <div className="main-div-Application">
-          <header className="enterprise-mobile-app-development arkit header-shadow">
+      <div className="main-div-Application">
+        <header className="enterprise-mobile-app-development arkit header-shadow">
 
-            <div className="container h-100">
-              <div className="row h-100">
+          <div className="container h-100">
+            <div className="row h-100">
 
-                <div className="col-lg-12 my-auto">
-                  <div className="header-content mx-auto">
+              <div className="col-lg-12 my-auto">
+                <div className="header-content mx-auto">
+                  <h1 className="mb-5">
+                    {/* Blockchain Finance Management */}Warehouse Managment Software
+                    Development Company
 
-                    <h1 className="mb-5">
-                      {/* Blockchain Finance Management */}Warehouse Managment Software
-                      Development Company
-                    </h1>
-                    <h3 className="heading-tagline">
-                      From start-ups to enterprises, we deliver forward-thinking
-                      ERP software with robust functionalities and cutting-edge
-                      technologies. Harness our comprehensive ERP services to
-                      revolutionize your business processes and strategies in the
-                      ERP world.
-                    </h3>
-                    {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
-                    <div className="text-center">
-                      <a
-                        href="https://www.osiztechnologies.com/request-for-quotation"
-                        className="expert-btn"
-                      >
-                        Request For Quote
-                      </a>
-                    </div>
-                  </div>
+                  </h1>
+                  <h3 className="heading-tagline">
+                    From start-ups to enterprises, we deliver forward-thinking
+                    ERP software with robust functionalities and cutting-edge
+                    technologies. Harness our comprehensive ERP services to
+                    revolutionize your business processes and strategies in the
+                    ERP world.
+                  </h3>
+                  {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
+                  {/* <div className="text-center">
+                    <a
+                      href="https://www.osiztechnologies.com/request-for-quotation"
+                      className="expert-btn"
+                    >
+                      Request For Quote
+                    </a>
+                  </div> */}
                 </div>
               </div>
             </div>
-          </header>
-          {/* <div className="container-fluid breadcrumb-sec">
+          </div>
+        </header>
+        {/* <div className="container-fluid breadcrumb-sec">
           <div className="container">
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb">
@@ -63,7 +62,7 @@ const WarehouseManagmentSoftware = () => {
             </nav>
           </div>
         </div> */}
-          {/* <section className="about" id="aboutus">
+        {/* <section className="about" id="aboutus">
     <div className="container">
       <div className="row">
         <div className="col-lg-6 col-sm-6 my-auto">
@@ -85,139 +84,161 @@ const WarehouseManagmentSoftware = () => {
       </div>
     </div>
   </section>  */}
-          <section className="Enterprise-container">
-            <div className="Enterprise-box">
-              <div className="Enterprise-left-div">
-                <h2>Software Development Solutions Provider</h2>
-                <p style={{ fontSize: "20px" }}>
-                  Metablock Technologies is your strategic partner in software
-                  development, unlocking the full potential of your business. As a
-                  leading software development provider, we specialize in
-                  delivering cutting-edge solutions tailored to meet your specific
-                  needs. Our team of skilled developers, known for their
-                  proficiency and dedication, ensures the creation of robust and
-                  customized software applications.
-                </p>
+        <section className="Enterprise-container">
+          <div className="Enterprise-box">
+            <div className="Enterprise-left-div">
+              <h2>Software Development Solutions Provider</h2>
+              <p style={{ fontSize: "20px" }}>
+                Metablock Technologies is your strategic partner in software
+                development, unlocking the full potential of your business. As a
+                leading software development provider, we specialize in
+                delivering cutting-edge solutions tailored to meet your specific
+                needs. Our team of skilled developers, known for their
+                proficiency and dedication, ensures the creation of robust and
+                customized software applications.
+              </p>
 
 
 
-                <button
-                  type="button"
-                  data-toggle="modal"
-                  data-target="#popup_form_modal"
-                  class="btn BtnPrimry TlkBtn"
-                  onClick={() => navigate("/ContectUsForm")}
-                >
-                  <span>Talk to our Experts</span>
-                  <span>Talk to our Experts</span>
-                </button>
-              </div>
-              <div className="Enterprise-right-div">
-                <img src="/images/ERPSoftwarebanner.jpg" alt="" />
+              <button
+                type="button"
+                data-toggle="modal"
+                data-target="#popup_form_modal"
+                class="btn BtnPrimry TlkBtn"
+                onClick={() => navigate("/ContectUsForm")}
+              >
+                <span>Talk to our Experts</span>
+                <span>Talk to our Experts</span>
+              </button>
+            </div>
+            <div className="Enterprise-right-div">
+              <img src="/images/ERPSoftwarebanner.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <SwiperSlider />
+        <KeyFeature />
+        {/*============= Technology Stack We Use========= */}
+
+        <section className="section-heading mid_section-1">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <h2 style={{ color: "#D166AF " }} className="text-center Technology-Stack ">Technology Stack We Use</h2>
               </div>
             </div>
-          </section>
-
-          <SwiperSlider />
-          <KeyFeature />
-          {/*============= Technology Stack We Use========= */}
-
-          <section className="section-heading mid_section-1">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-12">
-                  <h2 className="text-center">Technology Stack We Use</h2>
-                </div>
+            <div className="row tech p-5 pt-0 mt-5 mb-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/physics.png" className="w-100 h-40" alt="" />
+                <h5>React</h5>
               </div>
-              <div className="row tech p-5 pt-0 mt-5 mb-5">
-                <div className="col-md-2 mt-5">
-                  <img src="./images/" className="w-100 h-40" alt="" />
-                </div>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
-                </div>
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/python.png" alt="" className="w-100 h-40" />
+                <h5>Python</h5>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech/atom.png" alt="" className="w-100 h-40" />
-                </div>
+              </div>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
-                </div>
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+                <img src="./images/mysql.png" alt="" className="w-100 h-40" />
+                <h5>MySQL</h5>
+              </div>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
-                </div>
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+                <h5>Java Srcipt</h5>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech/node-js.png" alt="" className="w-100 h-40" />
-                </div>
+              </div>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
-                </div>
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+                <h5>SQL Lite</h5>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech/android.png" alt="" className="w-100 h-40" />
-                </div>
+              </div>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
-                </div>
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/html.png" alt="" className="w-100 h-40" />
+                <h5>HTML</h5>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
-                </div>
+              </div>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
-                </div>
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+                <h5>Android</h5>
 
-                <div className="col-md-2 mt-5">
-                  <img src="./assets/img/tech//laravel.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+                <h5>Mongo DB</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+                <h5>App Store</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+                <h5>Atom</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+                <h5>Laravel</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/python.png" alt="" className="w-100 h-40" />
+                <h5>Python</h5>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <SoftwareUsesTechnology />
+        <AdminControlFeature />
+        <section className="process_we_follow section-heading">
+          <div className="container-fluid">
+            <div className="row justify-content-center">
+              <div className="col-md-12">
+                <div className="cms text-center Process">
+                  <h3>Our Step-By-Step Software Development Process</h3>
                 </div>
               </div>
             </div>
-          </section>
-          <SoftwareUsesTechnology />
-          <AdminControlFeature />
-          <section className="process_we_follow section-heading">
-            <div className="container-fluid">
-              <div className="row justify-content-center">
-                <div className="col-md-12">
-                  <div className="cms text-center Process">
-                    <h3>Our Step-By-Step Software Development Process</h3>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-12 text-center">
-                  <img src="/images/process-flow-new.svg" className="img-fluid" />
-                </div>
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <img src="/images/process-flow-new.svg" className="img-fluid" />
               </div>
             </div>
-          </section>
-          <section className="OnDemandApp_section">
-            <OnDemandAppSlider />
-            {/* <CardSlider/> */}
-          </section>
+          </div>
+        </section>
+        <section className="OnDemandApp_section">
+          <OnDemandAppSlider />
+          {/* <CardSlider/> */}
+        </section>
 
-          {/* <section >
+        {/* <section >
           <CardSlider/>
         </section> */}
-          {/* <RelatedPortfolioSlider/> */}
-          {/* <OnDemandAppSlider/> */}
+        {/* <RelatedPortfolioSlider/> */}
+        {/* <OnDemandAppSlider/> */}
 
 
 
 
-          {/* <section className='Phone-card-slider'>
+        {/* <section className='Phone-card-slider'>
           <Phonecardslider />
         </section> */}
 
 
-          {/* <section className="why_osiz section-heading ">
+        {/* <section className="why_osiz section-heading ">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-12">
@@ -317,14 +338,12 @@ const WarehouseManagmentSoftware = () => {
             </div>
           </div>
         </section> */}
-          <section>
-            <SimilarFile />
-          </section>
-        </div>
-      </>
-
+        <section>
+          <SimilarFile />
+        </section>
+      </div>
     </>
-  )
+  );
 }
 
 export default WarehouseManagmentSoftware

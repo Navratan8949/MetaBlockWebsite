@@ -12,8 +12,8 @@ const NFTArtMarketplaceDevelopment = () => {
               <div className="col-lg-6 col-12">
                 <div className="banner_sec">
                   <h1 className="title">
-                    <span className="cus_title">NFT Marketplace</span> <br />{" "}
-                    DEVELOPMENT COMPANY
+                    <span className="cus_title">NFT Art Market </span> <br />{" "}
+                    place Development
                   </h1>
                   <p className="contents">
                     Build Your High ROI Generating NFT Marketplace Platforms by

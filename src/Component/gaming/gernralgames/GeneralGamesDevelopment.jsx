@@ -46,7 +46,7 @@ const GeneralGamesDevelopment = () => {
             </div>
           </div>
         </section>
-        
+
         <section className="game_dev_comp_services">
           <div className="container">
             <h2 className="title">Our Game Development Services Range</h2>
@@ -175,7 +175,7 @@ const GeneralGamesDevelopment = () => {
             <div className="row align-items-center">
               <div className="col-lg-5 p-lg-0">
                 <img
-                  src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/platform-img.webp?v2"
+                  src="images/casino-game-image1.jpg"
                   className="img-fluid lazyload"
                   alt="Game_Development_on_Prime_Platforms"
                   title="Our Game Development on Prime Platforms"
@@ -190,11 +190,11 @@ const GeneralGamesDevelopment = () => {
                     <div className="platform_box">
                       <div className="head_sec">
                         <img
-                          src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/platform-icons.svg"
+                          src="./images/vr-glasses.png"
                           className="sprite_icons lazyload"
                           alt="AR_VR_Icon"
                           title="AR and VR"
-                          style={{ objectPosition: "0px 0px" }}
+                        // style={{ objectPosition: "0px 0px" }}
                         />
                         <h3 className="sub_title">AR and VR</h3>
                       </div>
@@ -208,11 +208,11 @@ const GeneralGamesDevelopment = () => {
                     <div className="platform_box">
                       <div className="head_sec">
                         <img
-                          src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/platform-icons.svg"
+                          src="./images/game-console.png"
                           className="sprite_icons lazyload"
                           alt="Console_Icon"
                           title="Console"
-                          style={{ objectPosition: "-94px 0px" }}
+                        // style={{ objectPosition: "-94px 0px" }}
                         />
                         <h3 className="sub_title">Console</h3>
                       </div>
@@ -227,11 +227,11 @@ const GeneralGamesDevelopment = () => {
                     <div className="platform_box">
                       <div className="head_sec">
                         <img
-                          src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/platform-icons.svg"
+                          src="./images/gaming.png"
                           className="sprite_icons lazyload"
                           alt="Mobile_Icon"
                           title="Mobile"
-                          style={{ objectPosition: "-186px 0px" }}
+                        // style={{ objectPosition: "-186px 0px" }}
                         />
                         <h3 className="sub_title">Mobile</h3>
                       </div>
@@ -245,11 +245,11 @@ const GeneralGamesDevelopment = () => {
                     <div className="platform_box">
                       <div className="head_sec">
                         <img
-                          src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/platform-icons.svg"
+                          src="./images/computer-game.png"
                           className="sprite_icons lazyload"
                           alt="PC_Icon"
                           title="PC"
-                          style={{ objectPosition: "-280px 0px" }}
+                        // style={{ objectPosition: "-280px 0px" }}
                         />
                         <h3 className="sub_title">PC</h3>
                       </div>
@@ -262,8 +262,8 @@ const GeneralGamesDevelopment = () => {
                   </div>
                 </div>
                 <div className="game_dev_btn_sec"
-                    onClick={() => navigate('/ContectUsForm')}
-                 
+                  onClick={() => navigate('/ContectUsForm')}
+
                 >
                   <button
                     data-toggle="modal"
@@ -595,8 +595,8 @@ const GeneralGamesDevelopment = () => {
                   experience the transformative impact firsthand!
                 </p>
                 <div className="game_dev_btn_sec"
-                
-                onClick={() => navigate('/ContectUsForm')}
+
+                  onClick={() => navigate('/ContectUsForm')}
                 >
                   <button
                     data-toggle="modal"

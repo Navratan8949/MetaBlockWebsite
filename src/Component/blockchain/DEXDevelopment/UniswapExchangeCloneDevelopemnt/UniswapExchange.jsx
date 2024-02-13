@@ -12,7 +12,7 @@ const UniswapExchange = () => {
               <div className="col-lg-7 col-md-12 col-sm-12 col-12">
                 <div>
                   <h1 className="title-10">
-                    White Label <b>Crypto Exchange</b> Development Company
+                    Uniswap  <b> Exchange</b> Development Company
                   </h1>
                   <p className="contents">
                     Utilize our secure and reliable white label crypto exchange

@@ -6,6 +6,7 @@
     width: 100%;
     height: auto;
     margin: 30px 0px;
+    gap: 30px;
 }
 
 .Admin-control-main-container h4 {
@@ -111,8 +112,7 @@ p {
 
 
 .g-text,
-.Admin-control-main-container h4,
-.Key-feature-heading {
+.Admin-control-main-container h4 {
     /* background: linear-gradient(to right, #e91e63 0%, #277b8d 100%) !important; */
     background: linear-gradient(to right, #7d8dff, #ff4f81) !important;
     -webkit-background-clip: text !important;

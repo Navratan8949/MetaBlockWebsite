@@ -2,34 +2,34 @@ import React from "react";
 import "./DynamicWebsite.css";
 import SimilarFile from "../SimilarFile";
 const DynamicWebsite = () => {
-    return (
-        <div>
-        &lt;&gt;
-        <header className="ondemad_head">
-          <div className="container h-100">
-            <div className="row h-100 justify-content-center align-items-center">
-              {/* <div class="text-left header-content col-lg-12 mt-9">
+  return (
+    <div>
+      &lt;&gt;
+      <header className="ondemad_head">
+        <div className="container h-100">
+          <div className="row h-100 justify-content-center align-items-center">
+            {/* <div class="text-left header-content col-lg-12 mt-9">
       
         <h1 class="mb-5 desktop" style="text-align: left;">On-Demand App Development <br> Company </h1>
         <h1 class="mb-5 mobile" style="text-align: left;">On-Demand App Development Company </h1>
       
         </div> */}
-              <div className="col-lg-12 my-auto">
-                <div className="header-content mx-auto">
-                  <h1 className="mb-5 mt-0 desktop" style={{textAlign: 'left'}}>On-Demand App Development <br /> Company </h1>
-                  {/*  <h1 class="mb-5 mobile" style="text-align: left;">On-Demand App Development Company </h1> */}
-                  <h3 className="text-left heading-tagline">Digitize your product to expand the business online and reach millions of users worldwide. We help you craft your on-demand application to perfection with our vast library of customization tools &amp; designs. Collaborate with our
-                    team and choose your desirable module to utilize our finest on-demand app development services. </h3>
-                  <ul className="banr-listing">
-                    <li><i className="fa fa-check-circle" /> Meticulous quality analysis cycle.</li>
-                    <li><i className="fa fa-check-circle" /> Apps built on leading-edge software packages.</li>
-                    <li><i className="fa fa-check-circle" /> Incorporation of authentic API tools.</li>
-                    <li><i className="fa fa-check-circle" /> Exclusive Offshore project development team.</li>
-                    <li><i className="fa fa-check-circle" /> On-time delivery at an affordable cost.</li>
-                  </ul>
-                </div>
+            <div className="col-lg-12 my-auto">
+              <div className="header-content mx-auto">
+                <h1 className="mb-5 mt-0 desktop" style={{ textAlign: 'left' }}>Dynamic Website <br /> Company </h1>
+                {/*  <h1 class="mb-5 mobile" style="text-align: left;">On-Demand App Development Company </h1> */}
+                <h3 className="text-left heading-tagline">Digitize your product to expand the business online and reach millions of users worldwide. We help you craft your on-demand application to perfection with our vast library of customization tools &amp; designs. Collaborate with our
+                  team and choose your desirable module to utilize our finest on-demand app development services. </h3>
+                <ul className="banr-listing">
+                  <li><i className="fa fa-check-circle" /> Meticulous quality analysis cycle.</li>
+                  <li><i className="fa fa-check-circle" /> Apps built on leading-edge software packages.</li>
+                  <li><i className="fa fa-check-circle" /> Incorporation of authentic API tools.</li>
+                  <li><i className="fa fa-check-circle" /> Exclusive Offshore project development team.</li>
+                  <li><i className="fa fa-check-circle" /> On-time delivery at an affordable cost.</li>
+                </ul>
               </div>
-              {/* <div class="col-lg-5">
+            </div>
+            {/* <div class="col-lg-5">
             <div class="ondemand_app_banner_form_sec">
               <div class="ondemand_app_banner_form_head text-center">
                 <h3 class="title">Tell Us Your Requirements</h3>
@@ -366,108 +366,108 @@ const DynamicWebsite = () => {
               </form>
             </div>
            </div> */}
-            </div>
           </div>
-        </header>
-     
-      
-        <section className="mid_section ondemad_feature">
-          <div className="container">
-            <div className="section-heading text-center">
-              <h2 className="features_title">Features We Inherit</h2>
-              <p className="text-center">We develop on-demand apps with lots of services like tracking facilities, payment facilities and so on as follows.</p>
-              <div className="why_round"> </div>
-            </div>
-            <div className="row">
-              <div className="col-sm-3 mt-7">
-                <div className="whybottom_box whybottom_box1 hgt_400">
-                  <div className="inr_img">
-                    <div className="ver_mid">
-                      <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/gps-services.png" alt="GPS Services" title="GPS Services" className="img-fluid" /></div>
-                    </div>
-                  </div>
-                  <h3>GPS Services</h3>
-                  <p className="text-center">We develop your on-demand app with an in-built map that can be viewed by both customer and product/service provider. This helps the provider to track your customer and customer to monitor the location of the goods periodically.</p>
-                </div>
-              </div>
-              <div className="col-sm-3 mt-7">
-                <div className="whybottom_box whybottom_box2 hgt_400">
-                  <h3>In - App Payments</h3>
-                  <div className="inr_img">
-                    <div className="ver_mid">
-                      <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/in-app-payments.png" alt="In - App Payments" title="In - App Payments" className="img-fluid" /></div>
-                    </div>
-                  </div>
-                  <p className="text-center">On-Demand app developed by us involves the payment ability. This allows customers to pay for your products within the app in a safer and secured environment. </p>
-                </div>
-              </div>
-              <div className="col-sm-3 mt-7">
-                <div className="whybottom_box whybottom_box3 hgt_400">
-                  <h3>Cloud Integration </h3>
-                  <div className="inr_img">
-                    <div className="ver_mid">
-                      <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/cloud-integration.png" alt="Cloud Integration" title="Cloud Integration" className="img-fluid" /></div>
-                    </div>
-                  </div>
-                  <p className="text-center">Our on-demand app development process includes the process of creating a separated cloud space for data analytics and storages related to the usage of apps. </p>
-                </div>
-              </div>
-              <div className="col-sm-3 mt-7">
-                <div className="whybottom_box whybottom_box4 hgt_400">
-                  <h3>Instant Push Notification</h3>
-                  <div className="inr_img">
-                    <div className="ver_mid">
-                      <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/instant-push-notification.png" alt="Instant Push Notification" title="Instant Push Notification" className="img-fluid" /></div>
-                    </div>
-                  </div>
-                  <p className="text-center">We provide a way by which you can acknowledge your new products or discounts or available products to your customers instantly through notifications. This may help you in reaching your customers faster. </p>
-                </div>
-              </div>
-            </div>
+        </div>
+      </header>
+
+
+      <section className="mid_section ondemad_feature">
+        <div className="container">
+          <div className="section-heading text-center">
+            <h2 className="features_title">Features We Inherit</h2>
+            <p className="text-center">We develop on-demand apps with lots of services like tracking facilities, payment facilities and so on as follows.</p>
+            <div className="why_round"> </div>
           </div>
-        </section>
-        <section className="mid_section why-business grey-bg">
-          <div className="container">
-            <div className="section-heading text-center">
-              <h2 className="why_title">Why Should You develop an On-Demand Delivery App for Your Business?</h2>
-              <div className="why_round"> </div>
-            </div>
-            <div className="row mar-top-30">
-              <div className="col-md-12 col-sm-12">
-                <p className="why_para text-center">In the current digital era, on-demand apps are prevalent among consumers as it eases their efforts and improves their comfort. Hence, they have proved to be sure-shot winners in the tech industry. For an entrepreneur who aims to upscale
-                  his business online or to build one right from scratch, utilizing the right on-demand app development services to launch their on-demand app is the right origin point to reap quick and exponential growth. </p>
-                <div className="row mar-top-30">
-                  <div className="col-sm-3">
-                    <div className="whybottom_box whybottom_box1 hgt_400">
-                      <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Global Reach" title="Global Reach" style={{objectPosition: '-7px -18px'}} /></abbr>
-                      <h3>Global Reach</h3>
-                    </div>
-                  </div>
-                  <div className="col-sm-3">
-                    <div className="whybottom_box whybottom_box1 hgt_400">
-                      <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Customer Comfort" title="Customer Comfort" style={{objectPosition: '-57px -18px'}} /></abbr>
-                      <h3>Customer Comfort</h3>
-                    </div>
-                  </div>
-                  <div className="col-sm-3">
-                    <div className="whybottom_box whybottom_box1 hgt_400">
-                      <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Security & Scalability" title="Security & Scalability" style={{objectPosition: '-110px -18px'}} /></abbr>
-                      <h3>Security &amp; Scalability</h3>
-                    </div>
-                  </div>
-                  <div className="col-sm-3">
-                    <div className="whybottom_box whybottom_box1 hgt_400">
-                      <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Advanced Opportunities" title="Advanced Opportunities" style={{objectPosition: '-160px -18px'}} /></abbr>
-                      <h3>Advanced Opportunities </h3>
-                    </div>
+          <div className="row">
+            <div className="col-sm-3 mt-7">
+              <div className="whybottom_box whybottom_box1 hgt_400">
+                <div className="inr_img">
+                  <div className="ver_mid">
+                    <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/gps-services.png" alt="GPS Services" title="GPS Services" className="img-fluid" /></div>
                   </div>
                 </div>
+                <h3>GPS Services</h3>
+                <p className="text-center">We develop your on-demand app with an in-built map that can be viewed by both customer and product/service provider. This helps the provider to track your customer and customer to monitor the location of the goods periodically.</p>
+              </div>
+            </div>
+            <div className="col-sm-3 mt-7">
+              <div className="whybottom_box whybottom_box2 hgt_400">
+                <h3>In - App Payments</h3>
+                <div className="inr_img">
+                  <div className="ver_mid">
+                    <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/in-app-payments.png" alt="In - App Payments" title="In - App Payments" className="img-fluid" /></div>
+                  </div>
+                </div>
+                <p className="text-center">On-Demand app developed by us involves the payment ability. This allows customers to pay for your products within the app in a safer and secured environment. </p>
+              </div>
+            </div>
+            <div className="col-sm-3 mt-7">
+              <div className="whybottom_box whybottom_box3 hgt_400">
+                <h3>Cloud Integration </h3>
+                <div className="inr_img">
+                  <div className="ver_mid">
+                    <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/cloud-integration.png" alt="Cloud Integration" title="Cloud Integration" className="img-fluid" /></div>
+                  </div>
+                </div>
+                <p className="text-center">Our on-demand app development process includes the process of creating a separated cloud space for data analytics and storages related to the usage of apps. </p>
+              </div>
+            </div>
+            <div className="col-sm-3 mt-7">
+              <div className="whybottom_box whybottom_box4 hgt_400">
+                <h3>Instant Push Notification</h3>
+                <div className="inr_img">
+                  <div className="ver_mid">
+                    <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/instant-push-notification.png" alt="Instant Push Notification" title="Instant Push Notification" className="img-fluid" /></div>
+                  </div>
+                </div>
+                <p className="text-center">We provide a way by which you can acknowledge your new products or discounts or available products to your customers instantly through notifications. This may help you in reaching your customers faster. </p>
               </div>
             </div>
           </div>
-                  </section>
-                  
-                 <section className="mid_section grey-bg" style={{background: '#696767'}}>
+        </div>
+      </section>
+      <section className="mid_section why-business grey-bg">
+        <div className="container">
+          <div className="section-heading text-center">
+            <h2 className="why_title">Why Should You develop an On-Demand Delivery App for Your Business?</h2>
+            <div className="why_round"> </div>
+          </div>
+          <div className="row mar-top-30">
+            <div className="col-md-12 col-sm-12">
+              <p className="why_para text-center">In the current digital era, on-demand apps are prevalent among consumers as it eases their efforts and improves their comfort. Hence, they have proved to be sure-shot winners in the tech industry. For an entrepreneur who aims to upscale
+                his business online or to build one right from scratch, utilizing the right on-demand app development services to launch their on-demand app is the right origin point to reap quick and exponential growth. </p>
+              <div className="row mar-top-30">
+                <div className="col-sm-3">
+                  <div className="whybottom_box whybottom_box1 hgt_400">
+                    <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Global Reach" title="Global Reach" style={{ objectPosition: '-7px -18px' }} /></abbr>
+                    <h3>Global Reach</h3>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="whybottom_box whybottom_box1 hgt_400">
+                    <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Customer Comfort" title="Customer Comfort" style={{ objectPosition: '-57px -18px' }} /></abbr>
+                    <h3>Customer Comfort</h3>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="whybottom_box whybottom_box1 hgt_400">
+                    <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Security & Scalability" title="Security & Scalability" style={{ objectPosition: '-110px -18px' }} /></abbr>
+                    <h3>Security &amp; Scalability</h3>
+                  </div>
+                </div>
+                <div className="col-sm-3">
+                  <div className="whybottom_box whybottom_box1 hgt_400">
+                    <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Advanced Opportunities" title="Advanced Opportunities" style={{ objectPosition: '-160px -18px' }} /></abbr>
+                    <h3>Advanced Opportunities </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mid_section grey-bg" style={{ background: '#696767' }}>
         <div className="container">
           <div className="section-heading text-center">
             <h2 className="our_title">Our On-Demand Project Development Phase Cycle</h2>
@@ -475,12 +475,12 @@ const DynamicWebsite = () => {
           </div>
           <div className="row mar-top-30">
             <div className="col-sm-12 ">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/workflow-desktop.svg" className="img-fluid" style={{width: '100%', filter: 'hue-rotate(253deg)'}} />
+              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/workflow-desktop.svg" className="img-fluid" style={{ width: '100%', filter: 'hue-rotate(253deg)' }} />
             </div>
           </div>
         </div>
       </section>
-      
+
       <section className="mid_section">
         <div className="container">
           <div className="section-heading text-center">
@@ -542,13 +542,13 @@ const DynamicWebsite = () => {
               <div className="list_item">
                 <ul className="list-unstyled">
                   <li>
-                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{objectPosition: '-3357px -39px'}} />Customizable On-Demand App Solutions.</li>
+                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Customizable On-Demand App Solutions.</li>
                   <li>
-                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{objectPosition: '-3357px -39px'}} />Professionals backed by 10+ years of industry experience.</li>
+                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Professionals backed by 10+ years of industry experience.</li>
                   <li>
-                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{objectPosition: '-3357px -39px'}} />Direct collaboration with the technical team. </li>
+                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Direct collaboration with the technical team. </li>
                   <li>
-                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{objectPosition: '-3357px -39px'}} />Meticulous quality analysis cycle.</li>
+                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Meticulous quality analysis cycle.</li>
                 </ul>
               </div>
             </div>
@@ -556,13 +556,13 @@ const DynamicWebsite = () => {
               <div className="list_item">
                 <ul className="list-unstyled">
                   <li>
-                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{objectPosition: '-3357px -39px'}} />Apps built on leading-edge software packages.</li>
+                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Apps built on leading-edge software packages.</li>
                   <li>
-                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{objectPosition: '-3357px -39px'}} />Incorporation of authentic API tools.</li>
+                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Incorporation of authentic API tools.</li>
                   <li>
-                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{objectPosition: '-3357px -39px'}} />Exclusive Offshore project development team.</li>
+                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Exclusive Offshore project development team.</li>
                   <li>
-                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{objectPosition: '-3357px -39px'}} />On-time delivery at an affordable cost.</li>
+                    <img src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />On-time delivery at an affordable cost.</li>
                 </ul>
               </div>
             </div>
@@ -584,12 +584,12 @@ const DynamicWebsite = () => {
             </div>
           </div>
         </div>
-                  </section>
-                  <div>
-      
-      <SimilarFile/>
-                  </div>
+      </section>
+      <div>
+
+        <SimilarFile />
       </div>
+    </div>
   );
 };
 

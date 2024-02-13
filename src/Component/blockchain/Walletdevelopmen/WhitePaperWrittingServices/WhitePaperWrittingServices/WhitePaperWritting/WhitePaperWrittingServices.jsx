@@ -9,7 +9,7 @@ const WhitePaperWrittingServices = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 mt-5">
-                <h1 className="title">Whitepaper Writing Services</h1>
+                <h1 className="title wallet-developments-heading">Whitepaper Writing Services</h1>
                 <p className="contents">Osiz provides Professional White Paper Writing Services to create your brand and increase your business prospects.</p>
                 <div className="text-left mob-text-center">
                   <a className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">Request For Quote</a>

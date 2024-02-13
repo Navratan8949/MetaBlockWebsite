@@ -12,3 +12,13 @@
 
     }
 }
+
+.why-choose-us-right-slider {
+    margin-bottom: 300px;
+}
+
+@media(max-width:768px) {
+    .why-choose-us-right-slider {
+        margin-bottom: 40px !important;
+    }
+}

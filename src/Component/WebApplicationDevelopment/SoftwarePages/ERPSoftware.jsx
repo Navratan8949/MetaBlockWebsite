@@ -38,14 +38,14 @@ const ERPSoftware = () => {
                     ERP world.
                   </h3>
                   {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
-                  <div className="text-center">
+                  {/* <div className="text-center">
                     <a
                       href="https://www.osiztechnologies.com/request-for-quotation"
                       className="expert-btn"
                     >
                       Request For Quote
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -124,56 +124,78 @@ const ERPSoftware = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h2 style={{ color: "#D166AF !important" }} className="text-center ">Technology Stack We Use</h2>
+                <h2 style={{ color: "#D166AF " }} className="text-center Technology-Stack ">Technology Stack We Use</h2>
               </div>
             </div>
             <div className="row tech p-5 pt-0 mt-5 mb-5">
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/physics.png" className="w-100 h-40" alt="" />
+                <h5>React</h5>
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
+                <h5>Python</h5>
+
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
                 <img src="./images/mysql.png" alt="" className="w-100 h-40" />
+                <h5>MySQL</h5>
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+                <h5>Java Srcipt</h5>
+
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+                <h5>SQL Lite</h5>
+
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/html.png" alt="" className="w-100 h-40" />
+                <h5>HTML</h5>
+
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+                <h5>Android</h5>
+
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+                <h5>Mongo DB</h5>
+
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+                <h5>App Store</h5>
+
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+                <h5>Atom</h5>
+
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+                <h5>Laravel</h5>
+
               </div>
 
-              <div className="col-md-2 mt-5">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
+                <h5>Python</h5>
+
               </div>
             </div>
           </div>

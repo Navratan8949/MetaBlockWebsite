@@ -11,7 +11,7 @@ const WhiteLabel = () => {
               <div className="col-lg-7 col-md-12 col-sm-12 col-12">
                 <div>
                   <h1 className="title-10">
-                    White Label <b>Crypto Exchange</b> Development Company
+                    White Label <b> Exchange</b> Development Company
                   </h1>
                   <p className="contents">
                     Utilize our secure and reliable white label crypto exchange
@@ -1455,12 +1455,12 @@ const WhiteLabel = () => {
                       <div>
                         <div className="carousel-wrap">
                           <div className="owl-carousel" id="test_1">
-                         
-                           
-                          
-                           
-                        
-                         <AutoPlatestimonials/>
+
+
+
+
+
+                            <AutoPlatestimonials />
                           </div>
                         </div>
                       </div>
