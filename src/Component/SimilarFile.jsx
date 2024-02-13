@@ -5,6 +5,7 @@ import GenerativeAl from './MainPage/GenerativeAl'
 import React from "react";
 import WhyChooseUs from './MainPage/WhyChooseUs';
 import TrandingProduct from './MainPage/TrandingProduct';
+import { Link } from 'react-router-dom';
 
 const SimilarFile = () => {
   return (
@@ -165,7 +166,20 @@ const SimilarFile = () => {
                                 </p>
                               </div>
                             </div>
+                            <div className="col-lg-5">
+                              <div className="PrjctImg text-center">
+                                <img
+                                  src="./SGimage/gamerimg.webp"
+                                  alt="Metaverse"
+                                  title="Metaverse"
+                                  loading="eager"
+                                  className="img-fluid lazyload"
+                                  width="70%"
+                                />
+                              </div>
+                            </div>
                           </div>
+                          
                           <div className="PrjctsBtnSec game_PrjctBtn">
                             <div className="mr-4 mb-4">
                               <div className="PrjctBtn_new Btn211-42">
@@ -311,7 +325,7 @@ const SimilarFile = () => {
                             <div className="col-lg-5">
                               <div className="PrjctImg text-center">
                                 <img
-                                  src="https://www.osiztechnologies.com/asset/home-page-new/images/meta-img.webp "
+                                  src="./SGimage/metaverse.webp"
                                   alt="Metaverse"
                                   title="Metaverse"
                                   loading="eager"
@@ -534,7 +548,7 @@ const SimilarFile = () => {
                             <div className="col-lg-5">
                               <div className="PrjctImg text-center">
                                 <img
-                                  src="https://www.osiztechnologies.com/asset/home-page-new/images/blockchain-img.webp "
+                                  src="./SGimage/blockchainimg.webp"
                                   alt="Blockchain"
                                   title="Blockchain"
                                   loading="eager"
@@ -695,7 +709,7 @@ const SimilarFile = () => {
                             <div className="col-lg-5">
                               <div className="PrjctImg">
                                 <img
-                                  src="https://www.osiztechnologies.com/asset/home-page-new/images/prjct-img.webp "
+                                  src="./SGimage/crypto.webp "
                                   alt="Exchange"
                                   title="Exchange"
                                   loading="eager"
@@ -851,6 +865,18 @@ const SimilarFile = () => {
                                   creations get started with Osiz to create, sell,
                                   and trade your NFTs with ease and security.
                                 </p>
+                              </div>
+                            </div>
+                            <div className="col-lg-5">
+                              <div className="PrjctImg text-center">
+                                <img
+                                  src="./SGimage/neft.webp"
+                                  alt="Metaverse"
+                                  title="Metaverse"
+                                  loading="eager"
+                                  className="img-fluid lazyload"
+                                  width="70%"
+                                />
                               </div>
                             </div>
                           </div>
@@ -1026,7 +1052,7 @@ const SimilarFile = () => {
                             <div className="col-lg-5">
                               <div className="PrjctImg text-center">
                                 <img
-                                  src="https://www.osiztechnologies.com/asset/home-page-new/images/play-1.webp "
+                                  src="./SGimage/playto.webp "
                                   alt="Play To Earn"
                                   title="Play To Earn"
                                   loading="eager"
@@ -1208,7 +1234,7 @@ const SimilarFile = () => {
                             <div className="col-lg-5">
                               <div className="PrjctImg text-center">
                                 <img
-                                  src="https://www.osiztechnologies.com/asset/home-page-new/images/defi-tab-1.webp "
+                                  src="./SGimage/defi.webp "
                                   alt="DeFi"
                                   title="DeFi"
                                   loading="eager"
@@ -1377,7 +1403,7 @@ const SimilarFile = () => {
                             <div className="col-lg-5">
                               <div className="PrjctImg text-center">
                                 <img
-                                  src="https://www.osiztechnologies.com/asset/home-page-new/images/dapp-tab-1.webp "
+                                  src="./SGimage/dapp.webp "
                                   alt="Dapp"
                                   title="Dapp"
                                   loading="eager"
@@ -1525,21 +1551,15 @@ const SimilarFile = () => {
                 </div>
                 <div className="col-xl-3 text-right">
                   <div className=" ">
-                    <a
-                      href="https://www.osiztechnologies.com/blog"
-                      className="ViwallLnk"
-                      role="link"
-                      aria-label="View All"
-                      target="_blank"
-                    >
-                      <span className="VwAllLnkHov">
+                    <Link to="/Blog">
+                    <span className="VwAllLnkHov">
                         View All
                         <i
                           className="fa fa-angle-double-right"
                           aria-hidden="true"
                         />
                       </span>
-                    </a>
+                   </Link>
                   </div>
                 </div>
               </div>

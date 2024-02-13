@@ -13,7 +13,7 @@ const WbsiteDevelopment = () => {
                     <div className="container-fluid p-0">
                         <div className="VideoWrper">
                             <div className="video_sec">
-                                <img style={{ width: "100%", height: "92vh" }} src="https://img.freepik.com/free-photo/blockchain-technology-background-gradient-blue_53876-124648.jpg" alt="image" />
+                                <img style={{ width: "100%", height: "92vh" }} src="./SGimage/bannerimg.avif" alt="image" />
 
                                 {/* <video autoPlay muted loop playsInline preload="metadata">
                   <source
@@ -396,9 +396,9 @@ const WbsiteDevelopment = () => {
                                 <div className="platform_box">
                                     <div className="webdframeworks_icons ">
                                         <img
-                                            src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
-                                            alt="Laravel Framework Development "
-                                            title="Laravel Framework Development "
+                                            src="./SGimage/reactjs.png"
+                                            alt="ReactJS Development "
+                                            title="ReactJS Development "
                                             className=""
                                             style={{ width: '230px', borderRadius: '50px' }}
                                         />
@@ -431,9 +431,9 @@ const WbsiteDevelopment = () => {
                                 <div className="platform_box">
                                     <div className="webdframeworks_icons javascript-icon" >
                                         <img
-                                            src="https://play-lh.googleusercontent.com/FzFN8wP96JTCI9GMo4XWaJ-VzLdYpAY000eLFPfeY6Il4vbaXayOgtciZf75WORcKQuj"
-                                            alt="Laravel Framework Development "
-                                            title="Laravel Framework Development "
+                                            src="./SGimage/js.png"
+                                            alt="JS Framework Development "
+                                            title="JS Framework Development "
                                             className=""
                                             style={{ width: '230px', borderRadius: '50px' }} />
                                     </div>
@@ -461,9 +461,9 @@ const WbsiteDevelopment = () => {
                                 <div className="platform_box">
                                     <div className="webdframeworks_icons javascript-icon-1">
                                         <img
-                                            src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png"
-                                            alt="Laravel Framework Development "
-                                            title="Laravel Framework Development "
+                                            src="./SGimage/htmlimg.webp"
+                                            alt="HTML & CSS Development "
+                                            title="HTML & CSS  Development "
                                         // className="webdesign_frameworks_sprite"
                                         // style={{ objectPosition: "-766px -25px" }}
                                         />
@@ -494,9 +494,9 @@ const WbsiteDevelopment = () => {
                                 <div className="platform_box">
                                     <div className="webdframeworks_icons javascript-icon-2 ">
                                         <img
-                                            src="https://www.loginradius.com/blog/static/6ee159acf6c294342ec04f86aede5d14/701ee/coverImage.jpg"
-                                            alt="Laravel Framework Development "
-                                            title="Laravel Framework Development "
+                                            src="./SGimage/nodejs.jpg"
+                                            alt="NodeJS Framework Development "
+                                            title="NodeJS Framework Development "
                                             // className="webdesign_frameworks_sprite"
                                             style={{ borderRadius: '50px' }}
                                         />
@@ -526,9 +526,9 @@ const WbsiteDevelopment = () => {
                                 <div className="platform_box">
                                     <div className="webdframeworks_icons javascript-icon-3 ">
                                         <img
-                                            src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
-                                            alt="Laravel Framework Development "
-                                            title="Laravel Framework Development "
+                                            src="./SGimage/express-js.png"
+                                            alt="Express JS Development "
+                                            title="Express JS Development "
                                             style={{ width: '230px', borderRadius: '50px' }}
 
                                         // className="webdesign_frameworks_sprite"
@@ -561,9 +561,9 @@ const WbsiteDevelopment = () => {
                                 <div className="platform_box">
                                     <div className="webdframeworks_icons javascript-icon-4 ">
                                         <img
-                                            src="https://www.liblogo.com/img-logo/mo429m311-mongodb-logo-mongodb-logo-.png"
-                                            alt="Laravel Framework Development "
-                                            title="Laravel Framework Development "
+                                            src="./SGimage/mongodb-logo.png"
+                                            alt="Mongo DB Development "
+                                            title="Mongo DB Development "
                                             style={{ width: '230px', borderRadius: '50px' }}
                                         // className="webdesign_frameworks_sprite"
                                         // style={{ objectPosition: "-766px -25px" }}
@@ -1362,7 +1362,7 @@ const WbsiteDevelopment = () => {
                                         <div className="sol-icon">
                                             <div className="webporteldev_icons">
                                                 <img
-                                                    src="https://www.metakops.com/assets/img/admin/User-Management.png"
+                                                    src="./SGimage/User-Management.png"
                                                     alt="Requirement Analysis "
                                                     title="Requirement Analysis "
 
@@ -1383,7 +1383,7 @@ const WbsiteDevelopment = () => {
                                         <div className="sol-icon">
                                             <div className="webporteldev_icons">
                                                 <img
-                                                    src="https://www.metakops.com/assets/img/admin/Payment-gateway-management.png"
+                                                    src="./SGimage/Payment-gateway-management.png"
                                                     alt="Impressive Web - Designs "
                                                     title="Impressive Web - Designs "
                                                 // className="custweb_servs_sprite"
@@ -1405,7 +1405,7 @@ const WbsiteDevelopment = () => {
                                         <div className="sol-icon">
                                             <div className="webporteldev_icons">
                                                 <img
-                                                    src="https://www.metakops.com/assets/img/admin/Popup-Banner-management.png"
+                                                    src="./SGimage/Popup-Banner-management.png"
                                                     alt="Responsive Web app "
                                                     title=" Responsive Web app"
 
@@ -1428,7 +1428,7 @@ const WbsiteDevelopment = () => {
                                         <div className="sol-icon">
                                             <div className="webporteldev_icons">
                                                 <img
-                                                    src="https://www.metakops.com/assets/img/admin/Admin-staff-management-with-permission.png"
+                                                    src="./SGimage/Admin-staff-management-with-permission.png"
                                                     alt=" Efficiency in Performance & Speed"
                                                     title="Efficiency in Performance & Speed "
 
@@ -1451,7 +1451,7 @@ const WbsiteDevelopment = () => {
                                         <div className="sol-icon">
                                             <div className="webporteldev_icons">
                                                 <img
-                                                    src="https://www.metakops.com/assets/img/admin/Admin-commission-setting.png"
+                                                    src="./SGimage/Admin-commission-setting.png"
                                                     alt="Highly Secured & Scalable "
                                                     title="Highly Secured & Scalable "
 
@@ -1472,7 +1472,7 @@ const WbsiteDevelopment = () => {
                                         <div className="sol-icon">
                                             <div className="webporteldev_icons">
                                                 <img
-                                                    src="https://www.metakops.com/assets/img/Features/Refer-&-Earn.png"
+                                                    src="./SGimage/Refer-&-Earn.png"
                                                     alt="SEO Friendly "
                                                     title="SEO Friendly "
 
