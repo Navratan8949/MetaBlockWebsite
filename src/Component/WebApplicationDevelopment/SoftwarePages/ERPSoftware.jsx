@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import SwiperSlider from "./SwiperSlider/SwiperSlider";
 import AdminControlFeature from "./AdminControlFeature/AdminControlFeature";
 import KeyFeature from "./KeyFeatures/KeyFeature";
+import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnology";
 
 // import '../../main.css'
 
@@ -86,7 +87,7 @@ const ERPSoftware = () => {
           <div className="Enterprise-box">
             <div className="Enterprise-left-div">
               <h2>Software Development Solutions Provider</h2>
-              <p>
+              <p style={{ fontSize: "20px" }}>
                 Metablock Technologies is your strategic partner in software
                 development, unlocking the full potential of your business. As a
                 leading software development provider, we specialize in
@@ -96,24 +97,7 @@ const ERPSoftware = () => {
                 customized software applications.
               </p>
 
-              <p>
-                Our experience of leading Enterprise Software Development
-                Company Increases our comprehends that what a business requires
-                in its work progress to become a brand. With this
-                specialization, we have crossed over many of happy clients with
-                the successful project completion. Our skilled developer team
-                undergo for deep researching and planning as we knew every
-                project is different and requires special attention, which helps
-                them a lot to bring out a bug-free app.
-              </p>
 
-              <p>
-                Choose MetaBlock Technologies as your trusted software
-                development partner, where our expertise, dedication, and
-                personalized approach converge to propel your business to new
-                heights. Let us join forces to craft solutions that redefine
-                your digital landscape.
-              </p>
 
               <button
                 type="button"
@@ -134,133 +118,68 @@ const ERPSoftware = () => {
 
         <SwiperSlider />
         <KeyFeature />
-        <AdminControlFeature />
-        <section className="mid_section grey-bg">
-          <div className="container">
-            <div className="section-heading text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-              <h2>Premium Software Development Services</h2>
-              <div className="why_round"> </div>
-            </div>
-            <div className="row">
-              <div className="col-sm-4 col-lg-4">
-                <div className="feature_1 enterprise_mobile_app_services">
-                  <div
-                    className="spr_img_mob_dev sofware-image-1 testing_img"
-                    style={{ backgroundPosition: "10px 0px" }}
-                  ></div>
-                  <div className="feature-content_1">
-                    <h2>Custom Software Development</h2>
-                    <p>
-                      Custom software development involves creating unique,
-                      tailor-made solutions to address specific business needs.
-                      This service often includes designing and building
-                      applications, databases, and systems from the ground up,
-                      ensuring they align seamlessly with the client's
-                      requirements.
-                    </p>
-                  </div>
-                  {/* <div className="mobile_app_services_btn_div">
-                    <a
-                      // href="https://www.osiztechnologies.com/android-app-development"
-                      className="mobile_app_services_btn"
-                    >
-                      READ MORE <i className="fa fa-angle-double-right" />
-                    </a>
-                  </div> */}
-                  {/* <p class="text-right" style="text-align: right;"><a href="https://www.osiztechnologies.com/android-app-development" class="rd_mr_btn">
-                <span>READ MORE</span><span class="inr_arrow"><i class="fa fa-angle-double-right"></i></span></a>
-                </p> */}
-                </div>
-              </div>
-              <div className="col-sm-4 col-lg-4">
-                <div className="feature_1 enterprise_mobile_app_services">
-                  <div
-                    className="spr_img_mob_dev xtesting_img"
-                    style={{ backgroundPosition: "-65px 0px" }}
-                  ></div>
-                  <div className="feature-content_1">
-                    <h2>Quality Assurance and Testing</h2>
-                    <p>
-                      Quality assurance and testing services are crucial for
-                      ensuring the reliability and functionality of software.
-                      This includes various types of testing such as functional
-                      testing, performance testing, security testing, and user
-                      acceptance testing.
-                    </p>
-                  </div>
-                  {/* <div className="mobile_app_services_btn_div">
-                    <a
-                      href="https://www.osiztechnologies.com/android-game-development"
-                      className="mobile_app_services_btn"
-                    >
-                      READ MORE <i className="fa fa-angle-double-right" />
-                    </a>
-                  </div> */}
-                </div>
-              </div>
-              <div className="col-sm-4 col-lg-4">
-                <div className="feature_1 enterprise_mobile_app_services">
-                  <div
-                    className="spr_img_mob_dev testing_img"
-                    style={{ backgroundPosition: "-142px 0px" }}
-                  ></div>
-                  <div className="feature-content_1">
-                    <h2>Software Consulting</h2>
-                    <p>
-                      Software consulting services provide expert advice on
-                      technology selection, architecture design, and overall
-                      software solutions. Consultants assess existing systems
-                      and recommend improvements to optimize performance and
-                      efficiency.
-                    </p>
-                  </div>
-                  {/* <div className="mobile_app_services_btn_div">
-                    <a
-                      href="https://www.osiztechnologies.com/android-tablet-development"
-                      className="mobile_app_services_btn"
-                    >
-                      READ MORE <i className="fa fa-angle-double-right" />
-                    </a>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* <section >
-          <CardSlider/>
-        </section> */}
-        {/* <RelatedPortfolioSlider/> */}
-        {/* <OnDemandAppSlider/> */}
-        <section className="OnDemandApp_section">
-          <OnDemandAppSlider />
-          {/* <CardSlider/> */}
-        </section>
+        {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h2 className="text-center">Technology Stack We Use</h2>
+                <h2 style={{ color: "#D166AF !important" }} className="text-center ">Technology Stack We Use</h2>
               </div>
             </div>
-            <div className="row">
-              <div
-                className="col-md-12"
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <img src="images/techstack.png" width={"70%"} />
+            <div className="row tech p-5 pt-0 mt-5 mb-5">
+              <div className="col-md-2 mt-5">
+                <img src="./images/physics.png" className="w-100 h-40" alt="" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="./images/python.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="./images/mysql.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="./images/html.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+              </div>
+
+              <div className="col-md-2 mt-5">
+                <img src="./images/python.png" alt="" className="w-100 h-40" />
               </div>
             </div>
           </div>
         </section>
-        {/* <section className='Phone-card-slider'>
-          <Phonecardslider />
-        </section> */}
+        <SoftwareUsesTechnology />
+        <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">
             <div className="row justify-content-center">
@@ -277,7 +196,26 @@ const ERPSoftware = () => {
             </div>
           </div>
         </section>
-        <section className="why_osiz section-heading ">
+        <section className="OnDemandApp_section">
+          <OnDemandAppSlider />
+          {/* <CardSlider/> */}
+        </section>
+
+        {/* <section >
+          <CardSlider/>
+        </section> */}
+        {/* <RelatedPortfolioSlider/> */}
+        {/* <OnDemandAppSlider/> */}
+
+
+
+
+        {/* <section className='Phone-card-slider'>
+          <Phonecardslider />
+        </section> */}
+
+
+        {/* <section className="why_osiz section-heading ">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-12">
@@ -376,7 +314,7 @@ const ERPSoftware = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section>
           <SimilarFile />
         </section>

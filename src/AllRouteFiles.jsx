@@ -94,7 +94,6 @@ import BlockchainLiveAution from './Component/blockchain/BlockChainDevelopment/B
 import BlockchainDocument from './Component/blockchain/BlockChainDevelopment/BlockchainDocumentVerifiction/BlockchainDocument';
 import BlockchainIdentityVerifiction from './Component/blockchain/BlockChainDevelopment/BlockchainIdentityVerifiction/BlockchainIdentityVerifiction';
 import TrustWalletCloneDevelopment from './Component/blockchain/Walletdevelopmen/TrustWalletCloneDevelopment/TrustWalletCloneDevelopment';
-import WalletConnectClone from './Component/blockchain/Walletdevelopmen/WalletConnectClone/WalletConnectClone';
 import BinanaceSmartChainBEP20TokenDevelopment from './Component/blockchain/tokendevelopment/Binanace Smart Chain BEP20 Token Development/BinanaceSmartChainBEP20TokenDevelopment';
 import SemiFungibleTokenDevelopment from './Component/blockchain/tokendevelopment/Semi -Fungible Token Development/SemiFungibleTokenDevelopment';
 import PancakeswapExchange from './Component/blockchain/DEXDevelopment/PancakeswapExchangeCloneDevelopment/PancakeswapExchange';
@@ -116,6 +115,7 @@ import NFTMusicMarketplaceDevelopment from './Component/blockchain/NFTDevelopmen
 import NFTCrosschainPlatfromDevelopment from './Component/blockchain/NFTDevelopment/NFTCrosschainPlatfromDevelopment/NFTCrosschainPlatfromDevelopment';
 import NFTFantasySportsPlatformDevelopment from './Component/blockchain/NFTDevelopment/NFTFantasySportsPlatformDevelopment/NFTFantasySportsPlatformDevelopment';
 import MainBlockchain from './Component/blockchain/mainblockchain/MainBlockchain';
+import WalletConnectClone from './Component/blockchain/Walletdevelopmen/WalletConnectClone/WalletConnectClone';
 
 const AllRouteFiles = () => {
     return (
@@ -232,6 +232,8 @@ const AllRouteFiles = () => {
                         <Route path='Private/PublicBlockchainDevelopment' element={<PrivatePublicBlockchain />} />
                         <Route path='DAOBlockchainDevelopmnent' element={<DaoBlockchain />} />
                         <Route path='WhitePaperWrittingServices' element={<WhitePaperWrittingServices />} />
+                        <Route path='WalletConnectClone' element={<WalletConnectClone />} />
+
                         <Route path='EthereumTokenDevelopment' element={<EthereumTokenDevelopment />} />
                         {/* <Route path='/DefiStaking' element={<DefiStaking/>} /> */}
 

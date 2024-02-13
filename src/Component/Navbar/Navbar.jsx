@@ -274,7 +274,10 @@ const Navbar = () => {
       name: "Trust Wallet Clone Development ",
       path: "/TrustWalletCloneDevelopment",
     },
-    { name: "Wallet Connect Clone Development", path: "/" },
+    {
+      name: "Wallet Connect Clone Development",
+      path: "/WalletConnectClone"
+    },
     {
       name: "White Paper Writting Services",
       path: "/WhitePaperWrittingServices",

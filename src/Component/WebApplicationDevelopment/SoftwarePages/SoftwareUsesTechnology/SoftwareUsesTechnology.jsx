@@ -1,27 +1,24 @@
 import React from 'react'
-import './KeyFeatures.css'
-const KeyFeature = () => {
+import './SoftwareUsesTechnology.css'
+
+const SoftwareUsesTechnology = () => {
     return (
-        <div style={{ marginBottom: '50px ' }} >
+        <div className="m-0">
 
             <div className="dashboard-main-box">
-                <h4 className='Key-feature-heading'>Key Feature</h4>
+                <h4 className='Key-feature-heading'>Software Uses Technology</h4>
                 <div className="dashboard-container">
 
                     <div className="dashboard-container-box dashboard-boxes"  >
-
-                    </div>
-
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-
                     </div>
 
                     <div className="dashboard-container-box dashboard-boxes" >
+                    </div>
 
+                    <div className="dashboard-container-box dashboard-boxes" >
+                    </div>
+
+                    <div className="dashboard-container-box dashboard-boxes" >
                     </div>
 
                 </div>
@@ -50,4 +47,4 @@ const KeyFeature = () => {
     )
 }
 
-export default KeyFeature
+export default SoftwareUsesTechnology

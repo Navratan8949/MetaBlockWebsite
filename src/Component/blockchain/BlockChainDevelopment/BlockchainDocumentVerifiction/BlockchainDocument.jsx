@@ -10,11 +10,11 @@ const BlockchainDocument = () => {
               <div className="col-lg-6 col-12">
                 <h1 className="title-1">
                   {" "}
-                  <span className="cus_title-1">Public / Private </span>
+                  <span className="cus_title-1">Blockchain  </span>
                   <br />{" "}
                   <span className="grad_text">
                     {" "}
-                    Blockchain Development
+                    Document  Development
                   </span>{" "}
                   Company
                 </h1>

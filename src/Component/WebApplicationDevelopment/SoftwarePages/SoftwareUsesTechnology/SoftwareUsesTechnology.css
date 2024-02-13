@@ -74,7 +74,6 @@ p {
     border-radius: 10px;
     margin-bottom: 30px;
     transition: 0.6s;
-    box-shadow: 0px 4px 8px 2px #80808021;
     height: 400px;
     width: 230px !important;
 }
@@ -111,8 +110,7 @@ p {
 
 
 .g-text,
-.Admin-control-main-container h4,
-.Key-feature-heading {
+.Admin-control-main-container h4 {
     /* background: linear-gradient(to right, #e91e63 0%, #277b8d 100%) !important; */
     background: linear-gradient(to right, #7d8dff, #ff4f81) !important;
     -webkit-background-clip: text !important;

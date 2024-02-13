@@ -15,8 +15,8 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 export default function SwiperSlider() {
     return (
         <>
-            <div>
-                <h2>Software Preview</h2>
+            <div style={{ textAlign: "center" }}>
+                <h1 style={{ textAlign: "center", fontWeight: "bold", fontFamily: "arial" }} className='Key-feature-heading'>Software Preview</h1>
             </div>
 
             <Swiper

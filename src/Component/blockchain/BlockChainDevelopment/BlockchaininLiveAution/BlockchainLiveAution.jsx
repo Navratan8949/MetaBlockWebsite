@@ -11,7 +11,7 @@ const BlockchainLiveAution = () => {
               <div className="col-lg-6 col-12">
                 <div className="banner_sec">
                   <h1 className="title">
-                    <span className="cus_title">Smart Contract</span> <br />{" "}
+                    <span className="cus_title">Blockchain Live Aution</span> <br />{" "}
                     Development Company
                   </h1>
                   <p className="contents">

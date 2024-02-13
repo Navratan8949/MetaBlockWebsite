@@ -10,7 +10,7 @@ const GameFiLaunchapd = () => {
               <div className="col-lg-6 col-12">
                 <h1 className="title">
                   Blockchain <span className="cus_title"> </span>
-                  <br /> <span className="grad_text"> IoT</span> Development
+                  <br /> <span className="grad_text"> GameFi Launchapd</span> Development
                   Company
                 </h1>
                 <h3 className="contents">

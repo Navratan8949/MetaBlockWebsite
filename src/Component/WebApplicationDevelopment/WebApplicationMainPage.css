@@ -25071,3 +25071,23 @@ position: absolute;
 }
 
 /*======Smart Contract MLM software development END======*/
+
+.node-image {
+    width: 170px;
+    margin-left: 50px;
+}
+
+.stechnologies {
+    padding-right: 150px !important;
+}
+
+@media(max-width: 524px) {
+    .stechnologies {
+        padding-left: 100px !important;
+    }
+
+}
+
+.Technology-Stack {
+    color: yellow !important;
+}
