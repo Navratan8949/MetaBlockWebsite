@@ -132,18 +132,18 @@ const AllRouteFiles = () => {
                     {/* <OnDemandAppSlider/> */}
                     <Routes>
 
-                    <Route path='/' element={ <Main/>}/>
-       <Route path='Aboutus' element={<Aboutus/>}/>
-       <Route path='Celebrations' element={<Celebrations/>}/>
-       <Route path='/Announcement' element={<Announcement/>}/>
-       <Route path="/Product/:productId" element={<Product />} />
-       <Route path="/Productnews/:productnewsId" element={<Product />} />
-       <Route path='/Product' element={<Product />}/>
-       <Route path='/News' element={<MainNews />}/>
-       <Route path='/Blog' element={<Blog />}/>
+                        <Route path='/' element={<Main />} />
+                        <Route path='Aboutus' element={<Aboutus />} />
+                        <Route path='Celebrations' element={<Celebrations />} />
+                        <Route path='/Announcement' element={<Announcement />} />
+                        <Route path="/Product/:productId" element={<Product />} />
+                        <Route path="/Productnews/:productnewsId" element={<Product />} />
+                        <Route path='/Product' element={<Product />} />
+                        <Route path='/News' element={<MainNews />} />
+                        <Route path='/Blog' element={<Blog />} />
 
                         {/* Software pages */}
-                        
+
                         <Route path=' AccountingBillingSoftware' element={<AccountingBillingSoftware />} />
                         <Route path='ERPSoftware' element={<ERPSoftware />} />
                         <Route path='SAASSoftware' element={<SAASSoftware />} />
@@ -217,75 +217,75 @@ const AllRouteFiles = () => {
                         <Route path='CaseStudy' element={<CaseStudy />} />
 
                         {/* ---website------ */}
-                        
-                               <Route path='/WbsiteDevelopment' element={<WbsiteDevelopment />} />
-          <Route path='Blog' element={<Blog />} />
-          <Route path='Static' element={<Static />} />
-          <Route path='DynamicWebsite' element={<DynamicWebsite />} />
-          <Route path='Ecommerce' element={ <Ecommerce /> } />
-         
-          <Route path='GeneralGamesDevelopment' element={<GeneralGamesDevelopment />} />
-          <Route path='CasinoGames' element={<CasinoGames />} />
-          <Route path='MetaverseGame' element={<MetaverseGame />} />
-          <Route path='BlockchainGame' element={<BlockchainGame />} />
-          <Route path='SmartContractDevelopemnt' element={<SmartContractDevelopemnt />} />
-          <Route path='Private/PublicBlockchainDevelopment' element={<PrivatePublicBlockchain />} />
-          <Route path='DAOBlockchainDevelopmnent' element={<DaoBlockchain/>} />
-          <Route path='WhitePaperWrittingServices' element={<WhitePaperWrittingServices/>} />
-          <Route path='EthereumTokenDevelopment' element={<EthereumTokenDevelopment/>} />
-          {/* <Route path='/DefiStaking' element={<DefiStaking/>} /> */}
-          
-          <Route path='MainBlockchain' element={<MainBlockchain/>} />
-          <Route path='BlockchainSupply' element={<BlockchainSupply/>} />
-          <Route path='BlockchainVoting' element={<BlockchainVoting/>} />
-          <Route path='BlockchainLiveAution' element={<BlockchainLiveAution/>} />
-          <Route path='BlockchainDocument' element={<BlockchainDocument/>} />
-          <Route path='BlockchainIdentityVerifiction' element={<BlockchainIdentityVerifiction/>} />
-          <Route path='TrustWalletCloneDevelopment' element={<TrustWalletCloneDevelopment/>} />
-          <Route path='WalletConnectClone' element={<WalletConnectClone />} />
-          <Route path='SemiFungibleTokenDevelopment' element={<SemiFungibleTokenDevelopment />} />
-          <Route path='BinanaceSmartChainBEP20TokenDevelopment' element={<BinanaceSmartChainBEP20TokenDevelopment />} />
 
-                       {/* defi pages */}
-          <Route path='DefiStaking' element={<DefiStaking />} />
-          <Route path='DeFiTokenDevelopment' element={<DeFiTokenDevelopment />} />
-          <Route path='DeFiWalletDevelopment' element={<DeFiWalletDevelopment />} />
-          <Route path='DeFiSmartContractDevelopment' element={<DeFiSmartContractDevelopment />} />
-          <Route path='DeFiDAppsDevelopment' element={<DeFiDAppsDevelopment />} />
-          <Route path='DeFiInsuranceDevelopment' element={<DeFiInsuranceDevelopment />} />
+                        <Route path='/WbsiteDevelopment' element={<WbsiteDevelopment />} />
+                        <Route path='Blog' element={<Blog />} />
+                        <Route path='Static' element={<Static />} />
+                        <Route path='DynamicWebsite' element={<DynamicWebsite />} />
+                        <Route path='Ecommerce' element={<Ecommerce />} />
 
-                     {/* dex pages */}
-          <Route path='WhiteLabel' element={<WhiteLabel />} />
-          <Route path='PancakeswapExchange' element={<PancakeswapExchange />} />
-          <Route path='SushiSwapExchange' element={<SushiSwapExchange />} />
-          <Route path='UniswapExchange' element={<UniswapExchange />} />
-          
+                        <Route path='GeneralGamesDevelopment' element={<GeneralGamesDevelopment />} />
+                        <Route path='CasinoGames' element={<CasinoGames />} />
+                        <Route path='MetaverseGame' element={<MetaverseGame />} />
+                        <Route path='BlockchainGame' element={<BlockchainGame />} />
+                        <Route path='SmartContractDevelopemnt' element={<SmartContractDevelopemnt />} />
+                        <Route path='Private/PublicBlockchainDevelopment' element={<PrivatePublicBlockchain />} />
+                        <Route path='DAOBlockchainDevelopmnent' element={<DaoBlockchain />} />
+                        <Route path='WhitePaperWrittingServices' element={<WhitePaperWrittingServices />} />
+                        <Route path='EthereumTokenDevelopment' element={<EthereumTokenDevelopment />} />
+                        {/* <Route path='/DefiStaking' element={<DefiStaking/>} /> */}
 
-                       {/* launch ped development  */}
-          <Route path='GameFiLaunchapd' element={<GameFiLaunchapd />} />
-          <Route path='LunchpadDevelopment' element={ <LunchpadDevelopment /> } />
-          
+                        <Route path='MainBlockchain' element={<MainBlockchain />} />
+                        <Route path='BlockchainSupply' element={<BlockchainSupply />} />
+                        <Route path='BlockchainVoting' element={<BlockchainVoting />} />
+                        <Route path='BlockchainLiveAution' element={<BlockchainLiveAution />} />
+                        <Route path='BlockchainDocument' element={<BlockchainDocument />} />
+                        <Route path='BlockchainIdentityVerifiction' element={<BlockchainIdentityVerifiction />} />
+                        <Route path='TrustWalletCloneDevelopment' element={<TrustWalletCloneDevelopment />} />
+                        <Route path='WalletConnectClone' element={<WalletConnectClone />} />
+                        <Route path='SemiFungibleTokenDevelopment' element={<SemiFungibleTokenDevelopment />} />
+                        <Route path='BinanaceSmartChainBEP20TokenDevelopment' element={<BinanaceSmartChainBEP20TokenDevelopment />} />
 
-                                {/* nft pages */}
-          <Route path='NFTMarketplace' element={<NFTMarketplace/>} />
-          <Route path='NFTToken' element={ <NFTToken /> } />
-          <Route path='PolygonNFT' element={ <PolygonNFT /> } />
-          <Route path='NFTLendingPlatform' element={ <NFTLendingPlatform /> } />
-          <Route path='BinanceNFT' element={ <BinanceNFT /> } />
-          <Route path='NFTCrosschainPlatfromDevelopment' element={ <NFTCrosschainPlatfromDevelopment /> } />
-          <Route path='NFTMintingDevelopment' element={ <NFTMintingDevelopment /> } />
-          <Route path='NFTArtMarketplaceDevelopment' element={ <NFTArtMarketplaceDevelopment /> } />
-          <Route path='NFTMusicMarketplaceDevelopment' element={ <NFTMusicMarketplaceDevelopment /> } />
-          <Route path='NFTFantasySportsPlatformDevelopment' element={ <NFTFantasySportsPlatformDevelopment /> } />
+                        {/* defi pages */}
+                        <Route path='DefiStaking' element={<DefiStaking />} />
+                        <Route path='DeFiTokenDevelopment' element={<DeFiTokenDevelopment />} />
+                        <Route path='DeFiWalletDevelopment' element={<DeFiWalletDevelopment />} />
+                        <Route path='DeFiSmartContractDevelopment' element={<DeFiSmartContractDevelopment />} />
+                        <Route path='DeFiDAppsDevelopment' element={<DeFiDAppsDevelopment />} />
+                        <Route path='DeFiInsuranceDevelopment' element={<DeFiInsuranceDevelopment />} />
 
-    
+                        {/* dex pages */}
+                        <Route path='WhiteLabel' element={<WhiteLabel />} />
+                        <Route path='PancakeswapExchange' element={<PancakeswapExchange />} />
+                        <Route path='SushiSwapExchange' element={<SushiSwapExchange />} />
+                        <Route path='UniswapExchange' element={<UniswapExchange />} />
+
+
+                        {/* launch ped development  */}
+                        <Route path='GameFiLaunchapd' element={<GameFiLaunchapd />} />
+                        <Route path='LunchpadDevelopment' element={<LunchpadDevelopment />} />
+
+
+                        {/* nft pages */}
+                        <Route path='NFTMarketplace' element={<NFTMarketplace />} />
+                        <Route path='NFTToken' element={<NFTToken />} />
+                        <Route path='PolygonNFT' element={<PolygonNFT />} />
+                        <Route path='NFTLendingPlatform' element={<NFTLendingPlatform />} />
+                        <Route path='BinanceNFT' element={<BinanceNFT />} />
+                        <Route path='NFTCrosschainPlatfromDevelopment' element={<NFTCrosschainPlatfromDevelopment />} />
+                        <Route path='NFTMintingDevelopment' element={<NFTMintingDevelopment />} />
+                        <Route path='NFTArtMarketplaceDevelopment' element={<NFTArtMarketplaceDevelopment />} />
+                        <Route path='NFTMusicMarketplaceDevelopment' element={<NFTMusicMarketplaceDevelopment />} />
+                        <Route path='NFTFantasySportsPlatformDevelopment' element={<NFTFantasySportsPlatformDevelopment />} />
+
+
 
                     </Routes>
 
 
-                </div>    
-            </BrowserRouter>    
-        </>        
+                </div>
+            </BrowserRouter>
+        </>
     )
 }
-    export default AllRouteFiles
+export default AllRouteFiles

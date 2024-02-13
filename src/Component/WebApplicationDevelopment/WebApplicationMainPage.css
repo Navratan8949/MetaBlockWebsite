@@ -6,7 +6,6 @@ html {
     height: 100%
 }
 
-
 body {
     font-family: Raleway, sans-serif
 }
@@ -32,12 +31,12 @@ body {
 }
 
 
-.Enterprise-container{
+.Enterprise-container {
     background: black !important;
 }
 
 
-  
+
 
 
 @media (max-width:1000px) {
@@ -134,52 +133,65 @@ section h2 {
 /* Default styles */
 
 .grey-bg-1 {
-    background-color: #f0f0f0; /* Grey background color */
-    padding: 50px 0; /* Adjust padding as needed */
-  }
-  
-  .container {
-    max-width: 1200px; /* Set maximum width for the content */
-    margin: 0 auto; /* Center the content */
-  }
-  
-  .section-heading {
+    background-color: #f0f0f0;
+    /* Grey background color */
+    padding: 50px 0;
+    /* Adjust padding as needed */
+}
+
+.container {
+    max-width: 1200px;
+    /* Set maximum width for the content */
+    margin: 0 auto;
+    /* Center the content */
+}
+
+.section-heading {
     margin-bottom: 20px;
-  }
-  
-  .row-1 {
+}
+
+.row-1 {
     align-items: center;
     text-align: center;
-    flex-direction: column-reverse; /* Reverse the order of columns on small screens */
-  }
-  
-  .col-sm-6 {
-    width: 100%; /* Full width on small screens */
+    flex-direction: column-reverse;
+    /* Reverse the order of columns on small screens */
+}
+
+.col-sm-6 {
+    width: 100%;
+    /* Full width on small screens */
     margin-bottom: 20px;
-  }
-  
-  /* Image styles */
-  .hire-our-skill img {
-    max-width: 100%; /* Make sure images don't exceed their container */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
-  /* Media queries for responsiveness */
-  
-  @media (min-width: 768px) {
+}
+
+/* Image styles */
+.hire-our-skill img {
+    max-width: 100%;
+    /* Make sure images don't exceed their container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Media queries for responsiveness */
+
+@media (min-width: 768px) {
     .row-1 {
-           flex-direction: row; /* Reset to default row direction on larger screens */
+        flex-direction: row;
+        /* Reset to default row direction on larger screens */
     }
+
     .hire-our-skill img {
-        max-width: 100%; /* Make sure images don't exceed their container */
-        height: auto; /* Maintain aspect ratio */
-      }
-  
-    .col-sm-6 {
-      width: 50%; /* Half width for medium and larger screens */
+        max-width: 100%;
+        /* Make sure images don't exceed their container */
+        height: auto;
+        /* Maintain aspect ratio */
     }
-  }
-  
+
+    .col-sm-6 {
+        width: 50%;
+        /* Half width for medium and larger screens */
+    }
+}
+
 
 
 @media (max-width: 300px) and (min-width: 100px) {
@@ -194,8 +206,8 @@ section h2 {
     .main-div-Application {
         padding-top: 47px !important;
     }
-    
-    .Enterprise-container{
+
+    .Enterprise-container {
         margin-top: 30px;
     }
 
@@ -460,16 +472,16 @@ header.masthead {
     color: #fff
 }
 
-.header-content{
+.header-content {
     margin-top: -200px;
 }
 
 header.masthead .header-content {
     margin-bottom: 100px;
     text-align: center;
-    
-    
-    
+
+
+
 }
 
 header.masthead .header-content h1 {
@@ -3288,11 +3300,17 @@ body .owl-carousel .owl-item img {
     max-width: 100%
 }
 
-.Process{
+.Process {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
+.Process h3 {
+    color: black !important;
+}
+
+
 
 @media (min-width:767px) {
     #accordion .panel-title a:after {
@@ -8741,7 +8759,7 @@ header.ondemad_head .header-content h1 {
     width: 100%;
     padding-top: 170px;
     color: #fff;
-    /* background: url(../oimages/enterprise-mobile-app-development/mobileapp_development_company.png) no-repeat; */
+    /* background: url(https://img.freepik.com/free-photo/blockchain-technology-background-gradient-blue_53876-124648.jpg) no-repeat; */
     background-size: cover;
     background-position: center;
     height: 85vh
@@ -8783,7 +8801,7 @@ header.enterprise-mobile-app-development {
     width: 100%;
     padding-top: 170px;
     color: #fff;
-    /* background: url(../oimages/enterprise-mobile-app-development/banner.png?v1) no-repeat; */
+    background: url(https://img.freepik.com/free-photo/blockchain-technology-background-gradient-blue_53876-124648.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 85vh
@@ -8835,11 +8853,12 @@ header.masthead-blockchain-development .text-left {
 }
 
 .enterprise_mobile_app_services:hover {
-    filter: drop-shadow(1px 0 8px #205a5d)
+    filter: drop-shadow(0px 0px 20px -6px black) !important
 }
 
 .enterprise_mobile_app_services {
-    box-shadow: 0px 0px 20px skyblue;
+    background-color: black !important;
+    box-shadow: 0px 0px 20px -6px gray !important;
     border-radius: 5px;
     background-color: #fff;
     padding: 20px;
@@ -8884,11 +8903,14 @@ header.masthead-blockchain-development .text-left {
 }
 
 .enterprise_mobile_app_services h2 {
+    color: white !important;
     min-height: 50px
 }
 
+
+
 .enterprise_mobile_app_services .feature-content_1 p {
-    color: black !important;
+    color: white !important;
     padding: 10px 0px !important;
     text-align: justify !important;
 }
@@ -9813,18 +9835,25 @@ header.masthead-blockchain-development .text-left {
 .intro_img_sprite {
     width: 100%;
     height: 448px;
-    background-position: -919px -1247px;
+    /* background-position: -919px -1247px; */
     background-size: 216rem;
     margin: 0 auto;
-    /* background-image: url(../images/inner-pages/enterprise_mobile_app_development/mob-app-dev-vector-sprite.svg) */
+    /* background-image: url(https://desigiftsusa.com/cdn/shop/products/IMG_2072_1440x.jpg?v=1660780494); */
 }
 
-.spr_img_mob_dev {
+
+
+.spr_img_mob_dev,
+.sofware-image-1 {
     width: 80px;
     height: 80px;
     background-size: 92rem;
     margin: 0 auto;
-    /* background-image: url(../images/inner-pages/enterprise_mobile_app_development/mob-app-dev-vector-sprite.svg) */
+    background-position: center !important;
+    background-size: cover !important;
+    background-image: url(../../../public/images/software1.jpg);
+    background-repeat: no-repeat !important;
+    border-radius: 50px !important;
 }
 
 .spr_img {
@@ -24301,7 +24330,7 @@ position: absolute;
 .blockchain_crowd_main .why_osiz .title {
     font-size: 35px;
     font-weight: 800;
-    color: #000 ;
+    color: #000;
     text-align: center;
 }
 

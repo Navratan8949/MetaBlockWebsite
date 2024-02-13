@@ -1,0 +1,14 @@
+.devanshu {
+    display: flex;
+
+}
+
+@media(max-width:768px) {
+    .devanshu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}

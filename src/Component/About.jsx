@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div style={{background:'black'}}>
       <div>
-        <section className="footer_new_form" style={{background:'#000'}}>
+        <div className="footer_new_form" style={{background:'#000'}}>
           <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-lg-11">
@@ -960,7 +960,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </div>
       
     </div>

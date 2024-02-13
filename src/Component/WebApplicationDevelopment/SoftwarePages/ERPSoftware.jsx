@@ -6,6 +6,9 @@ import DeliveringNative from "../Delivering Native/DeliveringNative";
 import Phonecardslider from "../Phonecardslider/Phonecardslider";
 import SimilarFile from "../../SimilarFile";
 import { useNavigate } from "react-router-dom";
+import SwiperSlider from "./SwiperSlider/SwiperSlider";
+import AdminControlFeature from "./AdminControlFeature/AdminControlFeature";
+import KeyFeature from "./KeyFeatures/KeyFeature";
 
 // import '../../main.css'
 
@@ -16,8 +19,10 @@ const ERPSoftware = () => {
     <>
       <div className="main-div-Application">
         <header className="enterprise-mobile-app-development arkit header-shadow">
+
           <div className="container h-100">
             <div className="row h-100">
+
               <div className="col-lg-12 my-auto">
                 <div className="header-content mx-auto">
                   <h1 className="mb-5">
@@ -32,14 +37,14 @@ const ERPSoftware = () => {
                     ERP world.
                   </h3>
                   {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
-                  {/* <div className="text-center">
+                  <div className="text-center">
                     <a
                       href="https://www.osiztechnologies.com/request-for-quotation"
                       className="expert-btn"
                     >
                       Request For Quote
                     </a>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -122,13 +127,17 @@ const ERPSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="/images/Who-we-are-bg3.webp" alt="" />
+              <img src="/images/ERPSoftwarebanner.jpg" alt="" />
             </div>
           </div>
         </section>
+
+        <SwiperSlider />
+        <KeyFeature />
+        <AdminControlFeature />
         <section className="mid_section grey-bg">
           <div className="container">
-            <div className="section-heading text-center">
+            <div className="section-heading text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
               <h2>Premium Software Development Services</h2>
               <div className="why_round"> </div>
             </div>
@@ -136,7 +145,7 @@ const ERPSoftware = () => {
               <div className="col-sm-4 col-lg-4">
                 <div className="feature_1 enterprise_mobile_app_services">
                   <div
-                    className="spr_img_mob_dev testing_img"
+                    className="spr_img_mob_dev sofware-image-1 testing_img"
                     style={{ backgroundPosition: "10px 0px" }}
                   ></div>
                   <div className="feature-content_1">
@@ -166,7 +175,7 @@ const ERPSoftware = () => {
               <div className="col-sm-4 col-lg-4">
                 <div className="feature_1 enterprise_mobile_app_services">
                   <div
-                    className="spr_img_mob_dev testing_img"
+                    className="spr_img_mob_dev xtesting_img"
                     style={{ backgroundPosition: "-65px 0px" }}
                   ></div>
                   <div className="feature-content_1">
@@ -272,7 +281,7 @@ const ERPSoftware = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-12">
-                <div className="cms text-center">
+                <div className="cms text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                   <h4>Why Choose Metablock For Software Development?</h4>
                 </div>
                 <div className="why_round" />

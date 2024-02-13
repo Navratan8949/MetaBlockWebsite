@@ -11,7 +11,7 @@ import SimilarFile from "../../SimilarFile";
 const SAASSoftware = () => {
   return (
     <>
-      <div className="main-div-Application" style={{ background: "#f5f5f5" }}>
+      <div className="main-div-Application" >
         <header className="enterprise-mobile-app-development arkit header-shadow">
           <div className="container h-100">
             <div className="row h-100">
@@ -120,7 +120,7 @@ const SAASSoftware = () => {
         </section>
         <section className="mid_section grey-bg">
           <div className="container">
-            <div className="section-heading text-center">
+            <div className="section-heading text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
               <h2>Premium Mobile Application Development Services</h2>
               <div className="why_round"> </div>
             </div>
@@ -338,7 +338,7 @@ const SAASSoftware = () => {
           <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-md-12">
-                <div className="cms text-center">
+                <div className="cms text-center Process">
                   <h3>Our Step-By-Step Mobile App Development Process</h3>
                 </div>
               </div>
@@ -354,7 +354,7 @@ const SAASSoftware = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-12">
-                <div className="cms text-center">
+                <div className="cms text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                   <h4>Why Choose Osiz For Mobile App Development?</h4>
                 </div>
                 <div className="why_round" />
@@ -446,19 +446,23 @@ const SAASSoftware = () => {
                     Agile App Development Process
                   </div>
                 </div>
+                {/*      <div className="section-heading text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                  <h3>Hire Our Skilled Mobile App Developers</h3>
+                  <div className="why_round"> </div>
+                </div> */}
               </div>
             </div>
           </div>
         </section>
         <section className="mid_section grey-bg">
           <div className="container">
-            <div className="section-heading text-center">
-              <h3>Hire Our Skilled Mobile App Developers</h3>
-              <div className="why_round"> </div>
-            </div>
             <div className="row-1" style={{ display: "flex" }}>
               <div className="col-sm-6 col-md-6 col-lg-6">
-                <p className="hire-para">
+                <div className="section-heading text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
+                  <h3>Hire Our Skilled Mobile App Developers</h3>
+                  <div className="why_round"> </div>
+                </div>
+                <p className="hire-para" >
                   Build a functional mobile application over several platforms
                   including iOS, Android and lot more with our certified Mobile
                   application developer. An exclusive mobile application with

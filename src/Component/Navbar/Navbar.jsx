@@ -373,6 +373,28 @@ const Navbar = () => {
     },
   ];
 
+  const genralgamedevelopment = [
+    {
+
+      name: "Win GO",
+      name: "5D lottery",
+      name: "Fashwin &Fewwin",
+      name: "Colour Prediction Game",
+      name: "sattka matka",
+    },
+    {
+      name: "Ludo king private room code",
+    }
+    , {
+      name: "k3 lottery"
+    },
+    { name: "Avaitor Game Development" },
+    {},
+    {},
+    {},
+    {},
+  ]
+
   return (
     <div>
       <header className="HddrBg">
@@ -392,7 +414,7 @@ const Navbar = () => {
                   className="img-fluid mbl_res_logo"
                   alt="osiz"
                   title="osiz"
-                  style={{ margin: "0px 100px 0px 20px" , width:"120px" }}
+                  style={{ margin: "0px 100px 0px 20px", width: "120px" }}
                 />
               </a>
             </div>
@@ -550,14 +572,7 @@ const Navbar = () => {
                               </div>
                             </div>
 
-                            {/* <li><a href="https://www.osiztechnologies.com/press-release" target="_blank">Press Release</a></li> */}
 
-                            {/* <li><a href="https://www.osiztechnologies.com/write-a-review" target="_blank">Write a Review</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/testimonials" target="_blank">Testimonials</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/complaints-board" target="_blank">Complaint Board</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/feedback" target="_blank">Feedback</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/scam" target="_blank">Report the Scammers</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/case-studies" target="_blank">Case Studies</a></li> */}
                           </ul>
                         </div>
                       </div>
@@ -1759,7 +1774,7 @@ const Navbar = () => {
                       <div className="col-lg-6">
                         <div>
                           <ul>
-                            <li
+                            {/* <li
                               onClick={() =>
                                 navigate("/GeneralGamesDevelopment")
                               }
@@ -1771,8 +1786,45 @@ const Navbar = () => {
                               >
                                 General Games Development
                               </a>
-                            </li>
-                            <li onClick={() => navigate("/CasinoGames")}>
+                            </li> */}
+                            <div className="dropdown_sub_menu dropright">
+                              <a
+                                className="dropdown_nav_link dropdown-toggle"
+                                id="Company_navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-expanded="false"
+                                style={{ textDecoration: "none" }}
+                              >
+                                genral game development
+                              </a>
+                              <div style={{ marginLeft: "150px" }}
+                                className="dropdown-menu drop_right_menu"
+                                aria-labelledby="navbarDropdown"
+                              >
+                                <div className="row">
+                                  <div className="col-lg-12">
+                                    <div>
+                                      {genralgamedevelopment.map((item, index) => (
+                                        <li
+                                          // onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
+                                          <a
+                                            //  href="https://www.osiztechnologies.com/about-us"
+                                            target="_blank"
+                                            style={{ color: "white" }}
+                                          >
+                                            {item.name}
+                                          </a>
+                                        </li>
+                                      ))}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            {/* <li onClick={() => navigate("/CasinoGames")}>
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1780,8 +1832,45 @@ const Navbar = () => {
                               >
                                 Casino Games Development
                               </a>
-                            </li>
-                            <li onClick={() => navigate("/MetaverseGame")}>
+                            </li> */}
+                            <div className="dropdown_sub_menu dropright">
+                              <a
+                                className="dropdown_nav_link dropdown-toggle"
+                                id="Company_navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-expanded="false"
+                                style={{ textDecoration: "none" }}
+                              >
+                                Casino Games Development
+                              </a>
+                              <div style={{ marginLeft: "150px" }}
+                                className="dropdown-menu drop_right_menu"
+                                aria-labelledby="navbarDropdown"
+                              >
+                                <div className="row">
+                                  <div className="col-lg-12">
+                                    <div>
+                                      {BlockChain.map((item, index) => (
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
+                                          <a
+                                            //  href="https://www.osiztechnologies.com/about-us"
+                                            target="_blank"
+                                            style={{ color: "white" }}
+                                          >
+                                            {item.name}
+                                          </a>
+                                        </li>
+                                      ))}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            {/* <li onClick={() => navigate("/MetaverseGame")}>
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1789,8 +1878,45 @@ const Navbar = () => {
                               >
                                 Metaverse Game Development
                               </a>
-                            </li>
-                            <li onClick={() => navigate("/BlockchainGame")}>
+                            </li> */}
+                            <div className="dropdown_sub_menu dropright">
+                              <a
+                                className="dropdown_nav_link dropdown-toggle"
+                                id="Company_navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-expanded="false"
+                                style={{ textDecoration: "none" }}
+                              >
+                                Metaverse Games Development
+                              </a>
+                              <div style={{ marginLeft: "150px" }}
+                                className="dropdown-menu drop_right_menu"
+                                aria-labelledby="navbarDropdown"
+                              >
+                                <div className="row">
+                                  <div className="col-lg-12">
+                                    <div>
+                                      {BlockChain.map((item, index) => (
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
+                                          <a
+                                            //  href="https://www.osiztechnologies.com/about-us"
+                                            target="_blank"
+                                            style={{ color: "white" }}
+                                          >
+                                            {item.name}
+                                          </a>
+                                        </li>
+                                      ))}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            {/* <li onClick={() => navigate("/BlockchainGame")}>
                               <a
                                 // href="#"
                                 style={{ width: "200px" }}
@@ -1798,7 +1924,44 @@ const Navbar = () => {
                               >
                                 Web3 Game Development
                               </a>
-                            </li>
+                            </li> */}
+                            <div className="dropdown_sub_menu dropright">
+                              <a
+                                className="dropdown_nav_link dropdown-toggle"
+                                id="Company_navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-expanded="false"
+                                style={{ textDecoration: "none" }}
+                              >
+                                Web3 Game Development
+                              </a>
+                              <div style={{ marginLeft: "150px" }}
+                                className="dropdown-menu drop_right_menu"
+                                aria-labelledby="navbarDropdown"
+                              >
+                                <div className="row">
+                                  <div className="col-lg-12">
+                                    <div>
+                                      {BlockChain.map((item, index) => (
+                                        <li
+                                          onClick={() => navigate(item.path)}
+                                          key={index}
+                                        >
+                                          <a
+                                            //  href="https://www.osiztechnologies.com/about-us"
+                                            target="_blank"
+                                            style={{ color: "white" }}
+                                          >
+                                            {item.name}
+                                          </a>
+                                        </li>
+                                      ))}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </ul>
                         </div>
                       </div>
@@ -2241,7 +2404,7 @@ const Navbar = () => {
 
                 {/* ------------button talk to experts----------- */}
 
-                <li style={{ marginLeft: "100px", marginTop: "25px" }}>
+                <li style={{ marginRight: "0px", marginTop: "25px" }}>
                   {<ContactForm />}
                 </li>
               </ul>

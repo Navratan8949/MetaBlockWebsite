@@ -139,19 +139,15 @@ section.mid_section {
 }
 
 #ebook_popup_form_modal.popup-form input::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(255, 255, 255, 0.65);
     opacity: 1;
-    /* Firefox */
 }
 
 #ebook_popup_form_modal.popup-form input:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
     color: rgba(255, 255, 255, 0.65);
 }
 
 #ebook_popup_form_modal.popup-form input::-ms-input-placeholder {
-    /* Microsoft Edge */
     color: rgba(255, 255, 255, 0.65);
 }
 

@@ -33,6 +33,7 @@ const drawerWidth = 240;
 function ResponsiveDrawer(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  
   // const navigate = {}
 
   const handleDrawerToggle = () => {
@@ -45,7 +46,6 @@ function ResponsiveDrawer(props) {
   const drawer = (
     <div className="sidebar-div">
      
-
       <List
         sx={{
           color: "white",
@@ -172,14 +172,18 @@ function ResponsiveDrawer(props) {
           ml: { sm: ${drawerWidth}px`,
           },
         }}
-      ></AppBar>
+      >
+        
+      </AppBar>
       <Toolbar>
         <IconButton
           color="inherit"
           aria-label="open drawer"
           edge="start"
           onClick={handleDrawerToggle}
-          sx={{ mr: 2 }}
+          sx={{ mr: 2 ,
+            // display: {   lg: 'block', xl: 'block', '700px': 'block' } 
+          }}
         >
           <MenuIcon />
         </IconButton>

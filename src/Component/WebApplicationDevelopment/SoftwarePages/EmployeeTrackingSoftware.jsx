@@ -12,6 +12,7 @@ const EmployeeTrackingSoftware = () => {
   return (
 
     <>
+
       <div className='main-div-Application' style={{ background: '#000' }}>
         <header className="enterprise-mobile-app-development arkit header-shadow">
           <div className="container h-100">
@@ -19,13 +20,21 @@ const EmployeeTrackingSoftware = () => {
               <div className="col-lg-12 my-auto">
                 <div className="header-content mx-auto">
                   <h1 className="mb-5">
-                    {/* Blockchain Finance Management */}Employee Tracking Software Development Company</h1>
-                  <h3 className="heading-tagline">From start-ups to enterprise-level, We render futuristic mobile applications with robust functionalities and cutting edge technologies to hit huge audience for your mobile app business. Leverage our complete mobile app services
-                    to revolutionize the mobile app world with our outstanding strategies</h3>
+                    {/* Blockchain Finance Management */}Employee Tracking Software
+                    Development Company
+                  </h1>
+                  <h3 className="heading-tagline">
+                    From start-ups to enterprise-level, We render futuristic
+                    mobile applications with robust functionalities and cutting
+                    edge technologies to hit huge audience for your mobile app
+                    business. Leverage our complete mobile app services to
+                    revolutionize the mobile app world with our outstanding
+                    strategies
+                  </h3>
                   {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
-                  <div className="text-center">
+                  {/* <div className="text-center">
                     <a href="https://www.osiztechnologies.com/request-for-quotation" className="expert-btn">Request For Quote</a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -91,7 +100,7 @@ const EmployeeTrackingSoftware = () => {
         </section>
         <section className="mid_section grey-bg">
           <div className="container">
-            <div className="section-heading text-center">
+            <div className="section-heading text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
               <h2>Premium Mobile Application Development Services</h2>
               <div className="why_round"> </div>
             </div>
@@ -234,7 +243,7 @@ const EmployeeTrackingSoftware = () => {
           <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-md-12">
-                <div className="cms text-center">
+                <div className="cms text-center Process">
                   <h3>Our Step-By-Step Mobile App Development Process
                   </h3>
                 </div>
@@ -251,7 +260,7 @@ const EmployeeTrackingSoftware = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-12">
-                <div className="cms text-center">
+                <div className="cms text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                   <h4>Why Choose Osiz For Mobile App Development?</h4>
                 </div>
                 <div className="why_round" />
@@ -315,12 +324,13 @@ const EmployeeTrackingSoftware = () => {
         <section className="mid_section grey-bg">
           <div className="container">
 
-            <div className="section-heading text-center">
-              <h3>Hire Our Skilled Mobile App Developers</h3>
-              <div className="why_round"> </div>
-            </div>
             <div className="row-1" style={{ display: 'flex' }}>
               <div className="col-sm-6 col-md-6 col-lg-6">
+                <div className="section-heading text-center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                  <h3>Hire Our Skilled Mobile App Developers</h3>
+                  <div className="why_round"> </div>
+                </div>
+
                 <p className="hire-para">Build a functional mobile application over several platforms including iOS, Android and lot more with our certified Mobile application developer. An exclusive mobile application with attractive UI/UX design can be built
                   by our pool of developers who are strong in this platform. To develop strong mobile application, hire our experienced mobile application developers, who are specialists in many programming languages such as Java, Python,
                   PHP, Swift, and Objective-C</p>

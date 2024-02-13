@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutUsWhoWeAre.css";
+import { Button } from "@mui/material";
 
 const AboutUsWhoWeAre = () => {
   return (
@@ -35,16 +36,14 @@ const AboutUsWhoWeAre = () => {
           </div>
           <div className="about-us-p">
             <p className="contents">
-              MetaBlock Technologies specializes in a diverse array of services,
-              catering to the dynamic needs of modern businesses. Our expertise
-              encompasses web development, ensuring the creation of robust and
-              user-friendly online platforms. We excel in crafting innovative
-              and intuitive mobile applications, providing seamless experiences
-              across various devices. Additionally, our proficiency extends to
-              game development, where we merge creativity with cutting-edge
-              technology to deliver engaging and immersive gaming experiences.
+              Metablock Technologies is a prominent firm specializing in web and blockchain development. With a robust background in blockchain development, DEX development, coin and token creation, DeFi products, and expertise in the Metaverse/NFT ecosystem, we also offer a wide range of enterprise blockchain applications, web, mobile applications, and software development services.
+              We believe Web 3.0 is imperative to build a fair and progressive digital landscape, and blockchain-led systems are at the helm of it.
             </p>
-            <p className="contents">
+            <div className="Who-we-are-buttons">
+              <Button className="button-who">Our Expert</Button>
+              <Button className="button-who">Visit Now</Button>
+            </div>
+            {/* <p className="contents">
               In the realm of software development, MetaBlock Technologies
               stands out by delivering tailored solutions that align perfectly
               with your business objectives. Our commitment to staying at the
@@ -59,7 +58,7 @@ const AboutUsWhoWeAre = () => {
               strong online presence, launch a mobile app, create captivating
               games, develop customized software, or explore the potential of
               blockchain, we are your dedicated partner in achieving success.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

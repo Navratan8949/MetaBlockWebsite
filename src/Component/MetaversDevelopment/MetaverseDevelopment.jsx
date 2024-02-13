@@ -13,7 +13,7 @@ const MetaverseDevelopment = () => {
         <section className="metaverse_dev_banner">
           <div className="container">
             <div className="row align-items-center justify-content-center">
-              <div className="col-lg-7 col-12 cus_col">
+              <div className="col-lg-7 col-12 cus_col ">
                 <h1 className="title">
                   <span className="cus_title">METAVERSE</span>
                   <br /> DEVELOPMENT COMPANY

@@ -210,14 +210,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="container container-1170">
-          <div className="CpyRtSec text-center">
-            <p className="mb-0">
-              Copyright © {new Date().getFullYear()} METABLOCK TECHNOLOGIES PRIVATE LTD | All Rights
-              Reserved
-            </p>
-          </div>
-        </div>
+       
       </footer>
     </div>
   );

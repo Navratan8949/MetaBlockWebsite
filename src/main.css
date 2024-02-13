@@ -10,6 +10,21 @@ li {
   cursor: pointer !important;
 }
 
+a{
+  text-decoration: none !important;
+}
+
+.BnrCnt .why-Metablock-heading{
+  text-wrap: wrap;
+  text-align: center;
+}
+
+@media (max-width:430px){
+  .our-service-heading{
+    text-align: center !important;
+  }
+}
+
 .slick-slider {
   position: relative !important;
   display: block;
@@ -572,7 +587,7 @@ li {
   left: 50px;
   width: 52px;
   height: 52px;
-  background: url(https://www.osiztechnologies.com/asset/home-page-new/images/blueQuotes.webp) center/52px no-repeat;
+  background: url(https://www.osiztechnologies.com/asset/home-page-new/images/blueQuotes.webp) center  no-repeat;
 }
 
 .Main-section .osiz_testimonial_sec .item .testMoLst {
@@ -904,7 +919,7 @@ li {
     top: 0%;
   }
 
-  /** Scrollbar Styles START **/
+  /* Scrollbar Styles START */
   .Main-section .blockchain_process_sec {
     scrollbar-width: thin;
     scrollbar-color: #00f0ff transparent;
@@ -953,7 +968,7 @@ li {
     }
   }
 
-  /** Scrollbar Styles END **/
+  /* Scrollbar Styles END */
 }
 
 /*Blockchain Process Style End*/
@@ -1242,7 +1257,7 @@ li {
   left: 50px;
   width: 52px;
   height: 52px;
-  background: url("https://www.osiztechnologies.com/asset/home-page-new/images/blueQuotes.webp") center/52px no-repeat;
+  background: url("https://www.osiztechnologies.com/asset/home-page-new/images/blueQuotes.webp") center no-repeat;
 }
 
 .Main-section .osiz_testimonial_sec .item .testMoLst {
@@ -1614,7 +1629,7 @@ li {
 
 }
 
-*/ .custom-drp.show .dropdown-menu {
+ .custom-drp.show .dropdown-menu {
   display: flex;
 }
 
@@ -11166,7 +11181,7 @@ input[type=submit].btn-block {
   line-height: 1.5;
   color: #495057;
   vertical-align: middle;
-  background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center/8px 10px no-repeat;
+  background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center 8px 10px no-repeat;
   border: 1px solid #ced4da;
   border-radius: .25rem;
   -webkit-appearance: none;
@@ -29439,7 +29454,7 @@ textarea.form-control.is-valid {
 .was-validated .custom-select:valid {
   border-color: #28a745;
   padding-right: calc(.75em + 2.3125rem) !important;
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center/8px 10px no-repeat, #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem) no-repeat
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center 8px 10px no-repeat, #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem) no-repeat
 }
 
 .custom-select.is-valid:focus,
@@ -29565,7 +29580,7 @@ textarea.form-control.is-invalid {
 .was-validated .custom-select:invalid {
   border-color: #dc3545;
   padding-right: calc(.75em + 2.3125rem) !important;
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center/8px 10px no-repeat, #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem) no-repeat
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center 8px 10px no-repeat, #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem) no-repeat
 }
 
 .custom-select.is-invalid:focus,
@@ -31920,6 +31935,7 @@ input[type=submit].btn-block {
 
   .navbar-expand-lg .navbar-collapse {
     display: -ms-flexbox !important;
+    /* display: block; */
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto
@@ -38377,4 +38393,8 @@ a.text-dark:hover {
     color: inherit;
     border-color: #dee2e6
   }
+}
+
+.trusted-img{
+  background-image: url();
 }

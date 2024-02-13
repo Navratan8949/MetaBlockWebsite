@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
+  "homepage": "./",
   "dependencies": {
     "@babel/core": "^7.23.9",
     "@babel/regjsgen": "^0.8.0",
@@ -31,6 +32,7 @@
     "react-slick": "^0.29.0",
     "sass": "^1.69.5",
     "slick-carousel": "^1.8.1",
+    "swiper": "^11.0.6",
     "tailwindcss": "^3.3.6",
     "web-vitals": "^2.1.4"
   },

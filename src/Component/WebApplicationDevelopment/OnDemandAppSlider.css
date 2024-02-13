@@ -11,6 +11,11 @@
     margin: auto;
 }
 
+.image-inner-in-software {
+    width: 300px;
+    height: 100vh;
+}
+
 .ondemand-head {
     /* gap: 20px; */
     text-align: center;
@@ -150,7 +155,7 @@
 
     color: white;
     text-decoration: none;
-     padding-left: 10px; 
+    padding-left: 10px;
 }
 
 @media(max-width:375px) {
@@ -192,7 +197,7 @@
     .ondemand__app__box .title__div {
         width: 160px !important;
         /* position: relative; */
-           }
+    }
 }
 
 @media(max-width:700px) {
@@ -204,7 +209,7 @@
     .ondemand__app__box .title__div {
         width: 140px !important;
         /* position: relative; */
-           }
+    }
 
 }
 
