@@ -1,7 +1,9 @@
 import React from "react";
 import "./Footer.css";
 
+
 const Footer = () => {
+
   return (
 
     <div>
@@ -11,17 +13,14 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-4">
                 <div className="FtrLogo mb-md-5 mb-3">
-                  <a
-                    href="https://www.osiztechnologies.com/"
-                    className="img-fluid"
-                    alt="osiz"
-                  >
+                  
+                 
                     <img
-                      src="https://www.osiztechnologies.com/asset/home-page-new/images/osiz-footer-logo.gif"
-                      alt="Osiz Logo"
-                      title="Osiz Logo"
-                    />
-                  </a>
+                      src="/NewImages/logo2.png"
+                      alt="Metablock Logo"
+                      title="Metablock Logo"
+                      />
+                  
                 </div>
                 <ul className="LogoSpprtSec mb-3">
                   <li>

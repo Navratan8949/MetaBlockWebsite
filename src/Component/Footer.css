@@ -5,6 +5,9 @@
     }
   }
 
+ .FtrLogo {
+  width: 225px;
+ }
   .Main-section #homebanner .banner_btn_sec {
     margin-top: 30px;
     margin-bottom: 30px;

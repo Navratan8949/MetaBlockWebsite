@@ -180,6 +180,7 @@ const GeneralGamesDevelopment = () => {
                   alt="Game_Development_on_Prime_Platforms"
                   title="Our Game Development on Prime Platforms"
                 />
+                <a href="https://www.flaticon.com/free-icons/mobile-phone" title="mobile phone icons">Mobile phone icons created by itim2101 - Flaticon</a>
               </div>
               <div className="col-lg-7 cus_col">
                 <h2 className="title">

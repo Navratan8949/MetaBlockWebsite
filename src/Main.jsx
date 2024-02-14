@@ -240,7 +240,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon14.webp "
+                                    src="./SGimage/nuxtimg.webp"
                                     alt="Nuxt Js"
                                     title="Nuxt Js"
                                     loading="eager"
@@ -260,7 +260,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon13.webp "
+                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon13.webp"
                                     alt="Next Js"
                                     title="Next Js"
                                     loading="eager"

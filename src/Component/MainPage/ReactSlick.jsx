@@ -31,7 +31,7 @@ export default class AutoPlay extends Component {
             <div>
               <div className="item">
                 <img
-                  src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
+                  src="./SGimage/userpic.png"
                   className="img-fluid user_img"
                   alt="Testimonials"
                   title="Testimonials"
@@ -42,17 +42,8 @@ export default class AutoPlay extends Component {
                       <p className="sub_title">Naveen Singh</p>
                       <p className="sub_title1"></p>
                     </div>
-                    <a
-                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
-                      target="_blank"
-                    >
-                      <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
-                        className="img-fluid"
-                        alt="Review-Star"
-                        title="Review"
-                      />
-                    </a>
+                    <div className="star_rating">⭐⭐⭐⭐⭐</div>
+                    
                   </div>
                   <p className="sub_contents">
                     "I needed my website urgently, and MetaBlock did not
@@ -68,7 +59,7 @@ export default class AutoPlay extends Component {
             <div>
               <div className="item">
                 <img
-                  src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
+                  src="./SGimage/userpic.png"
                   className="img-fluid user_img"
                   alt="Testimonials"
                   title="Testimonials"
@@ -81,17 +72,9 @@ export default class AutoPlay extends Component {
                         {/* Business Developer at SF Capital */}
                       </p>
                     </div>
-                    <a
-                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
-                      target="_blank"
-                    >
-                      <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
-                        className="img-fluid"
-                        alt="Review-Star"
-                        title="Review"
-                      />
-                    </a>
+                    
+                    <div className="star_rating">⭐⭐⭐⭐⭐</div>
+                    
                   </div>
                   <p className="sub_contents">
                     "I contacted MetaBlock when I wanted my website in a very
@@ -106,7 +89,7 @@ export default class AutoPlay extends Component {
             <div>
               <div className="item">
                 <img
-                  src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
+                  src="./SGimage/userpic.png"
                   className="img-fluid user_img"
                   alt="Testimonials"
                   title="Testimonials"
@@ -119,17 +102,8 @@ export default class AutoPlay extends Component {
                         Business Developer at SF Capital
                       </p>
                     </div>
-                    <a
-                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
-                      target="_blank"
-                    >
-                      <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
-                        className="img-fluid"
-                        alt="Review-Star"
-                        title="Review"
-                      />
-                    </a>
+                    <div className="star_rating">⭐⭐⭐⭐⭐</div>
+                   
                   </div>
                   <p className="sub_contents">
                     "I have been working with Osiz Technologies with three
@@ -144,7 +118,7 @@ export default class AutoPlay extends Component {
             <div>
               <div className="item">
                 <img
-                  src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
+                  src="./SGimage/userpic.png"
                   className="img-fluid user_img"
                   alt="Testimonials"
                   title="Testimonials"
@@ -157,17 +131,9 @@ export default class AutoPlay extends Component {
                         Business Developer at SF Capital
                       </p>
                     </div>
-                    <a
-                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
-                      target="_blank"
-                    >
-                      <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
-                        className="img-fluid"
-                        alt="Review-Star"
-                        title="Review"
-                      />
-                    </a>
+                   
+                    <div className="star_rating">⭐⭐⭐⭐⭐</div>
+                    
                   </div>
                   <p className="sub_contents">
                     "I have been working with Osiz Technologies with three
@@ -182,7 +148,7 @@ export default class AutoPlay extends Component {
             <div>
               <div className="item">
                 <img
-                  src="https://www.osiztechnologies.com/asset/home-page-new/images/Nicky.webp"
+                  src="./SGimage/userpic.png"
                   className="img-fluid user_img"
                   alt="Testimonials"
                   title="Testimonials"
@@ -195,17 +161,9 @@ export default class AutoPlay extends Component {
                         Business Developer at SF Capital
                       </p>
                     </div>
-                    <a
-                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
-                      target="_blank"
-                    >
-                      <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/good-firms.webp"
-                        className="img-fluid"
-                        alt="Review-Star"
-                        title="Review"
-                      />
-                    </a>
+                   
+                    <div className="star_rating">⭐⭐⭐⭐⭐</div>
+                    
                   </div>
                   <p className="sub_contents">
                     "I have been working with Osiz Technologies with three

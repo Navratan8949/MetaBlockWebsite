@@ -14,7 +14,7 @@ const About = () => {
                     <div className="col-lg-7 p-lg-0 order-2 order-lg-1">
                       <div className="footer_left_bg layzy">
                         <img
-                          src="https://www.osiztechnologies.com/asset/img/footer-form-side.webp"
+                          src="./SGimage/contact_new-2.png"
                           className="img-fluid lazyload"
                           loading="eager"
                           alt="Tell us about your project"
