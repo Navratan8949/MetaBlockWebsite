@@ -1,5 +1,6 @@
 /* Slider */
 
+
 li{
     cursor: pointer !important;
   }
@@ -196,6 +197,9 @@ li{
       content: '←';
   }
   
+  
+  
+
   /* Dots */
   
   .slick-dotted.slick-slider {
@@ -36771,3 +36775,30 @@ li{
           border-color: #dee2e6
       }
   }
+ 
+  .blockchain_imgsec img {
+    width: 550px;
+    border-radius: 5px;
+}
+.blockchain_imgsec  {
+margin-left: 35px;
+}
+.MtrvrRtImg_cus_img img {
+width: 550px;
+border-radius: 5px;
+} 
+.MtrvrRtImg_cus_img {
+display: contents;
+}
+.NftMainSec img {
+   width: 550px;
+   border-radius: 5px;
+}
+.NftMainSec {
+  margin: 0 0 0 35px;
+}
+.clone_exch img {
+  width: 550px;
+  border-radius: 2px;
+}
+
