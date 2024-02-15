@@ -87,72 +87,7 @@ const TrandingProduct = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="container-fluid justify-content-center  raw d-flex flex-wrap">
-                            <div className="col-md-3 mb-5 ">
-                                {/* Feature item*/}
-                                <div className=" d-flex flex-column align-items-center ">
-                                    <div className="img-box-10 mb-3 overflow-hidden shadow">
-                                        <img className='tradings-image' src="./images/image28.jpg" alt />
-                                    </div>
-                                    {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
-                                    <h3 className="fs-5 pb-4 pt-2 text-white">Fantasy Cricket Game Development</h3>
-                                    <div className=" w-fit">
-                                        {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
-                                        <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start
-                                            chat <FaWhatsapp name="logo-whatsapp" className="fs-5" /></a>
-                                        {/* <a href="https://wa.me/message/L3YD6DCLY2GQL1"><img class="app-badge" width="200px" src="assets/img/button-demo.png" alt="..." /></a> */}
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-3 mb-5 ">
-                                {/* Feature item*/}
-                                <div className=" d-flex flex-column align-items-center ">
-                                    <div className="img-box-10 mb-3 overflow-hidden  shadow">
-                                        <img className='tradings-image' src="./images/image29.jpg" alt />
-                                    </div>
-                                    {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
-                                    <h3 className="fs-5 pb-4 pt-2 text-white">General Game Development</h3>
-                                    <div className=" w-fit">
-                                        {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
-                                        <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start
-                                            chat <FaWhatsapp name="logo-whatsapp" className="fs-5" /></a>
-                                        {/* <a href="https://wa.me/message/L3YD6DCLY2GQL1"><img class="app-badge" width="200px" src="assets/img/button-demo.png" alt="..." /></a> */}
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-3 mb-5 ">
-                                {/* Feature item*/}
-                                <div className=" d-flex flex-column align-items-center ">
-                                    <div className="img-box-10 mb-3 overflow-hidden shadow">
-                                        <img className='tradings-image' src="./images/image30.jpg" alt />
-                                    </div>
-                                    {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
-                                    <h3 className="fs-5 pb-4 pt-2 text-white">Metaverse Game Development </h3>
-                                    <div className=" w-fit">
-                                        {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
-                                        <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start
-                                            chat <FaWhatsapp name="logo-whatsapp" className="fs-5" /></a>
-                                        {/* <a href="https://wa.me/message/L3YD6DCLY2GQL1"><img class="app-badge" width="200px" src="assets/img/button-demo.png" alt="..." /></a> */}
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-3 mb-5 ">
-                                {/* Feature item*/}
-                                <div className=" d-flex flex-column align-items-center ">
-                                    <div className="img-box-10 mb-3 overflow-hidden shadow">
-                                        <img className='tradings-image' src="./images/image31.jpg" alt />
-                                    </div>
-                                    {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
-                                    <h3 className="fs-5 pb-4 pt-2 text-white ">Inventory Managment Software</h3>
-                                    <div className=" w-fit">
-                                        {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
-                                        <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start
-                                            chat <FaWhatsapp name="logo-whatsapp" className="fs-5" /></a>
-                                        {/* <a href="https://wa.me/message/L3YD6DCLY2GQL1"><img class="app-badge" width="200px" src="assets/img/button-demo.png" alt="..." /></a> */}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <div className="container-fluid justify-content-center  raw d-flex flex-wrap">
                             <div className="col-md-3 mb-5 ">
                                 {/* Feature item*/}
@@ -211,6 +146,72 @@ const TrandingProduct = () => {
                                     {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
                                     <h3 className="fs-5 pb-4 pt-2 text-white ">Real state software
                                     </h3>
+                                    <div className=" w-fit">
+                                        {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
+                                        <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start
+                                            chat <FaWhatsapp name="logo-whatsapp" className="fs-5" /></a>
+                                        {/* <a href="https://wa.me/message/L3YD6DCLY2GQL1"><img class="app-badge" width="200px" src="assets/img/button-demo.png" alt="..." /></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="container-fluid justify-content-center  raw d-flex flex-wrap">
+                            <div className="col-md-3 mb-5 ">
+                                {/* Feature item*/}
+                                <div className=" d-flex flex-column align-items-center ">
+                                    <div className="img-box-10 mb-3 overflow-hidden shadow">
+                                        <img className='tradings-image' src="./images/image28.jpg" alt />
+                                    </div>
+                                    {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
+                                    <h3 className="fs-5 pb-4 pt-2 text-white">Fantasy Cricket Game Development</h3>
+                                    <div className=" w-fit">
+                                        {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
+                                        <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start
+                                            chat <FaWhatsapp name="logo-whatsapp" className="fs-5" /></a>
+                                        {/* <a href="https://wa.me/message/L3YD6DCLY2GQL1"><img class="app-badge" width="200px" src="assets/img/button-demo.png" alt="..." /></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-3 mb-5 ">
+                                {/* Feature item*/}
+                                <div className=" d-flex flex-column align-items-center ">
+                                    <div className="img-box-10 mb-3 overflow-hidden  shadow">
+                                        <img className='tradings-image' src="./images/image29.jpg" alt />
+                                    </div>
+                                    {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
+                                    <h3 className="fs-5 pb-4 pt-2 text-white">General Game Development</h3>
+                                    <div className=" w-fit">
+                                        {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
+                                        <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start
+                                            chat <FaWhatsapp name="logo-whatsapp" className="fs-5" /></a>
+                                        {/* <a href="https://wa.me/message/L3YD6DCLY2GQL1"><img class="app-badge" width="200px" src="assets/img/button-demo.png" alt="..." /></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-3 mb-5 ">
+                                {/* Feature item*/}
+                                <div className=" d-flex flex-column align-items-center ">
+                                    <div className="img-box-10 mb-3 overflow-hidden shadow">
+                                        <img className='tradings-image' src="./images/image30.jpg" alt />
+                                    </div>
+                                    {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
+                                    <h3 className="fs-5 pb-4 pt-2 text-white">Metaverse Game Development </h3>
+                                    <div className=" w-fit">
+                                        {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
+                                        <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start
+                                            chat <FaWhatsapp name="logo-whatsapp" className="fs-5" /></a>
+                                        {/* <a href="https://wa.me/message/L3YD6DCLY2GQL1"><img class="app-badge" width="200px" src="assets/img/button-demo.png" alt="..." /></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-3 mb-5 ">
+                                {/* Feature item*/}
+                                <div className=" d-flex flex-column align-items-center ">
+                                    <div className="img-box-10 mb-3 overflow-hidden shadow">
+                                        <img className='tradings-image' src="./images/casinogame.jpg" alt />
+                                    </div>
+                                    {/* <i class="bi-phone icon-feature text-gradient d-block mb-3 "></i> */}
+                                    <h3 className="fs-5 pb-4 pt-2 text-white center ">Casino Game Development</h3>
                                     <div className=" w-fit">
                                         {/* <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> */}
                                         <a href="https://wa.me/message/L3YD6DCLY2GQL1" className="color-btn nohover gap-2">Start

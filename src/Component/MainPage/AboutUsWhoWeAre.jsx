@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutUsWhoWeAre.css";
 import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const AboutUsWhoWeAre = () => {
   return (
@@ -36,12 +37,13 @@ const AboutUsWhoWeAre = () => {
           </div>
           <div className="about-us-p">
             <p className="contents">
-              Metablock Technologies is a prominent firm specializing in web and blockchain development. With a robust background in blockchain development, DEX development, coin and token creation, DeFi products, and expertise in the Metaverse/NFT ecosystem, we also offer a wide range of enterprise blockchain applications, web, mobile applications, and software development services.
-              We believe Web 3.0 is imperative to build a fair and progressive digital landscape, and blockchain-led systems are at the helm of it.
+            Metablock Technologies is a prominent firm specializing in web and blockchain development. With a robust background in blockchain development, DEX development, coin and token creation, DeFi products, and expertise in the Metaverse/NFT ecosystem, we also offer a wide range of enterprise blockchain applications, web and mobile applications, and software development services.
+            We believe Web 3.0 is essential in building a fair and progressive digital landscape, and blockchain-led systems are at the helm of it.
+
             </p>
             <div className="Who-we-are-buttons">
-              <Button className="button-who">Our Expert</Button>
-              <Button className="button-who">Visit Now</Button>
+              {/* <Button className="button-who">Our Expert</Button> */}
+           <Link to="/ContectUsForm">   <Button className="button-who">Visit Now</Button></Link>
             </div>
             {/* <p className="contents">
               In the realm of software development, MetaBlock Technologies

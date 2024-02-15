@@ -35846,3 +35846,9 @@ a.text-dark:hover {
         border-color: #dee2e6
     }
 }
+
+.background-image-inner{
+  background-image: url(../../public/images/faq2.jpg);
+
+}
+

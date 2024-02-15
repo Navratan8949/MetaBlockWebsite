@@ -3,9 +3,10 @@
 }
 
 .dashboard-container-box {
+    padding: 20px 20px;
     cursor: pointer;
-    width: 190px !important;
-    height: 150px;
+    width: 320px !important;
+    height: 270px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -83,3 +84,12 @@
         /* flex-wrap: nowrap !important; */
     }
 }
+
+
+.key-feature-heading h4{
+text-align: center;
+}
+
+.key-feature-heading img{
+    width: 80px;
+    }

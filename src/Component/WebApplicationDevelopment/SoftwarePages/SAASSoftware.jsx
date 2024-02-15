@@ -7,8 +7,8 @@ import Phonecardslider from "../Phonecardslider/Phonecardslider";
 import SimilarFile from "../../SimilarFile";
 import SwiperSlider from "./SwiperSlider/SwiperSlider";
 import AdminControlFeature from "./AdminControlFeature/AdminControlFeature";
-import KeyFeature from "./KeyFeatures/KeyFeature";
-import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnology";
+import KeyFeaturessass from "./KeyFeatures/KeyFeaturessass";
+import SoftwareUsesTechnologysass from "./SoftwareUsesTechnology/SoftwareUsesTechnologysass";
 import { useNavigate } from "react-router-dom";
 
 // import '../../main.css'
@@ -117,7 +117,7 @@ const SAASSoftware = () => {
         </section>
 
         <SwiperSlider />
-        <KeyFeature />
+        <KeyFeaturessass />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -200,7 +200,7 @@ const SAASSoftware = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <SoftwareUsesTechnologysass />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">

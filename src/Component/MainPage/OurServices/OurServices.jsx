@@ -9,7 +9,7 @@ const OurServices = () => {
             <div className="bg-filter " />
             <div className="w-100 d-flex align-items-center justify-content-center flex-column">
                 <h1 className="display-6 pb-3 text-center pt-5 glow-text lh-1 mb-3 text-white fw-bold section-title g-text">
-                    Our services
+                    Our Services
                 </h1>
                 <p className="text-center text-white">MetaBlock provides a comprehensive range of IT solutions for a variety of industries and segments.Our core focus is on  <br /> Blockchain technology,   along with online, metaverse, gaming, and software development.  Whatever your  <br /> IT demands are, MetaBlock can provide you with cutting-edge IT solutions.
                 </p>
@@ -156,7 +156,7 @@ const OurServices = () => {
                             <p className="text-white fw-bold fs-3">Gaming Development</p>
                         </div>
                         <ul className>
-                            <li>daman game
+                            <li>Daman game
                             </li>
                             <li>Rummy Game
 

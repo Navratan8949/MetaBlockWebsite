@@ -1,6 +1,12 @@
 import React from "react";
 import "./DynamicWebsite.css";
 import SimilarFile from "../SimilarFile";
+import { AiOutlineGlobal } from "react-icons/ai";
+import { RiCustomerServiceFill } from "react-icons/ri";
+import { SiSpringsecurity } from "react-icons/si";
+import { FcManager } from "react-icons/fc";
+
+
 const DynamicWebsite = () => {
   return (
     <div>
@@ -383,7 +389,7 @@ const DynamicWebsite = () => {
               <div className="whybottom_box whybottom_box1 hgt_400">
                 <div className="inr_img">
                   <div className="ver_mid">
-                    <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/gps-services.png" alt="GPS Services" title="GPS Services" className="img-fluid" /></div>
+                    <div className="img_box"><img src="./SGimage/global-communication.png" alt="GPS Services" title="GPS Services" className="img-fluid" /></div>
                   </div>
                 </div>
                 <h3>GPS Services</h3>
@@ -395,7 +401,8 @@ const DynamicWebsite = () => {
                 <h3>In - App Payments</h3>
                 <div className="inr_img">
                   <div className="ver_mid">
-                    <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/in-app-payments.png" alt="In - App Payments" title="In - App Payments" className="img-fluid" /></div>
+                    <div className="img_box">
+                      <img src="./SGimage/payment-method.png" alt="In - App Payments" title="In - App Payments" className="img-fluid" /></div>
                   </div>
                 </div>
                 <p className="text-center">On-Demand app developed by us involves the payment ability. This allows customers to pay for your products within the app in a safer and secured environment. </p>
@@ -406,7 +413,8 @@ const DynamicWebsite = () => {
                 <h3>Cloud Integration </h3>
                 <div className="inr_img">
                   <div className="ver_mid">
-                    <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/cloud-integration.png" alt="Cloud Integration" title="Cloud Integration" className="img-fluid" /></div>
+                    <div className="img_box">
+                      <img src="/SGimage/integrated-system.png" alt="Cloud Integration" title="Cloud Integration" className="img-fluid" /></div>
                   </div>
                 </div>
                 <p className="text-center">Our on-demand app development process includes the process of creating a separated cloud space for data analytics and storages related to the usage of apps. </p>
@@ -417,7 +425,8 @@ const DynamicWebsite = () => {
                 <h3>Instant Push Notification</h3>
                 <div className="inr_img">
                   <div className="ver_mid">
-                    <div className="img_box"><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/instant-push-notification.png" alt="Instant Push Notification" title="Instant Push Notification" className="img-fluid" /></div>
+                    <div className="img_box">
+                      <img src="./SGimage/analytics.png" alt="Instant Push Notification" title="Instant Push Notification" className="img-fluid" /></div>
                   </div>
                 </div>
                 <p className="text-center">We provide a way by which you can acknowledge your new products or discounts or available products to your customers instantly through notifications. This may help you in reaching your customers faster. </p>
@@ -439,25 +448,38 @@ const DynamicWebsite = () => {
               <div className="row mar-top-30">
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
-                    <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Global Reach" title="Global Reach" style={{ objectPosition: '-7px -18px' }} /></abbr>
+                    <abbr>
+                      {/* <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Global Reach" title="Global Reach" style={{ objectPosition: '-7px -18px' }} /> */}
+                      <AiOutlineGlobal />
+                    </abbr>
                     <h3>Global Reach</h3>
                   </div>
                 </div>
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
-                    <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Customer Comfort" title="Customer Comfort" style={{ objectPosition: '-57px -18px' }} /></abbr>
+                    <abbr>
+                      {/* <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Customer Comfort" title="Customer Comfort" style={{ objectPosition: '-57px -18px' }} /> */}
+                      <RiCustomerServiceFill />
+                      </abbr>
                     <h3>Customer Comfort</h3>
                   </div>
                 </div>
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
-                    <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Security & Scalability" title="Security & Scalability" style={{ objectPosition: '-110px -18px' }} /></abbr>
+                    <abbr>
+                      {/* <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Security & Scalability" title="Security & Scalability" style={{ objectPosition: '-110px -18px' }} /> */}
+                      <SiSpringsecurity />                
+                      </abbr>
+                    
                     <h3>Security &amp; Scalability</h3>
                   </div>
                 </div>
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
-                    <abbr><img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Advanced Opportunities" title="Advanced Opportunities" style={{ objectPosition: '-160px -18px' }} /></abbr>
+                    <abbr>
+                      {/* <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Advanced Opportunities" title="Advanced Opportunities" style={{ objectPosition: '-160px -18px' }} /> */}
+                      <FcManager />
+                    </abbr>
                     <h3>Advanced Opportunities </h3>
                   </div>
                 </div>
@@ -470,64 +492,93 @@ const DynamicWebsite = () => {
       <section className="mid_section grey-bg" style={{ background: '#696767' }}>
         <div className="container">
           <div className="section-heading text-center">
-            <h2 className="our_title">Our On-Demand Project Development Phase Cycle</h2>
+            <h2 className="our_title">Our On-Demand BlockChain Project Development Phase Cycle</h2>
             <div className="why_round"> </div>
           </div>
           <div className="row mar-top-30">
             <div className="col-sm-12 ">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/workflow-desktop.svg" className="img-fluid" style={{ width: '100%', filter: 'hue-rotate(253deg)' }} />
+              <img src="./SGimage/BLOCKCHAIN PROJECT DEVELOPMENT LIFE CYCLE.webp" className="img-fluid" style={{ width: '100%', filter: 'hue-rotate(253deg)' }} />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="mid_section">
+      <section className="section-heading mid_section-1">
         <div className="container">
-          <div className="section-heading text-center">
-            <h2 className="tools_title">Tools &amp; Technologies We Use</h2>
-            <div className="why_round"> </div>
-            <p className="text-center">Keeping abreast with the latest leading-edge technologies, the entire process of design and development is executed with upgraded tools and software.</p>
+          <div className="row">
+            <div className="col-md-12">
+              <h2 style={{ color: "#D166AF ", fontSize: "31px" }} className="text-center Technology-Stack">Technology Stack We Use</h2>
+            </div>
           </div>
-          <div className="row mar-top-30 justify-content-center ">
-            <div className="col-lg-offset-1 col-sm-4 col-lg-2 center-img-cnt">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/angularjs-2.png?v1" alt="AngularJS 2" title="AngularJS 2" className="img-fluid" />
-              <h3>AngularJS 2</h3>
+          <div className="row tech p-5 pt-0 mt-5 mb-5">
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/physics.png" className="w-100 h-40" alt="" />
+              <h5>React</h5>
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/ionic.png?v1" alt="Ionic" title="Ionic" className="img-fluid" />
-              <h3>Ionic</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/python.png" alt="" className="w-100 h-40" />
+              <h5>Python</h5>
+
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/apache-cordova.png?v1" alt="Apache Cordova" title="Apache Cordova" className="img-fluid" />
-              <h3>Apache Cordova</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+              <img src="./images/mysql.png" alt="" className="w-100 h-40" />
+              <h5>MySQL</h5>
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/nativescript.png?v1" alt="NativeScript" title="NativeScript" className="img-fluid" />
-              <h3>NativeScript</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+              <h5>Java Srcipt</h5>
+
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/css3.png?v1" alt="CSS3" title="CSS3" className="img-fluid" />
-              <h3>CSS3</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+              <h5>SQL Lite</h5>
+
             </div>
-            <div className="col-lg-offset-1 col-sm-4 col-lg-2 center-img-cnt">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/html-5.png?v1" alt="HTML 5" title="HTML 5" className="img-fluid" />
-              <h3>HTML 5</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/html.png" alt="" className="w-100 h-40" />
+              <h5>HTML</h5>
+
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/mysql.png?v1" alt="MySQL" title="MySQL" className="img-fluid" />
-              <h3>MySQL</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+              <h5>Android</h5>
+
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/nodejs.png?v1" alt="Node.js" title="Node.js" className="img-fluid" />
-              <h3>Node.js</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+              <h5>Mongo DB</h5>
+
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/mongodb.png?v1" alt="MongoDB" title="MongoDB" className="img-fluid" />
-              <h3>MongoDB</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+              <h5>App Store</h5>
+
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/ajax.png?v1" alt="Ajax" title="Ajax" className="img-fluid" />
-              <h3>Ajax</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+              <h5>Atom</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+              <h5>Laravel</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/python.png" alt="" className="w-100 h-40" />
+              <h5>Python</h5>
+
             </div>
           </div>
         </div>

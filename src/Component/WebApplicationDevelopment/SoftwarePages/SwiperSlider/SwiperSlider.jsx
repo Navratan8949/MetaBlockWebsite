@@ -39,22 +39,22 @@ export default function SwiperSlider() {
             >
 
                 <SwiperSlide>
-                    <img src="https://rrdevs.net/demos/html/morat/assets/img/images/project-img-6.png" />
+                    <img src="https://s3.envato.com/files/223902367/Preview_Screenshots/1-Dashboard.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://rrdevs.net/demos/html/morat/assets/img/images/project-img-7.png" />
+                    <img src="https://s3.envato.com/files/223902367/Preview_Screenshots/11-Stock%20Report.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://rrdevs.net/demos/html/morat/assets/img/images/project-img-8.png" />
+                    <img src="https://s3.envato.com/files/223902367/Preview_Screenshots/1-Dashboard.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://rrdevs.net/demos/html/morat/assets/img/images/project-img-9.png" />
+                    <img src="https://s3.envato.com/files/486083031/posking%20ss/p2.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://rrdevs.net/demos/html/morat/assets/img/images/project-img-1.png" />
+                    <img src="https://s3.envato.com/files/256757591/PreviewScreenshots/1.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://rrdevs.net/demos/html/morat/assets/img/images/project-img-2.png" />
+                    <img src="https://s3.envato.com/files/276474876/04_student_profile.png" />
                 </SwiperSlide>
             </Swiper>
         </>

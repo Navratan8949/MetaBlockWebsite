@@ -13,6 +13,7 @@ import AboutUsWhoWeAre from "./Component/MainPage/AboutUsWhoWeAre";
 import { Button } from "@mui/material";
 import OurServices from "./Component/MainPage/OurServices/OurServices";
 import TrandingProduct from "./Component/MainPage/TrandingProduct";
+import { Link } from "react-router-dom";
 // import SimilarFile from "./SimilarFile";
 const Main = () => {
   return (
@@ -260,7 +261,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon13.webp"
+                                    src="./SGimage/nextjsicon.webp"
                                     alt="Next Js"
                                     title="Next Js"
                                     loading="eager"
@@ -280,7 +281,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon3.webp "
+                                    src="./SGimage/express-js.png"
                                     alt="Express Js"
                                     title="Express Js"
                                     loading="eager"
@@ -300,7 +301,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon2.webp "
+                                    src="./SGimage/nodejs.jpg"
                                     alt="Node Js"
                                     title="Node Js"
                                     loading="eager"
@@ -320,7 +321,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon8.webp "
+                                    src="./SGimage/angularicon.webp"
                                     alt="Angular JS"
                                     title="Angular JS"
                                     loading="eager"
@@ -340,7 +341,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon4.webp "
+                                    src="./SGimage/mongodbicon.webp"
                                     alt="Mongo DB"
                                     title="Mongo DB"
                                     loading="eager"
@@ -360,7 +361,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon5.webp "
+                                    src="./SGimage/jqueryicon.webp"
                                     alt="JQuery"
                                     title="JQuery"
                                     loading="eager"
@@ -380,7 +381,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon6.webp "
+                                    src="./SGimage/mysqlicon.webp"
                                     alt="My Sql"
                                     title="My Sql"
                                     loading="eager"
@@ -400,7 +401,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon7.webp "
+                                    src="./SGimage/phpicon.webp"
                                     alt="PHP"
                                     title="PHP"
                                     loading="eager"
@@ -420,7 +421,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon1.webp "
+                                    src="./SGimage/laravelicon.webp"
                                     alt="Laravel"
                                     title="Laravel"
                                     loading="eager"
@@ -440,7 +441,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon9.webp "
+                                    src="./SGimage/codeignitoricon.webp "
                                     alt="Codeigniter"
                                     title="Codeigniter"
                                     loading="eager"
@@ -460,7 +461,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon12.webp "
+                                    src="./SGimage/bootstrapicon.webp"
                                     alt="Bootstrap"
                                     title="Bootstrap"
                                     loading="eager"
@@ -480,7 +481,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon10.webp "
+                                    src="./SGimage/htmlcssicon.webp"
                                     alt="HTML 5"
                                     title="HTML 5"
                                     loading="eager"
@@ -500,7 +501,7 @@ const Main = () => {
                               >
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/tech-stk-icon11.webp "
+                                    src="./SGimage/cssicon.webp"
                                     alt="CSS 3"
                                     title="CSS 3"
                                     loading="eager"
@@ -522,7 +523,7 @@ const Main = () => {
                             Web development is one of the oldest services and over time it has evolved a lot. At MetaBlock we are always ahead of the market by using only the latest and the best web technologies for our client projects. Some of the web technologies we use are HTML, CSS, Javascript, Bootstrap, Tailwind, and React JS.
                           </p>
                         </div>
-                        <Button className="button-who">Visit Now</Button>
+                      <Link to="/ContectUsForm">  <Button className="button-who">Visit Now</Button></Link>
 
                       </div>
                     </div>
@@ -540,7 +541,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-10.webp "
+                                    src="./SGimage/Mobile Icon/Fluttericon.webp"
                                     alt="Flutter"
                                     title="Flutter"
                                     loading="eager"
@@ -556,7 +557,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-4.webp "
+                                    src="./SGimage/Mobile Icon/kotlinicon.webp"
                                     alt="Kotlin"
                                     title="Kotlin"
                                     loading="eager"
@@ -572,7 +573,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-5.webp "
+                                    src="./SGimage/Mobile Icon/swifticon.webp"
                                     alt="Swift"
                                     title="Swift"
                                     loading="eager"
@@ -588,7 +589,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-1.webp "
+                                    src="./SGimage/Mobile Icon/androidstudio.webp"
                                     alt="Android Studio"
                                     title="Android Studio"
                                     loading="eager"
@@ -604,7 +605,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-2.webp "
+                                    src="./SGimage/Mobile Icon/iosicon.webp"
                                     alt="iOS"
                                     title="iOS"
                                     loading="eager"
@@ -620,7 +621,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-3.webp "
+                                    src="./SGimage/Mobile Icon/androidicon.webp"
                                     alt="Android"
                                     title="Android"
                                     loading="eager"
@@ -636,7 +637,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-6.webp "
+                                    src="./SGimage/Mobile Icon/javaicon.webp"
                                     alt="Java"
                                     title="Java"
                                     loading="eager"
@@ -652,7 +653,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-7.webp "
+                                    src="./SGimage/Mobile Icon/jetpackicon.webp"
                                     alt="Jetpack"
                                     title="Jetpack"
                                     loading="eager"
@@ -668,7 +669,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-8.webp "
+                                    src="./SGimage/Mobile Icon/iconicicon.webp"
                                     alt="Ionic"
                                     title="Ionic"
                                     loading="eager"
@@ -684,7 +685,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-9.webp "
+                                    src="./SGimage/Mobile Icon/reactjsicon.webp"
                                     alt="ReactJS"
                                     title="ReactJS"
                                     loading="eager"
@@ -700,7 +701,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-11.webp "
+                                    src="./SGimage/Mobile Icon/codeignitoricon.webp"
                                     alt="Codeigniter"
                                     title="Codeigniter"
                                     loading="eager"
@@ -716,7 +717,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/mob-12.webp "
+                                    src="./SGimage/Mobile Icon/mongodbicon.webp"
                                     alt="Mongo DB"
                                     title="Mongo DB"
                                     loading="eager"
@@ -738,6 +739,7 @@ const Main = () => {
                             A mobile tech stack is a mix of software and programming languages that developers use to create mobile apps. It includes tools for building the visible parts of the app (front-end) and the behind-the-scenes functionality (back-end), along with additional resources like libraries and frameworks. It's like a toolbox that developers use to build and enhance mobile applications.
                           </p>
                         </div>
+                        <Link to="/ContectUsForm">  <Button className="button-who">Visit Now</Button></Link>
                       </div>
                     </div>
                   </div>
@@ -754,7 +756,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-1.webp "
+                                    src="./SGimage/DeskstopIcon/reactjsicon.webp"
                                     alt="React JS"
                                     title="React JS"
                                     loading="eager"
@@ -770,7 +772,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-2.webp "
+                                    src="./SGimage/DeskstopIcon/reactjsicon.webp"
                                     alt="NW.JS"
                                     title="NW.JS"
                                     loading="eager"
@@ -786,7 +788,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-3.webp "
+                                    src="./SGimage/DeskstopIcon/reactjsicon.webp"
                                     alt="App.JS"
                                     title="App.JS"
                                     loading="eager"
@@ -802,7 +804,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-4.webp "
+                                    src="./SGimage/DeskstopIcon/meteoricon.webp"
                                     alt="Meteor"
                                     title="Meteor"
                                     loading="eager"
@@ -818,7 +820,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-5.webp "
+                                    src="./SGimage/DeskstopIcon/protonicon.webp"
                                     alt="Proton Native"
                                     title="Proton Native"
                                     loading="eager"
@@ -834,7 +836,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-6.webp?v1 "
+                                    src="./SGimage/DeskstopIcon/sevleticon.webp"
                                     alt="Sevelet"
                                     title="Sevelet"
                                     loading="eager"
@@ -850,7 +852,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-7.webp "
+                                    src="./SGimage/DeskstopIcon/angularicon.webp"
                                     alt="Angular 8"
                                     title="Angular 8"
                                     loading="eager"
@@ -866,7 +868,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-8.webp "
+                                    src="./SGimage/DeskstopIcon/nodejsicon.webp"
                                     alt="Node JS"
                                     title="Node JS"
                                     loading="eager"
@@ -882,7 +884,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-9.webp "
+                                    src="./SGimage/DeskstopIcon/vuejsicon.webp"
                                     alt="Vue.JS"
                                     title="Vue.JS"
                                     loading="eager"
@@ -898,7 +900,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-10.webp "
+                                    src="./SGimage/DeskstopIcon/electronjsicon.webp"
                                     alt="Electron.JS"
                                     title="Electron.JS"
                                     loading="eager"
@@ -914,7 +916,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/da-11.webp "
+                                    src="./SGimage/DeskstopIcon/angularicon.webp"
                                     alt="Angular JS"
                                     title="Angular JS"
                                     loading="eager"
@@ -936,6 +938,7 @@ const Main = () => {
                             After web development, we expanded to the desktop application focusing on providing solutions for the industries. Our desktop apps are fast and reliable and they don’t require huge system requirements to work at their peak. Some of the technologies for desktop applications are Node JS, React JS, Express JS, Mongo DM, PHP, and Laravel. These allow us to make the software extremely lightweight for any PC to run and allow it to preform complicated tasks.
                           </p>
                         </div>
+                        <Link to="/ContectUsForm">  <Button className="button-who">Visit Now</Button></Link>
                       </div>
                     </div>
                   </div>
@@ -952,7 +955,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/blk-tech-5.webp "
+                                    src="./SGimage/blockchainicon/solidityicon.webp"
                                     alt="Solidity"
                                     title="Solidity"
                                     loading="eager"
@@ -968,7 +971,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/blk-tech-4.webp "
+                                    src="./SGimage/blockchainicon/hyperledgericon.webp"
                                     alt="HyperLedger"
                                     title="HyperLedger"
                                     loading="eager"
@@ -984,7 +987,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/blk-tech-3.webp "
+                                    src="./SGimage/blockchainicon/golangicon.webp "
                                     alt="Golang"
                                     title="Golang"
                                     loading="eager"
@@ -1000,7 +1003,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/blk-tech-2.webp "
+                                    src="./SGimage/blockchainicon/smartcontracticon.webp"
                                     alt="SmartContract"
                                     title="SmartContract"
                                     loading="eager"
@@ -1016,7 +1019,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/blk-tech-1.webp "
+                                    src="./SGimage/blockchainicon/ipfsicon.webp"
                                     alt="IPFS"
                                     title="IPFS"
                                     loading="eager"
@@ -1042,6 +1045,7 @@ const Main = () => {
                             {/* Blockchain-based tech stacks help in providing a seamless experience for users interacting with the blockchain. */}
                           </p>
                         </div>
+                        <Link to="/ContectUsForm">  <Button className="button-who">Visit Now</Button></Link>
                       </div>
                     </div>
                   </div>
@@ -1058,7 +1062,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/bt-1.webp "
+                                    src="./SGimage/Blockchain Tools Icon/Metamask Icon.webp"
                                     alt="Metamask"
                                     title="Metamask"
                                     loading="eager"
@@ -1074,7 +1078,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/bt-2.webp "
+                                    src="./SGimage/Blockchain Tools Icon/ganacheicon.webp"
                                     alt="Ganache"
                                     title="Ganache"
                                     loading="eager"
@@ -1090,7 +1094,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/bt-3.webp "
+                                    src="./SGimage/Blockchain Tools Icon/truffleicon.webp"
                                     alt="Truffle"
                                     title="Truffle"
                                     loading="eager"
@@ -1106,7 +1110,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/bt-4.webp "
+                                    src="./SGimage/Blockchain Tools Icon/remixicon.webp"
                                     alt="Remix"
                                     title="Remix"
                                     loading="eager"
@@ -1135,6 +1139,7 @@ const Main = () => {
                             {/* This technology can be utilized for various purposes such as supply chain management, identity verification, and smart contract execution.  */}
                           </p>
                         </div>
+                        <Link to="/ContectUsForm">  <Button className="button-who">Visit Now</Button></Link>
                       </div>
                     </div>
                   </div>
@@ -1151,7 +1156,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/game-tech-5.webp "
+                                    src="./SGimage/Game Icon/unityicon.webp"
                                     alt="Unity"
                                     title="Unity"
                                     loading="eager"
@@ -1167,7 +1172,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/game-tech-6.webp "
+                                    src="./SGimage/Game Icon/unrealicon.webp"
                                     alt="Unreal Engine"
                                     title="Unreal Engine"
                                     loading="eager"
@@ -1183,7 +1188,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/game-tech-1.webp "
+                                    src="./SGimage/Game Icon/reactjs.webp"
                                     alt="React"
                                     title="React"
                                     loading="eager"
@@ -1199,7 +1204,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/game-tech-2.webp "
+                                    src="./SGimage/Game Icon/nodejsicon.webp"
                                     alt="NodeJs"
                                     title="NodeJs"
                                     loading="eager"
@@ -1215,7 +1220,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/game-tech-3.webp "
+                                    src="./SGimage/Game Icon/mongodbicon.webp"
                                     alt="Mongo DB"
                                     title="Mongo DB"
                                     loading="eager"
@@ -1231,7 +1236,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/game-tech-4.webp "
+                                    src="./SGimage/Game Icon/publicblokchainicon.webp"
                                     alt="Public Blockchains"
                                     title="Public Blockchains"
                                     loading="eager"
@@ -1247,7 +1252,7 @@ const Main = () => {
                               <div className="TechStkIconBox text-center">
                                 <div className="TechStkIcon">
                                   <img
-                                    src="https://www.osiztechnologies.com/asset/home-page-new/images/game-tech-7.webp "
+                                    src="./SGimage/Game Icon/marmaladeicon.webp"
                                     alt="Marmalade SDK"
                                     title="Marmalade SDK"
                                     loading="eager"
@@ -1270,6 +1275,7 @@ const Main = () => {
 
                           </p>
                         </div>
+                        <Link to="/ContectUsForm">  <Button className="button-who">Visit Now</Button></Link>
                       </div>
                     </div>
                   </div>
@@ -1289,7 +1295,9 @@ const Main = () => {
             </div>
             <div className="why_osiz_blockchain_card">
               <div className="row align-items-center">
-                <div className="col-lg-6 col-12 trusted-img" />
+                <div className="col-lg-6 col-12 trusted-img" >
+                  <img src="./SGimage/contact_img.jpg"/>
+                </div>
                 <div className="col-lg-6 col-12">
                   <p className="contents">
                     MetaBlock Technologies, drawing upon extensive experience and proficiency in blockchain development, stands as a reliable industry partner. Harnessing the capabilities of cutting-edge technologies such as Ethereum, Hyperledger, and Stellar, we specialize in crafting secure and scalable blockchain applications tailored to diverse business needs. Our commitment to a customer-centric approach ensures open communication and collaboration throughout the project lifecycle, promoting transparency and timely project delivery. Choosing MetaBlock Technologies as your blockchain development partner guarantees high-quality solutions that seamlessly propel your business operations into the decentralized future.
@@ -1304,7 +1312,7 @@ const Main = () => {
                     >
                       <span>
                         <img
-                          src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif"
+                          src="https://png.pngtree.com/png-vector/20210407/ourmid/pngtree-flat-design-of-business-partnership-png-image_3195753.jpg"
                           alt="enquiry"
                           loading="eager"
                           className="img-fluid lazyload mr-2"
@@ -1312,12 +1320,13 @@ const Main = () => {
                         Talk to our Experts
                       </span>
                       <span>
-                        <img
+                        {/* <img
                           src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif"
                           alt="enquiry"
                           loading="eager"
                           className="img-fluid lazyload mr-2"
-                        />
+                        /> */}
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z" fill="white"></path></svg>
                         Talk to our Experts
                       </span>
                     </button>

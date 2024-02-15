@@ -13,7 +13,7 @@ const WhyChooseUs = () => {
                         <h1 style={{ fontSize: "50px" }} className="pb-3 glow-text c-head text-white fw-bold g-text g-text-h">Why Choose Us</h1>
                         <p className="lead fw-normal text-light mb-0 ">We feed the needs of our clients with the best team distribution. In addition, our pool of talent helps us achieve outstanding and astonishing results in each project that we undertake.</p>
                         <p className="lead fw-normal text-light mb-4 ">Our mission at MetaBlock is to create the most useful solutions for our clients and to help them achieve all their digital goals.</p>
-                        <a href="#!" className="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a>
+                        {/* <a href="#!" className="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
                     </div>
                 </div>
 
@@ -49,25 +49,19 @@ const WhyChooseUs = () => {
                         </div>
                         <div className="award-1 col-lg-4 p-0 px-1 pt-1">
                             <div className="text-start text-white p-award-1 rounded-10 p-3">
-                                <h1 className="fs-4 year">Cost Effective</h1>
+                                <h1 className="fs-4 year">Security Measures</h1>
                                 <h1 className="text-warning">100%</h1>
-                                <p> We offer 100% cost-effective service in 100% satisfaction way.</p>
+                                <p> We offer 100% robust security measures you implement to protect their websites from cyber threats</p>
                             </div>
                         </div>
                         <div className="award-1 col-lg-4 p-0 px-1 pt-1">
                             <div className="text-start text-white p-award-1 rounded-10 p-3">
-                                <h1 className="fs-4 year">Cost Effective</h1>
-                                <h1 className="text-warning">100%</h1>
-                                <p> We offer 100% cost-effective service in 100% satisfaction way.</p>
+                                <h1 className="fs-4 year">Support and Maintenance</h1>
+                                <h1 className="text-warning">24*7</h1>
+                                <p> We provide 24*7 support and maintenance services to ensure clients' websites remain secure</p>
                             </div>
                         </div>
-                        <div className="award-1 col-lg-4 p-0 px-1 pt-1">
-                            <div className="text-start text-white p-award-1 rounded-10 p-3">
-                                <h1 className="fs-4 year">Cost Effective</h1>
-                                <h1 className="text-warning">100%</h1>
-                                <p> We offer 100% cost-effective service in 100% satisfaction way.</p>
-                            </div>
-                        </div>
+                       
 
                     </div>
                 </div>

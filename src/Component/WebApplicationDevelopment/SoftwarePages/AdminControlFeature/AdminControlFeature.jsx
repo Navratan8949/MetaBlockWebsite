@@ -24,13 +24,13 @@ const AdminControlFeature = () => {
                     <div className="card-icon-title-wrapper">
                         <div className="card__icon pb-1">
                             <div className="icon__wrapper ">
-                                <img src="https://www.metakops.com/assets/img/admin/User-Management.png" alt />
+                                <img src="./images/access-control.png" alt />
                             </div>
                         </div>
-                        <h1 className="card__title fs-4 g-text">User Management</h1>
+                        <h1 className="card__title fs-4 g-text">Access Control</h1>
                     </div>
                     <p className="card__description">
-                        Dashboard refers to a very important feature that shows you how your game is performing against other games.
+                    Access control stands as a gatekeeper, ensuring that only authorized users have the privilege to interact with specific features and data, enhancing security and privacy.
                     </p>
                 </div>
 
@@ -38,13 +38,13 @@ const AdminControlFeature = () => {
                     <div className="card-icon-title-wrapper">
                         <div className="card__icon pb-1">
                             <div className="icon__wrapper ">
-                                <img src="https://www.metakops.com/assets/img/admin/Game-settings-and-Management.png" alt />
+                                <img src="./images/creative.png" alt />
                             </div>
                         </div>
-                        <h1 className="card__title fs-4 g-text">User Management</h1>
+                        <h1 className="card__title fs-4 g-text">Content Moderation</h1>
                     </div>
                     <p className="card__description">
-                        Dashboard refers to a very important feature that shows you how your game is performing against other games.
+                    Content moderation empowers admins to uphold standards by reviewing, approving, or removing user-generated content, fostering a positive and safe environment within the software.
                     </p>
                 </div>
 
@@ -52,13 +52,13 @@ const AdminControlFeature = () => {
                     <div className="card-icon-title-wrapper">
                         <div className="card__icon pb-1">
                             <div className="icon__wrapper ">
-                                <img src="https://www.metakops.com/assets/img/admin/Winning-mode-in-admin-panel.png" alt />
+                                <img src="./images/process.png" alt />
                             </div>
                         </div>
-                        <h1 className="card__title fs-4 g-text">User Management</h1>
+                        <h1 className="card__title fs-4 g-text">Configuration and Settings</h1>
                     </div>
                     <p className="card__description">
-                        Dashboard refers to a very important feature that shows you how your game is performing against other games.
+                    Configuration options offer administrators the flexibility to tailor the software environment to organizational requirements and user preferences, optimizing usability and functionality.
                     </p>
                 </div>
 
@@ -68,26 +68,40 @@ const AdminControlFeature = () => {
                     <div className="card-icon-title-wrapper">
                         <div className="card__icon pb-1">
                             <div className="icon__wrapper ">
-                                <img src="https://www.metakops.com/assets/img/admin/User-Management.png" alt />
+                                <img src="./images/process.png" alt />
                             </div>
                         </div>
-                        <h1 className="card__title fs-4 g-text">User Management</h1>
+                        <h1 className="card__title fs-4 g-text">Security Management</h1>
                     </div>
                     <p className="card__description">
-                        Dashboard refers to a very important feature that shows you how your game is performing against other games.
+                    Security measures, such as encryption and intrusion detection systems, fortify software systems against threats, safeguarding sensitive information and maintaining integrity.
                     </p>
                 </div>
                 <div className="a-card card-discover card1 col-md-3">
                     <div className="card-icon-title-wrapper">
                         <div className="card__icon pb-1">
                             <div className="icon__wrapper ">
-                                <img src="https://www.metakops.com/assets/img/admin/User-Management.png" alt />
+                                <img src="./images/web-analytics.png" alt />
                             </div>
                         </div>
-                        <h1 className="card__title fs-4 g-text">User Management</h1>
+                        <h1 className="card__title fs-4 g-text"> Monitoring and Analytics</h1>
                     </div>
                     <p className="card__description">
-                        Dashboard refers to a very important feature that shows you how your game is performing against other games.
+                    Monitoring tools provide insights into system performance and user activities, enabling admins to identify trends, detect anomalies, and make data-driven decisions.
+                    </p>
+                </div>
+
+                <div className="a-card card-discover col-md-3">
+                    <div className="card-icon-title-wrapper">
+                        <div className="card__icon pb-1">
+                            <div className="icon__wrapper">
+                                <img src="./images/sheet.png" alt />
+                            </div>
+                        </div>
+                        <h1 className="card__title fs-4 g-text">Reporting and Audit Trails</h1>
+                    </div>
+                    <p className="card__description">
+                    Reporting features play a crucial role in compliance efforts and incident response by providing comprehensive documentation and audit trails of user actions and system events.
                     </p>
                 </div>
 
@@ -95,27 +109,13 @@ const AdminControlFeature = () => {
                     <div className="card-icon-title-wrapper">
                         <div className="card__icon pb-1">
                             <div className="icon__wrapper ">
-                                <img src="https://www.metakops.com/assets/img/admin/Game-settings-and-Management.png" alt />
+                                <img src="./images/connection.png" alt />
                             </div>
                         </div>
-                        <h1 className="card__title fs-4 g-text">User Management</h1>
+                        <h1 className="card__title fs-4 g-text"> Integration and Interoperability</h1>
                     </div>
                     <p className="card__description">
-                        Dashboard refers to a very important feature that shows you how your game is performing against other games.
-                    </p>
-                </div>
-
-                <div className="a-card card-discover col-md-3">
-                    <div className="card-icon-title-wrapper">
-                        <div className="card__icon pb-1">
-                            <div className="icon__wrapper ">
-                                <img src="https://www.metakops.com/assets/img/admin/Winning-mode-in-admin-panel.png" alt />
-                            </div>
-                        </div>
-                        <h1 className="card__title fs-4 g-text">User Management</h1>
-                    </div>
-                    <p className="card__description">
-                        Dashboard refers to a very important feature that shows you how your game is performing against other games.
+                    Integration capabilities foster seamless data exchange and interoperability with external systems and services, enhancing collaboration and extending the software's functionality.
                     </p>
                 </div>
 

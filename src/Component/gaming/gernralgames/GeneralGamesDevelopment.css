@@ -602,8 +602,8 @@
 
 #game_dev_comp_main .game_dev_comp_quant .sprite_icons {
     width: 150px;
-    height: 190px;
-    object-fit: none;
+    height: 130px;
+    /* object-fit: none; */
     -webkit-animation: bounce2 3s infinite ease-in-out;
     -o-animation: bounce2 3s infinite ease-in-out;
     -ms-animation: bounce2 3s infinite ease-in-out;
@@ -13656,3 +13656,4 @@ a.text-dark:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.5);
     transform: scale(1.05);
 }
+

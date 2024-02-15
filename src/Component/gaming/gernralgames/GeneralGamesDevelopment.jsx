@@ -175,12 +175,13 @@ const GeneralGamesDevelopment = () => {
             <div className="row align-items-center">
               <div className="col-lg-5 p-lg-0">
                 <img
-                  src="images/casino-game-image1.jpg"
-                  className="img-fluid lazyload"
+                style={{width:"1000px"}}
+                  src="./images/back_new.jpg"
+                  // className="img-fluid lazyload"
                   alt="Game_Development_on_Prime_Platforms"
                   title="Our Game Development on Prime Platforms"
                 />
-                <a href="https://www.flaticon.com/free-icons/mobile-phone" title="mobile phone icons">Mobile phone icons created by itim2101 - Flaticon</a>
+                {/* <a href="https://www.flaticon.com/free-icons/mobile-phone" title="mobile phone icons">Mobile phone icons created by itim2101 - Flaticon</a> */}
               </div>
               <div className="col-lg-7 cus_col">
                 <h2 className="title">
@@ -380,11 +381,11 @@ const GeneralGamesDevelopment = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="quant_list">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/quant-icons.svg"
-                    className="sprite_icons lazyload"
+                    src="./images/contact.png"
+                    className="sprite_icons "
                     alt="250+_Innovators_Crafting_Games"
                     title="250+ Innovators Crafting Games"
-                    style={{ objectPosition: "0px 0px" }}
+                  // style={{ objectPosition: "0px 0px" }}
                   />
                   <div className="sub_title">
                     250+ Innovators Crafting Games
@@ -394,11 +395,11 @@ const GeneralGamesDevelopment = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="quant_list">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/quant-icons.svg"
-                    className="sprite_icons lazyload"
+                    src="./images/artist.png"
+                    className="sprite_icons "
                     alt="400+_Projects_Set_in_Motion"
                     title="400+ Projects Set in Motion"
-                    style={{ objectPosition: "-318px 0px" }}
+                  // style={{ objectPosition: "-318px 0px" }}
                   />
                   <div className="sub_title">400+ Projects Set in Motion</div>
                 </div>
@@ -406,11 +407,11 @@ const GeneralGamesDevelopment = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="quant_list">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/quant-icons.svg"
-                    className="sprite_icons lazyload"
+                    src="./images/handshake.png"
+                    className="sprite_icons"
                     alt="15+_Years_of_Gaming_Mastery"
                     title="15+ Years of Gaming Mastery"
-                    style={{ objectPosition: "-647px 0px" }}
+                  // style={{ objectPosition: "-647px 0px" }}
                   />
                   <div className="sub_title">15+ Years of Gaming Mastery</div>
                 </div>
@@ -418,11 +419,11 @@ const GeneralGamesDevelopment = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="quant_list">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/quant-icons.svg"
+                    src="./images/rating.png"
                     className="sprite_icons lazyload"
                     alt="75+_Countries_Immersed_in_Fun"
                     title="75+ Countries Immersed in Fun"
-                    style={{ objectPosition: "-989px 0px" }}
+                  // style={{ objectPosition: "-989px 0px" }}
                   />
                   <div className="sub_title">75+ Countries Immersed in Fun</div>
                 </div>
@@ -430,14 +431,18 @@ const GeneralGamesDevelopment = () => {
             </div>
           </div>
         </section>
+
+
+
         <section className="game_dev_comp_production">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-5 col-12 order-2 order-lg-1">
                 <div className="img_sec">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/production-img.webp?v1"
+                    src="https://themesflat.co/html/icolandhtml/assets/images/layout/Graphic.png"
                     className="img-fluid lazyload"
+                    // style={{marginBottom:"1000px"}}
                     alt="Osiz_Your_go_to_game_development_company"
                     title="MetaBlock Your go-to game development company.Find out why"
                   />
@@ -451,7 +456,8 @@ const GeneralGamesDevelopment = () => {
                   <div className="why_box">
                     <div className="head_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/production-icon.svg"
+                      style={{width:"40px"}}
+                        src="./images/blueprint.png"
                         className="img-fluid lazyload"
                         alt="Game_Production"
                         title="Game Production"

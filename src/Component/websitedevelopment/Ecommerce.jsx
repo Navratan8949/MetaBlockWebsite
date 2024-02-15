@@ -1,6 +1,11 @@
 import React from "react";
 import "./Ecommerce.css";
 import SimilarFile from "../SimilarFile";
+import { AiOutlineGlobal } from "react-icons/ai";
+import { RiCustomerServiceFill } from "react-icons/ri";
+import { SiSpringsecurity } from "react-icons/si";
+import { FcManager } from "react-icons/fc";
+
 const Ecommerce = () => {
   return (
     <div>
@@ -68,12 +73,13 @@ const Ecommerce = () => {
                 <div className="inr_img">
                   <div className="ver_mid">
                     <div className="img_box">
-                      <img
+                      {/* <img
                         src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/gps-services.png"
                         alt="GPS Services"
                         title="GPS Services"
                         className="img-fluid"
-                      />
+                      /> */}
+                       <AiOutlineGlobal />
                     </div>
                   </div>
                 </div>
@@ -161,26 +167,24 @@ const Ecommerce = () => {
         <div className="container">
           <div className="section-heading text-center">
             <h2 className="why_title">
-              Why Should You develop an Static Website for Your Business?
+              Why Should You develop an Ecommerce Website for Your Business?
             </h2>
             <div className="why_round"> </div>
           </div>
           <div className="row mar-top-30">
             <div className="col-md-12 col-sm-12">
               <p className="why_para text-center">
-                In today's digital landscape, static websites play a pivotal
-                role in enhancing online presence. As users seek effortless
-                access to information, a well-crafted static website serves as
-                the cornerstone for businesses looking to establish or expand
-                their digital footprint, ensuring a solid foundation for
-                sustained growth.
+              Developing an ecommerce website for your business offers a multitude 
+              of benefits that can significantly enhance your operations and profitability.
+              An ecommerce website allows you to reach customers beyond geographical boundaries, 
+              enabling you to tap into a global market and increase your customer base.
               </p>
               <div className="row mar-top-30">
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
                       <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg"
+                        src="./SGimage/advertising.png"
                         alt="Global Reach"
                         title="Global Reach"
                         style={{ objectPosition: "-7px -18px" }}
@@ -193,7 +197,7 @@ const Ecommerce = () => {
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
                       <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg"
+                        src="./SGimage/advertising.png"
                         alt="Customer Comfort"
                         title="Customer Comfort"
                         style={{ objectPosition: "-57px -18px" }}
@@ -206,7 +210,7 @@ const Ecommerce = () => {
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
                       <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg"
+                        src="./SGimage/advertising.png"
                         alt="Security & Scalability"
                         title="Security & Scalability"
                         style={{ objectPosition: "-110px -18px" }}
@@ -219,13 +223,13 @@ const Ecommerce = () => {
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
                       <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg"
+                        src="./SGimage/advertising.png"
                         alt="Advanced Opportunities"
                         title="Advanced Opportunities"
                         style={{ objectPosition: "-160px -18px" }}
                       />
                     </abbr>
-                    <h3>Strategic Advancements</h3>
+                    <h3>Strategic hello Advancements</h3>
                   </div>
                 </div>
               </div>
@@ -237,14 +241,14 @@ const Ecommerce = () => {
         <div className="container" style={{ background: "#696767" }}>
           <div className="section-heading text-center">
             <h2 className="our_title" style={{ padding: "20px" }}>
-              Our On-Demand Project Development Phase Cycle
+            Our On-Demand BlockChain Project Development Phase Cycle
             </h2>
             <div className="why_round"> </div>
           </div>
           <div className="row mar-top-30">
             <div className="col-sm-12 ">
               <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/workflow-desktop.svg"
+                src="./SGimage/BLOCKCHAIN PROJECT DEVELOPMENT LIFE CYCLE.webp"
                 className="img-fluid"
                 style={{ width: "100%", filter: "hue-rotate(253deg)" }}
               />
@@ -252,107 +256,82 @@ const Ecommerce = () => {
           </div>
         </div>
       </section>
-      <section className="mid_section">
+      <section className="section-heading mid_section-1">
         <div className="container">
-          <div className="section-heading text-center">
-            <h2 className="tools_title">Tools &amp; Technologies We Use</h2>
-            <div className="why_round"> </div>
-            <p className="text-center">
-              Staying at the forefront of cutting-edge technologies, we execute
-              the entire design and development process using the latest tools
-              and software, ensuring a forward-thinking and innovative approach.
-            </p>
+          <div className="row">
+            <div className="col-md-12">
+              <h2 style={{ color: "#D166AF ", fontSize: "31px" }} className="text-center Technology-Stack">Technology Stack We Use</h2>
+            </div>
           </div>
-          <div className="row mar-top-30 justify-content-center ">
-            <div className="col-lg-offset-1 col-sm-4 col-lg-2 center-img-cnt">
-              <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/angularjs-2.png?v1"
-                alt="AngularJS 2"
-                title="AngularJS 2"
-                className="img-fluid"
-              />
-              <h3>React JS</h3>
+          <div className="row tech p-5 pt-0 mt-5 mb-5">
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/physics.png" className="w-100 h-40" alt="" />
+              <h5>React</h5>
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/ionic.png?v1"
-                alt="Ionic"
-                title="Ionic"
-                className="img-fluid"
-              />
-              <h3>JavaScript</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/python.png" alt="" className="w-100 h-40" />
+              <h5>Python</h5>
+
             </div>
-            {/* <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/apache-cordova.png?v1"
-                alt="Apache Cordova"
-                title="Apache Cordova"
-                className="img-fluid"
-              />
-              <h3>Apache Cordova</h3>
-            </div> */}
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/nativescript.png?v1"
-                alt="NativeScript"
-                title="NativeScript"
-                className="img-fluid"
-              />
-              <h3>NativeScript</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+              <img src="./images/mysql.png" alt="" className="w-100 h-40" />
+              <h5>MySQL</h5>
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/css3.png?v1"
-                alt="CSS3"
-                title="CSS3"
-                className="img-fluid"
-              />
-              <h3>CSS3</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+              <h5>Java Srcipt</h5>
+
             </div>
-            <div className="col-lg-offset-1 col-sm-4 col-lg-2 center-img-cnt">
-              <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/html-5.png?v1"
-                alt="HTML 5"
-                title="HTML 5"
-                className="img-fluid"
-              />
-              <h3>HTML 5</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+              <h5>SQL Lite</h5>
+
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/mysql.png?v1"
-                alt="MySQL"
-                title="MySQL"
-                className="img-fluid"
-              />
-              <h3>MySQL</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/html.png" alt="" className="w-100 h-40" />
+              <h5>HTML</h5>
+
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/nodejs.png?v1"
-                alt="Node.js"
-                title="Node.js"
-                className="img-fluid"
-              />
-              <h3>Node.js</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+              <h5>Android</h5>
+
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/mongodb.png?v1"
-                alt="MongoDB"
-                title="MongoDB"
-                className="img-fluid"
-              />
-              <h3>MongoDB</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+              <h5>Mongo DB</h5>
+
             </div>
-            <div className="col-sm-4 col-lg-2 center-img-cnt">
-              <img
-                src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/ajax.png?v1"
-                alt="Ajax"
-                title="Ajax"
-                className="img-fluid"
-              />
-              <h3>Express JS</h3>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+              <h5>App Store</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+              <h5>Atom</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+              <h5>Laravel</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/python.png" alt="" className="w-100 h-40" />
+              <h5>Python</h5>
+
             </div>
           </div>
         </div>
