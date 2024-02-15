@@ -1,6 +1,7 @@
 import React from "react";
 import "./MainBlockchain.css";
 import SimilarFile from "../../SimilarFile";
+import { Link } from "react-router-dom";
 
 const MainBlockchain = () => {
   return (
@@ -32,30 +33,34 @@ const MainBlockchain = () => {
                 </div>
 
                 <div className="HddrBtns banner_btn_sec">
+                  <Link to="/ContectUsForm">
                   <button
                     data-toggle="modal"
                     data-target="#popup_form_modal"
                     className="btn BtnPrimry TlkBtn"
                   >
                     <span>
-                      <img
+                      {/* <img
                         src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif"
                         alt="enquiry"
                         loading="eager"
                         className="img-fluid lazyload mr-2"
-                      />
-                      Talk to our Experts
+                      /> */}
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z" fill="white"></path></svg>
+                      Talk Now
                     </span>
                     <span>
-                      <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif"
+                      {/* <img
+                        src="./SGimage/rating.png"
                         alt="enquiry"
                         loading="eager"
                         className="img-fluid lazyload mr-2"
-                      />
+                      /> */}
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z" fill="white"></path></svg>
                       Talk to our Experts
                     </span>
                   </button>
+                  </Link>
                 </div>
                 <div className="row justify-content-center">
                   <div className="col-lg-12">
@@ -112,41 +117,31 @@ const MainBlockchain = () => {
                     </h1>
                   </div>
                   <p>
-                    Osiz Technologies, A CMMI Standard - Level 3 Blockchain
-                    Development Company determined to deliver absolute
-                    software-based IT solutions for Startups, Entrepreneurs,
-                    Businesses, and Industries. Osiz undergoes continuous
-                    research and keeps it updated with the latest cutting-edge
-                    technologies to leverage the newest innovations including
-                    Blockchain, Cryptocurrency, DApps, Artificial Intelligence
-                    (AI), Big Data, Business Intelligence (BI), Internet of
-                    Thing (IoT), AI ChatBot, Machine Learning, AR/VR, Cloud
-                    computing and advanced JS Frameworks. Preceding with the
-                    main focus on eliminating the client’s business
-                    inefficiencies through technology, Osiz became a top-notch
-                    IT software solutions provider, globally. Owning direct
-                    access to high-class tools and technologies, Osiz assists
-                    Global customers to achieve international brand value
-                    through desired digitization.
+                  MetaBlock Technologies, drawing upon extensive experience and proficiency in blockchain development, 
+                  stands as a reliable industry partner. Harnessing the capabilities of cutting-edge technologies such 
+                  as Ethereum, Hyperledger, and Stellar, we specialize in crafting secure and scalable blockchain applications
+                   tailored to diverse business needs. Our commitment to a customer-centric approach ensures open communication 
+                   and collaboration throughout the project lifecycle, promoting transparency and timely project delivery. 
+                   Choosing MetaBlock Technologies as your blockchain development partner guarantees high-quality solutions 
+                   that seamlessly propel your business operations into the decentralized future.
                   </p>
                 </div>
                 <div className="GetBtnSec">
-                  <a
-                    className="btn BtnPrimry TlkBtn Btn175-44 mr-2 mb-2 btn-12"
-                    href="https://www.osiztechnologies.com/request-for-quotation"
-                    target="_blank"
-                  >
-                    <span>Get a free quote</span>
-                    <span>Get a free quote</span>
-                  </a>
-                  <button
+                  <Link to="/ContectUsForm">
+                  <span
+                    className="btn BtnPrimry TlkBtn Btn175-44 mr-2 mb-2 btn-12">
+                    <span>Get a live demo</span>
+                    <span>Get a live demo</span>
+                  </span>
+                  </Link>
+                  {/* <button
                     className="btn BtnPrimry TlkBtn Btn175-44 mb-2 BtnTrnsp btn-12"
                     data-toggle="modal"
                     data-target="#popup_form_modal"
                   >
                     <span>Get a live demo</span>
                     <span>Get a live demo</span>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
@@ -172,7 +167,7 @@ const MainBlockchain = () => {
               <div className="container container-1170">
                 <div className="blockchain_imgsec">
                   <img
-                    src="https://www.osiztechnologies.com/asset/home-page-new/images/blockchain-serv-img.webp"
+                    src="./SGimage/blockchaindev_img.avif"
                     loading="eager"
                     className="img-fluid lazyload"
                     alt="Blockchain-Empower-Your-Business-Operations-With-Blockchain-Technology"
@@ -334,11 +329,11 @@ const MainBlockchain = () => {
                   </div>
                   <div className="MtrvrRtImg MxBlndLight MtrvrRtImg_cus_img">
                     <img
-                      src="https://www.osiztechnologies.com/asset/home-page-new/images/mtvr-rt-img.webp?v1"
+                      src="./SGimage/metaverse_img.webp"
                       loading="eager"
                       className="img-fluid lazyload"
                       alt="Metaverse - Enter The World Beyond Imagination With Metaverse"
-                                          title="Metaverse - Enter The World Beyond Imagination With Metaverse"
+                      title="Metaverse - Enter The World Beyond Imagination With Metaverse"
 
                     />
                   </div>
@@ -352,7 +347,7 @@ const MainBlockchain = () => {
                 <div className="row">
                   <div className="MtrvrRtImg NftRtImg">
                     <img
-                      src="https://www.osiztechnologies.com/asset/home-page-new/images/nft-rt-img.webp"
+                      src="./SGimage/nft_img.jpg"
                       loading="eager"
                       className="img-fluid lazyload"
                       alt="NFT - Digitalize and own one-of-a-kind assets, forever in your secure wallet"
@@ -529,7 +524,7 @@ const MainBlockchain = () => {
                   </div>
                   <div className="MtrvrRtImg">
                     <img
-                      src="https://www.osiztechnologies.com/asset/home-page-new/images/defi-rt-img.webp"
+                      src="./SGimage/defi_img.jpg"
                       loading="eager"
                       className="img-fluid lazyload"
                       alt="Defi - Defy traditional finance with the DeFi revolution"
@@ -547,7 +542,7 @@ const MainBlockchain = () => {
                 <div className="row">
                   <div className="MtrvrRtImg NftRtImg">
                     <img
-                      src="https://www.osiztechnologies.com/asset/home-page-new/images/daps-rt-img.webp"
+                      src="./SGimage/dapp_img.jpg"
                       loading="eager"
                       className="img-fluid lazyload"
                       alt="DApp - Decentralize your business with our DApp today"
@@ -700,7 +695,7 @@ const MainBlockchain = () => {
                   <div className="col-xl-5">
                     <div className="MtrvrRtImg">
                       <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/crypto-rt-img.webp?v1"
+                        src="./SGimage/crypto_img.jpg"
                         loading="eager"
                         className="img-fluid lazyload"
                         alt="Crypto Exchange - Secure, decentralized, and limitless: enter the world of cryptocurrency"
@@ -716,9 +711,9 @@ const MainBlockchain = () => {
             <section className="MtaverseSec DapsMainBg ExchngeSec exchg_bg image-holder">
               <div className="container container-1170">
                 <div className="row">
-                  <div className="MtrvrRtImg NftRtImg">
+                  <div className="MtrvrRtImg NftRtImg clone_exch">
                     <img
-                      src="https://www.osiztechnologies.com/asset/home-page-new/images/exchnge-rt-img.webp"
+                      src="./SGimage/clone_img.webp"
                       loading="eager"
                       className="img-fluid lazyload"
                       alt="Exchange Clone - Revamp your trading potential with Exchange Clone"
