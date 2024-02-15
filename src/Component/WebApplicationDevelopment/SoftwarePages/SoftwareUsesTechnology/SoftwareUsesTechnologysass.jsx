@@ -10,96 +10,107 @@ const SoftwareUsesTechnologysass = () => {
                 <div className="dashboard-container">
 
                     <div className="dashboard-container-box dashboard-boxes"  >
-                    <div className="key-feature-heading">
-                        <img src="./images/factory.png" alt="" />
+                        <div className="key-feature-heading">
+                            <img src="./images/planning.png" alt="" />
 
-                            <h4>Manufacturing</h4>
-                            <p> ERP systems help manage production planning, scheduling, inventory management, supply chain operations, quality control, and resource allocation.
+                            <h4>Project Management</h4>
+                            <p>Inditres streamlines project tasks with intuitive tools for tracking and collaboration, ensuring teams stay organized and on schedule.
 
-</p></div>
+
+                            </p></div>
                     </div>
 
                     <div className="dashboard-container-box dashboard-boxes" >
-                    <div className="key-feature-heading">
-                        <img src="./images/supermarket.png" alt="" />
+                        <div className="key-feature-heading">
+                            <img src="./images/relationship.png" alt="" />
 
-                            <h4>Retail</h4>
-                            <p>Retailers use ERP software to manage inventory, sales, customer relationship management (CRM), point-of-sale (POS) systems, and supply chain processes.
+                            <h4>Customer Relationship Management </h4>
+                            <p>Enhance customer interactions and drive sales growth with Inditres' comprehensive CRM functionalities, from lead management to customer support.
 
-</p></div>
+
+                            </p></div>
                     </div>
 
                     <div className="dashboard-container-box dashboard-boxes" >
-                    <div className="key-feature-heading">
-                        <img src="./images/healthcare.png" alt="" />
+                        <div className="key-feature-heading">
+                            <img src="./images/human-resources.png" alt="" />
 
-                            <h4>Healthcare</h4>
-                            <p> ERP systems are used in hospitals and healthcare organizations to manage patient records, billing, scheduling, inventory, and regulatory compliance.
+                            <h4>Human Resources Management</h4>
+                            <p>Simplify HR processes with Inditres' tools for employee onboarding, performance evaluation, and payroll management, freeing up time for strategic initiatives.
 
-</p></div>
+
+
+                            </p></div>
                     </div>
 
                     <div className="dashboard-container-box dashboard-boxes" >
-                    <div className="key-feature-heading">
-                        <img src="./images/bank.png" alt="" />
+                        <div className="key-feature-heading">
+                            <img src="./images/bank.png" alt="" />
 
-                            <h4>Finance and Banking</h4>
-                            <p>Financial institutions use ERP software for managing accounting, financial reporting, regulatory compliance, risk management, and customer relationship management.
+                            <h4>Financial Management</h4>
+                            <p>Gain insights into financial health and make informed decisions with Inditres' robust financial management solutions, including expense tracking and reporting features.
 
-</p></div>
+
+
+                            </p></div>
                     </div>
 
                 </div>
                 <div className="dashboard-container">
 
                     <div className="dashboard-container-box dashboard-boxes"  >
-                    <div className="key-feature-heading">
-                        <img src="./images/school.png" alt="" />
+                        <div className="key-feature-heading">
+                            <img src="./images/marketing-automation.png" alt="" />
 
-                            <h4>Education</h4>
-                            <p> Educational institutions utilize ERP systems for student information management, academic scheduling, course registration, grading, and financial management.
+                            <h4>Marketing Automation</h4>
+                            <p>Automate campaigns, analyze performance metrics, and optimize conversions with Inditres' marketing automation platform, empowering marketers to engage their audience effectively
 
-</p></div>
-                    </div>
-                    
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                    <div className="key-feature-heading">
-                        <img src="./images/government.png" alt="" />
-
-                            <h4>Government</h4>
-                            <p>Government agencies leverage ERP software to manage budgeting, procurement, human resources, payroll, and other administrative processes.
-
-</p></div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-                    <div className="key-feature-heading">
-                        <img src="./images/architect.png" alt="" />
-
-                            <h4>Construction</h4>
-                            <p> In the construction industry, ERP systems help manage project costing, resource allocation, equipment management, subcontractor coordination, project scheduling, and procurement of materials.
-
-
-
-
-
-
-</p></div>
+                            </p></div>
                     </div>
 
+
                     <div className="dashboard-container-box dashboard-boxes" >
-                    <div className="key-feature-heading">
-                        <img src="./images/customer-service.png" alt="" />
+                        <div className="key-feature-heading">
+                            <img src="./images/material-management.png" alt="" />
 
-                            <h4>Services</h4>
-                            <p>ERP solutions cater to service-oriented businesses such as consulting firms, legal practices, and marketing agencies to streamline project management, resource allocation, time tracking, and billing.
-
-
+                            <h4>Inventory Management</h4>
+                            <p>Manage inventory levels, track stock movements, and optimize supply chains with Inditres' real-time visibility and efficiency-enhancing features.
 
 
 
+                            </p></div>
+                    </div>
+                    <div className="dashboard-container-box dashboard-boxes" >
+                        <div className="key-feature-heading">
+                            <img src="./images/revenue.png" alt="" />
 
-</p></div>
+                            <h4>Sales Enablement</h4>
+                            <p>Accelerate sales cycles and close deals effectively with Inditres' lead generation, pipeline management, and revenue-driving insights.
+
+
+
+
+
+
+
+
+                            </p></div>
+                    </div>
+
+                    <div className="dashboard-container-box dashboard-boxes" >
+                        <div className="key-feature-heading">
+                            <img src="./images/compliance-document.png" alt="" />
+
+                            <h4>Compliance and Security</h4>
+                            <p>Ensure data security and compliance with Inditres' encryption, access controls, and compliance reporting features, safeguarding sensitive information
+
+
+
+
+
+
+
+                            </p></div>
                     </div>
 
                 </div>

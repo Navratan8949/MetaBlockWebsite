@@ -174,14 +174,12 @@ const GeneralGamesDevelopment = () => {
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-lg-5 p-lg-0">
-                <img
-                style={{width:"1000px"}}
-                  src="./images/back_new.jpg"
-                  // className="img-fluid lazyload"
+                <img style={{ width: "200%", paddingLeft: "100px" }}
+                  src="images/gaming-web-image.jpg"
+                  className="img-fluid lazyload"
                   alt="Game_Development_on_Prime_Platforms"
                   title="Our Game Development on Prime Platforms"
                 />
-                {/* <a href="https://www.flaticon.com/free-icons/mobile-phone" title="mobile phone icons">Mobile phone icons created by itim2101 - Flaticon</a> */}
               </div>
               <div className="col-lg-7 cus_col">
                 <h2 className="title">
@@ -381,8 +379,8 @@ const GeneralGamesDevelopment = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="quant_list">
                   <img
-                    src="./images/contact.png"
-                    className="sprite_icons "
+                    src="./images/rating.png"
+                    className="sprite_icons lazyload"
                     alt="250+_Innovators_Crafting_Games"
                     title="250+ Innovators Crafting Games"
                   // style={{ objectPosition: "0px 0px" }}
@@ -395,8 +393,8 @@ const GeneralGamesDevelopment = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="quant_list">
                   <img
-                    src="./images/artist.png"
-                    className="sprite_icons "
+                    src="./images/handshake.png"
+                    className="sprite_icons lazyload"
                     alt="400+_Projects_Set_in_Motion"
                     title="400+ Projects Set in Motion"
                   // style={{ objectPosition: "-318px 0px" }}
@@ -407,8 +405,8 @@ const GeneralGamesDevelopment = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="quant_list">
                   <img
-                    src="./images/handshake.png"
-                    className="sprite_icons"
+                    src="./images/coordinator.png"
+                    className="sprite_icons lazyload"
                     alt="15+_Years_of_Gaming_Mastery"
                     title="15+ Years of Gaming Mastery"
                   // style={{ objectPosition: "-647px 0px" }}
@@ -419,7 +417,7 @@ const GeneralGamesDevelopment = () => {
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="quant_list">
                   <img
-                    src="./images/rating.png"
+                    src="./images/enjoy.png"
                     className="sprite_icons lazyload"
                     alt="75+_Countries_Immersed_in_Fun"
                     title="75+ Countries Immersed in Fun"
@@ -431,18 +429,14 @@ const GeneralGamesDevelopment = () => {
             </div>
           </div>
         </section>
-
-
-
         <section className="game_dev_comp_production">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-5 col-12 order-2 order-lg-1">
                 <div className="img_sec">
-                  <img
-                    src="https://themesflat.co/html/icolandhtml/assets/images/layout/Graphic.png"
+                  <img style={{ borderRadius: "10px", width: "200%" }}
+                    src="./images/gameimageinner.jpg"
                     className="img-fluid lazyload"
-                    // style={{marginBottom:"1000px"}}
                     alt="Osiz_Your_go_to_game_development_company"
                     title="MetaBlock Your go-to game development company.Find out why"
                   />
@@ -456,7 +450,8 @@ const GeneralGamesDevelopment = () => {
                   <div className="why_box">
                     <div className="head_sec">
                       <img
-                      style={{width:"40px"}}
+                        style={{ width: "40px" }}
+
                         src="./images/blueprint.png"
                         className="img-fluid lazyload"
                         alt="Game_Production"
@@ -475,7 +470,9 @@ const GeneralGamesDevelopment = () => {
                   <div className="why_box">
                     <div className="head_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/production-icon.svg"
+                        style={{ width: "40px" }}
+
+                        src="./images/artist.png"
                         className="img-fluid lazyload"
                         alt="Game_Production"
                         title="Game Production"
@@ -494,7 +491,9 @@ const GeneralGamesDevelopment = () => {
                   <div className="why_box">
                     <div className="head_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/production-icon.svg"
+                        style={{ width: "40px" }}
+
+                        src="./images/contact.png"
                         className="img-fluid lazyload"
                         alt="Game_Production"
                         title="Game Production"
@@ -516,7 +515,8 @@ const GeneralGamesDevelopment = () => {
                   <div className="why_box">
                     <div className="head_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/production-icon.svg"
+                        style={{ width: "40px" }}
+                        src="./images/game-development.png"
                         className="img-fluid lazyload"
                         alt="Game_Production"
                         title="Game Production"
@@ -537,7 +537,9 @@ const GeneralGamesDevelopment = () => {
                   <div className="why_box">
                     <div className="head_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/production-icon.svg"
+                        style={{ width: "40px" }}
+
+                        src="./images/gaming.png"
                         className="img-fluid lazyload"
                         alt="Game_Production"
                         title="Game Production"
@@ -555,7 +557,9 @@ const GeneralGamesDevelopment = () => {
                   <div className="why_box">
                     <div className="head_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/production-icon.svg"
+                        style={{ width: "40px" }}
+
+                        src="./images/computer-game.png"
                         className="img-fluid lazyload"
                         alt="Game_Production"
                         title="Game Production"
@@ -583,7 +587,8 @@ const GeneralGamesDevelopment = () => {
           <div className="container">
             <div className="why_img_sec">
               <img
-                src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/why-img1.webp"
+                style={{ width: "30px" }}
+                src="./images/contact.png"
                 className="img-fluid lazyload"
                 alt="Osiz_Your_go_to_game_development_company"
                 title="MetaBlock Your go-to game development company.Find out why"
@@ -617,8 +622,9 @@ const GeneralGamesDevelopment = () => {
               <div className="col-lg-5 col-12">
                 <div className="img_sec">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/why-img.webp?v3"
-                    className="img-fluid lazyload"
+                    // style={{ paddingLeft: "150px" }}
+                    src="./images/3dimage-in.png"
+                    className="img-fluid lazyload go-to-gamedevelopment"
                     alt="Osiz_Your_go_to_game_development_company"
                     title="MetaBlock Your go-to game development company.Find out why"
                   />

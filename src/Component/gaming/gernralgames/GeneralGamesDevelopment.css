@@ -13657,3 +13657,13 @@ a.text-dark:hover {
     transform: scale(1.05);
 }
 
+.go-to-gamedevelopment {
+    padding-left: 140px;
+}
+
+@media (max-width: 500px) {
+    .go-to-gamedevelopment {
+        padding: 1px;
+    }
+
+}

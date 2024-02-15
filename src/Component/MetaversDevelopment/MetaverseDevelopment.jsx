@@ -74,31 +74,31 @@ const MetaverseDevelopment = () => {
                   digital landscape.
                 </p>
                 <p className="contents">
-                Join us at MetaBlock Technologies, where we
+                  Join us at MetaBlock Technologies, where we
                   lead the way in creating unparalleled virtual adventures.
                   Let's collaborate to turn your vision into a dynamic digital
                   reality, unlocking the endless possibilities within the
                   Metaverse.
                 </p>
                 <div className="met_game_what_about_btn_sec"
-                  onClick={()=> navigate('/ContectUsForm')}
+                  onClick={() => navigate('/ContectUsForm')}
                 >
                   <a
                     // href="https://web.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20your%20services.%20Shall%20we%20discuss%20now?%20-%20' https://www.osiztechnologies.com/metaverse-development-company '"
                     className="btn met_game_what_about_btn desktop"
-                    // target="_blank"
+                  // target="_blank"
                   >
-                   
+
                     &nbsp;Talk To our Experts
                   </a>
                   <a
                     // href="https://api.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20your%20services.%20Shall%20we%20discuss%20now?%20-%20' https://www.osiztechnologies.com/metaverse-development-company '"
                     className="btn met_game_what_about_btn mobile"
-                    // target="_blank"
+                  // target="_blank"
                   >
                     &nbsp;Talk To our Experts
                   </a>
-                  
+
                 </div>
               </div>
             </div>
@@ -323,39 +323,38 @@ const MetaverseDevelopment = () => {
                       <p className="sub_contents-15">
                         Our Metaverse NFT Game development services come with
                         various metaverse 3D virtual environments, live game
-                        streaming, crypto value exchange, P2E(Play to Earn)
-                        gaming with NFTs minting, and some more for the users to
+                        streaming, P2E(Play to Earn)
+                        and some more for the users to
                         relish on it.
                       </p>
                     </div>
                   </a>
                 </div>
                 <div className="col-lg-4 col-12">
-                  <a
+                  {/* <a
                     href="https://www.osiztechnologies.com/blog/metaverse-social-media-platform-development"
                     title="Metaverse Social Media Platform"
                     target="_blank"
-                  >
-                    <div className="platform_box">
-                      <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
-                        alt="Metaverse Social Media Platform Development"
-                        title="Metaverse Social Media Platform Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-96px 0px" }}
-                      />
-                      <h3 className="sub_title-15">
-                        Metaverse Social Media Platform Development
-                      </h3>
-                      <p className="sub_contents-15">
-                        With our expert help, we aid you to launch a social
-                        media metaverse-based project. That furnishes you with
-                        the best social media connectivity, virtual reality
-                        experiences, 3D environments for virtual social
-                        engagement.
-                      </p>
-                    </div>
-                  </a>
+                  > */}
+                  <div className="platform_box">
+                    <img
+                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                      alt="Metaverse Social Media Platform Development"
+                      title="Metaverse Social Media Platform Development"
+                      className="sprite_icons"
+                      style={{ objectPosition: "-96px 0px" }}
+                    />
+                    <h3 className="sub_title-15">
+                      Metaverse Social Media Platform Development
+                    </h3>
+                    <p className="sub_contents-15">
+                      With our expert help, we aid you to launch a social
+                      media metaverse-based project. That furnishes you with
+                      the best social media connectivity and 3D environments for virtual social
+                      engagement.
+                    </p>
+                  </div>
+                  {/* </a> */}
                 </div>
                 <div className="col-lg-4 col-12">
                   <a
@@ -376,8 +375,7 @@ const MetaverseDevelopment = () => {
                       </h3>
                       <p className="sub_contents-15">
                         With the outstanding revolution of the metaverse
-                        industry, now it includes Virtual Mall. We aid you to
-                        start your own virtual Mall empire for your user. Users
+                        industry, now it includes Virtual Mall. Users
                         can access the metaverse mall through virtual reality
                         (VR) devices or other platforms.
                       </p>
@@ -482,9 +480,8 @@ const MetaverseDevelopment = () => {
                       <p className="sub_contents-15">
                         Revolutionize education within the metaverse. Our
                         immersive virtual classrooms and collaborative spaces
-                        foster interactive learning experiences, connecting
-                        students and educators in an innovative digital realm
-                        for enhanced knowledge sharing.
+                        foster interactive learning experiences and digital realm
+                        for enhanced knowledge.
                       </p>
                     </div>
                   </a>
@@ -509,7 +506,7 @@ const MetaverseDevelopment = () => {
                       <p className="sub_contents-15">
                         Redefine property exploration in the metaverse. Explore
                         virtual property tours and architectural visualizations,
-                        creating dynamic, immersive experiences for architects,
+                        creating dynamic,
                         real estate professionals, and property enthusiasts.
                       </p>
                     </div>
@@ -535,7 +532,7 @@ const MetaverseDevelopment = () => {
                       <p className="sub_contents-15">
                         Transform work within the metaverse. Our virtual offices
                         and collaborative environments enable seamless remote
-                        teamwork, enhancing collaboration and productivity
+                        teamwork,  collaboration and productivity
                         within immersive digital workspaces.
                       </p>
                     </div>
@@ -586,8 +583,8 @@ const MetaverseDevelopment = () => {
                       </h3>
                       <p className="sub_contents-15">
                         Thrills await in the virtual theme park. MetaBlock delivers
-                        excitement with virtual roller coasters, games, and
-                        immersive adventures, redefining entertainment within
+                        excitement with virtual roller coasters, games,
+                        immersive adventures and redefining entertainment within
                         the metaverse for a thrilling experience.
                       </p>
                     </div>
@@ -621,7 +618,7 @@ const MetaverseDevelopment = () => {
                 </div>
               </div>
             </div>
-        
+
           </div>
         </section>
 
@@ -630,10 +627,10 @@ const MetaverseDevelopment = () => {
             <h2 className="title">
               Potential Benefits of Metaverse Development
             </h2>
-            <p className="contents">
+            {/* <p className="contents">
               Metaverse development offers some comprehensive potential benefits
               such as
-            </p>
+            </p> */}
             <div className="row justify-content-center">
               <div className="col-lg-4 col-12">
                 <div className="benefits_box">
@@ -736,10 +733,10 @@ const MetaverseDevelopment = () => {
             <h2 className="title">
               Features making the difference in Metaverse Development
             </h2>
-            <p className="contents">
+            {/* <p className="contents">
               There are a few basic features that influence the growth of the
               metaverse such as,
-            </p>
+            </p> */}
             <div className="row justify-content-center">
               <div className="col-lg-4 col-12">
                 <div className="feature_box">

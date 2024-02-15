@@ -11,7 +11,6 @@ import ERPSoftware from './Component/WebApplicationDevelopment/SoftwarePages/ERP
 import TimeandSlider from './DisplayProduct/TimeandSlider';
 import Main from './Main';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import AccountingBillingSoftware from './Component/WebApplicationDevelopment/SoftwarePages/Accounting&BillingSoftware';
 import SAASSoftware from './Component/WebApplicationDevelopment/SoftwarePages/SAASSoftware';
 import WarehouseManagmentSoftware from './Component/WebApplicationDevelopment/SoftwarePages/WarehouseManagmentSoftware';
 import HRMSSoftware from './Component/WebApplicationDevelopment/SoftwarePages/HRMSSoftware';
@@ -116,6 +115,7 @@ import NFTCrosschainPlatfromDevelopment from './Component/blockchain/NFTDevelopm
 import NFTFantasySportsPlatformDevelopment from './Component/blockchain/NFTDevelopment/NFTFantasySportsPlatformDevelopment/NFTFantasySportsPlatformDevelopment';
 import MainBlockchain from './Component/blockchain/mainblockchain/MainBlockchain';
 import WalletConnectClone from './Component/blockchain/Walletdevelopmen/WalletConnectClone/WalletConnectClone';
+import AccountBilling from './Component/WebApplicationDevelopment/SoftwarePages/Accounting&BillingSoftware';
 
 const AllRouteFiles = () => {
     return (
@@ -143,8 +143,7 @@ const AllRouteFiles = () => {
                         <Route path='/Blog' element={<Blog />} />
 
                         {/* Software pages */}
-
-                        <Route path=' AccountingBillingSoftware' element={<AccountingBillingSoftware />} />
+                        <Route path='AccountBilling' element={<AccountBilling />} />
                         <Route path='ERPSoftware' element={<ERPSoftware />} />
                         <Route path='SAASSoftware' element={<SAASSoftware />} />
                         <Route path='WarehouseManagmentSoftware' element={<WarehouseManagmentSoftware />} />

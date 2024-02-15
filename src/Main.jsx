@@ -523,7 +523,7 @@ const Main = () => {
                             Web development is one of the oldest services and over time it has evolved a lot. At MetaBlock we are always ahead of the market by using only the latest and the best web technologies for our client projects. Some of the web technologies we use are HTML, CSS, Javascript, Bootstrap, Tailwind, and React JS.
                           </p>
                         </div>
-                      <Link to="/ContectUsForm">  <Button className="button-who">Visit Now</Button></Link>
+                        <Link to="/ContectUsForm">  <Button className="button-who">Visit Now</Button></Link>
 
                       </div>
                     </div>
@@ -1296,7 +1296,7 @@ const Main = () => {
             <div className="why_osiz_blockchain_card">
               <div className="row align-items-center">
                 <div className="col-lg-6 col-12 trusted-img" >
-                  <img src="./SGimage/contact_img.jpg"/>
+                  <img src="./SGimage/contact_img.jpg" />
                 </div>
                 <div className="col-lg-6 col-12">
                   <p className="contents">
@@ -1338,9 +1338,9 @@ const Main = () => {
         </div>
 
         <div>
-            <TrandingProduct />
-          </div>
-          
+          <TrandingProduct />
+        </div>
+
         <div>
           <SimilarFile />
         </div>

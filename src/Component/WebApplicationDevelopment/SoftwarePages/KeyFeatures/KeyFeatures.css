@@ -3,9 +3,9 @@
 }
 
 .dashboard-container-box {
-    padding: 20px 20px;
+    padding: 30px 20px;
     cursor: pointer;
-    width: 320px !important;
+    width: 290px !important;
     height: 270px;
     display: flex;
     align-items: center;
@@ -86,10 +86,10 @@
 }
 
 
-.key-feature-heading h4{
-text-align: center;
+.key-feature-heading h4 {
+    text-align: center;
 }
 
-.key-feature-heading img{
+.key-feature-heading img {
     width: 80px;
-    }
+}

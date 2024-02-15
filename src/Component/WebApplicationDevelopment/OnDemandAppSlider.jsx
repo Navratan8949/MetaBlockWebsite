@@ -69,71 +69,71 @@ const SoftwareCarousel = [
     path: "/UniversityManagmentSoftware",
     image: "https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png"
   },
-  // {
-  //   name: "Quiz System Software",
-  //   path: "/QuizSystemSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Astrology Software",
-  //   path: "/AstrologySoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Travel Booking Software",
-  //   path: "/TravelBookingSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Matrimonial Software",
-  //   path: "/MatrimonialSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Restaurant Managment System Software",
-  //   path: "/RestaurantManagmentSystemSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Hotel Managment Software",
-  //   path: "/HotelManagmentSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Event management Software",
-  //   path: "/EventmanagementSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Hospital Managment System Software",
-  //   path: "/HospitalManagmentSystemSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Real state Software",
-  //   path: "/RealstateSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Clinic Managment System Software",
-  //   path: "/ClinicManagmentSystemSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "MLM Software",
-  //   path: "/MLMSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Trading Software",
-  //   path: "/TradingSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
-  // {
-  //   name: "Job Portal Software",
-  //   path: "/JobPortalSoftware",
-  //   image: "https://www.osiztechnologies.com/asset/images/inner-pages/demand/tinder-clone.png"
-  // },
+  {
+    name: "Quiz System Software",
+    path: "/QuizSystemSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/01.png"
+  },
+  {
+    name: "Astrology Software",
+    path: "/AstrologySoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/02-1.png"
+  },
+  {
+    name: "Travel Booking Software",
+    path: "/TravelBookingSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/03-1.png"
+  },
+  {
+    name: "Matrimonial Software",
+    path: "/MatrimonialSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/04.png"
+  },
+  {
+    name: "Restaurant Managment System Software",
+    path: "/RestaurantManagmentSystemSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png"
+  },
+  {
+    name: "Hotel Managment Software",
+    path: "/HotelManagmentSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/06.png"
+  },
+  {
+    name: "Event management Software",
+    path: "/EventmanagementSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/06.png"
+  },
+  {
+    name: "Hospital Managment System Software",
+    path: "/HospitalManagmentSystemSoftware",
+    image: "https://themeht.com/template/soften/ltr/images/about/03.png"
+  },
+  {
+    name: "Real state Software",
+    path: "/RealstateSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/02-1.png"
+  },
+  {
+    name: "Clinic Managment System Software",
+    path: "/ClinicManagmentSystemSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/03-1.png"
+  },
+  {
+    name: "MLM Software",
+    path: "/MLMSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/04.png"
+  },
+  {
+    name: "Trading Software",
+    path: "/TradingSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png"
+  },
+  {
+    name: "Job Portal Software",
+    path: "/JobPortalSoftware",
+    image: "https://soften.themeht.com/wp-content/uploads/2023/12/06.png"
+  },
 ];
 
 

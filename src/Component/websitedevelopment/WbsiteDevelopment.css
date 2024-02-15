@@ -27706,6 +27706,8 @@ left: 0px;
     border-radius: 15px;
     display: flex;
     align-items: center;
+    justify-content: center !important;
+    flex-direction: column !important;
 }
 
 .benefits_box1 {

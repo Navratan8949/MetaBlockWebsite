@@ -1,0 +1,100 @@
+import React from 'react'
+import './KeyFeatures.css'
+const HRMSkeyFeature = () => {
+    return (
+        <div style={{ marginBottom: '50px ' }} >
+
+            <div className="dashboard-main-box">
+                <h4 className='Key-feature-heading'>Key Feature</h4>
+                <div className="dashboard-container">
+
+                    <div className="dashboard-container-box dashboard-boxes"  >
+
+                        <div className="key-feature-heading">
+                            <img src="./images/info.png" alt="" />
+
+                            <h4>Employee Information</h4>
+                            <p>Employee Information Management centralizes employee data, facilitating easy access to personal details and employment history.</p>
+                        </div>
+                    </div>
+
+
+                    <div className="dashboard-container-box dashboard-boxes" >
+                        <div className="key-feature-heading">
+                            <img src="./images/attendance.png" alt="" />
+
+                            <h4>Attendance Tracking</h4>
+                            <p>Attendance Tracking automates attendance records, ensuring accurate payroll processing and compliance with labor regulations.</p>
+                        </div>
+                    </div>
+                    <div className="dashboard-container-box dashboard-boxes" >
+                        <div className="key-feature-heading">
+                            <img src="./images/stress-management.png" alt="" />
+
+                            <h4>Leave Management</h4>
+                            <p>Leave Management streamlines leave requests, approvals, and balance tracking for efficient absence management.</p>
+                        </div>
+                    </div>
+
+                    <div className="dashboard-container-box dashboard-boxes" >
+                        <div className="key-feature-heading">
+                            <img src="./images/quality-control.png" alt="" />
+
+                            <h4>Performance Monitoring</h4>
+                            <p>Performance Management supports goal setting, evaluations, and feedback to enhance employee development and organizational performance.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="dashboard-container">
+
+                    <div className="dashboard-container-box dashboard-boxes"  >
+                        <div className="key-feature-heading">
+                            <img src="./images/recruiter.png" alt="" />
+
+
+                            <h3 style={{ textAlign: "Center" }}>Recruitment & Tracking</h3>
+                            <p>Recruitment and Applicant Tracking simplifies candidate sourcing, resume screening, and interview scheduling.</p>
+                        </div>
+                    </div>
+
+
+                    <div className="dashboard-container-box dashboard-boxes" >
+                        <div className="key-feature-heading">
+                            <img src="./images/analysis.png" alt="" />
+
+                            <h4>Training & Development
+                            </h4>
+                            <p>Training and Development tracks employee training needs and participation, fostering continuous learning and skill development.</p>
+                        </div>
+                    </div>
+                    <div className="dashboard-container-box dashboard-boxes" >
+                        <div className="key-feature-heading">
+                            <img src="./images/self-service.png" alt="" />
+
+                            <h4>Self-Service Portal</h4>
+                            <p>Employee Self-Service Portal empowers employees to update information, submit leave requests, and access pay stubs conveniently.</p>
+                        </div>
+                    </div>
+
+                    <div className="dashboard-container-box dashboard-boxes" >
+                        <div className="key-feature-heading">
+                            <img src="./images/business-plan.png" alt="" />
+
+                            <h4>Compliance Management
+                            </h4>
+                            <p>Compliance Management ensures adherence to labor laws and company policies through automated compliance checks and documentation management.
+
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    )
+}
+
+export default HRMSkeyFeature

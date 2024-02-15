@@ -47,7 +47,7 @@ const Navbar = () => {
     },
     {
       name: "Accounting & Billing Software",
-      path: "/AccountingBillingSoftware",
+      path: "/AccountBilling",
     },
     {
       name: "POS System Software",
@@ -376,7 +376,42 @@ const Navbar = () => {
     },
   ];
 
-  const genralgamedevelopment = [
+  const casinogamesdevelopment = [
+
+    {
+      name: "Ludo Game Development",
+    },
+    {
+      name: "Rummy Game Development",
+    },
+    {
+      name: "Teenpatti Game Development",
+    },
+    {
+      name: "Dragon & Tiger Game Development",
+    },
+    {
+      name: "Poker Game Development",
+    },
+    {
+      name: "Baccarat Game Development",
+    },
+    {
+      name: "Roulette Game Development",
+    },
+    {
+      name: "Tournament Development",
+    },
+    {
+      name: "Andar Bahar Game Development",
+    },
+    {
+      name: "Fantasy Cricket Game Development",
+    }
+  ];
+
+
+  const metaversegamesdevelopment = [
     {
 
       name: "Win GO",
@@ -1801,31 +1836,7 @@ const Navbar = () => {
                               >
                                 genral game development
                               </a>
-                              <div style={{ marginLeft: "150px" }}
-                                className="dropdown-menu drop_right_menu"
-                                aria-labelledby="navbarDropdown"
-                              >
-                                <div className="row">
-                                  <div className="col-lg-12">
-                                    <div>
-                                      {genralgamedevelopment.map((item, index) => (
-                                        <li
-                                          // onClick={() => navigate(item.path)}
-                                          key={index}
-                                        >
-                                          <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
-                                            target="_blank"
-                                            style={{ color: "white" }}
-                                          >
-                                            {item.name}
-                                          </a>
-                                        </li>
-                                      ))}
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+
                             </div>
                             {/* <li onClick={() => navigate("/CasinoGames")}>
                               <a
@@ -1854,7 +1865,7 @@ const Navbar = () => {
                                 <div className="row">
                                   <div className="col-lg-12">
                                     <div>
-                                      {BlockChain.map((item, index) => (
+                                      {casinogamesdevelopment.map((item, index) => (
                                         <li
                                           onClick={() => navigate(item.path)}
                                           key={index}
@@ -1900,7 +1911,7 @@ const Navbar = () => {
                                 <div className="row">
                                   <div className="col-lg-12">
                                     <div>
-                                      {BlockChain.map((item, index) => (
+                                      {metaversegamesdevelopment.map((item, index) => (
                                         <li
                                           onClick={() => navigate(item.path)}
                                           key={index}

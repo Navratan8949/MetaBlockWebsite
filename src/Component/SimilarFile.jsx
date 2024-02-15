@@ -6,6 +6,13 @@ import React from "react";
 import WhyChooseUs from './MainPage/WhyChooseUs';
 import TrandingProduct from './MainPage/TrandingProduct';
 import { Link } from 'react-router-dom';
+import PlayTOEarnPortfoliio from './MainPage/PlayToEarnPorfolio';
+import MetaversePortfolio from './MainPage/MetaversePorfolio';
+import BlockchainPorfolio from './MainPage/BlockchainPorfolio';
+import ExchangePorfolio from './MainPage/ExchangePorfolio';
+import NFTPorfolio from './MainPage/NFTPorfolio';
+import DefiPorfolio from './MainPage/DefiPorfolio';
+import DAppPorfolio from './MainPage/DAppPorfolio';
 
 
 const SimilarFile = () => {
@@ -180,7 +187,7 @@ const SimilarFile = () => {
                               </div>
                             </div>
                           </div>
-                          
+
                           <div className="PrjctsBtnSec game_PrjctBtn">
                             <div className="mr-4 mb-4">
                               <div className="PrjctBtn_new Btn211-42">
@@ -520,7 +527,7 @@ const SimilarFile = () => {
                             </div>
                           </div>
                         </div> */}
-                          <RelatedPortfolioSlider />
+                          <PlayTOEarnPortfoliio />
                         </div>
                       </div>
                     </div>
@@ -681,7 +688,7 @@ const SimilarFile = () => {
                             </div>
                           </div>
                         </div> */}
-                          <RelatedPortfolioSlider />
+                          < MetaversePortfolio />
                         </div>
                       </div>
                     </div>
@@ -842,7 +849,7 @@ const SimilarFile = () => {
                             </div>
                           </div>
                         </div> */}
-                          <RelatedPortfolioSlider />
+                          <BlockchainPorfolio />
                         </div>
                       </div>
                     </div>
@@ -1026,7 +1033,7 @@ const SimilarFile = () => {
                             </div>
                           </div>
                         </div> */}
-                          <RelatedPortfolioSlider />
+                          <ExchangePorfolio />
                         </div>
                       </div>
                     </div>
@@ -1207,7 +1214,7 @@ const SimilarFile = () => {
                             </div>
                           </div>
                         </div> */}
-                          <RelatedPortfolioSlider />
+                          <NFTPorfolio />
                         </div>
                       </div>
                     </div>
@@ -1376,7 +1383,7 @@ const SimilarFile = () => {
                             </div>
                           </div>
                         </div> */}
-                          <RelatedPortfolioSlider />
+                          <DefiPorfolio />
                         </div>
                       </div>
                     </div>
@@ -1517,7 +1524,7 @@ const SimilarFile = () => {
                             </div>
                           </div>
                         </div> */}
-                          <RelatedPortfolioSlider />
+                          <DAppPorfolio />
                         </div>
                       </div>
                     </div>
@@ -1570,11 +1577,11 @@ const SimilarFile = () => {
           {/* <section>
           <Card />
         </section> */}
-          <main  className="faq_main">
+          <main className="faq_main">
             <div className="faq_section_new">
               <div className="container">
-                <div style={{gap:"100px"}}  className="row background-image-inner">
-                 
+                <div style={{ gap: "100px" }} className="row background-image-inner">
+
                   <div className="col-xl-7 col-12">
                     <div className="mid_section">
                       <div className="section-heading">
@@ -1617,9 +1624,9 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                                Blockchain development refers to the process of creating and implementing blockchain-based 
-                                solutions and applications. Blockchain technology is a decentralized and distributed ledger 
-                                system that securely records transactions across a network of computers. Each transaction is 
+                                Blockchain development refers to the process of creating and implementing blockchain-based
+                                solutions and applications. Blockchain technology is a decentralized and distributed ledger
+                                system that securely records transactions across a network of computers. Each transaction is
                                 recorded in a block, which is then linked to previous blocks, forming a chain of blocks.
                               </p>
                             </div>
@@ -1656,12 +1663,12 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                              Launchpad development typically refers to the creation and
-                              management of a platform or infrastructure that facilitates
-                              the launching of new projects, products, or initiatives. This 
-                              term is commonly used in the context of technology startups, 
-                              where a launchpad serves as a centralized platform for managing 
-                              the entire lifecycle of a project,
+                                Launchpad development typically refers to the creation and
+                                management of a platform or infrastructure that facilitates
+                                the launching of new projects, products, or initiatives. This
+                                term is commonly used in the context of technology startups,
+                                where a launchpad serves as a centralized platform for managing
+                                the entire lifecycle of a project,
                               </p>
                             </div>
                           </div>
@@ -1697,10 +1704,10 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                              Getting started with blockchain development for your project or 
-                              business involves several steps to understand the technology, select 
-                              the appropriate platform, and begin building decentralized applications 
-                              (DApps) or blockchain-based solutions.
+                                Getting started with blockchain development for your project or
+                                business involves several steps to understand the technology, select
+                                the appropriate platform, and begin building decentralized applications
+                                (DApps) or blockchain-based solutions.
                               </p>
                             </div>
                           </div>
@@ -1736,10 +1743,10 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                              The choice of blockchain platform depends on your project requirements, use cases, 
-                              scalability needs, and development preferences. Popular blockchain platforms include 
-                              Ethereum, Hyperledger Fabric, Binance Smart Chain, and others, each offering different 
-                              features and capabilities.
+                                The choice of blockchain platform depends on your project requirements, use cases,
+                                scalability needs, and development preferences. Popular blockchain platforms include
+                                Ethereum, Hyperledger Fabric, Binance Smart Chain, and others, each offering different
+                                features and capabilities.
                               </p>
                             </div>
                           </div>
@@ -1775,10 +1782,10 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                              Smart contracts are deployed on the blockchain using specialized tools and
-                              platforms provided by the blockchain network. Developers typically use command-line tools, 
-                              Integrated Development Environments (IDEs), or blockchain-specific platforms to compile, deploy, 
-                              and interact with smart contracts.
+                                Smart contracts are deployed on the blockchain using specialized tools and
+                                platforms provided by the blockchain network. Developers typically use command-line tools,
+                                Integrated Development Environments (IDEs), or blockchain-specific platforms to compile, deploy,
+                                and interact with smart contracts.
                               </p>
                             </div>
                           </div>
@@ -1814,10 +1821,10 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                              Security is paramount in blockchain development. Developers must consider vulnerabilities 
-                              such as reentrancy attacks, front-running, and smart contract bugs. Best practices include 
-                              code auditing, secure coding practices, and rigorous testing to ensure the security of smart 
-                              contracts and DApps.
+                                Security is paramount in blockchain development. Developers must consider vulnerabilities
+                                such as reentrancy attacks, front-running, and smart contract bugs. Best practices include
+                                code auditing, secure coding practices, and rigorous testing to ensure the security of smart
+                                contracts and DApps.
                               </p>
                             </div>
                           </div>
@@ -1857,10 +1864,10 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                              Blockchain applications are tested using a combination of techniques such as 
-                              unit testing, integration testing, and end-to-end testing. Tools like Truffle, 
-                              Ganache, and Remix provide frameworks for testing smart contracts and DApps in 
-                              simulated or real blockchain environments.
+                                Blockchain applications are tested using a combination of techniques such as
+                                unit testing, integration testing, and end-to-end testing. Tools like Truffle,
+                                Ganache, and Remix provide frameworks for testing smart contracts and DApps in
+                                simulated or real blockchain environments.
                               </p>
                             </div>
                           </div>
@@ -1900,10 +1907,10 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                              Scalability is a significant challenge in blockchain development, 
-                              especially for public blockchains. Issues such as transaction throughput, 
-                              network congestion, and gas fees need to be addressed. Solutions include 
-                              layer 2 scaling solutions, sharding, and off-chain scaling techniques.
+                                Scalability is a significant challenge in blockchain development,
+                                especially for public blockchains. Issues such as transaction throughput,
+                                network congestion, and gas fees need to be addressed. Solutions include
+                                layer 2 scaling solutions, sharding, and off-chain scaling techniques.
                               </p>
                             </div>
                           </div>
@@ -2000,7 +2007,7 @@ const SimilarFile = () => {
                 </div>
               </div>
 
-              
+
             </div>
           </main>
         </div>
