@@ -13,8 +13,9 @@ const InventryKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
 
-                            <h4>Inventory Monitoring</h4>
-                            <p>It has a fully-integrated Inventory Management system. Fully illustrated stock information, purchase information, sale information. You will also get a notification before running out any product.</p>
+                            <h4>Inventory Tracking</h4>
+                            <p>Inventory Tracking ensures real-time visibility of inventory levels, locations, and movements across the supply chain.
+                            </p>
                         </div>
                     </div>
 
@@ -23,16 +24,20 @@ const InventryKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp" alt="" />
 
-                            <h4>Make Better Decision</h4>
-                            <p>Get a complete Graphical view of your business—from Accounts, Sale, Purchase, Inventory and Customer Service with reliable reports. You can make a better decision about the future of your business.</p>
+                            <h4>Barcode and RFID Integration
+                            </h4>
+                            <p>Barcode and RFID Integration automates data entry and enhances accuracy in inventory tracking processes.
+                            </p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp" alt="" />
 
-                            <h4>Remote Access</h4>
-                            <p>You can control your business from anywhere in the world with an internet connection. To get remote access you can use our android app or you can directly access your sales ERP software from a browser.</p>
+                            <h4>Multi-location Management
+                            </h4>
+                            <p>Multi-location Management provides centralized control and visibility of inventory across warehouses and distribution centers.
+                            </p>
                         </div>
                     </div>
 
@@ -40,8 +45,10 @@ const InventryKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
 
-                            <h4> Sales System</h4>
-                            <p>Sales ERP software has a fully automatic Sales system. There is a POS system for sale. There is also an excellent sales system called GUI POS, which can make the sale faster.</p>
+                            <h4>Order Processing
+                            </h4>
+                            <p>Order Processing streamlines purchase orders, sales orders, and order fulfillment processes for efficient inventory management.
+                            </p>
                         </div>
                     </div>
 
@@ -53,8 +60,10 @@ const InventryKeyFeature = () => {
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
 
 
-                            <h3 style={{ textAlign: "Center" }}>Versatile Service</h3>
-                            <p>Our Sales ERP software offers comprehensive online and offline solutions with secure data storage on your localhost for easy access and management.</p>
+                            <h3 style={{ textAlign: "Center" }}>Inventory Optimization
+                            </h3>
+                            <p>Inventory Optimization analyzes demand forecasting and historical data to optimize inventory levels and minimize carrying costs.
+                            </p>
                         </div>
                     </div>
 
@@ -63,17 +72,20 @@ const InventryKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
 
-                            <h4>Bulk Data insert
+                            <h4>Replenishment Alerts
+
                             </h4>
-                            <p>Inserting huge amounts of data such as product info is very time-consuming. To save your time Sales ERP has a CSV(excel) file upload option.</p>
+                            <p>Replenishment Alerts trigger automatic alerts for timely replenishment of inventory to prevent stockouts.</p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
 
-                            <h4>Spectacular Dashboard</h4>
-                            <p>You will get a full overview of your business in the dashboard of Sales ERP system software. Not only listed views but also graphical view reports of our sales and inventory.</p>
+                            <h4>Integration with ERP Systems
+                            </h4>
+                            <p>Integration with ERP Systems synchronizes inventory data, financial information, and business processes for enhanced operational efficiency.
+                            </p>
                         </div>
                     </div>
 
@@ -81,8 +93,8 @@ const InventryKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
 
-                            <h4>Data backup</h4>
-                            <p>Sales ERP has a smart Data Backup system, which can allow you to export the database at any time.</p>
+                            <h4>Reporting and Analytics</h4>
+                            <p>Reporting and Analytics generate customizable reports and dashboards to provide insights into inventory performance, trends, and key metrics.</p>
                         </div>
                     </div>
 

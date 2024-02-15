@@ -12,8 +12,10 @@ const UniversityIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/planning.png" alt="" />
 
-                            <h4>Project Management</h4>
-                            <p>Inditres streamlines project tasks with intuitive tools for tracking and collaboration, ensuring teams stay organized and on schedule.
+                            <h4>Admissions Management
+                            </h4>
+                            <p>Admissions Management streamlines student applications, tracks admissions statuses, and facilitates enrollment processes efficiently.
+
 
 
                             </p></div>
@@ -23,8 +25,9 @@ const UniversityIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/relationship.png" alt="" />
 
-                            <h4>Customer Relationship Management </h4>
-                            <p>Enhance customer interactions and drive sales growth with Inditres' comprehensive CRM functionalities, from lead management to customer support.
+                            <h4>Registrar's Office </h4>
+                            <p>Registrar's Office utilizes the software for student registration, course scheduling, academic record-keeping, and managing transcripts.
+
 
 
                             </p></div>
@@ -34,10 +37,8 @@ const UniversityIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/human-resources.png" alt="" />
 
-                            <h4>Human Resources Management</h4>
-                            <p>Simplify HR processes with Inditres' tools for employee onboarding, performance evaluation, and payroll management, freeing up time for strategic initiatives.
-
-
+                            <h4>Financial Administration</h4>
+                            <p>Financial Administration manages tuition fees, financial aid disbursements, budgeting, payroll, and other financial aspects of the institution.
 
                             </p></div>
                     </div>
@@ -46,10 +47,8 @@ const UniversityIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/bank.png" alt="" />
 
-                            <h4>Financial Management</h4>
-                            <p>Gain insights into financial health and make informed decisions with Inditres' robust financial management solutions, including expense tracking and reporting features.
-
-
+                            <h4>Academic Department</h4>
+                            <p>Academic Department relies on the software for course management, faculty assignments, grading, and curriculum development.
 
                             </p></div>
                     </div>
@@ -61,8 +60,9 @@ const UniversityIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/marketing-automation.png" alt="" />
 
-                            <h4>Marketing Automation</h4>
-                            <p>Automate campaigns, analyze performance metrics, and optimize conversions with Inditres' marketing automation platform, empowering marketers to engage their audience effectively
+                            <h4>Library Management</h4>
+                            <p>Library Management helps in cataloging books, tracking circulation, and providing online access to library databases.
+
 
                             </p></div>
                     </div>
@@ -72,8 +72,9 @@ const UniversityIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/material-management.png" alt="" />
 
-                            <h4>Inventory Management</h4>
-                            <p>Manage inventory levels, track stock movements, and optimize supply chains with Inditres' real-time visibility and efficiency-enhancing features.
+                            <h4>Student Services</h4>
+                            <p>Student Services use the software for advising, counseling, career services, housing assignments, and managing student activities.
+
 
 
 
@@ -83,15 +84,9 @@ const UniversityIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/revenue.png" alt="" />
 
-                            <h4>Sales Enablement</h4>
-                            <p>Accelerate sales cycles and close deals effectively with Inditres' lead generation, pipeline management, and revenue-driving insights.
-
-
-
-
-
-
-
+                            <h4>Human Resources
+                            </h4>
+                            <p>Human Resources manages faculty and staff records, recruitment, performance evaluations, and employee benefits with the software.
 
                             </p></div>
                     </div>
@@ -100,14 +95,9 @@ const UniversityIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/compliance-document.png" alt="" />
 
-                            <h4>Compliance and Security</h4>
-                            <p>Ensure data security and compliance with Inditres' encryption, access controls, and compliance reporting features, safeguarding sensitive information
-
-
-
-
-
-
+                            <h4>Facilities Management
+                            </h4>
+                            <p>Facilities Management streamlines campus facilities, maintenance requests, room scheduling, and ensures campus security.
 
                             </p></div>
                     </div>

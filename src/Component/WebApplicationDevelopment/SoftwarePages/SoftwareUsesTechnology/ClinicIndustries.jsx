@@ -12,8 +12,10 @@ const ClinicIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/planning.png" alt="" />
 
-                            <h4>Project Management</h4>
-                            <p>Inditres streamlines project tasks with intuitive tools for tracking and collaboration, ensuring teams stay organized and on schedule.
+                            <h4>Appointment Management
+                            </h4>
+                            <p> Efficiently schedule patient appointments, minimizing wait times and optimizing clinic schedules.
+
 
 
                             </p></div>
@@ -23,9 +25,9 @@ const ClinicIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/relationship.png" alt="" />
 
-                            <h4>Customer Relationship Management </h4>
-                            <p>Enhance customer interactions and drive sales growth with Inditres' comprehensive CRM functionalities, from lead management to customer support.
-
+                            <h4>Electronic Health Records
+                            </h4>
+                            <p> Digitally store patient medical records for easy access and streamlined patient care.
 
                             </p></div>
                     </div>
@@ -34,9 +36,8 @@ const ClinicIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/human-resources.png" alt="" />
 
-                            <h4>Human Resources Management</h4>
-                            <p>Simplify HR processes with Inditres' tools for employee onboarding, performance evaluation, and payroll management, freeing up time for strategic initiatives.
-
+                            <h4>Patient Registration</h4>
+                            <p> Streamline patient registration processes, capturing essential information accurately.
 
 
                             </p></div>
@@ -46,10 +47,9 @@ const ClinicIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/bank.png" alt="" />
 
-                            <h4>Financial Management</h4>
-                            <p>Gain insights into financial health and make informed decisions with Inditres' robust financial management solutions, including expense tracking and reporting features.
-
-
+                            <h4>Billing Processes
+                            </h4>
+                            <p>Simplify billing processes, generate invoices, and track payments seamlessly.
 
                             </p></div>
                     </div>
@@ -61,8 +61,9 @@ const ClinicIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/marketing-automation.png" alt="" />
 
-                            <h4>Marketing Automation</h4>
-                            <p>Automate campaigns, analyze performance metrics, and optimize conversions with Inditres' marketing automation platform, empowering marketers to engage their audience effectively
+                            <h4>Prescription Handling
+                            </h4>
+                            <p> Digitize prescription processes, ensuring accurate medication dispensing and tracking.
 
                             </p></div>
                     </div>
@@ -72,9 +73,9 @@ const ClinicIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/material-management.png" alt="" />
 
-                            <h4>Inventory Management</h4>
-                            <p>Manage inventory levels, track stock movements, and optimize supply chains with Inditres' real-time visibility and efficiency-enhancing features.
-
+                            <h4>Inventory Oversight
+                            </h4>
+                            <p> Track and manage clinic inventory for optimal stock levels and reduced wastage.
 
 
                             </p></div>
@@ -83,15 +84,9 @@ const ClinicIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/revenue.png" alt="" />
 
-                            <h4>Sales Enablement</h4>
-                            <p>Accelerate sales cycles and close deals effectively with Inditres' lead generation, pipeline management, and revenue-driving insights.
-
-
-
-
-
-
-
+                            <h4>Reporting & Analysis
+                            </h4>
+                            <p>Generate reports and analyze clinic data for informed decision-making and process improvement.
 
                             </p></div>
                     </div>
@@ -100,15 +95,9 @@ const ClinicIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/compliance-document.png" alt="" />
 
-                            <h4>Compliance and Security</h4>
-                            <p>Ensure data security and compliance with Inditres' encryption, access controls, and compliance reporting features, safeguarding sensitive information
-
-
-
-
-
-
-
+                            <h4>Staff Coordination
+                            </h4>
+                            <p> Efficiently schedule staff shifts and manage workforce allocation.
                             </p></div>
                     </div>
 

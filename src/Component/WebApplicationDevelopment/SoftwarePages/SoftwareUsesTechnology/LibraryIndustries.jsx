@@ -12,9 +12,8 @@ const LibraryIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/planning.png" alt="" />
 
-                            <h4>Project Management</h4>
-                            <p>Inditres streamlines project tasks with intuitive tools for tracking and collaboration, ensuring teams stay organized and on schedule.
-
+                            <h4>Academic Institutions</h4>
+                            <p>Academic Institutions utilize Library Management System software to organize collections for research and learning.
 
                             </p></div>
                     </div>
@@ -23,10 +22,9 @@ const LibraryIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/relationship.png" alt="" />
 
-                            <h4>Customer Relationship Management </h4>
-                            <p>Enhance customer interactions and drive sales growth with Inditres' comprehensive CRM functionalities, from lead management to customer support.
-
-
+                            <h4>Public Libraries
+                            </h4>
+                            <p>Public Libraries rely on software to manage diverse collections for community access.
                             </p></div>
                     </div>
 
@@ -34,11 +32,9 @@ const LibraryIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/human-resources.png" alt="" />
 
-                            <h4>Human Resources Management</h4>
-                            <p>Simplify HR processes with Inditres' tools for employee onboarding, performance evaluation, and payroll management, freeing up time for strategic initiatives.
-
-
-
+                            <h4>Corporate Libraries
+                            </h4>
+                            <p>Corporate Libraries use systems for efficient resource management and employee development.
                             </p></div>
                     </div>
 
@@ -46,10 +42,9 @@ const LibraryIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/bank.png" alt="" />
 
-                            <h4>Financial Management</h4>
-                            <p>Gain insights into financial health and make informed decisions with Inditres' robust financial management solutions, including expense tracking and reporting features.
-
-
+                            <h4>Specialized Libraries
+                            </h4>
+                            <p>Specialized Libraries employ tailored software for managing niche collections and services.
 
                             </p></div>
                     </div>
@@ -61,9 +56,9 @@ const LibraryIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/marketing-automation.png" alt="" />
 
-                            <h4>Marketing Automation</h4>
-                            <p>Automate campaigns, analyze performance metrics, and optimize conversions with Inditres' marketing automation platform, empowering marketers to engage their audience effectively
-
+                            <h4>Government Agencies
+                            </h4>
+                            <p>Government Agencies utilize systems to organize and distribute government publications and research materials.
                             </p></div>
                     </div>
 
@@ -72,26 +67,18 @@ const LibraryIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/material-management.png" alt="" />
 
-                            <h4>Inventory Management</h4>
-                            <p>Manage inventory levels, track stock movements, and optimize supply chains with Inditres' real-time visibility and efficiency-enhancing features.
-
-
-
+                            <h4>Museum Collections
+                            </h4>
+                            <p>Museums utilize software to catalog and preserve artifacts and documents for public access.
                             </p></div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="./images/revenue.png" alt="" />
 
-                            <h4>Sales Enablement</h4>
-                            <p>Accelerate sales cycles and close deals effectively with Inditres' lead generation, pipeline management, and revenue-driving insights.
-
-
-
-
-
-
-
+                            <h4>Prison Libraries
+                            </h4>
+                            <p>prison Libraries manage collections to support education and rehabilitation programs.
 
                             </p></div>
                     </div>
@@ -100,15 +87,8 @@ const LibraryIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/compliance-document.png" alt="" />
 
-                            <h4>Compliance and Security</h4>
-                            <p>Ensure data security and compliance with Inditres' encryption, access controls, and compliance reporting features, safeguarding sensitive information
-
-
-
-
-
-
-
+                            <h4>Healthcare Institutions</h4>
+                            <p>Healthcare Institutions employ systems for organizing medical literature and supporting research and patient care.
                             </p></div>
                     </div>
 

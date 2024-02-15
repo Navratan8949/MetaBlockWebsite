@@ -13,8 +13,10 @@ const HotalKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
 
-                            <h4>Inventory Monitoring</h4>
-                            <p>It has a fully-integrated Inventory Management system. Fully illustrated stock information, purchase information, sale information. You will also get a notification before running out any product.</p>
+                            <h4>Reservation Management
+                            </h4>
+                            <p>Reservation Management efficiently handles room bookings, modifications, and cancellations to optimize occupancy rates and guest satisfaction.
+                            </p>
                         </div>
                     </div>
 
@@ -23,16 +25,20 @@ const HotalKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp" alt="" />
 
-                            <h4>Make Better Decision</h4>
-                            <p>Get a complete Graphical view of your business—from Accounts, Sale, Purchase, Inventory and Customer Service with reliable reports. You can make a better decision about the future of your business.</p>
+                            <h4>Front Desk Operations
+                            </h4>
+                            <p>Front Desk Operations streamline check-in, check-out, and room assignments, ensuring smooth guest interactions and operational flow.
+                            </p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp" alt="" />
 
-                            <h4>Remote Access</h4>
-                            <p>You can control your business from anywhere in the world with an internet connection. To get remote access you can use our android app or you can directly access your sales ERP software from a browser.</p>
+                            <h4>Room Inventory Tracking
+                            </h4>
+                            <p>Room Inventory Tracking monitors real-time room availability, preventing overbooking and maximizing revenue potential.
+                            </p>
                         </div>
                     </div>
 
@@ -40,8 +46,10 @@ const HotalKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
 
-                            <h4> Sales System</h4>
-                            <p>Sales ERP software has a fully automatic Sales system. There is a POS system for sale. There is also an excellent sales system called GUI POS, which can make the sale faster.</p>
+                            <h4> Billing and Payments
+                            </h4>
+                            <p>Billing and Payments system generates accurate invoices, securely processes payments, and tracks guest expenses for transparent financial transactions.
+                            </p>
                         </div>
                     </div>
 
@@ -53,8 +61,10 @@ const HotalKeyFeature = () => {
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
 
 
-                            <h3 style={{ textAlign: "Center" }}>Versatile Service</h3>
-                            <p>Our Sales ERP software offers comprehensive online and offline solutions with secure data storage on your localhost for easy access and management.</p>
+                            <h3 style={{ textAlign: "Center" }}>Housekeeping Coordination
+                            </h3>
+                            <p>Housekeeping Coordination manages cleaning schedules and maintenance requests, maintaining a clean and comfortable environment for guests.
+                            </p>
                         </div>
                     </div>
 
@@ -63,17 +73,18 @@ const HotalKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
 
-                            <h4>Bulk Data insert
+                            <h4>Guest Preferences
                             </h4>
-                            <p>Inserting huge amounts of data such as product info is very time-consuming. To save your time Sales ERP has a CSV(excel) file upload option.</p>
+                            <p>Guest Preferences store guest information and preferences for personalized services, enhancing overall guest experience and loyalty.</p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
 
-                            <h4>Spectacular Dashboard</h4>
-                            <p>You will get a full overview of your business in the dashboard of Sales ERP system software. Not only listed views but also graphical view reports of our sales and inventory.</p>
+                            <h4>POS Integration
+                            </h4>
+                            <p>POS Integration manages on-site amenities like restaurants and bars, enabling seamless guest billing and inventory managemen.</p>
                         </div>
                     </div>
 
@@ -81,8 +92,9 @@ const HotalKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
 
-                            <h4>Data backup</h4>
-                            <p>Sales ERP has a smart Data Backup system, which can allow you to export the database at any time.</p>
+                            <h4>Inventory Control
+                            </h4>
+                            <p>Inventory Control ensures optimal stock levels of hotel amenities, enhancing operational efficiency and guest satisfaction.</p>
                         </div>
                     </div>
 
