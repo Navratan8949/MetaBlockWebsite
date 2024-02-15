@@ -1,122 +1,116 @@
-import React from 'react'
+import React from "react";
 
 const EmployIndustries = () => {
-    return (
-        <div className="m-0">
+  return (
+    <div className="m-0">
+      <div className="dashboard-main-box">
+        <h4 className="Key-feature-heading">Software Uses Industries</h4>
+        <div className="dashboard-container">
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/planning.png" alt="" />
 
-            <div className="dashboard-main-box">
-                <h4 className='Key-feature-heading'>Software Uses Industries</h4>
-                <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-                        <div className="key-feature-heading">
-                            <img src="./images/planning.png" alt="" />
-
-                            <h4>Project Management</h4>
-                            <p>Inditres streamlines project tasks with intuitive tools for tracking and collaboration, ensuring teams stay organized and on schedule.
-
-
-                            </p></div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="./images/relationship.png" alt="" />
-
-                            <h4>Customer Relationship Management </h4>
-                            <p>Enhance customer interactions and drive sales growth with Inditres' comprehensive CRM functionalities, from lead management to customer support.
-
-
-                            </p></div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="./images/human-resources.png" alt="" />
-
-                            <h4>Human Resources Management</h4>
-                            <p>Simplify HR processes with Inditres' tools for employee onboarding, performance evaluation, and payroll management, freeing up time for strategic initiatives.
-
-
-
-                            </p></div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="./images/bank.png" alt="" />
-
-                            <h4>Financial Management</h4>
-                            <p>Gain insights into financial health and make informed decisions with Inditres' robust financial management solutions, including expense tracking and reporting features.
-
-
-
-                            </p></div>
-                    </div>
-
-                </div>
-                <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-                        <div className="key-feature-heading">
-                            <img src="./images/marketing-automation.png" alt="" />
-
-                            <h4>Marketing Automation</h4>
-                            <p>Automate campaigns, analyze performance metrics, and optimize conversions with Inditres' marketing automation platform, empowering marketers to engage their audience effectively
-
-                            </p></div>
-                    </div>
-
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="./images/material-management.png" alt="" />
-
-                            <h4>Inventory Management</h4>
-                            <p>Manage inventory levels, track stock movements, and optimize supply chains with Inditres' real-time visibility and efficiency-enhancing features.
-
-
-
-                            </p></div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="./images/revenue.png" alt="" />
-
-                            <h4>Sales Enablement</h4>
-                            <p>Accelerate sales cycles and close deals effectively with Inditres' lead generation, pipeline management, and revenue-driving insights.
-
-
-
-
-
-
-
-
-                            </p></div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="./images/compliance-document.png" alt="" />
-
-                            <h4>Compliance and Security</h4>
-                            <p>Ensure data security and compliance with Inditres' encryption, access controls, and compliance reporting features, safeguarding sensitive information
-
-
-
-
-
-
-
-                            </p></div>
-                    </div>
-
-                </div>
+              <h4>Retail Management</h4>
+              <p>
+                Retail Management: Employee tracking software helps retail
+                managers monitor staff activities, manage shifts, and ensure
+                optimal staffing during peak hours.
+              </p>
             </div>
+          </div>
 
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/relationship.png" alt="" />
+
+              <h4>Healthcare Facilities</h4>
+              <p>
+                Healthcare Facilities: Hospitals and clinics utilize employee
+                tracking software to monitor healthcare professionals' schedules
+                and ensure compliance with labor regulations.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/human-resources.png" alt="" />
+
+              <h4>Manufacturing Plants</h4>
+              <p>
+                Manufacturing Plants: Employee tracking software enables
+                manufacturing companies to monitor attendance, track
+                productivity, and optimize workforce allocation.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/bank.png" alt="" />
+
+              <h4>Corporate Offices</h4>
+              <p>
+                Corporate Offices: Large enterprises implement employee tracking
+                software to monitor attendance, track project progress, and
+                facilitate remote work management.
+              </p>
+            </div>
+          </div>
         </div>
-    )
-}
+        <div className="dashboard-container">
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/marketing-automation.png" alt="" />
 
-export default EmployIndustries
+              <h4>Educational Institutions</h4>
+              <p>
+                ducational Institutions: Schools and universities use employee
+                tracking software to monitor teacher attendance, manage class
+                schedules, and ensure adequate staffing for events.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/material-management.png" alt="" />
+
+              <h4>Construction Sites</h4>
+              <p>
+                Construction Sites: Construction companies utilize employee
+                tracking software to monitor attendance, track hours worked
+              </p>
+            </div>
+          </div>
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/revenue.png" alt="" />
+
+              <h4>Call Centers</h4>
+              <p>
+                Call Centers: Employee tracking software in call centers helps
+                monitor agent performance, track call volumes.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/compliance-document.png" alt="" />
+
+              <h4>Compliance and Security</h4>
+              <p>
+                Ensure data security and compliance with Inditres' encryption,
+                access controls, and compliance reporting features, safeguarding
+                sensitive information
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default EmployIndustries;

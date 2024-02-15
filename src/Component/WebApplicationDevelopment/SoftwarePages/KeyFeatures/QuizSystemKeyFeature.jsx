@@ -1,96 +1,133 @@
-import React from 'react'
+import React from "react";
 
 const QuizSystemKeyFeature = () => {
-    return (
-        <div style={{ marginBottom: '50px ' }} >
+  return (
+    <div style={{ marginBottom: "50px " }}>
+      <div className="dashboard-main-box">
+        <h4 className="Key-feature-heading">Key Feature</h4>
+        <div className="dashboard-container">
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                alt=""
+              />
 
-            <div className="dashboard-main-box">
-                <h4 className='Key-feature-heading'>Key Feature</h4>
-                <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
-
-                            <h4>Inventory Monitoring</h4>
-                            <p>It has a fully-integrated Inventory Management system. Fully illustrated stock information, purchase information, sale information. You will also get a notification before running out any product.</p>
-                        </div>
-                    </div>
-
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp" alt="" />
-
-                            <h4>Make Better Decision</h4>
-                            <p>Get a complete Graphical view of your business—from Accounts, Sale, Purchase, Inventory and Customer Service with reliable reports. You can make a better decision about the future of your business.</p>
-                        </div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp" alt="" />
-
-                            <h4>Remote Access</h4>
-                            <p>You can control your business from anywhere in the world with an internet connection. To get remote access you can use our android app or you can directly access your sales ERP software from a browser.</p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
-
-                            <h4> Sales System</h4>
-                            <p>Sales ERP software has a fully automatic Sales system. There is a POS system for sale. There is also an excellent sales system called GUI POS, which can make the sale faster.</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
-
-
-                            <h3 style={{ textAlign: "Center" }}>Versatile Service</h3>
-                            <p>Our Sales ERP software offers comprehensive online and offline solutions with secure data storage on your localhost for easy access and management.</p>
-                        </div>
-                    </div>
-
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
-
-                            <h4>Bulk Data insert
-                            </h4>
-                            <p>Inserting huge amounts of data such as product info is very time-consuming. To save your time Sales ERP has a CSV(excel) file upload option.</p>
-                        </div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
-
-                            <h4>Spectacular Dashboard</h4>
-                            <p>You will get a full overview of your business in the dashboard of Sales ERP system software. Not only listed views but also graphical view reports of our sales and inventory.</p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
-
-                            <h4>Data backup</h4>
-                            <p>Sales ERP has a smart Data Backup system, which can allow you to export the database at any time.</p>
-                        </div>
-                    </div>
-
-                </div>
+              <h4>Question Management</h4>
+              <p>
+                Question Management facilitates the organization and creation of
+                questions across subjects and topics efficiently.
+              </p>
             </div>
+          </div>
 
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
+                alt=""
+              />
+
+              <h4>Custom Quiz Templates</h4>
+              <p>
+                Custom Quiz Templates offer predefined formats for diverse
+                assessment approaches.
+              </p>
+            </div>
+          </div>
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
+                alt=""
+              />
+
+              <h4>Flexible Scheduling</h4>
+              <p>
+                Flexible Scheduling allows instructors to set specific quiz
+                dates and time limits as per their requirements.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                alt=""
+              />
+
+              <h4>Automated Grading</h4>
+              <p>
+                Automated Grading saves instructors time by instantly grading
+                objective questions.
+              </p>
+            </div>
+          </div>
         </div>
-    )
-}
+        <div className="dashboard-container">
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                alt=""
+              />
 
-export default QuizSystemKeyFeature
+              <h3 style={{ textAlign: "Center" }}>Performance Analysis</h3>
+              <p>
+                Performance Analysis provides detailed insights into student
+                performance and question-level analysis.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                alt=""
+              />
+
+              <h4>Feedback Mechanisms</h4>
+              <p>
+                Feedback Mechanisms enable students to review performance and
+                access explanations for missed questions.
+              </p>
+            </div>
+          </div>
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                alt=""
+              />
+
+              <h4>LMS Integration</h4>
+              <p>
+                LMS Integration streamlines quiz administration within existing
+                course management systems.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                alt=""
+              />
+
+              <h4>Randomization Options</h4>
+              <p>
+                Randomization Options prevent cheating by creating unique quiz
+                versions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default QuizSystemKeyFeature;

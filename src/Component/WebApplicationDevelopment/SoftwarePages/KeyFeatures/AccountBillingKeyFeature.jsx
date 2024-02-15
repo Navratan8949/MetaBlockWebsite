@@ -1,96 +1,109 @@
-import React from 'react'
-import './KeyFeatures.css'
+import React from "react";
+import "./KeyFeatures.css";
 const AccountBillingKeyFeature = () => {
-    return (
-        <div style={{ marginBottom: '50px ' }} >
+  return (
+    <div style={{ marginBottom: "50px " }}>
+      <div className="dashboard-main-box">
+        <h4 className="Key-feature-heading">Key Feature</h4>
+        <div className="dashboard-container">
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/info.png" alt="" />
 
-            <div className="dashboard-main-box">
-                <h4 className='Key-feature-heading'>Key Feature</h4>
-                <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
-
-                            <h4>Inventory Monitoring</h4>
-                            <p>It has a fully-integrated Inventory Management system. Fully illustrated stock information, purchase information, sale information. You will also get a notification before running out any product.</p>
-                        </div>
-                    </div>
-
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp" alt="" />
-
-                            <h4>Make Better Decision</h4>
-                            <p>Get a complete Graphical view of your business—from Accounts, Sale, Purchase, Inventory and Customer Service with reliable reports. You can make a better decision about the future of your business.</p>
-                        </div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp" alt="" />
-
-                            <h4>Remote Access</h4>
-                            <p>You can control your business from anywhere in the world with an internet connection. To get remote access you can use our android app or you can directly access your sales ERP software from a browser.</p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
-
-                            <h4> Sales System</h4>
-                            <p>Sales ERP software has a fully automatic Sales system. There is a POS system for sale. There is also an excellent sales system called GUI POS, which can make the sale faster.</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
-
-
-                            <h3 style={{ textAlign: "Center" }}>Versatile Service</h3>
-                            <p>Our Sales ERP software offers comprehensive online and offline solutions with secure data storage on your localhost for easy access and management.</p>
-                        </div>
-                    </div>
-
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
-
-                            <h4>Bulk Data insert
-                            </h4>
-                            <p>Inserting huge amounts of data such as product info is very time-consuming. To save your time Sales ERP has a CSV(excel) file upload option.</p>
-                        </div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
-
-                            <h4>Spectacular Dashboard</h4>
-                            <p>You will get a full overview of your business in the dashboard of Sales ERP system software. Not only listed views but also graphical view reports of our sales and inventory.</p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
-
-                            <h4>Data backup</h4>
-                            <p>Sales ERP has a smart Data Backup system, which can allow you to export the database at any time.</p>
-                        </div>
-                    </div>
-
-                </div>
+              <h4>Invoicing</h4>
+              <p>
+                Invoicing enables businesses to create and customize invoices
+                for products or services provided to clients.
+              </p>
             </div>
+          </div>
 
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/attendance.png" alt="" />
+
+              <h4>Expense Tracking</h4>
+              <p>
+                Expense Tracking helps monitor and categorize various business
+                expenses, ensuring accurate financial records.
+              </p>
+            </div>
+          </div>
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/stress-management.png" alt="" />
+
+              <h4>Financial Reporting</h4>
+              <p>
+                Financial Reporting generates comprehensive reports like balance
+                sheets and income statements to analyze business performance.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/quality-control.png" alt="" />
+
+              <h4>Accounts Payable Management</h4>
+              <p>
+                Accounts Payable Management streamlines bill processing, payment
+                scheduling, and vendor reconciliation.
+              </p>
+            </div>
+          </div>
         </div>
-    )
-}
+        <div className="dashboard-container">
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/recruiter.png" alt="" />
 
-export default AccountBillingKeyFeature
+              <h3 style={{ textAlign: "Center" }}>Bank Reconciliation</h3>
+              <p>
+                Bank Reconciliation matches and reconciles bank transactions
+                with accounting records for accuracy.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/analysis.png" alt="" />
+
+              <h4>Tax Compliance</h4>
+              <p>
+                Tax Compliance calculates taxes owed, generates tax reports, and
+                facilitates tax filings.
+              </p>
+            </div>
+          </div>
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/self-service.png" alt="" />
+
+              <h4>Self-Service Portal</h4>
+              <p>
+                Employee Self-Service Portal empowers employees to update
+                information, submit leave requests, and access pay stubs
+                conveniently.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img src="./images/business-plan.png" alt="" />
+              <h4>Payment Gateways Integration</h4>
+              <p>
+                Payment Gateways Integration allows for seamless online payments
+                and credit card processing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AccountBillingKeyFeature;
