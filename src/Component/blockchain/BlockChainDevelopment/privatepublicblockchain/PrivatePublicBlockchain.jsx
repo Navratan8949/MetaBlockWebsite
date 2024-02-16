@@ -1,5 +1,7 @@
 import React from "react";
 import "./PrivatePublicBlockchain.css";
+import { Link } from "react-router-dom";
+
 const PrivatePublicBlockchain = () => {
     return (
         <div>
@@ -9,9 +11,10 @@ const PrivatePublicBlockchain = () => {
               <div className="row">
                 <div className="col-lg-6 col-12">
                   <h1 className="title-1"> <span className="cus_title-1">Public / Private </span><br /> <span className="grad_text"> Blockchain Development</span> Company</h1>
-                  <h3 className="contents">Osiz provides exclusive support to build public blockchain for an open &amp; transparent distributed network and Absolute solution to develop private blockchain for a permissible network to secure the business data.</h3>
+                  <h3 className="contents">MetaBlock offers the only assistance needed to create a public blockchain for a distributed network &amp; 
+                  that is open and transparent, as well as the complete solution needed to create a private blockchain for a network that is acceptable and secures business data.</h3>
                   <div className="blk_dev_bnr_btn_sec">
-                    <a href="#" data-toggle="modal" data-target="#popup_form_modal" className="blk_dev_bnr_btn">Request For Quote</a>
+                  <Link to="/ContectUsForm">  <span data-toggle="modal" data-target="#popup_form_modal" className="blk_dev_bnr_btn">Request For Quote</span></Link>
                   </div>
                 </div>
                 <div className="col-lg-6 col-12" />
@@ -25,16 +28,14 @@ const PrivatePublicBlockchain = () => {
                   <div className="bs_d_c_bg">
                     <h2 className="blockchain_dev_aboutus_title-1">Public And Private <b>Blockchain</b> Development Company</h2>
                     <div>
-                      <p className="section_heading">Blockchain has become an essential part for every businesses today. Industries as wide as banking, healthcare, supply chain, transport, etc are looking upon blockchain technology, to make their business risk-free, immutable,
-                        transparent and take their business to the next higher level. Some businesses will want to their information to be shared with every user in the network, whereas some other businesses will want their information to
-                        be shared to certain users alone. Though blockchain is a single technology, to fulfill the privacy requirements of business, public and private blockchain emerged.</p>
-                      <p className="section_heading">Public blockchain is an open network, where anyone can read, write or join the public blockchain network and as there will be no central authority, the data in the network becomes immutable.</p>
-                      <p className="section_heading">Private blockchain are the network that are governed by a single entity or organization and limit the access of blockchain to certain users. Private blockchain can share the data with specific users without making it public
-                        to everyone.</p>
-                      <p className="section_heading">Osiz technologies has wide range of experience in blockchain development for different kind of industries around the world. With expertise in blockchain, we specialize in developing public or private blockchain, based on
-                        the requirements of your business, to streamline your business process effectively.</p>
+                      <p className="section_heading">Today, blockchain is a crucial component of all enterprises. Blockchain technology is being considered by a wide range of industries, including banking, healthcare, supply chain, transportation, etc., as a means of reducing risk, increasing transparency, and propelling company operations to new heights. Certain organizations will want that their information be shared with specific users only, while others would want it shared with every user on the network. Despite being a same technology, public and private blockchains were developed to meet business privacy needs.</p>
+                      <p className="section_heading">Being an open network, public blockchain allows anybody to read, write, and join. Since there is no central authority, the data on the network is unchangeable.</p>
+                      <p className="section_heading">Private blockchains are networks that are controlled by a single company or group and restrict blockchain access to specific users. Data on a private blockchain can be shared with particular people without being made public.
+</p>
+                      <p className="section_heading">Metablock Technologies has extensive expertise developing blockchain applications for several sectors worldwide. With blockchain experience, we are experts at creating public or private blockchains based on your company's needs in order to efficiently simplify your business processes.
+</p>
                       <div className="blk_dev_bnr_btn_sec">
-                        <a href="#" className="blk_dev_bnr_btn" data-toggle="modal" data-target="#popup_form_modal">View Live Demo</a>
+                      <Link to="/ContectUsForm"> <span className="blk_dev_bnr_btn" data-toggle="modal" data-target="#popup_form_modal">View Live Demo</span></Link>
                       </div>
                     </div>
                   </div>
@@ -44,7 +45,7 @@ const PrivatePublicBlockchain = () => {
                     <div className="video-container" id="video-container-next">
                       <div className="videoCoverImage">
                         <div onclick="thevid=document.getElementById('thevideo_b'); thevid.style.display='block'; this.style.display='none'">
-                          <img className="thumb img-fluid lazyload" loading="eager" style={{cursor: 'pointer'}} src="https://www.osiztechnologies.com/asset/inner-pages-new/blockchain_new/youtube_image.webp" />
+                          <img className="thumb img-fluid lazyload" loading="eager" alt="co img" style={{cursor: 'pointer'}} src="./SGimage/public&privateimg.jpg" />
                         </div>
                         <div id="thevideo_b" style={{display: 'none'}} className="youtube" data-embed="YDrAqczPmLs">
                         </div>
@@ -59,17 +60,17 @@ const PrivatePublicBlockchain = () => {
             <div className="container">
               <div className="section-heading text-center">
                 <h3>Contrasting Facts Of <b>Public And Private </b>Blockchain</h3>
-                <p className="section_heading">Both, public and private blockchain are similar in many ways, while they differ in certain functionality. Before selecting the type of blockchain that suits your business, know its differences:</p>
+                <p className="section_heading">While they differ in some features, public and private blockchains are comparable in many other aspects. Recognize the distinctions between blockchain types before choosing the one that works best for your company:</p>
                 <div className="why_round"> </div>
               </div>
               <div className="row mt-5">
                 <div className="col-sm-3">
                   <div className="work_with_box">
                     <div className="inr_img">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/blockchain_new/why_icon.png" className="spr_img" alt="Decentralization" title="Decentralization" style={{objectPosition: '0px 0px'}} />
+                      <img src="./SGimage/decentralized.png" className="spr_img" alt="Decentralization" title="Decentralization" style={{objectPosition: '0px 0px'}} />
                     </div>
                     <h3 className="media-heading">Decentralization</h3>
-                    <p className="normal_text">In case of public blockchain, the blockchain network is decentralized and not controlled by a single entity, whereas in private blockchain, one entity or organization will have the control over the blockchain network.</p>
+                    <p className="normal_text">In a private blockchain, a single institution or organization will control the blockchain network, as opposed to a public blockchain, which is decentralized and not governed by a single entity.</p>
                   </div>
                 </div>
                 <div className="col-sm-3">
@@ -78,8 +79,8 @@ const PrivatePublicBlockchain = () => {
                       <img src="https://www.osiztechnologies.com/asset/inner-pages-new/blockchain_new/why_icon.png" className="spr_img" alt="Privacy" title="Privacy" style={{objectPosition: '-177px 0px'}} />
                     </div>
                     <h3 className="media-heading">Privacy</h3>
-                    <p className="normal_text">As the public blockchain is shared with everyone in the network, there is no privacy and is suitable for mass advertisement. But since the data in private blockchain is shared with specific users, it has more privacy and suitable
-                      to share business secret.</p>
+                    <p className="normal_text">Since the public blockchain is accessible to all members of the network, it lacks privacy and can be used for widespread advertising. However, because private blockchain data is exchanged with specified individuals, it offers greater anonymity.
+</p>
                   </div>
                 </div>
                 <div className="col-sm-3">
@@ -88,7 +89,7 @@ const PrivatePublicBlockchain = () => {
                       <img src="https://www.osiztechnologies.com/asset/inner-pages-new/blockchain_new/why_icon.png" className="spr_img" alt="Restriction to members" title="Restriction to members" style={{objectPosition: '-354px 0px'}} />
                     </div>
                     <h3 className="media-heading">Restriction to members</h3>
-                    <p className="normal_text">In public blockchain, there is no restriction to members, anyone can join and become a member in blockchain network, whereas in private blockchain network, the access to join the network is limited to certain users. </p>
+                    <p className="normal_text">A private blockchain network restricts access to network membership to certain individuals, while a public blockchain network allows anybody to join and become a member. </p>
                   </div>
                 </div>
                 <div className="col-sm-3">
@@ -97,7 +98,7 @@ const PrivatePublicBlockchain = () => {
                       <img src="https://www.osiztechnologies.com/asset/inner-pages-new/blockchain_new/why_icon.png" className="spr_img" alt="Sharing of information" title="Sharing of information" style={{objectPosition: '-522px 0px'}} />
                     </div>
                     <h3 className="media-heading">Sharing of information</h3>
-                    <p className="normal_text">In a public blockchain, the information will be shared with everyone in the network. But in case of private blockchain, you can control the users who can access the information in the network.</p>
+                    <p className="normal_text">A private blockchain network restricts access to network membership to certain individuals, while a public blockchain network allows anybody to join and become a member.</p>
                   </div>
                 </div>
               </div>

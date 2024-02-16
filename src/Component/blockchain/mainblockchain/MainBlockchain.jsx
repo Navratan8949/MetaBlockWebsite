@@ -803,38 +803,37 @@ const MainBlockchain = () => {
                       <span className="Txt8282 px-2">Services</span>
                     </h2>
                     <p>
-                      Blockchain development services might revolutionise the
-                      effectiveness and general efficiency of your business
-                      operations. From custom smart contracts to
-                      blockchain-based applications, we deliver cutting-edge
-                      solutions that revolutionize industries and empower
-                      businesses for the future.
+                    Blockchain development services have the potential to completely transform your company's overall efficacy and efficiency.
+                     From blockchain-based apps to personalized smart contracts, we provide innovative solutions that transform markets and
+                      enable companies for the long term.
                     </p>
                     <div className="HddrBtns blockchain_dev_btnsec mt-4">
-                      <a
-                        href="https://www.osiztechnologies.com/contact-us"
-                        target="_blank"
+                      <Link to="/">
+                      <span
                         className="btn BtnPrimry TlkBtn"
                       >
                         <span>
-                          <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif"
+                          {/* <img
+                            src="./SGimage/"
                             alt="enquiry"
                             loading="eager"
                             className="img-fluid lazyload mr-2"
-                          />
+                          /> */}
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z" fill="white"></path></svg>
                           Request For Quote
                         </span>
                         <span>
-                          <img
+                          {/* <img
                             src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif"
                             alt="enquiry"
                             loading="eager"
                             className="img-fluid lazyload mr-2"
-                          />
+                          /> */}
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z" fill="white"></path></svg>
                           Request For Quote
                         </span>
-                      </a>
+                      </span>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -842,7 +841,7 @@ const MainBlockchain = () => {
               <div className="col-lg-6">
                 <div className="mnyExpoScImg">
                   <img
-                    src="https://www.osiztechnologies.com/asset/home-page-new/images/blockchain-development-service.webp"
+                    src="./SGimage/blockchain-development-services_img.png"
                     loading="eager"
                     className="img-fluid lazyload"
                     alt="Blockchain Development Services"
@@ -884,7 +883,7 @@ const MainBlockchain = () => {
                 <div className="blck_sol_box">
                   <div className="img_sec">
                     <img
-                      src="https://www.osiztechnologies.com/asset/home-page-new/images/blockchain-solution-icons.svg"
+                      src="./SGimage/global-communication.png"
                       loading="eager"
                       className="sprite_icons lazyload"
                       alt="Blockchain in Supplychain"
@@ -894,9 +893,8 @@ const MainBlockchain = () => {
                   </div>
                   <div className="sub_title">Blockchain in Supplychain</div>
                   <p className="sub_contents">
-                    By leveraging the immutable nature of blockchain, we create
-                    transparent and traceable supply chain networks, eliminating
-                    inefficiencies, reducing fraud, and enhancing trust.
+                  We build transparent and traceable supply chain networks by utilizing the irreversible feature of blockchain, 
+                  which gets rid of inefficiencies, lowers fraud, and builds trust.
                   </p>
                 </div>
               </div>
@@ -914,10 +912,7 @@ const MainBlockchain = () => {
                   </div>
                   <div className="sub_title">Blockchain in Finance</div>
                   <p className="sub_contents">
-                    Unlock new opportunities for seamless cross-border payments,
-                    decentralized lending, and frictionless asset management
-                    with our innovative blockchain solutions for the finance
-                    industry.
+                  With our cutting-edge blockchain solutions for the finance industry, you can discover new avenues for frictionless asset management, decentralized lending, and easy cross-border payments.
                   </p>
                 </div>
               </div>
@@ -935,9 +930,8 @@ const MainBlockchain = () => {
                   </div>
                   <div className="sub_title">Blockchain in Insurance</div>
                   <p className="sub_contents">
-                    With blockchain, insurers can streamline claims management,
-                    reduce fraud, enhance data privacy, and create smart
-                    contracts that automate policy administration.
+                  Insurance companies can use blockchain technology to improve data privacy, 
+                  expedite claims processing, lower fraud, and automate policy administration using smart contracts.
                   </p>
                 </div>
               </div>
@@ -955,9 +949,8 @@ const MainBlockchain = () => {
                   </div>
                   <div className="sub_title">Blockchain in Healthcare</div>
                   <p className="sub_contents">
-                    With blockchain, healthcare providers can securely store and
-                    share patient records, enabling seamless collaboration and
-                    improving healthcare outcomes.
+                  Healthcare providers may work together more easily and improve patient outcomes by
+                   securely storing and exchanging patient records via blockchain.
                   </p>
                 </div>
               </div>
@@ -977,9 +970,8 @@ const MainBlockchain = () => {
                     Blockchain in Energy Oil and Gas
                   </div>
                   <p className="sub_contents">
-                    With blockchain's decentralized nature, stakeholders can
-                    achieve greater visibility and accountability, paving the
-                    way for a more sustainable and streamlined energy ecosystem.
+                  The decentralized structure of blockchain technology enables stakeholders to attain increased transparency and accountability, 
+                  hence creating a more sustainable and efficient energy economy.
                   </p>
                 </div>
               </div>
@@ -997,9 +989,8 @@ const MainBlockchain = () => {
                   </div>
                   <div className="sub_title">Blockchain in Retail</div>
                   <p className="sub_contents">
-                    Through blockchain, retailers can securely track and
-                    authenticate products throughout the supply chain, combating
-                    counterfeit goods and ensuring product authenticity.
+                  Retailers can prevent the sale of fake goods and guarantee product authenticity 
+                  by using blockchain technology to safely trace and authenticate products along the supply chain.
                   </p>
                 </div>
               </div>
@@ -1017,9 +1008,8 @@ const MainBlockchain = () => {
                   </div>
                   <div className="sub_title">Blockchain in Transportation</div>
                   <p className="sub_contents">
-                    By utilizing blockchain, transportation companies can track
-                    and trace goods in real-time, enhancing supply chain
-                    visibility and reducing delays.
+                  Transportation businesses may improve supply chain visibility and 
+                  cut down on delays by using blockchain technology to track and trace items in real-time.
                   </p>
                 </div>
               </div>
@@ -1038,10 +1028,8 @@ const MainBlockchain = () => {
                   </div>
                   <div className="sub_title">Blockchain in Agriculture</div>
                   <p className="sub_contents">
-                    Blockchain technology has immense potential to revolutionize
-                    the agriculture sector through enhancing traceability,
-                    reducing food fraud, improving supply chain efficiency and
-                    supporting sustainability.
+                  The agriculture industry could undergo a significant transformation thanks to blockchain technology,
+                   which can boost sustainability, reduce food fraud, improve supply chain efficiency, and improve traceability.
                   </p>
                 </div>
               </div>
@@ -1054,7 +1042,7 @@ const MainBlockchain = () => {
               <div className="col-lg-6 order-lg-1 order-2">
                 <div className="mnyExpoScImg">
                   <img
-                    src="https://www.osiztechnologies.com/asset/home-page-new/images/blockchain-app-dev.webp"
+                    src="./SGimage/Blockchain-app-development.jpg"
                     loading="eager"
                     className="img-fluid lazyload"
                     alt="Blockchain App Development"
@@ -1070,12 +1058,12 @@ const MainBlockchain = () => {
                       <span className="Txt8282 px-2"> Development</span>
                     </h2>
                     <p>
-                      OsizTechnologies is a leading Blockchain App Development
-                      Company. We design and develop customized blockchain
-                      development solutions using hyperledger,solidity,Cosmos
-                      and EVM. We help startups and Enterprises businesses to
-                      make an exciting presence in the virtual space with our
-                      top-notch blockchain development services.
+                    One well-known company with expertise in blockchain and web development is Metablock Technologies. 
+                    In addition to providing a broad range of enterprise blockchain applications, online and mobile applications, and
+                     software development services, we also have a strong foundation in blockchain development, DEX development, coin 
+                     and token creation, DeFi products, and knowledge of the Metaverse/NFT ecosystem. Blockchain-led technologies are 
+                     leading the way in creating a fair and progressive digital world, and we think Web 3.0 is crucial to achieving this..
+
                     </p>
                   </div>
                 </div>
@@ -1110,12 +1098,12 @@ const MainBlockchain = () => {
                     <span className="cusclr_title">Process</span>
                   </h2>
                   <p className="contents">
-                    Our team of professionals talk about your requirements at
-                    each phase of the project, from requirement analysis to a
-                    successful launch, assist your blockchain development
-                    project achieve its goals.
+                  From requirement research to a smooth launch, our team of experts discusses
+                   your needs at every stage of the project to help your blockchain development 
+                   project reach its objectives.
                   </p>
                   <div className="HddrBtns mt-4">
+                  <Link to="/ContectUsForm">
                     <button
                       data-toggle="modal"
                       data-target="#popup_form_modal"
@@ -1123,24 +1111,21 @@ const MainBlockchain = () => {
                       target="_blank"
                     >
                       <span>
-                        <img
+                        {/* <img
                           src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif"
                           alt="enquiry"
                           loading="eager"
                           className="img-fluid lazyload mr-2"
-                        />
+                        /> */}
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z" fill="white"></path></svg>
                         Get A Quote
                       </span>
                       <span>
-                        <img
-                          src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif"
-                          alt="enquiry"
-                          loading="eager"
-                          className="img-fluid lazyload mr-2"
-                        />
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z" fill="white"></path></svg>
                         Get A Quote
                       </span>
                     </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1159,8 +1144,7 @@ const MainBlockchain = () => {
                       <h3 className="sub_title">Requirement Analysis</h3>
                     </div>
                     <p className="sub_contents">
-                      Our experts first discuss your requirements and goals for
-                      your blockchain development project.
+                    Your needs and objectives for your blockchain development project are first discussed by our experts.
                     </p>
                   </div>
                   <div className="process_list">
@@ -1176,8 +1160,8 @@ const MainBlockchain = () => {
                       <h3 className="sub_title">Blockchain Optimisation</h3>
                     </div>
                     <p className="sub_contents">
-                      We then optimize the blockchain network based on your
-                      requirements.
+                    The blockchain network is then optimized in accordance with your specifications.
+
                     </p>
                   </div>
                   <div className="process_list">
@@ -1193,8 +1177,8 @@ const MainBlockchain = () => {
                       <h3 className="sub_title">Ideation</h3>
                     </div>
                     <p className="sub_contents">
-                      We provide innovative concepts and ideas for blockchain
-                      solutions and applications.
+                    We offer creative notions and thoughts for blockchain applications and solutions.
+
                     </p>
                   </div>
                   <div className="process_list">
@@ -1210,9 +1194,7 @@ const MainBlockchain = () => {
                       <h3 className="sub_title">PoC Development</h3>
                     </div>
                     <p className="sub_contents">
-                      Our experts validate, identify the risk, and focus on the
-                      features and functionalities of the project to secure
-                      funding and transactions.
+                    We offer creative notions and thoughts for blockchain applications and solutions.
                     </p>
                   </div>
                   <div className="process_list">
@@ -1228,8 +1210,8 @@ const MainBlockchain = () => {
                       <h3 className="sub_title">Testing</h3>
                     </div>
                     <p className="sub_contents">
-                      We do rigorous testing and ensure the functionality,
-                      security, and reliability of the project.
+                    We conduct thorough testing to guarantee the project's dependability, security, and functionality.
+
                     </p>
                   </div>
                   <div className="process_list">
@@ -1245,8 +1227,7 @@ const MainBlockchain = () => {
                       <h3 className="sub_title">Successful Launch</h3>
                     </div>
                     <p className="sub_contents">
-                      This is the final stage, where our experts deploy
-                      blockchain projects for real-world use and adoption.
+                    At this last phase, our professionals implement blockchain ideas for practical use and acceptance.
                     </p>
                   </div>
                 </div>
