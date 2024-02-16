@@ -15,7 +15,6 @@ const HotalKeyFeature = () => {
 
               <h4>Reservation Management</h4>
               <p>
-                {" "}
                 Allows hotel staff to efficiently manage room reservations,
                 including booking, modification, and cancellation processes.
               </p>
@@ -46,7 +45,6 @@ const HotalKeyFeature = () => {
 
               <h4>Room Inventory Management</h4>
               <p>
-                {" "}
                 Provides real-time tracking of room availability, allowing staff
                 to optimize occupancy rates and prevent overbooking..
               </p>
