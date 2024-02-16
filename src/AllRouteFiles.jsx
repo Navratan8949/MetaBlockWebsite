@@ -116,6 +116,7 @@ import NFTFantasySportsPlatformDevelopment from "./Component/blockchain/NFTDevel
 import MainBlockchain from "./Component/blockchain/mainblockchain/MainBlockchain";
 import WalletConnectClone from "./Component/blockchain/Walletdevelopmen/WalletConnectClone/WalletConnectClone";
 import AccountBilling from "./Component/WebApplicationDevelopment/SoftwarePages/Accounting&BillingSoftware";
+import LudoGameDevelopment from "./Component/gaming/CasinoGames/LudoGameDevelopment"
 import { ScrollToScroll } from "./WindowToScroll";
 
 const AllRouteFiles = () => {
@@ -423,6 +424,11 @@ const AllRouteFiles = () => {
               path="NFTFantasySportsPlatformDevelopment"
               element={<NFTFantasySportsPlatformDevelopment />}
             />
+            <Route
+              path="LudoGameDevelopment"
+              element={<LudoGameDevelopment />}
+            />
+
           </Routes>
         </div>
       </BrowserRouter>

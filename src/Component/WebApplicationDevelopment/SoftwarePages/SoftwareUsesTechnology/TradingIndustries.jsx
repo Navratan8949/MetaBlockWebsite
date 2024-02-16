@@ -12,10 +12,8 @@ const TradingIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/planning.png" alt="" />
 
-                            <h4>Project Management</h4>
-                            <p>Inditres streamlines project tasks with intuitive tools for tracking and collaboration, ensuring teams stay organized and on schedule.
-
-
+                            <h4>Finance and Investment</h4>
+                            <p>Trading is extensively used in the finance and investment industry, including stock markets, forex (foreign exchange), bonds, and derivatives markets.
                             </p></div>
                     </div>
 
@@ -23,10 +21,8 @@ const TradingIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/relationship.png" alt="" />
 
-                            <h4>Customer Relationship Management </h4>
-                            <p>Enhance customer interactions and drive sales growth with Inditres' comprehensive CRM functionalities, from lead management to customer support.
-
-
+                            <h4>Retail </h4>
+                            <p>Retailers engage in trading goods and merchandise, whether through physical stores, e-commerce platforms, or wholesale trading.
                             </p></div>
                     </div>
 
@@ -34,11 +30,8 @@ const TradingIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/human-resources.png" alt="" />
 
-                            <h4>Human Resources Management</h4>
-                            <p>Simplify HR processes with Inditres' tools for employee onboarding, performance evaluation, and payroll management, freeing up time for strategic initiatives.
-
-
-
+                            <h4>Manufacturing</h4>
+                            <p> Manufacturers engage in trading raw materials, components, and finished goods with suppliers, distributors, and other businesses within the supply chain.
                             </p></div>
                     </div>
 
@@ -46,11 +39,8 @@ const TradingIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/bank.png" alt="" />
 
-                            <h4>Financial Management</h4>
-                            <p>Gain insights into financial health and make informed decisions with Inditres' robust financial management solutions, including expense tracking and reporting features.
-
-
-
+                            <h4>Energy</h4>
+                            <p>Trading is prevalent in the energy sector, encompassing commodities such as oil, natural gas, and electricity, where companies buy and sell energy products to meet demand and manage risk.
                             </p></div>
                     </div>
 
@@ -61,9 +51,8 @@ const TradingIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/marketing-automation.png" alt="" />
 
-                            <h4>Marketing Automation</h4>
-                            <p>Automate campaigns, analyze performance metrics, and optimize conversions with Inditres' marketing automation platform, empowering marketers to engage their audience effectively
-
+                            <h4>Technology</h4>
+                            <p>Technology companies often engage in trading intellectual property, software licenses, and hardware components with other businesses, both domestically and internationally.
                             </p></div>
                     </div>
 
@@ -72,27 +61,16 @@ const TradingIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/material-management.png" alt="" />
 
-                            <h4>Inventory Management</h4>
-                            <p>Manage inventory levels, track stock movements, and optimize supply chains with Inditres' real-time visibility and efficiency-enhancing features.
-
-
-
+                            <h4>Agriculture</h4>
+                            <p>Agricultural trading involves the buying and selling of crops, livestock, and agricultural commodities such as grains, cotton, and coffee.
                             </p></div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="./images/revenue.png" alt="" />
 
-                            <h4>Sales Enablement</h4>
-                            <p>Accelerate sales cycles and close deals effectively with Inditres' lead generation, pipeline management, and revenue-driving insights.
-
-
-
-
-
-
-
-
+                            <h4>Real Estate</h4>
+                            <p>Real estate trading involves buying, selling, and leasing properties, including residential, commercial, and industrial real estate assets.
                             </p></div>
                     </div>
 
@@ -100,15 +78,8 @@ const TradingIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/compliance-document.png" alt="" />
 
-                            <h4>Compliance and Security</h4>
-                            <p>Ensure data security and compliance with Inditres' encryption, access controls, and compliance reporting features, safeguarding sensitive information
-
-
-
-
-
-
-
+                            <h4>Healthcare</h4>
+                            <p>Healthcare organizations engage in trading pharmaceuticals, medical devices, and healthcare services, both domestically and internationally.
                             </p></div>
                     </div>
 

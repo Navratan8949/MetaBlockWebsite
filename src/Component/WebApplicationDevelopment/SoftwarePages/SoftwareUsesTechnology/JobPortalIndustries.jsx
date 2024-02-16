@@ -12,10 +12,8 @@ const JobPortalIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/planning.png" alt="" />
 
-                            <h4>Project Management</h4>
-                            <p>Inditres streamlines project tasks with intuitive tools for tracking and collaboration, ensuring teams stay organized and on schedule.
-
-
+                            <h4>HR Industry</h4>
+                            <p>Job portals are widely used in human resources for recruitment purposes.
                             </p></div>
                     </div>
 
@@ -23,10 +21,8 @@ const JobPortalIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/relationship.png" alt="" />
 
-                            <h4>Customer Relationship Management </h4>
-                            <p>Enhance customer interactions and drive sales growth with Inditres' comprehensive CRM functionalities, from lead management to customer support.
-
-
+                            <h4>IT Sector </h4>
+                            <p>In the IT sector, job portals serve as a primary tool for hiring software developers, engineers, and other tech professionals.
                             </p></div>
                     </div>
 
@@ -34,10 +30,8 @@ const JobPortalIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/human-resources.png" alt="" />
 
-                            <h4>Human Resources Management</h4>
-                            <p>Simplify HR processes with Inditres' tools for employee onboarding, performance evaluation, and payroll management, freeing up time for strategic initiatives.
-
-
+                            <h4>Healthcare Industry</h4>
+                            <p>Hospitals and healthcare organizations utilize job portals to fill positions for doctors, nurses, and administrative staff
 
                             </p></div>
                     </div>
@@ -46,10 +40,8 @@ const JobPortalIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/bank.png" alt="" />
 
-                            <h4>Financial Management</h4>
-                            <p>Gain insights into financial health and make informed decisions with Inditres' robust financial management solutions, including expense tracking and reporting features.
-
-
+                            <h4>Education Sector</h4>
+                            <p>Educational institutions rely on job portals to hire teachers, professors, and support staff.
 
                             </p></div>
                     </div>
@@ -61,8 +53,8 @@ const JobPortalIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/marketing-automation.png" alt="" />
 
-                            <h4>Marketing Automation</h4>
-                            <p>Automate campaigns, analyze performance metrics, and optimize conversions with Inditres' marketing automation platform, empowering marketers to engage their audience effectively
+                            <h4>Retail Industry</h4>
+                            <p>Retail companies use job portals to recruit sales associates, store managers, and customer service representatives.
 
                             </p></div>
                     </div>
@@ -72,9 +64,8 @@ const JobPortalIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/material-management.png" alt="" />
 
-                            <h4>Inventory Management</h4>
-                            <p>Manage inventory levels, track stock movements, and optimize supply chains with Inditres' real-time visibility and efficiency-enhancing features.
-
+                            <h4>Manufacturing Industry</h4>
+                            <p>Manufacturing companies use job portals to hire production workers, engineers, and technicians.
 
 
                             </p></div>
@@ -83,16 +74,8 @@ const JobPortalIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/revenue.png" alt="" />
 
-                            <h4>Sales Enablement</h4>
-                            <p>Accelerate sales cycles and close deals effectively with Inditres' lead generation, pipeline management, and revenue-driving insights.
-
-
-
-
-
-
-
-
+                            <h4>Construction Industry</h4>
+                            <p>Construction companies rely on job portals to hire construction workers, engineers, and project managers.
                             </p></div>
                     </div>
 
@@ -100,16 +83,9 @@ const JobPortalIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/compliance-document.png" alt="" />
 
-                            <h4>Compliance and Security</h4>
-                            <p>Ensure data security and compliance with Inditres' encryption, access controls, and compliance reporting features, safeguarding sensitive information
-
-
-
-
-
-
-
-                            </p></div>
+                            <h4>Consulting Services</h4>
+                            <p>Consulting firms use job portals for recruiting consultants and analysts for various projects. </p>
+                        </div>
                     </div>
 
                 </div>
