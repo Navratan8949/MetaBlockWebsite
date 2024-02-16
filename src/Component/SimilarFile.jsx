@@ -153,7 +153,7 @@ const SimilarFile = () => {
                                 <div className="port_sub_title">Game</div>
                                 <p>
                                   Ready to take your gaming experience to the next
-                                  level? Look no further than Osiz Technologies. Our
+                                  level?  Our
                                   cutting-edge software and expert developers have
                                   created some of the most immersive games on the
                                   market. From action-packed shooters to strategy

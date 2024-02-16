@@ -68,7 +68,7 @@ const DaoBlockchain = () => {
                   <div className="inr_img">
                     <img src="https://www.osiztechnologies.com/asset/inner-pages-new/blockchain_new/why_icon.png" className="spr_img" alt="Decentralization" title="Decentralization" style={{ objectPosition: '0px 0px' }} />
                   </div>
-                  <h3 className="media-heading">Decentralization</h3>
+                  <h3 className="media-heading">Decentralization test</h3>
                   <p className="normal_text">In case of public blockchain, the blockchain network is decentralized and not controlled by a single entity, whereas in private blockchain, one entity or organization will have the control over the blockchain network.</p>
                 </div>
               </div>
