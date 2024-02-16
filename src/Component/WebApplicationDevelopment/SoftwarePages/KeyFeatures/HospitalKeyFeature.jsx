@@ -1,96 +1,136 @@
-import React from 'react'
+import React from "react";
 
 const HospitalKeyFeature = () => {
-    return (
-        <div style={{ marginBottom: '50px ' }} >
+  return (
+    <div style={{ marginBottom: "50px " }}>
+      <div className="dashboard-main-box">
+        <h4 className="Key-feature-heading">Key Feature</h4>
+        <div className="dashboard-container">
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                alt=""
+              />
 
-            <div className="dashboard-main-box">
-                <h4 className='Key-feature-heading'>Key Feature</h4>
-                <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
-
-                            <h4>Inventory Monitoring</h4>
-                            <p>It has a fully-integrated Inventory Management system. Fully illustrated stock information, purchase information, sale information. You will also get a notification before running out any product.</p>
-                        </div>
-                    </div>
-
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp" alt="" />
-
-                            <h4>Make Better Decision</h4>
-                            <p>Get a complete Graphical view of your business—from Accounts, Sale, Purchase, Inventory and Customer Service with reliable reports. You can make a better decision about the future of your business.</p>
-                        </div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp" alt="" />
-
-                            <h4>Remote Access</h4>
-                            <p>You can control your business from anywhere in the world with an internet connection. To get remote access you can use our android app or you can directly access your sales ERP software from a browser.</p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
-
-                            <h4> Sales System</h4>
-                            <p>Sales ERP software has a fully automatic Sales system. There is a POS system for sale. There is also an excellent sales system called GUI POS, which can make the sale faster.</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
-
-
-                            <h3 style={{ textAlign: "Center" }}>Versatile Service</h3>
-                            <p>Our Sales ERP software offers comprehensive online and offline solutions with secure data storage on your localhost for easy access and management.</p>
-                        </div>
-                    </div>
-
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
-
-                            <h4>Bulk Data insert
-                            </h4>
-                            <p>Inserting huge amounts of data such as product info is very time-consuming. To save your time Sales ERP has a CSV(excel) file upload option.</p>
-                        </div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
-
-                            <h4>Spectacular Dashboard</h4>
-                            <p>You will get a full overview of your business in the dashboard of Sales ERP system software. Not only listed views but also graphical view reports of our sales and inventory.</p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
-
-                            <h4>Data backup</h4>
-                            <p>Sales ERP has a smart Data Backup system, which can allow you to export the database at any time.</p>
-                        </div>
-                    </div>
-
-                </div>
+              <h4>Patient Registration</h4>
+              <p>
+                {" "}
+                Hospitals streamline patient registration processes, capturing
+                essential demographic details for accurate record-keeping.
+              </p>
             </div>
+          </div>
 
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
+                alt=""
+              />
+
+              <h4>Appointment Scheduling</h4>
+              <p>
+                Efficient systems manage appointments, optimizing hospital
+                resources and patient flow.
+              </p>
+            </div>
+          </div>
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
+                alt=""
+              />
+
+              <h4>Electronic Health Records</h4>
+              <p>
+                Hospitals maintain digital health records, ensuring secure and
+                accessible patient information.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                alt=""
+              />
+
+              <h4>Billing Management</h4>
+              <p>
+                {" "}
+                Integrated systems streamline billing processes and manage
+                financial transactions for efficient revenue management.
+              </p>
+            </div>
+          </div>
         </div>
-    )
-}
+        <div className="dashboard-container">
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                alt=""
+              />
 
-export default HospitalKeyFeature
+              <h3 style={{ textAlign: "Center" }}>Inventory Control</h3>
+              <p>
+                Hospitals track and manage inventory to ensure timely
+                availability of medical supplies and prevent shortages.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                alt=""
+              />
+
+              <h4>Staff Management</h4>
+              <p>
+                Systems maintain records and schedules for doctors, nurses, and
+                staff, ensuring adequate staffing levels.
+              </p>
+            </div>
+          </div>
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                alt=""
+              />
+
+              <h4>Pharmacy Management</h4>
+              <p>
+                {" "}
+                Hospitals efficiently manage pharmacy operations, including
+                prescription dispensing and inventory tracking.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                alt=""
+              />
+
+              <h4>Electronic Prescriptions</h4>
+              <p>
+                Systems enable the electronic transmission of prescriptions,
+                improving medication management and safety.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default HospitalKeyFeature;

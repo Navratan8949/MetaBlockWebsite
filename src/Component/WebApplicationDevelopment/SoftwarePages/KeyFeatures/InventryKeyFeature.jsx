@@ -1,108 +1,109 @@
-import React from 'react'
+import React from "react";
 
 const InventryKeyFeature = () => {
     return (
-        <div style={{ marginBottom: '50px ' }} >
-
+        <div style={{ marginBottom: "50px " }}>
             <div className="dashboard-main-box">
-                <h4 className='Key-feature-heading'>Key Feature</h4>
+                <h4 className="Key-feature-heading">Key Feature</h4>
                 <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-
+                    <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
+                            <img src="./images/info.png" alt="" />
 
-                            <h4>Inventory Tracking</h4>
-                            <p>Inventory Tracking ensures real-time visibility of inventory levels, locations, and movements across the supply chain.
+                            <h4>Invoicing</h4>
+                            <p>
+                                Invoicing enables businesses to create and customize invoices
+                                for products or services provided to clients.
                             </p>
                         </div>
                     </div>
 
-
-                    <div className="dashboard-container-box dashboard-boxes" >
+                    <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp" alt="" />
+                            <img src="./images/attendance.png" alt="" />
 
-                            <h4>Barcode and RFID Integration
-                            </h4>
-                            <p>Barcode and RFID Integration automates data entry and enhances accuracy in inventory tracking processes.
+                            <h4>Expense Tracking</h4>
+                            <p>
+                                Expense Tracking helps monitor and categorize various business
+                                expenses, ensuring accurate financial records.
                             </p>
                         </div>
                     </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
+                    <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp" alt="" />
+                            <img src="./images/stress-management.png" alt="" />
 
-                            <h4>Multi-location Management
-                            </h4>
-                            <p>Multi-location Management provides centralized control and visibility of inventory across warehouses and distribution centers.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
-
-                            <h4>Order Processing
-                            </h4>
-                            <p>Order Processing streamlines purchase orders, sales orders, and order fulfillment processes for efficient inventory management.
+                            <h4>Financial Reporting</h4>
+                            <p>
+                                Financial Reporting generates comprehensive reports like balance
+                                sheets and income statements to analyze business performance.
                             </p>
                         </div>
                     </div>
 
+                    <div className="dashboard-container-box dashboard-boxes">
+                        <div className="key-feature-heading">
+                            <img src="./images/quality-control.png" alt="" />
+
+                            <h4>Accounts Payable Management</h4>
+                            <p>
+                                Accounts Payable Management streamlines bill processing, payment
+                                scheduling, and vendor reconciliation.
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
+                    <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
+                            <img src="./images/recruiter.png" alt="" />
 
-
-                            <h3 style={{ textAlign: "Center" }}>Inventory Optimization
-                            </h3>
-                            <p>Inventory Optimization analyzes demand forecasting and historical data to optimize inventory levels and minimize carrying costs.
+                            <h3 style={{ textAlign: "Center" }}>Bank Reconciliation</h3>
+                            <p>
+                                Bank Reconciliation matches and reconciles bank transactions
+                                with accounting records for accuracy.
                             </p>
                         </div>
                     </div>
 
-
-                    <div className="dashboard-container-box dashboard-boxes" >
+                    <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
+                            <img src="./images/analysis.png" alt="" />
 
-                            <h4>Replenishment Alerts
-
-                            </h4>
-                            <p>Replenishment Alerts trigger automatic alerts for timely replenishment of inventory to prevent stockouts.</p>
+                            <h4>Tax Compliance</h4>
+                            <p>
+                                Tax Compliance calculates taxes owed, generates tax reports, and
+                                facilitates tax filings.
+                            </p>
                         </div>
                     </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
+                    <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
+                            <img src="./images/self-service.png" alt="" />
 
-                            <h4>Integration with ERP Systems
-                            </h4>
-                            <p>Integration with ERP Systems synchronizes inventory data, financial information, and business processes for enhanced operational efficiency.
+                            <h4>Self-Service Portal</h4>
+                            <p>
+                                Employee Self-Service Portal empowers employees to update
+                                information, submit leave requests, and access pay stubs
+                                conveniently.
                             </p>
                         </div>
                     </div>
 
-                    <div className="dashboard-container-box dashboard-boxes" >
+                    <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
-
-                            <h4>Reporting and Analytics</h4>
-                            <p>Reporting and Analytics generate customizable reports and dashboards to provide insights into inventory performance, trends, and key metrics.</p>
+                            <img src="./images/business-plan.png" alt="" />
+                            <h4>Payment Gateways Integration</h4>
+                            <p>
+                                Payment Gateways Integration allows for seamless online payments
+                                and credit card processing.
+                            </p>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
-    )
-}
+    );
+};
 
-export default InventryKeyFeature
+export default InventryKeyFeature;

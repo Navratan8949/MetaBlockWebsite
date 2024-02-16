@@ -1,108 +1,140 @@
-import React from 'react'
+import React from "react";
 
 const HotalKeyFeature = () => {
-    return (
-        <div style={{ marginBottom: '50px ' }} >
+  return (
+    <div style={{ marginBottom: "50px " }}>
+      <div className="dashboard-main-box">
+        <h4 className="Key-feature-heading">Key Feature</h4>
+        <div className="dashboard-container">
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                alt=""
+              />
 
-            <div className="dashboard-main-box">
-                <h4 className='Key-feature-heading'>Key Feature</h4>
-                <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
-
-                            <h4>Reservation Management
-                            </h4>
-                            <p>Reservation Management efficiently handles room bookings, modifications, and cancellations to optimize occupancy rates and guest satisfaction.
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp" alt="" />
-
-                            <h4>Front Desk Operations
-                            </h4>
-                            <p>Front Desk Operations streamline check-in, check-out, and room assignments, ensuring smooth guest interactions and operational flow.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp" alt="" />
-
-                            <h4>Room Inventory Tracking
-                            </h4>
-                            <p>Room Inventory Tracking monitors real-time room availability, preventing overbooking and maximizing revenue potential.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
-
-                            <h4> Billing and Payments
-                            </h4>
-                            <p>Billing and Payments system generates accurate invoices, securely processes payments, and tracks guest expenses for transparent financial transactions.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                <div className="dashboard-container">
-
-                    <div className="dashboard-container-box dashboard-boxes"  >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
-
-
-                            <h3 style={{ textAlign: "Center" }}>Housekeeping Coordination
-                            </h3>
-                            <p>Housekeeping Coordination manages cleaning schedules and maintenance requests, maintaining a clean and comfortable environment for guests.
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
-
-                            <h4>Guest Preferences
-                            </h4>
-                            <p>Guest Preferences store guest information and preferences for personalized services, enhancing overall guest experience and loyalty.</p>
-                        </div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
-
-                            <h4>POS Integration
-                            </h4>
-                            <p>POS Integration manages on-site amenities like restaurants and bars, enabling seamless guest billing and inventory managemen.</p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes" >
-                        <div className="key-feature-heading">
-                            <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
-
-                            <h4>Inventory Control
-                            </h4>
-                            <p>Inventory Control ensures optimal stock levels of hotel amenities, enhancing operational efficiency and guest satisfaction.</p>
-                        </div>
-                    </div>
-
-                </div>
+              <h4>Reservation Management</h4>
+              <p>
+                {" "}
+                Allows hotel staff to efficiently manage room reservations,
+                including booking, modification, and cancellation processes.
+              </p>
             </div>
+          </div>
 
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
+                alt=""
+              />
+
+              <h4>Front Desk Operationsn</h4>
+              <p>
+                Streamlines front desk tasks such as check-in, check-out, room
+                assignment, and guest inquiries, ensuring smooth operations and
+                guest satisfaction.
+              </p>
+            </div>
+          </div>
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
+                alt=""
+              />
+
+              <h4>Room Inventory Management</h4>
+              <p>
+                {" "}
+                Provides real-time tracking of room availability, allowing staff
+                to optimize occupancy rates and prevent overbooking..
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                alt=""
+              />
+
+              <h4>Billing and Invoicing</h4>
+              <p>
+                Generates invoices, processes payments, and tracks guest
+                expenses, integrating with payment gateways for secure
+                transactions.
+              </p>
+            </div>
+          </div>
         </div>
-    )
-}
+        <div className="dashboard-container">
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                alt=""
+              />
 
-export default HotalKeyFeature
+              <h3 style={{ textAlign: "Center" }}>Housekeeping Managemente</h3>
+              <p>
+                Coordinates housekeeping schedules, tracks room cleaning status,
+                and manages maintenance requests to maintain cleanliness and
+                guest comfort.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                alt=""
+              />
+
+              <h4>Guest Profiles</h4>
+              <p>
+                Stores guest information, preferences, and booking history for
+                personalized service and targeted marketing campaigns.
+              </p>
+            </div>
+          </div>
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                alt=""
+              />
+
+              <h4>Point of Sale </h4>
+              <p>
+                Integrates with POS systems for seamless management of
+                restaurant, bar, and other on-site amenities, facilitating guest
+                billing and inventory tracking.
+              </p>
+            </div>
+          </div>
+
+          <div className="dashboard-container-box dashboard-boxes">
+            <div className="key-feature-heading">
+              <img
+                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                alt=""
+              />
+
+              <h4>Security</h4>
+              <p>
+                Implements security features such as user authentication,
+                role-based access control, and data encryption to safeguard
+                guest information and sensitive data.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default HotalKeyFeature;
