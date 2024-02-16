@@ -13,8 +13,10 @@ const EventKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
 
-                            <h4>Inventory Monitoring</h4>
-                            <p>It has a fully-integrated Inventory Management system. Fully illustrated stock information, purchase information, sale information. You will also get a notification before running out any product.</p>
+                            <h4>Registration
+                            </h4>
+                            <p>Registration streamlines attendee sign-ups, managing ticketing options and essential details efficiently.
+                            </p>
                         </div>
                     </div>
 
@@ -23,16 +25,19 @@ const EventKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp" alt="" />
 
-                            <h4>Make Better Decision</h4>
-                            <p>Get a complete Graphical view of your business—from Accounts, Sale, Purchase, Inventory and Customer Service with reliable reports. You can make a better decision about the future of your business.</p>
+                            <h4>Venue Management
+                            </h4>
+                            <p>Venue Management simplifies booking and coordination, ensuring suitable seating arrangements and room setups.</p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp" alt="" />
 
-                            <h4>Remote Access</h4>
-                            <p>You can control your business from anywhere in the world with an internet connection. To get remote access you can use our android app or you can directly access your sales ERP software from a browser.</p>
+                            <h4>Agenda Planning
+                            </h4>
+                            <p>Agenda Planning empowers organizers to craft detailed schedules, featuring speakers and session topics.
+                            </p>
                         </div>
                     </div>
 
@@ -40,8 +45,10 @@ const EventKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
 
-                            <h4> Sales System</h4>
-                            <p>Sales ERP software has a fully automatic Sales system. There is a POS system for sale. There is also an excellent sales system called GUI POS, which can make the sale faster.</p>
+                            <h4> Attendee Management
+                            </h4>
+                            <p>Attendee Management tracks attendee information, managing registrations and facilitating communications seamlessly.
+                            </p>
                         </div>
                     </div>
 
@@ -53,8 +60,9 @@ const EventKeyFeature = () => {
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
 
 
-                            <h3 style={{ textAlign: "Center" }}>Versatile Service</h3>
-                            <p>Our Sales ERP software offers comprehensive online and offline solutions with secure data storage on your localhost for easy access and management.</p>
+                            <h3 style={{ textAlign: "Center" }}>Ticketing and Payments
+                            </h3>
+                            <p>Ticketing and Payments ensure secure processing, offering various payment options and discounts.</p>
                         </div>
                     </div>
 
@@ -63,17 +71,21 @@ const EventKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
 
-                            <h4>Bulk Data insert
+                            <h4>Check-In and Badges
+
                             </h4>
-                            <p>Inserting huge amounts of data such as product info is very time-consuming. To save your time Sales ERP has a CSV(excel) file upload option.</p>
+                            <p>Check-In and Badges streamline event entry with digital tools and on-site badge printing.
+                            </p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
 
-                            <h4>Spectacular Dashboard</h4>
-                            <p>You will get a full overview of your business in the dashboard of Sales ERP system software. Not only listed views but also graphical view reports of our sales and inventory.</p>
+                            <h4>Networking Tools
+                            </h4>
+                            <p>Networking Tools facilitate connections through directories, matchmaking, and messaging platforms.
+                            </p>
                         </div>
                     </div>
 
@@ -81,8 +93,10 @@ const EventKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
 
-                            <h4>Data backup</h4>
-                            <p>Sales ERP has a smart Data Backup system, which can allow you to export the database at any time.</p>
+                            <h4>Exhibitor Management
+                            </h4>
+                            <p>Exhibitor Management oversees booth assignments, sponsorships, and communications, ensuring smooth collaboration.
+                            </p>
                         </div>
                     </div>
 

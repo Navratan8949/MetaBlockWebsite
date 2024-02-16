@@ -12,9 +12,8 @@ const MLMIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/planning.png" alt="" />
 
-                            <h4>Project Management</h4>
-                            <p>Inditres streamlines project tasks with intuitive tools for tracking and collaboration, ensuring teams stay organized and on schedule.
-
+                            <h4>Health and Wellness Industry</h4>
+                            <p>MLM software manages distributor networks, tracks sales, and processes commissions efficiently for health and wellness companies.
 
                             </p></div>
                     </div>
@@ -23,9 +22,8 @@ const MLMIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/relationship.png" alt="" />
 
-                            <h4>Customer Relationship Management </h4>
-                            <p>Enhance customer interactions and drive sales growth with Inditres' comprehensive CRM functionalities, from lead management to customer support.
-
+                            <h4>Cosmetics and Beauty Products </h4>
+                            <p>In the cosmetics sector, MLM software streamlines distributor management, sales tracking, and commission calculations.
 
                             </p></div>
                     </div>
@@ -34,10 +32,8 @@ const MLMIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/human-resources.png" alt="" />
 
-                            <h4>Human Resources Management</h4>
-                            <p>Simplify HR processes with Inditres' tools for employee onboarding, performance evaluation, and payroll management, freeing up time for strategic initiatives.
-
-
+                            <h4>Nutritional Supplements</h4>
+                            <p>MLM software assists with distributor network management and order processing for nutritional supplement companies.
 
                             </p></div>
                     </div>
@@ -46,10 +42,8 @@ const MLMIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/bank.png" alt="" />
 
-                            <h4>Financial Management</h4>
-                            <p>Gain insights into financial health and make informed decisions with Inditres' robust financial management solutions, including expense tracking and reporting features.
-
-
+                            <h4>Fashion and Appare</h4>
+                            <p>MLM software assists with distributor network management and sales tracking for apparel companies.
 
                             </p></div>
                     </div>
@@ -61,8 +55,8 @@ const MLMIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/marketing-automation.png" alt="" />
 
-                            <h4>Marketing Automation</h4>
-                            <p>Automate campaigns, analyze performance metrics, and optimize conversions with Inditres' marketing automation platform, empowering marketers to engage their audience effectively
+                            <h4>Travel and Hospitality</h4>
+                            <p>MLM software helps manage distributor networks selling travel packages and accommodations.
 
                             </p></div>
                     </div>
@@ -83,15 +77,8 @@ const MLMIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/revenue.png" alt="" />
 
-                            <h4>Sales Enablement</h4>
-                            <p>Accelerate sales cycles and close deals effectively with Inditres' lead generation, pipeline management, and revenue-driving insights.
-
-
-
-
-
-
-
+                            <h4>Technology Products</h4>
+                            <p>MLM software aids technology companies in distributor network management and sales tracking.
 
                             </p></div>
                     </div>
@@ -100,14 +87,8 @@ const MLMIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/compliance-document.png" alt="" />
 
-                            <h4>Compliance and Security</h4>
-                            <p>Ensure data security and compliance with Inditres' encryption, access controls, and compliance reporting features, safeguarding sensitive information
-
-
-
-
-
-
+                            <h4>Personal Care Products</h4>
+                            <p>MLM software supports sales channel management and order processing for personal care companies.
 
                             </p></div>
                     </div>

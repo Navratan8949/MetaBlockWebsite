@@ -13,8 +13,10 @@ const AstrologyKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
 
-                            <h4>Inventory Monitoring</h4>
-                            <p>It has a fully-integrated Inventory Management system. Fully illustrated stock information, purchase information, sale information. You will also get a notification before running out any product.</p>
+                            <h4>Chart Generation
+                            </h4>
+                            <p>Chart Generation feature enables users to generate accurate birth charts, horoscopes, and astrological diagrams based on specific birth details.
+                            </p>
                         </div>
                     </div>
 
@@ -23,8 +25,9 @@ const AstrologyKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp" alt="" />
 
-                            <h4>Make Better Decision</h4>
-                            <p>Get a complete Graphical view of your business—from Accounts, Sale, Purchase, Inventory and Customer Service with reliable reports. You can make a better decision about the future of your business.</p>
+                            <h4>Planetary Positions</h4>
+                            <p>Planetary Positions module displays current and historical positions of planets, stars, and celestial bodies, aiding in astrological analysis and interpretation.
+                            </p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
@@ -40,8 +43,9 @@ const AstrologyKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
 
-                            <h4> Sales System</h4>
-                            <p>Sales ERP software has a fully automatic Sales system. There is a POS system for sale. There is also an excellent sales system called GUI POS, which can make the sale faster.</p>
+                            <h4> Aspect Analysis
+                            </h4>
+                            <p>Aspect Analysis tool helps users interpret planetary aspects and alignments, providing insights into their influence on an individual's life.</p>
                         </div>
                     </div>
 
@@ -53,8 +57,10 @@ const AstrologyKeyFeature = () => {
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
 
 
-                            <h3 style={{ textAlign: "Center" }}>Versatile Service</h3>
-                            <p>Our Sales ERP software offers comprehensive online and offline solutions with secure data storage on your localhost for easy access and management.</p>
+                            <h3 style={{ textAlign: "Center" }}>Transit Forecasting
+                            </h3>
+                            <p>Transit Forecasting feature forecasts planetary transits and their impact on a person's natal chart, offering insights into upcoming astrological influences.
+                            </p>
                         </div>
                     </div>
 
@@ -63,17 +69,19 @@ const AstrologyKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
 
-                            <h4>Bulk Data insert
+                            <h4>Compatibility Analysis
                             </h4>
-                            <p>Inserting huge amounts of data such as product info is very time-consuming. To save your time Sales ERP has a CSV(excel) file upload option.</p>
+                            <p>Compatibility Analysis tool evaluates astrological compatibility between individuals through synastry and composite charts, aiding in understanding relationship dynamics.
+                            </p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
 
-                            <h4>Spectacular Dashboard</h4>
-                            <p>You will get a full overview of your business in the dashboard of Sales ERP system software. Not only listed views but also graphical view reports of our sales and inventory.</p>
+                            <h4>Astrological Reports
+                            </h4>
+                            <p>Astrological Reports feature generates detailed reports, including natal interpretations, transit forecasts, and compatibility analyses, for deeper insights into astrological influences.</p>
                         </div>
                     </div>
 
@@ -81,8 +89,9 @@ const AstrologyKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
 
-                            <h4>Data backup</h4>
-                            <p>Sales ERP has a smart Data Backup system, which can allow you to export the database at any time.</p>
+                            <h4>Customization Options</h4>
+                            <p>Customization Options allow users to tailor astrological charts, reports, and interpretations based on personal preferences and astrological traditions.
+                            </p>
                         </div>
                     </div>
 

@@ -29717,7 +29717,7 @@ border-radius: 15px;
 
 @media (min-width: 991px) {
     .faq_main .faq_section_new {
-        background: url(https://www.osiztechnologies.com/asset/img/faq-bg.webp);
+        background: url(../../../public/images/image-faq.jpg);
         min-height: 982px;
         background-repeat: no-repeat;
         background-position: 90%;

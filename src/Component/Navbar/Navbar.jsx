@@ -376,10 +376,20 @@ const Navbar = () => {
     },
   ];
 
+  const GeneralGamesDevelopment = [
+    {
+      path: "/GeneralGamesDevelopment"
+
+    }
+  ]
+
+
+
   const casinogamesdevelopment = [
 
     {
       name: "Ludo Game Development",
+      path: "/LudoGameDevelopment"
     },
     {
       name: "Rummy Game Development",
@@ -1827,10 +1837,12 @@ const Navbar = () => {
                             </li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a
-                                className="dropdown_nav_link dropdown-toggle"
+                                className="dropdown_nav_link "
                                 id="Company_navbarDropdown"
                                 role="button"
-                                data-toggle="dropdown"
+                                onClick={() => navigate("/GeneralGamesDevelopment")}
+                                // className="nav-link"
+                                // data-toggle="dropdown"
                                 aria-expanded="false"
                                 style={{ textDecoration: "none" }}
                               >

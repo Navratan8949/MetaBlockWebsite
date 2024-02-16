@@ -13,8 +13,8 @@ const JobPortalKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
 
-                            <h4>Inventory Monitoring</h4>
-                            <p>It has a fully-integrated Inventory Management system. Fully illustrated stock information, purchase information, sale information. You will also get a notification before running out any product.</p>
+                            <h4>Job Posting</h4>
+                            <p>Employers can post job vacancies with detailed descriptions, streamlining the recruitment process.</p>
                         </div>
                     </div>
 
@@ -23,16 +23,16 @@ const JobPortalKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp" alt="" />
 
-                            <h4>Make Better Decision</h4>
-                            <p>Get a complete Graphical view of your business—from Accounts, Sale, Purchase, Inventory and Customer Service with reliable reports. You can make a better decision about the future of your business.</p>
+                            <h4>Candidate Search</h4>
+                            <p>Advanced search functionalities enable employers to find suitable candidates based on specific criteria.</p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp" alt="" />
 
-                            <h4>Remote Access</h4>
-                            <p>You can control your business from anywhere in the world with an internet connection. To get remote access you can use our android app or you can directly access your sales ERP software from a browser.</p>
+                            <h4>Resume Database</h4>
+                            <p>A centralized repository allows candidates to upload resumes, simplifying candidate sourcing for employers.</p>
                         </div>
                     </div>
 
@@ -40,8 +40,8 @@ const JobPortalKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
 
-                            <h4> Sales System</h4>
-                            <p>Sales ERP software has a fully automatic Sales system. There is a POS system for sale. There is also an excellent sales system called GUI POS, which can make the sale faster.</p>
+                            <h4>Application Management</h4>
+                            <p>Employers can track candidate progress, schedule interviews, and send notifications easily.</p>
                         </div>
                     </div>
 
@@ -53,8 +53,8 @@ const JobPortalKeyFeature = () => {
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
 
 
-                            <h3 style={{ textAlign: "Center" }}>Versatile Service</h3>
-                            <p>Our Sales ERP software offers comprehensive online and offline solutions with secure data storage on your localhost for easy access and management.</p>
+                            <h3 style={{ textAlign: "Center" }}>Candidate Screening</h3>
+                            <p>Screening tools assess candidate suitability through resume parsing and skills assessments.</p>
                         </div>
                     </div>
 
@@ -63,17 +63,17 @@ const JobPortalKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp" alt="" />
 
-                            <h4>Bulk Data insert
+                            <h4>Employer Branding
                             </h4>
-                            <p>Inserting huge amounts of data such as product info is very time-consuming. To save your time Sales ERP has a CSV(excel) file upload option.</p>
+                            <p>Customizable profiles and branding options help showcase employer brand identity effectively.</p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes" >
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp" alt="" />
 
-                            <h4>Spectacular Dashboard</h4>
-                            <p>You will get a full overview of your business in the dashboard of Sales ERP system software. Not only listed views but also graphical view reports of our sales and inventory.</p>
+                            <h4>Mobile Compatibility</h4>
+                            <p>Mobile-friendly interfaces ensure accessibility for job seekers and employers.</p>
                         </div>
                     </div>
 
@@ -81,7 +81,7 @@ const JobPortalKeyFeature = () => {
                         <div className="key-feature-heading">
                             <img src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp" alt="" />
 
-                            <h4>Data backup</h4>
+                            <h4>Integration Capabilities</h4>
                             <p>Sales ERP has a smart Data Backup system, which can allow you to export the database at any time.</p>
                         </div>
                     </div>

@@ -12,8 +12,10 @@ const EventIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/planning.png" alt="" />
 
-                            <h4>Project Management</h4>
-                            <p>Inditres streamlines project tasks with intuitive tools for tracking and collaboration, ensuring teams stay organized and on schedule.
+                            <h4>Corporate Events
+                            </h4>
+                            <p> Corporations rely on event management software to efficiently organize conferences, seminars, product launches, and meetings.
+
 
 
                             </p></div>
@@ -23,9 +25,9 @@ const EventIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/relationship.png" alt="" />
 
-                            <h4>Customer Relationship Management </h4>
-                            <p>Enhance customer interactions and drive sales growth with Inditres' comprehensive CRM functionalities, from lead management to customer support.
-
+                            <h4>Trade Shows
+                            </h4>
+                            <p> Event management software streamlines booth assignments, exhibitor registrations, floor plans, and attendee registrations for trade shows.
 
                             </p></div>
                     </div>
@@ -34,10 +36,9 @@ const EventIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/human-resources.png" alt="" />
 
-                            <h4>Human Resources Management</h4>
-                            <p>Simplify HR processes with Inditres' tools for employee onboarding, performance evaluation, and payroll management, freeing up time for strategic initiatives.
-
-
+                            <h4>Weddings
+                            </h4>
+                            <p> Planners utilize software for venue selection, guest lists, vendor coordination, and budget tracking in wedding planning.
 
                             </p></div>
                     </div>
@@ -46,11 +47,9 @@ const EventIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/bank.png" alt="" />
 
-                            <h4>Financial Management</h4>
-                            <p>Gain insights into financial health and make informed decisions with Inditres' robust financial management solutions, including expense tracking and reporting features.
-
-
-
+                            <h4>Education
+                            </h4>
+                            <p> Schools and universities organize academic conferences, alumni gatherings, workshops, and student events with event management software.
                             </p></div>
                     </div>
 
@@ -61,8 +60,10 @@ const EventIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/marketing-automation.png" alt="" />
 
-                            <h4>Marketing Automation</h4>
-                            <p>Automate campaigns, analyze performance metrics, and optimize conversions with Inditres' marketing automation platform, empowering marketers to engage their audience effectively
+                            <h4>Non-Profits
+                            </h4>
+                            <p> Non-profit organizations utilize software for fundraising events, charity auctions, galas, and awareness campaigns.
+
 
                             </p></div>
                     </div>
@@ -72,10 +73,8 @@ const EventIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/material-management.png" alt="" />
 
-                            <h4>Inventory Management</h4>
-                            <p>Manage inventory levels, track stock movements, and optimize supply chains with Inditres' real-time visibility and efficiency-enhancing features.
-
-
+                            <h4>Government Events</h4>
+                            <p> Governments efficiently organize public events, conferences, summits, and town hall meetings using event management software.
 
                             </p></div>
                     </div>
@@ -83,15 +82,8 @@ const EventIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/revenue.png" alt="" />
 
-                            <h4>Sales Enablement</h4>
-                            <p>Accelerate sales cycles and close deals effectively with Inditres' lead generation, pipeline management, and revenue-driving insights.
-
-
-
-
-
-
-
+                            <h4>Sports Events</h4>
+                            <p> Organizers manage sports tournaments, championships, and marathons, including participant registrations and scheduling.
 
                             </p></div>
                     </div>
@@ -100,14 +92,8 @@ const EventIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/compliance-document.png" alt="" />
 
-                            <h4>Compliance and Security</h4>
-                            <p>Ensure data security and compliance with Inditres' encryption, access controls, and compliance reporting features, safeguarding sensitive information
-
-
-
-
-
-
+                            <h4>Concerts</h4>
+                            <p> Event management software assists in managing ticket sales, artist bookings, stage schedules, and logistics for concerts and music festivals.
 
                             </p></div>
                     </div>

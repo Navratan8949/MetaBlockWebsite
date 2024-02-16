@@ -12,9 +12,9 @@ const MatrimonialIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/planning.png" alt="" />
 
-                            <h4>Project Management</h4>
-                            <p>Inditres streamlines project tasks with intuitive tools for tracking and collaboration, ensuring teams stay organized and on schedule.
-
+                            <h4>Website Integration
+                            </h4>
+                            <p>Website Integration simplifies partner search and profile creation, offering vast databases for individuals to find suitable matches efficiently.
 
                             </p></div>
                     </div>
@@ -23,8 +23,11 @@ const MatrimonialIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/relationship.png" alt="" />
 
-                            <h4>Customer Relationship Management </h4>
-                            <p>Enhance customer interactions and drive sales growth with Inditres' comprehensive CRM functionalities, from lead management to customer support.
+                            <h4>Matrimonial Agency Services
+                            </h4>
+                            <p>Matrimonial Agency Services utilize software tools to offer personalized matchmaking services, ensuring clients find compatible life partners efficiently.
+
+
 
 
                             </p></div>
@@ -34,10 +37,9 @@ const MatrimonialIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/human-resources.png" alt="" />
 
-                            <h4>Human Resources Management</h4>
-                            <p>Simplify HR processes with Inditres' tools for employee onboarding, performance evaluation, and payroll management, freeing up time for strategic initiatives.
-
-
+                            <h4>Agency Services
+                            </h4>
+                            <p>Agency Services provide personalized matchmaking expertise, guiding clients through the process and offering tailored recommendations.
 
                             </p></div>
                     </div>
@@ -46,9 +48,10 @@ const MatrimonialIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/bank.png" alt="" />
 
-                            <h4>Financial Management</h4>
-                            <p>Gain insights into financial health and make informed decisions with Inditres' robust financial management solutions, including expense tracking and reporting features.
+                            <h4>Mobile Integration
 
+                            </h4>
+                            <p>Mobile Integration extends matchmaking services to smartphones, allowing users to access profiles and connect with potential partners on-the-g
 
 
                             </p></div>
@@ -61,8 +64,12 @@ const MatrimonialIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/marketing-automation.png" alt="" />
 
-                            <h4>Marketing Automation</h4>
-                            <p>Automate campaigns, analyze performance metrics, and optimize conversions with Inditres' marketing automation platform, empowering marketers to engage their audience effectively
+                            <h4>Community Engagement
+
+                            </h4>
+                            <p>Community Engagement fosters connections within specific communities, facilitating introductions and meetings among individuals seeking partners.
+
+
 
                             </p></div>
                     </div>
@@ -72,10 +79,10 @@ const MatrimonialIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/material-management.png" alt="" />
 
-                            <h4>Inventory Management</h4>
-                            <p>Manage inventory levels, track stock movements, and optimize supply chains with Inditres' real-time visibility and efficiency-enhancing features.
+                            <h4>Wedding Assistance
 
-
+                            </h4>
+                            <p>Wedding Assistance includes matchmaking features, ensuring couples share similar values and lifestyles for a harmonious union.
 
                             </p></div>
                     </div>
@@ -83,14 +90,8 @@ const MatrimonialIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/revenue.png" alt="" />
 
-                            <h4>Sales Enablement</h4>
-                            <p>Accelerate sales cycles and close deals effectively with Inditres' lead generation, pipeline management, and revenue-driving insights.
-
-
-
-
-
-
+                            <h4>Referral Networks</h4>
+                            <p>Referral Networks leverage trusted connections, where relatives refer potential matches, enhancing compatibility and trust in the process.
 
 
                             </p></div>
@@ -100,13 +101,10 @@ const MatrimonialIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/compliance-document.png" alt="" />
 
-                            <h4>Compliance and Security</h4>
-                            <p>Ensure data security and compliance with Inditres' encryption, access controls, and compliance reporting features, safeguarding sensitive information
+                            <h4>Event Integration
 
-
-
-
-
+                            </h4>
+                            <p>Event Integration transforms gatherings into matchmaking opportunities, fostering interactions and connections in a relaxed atmosphere.
 
 
                             </p></div>

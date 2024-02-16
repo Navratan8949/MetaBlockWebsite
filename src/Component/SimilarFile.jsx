@@ -1580,7 +1580,7 @@ const SimilarFile = () => {
           <main className="faq_main">
             <div className="faq_section_new">
               <div className="container">
-                <div style={{ gap: "100px" }} className="row background-image-inner">
+                <div style={{ gap: "100px" }} className="row ">
 
                   <div className="col-xl-7 col-12">
                     <div className="mid_section">
