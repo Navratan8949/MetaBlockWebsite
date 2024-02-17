@@ -8,14 +8,10 @@ const HotalKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/time-management.png" alt="" />
 
               <h4>Reservation Management</h4>
               <p>
-                {" "}
                 Allows hotel staff to efficiently manage room reservations,
                 including booking, modification, and cancellation processes.
               </p>
@@ -24,10 +20,7 @@ const HotalKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
-                alt=""
-              />
+              <img src="./images/help-desk.png" alt="" />
 
               <h4>Front Desk Operationsn</h4>
               <p>
@@ -39,14 +32,10 @@ const HotalKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
-                alt=""
-              />
+              <img src="./images/material-management.png" alt="" />
 
               <h4>Room Inventory Management</h4>
               <p>
-                {" "}
                 Provides real-time tracking of room availability, allowing staff
                 to optimize occupancy rates and prevent overbooking..
               </p>
@@ -55,10 +44,7 @@ const HotalKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/invoice.png" alt="" />
 
               <h4>Billing and Invoicing</h4>
               <p>
@@ -72,10 +58,7 @@ const HotalKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/management.png" alt="" />
 
               <h3 style={{ textAlign: "Center" }}>Housekeeping Managemente</h3>
               <p>
@@ -88,10 +71,7 @@ const HotalKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/guests.png" alt="" />
 
               <h4>Guest Profiles</h4>
               <p>
@@ -102,10 +82,7 @@ const HotalKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/point-of-sale.png" alt="" />
 
               <h4>Point of Sale </h4>
               <p>
@@ -118,10 +95,7 @@ const HotalKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/cyber-security.png" alt="" />
 
               <h4>Security</h4>
               <p>

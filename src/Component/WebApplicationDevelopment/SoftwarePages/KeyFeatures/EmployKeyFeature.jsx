@@ -8,10 +8,7 @@ const EmployKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/calendar.png" alt="" />
 
               <h4>Time and Attendance</h4>
               <p>
@@ -24,10 +21,7 @@ const EmployKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
-                alt=""
-              />
+              <img src="./images/hairdresser.png" alt="" />
 
               <h4>Location Monitoring</h4>
               <p>
@@ -39,10 +33,7 @@ const EmployKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
-                alt=""
-              />
+              <img src="./images/performance.png" alt="" />
 
               <h4>Performance Evaluation</h4>
               <p>
@@ -55,16 +46,14 @@ const EmployKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/project.png" alt="" />
 
-              <h4>Performance Evaluation</h4>
+              <h4>Task and Project Management</h4>
               <p>
-                Performance Evaluation systems measure employee productivity,
-                task completion rates, and quality of work, providing insights
-                for performance reviews and training opportunities.
+                These systems often include task and project management
+                features, enabling managers to assign tasks, track project
+                progress, and monitor deadlines. They promote collaboration and
+                transparency within teams.
               </p>
             </div>
           </div>
@@ -72,10 +61,7 @@ const EmployKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/leave.png" alt="" />
 
               <h3 style={{ textAlign: "Center" }}>Leave and Absence </h3>
               <p>
@@ -88,12 +74,9 @@ const EmployKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/maps.png" alt="" />
 
-              <h4>Project Time Trackingt</h4>
+              <h4>Project Time Tracking</h4>
               <p>
                 Project Time Tracking applications monitor time spent on
                 specific projects or tasks, enabling accurate billing, cost
@@ -103,10 +86,7 @@ const EmployKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/pc.png" alt="" />
 
               <h4>Compliance Monitoring</h4>
               <p>
@@ -118,10 +98,7 @@ const EmployKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/folder.png" alt="" />
 
               <h4>Data Security</h4>
               <p>

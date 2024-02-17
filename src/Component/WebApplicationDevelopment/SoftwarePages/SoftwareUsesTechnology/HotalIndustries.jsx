@@ -8,7 +8,7 @@ const HotalIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/planning.png" alt="" />
+              <img src="./images/time-management (1).png" alt="" />
 
               <h4>Reservation Management</h4>
               <p>
@@ -21,7 +21,7 @@ const HotalIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/relationship.png" alt="" />
+              <img src="./images/processing.png" alt="" />
 
               <h4>Front Desk Operations</h4>
               <p>
@@ -33,7 +33,7 @@ const HotalIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/human-resources.png" alt="" />
+              <img src="./images/networking.png" alt="" />
 
               <h4>Housekeeping Coordination</h4>
               <p>
@@ -45,7 +45,7 @@ const HotalIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/bank.png" alt="" />
+              <img src="./images/invoice (1).png" alt="" />
 
               <h4>Billing and Invoicing</h4>
               <p>
@@ -59,7 +59,7 @@ const HotalIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/marketing-automation.png" alt="" />
+              <img src="./images/management (1).png" alt="" />
 
               <h4>Guest Relationship Management</h4>
               <p>
@@ -72,7 +72,7 @@ const HotalIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/material-management.png" alt="" />
+              <img src="./images/inventory-management.png" alt="" />
 
               <h4>Inventory Control</h4>
               <p>
@@ -83,7 +83,7 @@ const HotalIndustries = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/revenue.png" alt="" />
+              <img src="./images/report.png" alt="" />
 
               <h4>Reporting and Analytics</h4>
               <p>
@@ -96,7 +96,7 @@ const HotalIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/compliance-document.png" alt="" />
+              <img src="./images/monitoring.png" alt="" />
 
               <h4>Maintenance Tracking</h4>
               <p>

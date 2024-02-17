@@ -8,7 +8,7 @@ const QuizIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/planning.png" alt="" />
+              <img src="./images/online-learning.png" alt="" />
 
               <h4>Educational Institutions</h4>
               <p>
@@ -21,7 +21,7 @@ const QuizIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/relationship.png" alt="" />
+              <img src="./images/online-lesson.png" alt="" />
 
               <h4>Online Learning Platforms</h4>
               <p>
@@ -34,7 +34,7 @@ const QuizIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/human-resources.png" alt="" />
+              <img src="./images/coptraning.png" alt="" />
 
               <h4>Corporate Training Programs t</h4>
               <p>
@@ -48,7 +48,7 @@ const QuizIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/bank.png" alt="" />
+              <img src="./images/certification.png" alt="" />
 
               <h4>Professional Certifications</h4>
               <p>
@@ -61,7 +61,7 @@ const QuizIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/marketing-automation.png" alt="" />
+              <img src="./images/banner.png" alt="" />
 
               <h4>Events and Conferences</h4>
               <p>
@@ -73,7 +73,7 @@ const QuizIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/material-management.png" alt="" />
+              <img src="./images/growth.png" alt="" />
 
               <h4>Marketing and Engagement</h4>
               <p>
@@ -84,7 +84,7 @@ const QuizIndustries = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/revenue.png" alt="" />
+              <img src="./images/quizhealth.png" alt="" />
 
               <h4>Healthcare Training</h4>
               <p>
@@ -96,7 +96,7 @@ const QuizIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/compliance-document.png" alt="" />
+              <img src="./images/user.png" alt="" />
 
               <h4>Personal Development</h4>
               <p>

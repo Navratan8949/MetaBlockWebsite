@@ -8,10 +8,7 @@ const LMSKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/videoconference.png" alt="" />
 
               <h4>Live Class Integration</h4>
               <p>
@@ -24,10 +21,7 @@ const LMSKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
-                alt=""
-              />
+              <img src="./images/interaction.png" alt="" />
 
               <h4>Interactive Tools</h4>
               <p>
@@ -39,10 +33,7 @@ const LMSKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
-                alt=""
-              />
+              <img src="./images/collaborationde.png" alt="" />
 
               <h4>Collaboration Features</h4>
               <p>
@@ -55,10 +46,7 @@ const LMSKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/computer.png" alt="" />
 
               <h4>Screen Sharing</h4>
               <p>
@@ -72,10 +60,7 @@ const LMSKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/recording.png" alt="" />
 
               <h3 style={{ textAlign: "Center" }}>Recording Capability</h3>
               <p>
@@ -88,10 +73,7 @@ const LMSKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/attendance.png" alt="" />
 
               <h4>Attendance Monitoring</h4>
               <p>
@@ -103,10 +85,7 @@ const LMSKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/document.png" alt="" />
 
               <h4>Document Sharing</h4>
               <p>
@@ -119,10 +98,7 @@ const LMSKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/social-media.png" alt="" />
 
               <h4>Engagement Activities</h4>
               <p>
