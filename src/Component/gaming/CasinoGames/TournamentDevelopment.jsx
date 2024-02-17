@@ -1,6 +1,8 @@
 import React from "react";
 import "../../gaming/gernralgames/GeneralGamesDevelopment.css";
 import AutoPlay from "../../MainPage/ReactSlick";
+import { Link } from "react-router-dom";
+
 import { useNavigate } from "react-router-dom";
 import AutoPlaygame from "../gernralgames/Gameslider";
 const TournamentDevelopment = () => {
@@ -34,10 +36,11 @@ const TournamentDevelopment = () => {
 
                                 </p>
                                 <div className="d-flex btn-box flex-column flex-lg-row align-items-center fade-in one w-fit">
-                                    <a href="contactus.html" className="color-btn btn-hover gap-2">Get Quote <ion-icon name="rocket-outline" className="fs-5 rocket" /></a>
+
+                                    <Link to="/ContectUsForm" className="color-btn btn-hover gap-2">Get Quote <ion-icon name="rocket-outline" className="fs-5 rocket" /></Link>
                                 </div>
                                 <div className="d-flex btn-box flex-column flex-lg-row align-items-center fade-in one w-fit">
-                                    <a href="portfolio.html" style={{ marginLeft: 15 }} className="color-btn btn-hover gap-2">See Our Work <ion-icon name="rocket-outline" className="fs-5 rocket" /></a>
+                                    <Link to="/Aboutus" style={{ marginLeft: 15 }} className="color-btn btn-hover gap-2">See Our Work <ion-icon name="rocket-outline" className="fs-5 rocket" /></Link>
                                 </div>
                                 {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
                             </div>
@@ -673,6 +676,15 @@ const TournamentDevelopment = () => {
                                     <div className="sub_title">75+ Countries Immersed in Fun</div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="game_dev_comp_services">
+                    <div className="container">
+                        <h2 className="title">Our Game Development Services Range</h2>
+                        <div className="nft-marketplace-usecase slider">
+
+                            <AutoPlaygame />
                         </div>
                     </div>
                 </section>

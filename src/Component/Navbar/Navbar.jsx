@@ -431,7 +431,7 @@ const Navbar = () => {
   ];
 
 
-  const metaversegamesdevelopment = [
+  const web3gamedevelopment = [
     {
 
       name: "Win GO",
@@ -1933,7 +1933,7 @@ const Navbar = () => {
                                 <div className="row">
                                   <div className="col-lg-12">
                                     <div>
-                                      {metaversegamesdevelopment.map((item, index) => (
+                                      {web3gamedevelopment.map((item, index) => (
                                         <li
                                           onClick={() => navigate(item.path)}
                                           key={index}
