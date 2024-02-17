@@ -8,10 +8,7 @@ const TravelKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/travelflight.png" alt="" />
 
               <h4>Flight Booking</h4>
               <p>
@@ -24,10 +21,7 @@ const TravelKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
-                alt=""
-              />
+              <img src="./images/tavelhotels.png" alt="" />
 
               <h4>Hotel Reservation</h4>
               <p>
@@ -39,10 +33,7 @@ const TravelKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
-                alt=""
-              />
+              <img src="./images/travelcarrental.png" alt="" />
 
               <h4>Car Rental</h4>
               <p>
@@ -54,10 +45,7 @@ const TravelKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/travelintrimane.png" alt="" />
 
               <h4>Itinerary Management</h4>
               <p>
@@ -71,10 +59,7 @@ const TravelKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/travelpaymentgat.png" alt="" />
 
               <h3 style={{ textAlign: "Center" }}>Payment Integration</h3>
               <p>
@@ -87,10 +72,7 @@ const TravelKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/travelrealtime.png" alt="" />
 
               <h4>Real-time Updates</h4>
               <p>
@@ -102,10 +84,7 @@ const TravelKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/travelslaguage.png" alt="" />
 
               <h4>Multilingual Support</h4>
               <p>
@@ -118,10 +97,7 @@ const TravelKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/travelslaguage.png" alt="" />
 
               <h4>Multilingual Support</h4>
               <p>

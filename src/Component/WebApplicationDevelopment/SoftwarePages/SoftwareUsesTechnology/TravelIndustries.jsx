@@ -8,7 +8,7 @@ const TravelIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/planning.png" alt="" />
+              <img src="./images/user.png" alt="" />
 
               <h4>Individual Travelers</h4>
               <p>
@@ -21,7 +21,7 @@ const TravelIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/relationship.png" alt="" />
+              <img src="./images/travel.png" alt="" />
 
               <h4>Travel Agencies</h4>
               <p>
@@ -35,7 +35,7 @@ const TravelIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/human-resources.png" alt="" />
+              <img src="./images/corporate.png" alt="" />
 
               <h4>Corporate Travel Departments</h4>
               <p>
@@ -48,7 +48,7 @@ const TravelIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/bank.png" alt="" />
+              <img src="./images/onlinetravels.png" alt="" />
 
               <h4>Online Travel Agenciest</h4>
               <p>
@@ -62,7 +62,7 @@ const TravelIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/marketing-automation.png" alt="" />
+              <img src="./images/travelsair.png" alt="" />
 
               <h4>Airlines</h4>
               <p>
@@ -74,7 +74,7 @@ const TravelIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/material-management.png" alt="" />
+              <img src="./images/traveltore.png" alt="" />
 
               <h4>Tour Operators</h4>
               <p>
@@ -86,7 +86,7 @@ const TravelIndustries = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/revenue.png" alt="" />
+              <img src="./images/travelboat.png" alt="" />
 
               <h4>Cruise Lines</h4>
               <p>
@@ -99,7 +99,7 @@ const TravelIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/compliance-document.png" alt="" />
+              <img src="./images/calendar.png" alt="" />
 
               <h4>Event Planners</h4>
               <p>

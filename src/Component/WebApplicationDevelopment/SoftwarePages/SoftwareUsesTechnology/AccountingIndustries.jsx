@@ -8,7 +8,7 @@ const AccountingIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/planning.png" alt="" />
+              <img src="./images/owner.png" alt="" />
 
               <h4>Small Businesses</h4>
               <p>
@@ -21,7 +21,7 @@ const AccountingIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/relationship.png" alt="" />
+              <img src="./images/store.png" alt="" />
 
               <h4>Retail Stores</h4>
               <p>
@@ -34,7 +34,7 @@ const AccountingIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/human-resources.png" alt="" />
+              <img src="./images/customer-service-agent.png" alt="" />
 
               <h4>Service-Based Businesses</h4>
               <p>
@@ -46,7 +46,7 @@ const AccountingIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/bank.png" alt="" />
+              <img src="./images/industrial.png" alt="" />
 
               <h4>Manufacturing Companies</h4>
               <p>
@@ -60,7 +60,7 @@ const AccountingIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/marketing-automation.png" alt="" />
+              <img src="./images/wholesaler.png" alt="" />
 
               <h4>Wholesale Distribution</h4>
               <p>
@@ -72,7 +72,7 @@ const AccountingIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/material-management.png" alt="" />
+              <img src="./images/accountecommers.png" alt="" />
 
               <h4>E-commerce Platforms</h4>
               <p>
@@ -83,7 +83,7 @@ const AccountingIndustries = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/revenue.png" alt="" />
+              <img src="./images/brain.png" alt="" />
 
               <h4>Healthcare Practices</h4>
               <p>
@@ -95,7 +95,7 @@ const AccountingIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/compliance-document.png" alt="" />
+              <img src="./images/education.png" alt="" />
 
               <h4>Educational Institutions</h4>
               <p>

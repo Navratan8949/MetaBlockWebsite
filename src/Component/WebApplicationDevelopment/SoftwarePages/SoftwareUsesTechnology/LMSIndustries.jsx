@@ -8,7 +8,7 @@ const LMSIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/planning.png" alt="" />
+              <img src="./images/devanshuunivarcity.png" alt="" />
 
               <h4>Education Sector</h4>
               <p>
@@ -21,7 +21,7 @@ const LMSIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/relationship.png" alt="" />
+              <img src="./images/kooo.png" alt="" />
 
               <h4>Corporate Training</h4>
               <p>
@@ -34,7 +34,7 @@ const LMSIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/human-resources.png" alt="" />
+              <img src="./images/languages.png" alt="" />
 
               <h4>Language Learning</h4>
               <p>
@@ -46,7 +46,7 @@ const LMSIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/bank.png" alt="" />
+              <img src="./images/tutor.png" alt="" />
 
               <h4>Tutoring Services</h4>
               <p>
@@ -60,7 +60,7 @@ const LMSIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/marketing-automation.png" alt="" />
+              <img src="./images/continuous-improvement.png" alt="" />
 
               <h4>Continuing Education</h4>
               <p>
@@ -74,7 +74,7 @@ const LMSIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/material-management.png" alt="" />
+              <img src="./images/workshop.png" alt="" />
 
               <h4>Remote Workshops</h4>
               <p>
@@ -86,7 +86,7 @@ const LMSIndustries = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/revenue.png" alt="" />
+              <img src="./images/presentation.png" alt="" />
 
               <h4>Professional Conferences</h4>
               <p>
@@ -99,7 +99,7 @@ const LMSIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/compliance-document.png" alt="" />
+              <img src="./images/seo.png" alt="" />
 
               <h4>Research Collaboration</h4>
               <p>

@@ -4,11 +4,11 @@ const InventoryIndustries = () => {
   return (
     <div className="m-0">
       <div className="dashboard-main-box">
-        <h4 className="Key-feature-heading">Software Uses Industries</h4>
+        <h4 className="Key-feature-heading">Key Feature</h4>
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/planning.png" alt="" />
+              <img src="./images/supermarket.png" alt="" />
 
               <h4>Retail Industry</h4>
               <p>
@@ -21,7 +21,7 @@ const InventoryIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/relationship.png" alt="" />
+              <img src="./images/production.png" alt="" />
 
               <h4>Manufacturing Sector </h4>
               <p>
@@ -34,7 +34,7 @@ const InventoryIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/human-resources.png" alt="" />
+              <img src="./images/wholesale.png" alt="" />
 
               <h4>Wholesale and Distribution</h4>
               <p>

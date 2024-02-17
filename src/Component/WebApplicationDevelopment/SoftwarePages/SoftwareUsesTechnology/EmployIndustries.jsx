@@ -8,7 +8,7 @@ const EmployIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/planning.png" alt="" />
+              <img src="./images/retail-store.png" alt="" />
 
               <h4>Retail Management</h4>
               <p>
@@ -21,7 +21,7 @@ const EmployIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/relationship.png" alt="" />
+              <img src="./images/hospital.png" alt="" />
 
               <h4>Healthcare Facilities</h4>
               <p>
@@ -34,7 +34,7 @@ const EmployIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/human-resources.png" alt="" />
+              <img src="./images/factory-plant.png" alt="" />
 
               <h4>Manufacturing Plants</h4>
               <p>
@@ -47,7 +47,7 @@ const EmployIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/bank.png" alt="" />
+              <img src="./images/corporate.png" alt="" />
 
               <h4>Corporate Offices</h4>
               <p>
@@ -61,7 +61,7 @@ const EmployIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/marketing-automation.png" alt="" />
+              <img src="./images/virtual-class.png" alt="" />
 
               <h4>Educational Institutions</h4>
               <p>
@@ -74,7 +74,7 @@ const EmployIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/material-management.png" alt="" />
+              <img src="./images/helmet.png" alt="" />
 
               <h4>Construction Sites</h4>
               <p>
@@ -85,7 +85,7 @@ const EmployIndustries = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/revenue.png" alt="" />
+              <img src="./images/callcentenrimage.png" alt="" />
 
               <h4>Call Centers</h4>
               <p>
@@ -97,7 +97,7 @@ const EmployIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/compliance-document.png" alt="" />
+              <img src="./images/cyber-security.png" alt="" />
 
               <h4>Compliance and Security</h4>
               <p>

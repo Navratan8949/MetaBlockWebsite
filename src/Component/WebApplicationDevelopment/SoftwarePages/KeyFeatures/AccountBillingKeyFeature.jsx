@@ -8,7 +8,7 @@ const AccountBillingKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/info.png" alt="" />
+              <img src="./images/invoice.png" alt="" />
 
               <h4>Invoicing</h4>
               <p>
@@ -20,7 +20,7 @@ const AccountBillingKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/attendance.png" alt="" />
+              <img src="./images/expense.png" alt="" />
 
               <h4>Expense Tracking</h4>
               <p>
@@ -31,7 +31,7 @@ const AccountBillingKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/stress-management.png" alt="" />
+              <img src="./images/financial-statement.png" alt="" />
 
               <h4>Financial Reporting</h4>
               <p>
@@ -43,7 +43,7 @@ const AccountBillingKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/quality-control.png" alt="" />
+              <img src="./images/accounting.png" alt="" />
 
               <h4>Accounts Payable Management</h4>
               <p>
@@ -56,7 +56,7 @@ const AccountBillingKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/recruiter.png" alt="" />
+              <img src="./images/bank.png" alt="" />
 
               <h3 style={{ textAlign: "Center" }}>Bank Reconciliation</h3>
               <p>
@@ -68,7 +68,7 @@ const AccountBillingKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/analysis.png" alt="" />
+              <img src="./images/tax.png" alt="" />
 
               <h4>Tax Compliance</h4>
               <p>
@@ -92,7 +92,7 @@ const AccountBillingKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/business-plan.png" alt="" />
+              <img src="./images/accountpaytment.png" alt="" />
               <h4>Payment Gateways Integration</h4>
               <p>
                 Payment Gateways Integration allows for seamless online payments

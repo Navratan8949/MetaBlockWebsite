@@ -8,10 +8,7 @@ const HospitalKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/website.png" alt="" />
 
               <h4>Patient Registration</h4>
               <p>
@@ -24,10 +21,7 @@ const HospitalKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
-                alt=""
-              />
+              <img src="./images/appointment.png" alt="" />
 
               <h4>Appointment Scheduling</h4>
               <p>
@@ -38,10 +32,7 @@ const HospitalKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
-                alt=""
-              />
+              <img src="./images/medical-prescription.png" alt="" />
 
               <h4>Electronic Health Records</h4>
               <p>
@@ -53,11 +44,7 @@ const HospitalKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
-
+              <img src="./images/payment.png" alt="" />
               <h4>Billing Management</h4>
               <p>
                 {" "}
@@ -70,11 +57,7 @@ const HospitalKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
-
+              <img src="./images/inventory-management.png" alt="" />
               <h3 style={{ textAlign: "Center" }}>Inventory Control</h3>
               <p>
                 Hospitals track and manage inventory to ensure timely
@@ -85,10 +68,7 @@ const HospitalKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/management.png" alt="" />
 
               <h4>Staff Management</h4>
               <p>
@@ -99,11 +79,7 @@ const HospitalKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
-
+              <img src="./images/online-pharmacy.png" alt="" />
               <h4>Pharmacy Management</h4>
               <p>
                 {" "}
@@ -115,10 +91,7 @@ const HospitalKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/medical-prescription (1).png" alt="" />
 
               <h4>Electronic Prescriptions</h4>
               <p>

@@ -8,10 +8,7 @@ const QuizSystemKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/unknown-message.png" alt="" />
 
               <h4>Question Management</h4>
               <p>
@@ -23,10 +20,7 @@ const QuizSystemKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
-                alt=""
-              />
+              <img src="./images/quiz.png" alt="" />
 
               <h4>Custom Quiz Templates</h4>
               <p>
@@ -37,10 +31,7 @@ const QuizSystemKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
-                alt=""
-              />
+              <img src="./images/yoga.png" alt="" />
 
               <h4>Flexible Scheduling</h4>
               <p>
@@ -52,10 +43,7 @@ const QuizSystemKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/score.png" alt="" />
 
               <h4>Automated Grading</h4>
               <p>
@@ -68,10 +56,7 @@ const QuizSystemKeyFeature = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/good-feedback.png" alt="" />
 
               <h3 style={{ textAlign: "Center" }}>Performance Analysis</h3>
               <p>
@@ -83,10 +68,7 @@ const QuizSystemKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                alt=""
-              />
+              <img src="./images/customer-review.png" alt="" />
 
               <h4>Feedback Mechanisms</h4>
               <p>
@@ -97,10 +79,7 @@ const QuizSystemKeyFeature = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                alt=""
-              />
+              <img src="./images/integration.png" alt="" />
 
               <h4>LMS Integration</h4>
               <p>
@@ -112,10 +91,7 @@ const QuizSystemKeyFeature = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img
-                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                alt=""
-              />
+              <img src="./images/surprise-box.png" alt="" />
 
               <h4>Randomization Options</h4>
               <p>

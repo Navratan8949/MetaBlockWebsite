@@ -8,7 +8,7 @@ const HospitalIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/planning.png" alt="" />
+              <img src="./images/registration.png" alt="" />
 
               <h4>Patient Registration</h4>
               <p>
@@ -20,7 +20,7 @@ const HospitalIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/relationship.png" alt="" />
+              <img src="./images/clock.png" alt="" />
 
               <h4>Appointment Management</h4>
               <p>
@@ -34,7 +34,7 @@ const HospitalIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/human-resources.png" alt="" />
+              <img src="./images/medical-record.png" alt="" />
 
               <h4>Electronic Health Records</h4>
               <p>
@@ -47,7 +47,7 @@ const HospitalIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/bank.png" alt="" />
+              <img src="./images/medical-history.png" alt="" />
 
               <h4>Billing and Invoicing</h4>
               <p>
@@ -61,7 +61,7 @@ const HospitalIndustries = () => {
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/marketing-automation.png" alt="" />
+              <img src="./images/prescription.png" alt="" />
 
               <h4>Prescription Management</h4>
               <p>
@@ -73,7 +73,7 @@ const HospitalIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/material-management.png" alt="" />
+              <img src="./images/inventory-management (1).png" alt="" />
 
               <h4>Inventory Control</h4>
               <p>
@@ -85,7 +85,7 @@ const HospitalIndustries = () => {
           </div>
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/revenue.png" alt="" />
+              <img src="./images/monitor.png" alt="" />
 
               <h4>Reporting and Analytics</h4>
               <p>
@@ -98,7 +98,7 @@ const HospitalIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/compliance-document.png" alt="" />
+              <img src="./images/diagnostic.png" alt="" />
 
               <h4>Diagnostic Integration</h4>
               <p>
