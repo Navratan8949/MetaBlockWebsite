@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import JobPortalKeyFeature from "./KeyFeatures/JobPortalKeyFeature";
 import JobPortalIndustries from "./SoftwareUsesTechnology/JobPortalIndustries";
+import JobPortalSwiperSlider from "./SwiperSlider/JobPortalSwiperSlider";
 // import '../../main.css'
 
 const JobPortalSoftware = () => {
@@ -87,8 +88,8 @@ const JobPortalSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+
+                As specialists in job portal software, our expertise lies in providing tailored solutions to meet the diverse needs of job seekers, employers, and recruitment agencies. Our software is meticulously crafted to offer intuitive interfaces, comprehensive job listings, and advanced search functionality. With our expertise, job seekers can easily search and apply for relevant positions, while employers can efficiently manage job postings, screen candidates, and streamline the hiring process. Whether it's a small startup or a large corporation, our job portal software is customizable to fit the specific requirements of each client, ensuring seamless recruitment processes and successful job placements. We are committed to empowering organizations with the tools they need to find the right talent and advance their workforce.              </p>
 
 
 
@@ -104,12 +105,14 @@ const JobPortalSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/jobportaldev.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <JobPortalSwiperSlider />
         <JobPortalKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

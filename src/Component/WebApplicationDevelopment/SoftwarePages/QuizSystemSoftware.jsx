@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import QuizSystemKeyFeature from "./KeyFeatures/QuizSystemKeyFeature";
 import QuizIndustries from "./SoftwareUsesTechnology/QuizIndustries";
+import QuizSwiperSlider from "./SwiperSlider/QuizSwiperSlider";
 // import '../../main.css'
 
 const QuizSystemSoftware = () => {
@@ -87,8 +88,7 @@ const QuizSystemSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+                As specialists in quiz system software, our expertise lies in providing comprehensive solutions tailored to meet the diverse needs of educators, trainers, and organizations looking to create engaging and effective quizzes and assessments. Our software is meticulously crafted to offer intuitive interfaces, customizable question types, and robust grading and reporting features. With our solution, users can easily create, administer, and analyze quizzes to gauge knowledge retention, assess learning outcomes, and drive instructional improvement. Whether it's for educational purposes, employee training, or certification exams, our quiz system software is designed to enhance learning experiences, promote interactivity, and facilitate data-driven decision-making for our clients  </p>
 
 
 
@@ -104,12 +104,14 @@ const QuizSystemSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/quizdev.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <QuizSwiperSlider />
         <QuizSystemKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

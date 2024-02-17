@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import TravelKeyFeature from "./KeyFeatures/TravelKeyFeature";
 import TravelIndustries from "./SoftwareUsesTechnology/TravelIndustries";
+import TravelSwiperSlider from "./SwiperSlider/TravelSwiperSlider";
 // import '../../main.css'
 
 const TravelBookingSoftware = () => {
@@ -87,8 +88,8 @@ const TravelBookingSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+
+                As specialists in travel booking software, our expertise lies in providing robust solutions tailored to meet the unique needs of travelers, travel agencies, and hospitality businesses. Our software is meticulously designed to offer seamless booking experiences, comprehensive search functionality, and secure payment processing. With our solution, users can easily search for flights, hotels, rental cars, and activities, compare prices, and make reservations with confidence. Whether it's for leisure travel, business trips, or group tours, our travel booking software is optimized for efficiency, reliability, and user satisfaction. We are committed to enhancing the travel booking process, enabling our clients to explore the world with ease and peace of mind.              </p>
 
 
 
@@ -104,12 +105,14 @@ const TravelBookingSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/traveldev.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <TravelSwiperSlider />
         <TravelKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import LMSKeyFeature from "./KeyFeatures/LMSKeyFeature";
 import LMSIndustries from "./SoftwareUsesTechnology/LMSIndustries";
+import LMSSwiperSlider from "./SwiperSlider/LMSSwiperSlider";
 // import '../../main.css'
 const LMSWithLiveClassSoftware = () => {
   const navigate = useNavigate()
@@ -86,8 +87,7 @@ const LMSWithLiveClassSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+                As specialists in Learning Management Systems (LMS) with LiveClass software, our expertise revolves around providing dynamic educational solutions that facilitate interactive and engaging learning experiences. Our software integrates robust LMS functionalities with live virtual classroom capabilities, offering a comprehensive platform for online teaching and learning. With our solution, educators can easily create and deliver course content, engage learners through live interactive sessions, and track their progress seamlessly. Whether it's synchronous or asynchronous learning, our LMS with LiveClass software is tailored to meet the diverse needs of educators and learners alike, empowering them to collaborate, communicate, and succeed in the digital learning environment.              </p>
 
 
 
@@ -103,12 +103,14 @@ const LMSWithLiveClassSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/liveclassdev.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <LMSSwiperSlider />
         <LMSKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

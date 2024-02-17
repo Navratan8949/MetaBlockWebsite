@@ -13667,3 +13667,18 @@ a.text-dark:hover {
     }
 
 }
+
+.a-card {
+    border: 1px solid #FFA024;
+    transition: box-shadow 0.3s ease;
+    /* Add transition for smooth effect */
+    margin: 10px;
+    /* Add margin for spacing between cards */
+}
+
+.a-card:hover {
+    border: none;
+    /* Remove border on hover */
+    box-shadow: 0px 0px 10px 0px rgba(255, 160, 36, 0.75);
+    /* Add box shadow on hover */
+}

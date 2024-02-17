@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import InventryKeyFeature from "./KeyFeatures/InventryKeyFeature";
 import InventoryIndustries from "./SoftwareUsesTechnology/InventoryIndustries";
+import InventroySwiperSlider from "./SwiperSlider/InventroySwiperSlider";
 // import '../../main.css'
 
 const InventoryManagmentSoftware = () => {
@@ -87,8 +88,8 @@ const InventoryManagmentSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+
+                As specialists in inventory management software, our expertise revolves around delivering tailored solutions to address the unique needs of businesses managing their stock and supplies. Our software is meticulously crafted to optimize inventory tracking, streamline procurement processes, and minimize stockouts or overstock situations. With our solution, businesses can efficiently monitor inventory levels, track item movements, and generate insightful reports for informed decision-making. Whether it's a small retail operation or a large-scale manufacturing facility, our inventory management software is designed to maximize efficiency, reduce costs, and improve overall operational performance.              </p>
 
 
 
@@ -104,12 +105,14 @@ const InventoryManagmentSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/managmentsoft.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <InventroySwiperSlider />
         <InventryKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

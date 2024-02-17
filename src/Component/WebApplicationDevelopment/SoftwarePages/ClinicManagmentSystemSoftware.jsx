@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import ClinicKeyFeature from "./KeyFeatures/ClinicKeyFeature";
 import ClinicIndustries from "./SoftwareUsesTechnology/ClinicIndustries";
+import ClinicSwiperSlider from "./SwiperSlider/ClinicSwiperSlider";
 // import '../../main.css'
 
 const ClinicManagmentSystemSoftware = () => {
@@ -87,8 +88,8 @@ const ClinicManagmentSystemSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+
+                As specialists in clinic management system software, our focus is on providing tailored solutions to meet the unique needs of healthcare providers and medical facilities. Our software is meticulously designed to streamline various aspects of clinic operations, including patient scheduling, electronic health records management, billing, and inventory tracking. With our expertise, clinics can efficiently manage their resources, improve patient care processes, and enhance overall efficiency. Whether it's a small private practice or a large medical center, our management system software is customizable to fit the specific requirements of each clinic, ensuring smooth operations and improved patient outcomes. We are committed to empowering healthcare providers with the tools they need to deliver high-quality care and streamline administrative tasks effectively.              </p>
 
 
 
@@ -104,12 +105,14 @@ const ClinicManagmentSystemSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/clientdev.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <ClinicSwiperSlider />
         <ClinicKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

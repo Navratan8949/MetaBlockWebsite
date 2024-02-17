@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import AstrologyKeyFeature from "./KeyFeatures/AstrologyKeyFeature";
 import AstrologyIndustries from "./SoftwareUsesTechnology/AstrologyIndustries";
+import AstrologySwiperSlider from "./SwiperSlider/AstrologySwiperSlider";
 // import '../../main.css'
 
 const AstrologySoftware = () => {
@@ -87,8 +88,8 @@ const AstrologySoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+
+                As specialists in astrology software, our focus is on delivering accurate and comprehensive tools to assist astrologers, enthusiasts, and practitioners in their cosmic explorations. Our software is meticulously crafted to provide detailed charts, interpretations, and analysis based on astrological principles and calculations. With our expertise, users can explore various aspects of astrology, including birth charts, compatibility analysis, and predictive forecasting. Whether it's for personal insights, professional consultations, or academic research, our astrology software is designed to empower users with the knowledge and tools they need to deepen their understanding of the celestial influences shaping their lives and the world around them.              </p>
 
 
 
@@ -104,12 +105,14 @@ const AstrologySoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/astolgydev.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <AstrologySwiperSlider />
         <AstrologyKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

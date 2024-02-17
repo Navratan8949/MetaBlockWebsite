@@ -12,6 +12,8 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import RestorantKeyFeature from "./KeyFeatures/RestorantKeyFeature";
 import RestorentIndustries from "./SoftwareUsesTechnology/RestorentIndustries";
+import ResturentSwiperSlider from "./SwiperSlider/SAASSwiperSlider";
+import ResturentSwipersSlider from "./SwiperSlider/ResturentSwiperSlider";
 // import '../../main.css'
 
 const RestaurantManagmentSystemSoftware = () => {
@@ -87,8 +89,8 @@ const RestaurantManagmentSystemSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+
+                As specialists in restaurant management system software, our expertise lies in providing comprehensive solutions to streamline and optimize operations within the food service industry. Our software is meticulously designed to handle various aspects of restaurant management, including table reservations, order taking, inventory management, and staff scheduling. With our expertise, restaurant owners can efficiently manage their establishments, enhance customer experiences, and boost profitability. Whether it's a small cafe or a large fine dining restaurant, our system is tailored to meet the unique needs of each client, offering user-friendly interfaces and robust features to improve efficiency and drive success in the competitive restaurant industry.              </p>
 
 
 
@@ -104,12 +106,14 @@ const RestaurantManagmentSystemSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/restrorentdev.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <ResturentSwipersSlider />
         <RestorantKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

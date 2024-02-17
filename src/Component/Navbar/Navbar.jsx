@@ -393,30 +393,40 @@ const Navbar = () => {
     },
     {
       name: "Rummy Game Development",
+      path: "/RummyGameDevelopment"
     },
     {
       name: "Teenpatti Game Development",
+      path: "/TeenpattiGameDevelopment"
     },
     {
       name: "Dragon & Tiger Game Development",
+      path: "/DragonTiger"
     },
     {
       name: "Poker Game Development",
+      path: "/PokerGameDevelopment"
+
     },
     {
       name: "Baccarat Game Development",
+      path: "/BaccaratGameDevelopment"
     },
     {
       name: "Roulette Game Development",
+      path: "/RouletteGameDevelopment"
     },
     {
       name: "Tournament Development",
+      path: "/TournamentDevelopment"
     },
     {
       name: "Andar Bahar Game Development",
+      path: "/AndarBaharGameDevelopment"
     },
     {
       name: "Fantasy Cricket Game Development",
+      path: "/FantasyCricketGameDevelopment"
     }
   ];
 
@@ -1812,7 +1822,7 @@ const Navbar = () => {
 
                 <li className="nav-item menu_desk">
                   <a
-                    onClick={() => navigate("/GeneralGamesDevelopment")}
+                    // onClick={() => navigate("/GeneralGamesDevelopment")}
                     className="nav-link"
                   >
                     Game
@@ -1844,9 +1854,9 @@ const Navbar = () => {
                                 // className="nav-link"
                                 // data-toggle="dropdown"
                                 aria-expanded="false"
-                                style={{ textDecoration: "none" }}
+                                style={{ textDecoration: "none", width: "250px" }}
                               >
-                                genral game development
+                                General Game Development
                               </a>
 
                             </div>

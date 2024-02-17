@@ -117,6 +117,27 @@ import MainBlockchain from "./Component/blockchain/mainblockchain/MainBlockchain
 import WalletConnectClone from "./Component/blockchain/Walletdevelopmen/WalletConnectClone/WalletConnectClone";
 import AccountBilling from "./Component/WebApplicationDevelopment/SoftwarePages/Accounting&BillingSoftware";
 import LudoGameDevelopment from "./Component/gaming/CasinoGames/LudoGameDevelopment"
+import TeenpattiGameDevelopment from "./Component/gaming/CasinoGames/TeenpattiGameDevelopment"
+import RummyGameDevelopment from "./Component/gaming/CasinoGames/RummyGameDevelopment"
+import DragonTiger from "./Component/gaming/CasinoGames/DragonTiger"
+// import DragonTiger from "./Component/gaming/CasinoGames/DragonTiger"
+import PokerGameDevelopment from "./Component/gaming/CasinoGames/PokerGameDevelopment"
+import BaccaratGameDevelopment from "./Component/gaming/CasinoGames/BaccaratGameDevelopment"
+import RouletteGameDevelopment from "./Component/gaming/CasinoGames/RouletteGameDevelopment"
+import TournamentDevelopment from "./Component/gaming/CasinoGames/TournamentDevelopment"
+import FantasyCricketGameDevelopment from "./Component/gaming/CasinoGames/FantasyCricketGameDevelopment"
+import AndarBaharGameDevelopment from "./Component/gaming/CasinoGames/AndarBaharGameDevelopment"
+
+
+
+
+
+
+
+
+
+
+
 import { ScrollToScroll } from "./WindowToScroll";
 
 const AllRouteFiles = () => {
@@ -429,7 +450,54 @@ const AllRouteFiles = () => {
               element={<LudoGameDevelopment />}
             />
 
+            <Route
+              path="TeenpattiGameDevelopment"
+              element={<TeenpattiGameDevelopment />}
+            />
+            <Route
+              path="RummyGameDevelopment"
+              element={<RummyGameDevelopment />}
+            />
+            <Route
+              path="DragonTiger"
+              element={<DragonTiger />}
+
+            />
+            <Route
+              path="PokerGameDevelopment"
+              element={<PokerGameDevelopment />}
+
+            />
+            <Route
+              path="BaccaratGameDevelopment"
+              element={<BaccaratGameDevelopment />}
+            />
+            <Route
+              path="RouletteGameDevelopment"
+              element={<RouletteGameDevelopment />}
+            />
+            <Route
+              path="TournamentDevelopment"
+              element={<TournamentDevelopment />}
+            />
+            <Route
+              path="FantasyCricketGameDevelopment"
+              element={<FantasyCricketGameDevelopment />}
+            />
+
+            <Route
+              path="AndarBaharGameDevelopment"
+              element={<AndarBaharGameDevelopment />}
+            />
+
+
+
+
+
+
           </Routes>
+
+
         </div>
       </BrowserRouter>
     </>

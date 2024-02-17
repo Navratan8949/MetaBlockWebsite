@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import MetrimonialKeyFeature from "./KeyFeatures/MetrimonialKeyFeature";
 import MatrimonialIndustries from "./SoftwareUsesTechnology/MatrimonialIndustries";
+import MatrimonialSwiperSlider from "./SwiperSlider/MatrimonialSwiperSlider";
 // import '../../main.css'
 
 const MatrimonialSoftware = () => {
@@ -87,8 +88,8 @@ const MatrimonialSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+
+                As specialists in matrimonial software, our focus is on providing tailored solutions to help individuals and families navigate the complex process of finding compatible life partners. Our software is meticulously designed to offer intuitive interfaces, advanced search capabilities, and robust privacy features. With our expertise, users can create detailed profiles, search for matches based on specific criteria, and communicate securely with potential partners. Whether it's for traditional arranged marriages or modern matchmaking, our matrimonial software is optimized for efficiency, reliability, and confidentiality. We are committed to facilitating meaningful connections, fostering lasting relationships, and helping our clients find their perfect match.              </p>
 
 
 
@@ -104,12 +105,14 @@ const MatrimonialSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/matrimoniyadev.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <MatrimonialSwiperSlider />
         <MetrimonialKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

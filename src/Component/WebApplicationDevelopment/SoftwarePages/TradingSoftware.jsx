@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import TradingKeyFeature from "./KeyFeatures/TradingKeyFeature";
 import TradingIndustries from "./SoftwareUsesTechnology/TradingIndustries";
+import TradingSwiperSlider from "./SwiperSlider/TradingSwiperSlider";
 // import '../../main.css'
 
 const TradingSoftware = () => {
@@ -87,8 +88,7 @@ const TradingSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+                As specialists in trading software, our focus is on providing sophisticated solutions tailored to meet the diverse needs of traders and investors. Our software is meticulously designed to offer comprehensive features for analyzing market data, executing trades, and managing portfolios with ease. With our expertise, traders can access real-time market information, make informed decisions, and execute trades efficiently across various financial markets. Whether it's stocks, forex, cryptocurrencies, or derivatives, our customizable trading software empowers users to navigate the complexities of the financial markets with confidence. We are committed to delivering cutting-edge technology and innovative tools that help traders succeed in today's dynamic trading environment.              </p>
 
 
 
@@ -104,12 +104,14 @@ const TradingSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/traadingdecv.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <TradingSwiperSlider />
         <TradingKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

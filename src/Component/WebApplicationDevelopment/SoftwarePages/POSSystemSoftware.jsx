@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import POSSystemKeyFeature from "./KeyFeatures/POSSystemKeyFeature";
 import POSIndustries from "./SoftwareUsesTechnology/POSIndustries";
+import POSSwiperSlider from "./SwiperSlider/POSSwiperSlider";
 // import '../../main.css'
 
 const POSSystemSoftware = () => {
@@ -87,8 +88,8 @@ const POSSystemSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+
+                As specialists in POS (Point of Sale) system software, our expertise lies in providing efficient solutions to streamline retail operations and enhance customer experiences. Our software is meticulously designed to handle transactions, manage inventory, and track sales data in real-time. With our expertise, businesses can optimize their checkout processes, reduce errors, and improve overall efficiency. Whether it's a small boutique or a large chain store, our POS system software is tailored to meet the unique needs of each client, helping them boost sales, improve customer satisfaction, and drive growth in their business.              </p>
 
 
 
@@ -104,12 +105,14 @@ const POSSystemSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/possoft.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <POSSwiperSlider />
         <POSSystemKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

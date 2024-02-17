@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import HRMSkeyFeature from "./KeyFeatures/HRMSKeyFeature";
 import HRMSIndustries from "./SoftwareUsesTechnology/HRMSIndustries";
+import HRMSSwiperSlider from "./SwiperSlider/HRMSSwiperSlider";
 // import '../../main.css'
 
 const HRMSSoftware = () => {
@@ -89,8 +90,7 @@ const HRMSSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+                As specialists in HRMS (Human Resource Management System) software, our focus is on providing comprehensive solutions to streamline and enhance human resource operations within organizations. Our software is designed to automate various HR tasks, including employee onboarding, payroll processing, performance management, and benefits administration. With our expertise, businesses can efficiently manage their workforce, track employee data, and ensure compliance with regulations. Our goal is to empower HR professionals with the tools they need to effectively support their organization's talent management strategies and foster a productive and engaged workforce.              </p>
 
 
 
@@ -106,12 +106,14 @@ const HRMSSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/devanshusoftware-4.jfif" alt="" />
+              managmentsoft
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <HRMSSwiperSlider />
         <HRMSkeyFeature />
         {/*============= Technology Stack We Use========= */}
 

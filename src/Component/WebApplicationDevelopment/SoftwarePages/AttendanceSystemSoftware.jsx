@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import AttdenceKeyFeature from "./KeyFeatures/AttdenceKeyFeature";
 import AttendenceIndustries from "./SoftwareUsesTechnology/AttendenceIndustries";
+import AttendenceSwiperSlider from "./SwiperSlider/AttendenceSwiperSlider";
 // import '../../main.css'
 
 
@@ -88,7 +89,11 @@ const AttendanceSystemSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
+                As specialists in attendance system software, our primary goal is to provide efficient solutions that simplify and automate attendance tracking for businesses and organizations. Our software is meticulously crafted to accurately record employee attendance, monitor punctuality, and manage leave requests effectively. With our expertise, businesses can streamline their HR processes, improve workforce management, and ensure compliance with attendance policies and regulations. Whether it's integrating with biometric devices or providing mobile-friendly interfaces, our attendance system software is tailored to meet the unique needs of each client, helping them save time, reduce administrative burden, and optimize productivity.
+
+
+
+
               </p>
 
 
@@ -105,12 +110,14 @@ const AttendanceSystemSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/attendsdeva.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <AttendenceSwiperSlider />
         <AttdenceKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import LibraryKeyFeature from "./KeyFeatures/LibraryKeyFeature";
 import LibraryIndustries from "./SoftwareUsesTechnology/LibraryIndustries";
+import LibrarySwiperSlider from "./SwiperSlider/LibrarySwiperSlider";
 // import '../../main.css'
 
 
@@ -88,7 +89,12 @@ const LibraryManagmentSystem = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
+
+                As specialists in library management system software, our focus is on delivering comprehensive solutions to efficiently organize and manage library resources. Our software is meticulously designed to streamline tasks such as cataloging, circulation, and patron management. With our expertise, libraries can easily track books, manage memberships, and facilitate lending processes. Our solution also offers features like automated reminders and fine tracking to ensure smooth operations. Whether it's a small community library or a large academic institution, our library management system software is tailored to meet the unique needs of each client, helping them enhance user experience, improve accessibility, and maximize the utilization of library resources.
+
+
+
+
               </p>
 
 
@@ -105,12 +111,13 @@ const LibraryManagmentSystem = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/libarydeva.jpg" alt="" />
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <LibrarySwiperSlider />
         <LibraryKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

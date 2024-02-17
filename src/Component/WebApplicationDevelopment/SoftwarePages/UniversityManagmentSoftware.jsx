@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import UniversityKeyFeature from "./KeyFeatures/UniversityKeyFeature";
 import UniversityIndustries from "./SoftwareUsesTechnology/UniversityIndustries";
+import UniversitySwiperSlider from "./SwiperSlider/UniversitySwiperSlider";
 // import '../../main.css'
 
 const UniversityManagmentSoftware = () => {
@@ -87,8 +88,8 @@ const UniversityManagmentSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+
+                As specialists in university management software, our focus is on providing tailored solutions to streamline and optimize the administrative processes of higher education institutions. Our software is meticulously designed to address the unique needs of universities, offering modules for student information management, course scheduling, faculty management, admissions, and more. With our expertise, universities can efficiently manage their academic programs, track student progress, and facilitate communication among faculty, staff, and students. Whether it's managing enrollment, tracking financial aid, or generating academic reports, our university management software is designed to improve operational efficiency, enhance decision-making, and support the overall success of the institution              </p>
 
 
 
@@ -104,12 +105,14 @@ const UniversityManagmentSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/univarcitydev.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <UniversitySwiperSlider />
         <UniversityKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

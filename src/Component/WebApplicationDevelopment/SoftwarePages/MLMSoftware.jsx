@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import MLMKeyFeature from "./KeyFeatures/MLMKeyFeature";
 import MLMIndustries from "./SoftwareUsesTechnology/MLMIndustries";
+import MLMSwiperSlider from "./SwiperSlider/MLMSwiperSlider";
 // import '../../main.css'
 
 const MLMSoftware = () => {
@@ -87,8 +88,7 @@ const MLMSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+                As specialists in MLM (Multi-Level Marketing) software, our expertise lies in providing comprehensive solutions tailored to meet the diverse needs of network marketing businesses. Our software is meticulously crafted to facilitate tasks such as member management, commission tracking, sales reporting, and product inventory management. With our expertise, MLM companies can efficiently manage their network of distributors, track sales performance, and streamline commission payouts. Whether it's a startup MLM company or an established network marketing business, our customizable software ensures smooth operations and improved productivity. We are committed to empowering MLM businesses with the tools they need to succeed in the competitive market, driving growth and success for their network of distributors.              </p>
 
 
 
@@ -104,12 +104,14 @@ const MLMSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/mlmdevphoto.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <MLMSwiperSlider />
         <MLMKeyFeature />
         {/*============= Technology Stack We Use========= */}
 

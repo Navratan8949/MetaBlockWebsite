@@ -88,7 +88,8 @@ const ERPSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-              It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
+
+                As specialists in ERP software, our team is dedicated to providing tailored solutions that streamline and optimize business operations. With our expertise, we empower organizations to manage their resources more efficiently, enhance productivity, and achieve their strategic objectives. Whether it's integrating various functions or customizing modules to fit unique requirements, we are committed to delivering reliable and effective ERP solutions that drive success for our clients.
               </p>
 
 
@@ -105,7 +106,8 @@ const ERPSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/devanshusoftware-1.jfif" alt="" />
             </div>
           </div>
         </section>
@@ -113,12 +115,12 @@ const ERPSoftware = () => {
         <SwiperSlider />
         <KeyFeature />
         {/*============= Technology Stack We Use========= */}
-     
+
         <section className="section-heading mid_section-1">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h2 style={{ color: "#D166AF ", fontSize:"31px" }} className="text-center Technology-Stack">Technology Stack We Use</h2>
+                <h2 style={{ color: "#D166AF ", fontSize: "31px" }} className="text-center Technology-Stack">Technology Stack We Use</h2>
               </div>
             </div>
             <div className="row tech p-5 pt-0 mt-5 mb-5">

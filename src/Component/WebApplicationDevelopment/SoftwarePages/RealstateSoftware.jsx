@@ -12,6 +12,7 @@ import SoftwareUsesTechnology from "./SoftwareUsesTechnology/SoftwareUsesTechnol
 import { useNavigate } from "react-router-dom";
 import RealStateKeyFeature from "./KeyFeatures/RealStateKeyFeature";
 import RealstateIndustries from "./SoftwareUsesTechnology/RealstateIndustries";
+import RealstateSwiperSlider from "./SwiperSlider/RealstateSwiperSlider";
 // import '../../main.css'
 
 const RealstateSoftware = () => {
@@ -87,8 +88,8 @@ const RealstateSoftware = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
-              </p>
+
+                As specialists in real estate software, our expertise lies in providing tailored solutions to meet the diverse needs of real estate professionals and agencies. Our software is meticulously designed to streamline various aspects of property management, including listing management, lead generation, client communication, and transaction tracking. With our expertise, real estate professionals can efficiently manage their listings, attract potential buyers or tenants, and close deals seamlessly. Whether it's a small independent agency or a large brokerage, our customizable software ensures smooth operations and enhanced productivity, empowering our clients to succeed in the competitive real estate market.              </p>
 
 
 
@@ -104,12 +105,14 @@ const RealstateSoftware = () => {
               </button>
             </div>
             <div className="Enterprise-right-div">
-              <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" />
+              {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
+              <img src="./images/realstatedev.jpg" alt="" />
+
             </div>
           </div>
         </section>
 
-        <SwiperSlider />
+        <RealstateSwiperSlider />
         <RealStateKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
