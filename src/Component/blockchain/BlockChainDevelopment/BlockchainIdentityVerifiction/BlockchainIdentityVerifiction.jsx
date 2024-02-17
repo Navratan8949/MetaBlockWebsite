@@ -13,44 +13,68 @@ const BlockchainIdentityVerifiction = () => {
               <div className="col-lg-6 col-12">
                 <div className="banner_sec">
                   <h1 className="title">
-                    <span className="cus_title">Blockchain Identity Verifiction</span> <br />{" "}
-                    Development Company
+                    <span className="cus_title">
+                      Verification of Blockchain Identity
+                    </span>{" "}
+                    <br /> Development Company
                   </h1>
                   <p className="contents">
-                    Implementing customizable smart contracts on decentralized
-                    network for several industry verticals, despite the size of
-                    the business, to automate the work processes by eliminating
-                    the need of trusted third party.
+                    Regardless of the size of the company, implementing scalable
+                    smart contracts on decentralized networks for multiple
+                    industry verticals can automate work processes by doing away
+                    with the requirement for a reliable third party.
                   </p>
                   <div className="HddrBtns banner_btn_sec">
-                  <Link to="/ContectUsForm">
-                    <button
-                      data-toggle="modal"
-                      data-target="#popup_form_modal"
-                      className="btn BtnPrimry TlkBtn banner_btn"
-                      target="_blank"
-                    >
-                      <span>
-                        {/* <img
+                    <Link to="/ContectUsForm">
+                      <button
+                        data-toggle="modal"
+                        data-target="#popup_form_modal"
+                        className="btn BtnPrimry TlkBtn banner_btn"
+                        target="_blank"
+                      >
+                        <span>
+                          {/* <img
                           src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif"
                           alt="enquiry"
                           loading="eager"
                           className="img-fluid lazyload mr-2"
                         /> */}
-                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z" fill="white"></path></svg>
-                        Request A Quote
-                      </span>
-                      <span>
-                        {/* <img
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z"
+                              fill="white"
+                            ></path>
+                          </svg>
+                          Request A Quote
+                        </span>
+                        <span>
+                          {/* <img
                           src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif"
                           alt="enquiry"
                           loading="eager"
                           className="img-fluid lazyload mr-2"
                         /> */}
-                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z" fill="white"></path></svg>
-                        Request A Quote
-                      </span>
-                    </button>
+                          <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M11.9483 23.8503C5.33292 23.8669 -0.00474671 18.5293 3.16764e-06 11.9008C0.00475304 5.38755 5.39111 0.00237574 11.902 8.01666e-07C18.5245 -0.00237413 23.8028 5.27236 23.8171 11.9079C23.8325 18.5399 18.5708 23.8337 11.9483 23.8503ZM14.5964 10.7122C14.5607 10.7798 14.5263 10.8463 14.4907 10.914C14.1986 10.914 13.9076 10.914 13.6155 10.914C11.4591 10.914 9.30263 10.9081 7.14619 10.9188C6.32327 10.9223 5.85303 11.4246 5.97534 12.1205C6.06797 12.6501 6.47052 12.9375 7.17469 12.9387C9.42969 12.9446 11.6847 12.941 13.9409 12.941C14.1463 12.941 14.3517 12.941 14.7329 12.941C14.1392 13.5502 13.6737 14.0228 13.2142 14.5026C12.7617 14.9752 12.7285 15.4585 13.1097 15.8586C13.5253 16.2944 14.0121 16.279 14.5026 15.7815C15.5178 14.7543 16.5248 13.7188 17.527 12.6798C18.0246 12.1644 18.027 11.6871 17.5294 11.1812C16.5011 10.1386 15.4656 9.10432 14.4254 8.07479C13.9254 7.57961 13.4493 7.55942 13.0325 7.99404C12.6382 8.4049 12.6584 8.87514 13.1298 9.343C13.606 9.81443 14.1071 10.2574 14.5964 10.7122Z"
+                              fill="white"
+                            ></path>
+                          </svg>
+                          Request A Quote
+                        </span>
+                      </button>
                     </Link>
                   </div>
                 </div>
@@ -68,25 +92,25 @@ const BlockchainIdentityVerifiction = () => {
                   data-aos-delay={300}
                 >
                   <h2 className="title">
-                    Reputed Smart Contract Development Company
+                    reputable firm for developing smart contracts
                   </h2>
                   <p className="contents">
-                    Smart contracts are self-executing digital contracts, that
-                    are backed with ability to digitally facilitate, verify or
-                    enforce the terms of agreement between the businesses. As
-                    the smart contracts are linked to blockchain, the data
-                    becomes immutable and the need for third party is
-                    eliminated, which thereby automates business process and cut
-                    down extra costs.
+                    Smart contracts are self-executing digital agreements that
+                    have the capacity to electronically support, validate, or
+                    uphold the conditions of the business-to-business contract.
+                    When smart contracts are connected to blockchain, data
+                    becomes unchangeable and a third party is no longer
+                    required, automating corporate processes and reducing
+                    expenses.
                   </p>
                   <p className="contents">
-                    Osiz technologies, a reputed smart contract development
-                    company deliver high quality smart contract solutions for
-                    start-ups to enterprises. Our professionals are updated to
-                    the world class technologies, including new innovations in
-                    blockchain technology. We provide the most accurate smart
-                    contract services, to ensure that you benefit with right
-                    automation process to lessen operating cost and time.
+                    Reputable smart contract development firm MetaBlock
+                    Technologies offers top-notch smart contract solutions to
+                    businesses and startups. Our experts are knowledgeable on
+                    cutting edge technologies, such as recent developments in
+                    blockchain technology. Our goal is to help you reduce
+                    operating costs and time by offering the most accurate smart
+                    contract services possible.
                   </p>
                   <div className="smart_contract_dev_about_btn_sec">
                     <a
@@ -135,13 +159,13 @@ const BlockchainIdentityVerifiction = () => {
         </section>
         <section className="smart_contract_dev_services">
           <div className="container">
-            <h2 className="title">Smart Contract Development Services</h2>
+            <h2 className="title">Services for Developing Smart Contracts</h2>
             <p className="contents">
-              Smart contract is an essential part in any blockchain based
-              business as it is the backbone of business automation. Being the
-              best blockchain development company, we specialize to offer custom
-              smart contract development services, irrespective of your
-              industry.
+              Since smart contracts form the foundation of business automation,
+              they are a crucial component of any blockchain-based enterprise.
+              Regardless of your sector, as the top blockchain development firm,
+              we specialize in providing bespoke smart contract creation
+              services.
             </p>
             <div className="row scont-serv-parent justify-content-center align-items-center">
               <div className="col-lg-4 col-md-6 col-12 scont-serv-child bor_rad_fst">
@@ -159,14 +183,14 @@ const BlockchainIdentityVerifiction = () => {
                       style={{ objectPosition: "0px 0px" }}
                     />
                     <div className="sub_title">
-                      A self-auditing mechanism of digital value reduces error
+                      An error-reducing digital value self-auditing technique
                     </div>
                   </div>
                   <p className="sub_contents">
-                    The most important factor for the best smart contract is
-                    that, the smart contract code needs a top-notch work-flow.
-                    We have experts to make a precise plan of the smart contract
-                    development, to make it work reliable and error- free.
+                    The most crucial requirement for the finest smart contract
+                    is an excellent work-flow in the smart contract code. To
+                    ensure that the creation of the smart contract is exact and
+                    error-free, we have experts on staff.
                   </p>
                 </div>
               </div>
@@ -189,10 +213,10 @@ const BlockchainIdentityVerifiction = () => {
                     </div>
                   </div>
                   <p className="sub_contents">
-                    Smart contracts differs for every industry, based on the
-                    business size and nature of the business. We design and
-                    develop state-of-art smart contracts, with advanced and
-                    customizable features, suitable to any industry.
+                    The nature and scale of a business determine the differences
+                    in smart contracts across all industries. Modern smart
+                    contracts with sophisticated, adaptable features that work
+                    in any business are what we design and create.
                   </p>
                 </div>
               </div>
@@ -210,14 +234,14 @@ const BlockchainIdentityVerifiction = () => {
                       className="sprite_icons"
                       style={{ objectPosition: "-168px 0px" }}
                     />
-                    <div className="sub_title">Smart Contracts Audit</div>
+                    <div className="sub_title">Audit of Smart Contracts</div>
                   </div>
                   <p className="sub_contents">
-                    Smart contract auditing ensures to develop a reliable smart
-                    contract with flawless functionality. We provide meticulous
-                    smart contract auditing services for a valid and error-free
-                    digital contract through complete assessment of smart
-                    contracts.
+                    The development of a trustworthy smart contract with perfect
+                    functionality is ensured by smart contract audits. We offer
+                    thorough smart contract auditing services to ensure a
+                    digital contract that is legitimate and error-free by
+                    thoroughly evaluating smart contracts.
                   </p>
                 </div>
               </div>
@@ -235,15 +259,13 @@ const BlockchainIdentityVerifiction = () => {
                       className="sprite_icons"
                       style={{ objectPosition: "-261px 0px" }}
                     />
-                    <div className="sub_title">
-                      Smart Contracts Optimization
-                    </div>
+                    <div className="sub_title">Optimizing Smart Contracts</div>
                   </div>
                   <p className="sub_contents">
-                    Every single operation in a smart contract takes some amount
-                    of Ethereum gas. An optimized smart contract can help in
-                    reducing the wastage of ethereum gas. We are experts in
-                    smart contract optimization for a seamless work process.
+                    A smart contract requires Ethereum gas for each and every
+                    action. Reduced Ethereum gas waste is possible with an
+                    efficient smart contract. Our specialty is the optimization
+                    of smart contracts for a smooth workflow.
                   </p>
                 </div>
               </div>
@@ -261,16 +283,14 @@ const BlockchainIdentityVerifiction = () => {
                       className="sprite_icons"
                       style={{ objectPosition: "-354px 0px" }}
                     />
-                    <div className="sub_title">
-                      Build Decentralized Applications
-                    </div>
+                    <div className="sub_title">Develop Decentralized Apps</div>
                   </div>
                   <p className="sub_contents">
-                    Decentralized applications along with smart contracts, will
-                    double the security and functionality or any software or
-                    business process. We offer custom services to create unique
-                    smart contract on decentralized application, to ensure
-                    complete automation.
+                    A software's security and functionality will be doubled by
+                    decentralized apps and smart contracts in business
+                    processes. To guarantee total automation, we provide
+                    specialized services for developing original smart contracts
+                    for decentralized applications.
                   </p>
                 </div>
               </div>
@@ -287,7 +307,9 @@ const BlockchainIdentityVerifiction = () => {
                   data-aos="fade-up"
                   data-aos-delay={500}
                 >
-                  <h2 className="title">Benefits Of Smart Contract</h2>
+                  <h2 className="title">
+                    Advantages Of An Intelligent Agreement
+                  </h2>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12 scont-bt-wra new_common_tile_color1">
@@ -303,7 +325,7 @@ const BlockchainIdentityVerifiction = () => {
                     alt="Reduce costs and time"
                     title="Reduce costs and time"
                   />
-                  <div className="sub_title">Reduce costs and time</div>
+                  <div className="sub_title">Cut expenses and time</div>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12 scont-bt-wra new_common_tile_color2">
@@ -320,7 +342,7 @@ const BlockchainIdentityVerifiction = () => {
                     title="Automated business process enhances accuracy"
                   />
                   <div className="sub_title sub_title_blk">
-                    Automated business process enhances accuracy
+                    Productivity gains from automated business processes
                   </div>
                 </div>
               </div>
@@ -338,7 +360,7 @@ const BlockchainIdentityVerifiction = () => {
                     title="Decentralized execution leads to transparent record-keeping"
                   />
                   <div className="sub_title">
-                    Decentralized execution leads to transparent record-keeping
+                    Decentralized implementation promotes open record-keeping
                   </div>
                 </div>
               </div>
@@ -356,7 +378,7 @@ const BlockchainIdentityVerifiction = () => {
                     title="Quick, reliable, and immutable"
                   />
                   <div className="sub_title sub_title_blk">
-                    Quick, reliable, and immutable
+                    Fast, dependable, and unchangeable
                   </div>
                 </div>
               </div>
@@ -373,7 +395,7 @@ const BlockchainIdentityVerifiction = () => {
                     alt="Clear communication"
                     title="Clear communication"
                   />
-                  <div className="sub_title">Clear communication</div>
+                  <div className="sub_title">Unambiguous communication</div>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12 scont-bt-wra new_common_tile_color4">
@@ -389,7 +411,7 @@ const BlockchainIdentityVerifiction = () => {
                     alt="Data secured"
                     title="Data secured"
                   />
-                  <div className="sub_title">Data secured</div>
+                  <div className="sub_title">Data protection</div>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12 scont-bt-wra new_common_tile_color3">
@@ -405,7 +427,7 @@ const BlockchainIdentityVerifiction = () => {
                     alt="Higher efficiency"
                     title="Higher efficiency"
                   />
-                  <div className="sub_title">Higher efficiency</div>
+                  <div className="sub_title">Increased effectiveness</div>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12 scont-bt-wra new_common_tile_color4">
@@ -422,7 +444,7 @@ const BlockchainIdentityVerifiction = () => {
                     title="Eliminating intermediaries will enhance trust"
                   />
                   <div className="sub_title">
-                    Eliminating intermediaries will enhance trust
+                    Removing middlemen will increase confidence
                   </div>
                 </div>
               </div>
@@ -440,7 +462,7 @@ const BlockchainIdentityVerifiction = () => {
                     title="A self-auditing mechanism of digital value reduces error"
                   />
                   <div className="sub_title">
-                    A self-auditing mechanism of digital value reduces error
+                    Error is decreased by a digital value self-auditing system.
                   </div>
                 </div>
               </div>
@@ -458,7 +480,7 @@ const BlockchainIdentityVerifiction = () => {
                     title="Storage and backup can retrieve lost data easily"
                   />
                   <div className="sub_title sub_title_blk">
-                    Storage and backup can retrieve lost data easily
+                    Backups and storage make it simple to recover lost data.
                   </div>
                 </div>
               </div>
@@ -467,14 +489,14 @@ const BlockchainIdentityVerifiction = () => {
         </section>
         <section className="smart_contract_dev_process">
           <div className="container">
-            <h2 className="title">Smart Contract Development Process</h2>
+            <h2 className="title">Procedure for Developing Smart Contracts</h2>
             <p className="contents">
-              Smart contracts has become a key to automate transactions in
-              blockchain. Regardless of your business status, be it a start-up
-              or large enterprise, we have vast experience in integrating smart
-              contract in your business, to reduce the costs and the hassle of
-              blockchain transactions. The successful process we follow for
-              better integration is as follows:
+              In order to automate transactions in blockchain, smart contracts
+              have become essential. We can help you lower the costs and hassle
+              of blockchain transactions regardless of the size of your
+              company—we have extensive expertise integrating smart contracts
+              into both start-ups and major enterprises. The following is the
+              effective procedure we employ to improve integration:
             </p>
             <div className="process_box">
               <div className="row justify-content-center align-items-center">
@@ -485,7 +507,7 @@ const BlockchainIdentityVerifiction = () => {
                     data-aos-delay={500}
                   >
                     <div className="num_sec">01</div>
-                    <div className="sub_title">Analyzing the Requirement</div>
+                    <div className="sub_title">Scoping Out the Need</div>
                   </div>
                 </div>
                 <div className="col-lg-2 col-md-2 col-12 order-1 order-lg-2">
@@ -510,9 +532,10 @@ const BlockchainIdentityVerifiction = () => {
                     data-aos-delay={500}
                   >
                     <div className="sub_contents">
-                      Initially, our team of experts will brainstorm with you to
-                      get detailed knowledge about your business requirement and
-                      analyze the business idea that needs to be infused in
+                      Our team of specialists will first engage in a
+                      brainstorming session with you to gain a thorough
+                      understanding of your business requirements and to assess
+                      the business concept that will be incorporated into the
                       smart contract.
                     </div>
                   </div>
@@ -528,11 +551,11 @@ const BlockchainIdentityVerifiction = () => {
                     data-aos-delay={500}
                   >
                     <div className="sub_contents even_sub_cont">
-                      Once we get insight about your business requirements, our
-                      knowledgeable team will make a document defining the smart
-                      contracts, create a detailed data flow diagram, design
-                      technical architecture, document the technical GDPR
-                      compliance requirement and deliver milestone creation.
+                      As soon as we have a clear understanding of your business
+                      needs, our skilled team will draft a paper outlining the
+                      smart contracts, produce a thorough data flow diagram,
+                      design the technical architecture, record the technical
+                      requirements for GDPR compliance, and define milestones.
                     </div>
                   </div>
                 </div>
@@ -559,7 +582,7 @@ const BlockchainIdentityVerifiction = () => {
                   >
                     <div className="num_sec even_num_sec">02</div>
                     <div className="sub_title even_sub_tit">
-                      Technical design
+                      Technical layout
                     </div>
                   </div>
                 </div>
@@ -574,7 +597,7 @@ const BlockchainIdentityVerifiction = () => {
                     data-aos-delay={500}
                   >
                     <div className="num_sec">03</div>
-                    <div className="sub_title">Development</div>
+                    <div className="sub_title">Advancement</div>
                   </div>
                 </div>
                 <div className="col-lg-2 col-md-2 col-12 order-1 order-lg-2">
@@ -599,10 +622,10 @@ const BlockchainIdentityVerifiction = () => {
                     data-aos-delay={500}
                   >
                     <div className="sub_contents">
-                      After comprehending the requirement and technical
-                      designing, our smart contract developers develop smart
-                      contract at alpha, beta level and build accurate smart
-                      contract based on your busines.
+                      Our experts create alpha and beta smart contracts after
+                      fully understanding the requirements and technological
+                      design. They also create precise smart contracts that are
+                      tailored to your company's needs.
                     </div>
                   </div>
                 </div>
@@ -617,10 +640,10 @@ const BlockchainIdentityVerifiction = () => {
                     data-aos-delay={500}
                   >
                     <div className="sub_contents even_sub_cont">
-                      Before deployment, Our quality assurance team will do
-                      in-depth testing, to check the quality of the smart
-                      contract developed and assure you that the smart contract
-                      is 100% bug-free and secure to work.
+                      Prior to deployment, a thorough testing process will be
+                      carried out by our quality assurance team to ensure that
+                      the produced smart contract is 100% secure and free from
+                      errors.
                     </div>
                   </div>
                 </div>
@@ -685,10 +708,9 @@ const BlockchainIdentityVerifiction = () => {
                     data-aos-delay={500}
                   >
                     <div className="sub_contents">
-                      Once the quality of the developed smart contract is
-                      checked and proved to be defect free, we deploy it on the
-                      main blockchain network and will be ready to execute in
-                      your business.
+                      We put the produced smart contract on the main blockchain
+                      network and have it ready for use in your organization
+                      after quality control and defect-free testing verify it.
                     </div>
                   </div>
                 </div>
@@ -703,11 +725,12 @@ const BlockchainIdentityVerifiction = () => {
                     data-aos-delay={500}
                   >
                     <div className="sub_contents even_sub_cont">
-                      If there is any backlogs in the smart contract or if any
-                      updation is needed, our team of smart contract experts,
-                      including developers, QA and technical experts will
-                      continue their service to deploy a new smart contract with
-                      necessary updates.
+                      Our team of smart contract professionals, which consists
+                      of developers, QA specialists, and technical experts, will
+                      continue to provide their services to deploy a new smart
+                      contract with the required updates if there are any
+                      backlogs in the contract or if any modifications are
+                      needed.
                     </div>
                   </div>
                 </div>
@@ -743,14 +766,14 @@ const BlockchainIdentityVerifiction = () => {
         <section className="smart_contract_dev_industry">
           <div className="container">
             <h2 className="title">
-              Industries Which Utilize Smart Contract Development
+              Sectors That Make Use of Smart Contract Development
             </h2>
             <p className="contents">
-              Contracts form an important part of any sort of official
-              agreements between parties involved in business. Smart Contracts
-              already exists across a vast array of industries and we adept to
-              turn your traditional contract into self executing digital
-              contract, using computer code in following industries:
+              In any official agreement between persons engaged in business,
+              contracts are a crucial component. Many sectors already use smart
+              contracts, and we are skilled at utilizing computer code to
+              transform your traditional contract into a digital contract that
+              operates on its own in the following areas:
             </p>
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-12">
@@ -768,10 +791,11 @@ const BlockchainIdentityVerifiction = () => {
                   />
                   <div className="sub_title">Banking</div>
                   <p className="sub_contents">
-                    In banking and finance industry, smart contract can reduce
-                    complexity in banking process, improve data quality,
-                    strengthen security, faster processing, lessen paperwork and
-                    enhance the financial market functionality.
+                    Within the banking and finance sector, smart contracts have
+                    the potential to simplify banking procedures, enhance data
+                    quality, fortify security, expedite processing, minimize
+                    paperwork, and augment the functionality of financial
+                    markets.
                   </p>
                 </div>
               </div>
@@ -790,11 +814,11 @@ const BlockchainIdentityVerifiction = () => {
                   />
                   <div className="sub_title">Insurance</div>
                   <p className="sub_contents">
-                    Usually, it takes a long time for any insurance claim to be
-                    processed and paid, which thereby increases the cost and
-                    leads to inefficiency. Using smart contract in insurance,
-                    the claiming process can be effective, efficient and
-                    simplified.
+                    The typical processing and payment timeframe for insurance
+                    claims is lengthy, increasing expenses and creating
+                    inefficiencies. Claiming can be made easier, faster, and
+                    more successful with the use of smart contracts in
+                    insurance.
                   </p>
                 </div>
               </div>
@@ -813,11 +837,10 @@ const BlockchainIdentityVerifiction = () => {
                   />
                   <div className="sub_title">Healthcare</div>
                   <p className="sub_contents">
-                    Smart contract in hospitals and healthcare centers, will
-                    enable the patient to share their medical data with every
-                    member involved in the network, thereby improving the
-                    collaboration between data providers and result in accurate
-                    diagnoses.
+                    Patients will be able to exchange their medical information
+                    with any member of the network using smart contracts at
+                    hospitals and healthcare facilities, which will enhance data
+                    provider collaboration and lead to more precise diagnosis.
                   </p>
                 </div>
               </div>
@@ -836,10 +859,10 @@ const BlockchainIdentityVerifiction = () => {
                   />
                   <div className="sub_title">Supply chain</div>
                   <p className="sub_contents">
-                    Businesses that deals with supply chain management uses
-                    smart contract to record ownership rights as numerous
-                    products move through the supply chain. This can improve
-                    customer engagement, increase efficiency and reduce time.
+                    Supply chain management companies employ smart contracts to
+                    track ownership rights while several products are moved
+                    through the supply chain. Time can be saved, efficiency can
+                    rise, and customer engagement can be enhanced.
                   </p>
                 </div>
               </div>
@@ -858,10 +881,10 @@ const BlockchainIdentityVerifiction = () => {
                   />
                   <div className="sub_title">Transport &amp; Logistics</div>
                   <p className="sub_contents">
-                    In transport and logistics industry, smart contracts will
-                    allow the businesses to tract the product movement from the
-                    factory to the designation, in a simplified way, by
-                    providing the real-time visibility of entire supply chain.
+                    By giving real-time insight across the whole supply chain,
+                    smart contracts in the transportation and logistics sector
+                    will simplify the process for businesses to track the
+                    movement of products from the producer to the recipient.
                   </p>
                 </div>
               </div>
@@ -874,19 +897,19 @@ const BlockchainIdentityVerifiction = () => {
               <div className="col-lg-6 col-12" />
               <div className="col-lg-6 col-12 why_choose_box">
                 <h2 className="title">
-                  Why Choose Osiz For Smart Contract Development?
+                  Reasons to Select MetaBlock for Developing Smart Contracts?
                 </h2>
                 <p className="contents">
-                  Osiz technologies is the best smart contract development
-                  company in India, with best smart contract solutions for your
-                  business. We have a team of smart contract experts, who has
-                  vast experience and detailed knowledge in providing high-end
-                  smart contract solution to any industry vertical. Being a
-                  leading blockchain development company, we specialize in
-                  developing custom smart contracts solutions on ethereum
-                  blockchain platform and our team will provide a complete
-                  automation support, right from identifying the business need
-                  to delivery of the project.
+                  The greatest smart contract development firm in India is
+                  MetaBlock Technologies, and they offer the best smart contract
+                  solutions for your company. Our team of smart contract
+                  specialists has extensive experience and in-depth
+                  understanding in offering premium smart contract solutions to
+                  any vertical of the industry. As a top blockchain development
+                  company, we specialize in creating unique smart contract
+                  solutions for the Ethereum blockchain. Our staff will offer
+                  full automation support, from determining the project's
+                  business needs to completing it.
                 </p>
                 <div className="HddrBtns smart_contract_btn_sec">
                   <button

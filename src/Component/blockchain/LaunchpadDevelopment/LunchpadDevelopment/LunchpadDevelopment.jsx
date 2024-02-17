@@ -1,5 +1,7 @@
 import React from "react";
 import "./LunchpadDevelopment.css";
+import { Link } from "react-router-dom";
+
 const LunchpadDevelopment = () => {
   return (
     <div>
@@ -10,23 +12,23 @@ const LunchpadDevelopment = () => {
               <div className="col-lg-6 col-12">
                 <h1 className="title">
                   Blockchain <span className="cus_title"> </span>
-                  <br /> <span className="grad_text"> Lunchpad </span> Development
+                  <br /> <span className="grad_text"> Launchpad </span> Development
                   Company
                 </h1>
                 <h3 className="contents">
-                  Incorporating Blockchain application with the Internet of
-                  Thing (IoT), to create a new path that automate the business
-                  processes in a decentralized ecosystem for a smart business.
+                Combining Internet of Things (IoT) and Blockchain applications to forge a new 
+                route for business process automation in a decentralized ecosystem for smart businesses.
                 </h3>
                 <div className="blk_dev_bnr_btn_sec">
-                  <a
-                    href="#"
+                <Link to="/ContectUsForm">
+                  <span
                     data-toggle="modal"
                     data-target="#popup_form_modal"
                     className="blk_dev_bnr_btn"
                   >
                     Request For Quote
-                  </a>
+                  </span>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-6 col-12" />
@@ -39,41 +41,26 @@ const LunchpadDevelopment = () => {
               <div className="col-lg-7">
                 <div className="bs_d_c_bg">
                   <h2 className="blockchain_dev_aboutus_title">
-                    Blockchain IoT Application Development Company
+                  Development Company For Blockchain-Based IoT Applications
                   </h2>
                   <div>
                     <p className="section_heading">
-                      High security and trust is the reason why blockchain
-                      technology has begun to have a significant role in the
-                      fast growing digital world. Today, blockchain technology
-                      is being integrated with the new wireless technology
-                      called the Internet of thing (IoT) and began to revamp
-                      various industries as it has the ability to connect and
-                      communicate billions of things, over the Internet. The
-                      world full of internet and connected devices paved a way
-                      for blockchain IoT and has open up a wide range of
-                      possibilities for enterprises in the days to come, by
-                      improving trust, accountability and transparency, while
-                      streamlining the business processes.
+                    Blockchain technology has started to play a big part in the rapidly expanding digital world because of its high security and trust features. The Internet of Things (IoT), a new wireless technology that is being combined with blockchain technology, has the potential to completely transform a number of industries due to its ability to connect and communicate with billions of objects via the Internet. In addition to creating the foundation for blockchain IoT, the internet-connected world has opened up a plethora of opportunities for businesses in the future by enhancing transparency, accountability, and trust while optimizing corporate procedures.
+
                     </p>
                     <p className="section_heading">
-                      Osiz technologies is a leading blockchain IoT development
-                      company in India, holding remarkable experience in the
-                      world-changing technologies, blockchain development and
-                      Internet of thing (IoT). Despite the size and nature of
-                      your business, we specialize in creating flawless
-                      blockchain network with perfect IoT solutions, to reduce
-                      complexity and make your business more smarter.
+                    One of India's top blockchain and Internet of Things development companies, MetaBlock Technologies has extensive experience in developing cutting-edge technologies such as blockchain and the Internet of Things (IoT). We specialize in building faultless blockchain networks with ideal IoT solutions, regardless of the size or kind of your company, to cut complexity and increase the intelligence of your enterprise.
                     </p>
                     <div className="blk_dev_bnr_btn_sec">
-                      <a
-                        href="#"
+                    <Link to="/ContectUsForm">
+                      <span
                         className="blk_dev_bnr_btn"
                         data-toggle="modal"
                         data-target="#popup_form_modal"
                       >
                         View Live Demo
-                      </a>
+                      </span>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -160,23 +147,22 @@ const LunchpadDevelopment = () => {
         <section className="alg_mac">
           <div className="container">
             <div className="section-heading text-center">
-              <h3 className="title">Benefits Of Blockchain IOT</h3>
+              <h3 className="title">Advantages Of Internet Of Things Blockchain</h3>
               <p className="para_title">
-                Internet of thing is the ground breaking technology, which
-                simplifies any work through internet connected devices. When
-                this technology is combined with the innovative blockchain
-                technology, it becomes blockchain of thing and yields the
-                following benefits to the wide business world.
+              The revolutionary technology known as the "internet of things" makes any 
+              task involving internet-connected gadgets easier. This technology becomes
+               blockchain of things when it is integrated with the cutting-edge blockchain 
+               technology, which serves the global business community in the following ways.
               </p>
               <div className="why_round"> </div>
             </div>
             <div className="row mt-5">
               <div className="col-lg-4">
                 <ul className="ul_list">
-                  <li>Additional layer of security</li>
-                  <li>Monitor product</li>
-                  <li>Build trust</li>
-                  <li>Reduce additional costs</li>
+                  <li>An additional security measure</li>
+                  <li>Track the product</li>
+                  <li>Establish trust</li>
+                  <li>Cut down on extra expenses</li>
                 </ul>
               </div>
               <div className="col-sm-4">
@@ -189,10 +175,10 @@ const LunchpadDevelopment = () => {
               </div>
               <div className="col-lg-4">
                 <ul className="ul_list">
-                  <li>Accelerate transaction time</li>
-                  <li>Immutable record</li>
-                  <li>Reduce risk of loss</li>
-                  <li>Eliminate fraud</li>
+                  <li>Quicken the transaction process.</li>
+                  <li>Indestructible record</li>
+                  <li>Lower the chance of losing</li>
+                  <li>Get Rid of Fraud</li>
                 </ul>
               </div>
             </div>
@@ -201,7 +187,7 @@ const LunchpadDevelopment = () => {
         <section className="metaverse_game_services">
           <div className="container">
             <h2 className="title">
-              Steps Involved In Blockchain IOT Application Development
+            Procedures For Developing Blockchain-Based IOT Applications
             </h2>
             <p className="contents" />
             <div className="row justify-content-center">
@@ -214,14 +200,10 @@ const LunchpadDevelopment = () => {
                     className="img-fluid sprite_icons lazyload"
                   />
                   <div className="sub_title">
-                    Identify And Define The Problem
+                  Determine And Explain The Issue
                   </div>
                   <p className="sub_contents">
-                    Blockchain IoT is all about providing solutions to any issue
-                    in the blockchain technology. The first step we do is
-                    identify the problem and its nature, so that it will be
-                    helpful for us to decide the next course of action with
-                    relevant solutions.
+                  Providing answers for any problem relating to blockchain technology is the main goal of blockchain IoT. In order to decide on the best plan of action and pertinent remedies, the first thing we do is identify the problem and its nature.
                   </p>
                 </div>
               </div>
@@ -233,12 +215,9 @@ const LunchpadDevelopment = () => {
                     title="Fabricate Solution"
                     className="img-fluid sprite_icons lazyload"
                   />
-                  <div className="sub_title">Fabricate Solution</div>
+                  <div className="sub_title">Create The Solution</div>
                   <p className="sub_contents">
-                    Once the problem is identified, the next step will be
-                    deriving solution to solve the issue. The solution and other
-                    derivatives of it can be used effectively to arrive at a
-                    particular solution.
+                  Finding a solution to the issue will be the following step after the problem has been recognized. It is possible to get at a certain solution by using the solution and its derivatives quite successfully.
                   </p>
                 </div>
               </div>
@@ -250,12 +229,9 @@ const LunchpadDevelopment = () => {
                     title="Fabricate Solution"
                     className="img-fluid sprite_icons lazyload"
                   />
-                  <div className="sub_title">Create App, From The Solution</div>
+                  <div className="sub_title">Develop An App Based On The Solution</div>
                   <p className="sub_contents">
-                    Now that the solution is fabricated, the next step would be,
-                    creating an application or any other asset, to test out the
-                    solutions that has been derived, to solve the issue, with
-                    all the requirements in a place.
+                  After the solution has been developed, the following stage would be to develop an application or other asset to test the developed solutions and resolve the problem by gathering all necessary needs in one location.
                   </p>
                 </div>
               </div>
@@ -267,12 +243,9 @@ const LunchpadDevelopment = () => {
                     title="Implement The Application"
                     className="img-fluid sprite_icons lazyload"
                   />
-                  <div className="sub_title">Implement The Application</div>
+                  <div className="sub_title">Apply The Application Into Practice.</div>
                   <p className="sub_contents">
-                    Now that the application or asset is created, it will be
-                    implemented to the defined problem and will be tested
-                    whether the application or asset, is helpful in solving the
-                    defined issue or not.
+                  After the application or asset has been generated, it will be applied to the specified problem and tested to see if it can help solve the specified issue or not.
                   </p>
                 </div>
               </div>
@@ -284,12 +257,9 @@ const LunchpadDevelopment = () => {
                     title="Support And Upgrade"
                     className="img-fluid sprite_icons lazyload"
                   />
-                  <div className="sub_title">Support And Upgrade</div>
+                  <div className="sub_title">Assist And Improve</div>
                   <p className="sub_contents">
-                    Having known that the application or asset is running
-                    successfully and the users are reaping its benefits,
-                    continuous assistance will be provided to check if any
-                    further updatation or repair is needed.
+                  After it is established that the asset or application is operating effectively and that the users are benefiting from it, ongoing support will be given to determine whether any additional updates or repairs are required.
                   </p>
                 </div>
               </div>
@@ -298,7 +268,7 @@ const LunchpadDevelopment = () => {
         </section>
         <section className="crypto_exch_listing_services">
           <div className="container">
-            <h2 className="title">Blockchain IoT Solutions</h2>
+            <h2 className="title">IoT Blockchain Solutions</h2>
             <div className="row justify-content-center cus_row">
               <div className="col-lg-3 col-md-6 col-12">
                 <div className="service_box">
@@ -312,9 +282,7 @@ const LunchpadDevelopment = () => {
                   </div>
                   <div className="sub_title">Decentralization</div>
                   <p className="sub_contents">
-                    Removing the peer-to-peer in blockchain will reduce the
-                    transaction fees while enhancing the transactions speed
-                    within the secure network.
+                  Peer-to-peer transactions on blockchain will no longer be subject to transaction fees, and transactions will go more quickly within the secure network.
                   </p>
                 </div>
               </div>
@@ -332,9 +300,7 @@ const LunchpadDevelopment = () => {
                     Blockchain As A Service (BaaS)
                   </div>
                   <p className="sub_contents">
-                    Blockchain application will be combined with the cloud
-                    services, to readily deploy the projects without any
-                    complexity.
+                  A blockchain application will be integrated with cloud services to enable projects to be easily deployed and complicated free of charge.
                   </p>
                 </div>
               </div>
@@ -350,9 +316,7 @@ const LunchpadDevelopment = () => {
                   </div>
                   <div className="sub_title">Blockless Distributed Ledger</div>
                   <p className="sub_contents">
-                    The transactions in the distributed ledger can be identified
-                    and approved without having to use the blockchain
-                    technology.
+                  The distributed ledger facilitates the identification and approval of transactions without requiring the deployment of blockchain technology.
                   </p>
                 </div>
               </div>
@@ -370,9 +334,7 @@ const LunchpadDevelopment = () => {
                     Shared Devices And Private Entities
                   </div>
                   <p className="sub_contents">
-                    Share wireless devices connected on IoT and buy private
-                    entities with blockchain connected on IoT solutions to get
-                    the desired results.
+                  To achieve the intended outcomes, share IoT-linked wireless devices and purchase private entities with blockchain connected IoT solutions.
                   </p>
                 </div>
               </div>
@@ -381,7 +343,7 @@ const LunchpadDevelopment = () => {
         </section>
         <section className="metaverse_game_industry">
           <div className="container">
-            <h2 className="title">Use Of Blockchain IoT At Industries</h2>
+            <h2 className="title">Blockchain And IoT Use In Industries</h2>
             <p className="contents">
               As technology changes, business world continues to become more
               fast-paced and interconnected. Blockchain alongwith Internet Of
@@ -392,16 +354,10 @@ const LunchpadDevelopment = () => {
               <div className="col-lg-4 col-12">
                 <div className="industry_box">
                   <div className="sub_title">
-                    Blockchain IOT at Supply Chain
+                  Supply Chain Blockchain IOT
                   </div>
                   <p className="sub_content">
-                    RFID and other IoT edge devices can be combined with the
-                    blockchain technology, to streamline supplychain process.
-                    The main advantage of integrating blockchain IoT in supply
-                    chain is that, it can be easily tracked by anyone in the
-                    network and the product can be monitored at any point of
-                    time and also know the present condition of the product,
-                    whether it is damaged or in a good condition.
+                  Blockchain technology can be used in conjunction with RFID and other Internet of Things edge devices to optimize the supply chain process. The primary benefit of incorporating blockchain IoT into the supply chain is that it allows for easy tracking by any member of the network, monitoring of the product at all times, and knowledge of its current state, including whether it is damaged or in good shape.
                   </p>
                   <img
                     src="https://www.osiztechnologies.com/asset/images/inner-pages/blockchain_Iot_management/blockchain-iot-at-supply-chain.png"
@@ -413,15 +369,9 @@ const LunchpadDevelopment = () => {
               </div>
               <div className="col-lg-4 col-12">
                 <div className="industry_box">
-                  <div className="sub_title">Blockchain IOT at Healthcare</div>
+                  <div className="sub_title">Blockchain And IoT In Healthcare</div>
                   <p className="sub_content">
-                    Healthcare is an industry that will benefit the most,
-                    through electronic medical records. Blockchain will allow
-                    the medical center and patients to keep their own record so
-                    that the doctors can access them at anytime from anywhere.
-                    Blockchain combined with IoT devices will enable real-time
-                    monitoring of the patient’s health, therefore the patient
-                    can benefit from accurate treatment.
+                  The sector that will gain the most from electronic medical records is the healthcare sector. Blockchain technology will make it possible for the hospital and patients to maintain their own records, which the doctors would be able to view from anywhere at any time. When blockchain technology and Internet of Things devices are coupled, patients will be able to receive appropriate treatment since real-time health monitoring will be possible.
                   </p>
                   <img
                     src="https://www.osiztechnologies.com/asset/images/inner-pages/blockchain_Iot_management/blockchain-iot-at-healthcare.png"
@@ -434,16 +384,10 @@ const LunchpadDevelopment = () => {
               <div className="col-lg-4 col-12">
                 <div className="industry_box">
                   <div className="sub_title">
-                    Blockchain IOT at Transportation
+                  IOT And Blockchain In Transportation
                   </div>
                   <p className="sub_content">
-                    Integrating Blockchain and IoT in transport industry will
-                    improve the workflow and provide real-time visibility on the
-                    status of the vehicle in transportation. It will be easy for
-                    the customers to find a vehicle for transportation and
-                    blockchain IoT will benefit both, the user and the vehicle
-                    owner, while saving the time involved in finding the
-                    transport.
+                  The transportation industry will benefit from the integration of blockchain and IoT since it will streamline workflow and offer real-time visibility into the status of vehicles in transit. Customers will find it simple to locate a vehicle for transportation, and blockchain IoT will serve the interests of both the user and the owner of the car while reducing the time required to locate the transport.
                   </p>
                   <img
                     src="https://www.osiztechnologies.com/asset/images/inner-pages/blockchain_Iot_management/blockchain-iot-at-transportation.png"
@@ -461,27 +405,20 @@ const LunchpadDevelopment = () => {
             <div className="row align-items-center">
               <div className="col-lg-7 col-12 pr-lg-0">
                 <h2 className="title">
-                  Hire Our Blockchain Developer For Blockchain IoT
+                Employ Our Blockchain Expert
                 </h2>
                 <p className="contents">
-                  Hire our highly talented blockchain developers to get the best
-                  blockchain solutions for your business. Our blockchain
-                  development team of experts has deployed blockchain for
-                  various types industries and specialized in IoT. Our
-                  expertise, adept in integrating blockchain with IoT, to create
-                  a new growth success to your business. Our experienced
-                  blockchain developers provide end-to-end support to your
-                  blockchain IoT development project, even after deployment of
-                  blockchain IoT on your main network.
+                Employ our exceptionally skilled blockchain engineers to obtain the greatest blockchain solutions for your company. Our team of professionals in blockchain development has implemented blockchain technology across multiple industries, with a focus on the Internet of Things. Our skillful integration of blockchain technology with the Internet of Things can bring fresh growth and success to your company..
                 </p>
                 <div className="blk_dev_bnr_btn_sec">
-                  <a
+                <Link to="/ContectUsForm">
+                  <span
                     target="_blank"
-                    href="https://www.osiztechnologies.com//contact-us"
                     className="blk_dev_bnr_btn"
                   >
                     Contact Us
-                  </a>
+                  </span>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-5 col-12 pl-lg-0">
@@ -507,32 +444,26 @@ const LunchpadDevelopment = () => {
                 />
               </div>
               <div className="col-lg-7 col-12 pr-lg-0">
-                <h2 className="title">Why Osiz For Blockchain IoT?</h2>
+                <h2 className="title">For Blockchain IoT, Why MetaBlock?</h2>
                 <p className="contents">
-                  While the businesses started to adopt blockchain technology in
-                  their industry, Osiz technologies has become a leading
-                  Blockchain IoT Application development company in India. We
-                  have highly experienced techno-driven team, who adept to the
-                  newest technologies and offer unique blockchain based IoT
-                  solutions for various industries around the world. Our
-                  experience in the field of blockchain iot, enable us to
-                  deliver your project on time, at appropriate cost.
+                As companies began implementing blockchain technology in their respective sectors, MetaBlock Technologies emerged as a top Blockchain IoT Application development firm in India. We have a highly skilled, tech-savvy staff that is up to date on the latest developments in the field. We provide special blockchain-based Internet of Things solutions to a range of global sectors. Because of our experience in the blockchain IoT space, we can deliver your project on schedule and within budget.
                 </p>
                 <div className="blk_dev_bnr_btn_sec">
-                  <a
+                <Link to="/ContectUsForm">
+                  <span
                     target="_blank"
-                    href="https://www.osiztechnologies.com//contact-us"
-                    className="blk_dev_bnr_btn"
+                     className="blk_dev_bnr_btn"
                   >
                     Talk to Our Experts
-                  </a>
+                  </span>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
       </main>
-      <section className="MtaverseSec DapsMainBg OurBlgBg">
+      {/* <section className="MtaverseSec DapsMainBg OurBlgBg">
         <div className="container container-1170 ">
           <div className="row align-items-center ">
             <div className="col-xl-9 ">
@@ -592,8 +523,8 @@ const LunchpadDevelopment = () => {
                   </a>
                 </div>
                 <div className="inr_cont">
-                  {/* <span class="month-time">Dec 12,2023</span>
-      <span class="time-time">13:57:43 PM</span> */}
+                  <span class="month-time">Dec 12,2023</span>
+      <span class="time-time">13:57:43 PM</span>
                   <a
                     href="https://www.osiztechnologies.com/blog/metaverse-virtual-office-development"
                     aria-label="Read more about Virutalizing the workspace: Building the Virutal Offices of tomorrow"
@@ -604,10 +535,10 @@ const LunchpadDevelopment = () => {
                       of tomorrow
                     </p>
                   </a>
-                  {/* <p class="normal_text text-justify mb-2">
+                  <p class="normal_text text-justify mb-2">
         The nature of work is changing quickly in the digital age. The idea of a metaverse office is becoming more and more popular as technology progresses. Businesses can operate remotely with a virtual office, doing away with the requirement for a traditional physical workspace. This blog examines the advantages and difficulties of virtual offices and offers suggestions for creating the virtual workplaces of the future.
 
-      </p> */}
+      </p>
                   <p className="normal_text text-justify mb-2">
                     The nature of work is changing quickly in the digital age.
                     The idea of a metaverse office is becomin...
@@ -642,8 +573,8 @@ const LunchpadDevelopment = () => {
                   </a>
                 </div>
                 <div className="inr_cont">
-                  {/* <span class="month-time">Dec 12,2023</span>
-      <span class="time-time">13:57:43 PM</span> */}
+                  <span class="month-time">Dec 12,2023</span>
+      <span class="time-time">13:57:43 PM</span>
                   <a
                     href="https://www.osiztechnologies.com/news/decathlon-launches-new-nft-game"
                     target="_blank"
@@ -652,8 +583,8 @@ const LunchpadDevelopment = () => {
                       Decathlon has launched an exciting new NFT game
                     </p>
                   </a>
-                  {/* <p class="normal_text text-justify mb-2">
-                    </p> */}
+                  <p class="normal_text text-justify mb-2">
+                    </p>
                   <p className="normal_text text-justify mb-2">
                     Decathlon, the French sports retailer, is venturing into the
                     NFT (non-fungible token) space again wi...
@@ -687,8 +618,8 @@ const LunchpadDevelopment = () => {
                   </a>
                 </div>
                 <div className="inr_cont">
-                  {/* <span class="month-time">Dec 12,2023</span>
-      <span class="time-time">13:57:43 PM</span> */}
+                  <span class="month-time">Dec 12,2023</span>
+      <span class="time-time">13:57:43 PM</span>
                   <a
                     href="https://www.osiztechnologies.com/announcement/merry-christmas-newyear-2024-offers "
                     target="_blank"
@@ -697,8 +628,8 @@ const LunchpadDevelopment = () => {
                       Merry Christmas and New Year 2024: Enjoy 10% OFF!
                     </p>
                   </a>
-                  {/* <p class="normal_text text-justify mb-2">
-                    </p> */}
+                  <p class="normal_text text-justify mb-2">
+                    </p>
                   <p className="normal_text text-justify mb-2">
                     Celebrate the festive season with Osiz Technologies'
                     exclusive Christmas and New Year 2024 offer! As...
@@ -715,7 +646,7 @@ const LunchpadDevelopment = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

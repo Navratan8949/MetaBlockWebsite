@@ -98,7 +98,7 @@ const PrivatePublicBlockchain = () => {
                       <img src="https://www.osiztechnologies.com/asset/inner-pages-new/blockchain_new/why_icon.png" className="spr_img" alt="Sharing of information" title="Sharing of information" style={{objectPosition: '-522px 0px'}} />
                     </div>
                     <h3 className="media-heading">Sharing of information</h3>
-                    <p className="normal_text">A private blockchain network restricts access to network membership to certain individuals, while a public blockchain network allows anybody to join and become a member.</p>
+                    <p className="normal_text">The data in a public blockchain will be accessible to all members of the network. On the other hand, with a private blockchain, you have control over who can access network data.</p>
                   </div>
                 </div>
               </div>
@@ -107,28 +107,27 @@ const PrivatePublicBlockchain = () => {
           <section className="alg_mac">
             <div className="container">
               <div className="section-heading text-center">
-                <h3 className="title-1">Impact Of Public <b>Blockchain Development</b></h3>
-                <p className="para_title-1">Public blockchain is a type of blockchain in which, anyone who solve the cryptographic algorithm, can join your blockchain network and view or share data in the network. Businesses using public blockchain can be benefited in the following
-                  ways:</p>
+                <h3 className="title-1">Effects Of Public <b>Blockchain Development</b></h3>
+                <p className="para_title-1">A private blockchain is a kind of blockchain where only specific users can access it. Private blockchain can benefit your company if you wish to share your information with a large number of individuals within the corporation rather than just one. The following are some advantages of implementing private blockchain in your company:</p>
                 <div className="why_round"> </div>
               </div>
               <div className="row mt-5">
                 <div className="col-lg-6">
                   <ul className="ul_list">
-                    <li>Reliable and secured data</li>
-                    <li>Storage of past and present data</li>
-                    <li>Transparent and Immutable</li>
-                    <li>Lessen paperwork</li>
-                    <li>Reduce fraudulent</li>
+                    <li>Dependable and safe data</li>
+                    <li>Archiving of current and historical data</li>
+                    <li>Clear and Unchangeable</li>
+                    <li>Reduce the amount of paperwork</li>
+                    <li>Cut down on dishonesty</li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul className="ul_list right">
-                    <li>Improve customer base</li>
-                    <li>Reduce human work</li>
-                    <li>Save cost and time</li>
-                    <li>Eliminate the need for third party</li>
-                    <li>Reduce advertisement cost</li>
+                    <li>Boost the clientele</li>
+                    <li>Cut down on human labor</li>
+                    <li>Save money and effort.</li>
+                    <li>Remove the requirement for outside parties</li>
+                    <li>Cut back on the expense of advertising</li>
                   </ul>
                 </div>
               </div>
@@ -138,27 +137,26 @@ const PrivatePublicBlockchain = () => {
             <div className="container">
               <div className="section-heading text-center">
                 <h3 className="title-1">Impact Of Private <b>Blockchain Development</b></h3>
-                <p className="para_title-1">Private blockchain is a type of blockchain in which the access is limited to certain users. If you want to share your information with many people in the organization, and not with everyone, then private blockchain will help your business.
-                  The benefits of using private blockchain in your business is as follows:</p>
+                <p className="para_title-1">Private blockchain is a type of blockchain in which the access is limited to certain users. If you want to share your information with many people in the organization, and not with everyone, then private blockchain will help your business. The benefits of using private blockchain in your business is as follows:</p>
                 <div className="why_round"> </div>
               </div>
               <div className="row mt-5">
                 <div className="col-lg-6">
                   <ul className="ul_list">
-                    <li>Data not shared on the public network</li>
-                    <li>Enhance privacy</li>
-                    <li>Immutable record</li>
-                    <li>Control and manage the users</li>
-                    <li>Reduce the risk of loss</li>
+                  <li>Information not exchanged via a public network</li>
+                  <li>Improve privacy</li>
+                  <li>Unchangeable record</li>
+                  <li>Regulate and oversee the users</li>
+                  <li>Cut down on the possibility of loss</li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul className="ul_list right">
-                    <li>No additional costs and save processing time</li>
-                    <li>Double the security</li>
-                    <li>Improve efficiency and Tamper-free</li>
-                    <li>Faster than public blockchain</li>
-                    <li>Build trust between the investors</li>
+                  <li>No extra expenses, and processing time is saved</li>
+                  <li>Boost security by double</li>
+                  <li>Increased effectiveness and tamper-proof</li>
+                  <li>Quicker than open blockchain</li>
+                  <li>Establish mutual trust between the investors</li>
                   </ul>
                 </div>
               </div>
@@ -168,11 +166,10 @@ const PrivatePublicBlockchain = () => {
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-7 col-12 pr-lg-0">
-                  <h2 className="title-1">Hire Our Dedicated Blockchain Developer</h2>
-                  <p className="contents">Hire our highly talented blockchain developers to get the best blockchain solutions for your business. Our blockchain development team of experts has deployed blockchain for various types industries and specialized in building
-                    public or private blockchain, as per your business needs. Our experienced blockchain developers provide end-to-end support to your blockchain development project, even after deployment of blockchain on your main network.</p>
+                  <h2 className="title-1">Employ Our Committed Blockchain Developer</h2>
+                  <p className="contents">For the greatest blockchain solutions for your company, work with our incredibly skilled blockchain developers. Depending on your company's demands, our team of professionals in blockchain development has built public or private blockchains and has implemented blockchain for a variety of industries. Even when the blockchain is deployed on your primary network, our skilled blockchain developers offer end-to-end support for your blockchain development project.</p>
                   <div className="blk_dev_bnr_btn_sec">
-                    <a target="_blank" href="https://www.osiztechnologies.com//contact-us" className="blk_dev_bnr_btn">View Live Demo</a>
+                  <Link to="/ContectUsForm"> <span className="blk_dev_bnr_btn">View Live Demo</span> </Link>
                   </div>
                 </div>
                 <div className="col-lg-5 col-12 pl-lg-0">
@@ -192,24 +189,22 @@ const PrivatePublicBlockchain = () => {
       " className="img-fluid hire-img" />
                 </div>
                 <div className="col-lg-7 col-12 pr-lg-0">
-                  <h2 className="title-1">Why Choose Osiz For Public / Private Blockchain Development?</h2>
-                  <p className="contents">We, Osiz technologies, is a pre-eminent blockchain development company in India. We have vast experience in developing blockchain technology for various types of industry in the world. Our experience makes us to complete any type
-                    of blockchain project, within the specified period of time. Our well talented blockchain experts strive hard to provide you with maximum benefit of public/private blockchain and take your business to the next level.</p>
+                  <h2 className="title-1">For the development of public or private blockchains, why choose MetaBlock?</h2>
+                  <p className="contents">One of the leading blockchain development companies in India is MetaBlock Technologies. We have extensive expertise creating blockchain technology for a wide range of global industries. Because of our experience, we can finish any kind of blockchain project in the allotted time. Our highly skilled blockchain professionals work tirelessly to provide you the most out of public and private blockchain technology and help you grow your company.</p>
                   <div className="blk_dev_bnr_btn_sec">
-                    <a target="_blank" href="https://www.osiztechnologies.com//contact-us" className="blk_dev_bnr_btn">View Live Demo</a>
+                  <Link to="/ContectUsForm">  <span className="blk_dev_bnr_btn">View Live Demo</span> </Link>
                   </div>
                 </div>
               </div>
             </div>
           </section>
                   </main>
-                  <section className="MtaverseSec DapsMainBg OurBlgBg">
+                  {/* <section className="MtaverseSec DapsMainBg OurBlgBg">
         <div className="container container-1170 ">
           <div className="row align-items-center ">
             <div className="col-xl-9 ">
               <div className="BnrCnt OurservHdd mb-4 ">
-                <p className="mb-4 main_title">Futuristic Tales: Unveiling Technology's Next Big Steps
-                </p>
+                <p className="mb-4 main_title">FUTURISTIC TALES: DISCOVERING THE BIGGEST STEPS IN TECHNOLOGY </p>
               </div>
             </div>
             <div className="col-xl-3 text-right ">
@@ -232,17 +227,17 @@ const PrivatePublicBlockchain = () => {
                     <img src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/Metaverse Virtual Office Development Company.webp" className="img img-responsive img-middle home_blog" alt="Virutalizing the workspace: Building the Virutal Offices of tomorrow" title="Virutalizing the workspace: Building the Virutal Offices of tomorrow" />
                   </a>
                 </div>
-                <div className="inr_cont">
+                <div className="inr_cont"> */}
                   {/* <span class="month-time">Dec 12,2023</span>
             <span class="time-time">11:27:50 AM</span> */}
-                  <a href="https://www.osiztechnologies.com/blog/metaverse-virtual-office-development" aria-label="Read more about Virutalizing the workspace: Building the Virutal Offices of tomorrow" target="_blank">
+                  {/* <a href="https://www.osiztechnologies.com/blog/metaverse-virtual-office-development" aria-label="Read more about Virutalizing the workspace: Building the Virutal Offices of tomorrow" target="_blank">
                     <p className="mt-1rem sub_title">Virutalizing the workspace: Building the Virutal Offices of tomorrow</p>
-                  </a>
+                  </a> */}
                   {/* <p class="normal_text text-justify mb-2">
               The nature of work is changing quickly in the digital age. The idea of a metaverse office is becoming more and more popular as technology progresses. Businesses can operate remotely with a virtual office, doing away with the requirement for a traditional physical workspace. This blog examines the advantages and difficulties of virtual offices and offers suggestions for creating the virtual workplaces of the future.
       
             </p> */}
-                  <p className="normal_text text-justify mb-2">The nature of work is changing quickly in the digital age. The idea of a metaverse office is becomin...</p>
+                  {/* <p className="normal_text text-justify mb-2">The nature of work is changing quickly in the digital age. The idea of a metaverse office is becomin...</p>
                   <a href="https://www.osiztechnologies.com/blog/metaverse-virtual-office-development" aria-label="Read more about Virutalizing the workspace: Building the Virutal Offices of tomorrow" className="readmore" target="_blank">Read More...</a>
                 </div>
               </div>
@@ -257,15 +252,15 @@ const PrivatePublicBlockchain = () => {
                     <img src="https://osiztechnologies.s3.us-east-2.amazonaws.com/images/Decathlon launches a new NFT game.webp" className="img img-responsive img-middle home_blog" alt="Decathlon has launched an exciting new NFT game" title="Decathlon has launched an exciting new NFT game" />
                   </a>
                 </div>
-                <div className="inr_cont">
+                <div className="inr_cont"> */}
                   {/* <span class="month-time">Dec 12,2023</span>
             <span class="time-time">11:27:50 AM</span> */}
-                  <a href="https://www.osiztechnologies.com/news/decathlon-launches-new-nft-game" target="_blank">
+                  {/* <a href="https://www.osiztechnologies.com/news/decathlon-launches-new-nft-game" target="_blank">
                     <p className="mt-1rem sub_title">Decathlon has launched an exciting new NFT game</p>
-                  </a>
+                  </a> */}
                   {/* <p class="normal_text text-justify mb-2">
                           </p> */}
-                  <p className="normal_text text-justify mb-2">Decathlon, the French sports retailer, is venturing into the NFT (non-fungible token) space again wi...</p>
+                  {/* <p className="normal_text text-justify mb-2">Decathlon, the French sports retailer, is venturing into the NFT (non-fungible token) space again wi...</p>
                   <a href="https://www.osiztechnologies.com/news/decathlon-launches-new-nft-game" className="readmore" target="_blank">Read More...</a>
                 </div>
               </div>
@@ -280,15 +275,15 @@ const PrivatePublicBlockchain = () => {
                     <img src="https://osiztechnologies.s3.us-east-2.amazonaws.com/images/Merry-Christmas- Newyear-2024.webp" className="img img-responsive img-middle home_blog" alt="Merry Christmas and New Year 2024: Enjoy 10% OFF!" title="Merry Christmas and New Year 2024: Enjoy 10% OFF!" />
                   </a>
                 </div>
-                <div className="inr_cont">
+                <div className="inr_cont"> */}
                   {/* <span class="month-time">Dec 12,2023</span>
             <span class="time-time">11:27:50 AM</span> */}
-                  <a href="https://www.osiztechnologies.com/announcement/merry-christmas-newyear-2024-offers " target="_blank">
+                  {/* <a href="https://www.osiztechnologies.com/announcement/merry-christmas-newyear-2024-offers " target="_blank">
                     <p className="mt-1rem sub_title">Merry Christmas and New Year 2024: Enjoy 10% OFF!</p>
-                  </a>
+                  </a> */}
                   {/* <p class="normal_text text-justify mb-2">
                           </p> */}
-                  <p className="normal_text text-justify mb-2">Celebrate the festive season with Osiz Technologies' exclusive Christmas and New Year 2024 offer! As...</p>
+                  {/* <p className="normal_text text-justify mb-2">Celebrate the festive season with Osiz Technologies' exclusive Christmas and New Year 2024 offer! As...</p>
                   <a href="https://www.osiztechnologies.com/announcement/merry-christmas-newyear-2024-offers " className="readmore" target="_blank">Read More...</a>
                 </div>
               </div>
@@ -297,7 +292,7 @@ const PrivatePublicBlockchain = () => {
         </div>
       </section>
       <div className="fixed_social_icons">
-        <ul>
+        <ul> */}
           {/* <li class="desktop d-flex"  title="Whatsapp">
             <a href="https://web.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20Osiz%20software%20development%20services.%20Shall%20we%20discuss%20now?%20-%20https://www.osiztechnologies.com/private-public-blockchain-development"  class="desktop nav-link whatsapp__icons whatsapp"><img src="https://www.osiztechnologies.com/asset/img/whatsapp.svg" alt="whatsapp"></a>
                   <a href="https://api.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20Osiz%20software%20development%20services.%20Shall%20we%20discuss%20now?%20-%20https://www.osiztechnologies.com/private-public-blockchain-development"  class="mobile nav-link whatsapp__icons whatsapp"><img src="https://www.osiztechnologies.com/asset/img/whatsapp.svg" alt="whatsapp"></a>
@@ -308,12 +303,12 @@ const PrivatePublicBlockchain = () => {
         <li class="desktop telegram_new" title="Telegram"><a href="https://telegram.me/Osiz_Tech" target="_blank" class=" nav-link telegram_new"><img src="https://www.osiztechnologies.com/asset/img/telegram.svg" src="{{url('asset/img/telegram.svg')}}" alt="telegram"></a></li>
       
         <li class="desktop " title="Skype"><a href="https://join.skype.com/invite/lAF0IYo03Kfu" class="nav-link skype_new"><img src="https://www.osiztechnologies.com/asset/img/skype.svg" alt="skype-icon"></a></li> */}
-          <li className="desktop top_button_sec" title="TopButton">
-            {/* Back to Top */}
+          {/* <li className="desktop top_button_sec" title="TopButton">
+            Back to Top
             <a id="back_to_top_button"><i className="fa fa-angle-up" aria-hidden="true" /></a>
-          </li>
-        </ul>
-      </div>
+          </li> */}
+        {/* </ul> */}
+      {/* </div> */}
       
       </div>
   );
