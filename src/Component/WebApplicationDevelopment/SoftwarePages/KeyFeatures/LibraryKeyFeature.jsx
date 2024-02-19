@@ -10,7 +10,9 @@ const LibraryKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/concept.png" alt="" />
 
-              <h4>Catalog Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Catalog Management
+              </h4>
               <p>
                 Catalog Management involves organizing library collections,
                 including books, journals, multimedia, and digital materials.
@@ -22,7 +24,9 @@ const LibraryKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/team.png" alt="" />
 
-              <h4>User Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                User Management
+              </h4>
               <p>
                 User Management maintains profiles, registrations, and borrowing
                 privileges for library members.
@@ -33,7 +37,9 @@ const LibraryKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/settings.png" alt="" />
 
-              <h4>Search Functionality</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Search Functionality
+              </h4>
               <p>
                 Search and Discovery enables users to find resources by title,
                 author, subject, or keywords.
@@ -45,7 +51,9 @@ const LibraryKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/booking.png" alt="" />
 
-              <h4>Reservations and Holds</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Reservations and Holds
+              </h4>
               <p>
                 Reservations and Holds allow users to reserve items currently
                 checked out, optimizing resource management.
@@ -58,7 +66,9 @@ const LibraryKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/solar-panel.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Automated Renewals</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Automated Renewals
+              </h4>
               <p>
                 Automated Renewals streamline renewing borrowed items
                 automatically, extending the borrowing period.
@@ -70,7 +80,9 @@ const LibraryKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/banking.png" alt="" />
 
-              <h4>Fines Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Fines Management
+              </h4>
               <p>
                 Fines and Fees Management calculates and manages fines for
                 overdue items and other fees.
@@ -81,7 +93,9 @@ const LibraryKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/analytics.png" alt="" />
 
-              <h4>Reporting and Analytics</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Reporting and Analytics
+              </h4>
               <p>
                 Reporting and Analytics generate reports on library usage,
                 circulation statistics, and popular items.
@@ -93,7 +107,9 @@ const LibraryKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/rfid.png" alt="" />
 
-              <h4>RFID Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                RFID Integration
+              </h4>
               <p>
                 Integration with RFID Technology tracks library materials and
                 manages inventory efficiently.

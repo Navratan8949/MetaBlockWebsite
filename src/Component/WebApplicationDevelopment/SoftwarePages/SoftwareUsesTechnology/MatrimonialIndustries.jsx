@@ -10,7 +10,9 @@ const MatrimonialIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/matrimoniyaintriweb.png" alt="" />
 
-              <h4>Website Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Website Integration
+              </h4>
               <p>
                 Website Integration simplifies partner search and profile
                 creation, offering vast databases for individuals to find
@@ -23,7 +25,9 @@ const MatrimonialIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/support.png" alt="" />
 
-              <h4>Matrimonial Agency Services</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Matrimonial Agency Services
+              </h4>
               <p>
                 Matrimonial Agency Services utilize software tools to offer
                 personalized matchmaking services, ensuring clients find
@@ -36,7 +40,9 @@ const MatrimonialIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/matriservies.png" alt="" />
 
-              <h4>Agency Services</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Agency Services
+              </h4>
               <p>
                 Agency Services provide personalized matchmaking expertise,
                 guiding clients through the process and offering tailored
@@ -49,7 +55,9 @@ const MatrimonialIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/manrimobapi.png" alt="" />
 
-              <h4>Mobile Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Mobile Integration
+              </h4>
               <p>
                 Mobile Integration extends matchmaking services to smartphones,
                 allowing users to access profiles and connect with potential
@@ -63,7 +71,9 @@ const MatrimonialIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/matnrirngage.png" alt="" />
 
-              <h4>Community Engagement</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Community Engagement
+              </h4>
               <p>
                 Community Engagement fosters connections within specific
                 communities, facilitating introductions and meetings among
@@ -76,7 +86,9 @@ const MatrimonialIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/mantriwending.png" alt="" />
 
-              <h4>Wedding Assistance</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Wedding Assistance
+              </h4>
               <p>
                 Wedding Assistance includes matchmaking features, ensuring
                 couples share similar values and lifestyles for a harmonious
@@ -88,7 +100,9 @@ const MatrimonialIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/mantriref.png" alt="" />
 
-              <h4>Referral Networks</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Referral Networks
+              </h4>
               <p>
                 Referral Networks leverage trusted connections, where relatives
                 refer potential matches, enhancing compatibility and trust in
@@ -101,7 +115,9 @@ const MatrimonialIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/compliance-document.png" alt="" />
 
-              <h4>Event Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Event Integration
+              </h4>
               <p>
                 Event Integration transforms gatherings into matchmaking
                 opportunities, fostering interactions and connections in a

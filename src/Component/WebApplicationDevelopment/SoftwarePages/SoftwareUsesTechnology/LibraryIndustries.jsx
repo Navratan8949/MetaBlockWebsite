@@ -10,7 +10,9 @@ const LibraryIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/university.png" alt="" />
 
-              <h4>Academic Institutions</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Academic Institutions
+              </h4>
               <p>
                 Academic Institutions utilize Library Management System software
                 to organize collections for research and learning.
@@ -22,7 +24,9 @@ const LibraryIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/public-library.png" alt="" />
 
-              <h4>Public Libraries</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Public Libraries
+              </h4>
               <p>
                 Public Libraries rely on software to manage diverse collections
                 for community access.
@@ -34,7 +38,9 @@ const LibraryIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/corpaterlib.png" alt="" />
 
-              <h4>Corporate Libraries</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Corporate Libraries
+              </h4>
               <p>
                 Corporate Libraries use systems for efficient resource
                 management and employee development.
@@ -46,7 +52,9 @@ const LibraryIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/threelibary.png" alt="" />
 
-              <h4>Specialized Libraries</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Specialized Libraries
+              </h4>
               <p>
                 Specialized Libraries employ tailored software for managing
                 niche collections and services.
@@ -59,7 +67,9 @@ const LibraryIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/governmenttwo.png" alt="" />
 
-              <h4>Government Agencies</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Government Agencies
+              </h4>
               <p>
                 Government Agencies utilize systems to organize and distribute
                 government publications and research materials.
@@ -71,7 +81,9 @@ const LibraryIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/museum.png" alt="" />
 
-              <h4>Museum Collections</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Museum Collections
+              </h4>
               <p>
                 Museums utilize software to catalog and preserve artifacts and
                 documents for public access.
@@ -82,7 +94,9 @@ const LibraryIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/prison.png" alt="" />
 
-              <h4>Prison Libraries</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Prison Libraries
+              </h4>
               <p>
                 prison Libraries manage collections to support education and
                 rehabilitation programs.
@@ -94,7 +108,9 @@ const LibraryIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/devahos.png" alt="" />
 
-              <h4>Healthcare Institutions</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Healthcare Institutions
+              </h4>
               <p>
                 Healthcare Institutions employ systems for organizing medical
                 literature and supporting research and patient care.

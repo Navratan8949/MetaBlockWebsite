@@ -16,26 +16,26 @@ import HotalSwiperSlider from "./SwiperSlider/HotalSwiperSlider";
 // import '../../main.css'
 
 const HotelManagmentSoftware = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
       <div className="main-div-Application">
         <header className="enterprise-mobile-app-development arkit header-shadow">
-
           <div className="container h-100">
             <div className="row h-100">
-
               <div className="col-lg-12 my-auto">
                 <div className="header-content mx-auto">
                   <h1 className="mb-5">
                     Hotel Managment Software Development Company
                   </h1>
                   <h3 className="heading-tagline">
-                    From start-ups to enterprises, we deliver forward-thinking
-                    ERP software with robust functionalities and cutting-edge
-                    technologies. Harness our comprehensive ERP services to
-                    revolutionize your business processes and strategies in the
-                    ERP world.
+                    Hotel Management Software streamlines hotel operations by
+                    automating tasks like reservations, check-ins, and billing,
+                    enhancing guest satisfaction and operational efficiency.
+                    With integrated features for inventory management and
+                    analytics, it empowers hoteliers to optimize resources,
+                    deliver personalized experiences, and maximize revenue
+                    potential effectively.
                   </h3>
                   {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                   {/* <div className="text-center">
@@ -86,11 +86,22 @@ const HotelManagmentSoftware = () => {
         <section className="Enterprise-container">
           <div className="Enterprise-box">
             <div className="Enterprise-left-div">
-              <h1 className='Key-feature-heading'>We Are Specialist</h1>
+              <h1 className="Key-feature-heading">We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                As specialists in hotel management software, our focus is on providing tailored solutions to meet the diverse needs of hoteliers and hospitality businesses. Our software is meticulously crafted to streamline various aspects of hotel operations, including reservations, guest management, housekeeping, and billing. With our expertise, hoteliers can efficiently manage room inventory, streamline check-in and check-out processes, and deliver exceptional guest experiences. Whether it's a small boutique hotel or a large chain, our management software is designed to optimize efficiency, enhance guest satisfaction, and drive revenue growth. We are committed to empowering hoteliers with the tools they need to succeed in the dynamic and competitive hospitality industry.              </p>
-
-
+                As specialists in hotel management software, our focus is on
+                providing tailored solutions to meet the diverse needs of
+                hoteliers and hospitality businesses. Our software is
+                meticulously crafted to streamline various aspects of hotel
+                operations, including reservations, guest management,
+                housekeeping, and billing. With our expertise, hoteliers can
+                efficiently manage room inventory, streamline check-in and
+                check-out processes, and deliver exceptional guest experiences.
+                Whether it's a small boutique hotel or a large chain, our
+                management software is designed to optimize efficiency, enhance
+                guest satisfaction, and drive revenue growth. We are committed
+                to empowering hoteliers with the tools they need to succeed in
+                the dynamic and competitive hospitality industry.{" "}
+              </p>
 
               <button
                 type="button"
@@ -106,7 +117,6 @@ const HotelManagmentSoftware = () => {
             <div className="Enterprise-right-div">
               {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
               <img src="./images/hotelmanagmentdev.jpg" alt="" />
-
             </div>
           </div>
         </section>
@@ -119,7 +129,12 @@ const HotelManagmentSoftware = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h2 style={{ color: "#D166AF ", fontSize: "31px" }} className="text-center Technology-Stack ">Technology Stack We Use</h2>
+                <h2
+                  style={{ color: "#D166AF ", fontSize: "31px" }}
+                  className="text-center Technology-Stack "
+                >
+                  Technology Stack We Use
+                </h2>
               </div>
             </div>
             <div className="row tech p-5 pt-0 mt-5 mb-5">
@@ -131,66 +146,84 @@ const HotelManagmentSoftware = () => {
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
 
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/mysql.png" alt="" className="w-100 h-40" />
                 <h5>MySQL</h5>
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+                <img
+                  src="./images/java-script.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Java Srcipt</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/SQL-Lite.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>SQL Lite</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/html.png" alt="" className="w-100 h-40" />
                 <h5>HTML</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/android.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Android</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Mongo DB</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/app-store.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>App Store</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/atom.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Atom</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/laravel.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Laravel</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
             </div>
           </div>
@@ -224,13 +257,9 @@ const HotelManagmentSoftware = () => {
         {/* <RelatedPortfolioSlider/> */}
         {/* <OnDemandAppSlider/> */}
 
-
-
-
         {/* <section className='Phone-card-slider'>
       <Phonecardslider />
     </section> */}
-
 
         {/* <section className="why_osiz section-heading ">
       <div className="container">
@@ -336,7 +365,8 @@ const HotelManagmentSoftware = () => {
           <SimilarFile />
         </section>
       </div>
-    </>)
-}
+    </>
+  );
+};
 
-export default HotelManagmentSoftware
+export default HotelManagmentSoftware;

@@ -10,7 +10,9 @@ const RestorentIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/reserve.png" alt="" />
 
-              <h4>Reservation Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Reservation Management
+              </h4>
               <p>
                 Reservation Management efficiently handles room bookings,
                 modifications, and cancellations, ensuring optimal occupancy
@@ -23,7 +25,9 @@ const RestorentIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/check-in.png" alt="" />
 
-              <h4>Check-In and Check-Out</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Check-In and Check-Out
+              </h4>
               <p>
                 Check-In and Check-Out processes streamline guest arrivals and
                 departures, providing a seamless experience.
@@ -35,7 +39,9 @@ const RestorentIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/housekeeper.png" alt="" />
 
-              <h4>Housekeeping Services</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Housekeeping Services
+              </h4>
               <p>
                 Housekeeping Services maintain cleanliness and standards,
                 ensuring a comfortable environment for guests.
@@ -47,7 +53,9 @@ const RestorentIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/invoice.png" alt="" />
 
-              <h4>Billing and Invoicing</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Billing and Invoicing
+              </h4>
               <p>
                 Billing and Invoicing systems accurately generate invoices and
                 process payments, facilitating transparent transactions.
@@ -60,7 +68,9 @@ const RestorentIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/diet.png" alt="" />
 
-              <h4>Restaurant Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Restaurant Management
+              </h4>
               <p>
                 Restaurant Management oversees dining reservations, menu
                 customization, and inventory control for guest satisfaction.
@@ -72,7 +82,9 @@ const RestorentIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/towel.png" alt="" />
 
-              <h4>Spa Facilities Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Spa Facilities Integration
+              </h4>
               <p>
                 Spa Facilities Integration allows seamless scheduling of
                 treatments and relaxation services.
@@ -83,7 +95,9 @@ const RestorentIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/booking.png" alt="" />
 
-              <h4>Event Venue Booking</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Event Venue Booking
+              </h4>
               <p>
                 Event Venue Booking manages reservations, setup arrangements,
                 and catering services for successful events.
@@ -95,7 +109,9 @@ const RestorentIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/golf.png" alt="" />
 
-              <h4>Golf Course Services</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Golf Course Services
+              </h4>
               <p>
                 Golf Course Services handle tee time reservations and facility
                 maintenance for recreational needs.

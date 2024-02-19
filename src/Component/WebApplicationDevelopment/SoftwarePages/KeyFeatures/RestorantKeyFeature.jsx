@@ -10,7 +10,9 @@ const RestorantKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/worksheet.png" alt="" />
 
-              <h4>Table Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Table Management
+              </h4>
               <p>
                 Table Management optimizes seating arrangements and
                 reservations, ensuring efficient use of restaurant space.
@@ -22,7 +24,9 @@ const RestorantKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/steps.png" alt="" />
 
-              <h4>Order Processing</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Order Processing
+              </h4>
               <p>
                 Order Processing streamlines the order-taking process, from
                 customer requests to kitchen preparation, facilitating faster
@@ -34,7 +38,9 @@ const RestorantKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/notes.png" alt="" />
 
-              <h4>Menu Customization</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Menu Customization
+              </h4>
               <p>
                 Menu Customization allows for easy modification of menu items,
                 descriptions, and pricing to meet changing customer preferences.
@@ -46,7 +52,9 @@ const RestorantKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/inventory-management.png" alt="" />
 
-              <h4>Inventory Control</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Inventory Control
+              </h4>
               <p>
                 Inventory Control monitors stock levels, tracks ingredient
                 usage, and minimizes waste, optimizing restaurant operations.
@@ -59,7 +67,9 @@ const RestorantKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/bill.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Billing and Payments</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Billing and Payments
+              </h4>
               <p>
                 Billing and Payments streamline the payment process, offering
                 flexible payment options and ensuring accurate invoicing.
@@ -71,7 +81,9 @@ const RestorantKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/employee.png" alt="" />
 
-              <h4>Staff Scheduling</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Staff Scheduling
+              </h4>
               <p>
                 Staff Scheduling facilitates efficient employee scheduling,
                 ensuring adequate staffing levels during peak hours.
@@ -82,7 +94,9 @@ const RestorantKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/seo-report.png" alt="" />
 
-              <h4>Reporting and Analytics</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Reporting and Analytics
+              </h4>
               <p>
                 Reporting and Analytics provide insights into sales trends,
                 customer behavior, and operational performance, informing
@@ -95,7 +109,9 @@ const RestorantKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/skills.png" alt="" />
 
-              <h4>Integration Capabilities</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Integration Capabilities
+              </h4>
               <p>
                 Integration Capabilities enable seamless integration with
                 third-party platforms such as online ordering systems and

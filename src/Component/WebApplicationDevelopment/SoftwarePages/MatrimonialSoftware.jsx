@@ -16,26 +16,26 @@ import MatrimonialSwiperSlider from "./SwiperSlider/MatrimonialSwiperSlider";
 // import '../../main.css'
 
 const MatrimonialSoftware = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
       <div className="main-div-Application">
         <header className="enterprise-mobile-app-development arkit header-shadow">
-
           <div className="container h-100">
             <div className="row h-100">
-
               <div className="col-lg-12 my-auto">
                 <div className="header-content mx-auto">
                   <h1 className="mb-5">
                     Matrimonial Software Development Company
                   </h1>
                   <h3 className="heading-tagline">
-                    From start-ups to enterprises, we deliver forward-thinking
-                    ERP software with robust functionalities and cutting-edge
-                    technologies. Harness our comprehensive ERP services to
-                    revolutionize your business processes and strategies in the
-                    ERP world.
+                    Matrimonial Software facilitates the search for life
+                    partners by providing customizable platforms for matchmaking
+                    and matrimonial services. With robust features such as
+                    profile matching algorithms and secure communication
+                    channels, it enhances the efficiency and reliability of the
+                    matchmaking process, fostering meaningful connections and
+                    successful unions.
                   </h3>
                   {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                   {/* <div className="text-center">
@@ -86,12 +86,22 @@ const MatrimonialSoftware = () => {
         <section className="Enterprise-container">
           <div className="Enterprise-box">
             <div className="Enterprise-left-div">
-              <h1 className='Key-feature-heading'>We Are Specialist</h1>
+              <h1 className="Key-feature-heading">We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-
-                As specialists in matrimonial software, our focus is on providing tailored solutions to help individuals and families navigate the complex process of finding compatible life partners. Our software is meticulously designed to offer intuitive interfaces, advanced search capabilities, and robust privacy features. With our expertise, users can create detailed profiles, search for matches based on specific criteria, and communicate securely with potential partners. Whether it's for traditional arranged marriages or modern matchmaking, our matrimonial software is optimized for efficiency, reliability, and confidentiality. We are committed to facilitating meaningful connections, fostering lasting relationships, and helping our clients find their perfect match.              </p>
-
-
+                As specialists in matrimonial software, our focus is on
+                providing tailored solutions to help individuals and families
+                navigate the complex process of finding compatible life
+                partners. Our software is meticulously designed to offer
+                intuitive interfaces, advanced search capabilities, and robust
+                privacy features. With our expertise, users can create detailed
+                profiles, search for matches based on specific criteria, and
+                communicate securely with potential partners. Whether it's for
+                traditional arranged marriages or modern matchmaking, our
+                matrimonial software is optimized for efficiency, reliability,
+                and confidentiality. We are committed to facilitating meaningful
+                connections, fostering lasting relationships, and helping our
+                clients find their perfect match.{" "}
+              </p>
 
               <button
                 type="button"
@@ -107,7 +117,6 @@ const MatrimonialSoftware = () => {
             <div className="Enterprise-right-div">
               {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
               <img src="./images/matrimoniyadev.jpg" alt="" />
-
             </div>
           </div>
         </section>
@@ -120,7 +129,12 @@ const MatrimonialSoftware = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h2 style={{ color: "#D166AF ", fontSize: "31px" }} className="text-center Technology-Stack ">Technology Stack We Use</h2>
+                <h2
+                  style={{ color: "#D166AF ", fontSize: "31px" }}
+                  className="text-center Technology-Stack "
+                >
+                  Technology Stack We Use
+                </h2>
               </div>
             </div>
             <div className="row tech p-5 pt-0 mt-5 mb-5">
@@ -132,66 +146,84 @@ const MatrimonialSoftware = () => {
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
 
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/mysql.png" alt="" className="w-100 h-40" />
                 <h5>MySQL</h5>
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+                <img
+                  src="./images/java-script.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Java Srcipt</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/SQL-Lite.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>SQL Lite</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/html.png" alt="" className="w-100 h-40" />
                 <h5>HTML</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/android.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Android</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Mongo DB</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/app-store.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>App Store</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/atom.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Atom</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/laravel.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Laravel</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
             </div>
           </div>
@@ -225,13 +257,9 @@ const MatrimonialSoftware = () => {
         {/* <RelatedPortfolioSlider/> */}
         {/* <OnDemandAppSlider/> */}
 
-
-
-
         {/* <section className='Phone-card-slider'>
       <Phonecardslider />
     </section> */}
-
 
         {/* <section className="why_osiz section-heading ">
       <div className="container">
@@ -337,7 +365,8 @@ const MatrimonialSoftware = () => {
           <SimilarFile />
         </section>
       </div>
-    </>)
-}
+    </>
+  );
+};
 
-export default MatrimonialSoftware
+export default MatrimonialSoftware;

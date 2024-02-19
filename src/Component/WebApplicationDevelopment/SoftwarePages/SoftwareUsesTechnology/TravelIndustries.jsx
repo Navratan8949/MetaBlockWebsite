@@ -10,7 +10,9 @@ const TravelIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/user.png" alt="" />
 
-              <h4>Individual Travelers</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Individual Travelers
+              </h4>
               <p>
                 Individuals utilize travel booking software to plan and book
                 vacations, business trips, and travel arrangements conveniently
@@ -23,7 +25,9 @@ const TravelIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/travel.png" alt="" />
 
-              <h4>Travel Agencies</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Travel Agencies
+              </h4>
               <p>
                 {" "}
                 Agencies manage bookings, search available options, and
@@ -37,7 +41,9 @@ const TravelIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/corporate.png" alt="" />
 
-              <h4>Corporate Travel Departments</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Corporate Travel Departments
+              </h4>
               <p>
                 Companies streamline corporate travel arrangements, including
                 flights, hotels, and car rentals, for employees through travel
@@ -50,7 +56,9 @@ const TravelIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/onlinetravels.png" alt="" />
 
-              <h4>Online Travel Agenciest</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Online Travel Agenciest
+              </h4>
               <p>
                 OTAs offer a wide range of travel services, including flights,
                 hotels, vacation packages, and activities, through travel
@@ -64,7 +72,9 @@ const TravelIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/travelsair.png" alt="" />
 
-              <h4>Airlines</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Airlines
+              </h4>
               <p>
                 Airlines manage flight bookings, seat assignments, and ancillary
                 services for passengers through travel booking software.
@@ -76,7 +86,9 @@ const TravelIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/traveltore.png" alt="" />
 
-              <h4>Tour Operators</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Tour Operators
+              </h4>
               <p>
                 Operators create and manage tour packages, schedule activities,
                 and handle bookings for guided tours and excursions using
@@ -88,7 +100,9 @@ const TravelIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/travelboat.png" alt="" />
 
-              <h4>Cruise Lines</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Cruise Lines
+              </h4>
               <p>
                 {" "}
                 Cruise lines manage cabin reservations, onboard activities, and
@@ -101,7 +115,9 @@ const TravelIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/calendar.png" alt="" />
 
-              <h4>Event Planners</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Event Planners
+              </h4>
               <p>
                 Planners coordinate travel arrangements for attendees, speakers,
                 and staff attending conferences, conventions, and events using

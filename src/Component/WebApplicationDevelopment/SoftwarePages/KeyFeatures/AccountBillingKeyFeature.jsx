@@ -7,10 +7,12 @@ const AccountBillingKeyFeature = () => {
         <h4 className="Key-feature-heading">Key Feature</h4>
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
-            <div className="key-feature-heading">
+            <div className="key-feature-heading d-flex flex-column justify-center align-center">
               <img src="./images/invoice.png" alt="" />
 
-              <h4>Invoicing</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Invoicing
+              </h4>
               <p>
                 Invoicing enables businesses to create and customize invoices
                 for products or services provided to clients.
@@ -22,7 +24,9 @@ const AccountBillingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/expense.png" alt="" />
 
-              <h4>Expense Tracking</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Expense Tracking
+              </h4>
               <p>
                 Expense Tracking helps monitor and categorize various business
                 expenses, ensuring accurate financial records.
@@ -33,7 +37,9 @@ const AccountBillingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/financial-statement.png" alt="" />
 
-              <h4>Financial Reporting</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Financial Reporting
+              </h4>
               <p>
                 Financial Reporting generates comprehensive reports like balance
                 sheets and income statements to analyze business performance.
@@ -45,7 +51,9 @@ const AccountBillingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/accounting.png" alt="" />
 
-              <h4>Accounts Payable Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Accounts Payable Management
+              </h4>
               <p>
                 Accounts Payable Management streamlines bill processing, payment
                 scheduling, and vendor reconciliation.
@@ -58,7 +66,9 @@ const AccountBillingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/bank.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Bank Reconciliation</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Bank Reconciliation
+              </h4>
               <p>
                 Bank Reconciliation matches and reconciles bank transactions
                 with accounting records for accuracy.
@@ -70,7 +80,9 @@ const AccountBillingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/tax.png" alt="" />
 
-              <h4>Tax Compliance</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Tax Compliance
+              </h4>
               <p>
                 Tax Compliance calculates taxes owed, generates tax reports, and
                 facilitates tax filings.
@@ -81,7 +93,9 @@ const AccountBillingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/self-service.png" alt="" />
 
-              <h4>Self-Service Portal</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Self-Service Portal
+              </h4>
               <p>
                 Employee Self-Service Portal empowers employees to update
                 information, submit leave requests, and access pay stubs
@@ -93,7 +107,9 @@ const AccountBillingKeyFeature = () => {
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/accountpaytment.png" alt="" />
-              <h4>Payment Gateways Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Payment Gateways Integration
+              </h4>
               <p>
                 Payment Gateways Integration allows for seamless online payments
                 and credit card processing.

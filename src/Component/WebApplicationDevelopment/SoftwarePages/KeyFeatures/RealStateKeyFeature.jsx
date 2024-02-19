@@ -10,7 +10,10 @@ const RealStateKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/browser.png" alt="" />
 
-              <h4> Property Listings</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Property Listings
+              </h4>
               <p>
                 {" "}
                 Software allows agents to manage property listings efficiently,
@@ -23,7 +26,9 @@ const RealStateKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/search.png" alt="" />
 
-              <h4>Search and Filter</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Search and Filter
+              </h4>
               <p>
                 {" "}
                 Search and Filter: Users can easily search and filter properties
@@ -36,7 +41,10 @@ const RealStateKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/technical-support.png" alt="" />
 
-              <h4> Analytics Tools </h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Analytics Tools{" "}
+              </h4>
               <p>
                 {" "}
                 Analytics Tools: Advanced analytics provide insights into market
@@ -50,7 +58,10 @@ const RealStateKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/software.png" alt="" />
 
-              <h4> CRM Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                CRM Integration
+              </h4>
               <p>
                 CRM Integration: Integrated CRM tools help agents manage client
                 information, track interactions, and schedule appointments,
@@ -64,7 +75,10 @@ const RealStateKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/clock.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}> Appointment Management</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Appointment Management
+              </h4>
               <p>
                 Appointment Management: Clients can schedule property viewings
                 and appointments directly through the software, enhancing the
@@ -77,7 +91,10 @@ const RealStateKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/running.png" alt="" />
 
-              <h4> Document Handling</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Document Handling
+              </h4>
               <p>
                 {" "}
                 Document Handling: The software simplifies document storage and
@@ -90,7 +107,10 @@ const RealStateKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/time.png" alt="" />
 
-              <h4> Transaction Tracking</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Transaction Tracking
+              </h4>
               <p>
                 {" "}
                 Transaction Tracking: Agents can track the progress of real
@@ -104,7 +124,10 @@ const RealStateKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/percentage.png" alt="" />
 
-              <h4> Commission Calculations</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Commission Calculations
+              </h4>
               <p>
                 {" "}
                 Commission Calculations: Automatic commission calculations

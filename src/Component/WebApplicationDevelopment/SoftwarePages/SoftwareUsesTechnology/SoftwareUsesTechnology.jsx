@@ -11,7 +11,9 @@ const SoftwareUsesTechnology = () => {
             <div className="key-feature-heading">
               <img src="./images/factory.png" alt="" />
 
-              <h4>Manufacturing</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Manufacturing
+              </h4>
               <p>
                 {" "}
                 ERP systems help manage production planning, scheduling,
@@ -25,7 +27,9 @@ const SoftwareUsesTechnology = () => {
             <div className="key-feature-heading">
               <img src="./images/supermarket.png" alt="" />
 
-              <h4>Retail</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Retail
+              </h4>
               <p>
                 Retailers use ERP software to manage inventory, sales, customer
                 relationship management (CRM), point-of-sale (POS) systems, and
@@ -38,7 +42,9 @@ const SoftwareUsesTechnology = () => {
             <div className="key-feature-heading">
               <img src="./images/healthcare.png" alt="" />
 
-              <h4>Healthcare</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Healthcare
+              </h4>
               <p>
                 {" "}
                 ERP systems are used in hospitals and healthcare organizations
@@ -52,7 +58,9 @@ const SoftwareUsesTechnology = () => {
             <div className="key-feature-heading">
               <img src="./images/bank.png" alt="" />
 
-              <h4>Finance and Banking</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Finance and Banking
+              </h4>
               <p>
                 Financial institutions use ERP software for managing accounting,
                 financial reporting, regulatory compliance, risk management, and
@@ -66,7 +74,9 @@ const SoftwareUsesTechnology = () => {
             <div className="key-feature-heading">
               <img src="./images/school.png" alt="" />
 
-              <h4>Education</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Education
+              </h4>
               <p>
                 {" "}
                 Educational institutions utilize ERP systems for student
@@ -80,7 +90,9 @@ const SoftwareUsesTechnology = () => {
             <div className="key-feature-heading">
               <img src="./images/government.png" alt="" />
 
-              <h4>Government</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Government
+              </h4>
               <p>
                 Government agencies leverage ERP software to manage budgeting,
                 procurement, human resources, payroll, and other administrative
@@ -92,7 +104,9 @@ const SoftwareUsesTechnology = () => {
             <div className="key-feature-heading">
               <img src="./images/architect.png" alt="" />
 
-              <h4>Construction</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Construction
+              </h4>
               <p>
                 {" "}
                 In the construction industry, ERP systems help manage project
@@ -107,7 +121,9 @@ const SoftwareUsesTechnology = () => {
             <div className="key-feature-heading">
               <img src="./images/customer-service.png" alt="" />
 
-              <h4>Services</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Services
+              </h4>
               <p>
                 ERP solutions cater to service-oriented businesses such as
                 consulting firms, legal practices, and marketing agencies to

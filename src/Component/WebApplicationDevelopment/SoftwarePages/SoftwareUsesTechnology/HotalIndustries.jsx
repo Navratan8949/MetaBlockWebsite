@@ -10,7 +10,9 @@ const HotalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/time-management (1).png" alt="" />
 
-              <h4>Reservation Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Reservation Management
+              </h4>
               <p>
                 Reservation Management ensures efficient handling of room
                 bookings, modifications, and cancellations, optimizing occupancy
@@ -23,7 +25,9 @@ const HotalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/processing.png" alt="" />
 
-              <h4>Front Desk Operations</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Front Desk Operations
+              </h4>
               <p>
                 Front Desk Operations streamline check-in, check-out, and room
                 assignments, ensuring smooth guest interactions.
@@ -35,7 +39,9 @@ const HotalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/networking.png" alt="" />
 
-              <h4>Housekeeping Coordination</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Housekeeping Coordination
+              </h4>
               <p>
                 Housekeeping Coordination manages cleaning schedules and
                 maintenance requests, maintaining a clean environment.
@@ -47,7 +53,9 @@ const HotalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/invoice (1).png" alt="" />
 
-              <h4>Billing and Invoicing</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Billing and Invoicing
+              </h4>
               <p>
                 Monitor inventory levels of ingredients and supplies in
                 real-time, enabling effective stock management and reducing
@@ -61,7 +69,9 @@ const HotalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/management (1).png" alt="" />
 
-              <h4>Guest Relationship Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Guest Relationship Management
+              </h4>
               <p>
                 Generate detailed bills, split bills, and process payments
                 seamlessly, integrating with various payment methods for
@@ -74,7 +84,9 @@ const HotalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/inventory-management.png" alt="" />
 
-              <h4>Inventory Control</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Inventory Control
+              </h4>
               <p>
                 Maintain customer profiles, track preferences, and manage
                 loyalty programs to enhance customer satisfaction and retention.
@@ -85,7 +97,9 @@ const HotalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/report.png" alt="" />
 
-              <h4>Reporting and Analytics</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Reporting and Analytics
+              </h4>
               <p>
                 Accelerate sales cycles and close deals effectively with
                 Inditres' lead generation, pipeline management, and
@@ -98,7 +112,9 @@ const HotalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/monitoring.png" alt="" />
 
-              <h4>Maintenance Tracking</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Maintenance Tracking
+              </h4>
               <p>
                 Generate comprehensive reports on sales, revenue, inventory
                 usage, and customer trends to inform strategic decision-making

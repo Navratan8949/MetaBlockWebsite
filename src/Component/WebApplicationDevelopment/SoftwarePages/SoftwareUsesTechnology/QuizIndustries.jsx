@@ -10,7 +10,9 @@ const QuizIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/online-learning.png" alt="" />
 
-              <h4>Educational Institutions</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Educational Institutions
+              </h4>
               <p>
                 Educational Institutions extensively employ Quiz System Software
                 to conduct quizzes, tests, and assessments for students across
@@ -23,7 +25,9 @@ const QuizIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/online-lesson.png" alt="" />
 
-              <h4>Online Learning Platforms</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Online Learning Platforms
+              </h4>
               <p>
                 Online Learning Platforms integrate Quiz System Software to
                 facilitate online quizzes and assessments for distance learning
@@ -36,7 +40,9 @@ const QuizIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/coptraning.png" alt="" />
 
-              <h4>Corporate Training Programs t</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Corporate Training Programs t
+              </h4>
               <p>
                 Corporate Training Programs utilize Quiz System Software for
                 employee training, compliance assessments, and skill development
@@ -50,7 +56,9 @@ const QuizIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/certification.png" alt="" />
 
-              <h4>Professional Certifications</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Professional Certifications
+              </h4>
               <p>
                 Utilized for conducting certification exams for various
                 professional credentials.
@@ -63,7 +71,9 @@ const QuizIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/banner.png" alt="" />
 
-              <h4>Events and Conferences</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Events and Conferences
+              </h4>
               <p>
                 Engage attendees with interactive quizzes during events and
                 conferences.
@@ -75,7 +85,9 @@ const QuizIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/growth.png" alt="" />
 
-              <h4>Marketing and Engagement</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Marketing and Engagement
+              </h4>
               <p>
                 Marketing teams deploy quizzes for customer engagement and lead
                 generation.
@@ -86,7 +98,9 @@ const QuizIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/quizhealth.png" alt="" />
 
-              <h4>Healthcare Training</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Healthcare Training
+              </h4>
               <p>
                 Medical professionals use it for training and staying updated
                 with medical knowledge.
@@ -98,7 +112,9 @@ const QuizIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/user.png" alt="" />
 
-              <h4>Personal Development</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Personal Development
+              </h4>
               <p>
                 Individuals utilize quizzes for self-assessment and skill
                 enhancement, fostering personal growth and development.

@@ -10,7 +10,9 @@ const LMSKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/videoconference.png" alt="" />
 
-              <h4>Live Class Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Live Class Integration
+              </h4>
               <p>
                 Live Class Integration combines virtual classroom features
                 directly into the Learning Management System, facilitating
@@ -23,7 +25,9 @@ const LMSKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/interaction.png" alt="" />
 
-              <h4>Interactive Tools</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Interactive Tools
+              </h4>
               <p>
                 Interactive Tools enable instructors to engage learners
                 effectively with features like interactive whiteboards, polls,
@@ -35,7 +39,9 @@ const LMSKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/collaborationde.png" alt="" />
 
-              <h4>Collaboration Features</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Collaboration Features
+              </h4>
               <p>
                 Collaboration Features foster group work and discussions among
                 students, encouraging teamwork and knowledge sharing in live
@@ -48,7 +54,9 @@ const LMSKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/computer.png" alt="" />
 
-              <h4>Screen Sharing</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Screen Sharing
+              </h4>
               <p>
                 Screen Sharing functionality allows instructors to share
                 presentations, documents, and applications with participants
@@ -62,7 +70,9 @@ const LMSKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/recording.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Recording Capability</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Recording Capability
+              </h4>
               <p>
                 Recording Capability enables the recording of live classes for
                 later review or for students who miss the session, enhancing
@@ -75,7 +85,9 @@ const LMSKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/attendance.png" alt="" />
 
-              <h4>Attendance Monitoring</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Attendance Monitoring
+              </h4>
               <p>
                 Attendance Monitoring features help instructors track student
                 participation and engagement levels during live classes,
@@ -87,7 +99,9 @@ const LMSKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/document.png" alt="" />
 
-              <h4>Document Sharing</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Document Sharing
+              </h4>
               <p>
                 Document Sharing enables seamless sharing of course materials,
                 readings, and resources among participants, fostering
@@ -100,7 +114,9 @@ const LMSKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/social-media.png" alt="" />
 
-              <h4>Engagement Activities</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Engagement Activities
+              </h4>
               <p>
                 Engagement Activities such as polls, quizzes, and interactive
                 discussions keep learners actively involved and interested in

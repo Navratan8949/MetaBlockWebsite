@@ -15,28 +15,27 @@ import LibraryIndustries from "./SoftwareUsesTechnology/LibraryIndustries";
 import LibrarySwiperSlider from "./SwiperSlider/LibrarySwiperSlider";
 // import '../../main.css'
 
-
 const LibraryManagmentSystem = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
       <div className="main-div-Application">
         <header className="enterprise-mobile-app-development arkit header-shadow">
-
           <div className="container h-100">
             <div className="row h-100">
-
               <div className="col-lg-12 my-auto">
                 <div className="header-content mx-auto">
                   <h1 className="mb-5">
                     Library Managment System Development Company
                   </h1>
                   <h3 className="heading-tagline">
-                    From start-ups to enterprises, we deliver forward-thinking
-                    ERP software with robust functionalities and cutting-edge
-                    technologies. Harness our comprehensive ERP services to
-                    revolutionize your business processes and strategies in the
-                    ERP world.
+                    Library Management Systems efficiently organize and track
+                    library resources, including books, periodicals, and
+                    multimedia materials. With features like cataloging,
+                    circulation, and patron management, they streamline library
+                    operations, enhance accessibility, and improve user
+                    experience, ensuring libraries operate smoothly and
+                    effectively in the digital age
                   </h3>
                   {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                   {/* <div className="text-center">
@@ -87,17 +86,22 @@ const LibraryManagmentSystem = () => {
         <section className="Enterprise-container">
           <div className="Enterprise-box">
             <div className="Enterprise-left-div">
-              <h1 className='Key-feature-heading'>We Are Specialist</h1>
+              <h1 className="Key-feature-heading">We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-
-                As specialists in library management system software, our focus is on delivering comprehensive solutions to efficiently organize and manage library resources. Our software is meticulously designed to streamline tasks such as cataloging, circulation, and patron management. With our expertise, libraries can easily track books, manage memberships, and facilitate lending processes. Our solution also offers features like automated reminders and fine tracking to ensure smooth operations. Whether it's a small community library or a large academic institution, our library management system software is tailored to meet the unique needs of each client, helping them enhance user experience, improve accessibility, and maximize the utilization of library resources.
-
-
-
-
+                As specialists in library management system software, our focus
+                is on delivering comprehensive solutions to efficiently organize
+                and manage library resources. Our software is meticulously
+                designed to streamline tasks such as cataloging, circulation,
+                and patron management. With our expertise, libraries can easily
+                track books, manage memberships, and facilitate lending
+                processes. Our solution also offers features like automated
+                reminders and fine tracking to ensure smooth operations. Whether
+                it's a small community library or a large academic institution,
+                our library management system software is tailored to meet the
+                unique needs of each client, helping them enhance user
+                experience, improve accessibility, and maximize the utilization
+                of library resources.
               </p>
-
-
 
               <button
                 type="button"
@@ -125,7 +129,12 @@ const LibraryManagmentSystem = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h2 style={{ color: "#D166AF ", fontSize: "31px" }} className="text-center Technology-Stack ">Technology Stack We Use</h2>
+                <h2
+                  style={{ color: "#D166AF ", fontSize: "31px" }}
+                  className="text-center Technology-Stack "
+                >
+                  Technology Stack We Use
+                </h2>
               </div>
             </div>
             <div className="row tech p-5 pt-0 mt-5 mb-5">
@@ -137,66 +146,84 @@ const LibraryManagmentSystem = () => {
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
 
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/mysql.png" alt="" className="w-100 h-40" />
                 <h5>MySQL</h5>
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+                <img
+                  src="./images/java-script.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Java Srcipt</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/SQL-Lite.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>SQL Lite</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/html.png" alt="" className="w-100 h-40" />
                 <h5>HTML</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/android.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Android</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Mongo DB</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/app-store.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>App Store</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/atom.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Atom</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/laravel.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Laravel</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
             </div>
           </div>
@@ -230,13 +257,9 @@ const LibraryManagmentSystem = () => {
         {/* <RelatedPortfolioSlider/> */}
         {/* <OnDemandAppSlider/> */}
 
-
-
-
         {/* <section className='Phone-card-slider'>
       <Phonecardslider />
     </section> */}
-
 
         {/* <section className="why_osiz section-heading ">
       <div className="container">
@@ -343,7 +366,7 @@ const LibraryManagmentSystem = () => {
         </section>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default LibraryManagmentSystem
+export default LibraryManagmentSystem;

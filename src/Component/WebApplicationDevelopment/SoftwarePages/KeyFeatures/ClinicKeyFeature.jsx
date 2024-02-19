@@ -10,7 +10,9 @@ const ClinicKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/clock.png" alt="" />
 
-              <h4>Appointment Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Appointment Management
+              </h4>
               <p>
                 Efficiently organize patient appointments, minimizing wait times
                 and optimizing clinic schedules for smoother operations.
@@ -22,7 +24,9 @@ const ClinicKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/website.png" alt="" />
 
-              <h4>Patient Registration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Patient Registration
+              </h4>
               <p>
                 Streamlined registration processes capture essential details,
                 reducing administrative burden and ensuring accurate patient
@@ -34,7 +38,9 @@ const ClinicKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/payment.png" alt="" />
 
-              <h4>Billing Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Billing Management
+              </h4>
               <p>
                 Simplified billing procedures streamline financial transactions,
                 ensuring accuracy and efficiency in invoicing and payments.
@@ -46,7 +52,10 @@ const ClinicKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/crisis-management.png" alt="" />
 
-              <h4> Prescription Handling</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Prescription Handling
+              </h4>
               <p>
                 Digital prescription management enhances medication safety and
                 adherence, facilitating accurate tracking and timely refills.
@@ -59,7 +68,9 @@ const ClinicKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/inventory-management.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Inventory Control</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Inventory Control
+              </h4>
               <p>
                 Effective inventory tracking minimizes shortages and wastage,
                 ensuring optimal availability of medications and supplies.
@@ -71,7 +82,9 @@ const ClinicKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/report.png" alt="" />
 
-              <h4>Reporting & Analytics</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Reporting & Analytics
+              </h4>
               <p>
                 Analytical tools provide insights into clinic performance,
                 aiding in decision-making and process enhancement.
@@ -82,7 +95,9 @@ const ClinicKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/consultant.png" alt="" />
 
-              <h4>Staff Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Staff Management
+              </h4>
               <p>
                 Efficient scheduling and management optimize workforce
                 allocation, ensuring smooth clinic operations.
@@ -94,7 +109,9 @@ const ClinicKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/collaboration.png" alt="" />
 
-              <h4>Diagnostic Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Diagnostic Integration
+              </h4>
               <p>
                 Seamless integration with diagnostic labs enhances testing
                 processes, enabling faster results and better patient care.

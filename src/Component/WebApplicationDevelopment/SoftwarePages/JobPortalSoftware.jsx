@@ -16,26 +16,25 @@ import JobPortalSwiperSlider from "./SwiperSlider/JobPortalSwiperSlider";
 // import '../../main.css'
 
 const JobPortalSoftware = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
       <div className="main-div-Application">
         <header className="enterprise-mobile-app-development arkit header-shadow">
-
           <div className="container h-100">
             <div className="row h-100">
-
               <div className="col-lg-12 my-auto">
                 <div className="header-content mx-auto">
                   <h1 className="mb-5">
                     Job Portal Software Development Company
                   </h1>
                   <h3 className="heading-tagline">
-                    From start-ups to enterprises, we deliver forward-thinking
-                    ERP software with robust functionalities and cutting-edge
-                    technologies. Harness our comprehensive ERP services to
-                    revolutionize your business processes and strategies in the
-                    ERP world.
+                    Trading Software enables users to analyze market data and
+                    execute trades, facilitating investment decisions and
+                    portfolio management. Job Portal Software, on the other
+                    hand, connects job seekers with employers, streamlining the
+                    hiring process and enhancing recruitment efficiency in
+                    various industries.
                   </h3>
                   {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                   {/* <div className="text-center">
@@ -86,12 +85,23 @@ const JobPortalSoftware = () => {
         <section className="Enterprise-container">
           <div className="Enterprise-box">
             <div className="Enterprise-left-div">
-              <h1 className='Key-feature-heading'>We Are Specialist</h1>
+              <h1 className="Key-feature-heading">We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-
-                As specialists in job portal software, our expertise lies in providing tailored solutions to meet the diverse needs of job seekers, employers, and recruitment agencies. Our software is meticulously crafted to offer intuitive interfaces, comprehensive job listings, and advanced search functionality. With our expertise, job seekers can easily search and apply for relevant positions, while employers can efficiently manage job postings, screen candidates, and streamline the hiring process. Whether it's a small startup or a large corporation, our job portal software is customizable to fit the specific requirements of each client, ensuring seamless recruitment processes and successful job placements. We are committed to empowering organizations with the tools they need to find the right talent and advance their workforce.              </p>
-
-
+                As specialists in job portal software, our expertise lies in
+                providing tailored solutions to meet the diverse needs of job
+                seekers, employers, and recruitment agencies. Our software is
+                meticulously crafted to offer intuitive interfaces,
+                comprehensive job listings, and advanced search functionality.
+                With our expertise, job seekers can easily search and apply for
+                relevant positions, while employers can efficiently manage job
+                postings, screen candidates, and streamline the hiring process.
+                Whether it's a small startup or a large corporation, our job
+                portal software is customizable to fit the specific requirements
+                of each client, ensuring seamless recruitment processes and
+                successful job placements. We are committed to empowering
+                organizations with the tools they need to find the right talent
+                and advance their workforce.{" "}
+              </p>
 
               <button
                 type="button"
@@ -107,7 +117,6 @@ const JobPortalSoftware = () => {
             <div className="Enterprise-right-div">
               {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
               <img src="./images/jobportaldev.jpg" alt="" />
-
             </div>
           </div>
         </section>
@@ -120,7 +129,12 @@ const JobPortalSoftware = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h2 style={{ color: "#D166AF ", fontSize: "31px" }} className="text-center Technology-Stack ">Technology Stack We Use</h2>
+                <h2
+                  style={{ color: "#D166AF ", fontSize: "31px" }}
+                  className="text-center Technology-Stack "
+                >
+                  Technology Stack We Use
+                </h2>
               </div>
             </div>
             <div className="row tech p-5 pt-0 mt-5 mb-5">
@@ -132,66 +146,84 @@ const JobPortalSoftware = () => {
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
 
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/mysql.png" alt="" className="w-100 h-40" />
                 <h5>MySQL</h5>
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+                <img
+                  src="./images/java-script.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Java Srcipt</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/SQL-Lite.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>SQL Lite</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/html.png" alt="" className="w-100 h-40" />
                 <h5>HTML</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/android.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Android</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Mongo DB</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/app-store.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>App Store</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/atom.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Atom</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/laravel.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Laravel</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
             </div>
           </div>
@@ -225,13 +257,9 @@ const JobPortalSoftware = () => {
         {/* <RelatedPortfolioSlider/> */}
         {/* <OnDemandAppSlider/> */}
 
-
-
-
         {/* <section className='Phone-card-slider'>
       <Phonecardslider />
     </section> */}
-
 
         {/* <section className="why_osiz section-heading ">
       <div className="container">
@@ -337,7 +365,8 @@ const JobPortalSoftware = () => {
           <SimilarFile />
         </section>
       </div>
-    </>)
-}
+    </>
+  );
+};
 
-export default JobPortalSoftware
+export default JobPortalSoftware;

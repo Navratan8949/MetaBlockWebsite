@@ -10,7 +10,10 @@ const TradingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/interface.png" alt="" />
 
-              <h4> Interface</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Interface
+              </h4>
               <p>
                 {" "}
                 Intuitive design for effortless navigation and quick trade
@@ -23,7 +26,9 @@ const TradingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/market-analysis.png" alt="" />
 
-              <h4>Market Data</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Market Data
+              </h4>
               <p>
                 Live updates on prices, orders, and volumes for informed
                 decisions.
@@ -34,7 +39,9 @@ const TradingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/choices.png" alt="" />
 
-              <h4>Order Options</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Order Options
+              </h4>
               <p>
                 Various types catering to different trading strategies and risk
                 levels.
@@ -46,7 +53,10 @@ const TradingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/chart.png" alt="" />
 
-              <h4> Chart Tools</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Chart Tools
+              </h4>
               <p>
                 Advanced technical analysis features for thorough market study.
               </p>
@@ -58,7 +68,9 @@ const TradingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/newspaper.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>News Integration</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                News Integration
+              </h4>
               <p>
                 Real-time feeds and analysis to stay abreast of market
                 developments.
@@ -70,7 +82,9 @@ const TradingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/risks.png" alt="" />
 
-              <h4>Risk Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Risk Management
+              </h4>
               <p>
                 Tools for setting stop-loss, managing positions, and controlling
                 risk.
@@ -81,7 +95,9 @@ const TradingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/diversify.png" alt="" />
 
-              <h4>Asset Variety</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Asset Variety
+              </h4>
               <p>
                 Diverse range of tradable assets for portfolio diversification.
               </p>
@@ -92,7 +108,10 @@ const TradingKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/mobile.png" alt="" />
 
-              <h4> Mobile Access</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Mobile Access
+              </h4>
               <p>
                 Trading flexibility with mobile app or responsive web interface.
               </p>
