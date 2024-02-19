@@ -2,6 +2,7 @@ import React from "react";
 import "../../gaming/gernralgames/GeneralGamesDevelopment.css";
 import AutoPlay from "../../MainPage/ReactSlick";
 import { Link, useNavigate } from "react-router-dom";
+
 import AutoPlaygame from "../gernralgames/Gameslider";
 const LudoGameDevelopment = () => {
 
@@ -672,6 +673,15 @@ const LudoGameDevelopment = () => {
                                     <div className="sub_title">75+ Countries Immersed in Fun</div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="game_dev_comp_services">
+                    <div className="container">
+                        <h2 className="title">Our Game Development Services Range</h2>
+                        <div className="nft-marketplace-usecase slider">
+
+                            <AutoPlaygame />
                         </div>
                     </div>
                 </section>

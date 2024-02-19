@@ -39,10 +39,10 @@ export default function AccountingSwiperSlider() {
             >
 
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-1.png" />
+                    <img style={{ height: "32vh" }} src="./images/AccountAndBillingSliderpic-1.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-2.png" />
+                    <img style={{ height: "32vh" }} src="./images/AccountAndBillingSliderpic-2.png" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src="./images/AccountAndBillingSliderpic-3.png" />

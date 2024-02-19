@@ -9,6 +9,9 @@ import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
 import KeyFeature from "../SoftwarePages/KeyFeatures/KeyFeature";
 import SoftwareUsesTechnology from "../SoftwarePages/SoftwareUsesTechnology/SoftwareUsesTechnology";
 import AdminControlFeature from "../SoftwarePages/AdminControlFeature/AdminControlFeature";
+import SocialMediaKeyFeature from "./KeyFeature/SocialMediaKeyFeature";
+import SocialMedialIndustries from "./ApplicationUsesIndustries/SocialMedialIndustries";
+import SocialMediaSwiperSlider from "./ApplicationSwiperSlider/SocialMediaSwiperSlider";
 
 // import '../../main.css'
 
@@ -107,8 +110,8 @@ const SocialMediaApps = () => {
           </div>
         </section>
 
-        <SwiperSlider />
-        <KeyFeature />
+        <SocialMediaSwiperSlider />
+        <SocialMediaKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -191,7 +194,7 @@ const SocialMediaApps = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <SocialMedialIndustries />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">

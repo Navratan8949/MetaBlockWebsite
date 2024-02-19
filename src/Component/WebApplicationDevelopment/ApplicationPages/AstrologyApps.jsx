@@ -9,6 +9,9 @@ import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
 import KeyFeature from "../SoftwarePages/KeyFeatures/KeyFeature";
 import SoftwareUsesTechnology from "../SoftwarePages/SoftwareUsesTechnology/SoftwareUsesTechnology";
 import AdminControlFeature from "../SoftwarePages/AdminControlFeature/AdminControlFeature";
+import AstrologyKeyFeature from "./KeyFeature/AstrologyKeyFeature";
+import AstrologyIndustries from "./ApplicationUsesIndustries/AstrologyIndustries";
+import AstrologiesSwiperSlider from "./ApplicationSwiperSlider/AstrologiesSwiperSlider";
 
 const AstrologyApps = () => {
   const navigate = useNavigate();
@@ -106,8 +109,8 @@ const AstrologyApps = () => {
           </div>
         </section>
 
-        <SwiperSlider />
-        <KeyFeature />
+        <AstrologiesSwiperSlider />
+        <AstrologyKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -190,7 +193,7 @@ const AstrologyApps = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <AstrologyIndustries />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">

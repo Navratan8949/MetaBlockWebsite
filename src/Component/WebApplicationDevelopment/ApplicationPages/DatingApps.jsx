@@ -9,6 +9,9 @@ import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
 import KeyFeature from "../SoftwarePages/KeyFeatures/KeyFeature";
 import SoftwareUsesTechnology from "../SoftwarePages/SoftwareUsesTechnology/SoftwareUsesTechnology";
 import AdminControlFeature from "../SoftwarePages/AdminControlFeature/AdminControlFeature";
+import DatingKeyFeature from "./KeyFeature/DatingKeyFeature";
+import DatingIndustries from "./ApplicationUsesIndustries/DatingIndustries";
+import DatingSwiperSlider from "./ApplicationSwiperSlider/DatingSwiperSlider";
 
 const DatingApps = () => {
   const navigate = useNavigate();
@@ -106,8 +109,8 @@ const DatingApps = () => {
           </div>
         </section>
 
-        <SwiperSlider />
-        <KeyFeature />
+        <DatingSwiperSlider />
+        <DatingKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -190,7 +193,7 @@ const DatingApps = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <DatingIndustries />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">

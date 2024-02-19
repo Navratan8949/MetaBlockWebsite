@@ -677,6 +677,16 @@ const DragonTiger = () => {
                         </div>
                     </div>
                 </section>
+
+                <section className="game_dev_comp_services">
+                    <div className="container">
+                        <h2 className="title">Our Game Development Services Range</h2>
+                        <div className="nft-marketplace-usecase slider">
+
+                            <AutoPlaygame />
+                        </div>
+                    </div>
+                </section>
                 <section className="game_dev_comp_production">
                     <div className="container">
                         <div className="row align-items-center">

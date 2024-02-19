@@ -535,7 +535,7 @@ const CasinoGames = () => {
                           </p>
                         </div>
                       </div> */}
-                                          <Casinoslider/>
+                      <Casinoslider />
                     </div>
                   </div>
                 </div>
@@ -940,7 +940,7 @@ const CasinoGames = () => {
               </div>
             </div>
           </section>
-          
+
           <section className="casino_game_dev_techstack">
             <div className="container">
               <h2 className="title">

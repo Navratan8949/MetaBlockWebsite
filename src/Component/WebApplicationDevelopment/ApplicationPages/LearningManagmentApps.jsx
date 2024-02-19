@@ -9,6 +9,9 @@ import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
 import KeyFeature from "../SoftwarePages/KeyFeatures/KeyFeature";
 import SoftwareUsesTechnology from "../SoftwarePages/SoftwareUsesTechnology/SoftwareUsesTechnology";
 import AdminControlFeature from "../SoftwarePages/AdminControlFeature/AdminControlFeature";
+import LearningKeyFeature from "./KeyFeature/LearningKeyFeature";
+import LearningIndustries from "./ApplicationUsesIndustries/LearningIndustries";
+import LearningSwiperSlider from "./ApplicationSwiperSlider/LearningSwiperSlider";
 // import '../../main.css'
 
 const LearningManagmentApps = () => {
@@ -106,8 +109,8 @@ const LearningManagmentApps = () => {
           </div>
         </section>
 
-        <SwiperSlider />
-        <KeyFeature />
+        <LearningSwiperSlider />
+        <LearningKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -190,7 +193,7 @@ const LearningManagmentApps = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <LearningIndustries />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">
