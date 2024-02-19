@@ -9,6 +9,9 @@ import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
 import KeyFeature from "../SoftwarePages/KeyFeatures/KeyFeature";
 import SoftwareUsesTechnology from "../SoftwarePages/SoftwareUsesTechnology/SoftwareUsesTechnology";
 import AdminControlFeature from "../SoftwarePages/AdminControlFeature/AdminControlFeature";
+import GrocryKeyFeature from "./KeyFeature/GrocryKeyFeature";
+import GrocryIndustries from "./ApplicationUsesIndustries/GrocryIndustries";
+import GrocerySwiperSlider from "./ApplicationSwiperSlider/GrocerySwiperSlider";
 
 const GroceryApps = () => {
   const navigate = useNavigate();
@@ -106,8 +109,8 @@ const GroceryApps = () => {
           </div>
         </section>
 
-        <SwiperSlider />
-        <KeyFeature />
+        <GrocerySwiperSlider />
+        <GrocryKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -190,7 +193,7 @@ const GroceryApps = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <GrocryIndustries />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">

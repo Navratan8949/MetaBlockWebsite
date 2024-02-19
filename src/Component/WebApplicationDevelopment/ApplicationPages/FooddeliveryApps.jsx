@@ -9,6 +9,9 @@ import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
 import KeyFeature from "../SoftwarePages/KeyFeatures/KeyFeature";
 import SoftwareUsesTechnology from "../SoftwarePages/SoftwareUsesTechnology/SoftwareUsesTechnology";
 import AdminControlFeature from "../SoftwarePages/AdminControlFeature/AdminControlFeature";
+import FoodDelevryKeyFeature from "./KeyFeature/FoodDelevryKeyFeature";
+import FoodDelevryIndustries from "./ApplicationUsesIndustries/FoodDelevryIndustries";
+import FoodDeleverySwiperSlider from "./ApplicationSwiperSlider/FoodDeleverySwiperSlider";
 
 // import '../../main.css'
 
@@ -107,8 +110,8 @@ const FooddeliveryApps = () => {
           </div>
         </section>
 
-        <SwiperSlider />
-        <KeyFeature />
+        <FoodDeleverySwiperSlider />
+        <FoodDelevryKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -191,7 +194,7 @@ const FooddeliveryApps = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <FoodDelevryIndustries />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">

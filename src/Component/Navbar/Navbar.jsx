@@ -383,6 +383,13 @@ const Navbar = () => {
     }
   ]
 
+  const metaversegamesdevelopment = [
+    {
+      path: "/metaversegamesdevelopment"
+
+    }
+  ]
+
 
 
   const casinogamesdevelopment = [
@@ -431,7 +438,7 @@ const Navbar = () => {
   ];
 
 
-  const metaversegamesdevelopment = [
+  const Web3GameDevelopment = [
     {
 
       name: "Win GO",
@@ -452,6 +459,7 @@ const Navbar = () => {
     {},
     {},
   ]
+
 
   return (
     <div>
@@ -1917,40 +1925,18 @@ const Navbar = () => {
                             </li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a
-                                className="dropdown_nav_link dropdown-toggle"
+                                className="dropdown_nav_link "
                                 id="Company_navbarDropdown"
                                 role="button"
-                                data-toggle="dropdown"
+                                onClick={() => navigate("/MetaverseGame")}
+                                // className="nav-link"
+                                // data-toggle="dropdown"
                                 aria-expanded="false"
-                                style={{ textDecoration: "none" }}
+                                style={{ textDecoration: "none", width: "250px" }}
                               >
-                                Metaverse Games Development
+                                Metaverse Game Development
                               </a>
-                              <div style={{ marginLeft: "150px" }}
-                                className="dropdown-menu drop_right_menu"
-                                aria-labelledby="navbarDropdown"
-                              >
-                                <div className="row">
-                                  <div className="col-lg-12">
-                                    <div>
-                                      {metaversegamesdevelopment.map((item, index) => (
-                                        <li
-                                          onClick={() => navigate(item.path)}
-                                          key={index}
-                                        >
-                                          <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
-                                            target="_blank"
-                                            style={{ color: "white" }}
-                                          >
-                                            {item.name}
-                                          </a>
-                                        </li>
-                                      ))}
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+
                             </div>
                             {/* <li onClick={() => navigate("/BlockchainGame")}>
                               <a
@@ -1979,7 +1965,7 @@ const Navbar = () => {
                                 <div className="row">
                                   <div className="col-lg-12">
                                     <div>
-                                      {BlockChain.map((item, index) => (
+                                      {Web3GameDevelopment.map((item, index) => (
                                         <li
                                           onClick={() => navigate(item.path)}
                                           key={index}

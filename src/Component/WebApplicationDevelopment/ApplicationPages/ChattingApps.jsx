@@ -9,6 +9,9 @@ import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
 import KeyFeature from "../SoftwarePages/KeyFeatures/KeyFeature";
 import SoftwareUsesTechnology from "../SoftwarePages/SoftwareUsesTechnology/SoftwareUsesTechnology";
 import AdminControlFeature from "../SoftwarePages/AdminControlFeature/AdminControlFeature";
+import ChattingKeyFeature from "./KeyFeature/ChattingKeyFeature";
+import ChattingIndustries from "./ApplicationUsesIndustries/ChattingIndustries";
+import ChattingSwiperSlider from "./ApplicationSwiperSlider/ChattingSwiperSlider";
 
 const ChattingApps = () => {
   const navigate = useNavigate();
@@ -106,8 +109,8 @@ const ChattingApps = () => {
           </div>
         </section>
 
-        <SwiperSlider />
-        <KeyFeature />
+        <ChattingSwiperSlider />
+        < ChattingKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -190,7 +193,7 @@ const ChattingApps = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <ChattingIndustries />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">

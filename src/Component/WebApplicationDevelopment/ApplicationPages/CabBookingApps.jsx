@@ -5,10 +5,13 @@ import OnDemandAppSlider from "../OnDemandAppSlider";
 import SimilarFile from "../../SimilarFile";
 
 import { useNavigate } from "react-router-dom";
-import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
 import KeyFeature from "../SoftwarePages/KeyFeatures/KeyFeature";
 import SoftwareUsesTechnology from "../SoftwarePages/SoftwareUsesTechnology/SoftwareUsesTechnology";
 import AdminControlFeature from "../SoftwarePages/AdminControlFeature/AdminControlFeature";
+import CabKeyFeature from "./KeyFeature/CabKeyFeature";
+import CabIndustries from "./ApplicationUsesIndustries/CabIndustries";
+import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
+import CabSwiperSlider from "./ApplicationSwiperSlider/CabSwiperSlider";
 // import '../../main.css'
 
 const CabBookingApps = () => {
@@ -106,9 +109,8 @@ const CabBookingApps = () => {
             </div>
           </div>
         </section>
-
-        <SwiperSlider />
-        <KeyFeature />
+        <CabSwiperSlider />
+        <CabKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -191,7 +193,7 @@ const CabBookingApps = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <CabIndustries />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">

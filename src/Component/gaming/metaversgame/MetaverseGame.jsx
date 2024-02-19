@@ -9,7 +9,7 @@ const MetaverseGame = () => {
             <div className="row align-items-center justify-content-center">
               <div className="col-lg-7 col-12 p-0">
                 <img
-                  src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/metaverse-game-banner.webp"
+                  src="./images/metaverseimage3.webp"
                   alt="Metaverse-Game-Development-Company"
                   title="Metaverse Game Development Company"
                   className="banner_img img-fluid"
@@ -35,7 +35,7 @@ const MetaverseGame = () => {
                     >
                       <span>
                         <img
-                          src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif"
+                          src="./images/metaverseimage1.webp"
                           alt="enquiry"
                           loading="eager"
                           className="img-fluid lazyload mr-2 lazyload"
@@ -44,7 +44,7 @@ const MetaverseGame = () => {
                       </span>
                       <span>
                         <img
-                          src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif"
+                          src="./images/metaverseimage5.webp"
                           alt="enquiry"
                           loading="eager"
                           className="img-fluid lazyload mr-2"
@@ -215,7 +215,7 @@ const MetaverseGame = () => {
                   <div className="service_box">
                     <div className="img_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service1.webp"
+                        src="./images/virtual-reality.png"
                         alt="3D Space Development"
                         title="3D Space Development"
                         className="sprite_icons lazyload"
@@ -239,7 +239,7 @@ const MetaverseGame = () => {
                   <div className="service_box">
                     <div className="img_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service2.webp"
+                        src="./images/mobile-money.png"
                         alt="Play to Earn Game Development"
                         title="Play to Earn Game Development"
                         className="sprite_icons lazyload"
@@ -263,7 +263,7 @@ const MetaverseGame = () => {
                   <div className="service_box">
                     <div className="img_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service3.webp"
+                        src="./images/customization.png"
                         alt="Custom Games Development"
                         title="Custom Games Development"
                         className="sprite_icons lazyload"
@@ -288,7 +288,7 @@ const MetaverseGame = () => {
                   <div className="service_box">
                     <div className="img_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service4.webp"
+                        src="./images/game (1).png"
                         alt="NFT Game Development"
                         title="NFT Game Development"
                         className="sprite_icons lazyload"
@@ -312,7 +312,7 @@ const MetaverseGame = () => {
                   <div className="service_box">
                     <div className="img_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service5.webp"
+                        src="./images/airplane.png"
                         alt="3D Avatar Development"
                         title="3D Avatar Development"
                         className="sprite_icons lazyload"
@@ -337,7 +337,7 @@ const MetaverseGame = () => {
                   <div className="service_box">
                     <div className="img_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service6.webp"
+                        src="./images/avatar.png"
                         alt="Metaverse Marketplace Development"
                         title="Metaverse Marketplace Development"
                         className="sprite_icons lazyload"
@@ -365,7 +365,7 @@ const MetaverseGame = () => {
                   <div className="service_box">
                     <div className="img_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service7.webp"
+                        src="./images/gaming (1).png"
                         alt="Gaming dApps"
                         title="Gaming dApps"
                         className="sprite_icons lazyload"
@@ -391,7 +391,7 @@ const MetaverseGame = () => {
                   <div className="service_box">
                     <div className="img_sec">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service8.webp"
+                        src="./images/exchange.png"
                         alt="Decentralized Gaming Platform"
                         title="Decentralized Gaming Platform"
                         className="sprite_icons lazyload"
@@ -423,11 +423,10 @@ const MetaverseGame = () => {
                 <div className="benefits_box clippath1">
                   <div className="img_sec">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg"
+                      src="./images/global-economy.png"
                       alt="Opportunities for the economy"
                       title="Opportunities for the economy"
                       className="sprite_icons lazyload"
-                      style={{ objectPosition: "0px 0px" }}
                     />
                   </div>
                   <h3 className="sub_title">Opportunities for the economy</h3>
@@ -444,7 +443,7 @@ const MetaverseGame = () => {
                 <div className="benefits_box cp_center">
                   <div className="img_sec">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg"
+                      src="./images/game (2).png"
                       alt="Immersive gameplay"
                       title="Immersive gameplay"
                       className="sprite_icons lazyload"
@@ -463,8 +462,7 @@ const MetaverseGame = () => {
                 <div className="benefits_box clippath2">
                   <div className="img_sec">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg"
-                      alt="Social interaction"
+                      src="./images/idea (1).png" alt="Social interaction"
                       title="Social interaction"
                       className="sprite_icons lazyload"
                       style={{ objectPosition: "-225px 0px" }}
@@ -482,8 +480,7 @@ const MetaverseGame = () => {
                 <div className="benefits_box clippath1">
                   <div className="img_sec">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg"
-                      alt="Creative expression"
+                      src="./images/new-product.png" alt="Creative expression"
                       title="Creative expression"
                       className="sprite_icons lazyload"
                       style={{ objectPosition: "-345px 0px" }}
@@ -501,8 +498,7 @@ const MetaverseGame = () => {
                 <div className="benefits_box cp_center">
                   <div className="img_sec">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg"
-                      alt="New ideas"
+                      src="./images/remote-access.png" alt="New ideas"
                       title="New ideas"
                       className="sprite_icons lazyload"
                       style={{ objectPosition: "-448px 0px" }}
@@ -520,11 +516,9 @@ const MetaverseGame = () => {
                 <div className="benefits_box clippath2">
                   <div className="img_sec">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg"
-                      alt="Accessible"
+                      src="./images/global-economy.png" alt="Accessible"
                       title="Accessible"
                       className="sprite_icons lazyload"
-                      style={{ objectPosition: "-549px 0px" }}
                     />
                   </div>
                   <h3 className="sub_title">Accessible</h3>

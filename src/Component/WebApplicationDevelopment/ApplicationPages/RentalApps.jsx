@@ -9,6 +9,9 @@ import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
 import KeyFeature from "../SoftwarePages/KeyFeatures/KeyFeature";
 import SoftwareUsesTechnology from "../SoftwarePages/SoftwareUsesTechnology/SoftwareUsesTechnology";
 import AdminControlFeature from "../SoftwarePages/AdminControlFeature/AdminControlFeature";
+import RantelKeyFeature from "./KeyFeature/RantelKeyFeature";
+import RantelIndustries from "./ApplicationUsesIndustries/RantelIndustries";
+import RantelSwiperSlider from "./ApplicationSwiperSlider/RantelSwiperSlider";
 
 const RentalApps = () => {
   const navigate = useNavigate();
@@ -106,8 +109,8 @@ const RentalApps = () => {
           </div>
         </section>
 
-        <SwiperSlider />
-        <KeyFeature />
+        <RantelSwiperSlider />
+        <RantelKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -190,7 +193,7 @@ const RentalApps = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <RantelIndustries />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">

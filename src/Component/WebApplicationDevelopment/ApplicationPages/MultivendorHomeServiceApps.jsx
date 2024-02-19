@@ -9,6 +9,9 @@ import SwiperSlider from "../SoftwarePages/SwiperSlider/SwiperSlider";
 import KeyFeature from "../SoftwarePages/KeyFeatures/KeyFeature";
 import SoftwareUsesTechnology from "../SoftwarePages/SoftwareUsesTechnology/SoftwareUsesTechnology";
 import AdminControlFeature from "../SoftwarePages/AdminControlFeature/AdminControlFeature";
+import MaltivendorKeyFeature from "./KeyFeature/MaltivendorKeyFeature";
+import MultiVendorIndustries from "./ApplicationUsesIndustries/MultiVendorIndustries";
+import MultivendorSwiperSlider from "./ApplicationSwiperSlider/MultivendorSwiperSlider";
 
 // import '../../main.css'
 
@@ -107,8 +110,8 @@ const MultivendorHomeServiceApps = () => {
           </div>
         </section>
 
-        <SwiperSlider />
-        <KeyFeature />
+        <MultivendorSwiperSlider />
+        <MaltivendorKeyFeature />
         {/*============= Technology Stack We Use========= */}
 
         <section className="section-heading mid_section-1">
@@ -191,7 +194,7 @@ const MultivendorHomeServiceApps = () => {
             </div>
           </div>
         </section>
-        <SoftwareUsesTechnology />
+        <MultiVendorIndustries />
         <AdminControlFeature />
         <section className="process_we_follow section-heading">
           <div className="container-fluid">
