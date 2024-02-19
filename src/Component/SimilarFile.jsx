@@ -159,18 +159,14 @@ const SimilarFile = () => {
                               <div className="PrjctDtlCnt">
                                 <div className="port_sub_title">Game</div>
                                 <p>
-                                  Ready to take your gaming experience to the next
-                                  level?  Our
-                                  cutting-edge software and expert developers have
-                                  created some of the most immersive games on the
-                                  market. From action-packed shooters to strategy
-                                  games that will keep you on your toes, we've got
-                                  it all. And with our seamless multiplayer
-                                  capabilities, you can connect with players from
-                                  around the world for an even more exciting
-                                  experience. Don't settle for mediocre games -
-                                  choose Osiz Technologies for the ultimate gaming
-                                  adventure!
+                                Are you prepared to step up your gaming experience to the next level?  
+                                Modern software and skilled developers have made it possible for us to produced
+                                a number of the most engrossing games available for purchase. We have everything
+                                you could possibly want, from action-packed shooters to strategic games that will 
+                                keep you on the edge of your seat. Additionally, you may connect with gamers from 
+                                all over the world for an even more thrilling multiplayer experience thanks to our 
+                                smooth multiplayer features. Choose MetaBlock Technologies for the finest gaming 
+                                experience instead of settling for subpar games!
                                 </p>
                               </div>
                             </div>
@@ -316,17 +312,14 @@ const SimilarFile = () => {
                               <div className="PrjctDtlCnt">
                                 <div className="port_sub_title">Metaverse</div>
                                 <p>
-                                  Looking to enter the world of the Metaverse? Look
-                                  no further, as Metaverse is the next generation of
-                                  the internet where physical and digital worlds
-                                  collide. Osiz is at the forefront of at the
-                                  forefront of this revolutionary technology,
-                                  offering cutting-edge solutions for businesses and
-                                  individuals alike. Our team of experts creates
-                                  immersive experiences that allow users to interact
-                                  with virtual environments, socialize with others,
-                                  and even conduct business in a decentralized
-                                  marketplace.
+                                Are you interested in exploring the Metaverse? Search no more, 
+                                as Metaverse represents the next wave of the internet, fusing the 
+                                digital and physical realms. Offering cutting-edge solutions for both 
+                                individuals and enterprises, MetaBlock is at the forefront of this ground-breaking
+                                technology. Our team of professionals crafts immersive experiences that let
+                                people socialize with each other, engage with virtual worlds, and even 
+                                transact business in a decentralized marketplace.
+
                                 </p>
                               </div>
                             </div>
@@ -1045,15 +1038,14 @@ const SimilarFile = () => {
                               <div className="PrjctDtlCnt">
                                 <div className="port_sub_title">Play To Earn</div>
                                 <p>
-                                  Dominate the world of blockchain gaming with our
-                                  cutting-edge solutions from a prominent Play To
-                                  Earn Development company like Osiz. Leverage our
-                                  end-to-end development services that include game
-                                  design, smart contract development, wallet
-                                  integration, and more. Our expert blockchain game
-                                  developers help you create a seamless and secure
-                                  platform for your users with the benefits of
-                                  earning rewards while gameplay.
+                                Take control of the blockchain gaming industry with 
+                                our state-of-the-art solutions from a well-known Play
+                                 To Earn Development firm like MetaBlock. Take use of 
+                                 our end-to-end development services, which include designing games, 
+                                 creating smart contracts, integrating wallets, and more. Our knowledgeable
+                                 blockchain game developers assist you in building a safe and easy-to-use 
+                                platform for your users, providing them with the opportunity to earn incentives 
+                                while playing.
                                 </p>
                               </div>
                             </div>

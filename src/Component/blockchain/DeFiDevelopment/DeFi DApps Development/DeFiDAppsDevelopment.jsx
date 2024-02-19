@@ -10,7 +10,7 @@ const DeFiDAppsDevelopment = () => {
             <div className="row">
               <div className="col-lg-6 col-12">
                 <h1 className="title">DeFi DApps Development <span className="cus_title"> </span><br /> <span className="grad_text"> Consulting </span> Services</h1>
-                <h3 className="contents">Our Blockchain specialists assist you with reliable blockchain consulting services to leverage the finest and most advanced blockchain application that meets your business requirements.</h3>
+                <h3 className="contents">Our blockchain experts provide trustworthy blockchain advisory services to help you take advantage of the best and most cutting-edge blockchain application to suit your needs as a business.</h3>
                 <div className="blk_dev_bnr_btn_sec">
                   <a href="#" data-toggle="modal" data-target="#popup_form_modal" className="blk_dev_bnr_btn">Request For Quote</a>
                 </div>
@@ -24,11 +24,10 @@ const DeFiDAppsDevelopment = () => {
             <div className="row d-flex align-items-center">
               <div className="col-lg-7">
                 <div className="bs_d_c_bg">
-                  <h2 className="blockchain_dev_aboutus_title">What Is Blockchain Consulting?</h2>
+                  <h2 className="blockchain_dev_aboutus_title">What Is Consulting for Blockchain Technology?</h2>
                   <div>
-                    <p className="section_heading">Blockchain, a new hump technology with stupendous potential to transform the entire economy. Building, developing, maintaining, analyzing blockchain and cryptocurrency relevant products and web services become simple through
-                      blockchain consulting. The thing of technological updates, long-term assistance and operational matters matters worldwide and blockchain consulting assures for it. It has the potential to modify the way in business
-                      can run through low level optimization in hardware.</p>
+                    <p className="section_heading">Blockchain is a cutting-edge technology that has the enormous potential to completely change the economy. Blockchain consultancy makes it easier to build, develop, maintain, and analyze blockchain-related goods and web services. Globally, operational issues, long-term support, and technology advancements are important, and blockchain consulting guarantees all of these. Through low-level hardware optimization, it has the ability to change how businesses operate.
+</p>
                     <div className="blk_dev_bnr_btn_sec">
                       <a href="#" className="blk_dev_bnr_btn" data-toggle="modal" data-target="#popup_form_modal">View Live Demo</a>
                     </div>
@@ -59,9 +58,7 @@ const DeFiDAppsDevelopment = () => {
               </div>
               <div className="col-lg-7 col-12 pr-lg-0">
                 <h2 className="title">Blockchain Consulting Company</h2>
-                <p className="contents">We, Osiz technologies, have created and titled as the leading blockchain consulting company for the sake of our immense services we offer in blockchain solutions. We stand out form the crowd in the world’s largest companies for
-                  our exceptional strategies. Besides, for the enhanced business growth, we endeavor with dynamic start-ups. We have changed different industries like health care, supply chain management, and payments through the utilization
-                  of distributed ledger.</p>
+                <p className="contents">Because of the vast array of blockchain solutions services that we at MetaBlock Technologies provide, we have established ourselves as the top blockchain consulting firm. Because of our unique strategies, we stand out from the competition at the biggest companies in the globe. Furthermore, in an effort to promote corporate growth, we work with dynamic start-ups. The application of distributed ledger technology has revolutionized a number of industries, including payments, supply chain management, and health care.</p>
                 <div className="blk_dev_bnr_btn_sec">
                   <a target="_blank" href="https://www.osiztechnologies.com//contact-us" className="blk_dev_bnr_btn">Talk to Our Experts</a>
                 </div>
@@ -71,46 +68,42 @@ const DeFiDAppsDevelopment = () => {
         </section>
         <section className="metaverse_game_services">
           <div className="container">
-            <h2 className="title">Our Blockchain Consulting</h2>
+            <h2 className="title">Our Consultation on Blockchain</h2>
             <p className="contents" />
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="service_box">
                   <img src="https://www.osiztechnologies.com/asset/images/inner-pages/blockchain_consulting/startegy-consulting.png" alt="Strategic Consulting" title="Strategic Consulting" className="img-fluid sprite_icons lazyload" />
-                  <div className="sub_title">Strategic Consulting</div>
-                  <p className="sub_contents">With the thorough analysis, we furnish advice to our clients’ business on strategic implementation of blockchain technology. We examine the emerging techniques and opt unique strategies for the data analytics support. After
-                    analyzing, to optimize your business, we evaluate the capableness of the existent blockchain technology.</p>
+                  <div className="sub_title">Strategic Advice</div>
+                  <p className="sub_contents">We advise our clients' businesses on the strategic application of blockchain technology based on our comprehensive investigation. We look at new methods and choose special approaches for the data analytics assistance. After conducting an analysis, we assess the current blockchain technology's capacity to optimize your business.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="service_box">
                   <img src="https://www.osiztechnologies.com/asset/images/inner-pages/blockchain_consulting/training-constituent.png" alt="Training Constituent" title="Training Constituent" className="img-fluid sprite_icons lazyload" />
-                  <div className="sub_title">Training Constituent</div>
-                  <p className="sub_contents">With the workshops and seminars, we provide blockchain training to our team members about the complex techniques in blockchain as well as the relevant application with the deep guidance of our advisers and information materials.</p>
+                  <div className="sub_title">Instructional Component</div>
+                  <p className="sub_contents">We teach team members about the intricate workings of blockchain technology through workshops and seminars, along with pertinent applications, under the close supervision of advisors and educational resources.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="service_box">
                   <img src="https://www.osiztechnologies.com/asset/images/inner-pages/blockchain_consulting/business-investigation.png" alt="Business Investigation" title="Business Investigation" className="img-fluid sprite_icons lazyload" />
-                  <div className="sub_title">Business Investigation</div>
-                  <p className="sub_contents">This is one of the salient processes we employ to experience the research methodology to comprehend the current process of your business’ blockchain technology. We determine how it takes place to make your business proceed
-                    further.</p>
+                  <div className="sub_title">Commercial Research</div>
+                  <p className="sub_contents">This is one of the key procedures we use to experience the study technique and understand the blockchain technology in use at your company now. We ascertain the processes involved in enabling your firm to advance.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="service_box">
                   <img src="https://www.osiztechnologies.com/asset/images/inner-pages/blockchain_consulting/hands-on-programs.png" alt="Hands On Programs" title="Hands On Programs" className="img-fluid sprite_icons lazyload" />
-                  <div className="sub_title">Hands on Programs</div>
-                  <p className="sub_contents">We have experienced and adroit professionals to gratify our client’s requirements with the incredible work. We provide real time applications in a unique way as well as the lots of cryptocurrency and blockchain technology projects.
-                    We are the one and one to provide the instant projects ultimately with our significant team members.</p>
+                  <div className="sub_title">Interactive Programs</div>
+                  <p className="sub_contents">Our team comprises skilled and knowledgeable individuals that can deliver outstanding work that meets our clients' needs. We give numerous bitcoin and blockchain technology projects in addition to real-time applications in a distinctive manner. In the end, we are the only ones who can deliver immediate projects with our important team members.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="service_box">
                   <img src="https://www.osiztechnologies.com/asset/images/inner-pages/blockchain_consulting/research.png" alt="Research" title="Research" className="img-fluid sprite_icons lazyload" />
-                  <div className="sub_title">Research</div>
-                  <p className="sub_contents">Our experts themselves update and indulge with conferences, latest publications on the cryptocurrency to build projects in unique way through making significant research in the crypto field. This is our great pleasure to reveal
-                    our limitless research and results with you.</p>
+                  <div className="sub_title">Investigate</div>
+                  <p className="sub_contents">Our professionals stay up to date on the newest developments in the cryptocurrency space through conferences and publications, and they use their extensive research in the sector to construct projects that are truly unique. It gives us great joy to share with you the findings of our never-ending study.</p>
                 </div>
               </div>
             </div>
@@ -119,21 +112,20 @@ const DeFiDAppsDevelopment = () => {
         <section className="alg_mac">
           <div className="container">
             <div className="section-heading text-center">
-              <h3 className="title">Our Blockchain Consulting Procedures
-              </h3>
-              <p className="para_title">We replicate almost all type of cryptocurrency out there, with these following ones.</p>
+              <h3 className="title">Our Processes for Blockchain Consultation</h3>
+              <p className="para_title">We have replicated nearly every cryptocurrency available, using the ones listed below.</p>
               <div className="why_round"> </div>
             </div>
             <div className="row mt-5">
               <div className="col-lg-6">
                 <ul className="ul_list">
-                  <li>Rumination</li>
-                  <li>Reckoning</li>
-                  <li>Interpretation</li>
-                  <li>Prototype</li>
-                  <li>Volume Test</li>
-                  <li>Integration</li>
-                  <li>Review</li>
+                  <li>Contemplation</li>
+                  <li>Accounting</li>
+                  <li>Analysis</li>
+                  <li>Model</li>
+                  <li>Test of Volume</li>
+                  <li>Combination</li>
+                  <li>Examine</li>
                 </ul>
               </div>
               <div className="col-lg-6">
@@ -149,11 +141,8 @@ const DeFiDAppsDevelopment = () => {
                 <img src="https://www.osiztechnologies.com/asset/images/inner-pages/blockchain_consulting/why-choose-us.png" alt="Why Choose Us" title="Why Choose Us" className="img-fluid" style={{ filter: 'hue-rotate(45deg)' }} />
               </div>
               <div className="col-lg-7 col-12 pr-lg-0">
-                <h2 className="title">Why Choose Us?</h2>
-                <p className="contents">As the technologies are updating day by day, it is momentous for the entrepreneurs and enterprises to be update with the latest business techniques and actions to bear on in this competitive world.As a well known blockchain consulting
-                  company in India, we provide suggestion and advice on the strategic employment of blockchain technology through preferring progressive ideas of development. We guide in assessing the potential of blockchain consulting by discuss
-                  the possibilities and optimize the website accordingly. We comprehend your business requirements and launch your demands within the ordained time. Our developers have a deep knowledge and work in order to satisfy your business
-                  demands.</p>
+                <h2 className="title">Why Opt for Us?</h2>
+                <p className="contents">Since technology is always evolving, it is critical for business owners and entrepreneurs to stay up to speed on the newest strategies and practices in order to compete in this cutthroat environment.Being a well-known blockchain consulting firm in India, we offer recommendations and counsel on the tactical application of blockchain technology by favoring forward-thinking development concepts. By going over the options, we assist in evaluating the potential of blockchain consulting and adjust the website as necessary. We are aware of your company needs and respond to your requests on schedule. Our developers work hard to meet your business needs and possess extensive experience.</p>
                 <div className="blk_dev_bnr_btn_sec">
                   <a target="_blank" href="https://www.osiztechnologies.com//contact-us" className="blk_dev_bnr_btn">Talk to Our Experts</a>
                 </div>
@@ -165,9 +154,8 @@ const DeFiDAppsDevelopment = () => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-7 col-12 pr-lg-0">
-                <h2 className="title">Engage With Us</h2>
-                <p className="contents">Our adroit and experienced blockchain professionals has the extent knowledge to handle our clients necessities and make their thoughts visible to the world. With the direct access to the technical resources and the blockchain consulting,
-                  we make our clients business to shine out of the crowd as like us.</p>
+                <h2 className="title">Participate With Us</h2>
+                <p className="contents">Our skilled and knowledgeable blockchain experts has the depth of knowledge to manage our clients' needs and bring their ideas to the public eye. With our direct access to technical resources and blockchain consultancy, we enable our clients' businesses to stand out from the competition, just like ours has.</p>
                 <div className="blk_dev_bnr_btn_sec">
                   <a target="_blank" href="https://www.osiztechnologies.com//contact-us" className="blk_dev_bnr_btn">Contact Us</a>
                 </div>
@@ -179,7 +167,7 @@ const DeFiDAppsDevelopment = () => {
           </div>
         </section>
       </main>
-      <section className="MtaverseSec DapsMainBg OurBlgBg">
+      {/* <section className="MtaverseSec DapsMainBg OurBlgBg">
         <div className="container container-1170 ">
           <div className="row align-items-center ">
             <div className="col-xl-9 ">
@@ -209,15 +197,15 @@ const DeFiDAppsDevelopment = () => {
                   </a>
                 </div>
                 <div className="inr_cont">
-                  {/* <span class="month-time">Dec 12,2023</span>
-      <span class="time-time">14:41:13 PM</span> */}
+                  <span class="month-time">Dec 12,2023</span>
+      <span class="time-time">14:41:13 PM</span>
                   <a href="https://www.osiztechnologies.com/blog/metaverse-virtual-office-development" aria-label="Read more about Virutalizing the workspace: Building the Virutal Offices of tomorrow" target="_blank">
                     <p className="mt-1rem sub_title">Virutalizing the workspace: Building the Virutal Offices of tomorrow</p>
                   </a>
-                  {/* <p class="normal_text text-justify mb-2">
+                  <p class="normal_text text-justify mb-2">
         The nature of work is changing quickly in the digital age. The idea of a metaverse office is becoming more and more popular as technology progresses. Businesses can operate remotely with a virtual office, doing away with the requirement for a traditional physical workspace. This blog examines the advantages and difficulties of virtual offices and offers suggestions for creating the virtual workplaces of the future.
 
-      </p> */}
+      </p>
                   <p className="normal_text text-justify mb-2">The nature of work is changing quickly in the digital age. The idea of a metaverse office is becomin...</p>
                   <a href="https://www.osiztechnologies.com/blog/metaverse-virtual-office-development" aria-label="Read more about Virutalizing the workspace: Building the Virutal Offices of tomorrow" className="readmore" target="_blank">Read More...</a>
                 </div>
@@ -234,13 +222,13 @@ const DeFiDAppsDevelopment = () => {
                   </a>
                 </div>
                 <div className="inr_cont">
-                  {/* <span class="month-time">Dec 12,2023</span>
-      <span class="time-time">14:41:13 PM</span> */}
+                  <span class="month-time">Dec 12,2023</span>
+      <span class="time-time">14:41:13 PM</span>
                   <a href="https://www.osiztechnologies.com/news/decathlon-launches-new-nft-game" target="_blank">
                     <p className="mt-1rem sub_title">Decathlon has launched an exciting new NFT game</p>
                   </a>
-                  {/* <p class="normal_text text-justify mb-2">
-                    </p> */}
+                  <p class="normal_text text-justify mb-2">
+                    </p>
                   <p className="normal_text text-justify mb-2">Decathlon, the French sports retailer, is venturing into the NFT (non-fungible token) space again wi...</p>
                   <a href="https://www.osiztechnologies.com/news/decathlon-launches-new-nft-game" className="readmore" target="_blank">Read More...</a>
                 </div>
@@ -257,13 +245,13 @@ const DeFiDAppsDevelopment = () => {
                   </a>
                 </div>
                 <div className="inr_cont">
-                  {/* <span class="month-time">Dec 12,2023</span>
-      <span class="time-time">14:41:13 PM</span> */}
+                  <span class="month-time">Dec 12,2023</span>
+      <span class="time-time">14:41:13 PM</span>
                   <a href="https://www.osiztechnologies.com/announcement/merry-christmas-newyear-2024-offers " target="_blank">
                     <p className="mt-1rem sub_title">Merry Christmas and New Year 2024: Enjoy 10% OFF!</p>
                   </a>
-                  {/* <p class="normal_text text-justify mb-2">
-                    </p> */}
+                  <p class="normal_text text-justify mb-2">
+                    </p>
                   <p className="normal_text text-justify mb-2">Celebrate the festive season with Osiz Technologies' exclusive Christmas and New Year 2024 offer! As...</p>
                   <a href="https://www.osiztechnologies.com/announcement/merry-christmas-newyear-2024-offers " className="readmore" target="_blank">Read More...</a>
                 </div>
@@ -271,7 +259,7 @@ const DeFiDAppsDevelopment = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
     </div>
 

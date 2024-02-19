@@ -1,5 +1,5 @@
 import React from 'react'
-import './SemiFungibleTokenDevelopment.css'
+import './SemiFungibleTokenDevelopment.css';
 
 
 const SemiFungibleTokenDevelopment = () => {
@@ -21,7 +21,7 @@ const SemiFungibleTokenDevelopment = () => {
                   <h1 className="title"><span className="bnr_bld_title">Semi Fungible </span> <br /> Tokan Generation </h1>
                   <p className="contents">The best token production company, MetaBlock, assists companies in producing tokens on any blockchain network swiftly and efficiently. Use our experience to launch your cryptocurrency token project and expand your cryptocurrency company!</p>
                   <div className="HddrBtns banner_btn_sec">
-                  <a href="https://tokendev.osiztechnologies.com/" target="_blank" className="btn banner_btn"><span>Create Your Token Now</span></a>
+                  <a href="https://tokendev.osiztechnologies.com/" target="_blank" className="btn banner_btn"><span>Make Your Token Right Now</span></a>
                     <div className="shadow_img"><svg viewBox="0 0 1320 300"><text x="50%" y="50%" dy=".35em" textAnchor="middle">Instantly</text></svg></div>
                   </div>
                 </div>
