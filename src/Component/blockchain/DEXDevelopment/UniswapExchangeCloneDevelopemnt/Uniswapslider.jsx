@@ -26,44 +26,44 @@ export default class AutoPlayuniswap extends Component {
     const sliderdata = [
       {
         image: "https://www.osiztechnologies.com/asset/metaverse-dev/boy.png",
-        paragraph: " Osiz Tech is the Best above the Rest!",
-        paragraph1: "Manid Chimhoga",
-        paragraph2: "  Financial Advisor at Liberty Life",
+        paragraph: " The Best Among the Rest is MetaBlock Tech!",
+        paragraph1: "Raghav Sharma",
+        paragraph2: " Financial Advisor at Liberty Life",
         paragraph3:
-          "I have been working with Osiz Technologies for over five months right now and I have been very satisfied with the outcome of the work produced by them. I have dealt with Business Analyst, an excellent professional and with very good customer service. I emphasize the wide knowledge in the type of platform that they developed to me, as well as the flexibility during the development of the project.",
+          "I have been working with MetaBlock Technologies for more than five months, and I am really happy with the results of their work. I worked with a business analyst who was a first-rate professional and provided exceptional customer service. I highlight to you their extensive expertise in the kind of platform they designed and their adaptability throughout the project's development.",
       },
 
       {
         image: "https://www.osiztechnologies.com/asset/metaverse-dev/boy.png",
-        paragraph: " Osiz Tech is the Best above the Rest!",
-        paragraph1: "Manid Chimhoga",
-        paragraph2: "  Financial Advisor at Liberty Life",
+        paragraph: " There is no comparison to MetaBlock Tech!",
+        paragraph1: "Milind Nagpal",
+        paragraph2: "Business Developer at SF Capital",
         paragraph3:
-          "I have been working with Osiz Technologies for over five months right now and I have been very satisfied with the outcome of the work produced by them. I have dealt with Business Analyst, an excellent professional and with very good customer service. I emphasize the wide knowledge in the type of platform that they developed to me, as well as the flexibility during the development of the project.",
+          "I've been collaborating with MetaBlock Technologies for more than 5 years now, and I must say, the results they've delivered have consistently exceeded my expectations. In particular, working with their Business Analyst has been a pleasure. Their professionalism and exceptional customer service stand out prominently. I've been impressed by their in-depth understanding of the platform they've developed for me, and their flexibility throughout the project's development has been invaluable.",
+      },
+      {
+        image: "https://www.osiztechnologies.com/asset/metaverse-dev/boy.png",
+        paragraph: " Your creativity and innovative thinking always bring fresh perspectives to our projects.",
+        paragraph1: "Bhanu Sharma",
+        paragraph2: "Project Manager at AGL Pvt. Ltd",
+        paragraph3:
+          "I've had the privilege of collaborating with MetaBlock on several projects, and their professionalism and expertise never fail to impress.",
+      },
+      {
+        image: "https://www.osiztechnologies.com/asset/metaverse-dev/boy.png",
+        paragraph: " The way they give attention to detail is truly remarkable, and it's evident in the quality of your work.",
+        paragraph1: "Narendra Jangid",
+        paragraph2: "Senior Software Engineer",
+        paragraph3:
+          "I'm continually amazed by MetaBlock's ability to solve complex problems with ease. Their analytical skills and attention to detail are unmatched.",
       },
       {
         image: "https://www.osiztechnologies.com/asset/metaverse-dev/boy.png",
         paragraph: " Osiz Tech is the Best above the Rest!",
-        paragraph1: "Manid Chimhoga",
-        paragraph2: "  Financial Advisor at Liberty Life",
+        paragraph1: "Deependra Goyal",
+        paragraph2: "Manager at JK Hotel ",
         paragraph3:
-          "I have been working with Osiz Technologies for over five months right now and I have been very satisfied with the outcome of the work produced by them. I have dealt with Business Analyst, an excellent professional and with very good customer service. I emphasize the wide knowledge in the type of platform that they developed to me, as well as the flexibility during the development of the project.",
-      },
-      {
-        image: "https://www.osiztechnologies.com/asset/metaverse-dev/boy.png",
-        paragraph: " Osiz Tech is the Best above the Rest!",
-        paragraph1: "Manid Chimhoga",
-        paragraph2: "  Financial Advisor at Liberty Life",
-        paragraph3:
-          "I have been working with Osiz Technologies for over five months right now and I have been very satisfied with the outcome of the work produced by them. I have dealt with Business Analyst, an excellent professional and with very good customer service. I emphasize the wide knowledge in the type of platform that they developed to me, as well as the flexibility during the development of the project.",
-      },
-      {
-        image: "https://www.osiztechnologies.com/asset/metaverse-dev/boy.png",
-        paragraph: " Osiz Tech is the Best above the Rest!",
-        paragraph1: "Manid Chimhoga",
-        paragraph2: "  Financial Advisor at Liberty Life",
-        paragraph3:
-          "I have been working with Osiz Technologies for over five months right now and I have been very satisfied with the outcome of the work produced by them. I have dealt with Business Analyst, an excellent professional and with very good customer service. I emphasize the wide knowledge in the type of platform that they developed to me, as well as the flexibility during the development of the project.",
+          "It's rare to find someone as committed to excellence as MetaBlock. They consistently deliver outstanding results and raise the bar for the entire team.",
       },
     ];
     return (
