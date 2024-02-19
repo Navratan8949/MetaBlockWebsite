@@ -47,7 +47,7 @@ const InventoryIndustries = () => {
 
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
-              <img src="./images/bank.png" alt="" />
+              <img src="./images/ecommerce.png" alt="" />
 
               <h4>E-commerce Business</h4>
               <p>
