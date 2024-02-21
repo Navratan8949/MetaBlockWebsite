@@ -4,6 +4,7 @@ import AutoPlay from "../../MainPage/ReactSlick";
 import { useNavigate } from "react-router-dom";
 import AutoPlaygame from "../gernralgames/Gameslider";
 import { Link } from "react-router-dom";
+import GameDemandSlider from "../gernralgames/GameDemandSlider";
 const AndarBaharGameDevelopment = () => {
 
 
@@ -556,6 +557,7 @@ const AndarBaharGameDevelopment = () => {
                         </div>
                     </div>
                 </section>
+                <GameDemandSlider />
                 <section className="game_dev_comp_production">
                     <div className="container">
                         <div className="row align-items-center">
@@ -831,7 +833,7 @@ const AndarBaharGameDevelopment = () => {
                     </div>
                 </section>
             </main>
-        </div>
+        </div >
     );
 };
 

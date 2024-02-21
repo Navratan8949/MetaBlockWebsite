@@ -1,0 +1,11 @@
+.swiper-slider-images {
+    height: 70vh;
+    /* width: 300px !important; */
+
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: center;
+    mix-blend-mode: color-burn !important;
+    background-size: cover;
+
+}

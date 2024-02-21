@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 import { useNavigate } from "react-router-dom";
 import AutoPlaygame from "../gernralgames/Gameslider";
+import GameDemandSlider from "../gernralgames/GameDemandSlider";
 const TournamentDevelopment = () => {
 
 
@@ -114,129 +115,7 @@ const TournamentDevelopment = () => {
                     </div>
                 </section> */}
 
-                <section className="game_dev_comp_services">
-                    <div className="container">
-                        <h2 className="title">Our Game Development Services Range</h2>
-                        <div className="nft-marketplace-usecase slider">
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/blog/web3-game-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service1.webp" className="img-fluid lazyload" alt="Web3_Game_Development" title="Web3 Game Development" />
-                    </div>
-                    <h3 className="sub_title">Web3 Game Development</h3>
-                    <p className="sub_contents">Utilizing blockchain technologies, our group of video game developers constructs secure and decentralized Web3 games. Our specialization includes decentralized governance, player ownership, and the provision of fair gameplay
-                      experiences.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/nft-game-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service2.webp" className="img-fluid lazyload" alt="nft_Game_Development" title="NFT Game Development" />
-                    </div>
-                    <h3 className="sub_title">NFT Game Development</h3>
-                    <p className="sub_contents">Specializing in NFT-infused games, we elevate in-game assets with real-world significance. By utilizing top-tier blockchains, we empower players to craft, trade, and vend NFTs directly within the gaming ecosystem.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/metaverse-game-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service3.webp" className="img-fluid lazyload" alt="Metaverse_Game_Development" title="Metaverse Game Development" />
-                    </div>
-                    <h3 className="sub_title">Metaverse Game Development</h3>
-                    <p className="sub_contents">As a premier video game development company, we strongly prioritize the creation of immersive metaverse games that evolve in sync with their communities. We encompass all the top metaverse features, including interactivity,
-                      user-generated content, and social connectivity.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/blockchain-game-development-company" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service4.webp" className="img-fluid lazyload" alt="Blockchain_Game_Development" title="Blockchain Game Development" />
-                    </div>
-                    <h3 className="sub_title">Blockchain Game Development</h3>
-                    <p className="sub_contents">Covering a spectrum of blockchain game development solutions, our team offers services that span from incorporating smart contracts to conducting security audits. Our blockchain gaming projects encompass the integration
-                      of player-centric economies and the implementation of secure in-game transactions.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service5.webp" className="img-fluid lazyload" alt="Mobile_Game_Development" title="Mobile Game Development" />
-                    </div>
-                    <h3 className="sub_title">Mobile Game Development</h3>
-                    <p className="sub_contents">We specialize in offering complete mobile gaming solutions for iOS and Android platforms. As a premier game development agency, we guarantee the creation of highly polished, high-performance games with captivating player
-                      experiences.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service6.webp" className="img-fluid lazyload" alt="AR_VR_Game_Development" title="AR and VR Game Development" />
-                    </div>
-                    <h3 className="sub_title">AR and VR Game Development</h3>
-                    <p className="sub_contents">We develop AR and VR games that offer players engaging real-time experiences. Our games feature interactive gameplay, high-quality graphics, and leverage advanced AR/VR and devices, platforms, and frameworks.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service7.webp" className="img-fluid lazyload" alt="Unity_3D_Game_Development" title="Unity 3D Game Development" />
-                    </div>
-                    <h3 className="sub_title">Unity 3D Game Development</h3>
-                    <p className="sub_contents">Our team of Unity game developers utilizes the latest attributes of the foremost game engine to produce visually captivating and interactive 2D and 3D games. Furthermore, we ensure the seamless performance of these games
-                      on numerous platforms.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service8.webp" className="img-fluid lazyload" alt="Desktop_Game_Development" title="Desktop Game Development" />
-                    </div>
-                    <h3 className="sub_title">Desktop Game Development</h3>
-                    <p className="sub_contents">Our proficiency lies in crafting intricate, top-tier games through the sophisticated toolkit of Unreal Engine. Our creations enthrall gamers with breathtaking graphics, immersive settings, and exhilarating gameplay moments.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service9.webp" className="img-fluid lazyload" alt="Unreal_Game_Development" title="Unreal Game Development" />
-                    </div>
-                    <h3 className="sub_title">Unreal Game Development</h3>
-                    <p className="sub_contents">Our proficiency lies in crafting intricate, top-tier games through the sophisticated toolkit of Unreal Engine. Our creations enthrall gamers with breathtaking graphics, immersive settings, and exhilarating gameplay moments.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service10.webp" className="img-fluid lazyload" alt="HTML5_Game_Development" title="HTML5 Game Development" />
-                    </div>
-                    <h3 className="sub_title">HTML5 Game Development</h3>
-                    <p className="sub_contents">Focusing on HTML5 game development, we design cross-platform games that align with client needs. Our games are engaging, easily accessible, and deliver flawless performance on web browsers across a range of platforms.</p>
-                  </div>
-                </a>
-              </div> */}
-                            <AutoPlaygame />
-                        </div>
-                    </div>
-                </section>
+
                 <section className="game_dev_comp_platform">
                     <div className="container-fluid">
                         <div className="row align-items-center">
@@ -688,6 +567,8 @@ const TournamentDevelopment = () => {
                         </div>
                     </div>
                 </section>
+                <GameDemandSlider />
+
                 <section className="game_dev_comp_production">
                     <div className="container">
                         <div className="row align-items-center">

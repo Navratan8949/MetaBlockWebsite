@@ -3,6 +3,7 @@ import "../../gaming/gernralgames/GeneralGamesDevelopment.css";
 import AutoPlay from "../../MainPage/ReactSlick";
 import { Link, useNavigate } from "react-router-dom";
 import AutoPlaygame from "../gernralgames/Gameslider";
+import GameDemandSlider from "../gernralgames/GameDemandSlider";
 const DragonTiger = () => {
 
 
@@ -687,6 +688,7 @@ const DragonTiger = () => {
                         </div>
                     </div>
                 </section>
+                <GameDemandSlider />
                 <section className="game_dev_comp_production">
                     <div className="container">
                         <div className="row align-items-center">

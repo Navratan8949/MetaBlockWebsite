@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 import { useNavigate } from "react-router-dom";
 import AutoPlaygame from "../gernralgames/Gameslider";
+import GameDemandSlider from "../gernralgames/GameDemandSlider";
 const TeenpattiGameDevelopment = () => {
 
 
@@ -688,6 +689,8 @@ const TeenpattiGameDevelopment = () => {
                         </div>
                     </div>
                 </section>
+                <GameDemandSlider />
+
                 <section className="game_dev_comp_production">
                     <div className="container">
                         <div className="row align-items-center">

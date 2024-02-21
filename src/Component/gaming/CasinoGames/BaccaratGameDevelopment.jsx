@@ -3,6 +3,7 @@ import "../../gaming/gernralgames/GeneralGamesDevelopment.css";
 import AutoPlay from "../../MainPage/ReactSlick";
 import { Link, useNavigate } from "react-router-dom";
 import AutoPlaygame from "../gernralgames/Gameslider";
+import GameDemandSlider from "../gernralgames/GameDemandSlider";
 const BaccaratGameDevelopment = () => {
 
 
@@ -704,6 +705,7 @@ const BaccaratGameDevelopment = () => {
                         </div>
                     </div>
                 </section>
+                <GameDemandSlider />
 
                 <section className="game_dev_comp_why">
                     <div className="container">
@@ -815,7 +817,7 @@ const BaccaratGameDevelopment = () => {
                     </div>
                 </section>
             </main>
-        </div>
+        </div >
     );
 };
 

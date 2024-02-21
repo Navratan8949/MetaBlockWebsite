@@ -8,12 +8,9 @@ const ChattingKeyFeature = () => {
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                                alt=""
-                            />
+                            <img src="./images/chat.png" alt="" />
 
-                            <h4>Messaging</h4>
+                            <h4 className="software-feature-headings" >Messaging</h4>
                             <p>
                                 Instant messaging feature allows users to send text-based messages in real-time to contacts or groups.
                             </p>
@@ -22,12 +19,10 @@ const ChattingKeyFeature = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
-                                alt=""
-                            />
+                            <img src="./images/sharing.png" alt="" />
 
-                            <h4>Multimedia Sharing</h4>
+
+                            <h4 className="software-feature-headings" >Multimedia Sharing</h4>
                             <p>
                                 Share photos, videos, documents, and other files with contacts seamlessly within the app.
                             </p>
@@ -35,12 +30,10 @@ const ChattingKeyFeature = () => {
                     </div>
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
-                                alt=""
-                            />
+                            <img src="./images/open.png" alt="" />
 
-                            <h4>Group Chats</h4>
+
+                            <h4 className="software-feature-headings" >Group Chats</h4>
                             <p>
                                 Create or join group chats with multiple participants to communicate with friends, family, or colleagues simultaneously.
                             </p>
@@ -49,12 +42,10 @@ const ChattingKeyFeature = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                                alt=""
-                            />
+                            <img src="./images/notification.png" alt="" />
 
-                            <h4>Notifications</h4>
+
+                            <h4 className="software-feature-headings" >Notifications</h4>
                             <p>
                                 Receive real-time notifications for new messages, calls, or updates, ensuring users stay informed and connected.
                             </p>
@@ -64,12 +55,10 @@ const ChattingKeyFeature = () => {
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                                alt=""
-                            />
+                            <img src="./images/updated.png" alt="" />
 
-                            <h3 style={{ textAlign: "Center" }}>Status Updates</h3>
+
+                            <h4 className="software-feature-headings" >Status Updates</h4>
                             <p>
                                 Share status updates or stories with contacts to let them know what you're up to or how you're feeling.
                             </p>
@@ -78,12 +67,10 @@ const ChattingKeyFeature = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
-                                alt=""
-                            />
+                            <img src="./images/search.png" alt="" />
 
-                            <h4>Search Functionality</h4>
+
+                            <h4 className="software-feature-headings" >Search Functionality</h4>
                             <p>
                                 Easily search through chat history or contacts to find specific messages, files, or conversations.
                             </p>
@@ -91,12 +78,10 @@ const ChattingKeyFeature = () => {
                     </div>
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
-                                alt=""
-                            />
+                            <img src="./images/slider.png" alt="" />
 
-                            <h4>Customization Options</h4>
+
+                            <h4 className="software-feature-headings" >Customization Options</h4>
                             <p>
                                 Customize chat backgrounds, themes, fonts, and notification sounds to personalize the app experience.
                             </p>
@@ -105,12 +90,10 @@ const ChattingKeyFeature = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
-                                alt=""
-                            />
+                            <img src="./images/web.png" alt="" />
 
-                            <h4>Offline Messaging</h4>
+
+                            <h4 className="software-feature-headings" >Offline Messaging</h4>
                             <p>
                                 Send messages even when offline, with the app automatically delivering them once the internet connection is restored.
                             </p>

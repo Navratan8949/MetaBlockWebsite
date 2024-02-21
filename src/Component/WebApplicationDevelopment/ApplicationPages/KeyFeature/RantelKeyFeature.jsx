@@ -9,11 +9,11 @@ const RantelKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                                src='./images/smart-city.png'
                                 alt=""
                             />
 
-                            <h4>Property Amenities</h4>
+                            <h4 className="software-feature-headings" >Property Amenities</h4>
                             <p>
                                 Listings detail available amenities like WiFi, parking, ensuring renters find suitable properties.
                             </p>
@@ -23,11 +23,11 @@ const RantelKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
+                                src='./images/flexibility.png'
                                 alt=""
                             />
 
-                            <h4>Flexible Options</h4>
+                            <h4 className="software-feature-headings" >Flexible Options</h4>
                             <p>
                                 Users choose rental durations, offering hourly, daily, weekly, or monthly bookings for convenience.
                             </p>
@@ -36,11 +36,11 @@ const RantelKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
+                                src='./images/bell.png'
                                 alt=""
                             />
 
-                            <h4>Instant Alerts</h4>
+                            <h4 className="software-feature-headings" >Instant Alerts</h4>
                             <p>
                                 Receive real-time notifications for booking requests, ensuring prompt responses and confirmations.
                             </p>
@@ -50,11 +50,11 @@ const RantelKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                                src='./images/graph.png'
                                 alt=""
                             />
 
-                            <h4>Property Inspection</h4>
+                            <h4 className="software-feature-headings" >Property Inspection</h4>
                             <p>
                                 Owners utilize virtual or in-person inspections to maintain listing accuracy and quality standards.
                             </p>
@@ -65,11 +65,11 @@ const RantelKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                                src='./images/agreement.png'
                                 alt=""
                             />
 
-                            <h3 style={{ textAlign: "Center" }}>Custom Agreements</h3>
+                            <h4 className="software-feature-headings" >Custom Agreements</h4>
                             <p>
                                 Users create tailored rental agreements, fostering transparent and binding arrangements.
                             </p>
@@ -79,11 +79,11 @@ const RantelKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                                src='./images/customer-service.png'
                                 alt=""
                             />
 
-                            <h4>Management Services</h4>
+                            <h4 className="software-feature-headings" >Management Services</h4>
                             <p>
                                 Owners access property management solutions like cleaning, enhancing guest satisfaction and efficiency
                             </p>
@@ -92,11 +92,11 @@ const RantelKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                                src='./images/special-offer.png'
                                 alt=""
                             />
 
-                            <h4>Special Discounts</h4>
+                            <h4 className="software-feature-headings" >Special Discounts</h4>
                             <p>
                                 Users enjoy exclusive offers and promotions, adding value and affordability to rentals.
                             </p>
@@ -106,11 +106,11 @@ const RantelKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                                src='./images/data.png'
                                 alt=""
                             />
 
-                            <h4>Legal Compliance</h4>
+                            <h4 className="software-feature-headings" >Legal Compliance</h4>
                             <p>
                                 Listings undergo checks to ensure conformity with local regulations, mitigating legal risks.
                             </p>

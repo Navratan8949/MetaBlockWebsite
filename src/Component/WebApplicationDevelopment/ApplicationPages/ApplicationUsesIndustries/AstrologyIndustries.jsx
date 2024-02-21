@@ -5,15 +5,15 @@ const AstrologyIndustries = () => {
     return (
         <div className="m-0">
             <div className="dashboard-main-box">
-                <h4 className="Key-feature-heading">Software Uses Industries</h4>
+                <h4 className="Key-feature-heading">Application Uses Industries</h4>
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img src="./images/factory.png" alt="" />
 
-                            <h4>Manufacturing</h4>
+                            <h4 className="software-feature-headings" >Manufacturing</h4>
                             <p>
-                                {" "}
+
                                 ERP systems help manage production planning, scheduling,
                                 inventory management, supply chain operations, quality control,
                                 and resource allocation.
@@ -25,7 +25,7 @@ const AstrologyIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/supermarket.png" alt="" />
 
-                            <h4>Retail</h4>
+                            <h4 className="software-feature-headings" >Retail</h4>
                             <p>
                                 Retailers use ERP software to manage inventory, sales, customer
                                 relationship management (CRM), point-of-sale (POS) systems, and
@@ -36,27 +36,22 @@ const AstrologyIndustries = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/healthcare.png" alt="" />
+                            <img src="./images/mental-health.png" alt="" />
 
-                            <h4>Healthcare</h4>
+                            <h4 className="software-feature-headings" >Entertainment</h4>
                             <p>
-                                {" "}
-                                ERP systems are used in hospitals and healthcare organizations
-                                to manage patient records, billing, scheduling, inventory, and
-                                regulatory compliance.
+                                Astrology apps provide daily horoscopes, zodiac compatibility readings, and tarot predictions, offering users entertainment and amusement.
                             </p>
                         </div>
                     </div>
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/bank.png" alt="" />
+                            <img src="./images/self-growth.png" alt="" />
 
-                            <h4>Finance and Banking</h4>
+                            <h4 className="software-feature-headings" >Personal Growth</h4>
                             <p>
-                                Financial institutions use ERP software for managing accounting,
-                                financial reporting, regulatory compliance, risk management, and
-                                customer relationship management.
+                                Individuals use astrology apps for self-reflection, seeking insights into their personality traits and strengths for personal growth and development.
                             </p>
                         </div>
                     </div>
@@ -64,55 +59,43 @@ const AstrologyIndustries = () => {
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/school.png" alt="" />
+                            <img src="./images/friendship.png" alt="" />
 
-                            <h4>Education</h4>
+                            <h4 className="software-feature-headings" >Relationships</h4>
                             <p>
-                                {" "}
-                                Educational institutions utilize ERP systems for student
-                                information management, academic scheduling, course
-                                registration, grading, and financial management.
+                                Astrology apps offer guidance on relationship compatibility and dynamics, aiding users in understanding and navigating their connections with others.
                             </p>
                         </div>
                     </div>
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/government.png" alt="" />
+                            <img src="./images/guidance.png" alt="" />
 
-                            <h4>Government</h4>
+                            <h4 className="software-feature-headings" >Career Guidance</h4>
                             <p>
-                                Government agencies leverage ERP software to manage budgeting,
-                                procurement, human resources, payroll, and other administrative
-                                processes.
+                                Users turn to astrology apps for career advice, exploring potential professions and opportunities based on astrological insights.
                             </p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/architect.png" alt="" />
+                            <img src="./images/calendar.png" alt="" />
 
-                            <h4>Construction</h4>
+                            <h4 className="software-feature-headings" >Events Planning</h4>
                             <p>
-                                {" "}
-                                In the construction industry, ERP systems help manage project
-                                costing, resource allocation, equipment management,
-                                subcontractor coordination, project scheduling, and procurement
-                                of materials.
+                                Event planners incorporate astrology themes and timing into celebrations, adding depth and meaning to weddings, parties, and other events.
                             </p>
                         </div>
                     </div>
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/customer-service.png" alt="" />
+                            <img src="./images/counselling.png" alt="" />
 
-                            <h4>Services</h4>
+                            <h4 className="software-feature-headings" >Counseling and Therapy</h4>
                             <p>
-                                ERP solutions cater to service-oriented businesses such as
-                                consulting firms, legal practices, and marketing agencies to
-                                streamline project management, resource allocation, time
-                                tracking, and billing.
+                                Therapists use astrology apps as tools for self-awareness in therapy sessions, helping clients gain insight into their emotions and behaviors.
                             </p>
                         </div>
                     </div>

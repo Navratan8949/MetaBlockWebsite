@@ -8,12 +8,12 @@ const MaltivendorKeyFeature = () => {
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+
+                            <img src="./images/clipboard.png"
                                 alt=""
                             />
 
-                            <h4>Service Listings</h4>
+                            <h4 className="software-feature-headings" >Service Listings</h4>
                             <p>
                                 Access a wide range of home services including cleaning, plumbing, and landscaping, with detailed descriptions and pricing.
                             </p>
@@ -22,12 +22,11 @@ const MaltivendorKeyFeature = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
+                            <img src="./images/user-profile.png"
                                 alt=""
                             />
 
-                            <h4>Vendor Profiles</h4>
+                            <h4 className="software-feature-headings" >Vendor Profiles</h4>
                             <p>
                                 Review vendor profiles to evaluate services offered, pricing, availability, and customer reviews, ensuring a reliable selection process.
                             </p>
@@ -35,12 +34,11 @@ const MaltivendorKeyFeature = () => {
                     </div>
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
+                            <img src="./images/user.png"
                                 alt=""
                             />
 
-                            <h4>User Accounts</h4>
+                            <h4 className="software-feature-headings" >User Accounts</h4>
                             <p>
                                 Create personalized accounts to streamline bookings, track orders, and manage preferences for a tailored experience.
                             </p>
@@ -49,12 +47,11 @@ const MaltivendorKeyFeature = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                            <img src="./images/search.png"
                                 alt=""
                             />
 
-                            <h4>Search and Filters</h4>
+                            <h4 className="software-feature-headings" >Search and Filters</h4>
                             <p>
                                 Utilize robust search and filtering options to quickly find specific services and vendors based on location, ratings, and availability.
                             </p>
@@ -64,12 +61,11 @@ const MaltivendorKeyFeature = () => {
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                            <img src="./images/booking.png"
                                 alt=""
                             />
 
-                            <h3 style={{ textAlign: "Center" }}>Booking and Scheduling</h3>
+                            <h4 className="software-feature-headings" >Booking and Scheduling</h4>
                             <p>
                                 Book services seamlessly through the app, specifying preferred dates, times, and additional requirements for convenience..
                             </p>
@@ -78,12 +74,11 @@ const MaltivendorKeyFeature = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                            <img src="./images/tracking.png"
                                 alt=""
                             />
 
-                            <h4>Real-Time Tracking</h4>
+                            <h4 className="software-feature-headings" >Real-Time Tracking</h4>
                             <p>
                                 Track service providers' locations and estimated arrival times in real-time, enhancing transparency and planning.
                             </p>
@@ -91,12 +86,11 @@ const MaltivendorKeyFeature = () => {
                     </div>
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                            <img src="./images/money.png"
                                 alt=""
                             />
 
-                            <h4>Secure Payments</h4>
+                            <h4 className="software-feature-headings" >Secure Payments</h4>
                             <p>
                                 Make payments securely within the app through integration with trusted payment gateways, ensuring peace of mind.
                             </p>
@@ -105,12 +99,11 @@ const MaltivendorKeyFeature = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                            <img src="./images/group.png"
                                 alt=""
                             />
 
-                            <h4>Community Forums:</h4>
+                            <h4 className="software-feature-headings" >Community Forums</h4>
                             <p>
                                 Participate in community forums to share tips, recommendations, and experiences with fellow users, fostering a sense of community and camaraderie.
                             </p>

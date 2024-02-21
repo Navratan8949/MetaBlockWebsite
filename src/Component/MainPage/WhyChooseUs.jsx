@@ -61,7 +61,7 @@ const WhyChooseUs = () => {
                                 <p> We provide 24*7 support and maintenance services to ensure clients' websites remain secure</p>
                             </div>
                         </div>
-                       
+
 
                     </div>
                 </div>
@@ -70,4 +70,4 @@ const WhyChooseUs = () => {
     )
 }
 
-export default WhyChooseUs
+export default WhyChooseUs;

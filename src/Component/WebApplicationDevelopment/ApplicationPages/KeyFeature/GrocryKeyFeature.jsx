@@ -9,11 +9,11 @@ const GrocryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                                src="./images/brochure.png"
                                 alt=""
                             />
 
-                            <h4>Product Catalog</h4>
+                            <h4 className="software-feature-headings" >Product Catalog</h4>
                             <p>
                                 A comprehensive catalog of grocery items categorized by type, brand, and aisle, allowing users to easily browse and search for products.
                             </p>
@@ -23,11 +23,11 @@ const GrocryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
+                                src="./images/profile.png"
                                 alt=""
                             />
 
-                            <h4>User Profiles and Accounts</h4>
+                            <h4 className="software-feature-headings" >User Profiles and Accounts</h4>
                             <p>
                                 Users can create accounts, manage personal information, and save preferences such as favorite products or shopping lists for future reference.
                             </p>
@@ -36,11 +36,11 @@ const GrocryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
+                                src="./images/search.png"
                                 alt=""
                             />
 
-                            <h4>Search and Filters</h4>
+                            <h4 className="software-feature-headings" >Search and Filters</h4>
                             <p>
                                 Robust search functionality and filters enable users to quickly find specific products or browse through categories, brands, prices, and dietary preferences.
                             </p>
@@ -50,11 +50,11 @@ const GrocryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                                src="./images/shopping.png"
                                 alt=""
                             />
 
-                            <h4>Product Details</h4>
+                            <h4 className="software-feature-headings" >Product Details</h4>
                             <p>
                                 Detailed product descriptions, nutritional information, and customer reviews help users make informed purchasing decisions.
                             </p>
@@ -65,11 +65,11 @@ const GrocryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                                src="./images/tracking.png"
                                 alt=""
                             />
 
-                            <h3 style={{ textAlign: "Center" }}>Order Tracking</h3>
+                            <h4 className="software-feature-headings" >Order Tracking</h4>
                             <p>
                                 Real-time order tracking functionality enables users to track the status of their orders and receive notifications about order updates, delivery timings, and driver information.                            </p>
                         </div>
@@ -78,11 +78,11 @@ const GrocryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                                src="./images/promotion.png"
                                 alt=""
                             />
 
-                            <h4>Promotions and Discounts</h4>
+                            <h4 className="software-feature-headings" >Promotions and Discounts</h4>
                             <p>
                                 Regularly updated promotions, discounts, and personalized offers help users save money on their grocery purchases and incentivize repeat usage of the app.
                             </p>
@@ -91,11 +91,11 @@ const GrocryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                                src="./images/pickup-car.png"
                                 alt=""
                             />
 
-                            <h4>Delivery and Pickup</h4>
+                            <h4 className="software-feature-headings" >Delivery and Pickup</h4>
                             <p>
                                 Flexible delivery and pickup options allow users to choose their preferred method of receiving their groceries, whether it's doorstep delivery or curbside pickup.
                             </p>
@@ -105,11 +105,11 @@ const GrocryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                                src="./images/technical-support.png"
                                 alt=""
                             />
 
-                            <h4>Customer Support</h4>
+                            <h4 className="software-feature-headings" >Customer Support</h4>
                             <p>
                                 Access to customer support via chat, email, or phone allows users to resolve issues, ask questions, or provide feedback about their shopping experience.
                             </p>

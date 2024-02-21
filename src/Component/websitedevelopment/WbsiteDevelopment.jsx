@@ -13,7 +13,7 @@ const WbsiteDevelopment = () => {
           <div className="container-fluid p-0">
             <div className="VideoWrper">
               <div className="video_sec">
-                <img style={{ width: "100%", height: "92vh" }} src="./SGimage/bannerimg.avif" alt="image" />
+                <img style={{ width: "100%", height: "92vh" }} src="./images/software-background-image.jpg" alt="image" />
 
                 {/* <video autoPlay muted loop playsInline preload="metadata">
                   <source

@@ -2,6 +2,7 @@ import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import './SwiperSliders.css'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -38,9 +39,9 @@ export default function CabSwiperSlider() {
             >
 
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-1.png" />
+                    <img className='swiper-slider-images' src="./images/cabBookingsliderpic-1.png" />
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <img src="./images/AccountAndBillingSliderpic-2.png" />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -54,7 +55,7 @@ export default function CabSwiperSlider() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src="./images/AccountAndBillingSliderpic-6.png" />
-                </SwiperSlide>
+                </SwiperSlide> */}
 
             </Swiper>
         </>

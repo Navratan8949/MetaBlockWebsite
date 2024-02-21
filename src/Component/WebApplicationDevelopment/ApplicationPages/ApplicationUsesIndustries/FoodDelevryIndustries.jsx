@@ -4,18 +4,15 @@ const FoodDelevryIndustries = () => {
     return (
         <div className="m-0">
             <div className="dashboard-main-box">
-                <h4 className="Key-feature-heading">Software Uses Industries</h4>
+                <h4 className="Key-feature-heading">Application Uses Industries</h4>
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/factory.png" alt="" />
+                            <img src="./images/restaurants.png" alt="" />
 
-                            <h4>Manufacturing</h4>
+                            <h4 className="software-feature-headings" >Restaurants</h4>
                             <p>
-                                {" "}
-                                ERP systems help manage production planning, scheduling,
-                                inventory management, supply chain operations, quality control,
-                                and resource allocation.
+                                Food delivery apps help restaurants broaden their customer base by reaching a wider audience beyond their physical locations.
                             </p>
                         </div>
                     </div>
@@ -24,38 +21,31 @@ const FoodDelevryIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/supermarket.png" alt="" />
 
-                            <h4>Retail</h4>
+                            <h4 className="software-feature-headings" >Hospitality</h4>
                             <p>
-                                Retailers use ERP software to manage inventory, sales, customer
-                                relationship management (CRM), point-of-sale (POS) systems, and
-                                supply chain processes.
+                                Hotels partner with food delivery apps to offer guests convenient dining options without leaving their accommodations.
                             </p>
                         </div>
                     </div>
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/healthcare.png" alt="" />
+                            <img src="./images/briefcase.png" alt="" />
 
-                            <h4>Healthcare</h4>
+                            <h4 className="software-feature-headings" >Corporate Catering</h4>
                             <p>
-                                {" "}
-                                ERP systems are used in hospitals and healthcare organizations
-                                to manage patient records, billing, scheduling, inventory, and
-                                regulatory compliance.
+                                Businesses use food delivery apps for hassle-free catering services for events and office gatherings.
                             </p>
                         </div>
                     </div>
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/bank.png" alt="" />
+                            <img src="./images/grocery-store.png" alt="" />
 
-                            <h4>Finance and Banking</h4>
+                            <h4 className="software-feature-headings" >Grocery Stores</h4>
                             <p>
-                                Financial institutions use ERP software for managing accounting,
-                                financial reporting, regulatory compliance, risk management, and
-                                customer relationship management.
+                                Some grocery stores collaborate with food delivery apps for home delivery services, offering convenience to customers.
                             </p>
                         </div>
                     </div>
@@ -63,55 +53,44 @@ const FoodDelevryIndustries = () => {
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/school.png" alt="" />
+                            <img src="./images/healthcare.png" alt="" />
 
-                            <h4>Education</h4>
+                            <h4 className="software-feature-headings" >Healthcare</h4>
                             <p>
-                                {" "}
-                                Educational institutions utilize ERP systems for student
-                                information management, academic scheduling, course
-                                registration, grading, and financial management.
+                                Hospitals utilize food delivery apps to provide patients with tailored meals during their stay.
                             </p>
                         </div>
                     </div>
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/government.png" alt="" />
+                            <img src="./images/education.png" alt="" />
 
-                            <h4>Government</h4>
+                            <h4 className="software-feature-headings" >Educational</h4>
                             <p>
-                                Government agencies leverage ERP software to manage budgeting,
-                                procurement, human resources, payroll, and other administrative
-                                processes.
+                                Institutions: Schools partner with food delivery apps to offer meal delivery services for students on campus.
                             </p>
                         </div>
                     </div>
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/architect.png" alt="" />
+                            <img src="./images/food-truck.png" alt="" />
 
-                            <h4>Construction</h4>
+                            <h4 className="software-feature-headings" >Food Trucks</h4>
                             <p>
-                                {" "}
-                                In the construction industry, ERP systems help manage project
-                                costing, resource allocation, equipment management,
-                                subcontractor coordination, project scheduling, and procurement
-                                of materials.
+                                Food truck vendors expand their customer reach by partnering with food delivery apps.
                             </p>
                         </div>
                     </div>
 
+
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/customer-service.png" alt="" />
+                            <img src="./images/food.png" alt="" />
 
-                            <h4>Services</h4>
+                            <h4 className="software-feature-headings" >Specialized Diets</h4>
                             <p>
-                                ERP solutions cater to service-oriented businesses such as
-                                consulting firms, legal practices, and marketing agencies to
-                                streamline project management, resource allocation, time
-                                tracking, and billing.
+                                Food delivery apps offer options for specialized dietary preferences, ensuring inclusivity for all users.
                             </p>
                         </div>
                     </div>

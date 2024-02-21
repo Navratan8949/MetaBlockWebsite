@@ -11,8 +11,9 @@ const NFTMusicMarketplaceDevelopment = () => {
             <div className="row align-items-center justify-content-center banner_img_col">
               <div className="col-lg-6 col-12">
                 <div className="banner_sec">
-                  <h1 className="title"><span className="cus_title">NFT Music  </span> <br />Marketplace DEVELOPMENT </h1>
-                  <p className="contents">Build Your High ROI Generating NFT Marketplace Platforms by our White label NFT Marketplace Development Services developed by best professional NFT Blockchain Developers.</p>
+                  <h1 className="title"><span className="cus_title" > NFT Music  </span> <br />Musicplace DEVELOPMENT </h1>
+                  <p className="contents">Whereas the process of minting NFT can be relatively simple, to begin with. Before starting to mint NFT, people should consider a few things. Minting is the process of transforming digital artwork into a public record on the Ethereum blockchain. Digital art would be impervious to alteration and interference. In the same manner that minting refers to the act of producing currencies, minting describes the process of adding NFTs to a blockchain.
+                  </p>
                   <div className="banner_btn_sec">
                     <a data-toggle="modal" data-target="#popup_form_modal" className="btn banner_btn" target="_blank">Request A Quote</a>
                   </div>
@@ -29,7 +30,7 @@ const NFTMusicMarketplaceDevelopment = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-5 col-md-12 col-sm-12 col-12">
                     <div>
-                      <h2 className="title"><span className="cus_title1">NFT</span> <br /> <span className="cus_title2">Marketplace</span><br /><span className="cus_title3">Clones</span></h2>
+                      <h2 className="title"><span className="cus_title1">NFT</span> <br /> <span className="cus_title2">Musicplace</span><br /><span className="cus_title3">Clones</span></h2>
                     </div>
                   </div>
                   <div className="col-lg-7 col-md-12 col-sm-12 col-12 nft_marketplace_col_styling">
@@ -94,7 +95,9 @@ const NFTMusicMarketplaceDevelopment = () => {
         </section>
         <section className="nft_marketplace_clone_dev_sec">
           <div className="container">
-            <h2 className="title"><span className="cus_title">NFT Marketplace Development</span> - <br /> A SureFire Way For Converting NFT To Funds</h2>
+            <h2 className="title"><span className="cus_title">NFT Music Venue Development
+            </span> - <br />A Reliable Method Of Changing NFT Into Cash
+            </h2>
             <div className="row justify-content-center align-items-center">
               <div className="col-lg-5 col-12 order-2 order-lg-1">
                 <div className="img_sec ">
@@ -103,12 +106,10 @@ const NFTMusicMarketplaceDevelopment = () => {
               </div>
               <div className="col-lg-7 col-12 order-1 order-lg-2">
                 <div className>
-                  <p className="contents">NFT Marketplace Development is an ultimate doorway for entrepreneurs to launch a decentralized NFT Marketplace Platform over the Various Blockchain like Ethereum, Solana, Polygon, Tron and Stellar networks
-                    to trade NFT Tokens. Our White Label NFT Marketplace Platform Development has special features and functionalities where users can buy and sell their desired digital items easily and securely.</p>
-                  <p className="contents">We Osiz help you to launch your own NFT marketplace platform and attract the growing community of NFT users and to enhance your NFT users trading experiences. We also offer End-End NFT Marketplace Development
-                    services from front end to back end smart contract development, dapp development that comes with feature-rich, decentralized, and facilitate tokenization of all kinds of digital assets, including artwork,
-                    gaming cards, and software lice. Osiz is one of the most reputed and best NFT marketplace development company noted by delivering unbeatable blockchain services and solutions in the Competitive market
-                    world.</p>
+                  <p className="contents">The NFT Musicplace Development provides businesses with the means to establish a decentralized NFT Musicplace Platform that facilitates the trading of NFT Tokens across multiple blockchain networks, including Ethereum, Solana, Polygon, Tron, and Stellar. With the unique features and functionalities of our White Label NFT Marketplace Platform Development, consumers may safely and conveniently buy and sell the digital goods they want.
+                  </p>
+                  <p className="contents">With the assistance of Osiz, you may start your own NFT marketplace, draw in the expanding NFT user base, and improve the trading experiences of NFT customers. Together with front-end to back-end smart contract development, dapp development that is feature-rich, decentralized, and facilitates the tokenization of various digital assets, such as artwork, gaming cards, and software licenses, we also provide end-to-end NFT marketplace development services. Known for providing unparalleled blockchain services and solutions in the competitive global industry, Osiz is a highly esteemed and top-tier NFT marketplace development firm.
+                  </p>
                   <div className="nft_game_dev_about_btn_sec">
                     <a href="https://web.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20Osiz%20software%20development%20services.%20Shall%20we%20discuss%20now?%20-%20https://www.osiztechnologies.com/nft-marketplace-development" className="btn nft_game_dev_about_btn desktop" target="_blank"><i className="fab fa-whatsapp" />&nbsp;WhatsApp</a>
                     <a href="https://api.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20Osiz%20software%20development%20services.%20Shall%20we%20discuss%20now?%20-%20https://www.osiztechnologies.com/nft-marketplace-development" className="btn nft_game_dev_about_btn mobile" target="_blank"><i className="fab fa-whatsapp" />&nbsp;WhatsApp</a>
@@ -121,13 +122,14 @@ const NFTMusicMarketplaceDevelopment = () => {
         </section>
         <section className="nft_marketplace_services">
           <div className="container">
-            <h2 className="title">End-End NFT Marketplace Development Services</h2>
+            <h2 className="title">Complete NFT Music Venue Development Solutions
+            </h2>
             <div className="row justify-content-center scroll_row">
               <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                 <div className="service_box">
                   <div className="head_sec">
                     <img src="https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/service-icon.svg" alt="Animate Icon" title="Animate Icon" loading="eager" className="img-fluid lazyload" />
-                    <h3 className="sub_title">NFT Marketplace Consultation Services</h3>
+                    <h3 className="sub_title">NFT Musicplace Consultation Services</h3>
                   </div>
                   <p className="sub_contents">Our Proactive NFT consultants help you about tech aspects of NFT marketplace platform development by delivering informative consultation and business strategies. Our well skilled NFT Influencers, investors and stake holders
                     gives an idea to build your NFT Platform and Increase your scale.</p>

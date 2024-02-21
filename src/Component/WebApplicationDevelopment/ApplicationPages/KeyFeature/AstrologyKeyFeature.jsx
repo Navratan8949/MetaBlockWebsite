@@ -10,11 +10,11 @@ const AstrologyKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                                src="./images/tarot-card.png"
                                 alt=""
                             />
 
-                            <h4>Horoscope Readings</h4>
+                            <h4 className="software-feature-headings" >Horoscope Readings</h4>
                             <p>
                                 Access personalized daily, weekly, and monthly horoscope readings based on your zodiac sign and birth chart.
                             </p>
@@ -24,11 +24,11 @@ const AstrologyKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
+                                src="./images/chart.png"
                                 alt=""
                             />
 
-                            <h4>Birth Chart Analysis</h4>
+                            <h4 className="software-feature-headings" >Birth Chart Analysis</h4>
                             <p>
                                 Generate and analyze your personalized birth chart to gain insights into your personality traits and life path.
                             </p>
@@ -37,11 +37,11 @@ const AstrologyKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
+                                src="./images/star.png"
                                 alt=""
                             />
 
-                            <h4>Astrology Predictions</h4>
+                            <h4 className="software-feature-headings" >Astrology Predictions</h4>
                             <p>
                                 Receive astrological predictions and forecasts for various life aspects such as love, career, and health.
                             </p>
@@ -51,11 +51,11 @@ const AstrologyKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                                src="./images/Parchment.png"
                                 alt=""
                             />
 
-                            <h4>Astrological Compatibility</h4>
+                            <h4 className="software-feature-headings" >Astrological Compatibility</h4>
                             <p>
                                 Assess compatibility with others through astrological compatibility reports, helping you understand relationship dynamics.
                             </p>
@@ -66,11 +66,11 @@ const AstrologyKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                                src="./images/Astrology.png"
                                 alt=""
                             />
 
-                            <h3 style={{ textAlign: "Center" }}>Astrology Predictions</h3>
+                            <h4 className="software-feature-headings" >Astrology Predictions</h4>
                             <p>
                                 Receive astrological predictions and forecasts for various life aspects such as love, career, and health.
                             </p>
@@ -80,11 +80,11 @@ const AstrologyKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                                src="./images/esoteric.png"
                                 alt=""
                             />
 
-                            <h4>Astrological Remedies</h4>
+                            <h4 className="software-feature-headings" >Astrological Remedies</h4>
                             <p>
                                 Explore personalized astrological remedies, including gemstones and mantras, to address challenges and enhance positivity.
                             </p>
@@ -93,11 +93,11 @@ const AstrologyKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                                src="./images/lunar.png"
                                 alt=""
                             />
 
-                            <h4>Lunar Phases and Eclipses</h4>
+                            <h4 className="software-feature-headings" >Lunar Phases and Eclipses</h4>
                             <p>
                                 Track lunar phases and eclipses to understand their influence on emotions and manifestation potential.
                             </p>
@@ -107,11 +107,11 @@ const AstrologyKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                                src="./images/article.png"
                                 alt=""
                             />
 
-                            <h4>Astrology Articles</h4>
+                            <h4 className="software-feature-headings" >Astrology Articles</h4>
                             <p>
                                 Access a variety of astrology articles and resources to deepen your understanding of astrological principles.
                             </p>

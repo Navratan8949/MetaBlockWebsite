@@ -8,9 +8,9 @@ const GrocryIndustries = () => {
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/factory.png" alt="" />
+                            <img src="./images/personal.png" alt="" />
 
-                            <h4>Personal Shopping</h4>
+                            <h4 className="software-feature-headings" >Personal Shopping</h4>
                             <p>
                                 Individuals use grocery apps like Instacart, Walmart Grocery, and Amazon Fresh for their personal shopping needs, allowing them to order groceries conveniently from home or on the go.
                             </p>
@@ -19,9 +19,9 @@ const GrocryIndustries = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/supermarket.png" alt="" />
+                            <img src="./images/family.png" alt="" />
 
-                            <h4>Family Shopping</h4>
+                            <h4 className="software-feature-headings" >Family Shopping</h4>
                             <p>
                                 Families utilize grocery apps to manage their household shopping lists, share lists among family members, and coordinate grocery purchases for the entire household.
                             </p>
@@ -30,9 +30,9 @@ const GrocryIndustries = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/healthcare.png" alt="" />
+                            <img src="./images/process.png" alt="" />
 
-                            <h4>Office Pantry Management</h4>
+                            <h4 className="software-feature-headings" >Office Pantry Management</h4>
                             <p>
                                 Companies and organizations use grocery apps to manage their office pantry supplies, order snacks, beverages, and other essentials for employees, ensuring a well-stocked and organized workplace.
                             </p>
@@ -41,9 +41,9 @@ const GrocryIndustries = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/bank.png" alt="" />
+                            <img src="./images/coffee-cup.png" alt="" />
 
-                            <h4>Restaurant and Cafe Supplies</h4>
+                            <h4 className="software-feature-headings" >Restaurant and Cafe Supplies</h4>
                             <p>
                                 Restaurants, cafes, and food businesses leverage grocery apps to source ingredients, supplies, and specialty items needed for their menus and operations, ensuring quality and freshness.
                             </p>
@@ -53,9 +53,9 @@ const GrocryIndustries = () => {
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/school.png" alt="" />
+                            <img src="./images/people.png" alt="" />
 
-                            <h4>Hospitality Industry</h4>
+                            <h4 className="software-feature-headings" >Hospitality Industry</h4>
                             <p>
                                 Hotels, resorts, and hospitality businesses use grocery apps to order food, beverages, and amenities for their guests, providing a convenient and seamless guest experience during their stay.
                             </p>
@@ -64,9 +64,9 @@ const GrocryIndustries = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/government.png" alt="" />
+                            <img src="./images/time-management.png" alt="" />
 
-                            <h4>Event Planning</h4>
+                            <h4 className="software-feature-headings" >Event Planning</h4>
                             <p>
                                 Event planners and organizers use grocery apps to order catering supplies, beverages, and snacks for events such as weddings, parties, conferences, and corporate functions, ensuring timely delivery and quality products.
                             </p>
@@ -74,9 +74,9 @@ const GrocryIndustries = () => {
                     </div>
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/architect.png" alt="" />
+                            <img src="./images/hospital-building.png" alt="" />
 
-                            <h4>Healthcare Facilities</h4>
+                            <h4 className="software-feature-headings" >Healthcare Facilities</h4>
                             <p>
                                 Hospitals, clinics, and healthcare facilities use grocery apps to order medical supplies, dietary products, and specialized nutrition items for patients and medical staff, ensuring continuity of care and wellness.
                             </p>
@@ -85,9 +85,9 @@ const GrocryIndustries = () => {
 
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/customer-service.png" alt="" />
+                            <img src="./images/college.png" alt="" />
 
-                            <h4>Educational Institutions</h4>
+                            <h4 className="software-feature-headings" >Educational Institutions</h4>
                             <p>
                                 Schools, colleges, and universities use grocery apps to order cafeteria supplies, snacks, and beverages for students, faculty, and staff, ensuring a well-stocked and nutritious food service environment.
                             </p>

@@ -9,11 +9,11 @@ const FoodDelevryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                                src="./images/meal.png"
                                 alt=""
                             />
 
-                            <h4>Restaurant Listings</h4>
+                            <h4 className="software-feature-headings" >Restaurant Listings</h4>
                             <p>
                                 Users can easily create accounts and manage profiles, including delivery addresses and preferred payment methods.
                             </p>
@@ -23,11 +23,11 @@ const FoodDelevryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
+                                src="./images/search.png"
                                 alt=""
                             />
 
-                            <h4>Search and Filters</h4>
+                            <h4 className="software-feature-headings" >Search and Filters</h4>
                             <p>
                                 Quickly find your desired restaurants and dishes using advanced search and filtering options based on various criteria.
                             </p>
@@ -36,11 +36,11 @@ const FoodDelevryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
+                                src="./images/arrow.png"
                                 alt=""
                             />
 
-                            <h4>Menu Browsing</h4>
+                            <h4 className="software-feature-headings" >Menu Browsing</h4>
                             <p>
                                 Browse through restaurant menus, view item details, and customize orders according to your preferences with ease.
                             </p>
@@ -50,11 +50,11 @@ const FoodDelevryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                                src="./images/inspection.png"
                                 alt=""
                             />
 
-                            <h4>Order Placement</h4>
+                            <h4 className="software-feature-headings" >Order Placement</h4>
                             <p>
                                 Place orders seamlessly, choosing between delivery or pickup options and scheduling preferred delivery times.
                             </p>
@@ -65,11 +65,11 @@ const FoodDelevryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                                src="./images/agreement.png"
                                 alt=""
                             />
 
-                            <h3 style={{ textAlign: "Center" }}>Payment Integration</h3>
+                            <h4 className="software-feature-headings" >Payment Integration</h4>
                             <p>
                                 Pay securely using a variety of payment methods, including credit/debit cards, mobile wallets, and cash on delivery.
                             </p>
@@ -79,11 +79,10 @@ const FoodDelevryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                                src="./images/meal.png"
                                 alt=""
                             />
-
-                            <h4>Ratings and Reviews</h4>
+                            <h4 className="software-feature-headings" >Ratings and Reviews</h4>
                             <p>
                                 Access ratings and reviews from other customers to make informed dining decisions and share your own feedback.
                             </p>
@@ -92,11 +91,11 @@ const FoodDelevryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                                src="./images/technical-support.png"
                                 alt=""
                             />
 
-                            <h4>Customer Support</h4>
+                            <h4 className="software-feature-headings" >Customer Support</h4>
                             <p>
                                 Receive prompt assistance for any queries or concerns through various customer support channels, including live chat and email.
                             </p>
@@ -106,11 +105,11 @@ const FoodDelevryKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                                src="./images/notification.png"
                                 alt=""
                             />
 
-                            <h4>Push Notifications</h4>
+                            <h4 className="software-feature-headings" >Push Notifications</h4>
                             <p>
                                 Stay informed about your order status and receive notifications about special promotions via push notifications.
                             </p>

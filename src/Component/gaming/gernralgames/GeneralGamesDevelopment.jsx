@@ -3,6 +3,8 @@ import "./GeneralGamesDevelopment.css";
 import AutoPlay from "../../MainPage/ReactSlick";
 import AutoPlaygame from "./Gameslider";
 import { useNavigate } from "react-router-dom";
+import GameDemandSlider from "../../gaming/gernralgames/GameDemandSlider"
+import WhyChooseUs from "../../MainPage/WhyChooseUs";
 const GeneralGamesDevelopment = () => {
 
 
@@ -18,7 +20,7 @@ const GeneralGamesDevelopment = () => {
               <div className="col-lg-6 col-12">
                 <div className="banner_sec">
                   <h1 className="title">
-                    <span className="bnr_clr_title">Game Development</span>{" "}
+                    <span className="bnr_clr_title"> General Game Development</span>
                     <br /> Company
                   </h1>
                   <p className="contents">
@@ -429,6 +431,7 @@ const GeneralGamesDevelopment = () => {
             </div>
           </div>
         </section>
+        <GameDemandSlider />
         <section className="game_dev_comp_production">
           <div className="container">
             <div className="row align-items-center">
@@ -583,6 +586,7 @@ const GeneralGamesDevelopment = () => {
             </div>
           </div>
         </section>
+        <WhyChooseUs />
         <section className="game_dev_comp_why">
           <div className="container">
             <div className="why_img_sec">
@@ -693,7 +697,7 @@ const GeneralGamesDevelopment = () => {
           </div>
         </section>
       </main>
-    </div>
+    </div >
   );
 };
 

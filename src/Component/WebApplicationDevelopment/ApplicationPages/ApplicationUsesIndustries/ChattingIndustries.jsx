@@ -4,100 +4,15 @@ const ChattingIndustries = () => {
     return (
         <div className="m-0">
             <div className="dashboard-main-box">
-                <h4 className="Key-feature-heading">Software Uses Industries</h4>
+                <h4 className="Key-feature-heading">Application Uses Industries</h4>
                 <div className="dashboard-container">
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
-                            <img src="./images/factory.png" alt="" />
+                            <img src="./images/networking.png" alt="" />
 
-                            <h4>Manufacturing</h4>
+                            <h4 className="software-feature-headings" >Social Networking</h4>
                             <p>
-                                {" "}
-                                ERP systems help manage production planning, scheduling,
-                                inventory management, supply chain operations, quality control,
-                                and resource allocation.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes">
-                        <div className="key-feature-heading">
-                            <img src="./images/supermarket.png" alt="" />
-
-                            <h4>Retail</h4>
-                            <p>
-                                Retailers use ERP software to manage inventory, sales, customer
-                                relationship management (CRM), point-of-sale (POS) systems, and
-                                supply chain processes.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes">
-                        <div className="key-feature-heading">
-                            <img src="./images/healthcare.png" alt="" />
-
-                            <h4>Healthcare</h4>
-                            <p>
-                                {" "}
-                                ERP systems are used in hospitals and healthcare organizations
-                                to manage patient records, billing, scheduling, inventory, and
-                                regulatory compliance.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes">
-                        <div className="key-feature-heading">
-                            <img src="./images/bank.png" alt="" />
-
-                            <h4>Finance and Banking</h4>
-                            <p>
-                                Financial institutions use ERP software for managing accounting,
-                                financial reporting, regulatory compliance, risk management, and
-                                customer relationship management.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div className="dashboard-container">
-                    <div className="dashboard-container-box dashboard-boxes">
-                        <div className="key-feature-heading">
-                            <img src="./images/school.png" alt="" />
-
-                            <h4>Education</h4>
-                            <p>
-                                {" "}
-                                Educational institutions utilize ERP systems for student
-                                information management, academic scheduling, course
-                                registration, grading, and financial management.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="dashboard-container-box dashboard-boxes">
-                        <div className="key-feature-heading">
-                            <img src="./images/government.png" alt="" />
-
-                            <h4>Government</h4>
-                            <p>
-                                Government agencies leverage ERP software to manage budgeting,
-                                procurement, human resources, payroll, and other administrative
-                                processes.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="dashboard-container-box dashboard-boxes">
-                        <div className="key-feature-heading">
-                            <img src="./images/architect.png" alt="" />
-
-                            <h4>Construction</h4>
-                            <p>
-                                {" "}
-                                In the construction industry, ERP systems help manage project
-                                costing, resource allocation, equipment management,
-                                subcontractor coordination, project scheduling, and procurement
-                                of materials.
+                                Chatting apps are essential for real-time communication and interaction on social media platforms, connecting users globally in a seamless manner.
                             </p>
                         </div>
                     </div>
@@ -106,12 +21,75 @@ const ChattingIndustries = () => {
                         <div className="key-feature-heading">
                             <img src="./images/customer-service.png" alt="" />
 
-                            <h4>Services</h4>
+                            <h4 className="software-feature-headings" >Customer Service</h4>
                             <p>
-                                ERP solutions cater to service-oriented businesses such as
-                                consulting firms, legal practices, and marketing agencies to
-                                streamline project management, resource allocation, time
-                                tracking, and billing.
+                                RChatting applications serve as direct channels for businesses to address customer inquiries and provide timely support.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="dashboard-container-box dashboard-boxes">
+                        <div className="key-feature-heading">
+                            <img src="./images/education.png" alt="" />
+
+                            <h4 className="software-feature-headings" >Education</h4>
+                            <p>
+                                Chatting apps facilitate communication between students and educators in remote learning settings, enabling collaboration, discussions, and feedback exchange.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="dashboard-container-box dashboard-boxes">
+                        <div className="key-feature-heading">
+                            <img src="./images/healthcare.png" alt="" />
+
+                            <h4 className="software-feature-headings" >Healthcare</h4>
+                            <p>
+                                Healthcare professionals utilize chatting applications for telemedicine consultations and medical team communication, ensuring effective remote healthcare delivery and patient care.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="dashboard-container">
+                    <div className="dashboard-container-box dashboard-boxes">
+                        <div className="key-feature-heading">
+                            <img src="./images/shopping.png" alt="" />
+
+                            <h4 className="software-feature-headings" >E-commerce</h4>
+                            <p>
+                                Chatting apps enable communication between buyers and sellers on e-commerce platforms, facilitating order inquiries, product recommendations, and customer support.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="dashboard-container-box dashboard-boxes">
+                        <div className="key-feature-heading">
+                            <img src="./images/joystick.png" alt="" />
+
+                            <h4 className="software-feature-headings" >Gaming</h4>
+                            <p>
+                                Integrated into gaming platforms, chatting apps allow players to communicate, strategize, and coordinate gameplay, enhancing the gaming experience and fostering community interaction.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="dashboard-container-box dashboard-boxes">
+                        <div className="key-feature-heading">
+                            <img src="./images/freelance-work.png" alt="" />
+
+                            <h4 className="software-feature-headings" >Freelancing</h4>
+                            <p>
+                                Freelancers leverage chatting apps for client communication and project collaboration, enabling seamless coordination and management of remote work assignments.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="dashboard-container-box dashboard-boxes">
+                        <div className="key-feature-heading">
+                            <img src="./images/calendar.png" alt="" />
+
+                            <h4 className="software-feature-headings" >Event Planning</h4>
+                            <p>
+                                Chatting applications streamline communication among event organizers, vendors, and attendees, facilitating efficient planning and execution of events.
                             </p>
                         </div>
                     </div>

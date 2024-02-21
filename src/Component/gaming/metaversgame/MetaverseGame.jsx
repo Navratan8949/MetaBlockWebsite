@@ -465,7 +465,7 @@ const MetaverseGame = () => {
                       src="./images/idea (1).png" alt="Social interaction"
                       title="Social interaction"
                       className="sprite_icons lazyload"
-                      style={{ objectPosition: "-225px 0px" }}
+
                     />
                   </div>
                   <h3 className="sub_title">Social interaction</h3>
@@ -483,7 +483,7 @@ const MetaverseGame = () => {
                       src="./images/new-product.png" alt="Creative expression"
                       title="Creative expression"
                       className="sprite_icons lazyload"
-                      style={{ objectPosition: "-345px 0px" }}
+
                     />
                   </div>
                   <h3 className="sub_title">Creative expression</h3>

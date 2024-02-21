@@ -12,7 +12,7 @@ const NFTCrosschainPlatfromDevelopment = () => {
               <div className="col-lg-6 col-12">
                 <div className="banner_sec">
                   <h1 className="title"><span className="cus_title">NFT Crosschain  </span> <br />Platfrom DEVELOPMENT </h1>
-                  <p className="contents">Build Your High ROI Generating NFT Marketplace Platforms by our White label NFT Marketplace Development Services developed by best professional NFT Blockchain Developers.</p>
+                  <p className="contents"> hello Build Your High ROI Generating NFT Marketplace Platforms by our White label NFT Marketplace Development Services developed by best professional NFT Blockchain Developers.</p>
                   <div className="banner_btn_sec">
                     <a data-toggle="modal" data-target="#popup_form_modal" className="btn banner_btn" target="_blank">Request A Quote</a>
                   </div>

@@ -3,9 +3,9 @@ import './About.css'
 
 const About = () => {
   return (
-    <div style={{background:'black'}}>
+    <div style={{ background: 'black' }}>
       <div>
-        <div className="footer_new_form" style={{background:'#000'}}>
+        <div className="footer_new_form" style={{ background: '#000' }}>
           <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-lg-11">
@@ -14,7 +14,7 @@ const About = () => {
                     <div className="col-lg-7 p-lg-0 order-2 order-lg-1">
                       <div className="footer_left_bg layzy">
                         <img
-                          src="./SGimage/contact_new-2.png"
+                          src="./images/Title_Page-removebg-preview.png"
                           className="img-fluid lazyload"
                           loading="eager"
                           alt="Tell us about your project"
@@ -962,7 +962,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 };

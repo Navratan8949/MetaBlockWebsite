@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 
 import AutoPlaygame from "../gernralgames/Gameslider";
+import GameDemandSlider from "../gernralgames/GameDemandSlider";
 const PokerGameDevelopment = () => {
 
 
@@ -690,6 +691,8 @@ const PokerGameDevelopment = () => {
                         </div>
                     </div>
                 </section>
+                <GameDemandSlider />
+
                 <section className="game_dev_comp_production">
                     <div className="container">
                         <div className="row align-items-center">

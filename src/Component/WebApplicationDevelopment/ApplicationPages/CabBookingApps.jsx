@@ -88,7 +88,8 @@ const CabBookingApps = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
+
+                As specialists in cab booking apps, we excel in providing user-friendly interfaces and real-time tracking for seamless transportation experiences. Our priority lies in ensuring safety and reliability through stringent security measures and trusted partnerships with drivers and transportation companies. Whether you're commuting to work, heading to the airport, or exploring a new city, our app offers convenience, comfort, and peace of mind every step of the way. With multiple payment options and reliable customer support, we strive to make your journey hassle-free. Experience the difference with our specialized cab booking app today.
               </p>
 
 

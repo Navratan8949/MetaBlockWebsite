@@ -87,7 +87,7 @@ const DatingApps = () => {
             <div className="Enterprise-left-div">
               <h1 className='Key-feature-heading'>We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-                It seems like your company specializes in a wide array of software solutions, catering to various industries and needs. From ERP and SAAS software to HRMS and warehouse management solutions, your expertise extends to accounting, billing, and POS systems. Additionally, you offer services such as employee tracking, attendance management, CRM, library management, and live class-enabled learning management systems. Your offerings also encompass university management, quiz systems, astrology software, travel and matrimonial booking platforms, as well as solutions for restaurant, hotel, and event management. For healthcare, you provide hospital and clinic management systems, and for business, MLM, trading, and job portal software solutions. Your diverse range indicates a commitment to meeting the technological needs of a broad spectrum of clients and industries.
+                Specializing in dating apps, we've crafted a platform where genuine connections flourish. With innovative features like tailored matching algorithms and interactive messaging, we empower users to navigate the dating landscape with confidence. From personalized profiles to real-time notifications, our app streamlines the search for meaningful relationships. Whether you're seeking romance or companionship, we provide a safe and supportive environment for every aspect of your dating journey. Join us and discover a world where love meets technology, making finding your perfect match both exciting and effortless.
               </p>
 
 

@@ -9,11 +9,11 @@ const LearningKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                                src="./images/Catalog.png"
                                 alt=""
                             />
 
-                            <h4>Course Catalog</h4>
+                            <h4 className="software-feature-headings" >Course Catalog</h4>
                             <p>
                                 Provides a comprehensive catalog of courses with detailed descriptions and enrollment options.
                             </p>
@@ -23,11 +23,12 @@ const LearningKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/1.webp"
+                                src="./images/content.png"
                                 alt=""
                             />
 
-                            <h4>Content Management</h4>
+
+                            <h4 className="software-feature-headings" >Content Management</h4>
                             <p>
                                 Allows instructors to create, upload, and organize course materials such as lectures, presentations, and assignments.
                             </p>
@@ -36,11 +37,12 @@ const LearningKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/5.webp"
+                                src="./images/progress.png"
                                 alt=""
                             />
 
-                            <h4>Progress Tracking</h4>
+
+                            <h4 className="software-feature-headings" >Progress Tracking</h4>
                             <p>
                                 Enables users to track their progress through courses, including completion of modules, quiz scores, and assignment submissions.
                             </p>
@@ -50,11 +52,12 @@ const LearningKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                                src="./images/document.png"
                                 alt=""
                             />
 
-                            <h4>Assessments</h4>
+
+                            <h4 className="software-feature-headings" >Assessments</h4>
                             <p>
                                 Offers tools for creating and taking assessments to measure understanding and mastery of course content.
                             </p>
@@ -65,11 +68,12 @@ const LearningKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                                src="./images/meeting.png"
                                 alt=""
                             />
 
-                            <h3 style={{ textAlign: "Center" }}> Discussion Forums </h3>
+
+                            <h4 className="software-feature-headings" > Discussion Forums </h4>
                             <p>
                                 Facilitates communication and collaboration among users through discussion forums and chat rooms.
                             </p>
@@ -79,11 +83,12 @@ const LearningKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/2.webp"
+                                src="./images/notification.png"
                                 alt=""
                             />
 
-                            <h4>Notifications</h4>
+
+                            <h4 className="software-feature-headings" >Notifications</h4>
                             <p>
                                 Sends notifications and reminders for upcoming deadlines, new course materials, and discussion updates.
                             </p>
@@ -92,11 +97,12 @@ const LearningKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/4.webp"
+                                src="./images/customization.png"
                                 alt=""
                             />
 
-                            <h4>Customization</h4>
+
+                            <h4 className="software-feature-headings" >Customization</h4>
                             <p>
                                 Enables organizations to customize the platform with their branding elements and themes.
                             </p>
@@ -106,11 +112,12 @@ const LearningKeyFeature = () => {
                     <div className="dashboard-container-box dashboard-boxes">
                         <div className="key-feature-heading">
                             <img
-                                src="https://www.bdtask.com/sp/sales-erp-software/img/sales-icon/6.webp"
+                                src="./images/data.png"
                                 alt=""
                             />
 
-                            <h4>Integration</h4>
+
+                            <h4 className="software-feature-headings" >Integration</h4>
                             <p>
                                 Integrates with other systems such as student information systems and content repositories for a seamless learning experience.
                             </p>
