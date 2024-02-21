@@ -10,7 +10,9 @@ const AttdenceKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/fingerprint-scanner.png" alt="" />
 
-              <h4>Biometric Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Biometric Integration
+              </h4>
               <p>
                 Biometric Integration ensures secure employee identification
                 through fingerprint, facial recognition, or iris scanning.
@@ -21,7 +23,9 @@ const AttdenceKeyFeature = () => {
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/time-tracking.png" alt="" />
-              <h4>Time Tracking</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Time Tracking
+              </h4>
               <p>
                 Time Tracking records employee clock-in/out times, breaks, and
                 overtime hours accurately. .
@@ -31,7 +35,9 @@ const AttdenceKeyFeature = () => {
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/business.png" alt="" />
-              <h4>Remote Attendance Tracking</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Remote Attendance Tracking
+              </h4>
               <p>
                 Remote Attendance Tracking enables logging attendance from
                 remote locations using web or mobile applications.
@@ -42,7 +48,10 @@ const AttdenceKeyFeature = () => {
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/computer.png" alt="" />
-              <h4> Real-Time Monitoring</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Real-Time Monitoring
+              </h4>
               <p>
                 Real-Time Monitoring provides managers with up-to-date
                 visibility into employee attendance data.
@@ -55,7 +64,9 @@ const AttdenceKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/notification.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Notifications and Alerts</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Notifications and Alerts
+              </h4>
               <p>
                 Notifications and Alerts send timely notifications for late
                 arrivals, absences, or attendance issues.
@@ -66,7 +77,9 @@ const AttdenceKeyFeature = () => {
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/report.png" alt="" />
-              <h4>Compliance Reporting</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Compliance Reporting
+              </h4>
               <p>
                 Compliance Reporting generates reports to ensure adherence to
                 labor regulations and company policies.
@@ -76,7 +89,9 @@ const AttdenceKeyFeature = () => {
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/policy.png" alt="" />
-              <h4>Customizable Policies</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Customizable Policies
+              </h4>
               <p>
                 Customizable Policies allow tailoring attendance rules to
                 organizational needs and values.
@@ -87,7 +102,9 @@ const AttdenceKeyFeature = () => {
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/absent.png" alt="" />
-              <h4>Absence Tracking</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Absence Tracking
+              </h4>
               <p>
                 Absence Tracking monitors and records employee absences,
                 including reasons for absence and duration, to track patterns

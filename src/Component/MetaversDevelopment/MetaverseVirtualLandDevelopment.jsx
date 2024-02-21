@@ -31,8 +31,8 @@ const MetaverseVirtualLandDevelopment = () => {
                                     <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-event-platform-development/metaverse-event-sec.webp" alt="Metaverse Virtual Event" title="Metaverse Virtual Event" className="img-fluid" />
                                 </div>
                                 <div className="virtual_content_sec">
-                                    <h2 className="title">Metaverse Virtual Event</h2>
-                                    <p className="contents">The Metaverse Virtual Event is an immersive digital environment that combines virtual reality (VR), augmented reality (AR), and other emerging technologies to create a shared virtual space where users can interact with each
+                                    <h2 className="title">Metaverse Virtual Land</h2>
+                                    <p className="contents">The Metaverse Virtual Land is an immersive digital environment that combines virtual reality (VR), augmented reality (AR), and other emerging technologies to create a shared virtual space where users can interact with each
                                         other and computer-generated content in real-time. It is a dynamic and interconnected network of virtual worlds, allowing participants to engage in various activities, such as attending conferences, concerts, exhibitions,
                                         and social gatherings, all within a simulated, three-dimensional (3D) environment. Virtual event leverages advanced networking protocols, distributed computing, and high-performance graphics rendering to enable seamless
                                         communication, real-time data processing, and realistic simulations.</p>

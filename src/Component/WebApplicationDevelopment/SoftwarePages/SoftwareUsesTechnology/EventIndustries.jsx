@@ -10,7 +10,9 @@ const EventIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/event.png" alt="" />
 
-              <h4>Corporate Events</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Corporate Events
+              </h4>
               <p>
                 {" "}
                 Corporations rely on event management software to efficiently
@@ -23,7 +25,9 @@ const EventIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/show.png" alt="" />
 
-              <h4>Trade Shows</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Trade Shows
+              </h4>
               <p>
                 {" "}
                 Event management software streamlines booth assignments,
@@ -37,7 +41,9 @@ const EventIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/couple.png" alt="" />
 
-              <h4>Weddings</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Weddings
+              </h4>
               <p>
                 {" "}
                 Planners utilize software for venue selection, guest lists,
@@ -50,7 +56,9 @@ const EventIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/scholarship.png" alt="" />
 
-              <h4>Education</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Education
+              </h4>
               <p>
                 {" "}
                 Schools and universities organize academic conferences, alumni
@@ -65,7 +73,9 @@ const EventIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/non.png" alt="" />
 
-              <h4>Non-Profits</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Non-Profits
+              </h4>
               <p>
                 {" "}
                 Non-profit organizations utilize software for fundraising
@@ -78,7 +88,9 @@ const EventIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/town.png" alt="" />
 
-              <h4>Government Events</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Government Events
+              </h4>
               <p>
                 {" "}
                 Governments efficiently organize public events, conferences,
@@ -90,7 +102,9 @@ const EventIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/trophy.png" alt="" />
 
-              <h4>Sports Events</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Sports Events
+              </h4>
               <p>
                 {" "}
                 Organizers manage sports tournaments, championships, and
@@ -103,7 +117,9 @@ const EventIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/concert.png" alt="" />
 
-              <h4>Concerts</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Concerts
+              </h4>
               <p>
                 {" "}
                 Event management software assists in managing ticket sales,

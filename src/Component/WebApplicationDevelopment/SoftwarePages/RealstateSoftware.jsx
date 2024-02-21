@@ -16,26 +16,25 @@ import RealstateSwiperSlider from "./SwiperSlider/RealstateSwiperSlider";
 // import '../../main.css'
 
 const RealstateSoftware = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
       <div className="main-div-Application">
         <header className="enterprise-mobile-app-development arkit header-shadow">
-
           <div className="container h-100">
             <div className="row h-100">
-
               <div className="col-lg-12 my-auto">
                 <div className="header-content mx-auto">
                   <h1 className="mb-5">
                     Real State Software Development Company
                   </h1>
                   <h3 className="heading-tagline">
-                    From start-ups to enterprises, we deliver forward-thinking
-                    ERP software with robust functionalities and cutting-edge
-                    technologies. Harness our comprehensive ERP services to
-                    revolutionize your business processes and strategies in the
-                    ERP world.
+                    Real Estate Software offers comprehensive solutions for
+                    property management, listings, and client relationship
+                    management. With features like property analytics and
+                    marketing tools, it empowers real estate professionals to
+                    streamline transactions, enhance customer experiences, and
+                    drive business growth in dynamic markets.
                   </h3>
                   {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                   {/* <div className="text-center">
@@ -86,12 +85,21 @@ const RealstateSoftware = () => {
         <section className="Enterprise-container">
           <div className="Enterprise-box">
             <div className="Enterprise-left-div">
-              <h1 className='Key-feature-heading'>We Are Specialist</h1>
+              <h1 className="Key-feature-heading">We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-
-                As specialists in real estate software, our expertise lies in providing tailored solutions to meet the diverse needs of real estate professionals and agencies. Our software is meticulously designed to streamline various aspects of property management, including listing management, lead generation, client communication, and transaction tracking. With our expertise, real estate professionals can efficiently manage their listings, attract potential buyers or tenants, and close deals seamlessly. Whether it's a small independent agency or a large brokerage, our customizable software ensures smooth operations and enhanced productivity, empowering our clients to succeed in the competitive real estate market.              </p>
-
-
+                As specialists in real estate software, our expertise lies in
+                providing tailored solutions to meet the diverse needs of real
+                estate professionals and agencies. Our software is meticulously
+                designed to streamline various aspects of property management,
+                including listing management, lead generation, client
+                communication, and transaction tracking. With our expertise,
+                real estate professionals can efficiently manage their listings,
+                attract potential buyers or tenants, and close deals seamlessly.
+                Whether it's a small independent agency or a large brokerage,
+                our customizable software ensures smooth operations and enhanced
+                productivity, empowering our clients to succeed in the
+                competitive real estate market.{" "}
+              </p>
 
               <button
                 type="button"
@@ -107,7 +115,6 @@ const RealstateSoftware = () => {
             <div className="Enterprise-right-div">
               {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
               <img src="./images/realstatedev.jpg" alt="" />
-
             </div>
           </div>
         </section>
@@ -120,7 +127,12 @@ const RealstateSoftware = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h2 style={{ color: "#D166AF ", fontSize: "31px" }} className="text-center Technology-Stack ">Technology Stack We Use</h2>
+                <h2
+                  style={{ color: "#D166AF ", fontSize: "31px" }}
+                  className="text-center Technology-Stack "
+                >
+                  Technology Stack We Use
+                </h2>
               </div>
             </div>
             <div className="row tech p-5 pt-0 mt-5 mb-5">
@@ -132,66 +144,84 @@ const RealstateSoftware = () => {
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
 
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/mysql.png" alt="" className="w-100 h-40" />
                 <h5>MySQL</h5>
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+                <img
+                  src="./images/java-script.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Java Srcipt</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/SQL-Lite.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>SQL Lite</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/html.png" alt="" className="w-100 h-40" />
                 <h5>HTML</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/android.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Android</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Mongo DB</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/app-store.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>App Store</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/atom.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Atom</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/laravel.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Laravel</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
             </div>
           </div>
@@ -225,13 +255,9 @@ const RealstateSoftware = () => {
         {/* <RelatedPortfolioSlider/> */}
         {/* <OnDemandAppSlider/> */}
 
-
-
-
         {/* <section className='Phone-card-slider'>
       <Phonecardslider />
     </section> */}
-
 
         {/* <section className="why_osiz section-heading ">
       <div className="container">
@@ -337,7 +363,8 @@ const RealstateSoftware = () => {
           <SimilarFile />
         </section>
       </div>
-    </>)
-}
+    </>
+  );
+};
 
-export default RealstateSoftware
+export default RealstateSoftware;

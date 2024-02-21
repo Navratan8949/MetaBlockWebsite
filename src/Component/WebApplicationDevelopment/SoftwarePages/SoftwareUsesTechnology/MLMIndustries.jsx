@@ -10,7 +10,9 @@ const MLMIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/soap.png" alt="" />
 
-              <h4>Health and Wellness Industry</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Health and Wellness Industry
+              </h4>
               <p>
                 MLM software manages distributor networks, tracks sales, and
                 processes commissions efficiently for health and wellness
@@ -23,7 +25,9 @@ const MLMIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/natural-product.png" alt="" />
 
-              <h4>Cosmetics and Beauty Products </h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Cosmetics and Beauty Products{" "}
+              </h4>
               <p>
                 In the cosmetics sector, MLM software streamlines distributor
                 management, sales tracking, and commission calculations.
@@ -35,7 +39,9 @@ const MLMIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/vitamins.png" alt="" />
 
-              <h4>Nutritional Supplements</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Nutritional Supplements
+              </h4>
               <p>
                 MLM software assists with distributor network management and
                 order processing for nutritional supplement companies.
@@ -47,7 +53,9 @@ const MLMIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/wardrobe.png" alt="" />
 
-              <h4>Fashion and Appare</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Fashion and Appare
+              </h4>
               <p>
                 MLM software assists with distributor network management and
                 sales tracking for apparel companies.
@@ -60,7 +68,9 @@ const MLMIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/location.png" alt="" />
 
-              <h4>Travel and Hospitality</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Travel and Hospitality
+              </h4>
               <p>
                 MLM software helps manage distributor networks selling travel
                 packages and accommodations.
@@ -72,7 +82,9 @@ const MLMIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/material-management.png" alt="" />
 
-              <h4>Inventory Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Inventory Management
+              </h4>
               <p>
                 Manage inventory levels, track stock movements, and optimize
                 supply chains with Inditres' real-time visibility and
@@ -84,7 +96,9 @@ const MLMIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/3d-printing-software.png" alt="" />
 
-              <h4>Technology Products</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Technology Products
+              </h4>
               <p>
                 MLM software aids technology companies in distributor network
                 management and sales tracking.
@@ -96,7 +110,9 @@ const MLMIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/personal-care.png" alt="" />
 
-              <h4>Personal Care Products</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Personal Care Products
+              </h4>
               <p>
                 MLM software supports sales channel management and order
                 processing for personal care companies.

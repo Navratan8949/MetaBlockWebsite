@@ -10,7 +10,9 @@ const ClinicIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/collaboration (1).png" alt="" />
 
-              <h4>c</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                c
+              </h4>
               <p>
                 {" "}
                 Efficiently schedule patient appointments, minimizing wait times
@@ -23,7 +25,9 @@ const ClinicIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/medical-record.png" alt="" />
 
-              <h4>Electronic Health Records</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Electronic Health Records
+              </h4>
               <p>
                 {" "}
                 Digitally store patient medical records for easy access and
@@ -36,7 +40,9 @@ const ClinicIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/registration.png" alt="" />
 
-              <h4>Patient Registration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Patient Registration
+              </h4>
               <p>
                 {" "}
                 Streamline patient registration processes, capturing essential
@@ -49,7 +55,9 @@ const ClinicIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/financial (1).png" alt="" />
 
-              <h4>Billing Processes</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Billing Processes
+              </h4>
               <p>
                 Simplify billing processes, generate invoices, and track
                 payments seamlessly.
@@ -62,7 +70,9 @@ const ClinicIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/crisis-management (1).png" alt="" />
 
-              <h4>Prescription Handling</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Prescription Handling
+              </h4>
               <p>
                 {" "}
                 Digitize prescription processes, ensuring accurate medication
@@ -75,7 +85,9 @@ const ClinicIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/seo.png" alt="" />
 
-              <h4>Inventory Oversight</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Inventory Oversight
+              </h4>
               <p>
                 {" "}
                 Track and manage clinic inventory for optimal stock levels and
@@ -87,7 +99,9 @@ const ClinicIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/report (1).png" alt="" />
 
-              <h4>Reporting & Analysis</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Reporting & Analysis
+              </h4>
               <p>
                 Generate reports and analyze clinic data for informed
                 decision-making and process improvement.
@@ -99,7 +113,9 @@ const ClinicIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/decision-making.png" alt="" />
 
-              <h4>Staff Coordination</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Staff Coordination
+              </h4>
               <p>
                 {" "}
                 Efficiently schedule staff shifts and manage workforce

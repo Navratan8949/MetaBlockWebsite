@@ -10,7 +10,9 @@ const EventKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/website.png" alt="" />
 
-              <h4>Registration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Registration
+              </h4>
               <p>
                 Registration streamlines attendee sign-ups, managing ticketing
                 options and essential details efficiently.
@@ -22,7 +24,9 @@ const EventKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/venue.png" alt="" />
 
-              <h4>Venue Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Venue Management
+              </h4>
               <p>
                 Venue Management simplifies booking and coordination, ensuring
                 suitable seating arrangements and room setups.
@@ -33,7 +37,9 @@ const EventKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/agenda.png" alt="" />
 
-              <h4>Agenda Planning</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Agenda Planning
+              </h4>
               <p>
                 Agenda Planning empowers organizers to craft detailed schedules,
                 featuring speakers and session topics.
@@ -45,7 +51,10 @@ const EventKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/management.png" alt="" />
 
-              <h4> Attendee Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Attendee Management
+              </h4>
               <p>
                 Attendee Management tracks attendee information, managing
                 registrations and facilitating communications seamlessly.
@@ -58,7 +67,9 @@ const EventKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/bill.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Ticketing and Payments</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Ticketing and Payments
+              </h4>
               <p>
                 Ticketing and Payments ensure secure processing, offering
                 various payment options and discounts.
@@ -70,7 +81,9 @@ const EventKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/certified.png" alt="" />
 
-              <h4>Check-In and Badges</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Check-In and Badges
+              </h4>
               <p>
                 Check-In and Badges streamline event entry with digital tools
                 and on-site badge printing.
@@ -81,7 +94,9 @@ const EventKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/technical-support.png" alt="" />
 
-              <h4>Networking Tools</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Networking Tools
+              </h4>
               <p>
                 Networking Tools facilitate connections through directories,
                 matchmaking, and messaging platforms.
@@ -93,7 +108,9 @@ const EventKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/exhibitor.png" alt="" />
 
-              <h4>Exhibitor Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Exhibitor Management
+              </h4>
               <p>
                 Exhibitor Management oversees booth assignments, sponsorships,
                 and communications, ensuring smooth collaboration.

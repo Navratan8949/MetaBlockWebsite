@@ -10,7 +10,9 @@ const AstrologyIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/personal-information.png" alt="" />
 
-              <h4>Personal Astrology</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Personal Astrology
+              </h4>
               <p>
                 Personal Astrology software helps individuals understand their
                 birth charts, providing insights into personality traits and
@@ -23,7 +25,9 @@ const AstrologyIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/astrolgygroth.png" alt="" />
 
-              <h4>Spiritual Growth</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Spiritual Growth
+              </h4>
               <p>
                 Spiritual Growth seekers utilize astrology software for
                 self-reflection and understanding life cycles.
@@ -35,7 +39,9 @@ const AstrologyIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/astrolgycontri.png" alt="" />
 
-              <h4>Astrological Consultations</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Astrological Consultations
+              </h4>
               <p>
                 Astrological Consultations involve professional astrologers
                 using software to interpret charts and offer guidance to
@@ -48,7 +54,9 @@ const AstrologyIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/Astrology.png" alt="" />
 
-              <h4>Astrological Communities</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Astrological Communities
+              </h4>
               <p>
                 Astrological Communities use software for discussions and
                 collaborative research in astrology topics.
@@ -61,7 +69,9 @@ const AstrologyIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/astrolgyreachars.png" alt="" />
 
-              <h4>Research and Study</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Research and Study
+              </h4>
               <p>
                 Research and Study in astrology involves scholars using software
                 to analyze data and explore astrological patterns.
@@ -73,7 +83,9 @@ const AstrologyIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/calendar.png" alt="" />
 
-              <h4>Event Planning</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Event Planning
+              </h4>
               <p>
                 Event Planning professionals use astrology software to select
                 auspicious dates for weddings and business launches.
@@ -84,7 +96,9 @@ const AstrologyIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/astrobook.png" alt="" />
 
-              <h4>Astrological Education</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Astrological Education
+              </h4>
               <p>
                 Astrological Education software aids students in learning chart
                 interpretation and astrological techniques.
@@ -96,7 +110,9 @@ const AstrologyIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/social-media.png" alt="" />
 
-              <h4>Media and Publications</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Media and Publications
+              </h4>
               <p>
                 Media and Publications rely on astrology software for creating
                 horoscopes and astrological articles.

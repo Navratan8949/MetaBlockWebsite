@@ -16,26 +16,26 @@ import ClinicSwiperSlider from "./SwiperSlider/ClinicSwiperSlider";
 // import '../../main.css'
 
 const ClinicManagmentSystemSoftware = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
       <div className="main-div-Application">
         <header className="enterprise-mobile-app-development arkit header-shadow">
-
           <div className="container h-100">
             <div className="row h-100">
-
               <div className="col-lg-12 my-auto">
                 <div className="header-content mx-auto">
                   <h1 className="mb-5">
                     Clinic Managment System Software Development Company
                   </h1>
                   <h3 className="heading-tagline">
-                    From start-ups to enterprises, we deliver forward-thinking
-                    ERP software with robust functionalities and cutting-edge
-                    technologies. Harness our comprehensive ERP services to
-                    revolutionize your business processes and strategies in the
-                    ERP world.
+                    Clinic Management System Software simplifies healthcare
+                    administration by digitizing patient records, appointments,
+                    and billing processes. With intuitive interfaces and secure
+                    data storage, it improves clinic efficiency, enhances
+                    patient care, and ensures compliance with regulatory
+                    standards, empowering healthcare providers to focus on
+                    delivering quality medical services.
                   </h3>
                   {/* <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                   {/* <div className="text-center">
@@ -86,12 +86,24 @@ const ClinicManagmentSystemSoftware = () => {
         <section className="Enterprise-container">
           <div className="Enterprise-box">
             <div className="Enterprise-left-div">
-              <h1 className='Key-feature-heading'>We Are Specialist</h1>
+              <h1 className="Key-feature-heading">We Are Specialist</h1>
               <p style={{ fontSize: "20px" }}>
-
-                As specialists in clinic management system software, our focus is on providing tailored solutions to meet the unique needs of healthcare providers and medical facilities. Our software is meticulously designed to streamline various aspects of clinic operations, including patient scheduling, electronic health records management, billing, and inventory tracking. With our expertise, clinics can efficiently manage their resources, improve patient care processes, and enhance overall efficiency. Whether it's a small private practice or a large medical center, our management system software is customizable to fit the specific requirements of each clinic, ensuring smooth operations and improved patient outcomes. We are committed to empowering healthcare providers with the tools they need to deliver high-quality care and streamline administrative tasks effectively.              </p>
-
-
+                As specialists in clinic management system software, our focus
+                is on providing tailored solutions to meet the unique needs of
+                healthcare providers and medical facilities. Our software is
+                meticulously designed to streamline various aspects of clinic
+                operations, including patient scheduling, electronic health
+                records management, billing, and inventory tracking. With our
+                expertise, clinics can efficiently manage their resources,
+                improve patient care processes, and enhance overall efficiency.
+                Whether it's a small private practice or a large medical center,
+                our management system software is customizable to fit the
+                specific requirements of each clinic, ensuring smooth operations
+                and improved patient outcomes. We are committed to empowering
+                healthcare providers with the tools they need to deliver
+                high-quality care and streamline administrative tasks
+                effectively.{" "}
+              </p>
 
               <button
                 type="button"
@@ -107,7 +119,6 @@ const ClinicManagmentSystemSoftware = () => {
             <div className="Enterprise-right-div">
               {/* <img src="https://soften.themeht.com/wp-content/uploads/2023/12/05-1.png" alt="" /> */}
               <img src="./images/clientdev.jpg" alt="" />
-
             </div>
           </div>
         </section>
@@ -120,7 +131,12 @@ const ClinicManagmentSystemSoftware = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h2 style={{ color: "#D166AF ", fontSize: "31px" }} className="text-center Technology-Stack ">Technology Stack We Use</h2>
+                <h2
+                  style={{ color: "#D166AF ", fontSize: "31px" }}
+                  className="text-center Technology-Stack "
+                >
+                  Technology Stack We Use
+                </h2>
               </div>
             </div>
             <div className="row tech p-5 pt-0 mt-5 mb-5">
@@ -132,66 +148,84 @@ const ClinicManagmentSystemSoftware = () => {
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
 
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/mysql.png" alt="" className="w-100 h-40" />
                 <h5>MySQL</h5>
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+                <img
+                  src="./images/java-script.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Java Srcipt</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/SQL-Lite.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>SQL Lite</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/html.png" alt="" className="w-100 h-40" />
                 <h5>HTML</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/android.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Android</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Mongo DB</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/app-store.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>App Store</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/atom.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Atom</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+                <img
+                  src="https://www.metakops.com/assets/img/tech/laravel.png"
+                  alt=""
+                  className="w-100 h-40"
+                />
                 <h5>Laravel</h5>
-
               </div>
 
               <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
                 <img src="./images/python.png" alt="" className="w-100 h-40" />
                 <h5>Python</h5>
-
               </div>
             </div>
           </div>
@@ -225,13 +259,9 @@ const ClinicManagmentSystemSoftware = () => {
         {/* <RelatedPortfolioSlider/> */}
         {/* <OnDemandAppSlider/> */}
 
-
-
-
         {/* <section className='Phone-card-slider'>
       <Phonecardslider />
     </section> */}
-
 
         {/* <section className="why_osiz section-heading ">
       <div className="container">
@@ -338,7 +368,7 @@ const ClinicManagmentSystemSoftware = () => {
         </section>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ClinicManagmentSystemSoftware
+export default ClinicManagmentSystemSoftware;

@@ -10,7 +10,9 @@ const AccountingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/owner.png" alt="" />
 
-              <h4>Small Businesses</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Small Businesses
+              </h4>
               <p>
                 Small businesses utilize Accounting and Billing Software (ABS)
                 to manage finances, create invoices, and track expenses
@@ -23,7 +25,9 @@ const AccountingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/store.png" alt="" />
 
-              <h4>Retail Stores</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Retail Stores
+              </h4>
               <p>
                 Retail stores rely on ABS for managing sales transactions,
                 tracking inventory, and generating invoices for customer
@@ -36,7 +40,9 @@ const AccountingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/customer-service-agent.png" alt="" />
 
-              <h4>Service-Based Businesses</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Service-Based Businesses
+              </h4>
               <p>
                 Service-based businesses leverage ABS to bill clients, track
                 billable hours, and manage project expenses accurately.
@@ -48,7 +54,9 @@ const AccountingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/industrial.png" alt="" />
 
-              <h4>Manufacturing Companies</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Manufacturing Companies
+              </h4>
               <p>
                 Manufacturing companies use ABS to monitor production costs,
                 manage inventory, and streamline invoicing processes for
@@ -62,7 +70,9 @@ const AccountingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/wholesaler.png" alt="" />
 
-              <h4>Wholesale Distribution</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Wholesale Distribution
+              </h4>
               <p>
                 Wholesale distributors employ ABS to manage sales orders, track
                 shipments, and handle invoicing for bulk purchases.
@@ -74,7 +84,9 @@ const AccountingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/accountecommers.png" alt="" />
 
-              <h4>E-commerce Platforms</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                E-commerce Platforms
+              </h4>
               <p>
                 E-commerce platforms utilize ABS to process online payments,
                 manage customer orders, and track sales transactions seamlessly.
@@ -85,7 +97,9 @@ const AccountingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/brain.png" alt="" />
 
-              <h4>Healthcare Practices</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Healthcare Practices
+              </h4>
               <p>
                 Healthcare practices rely on ABS for patient billing, insurance
                 claims processing, and managing medical expenses efficiently.
@@ -97,7 +111,9 @@ const AccountingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/education.png" alt="" />
 
-              <h4>Educational Institutions</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Educational Institutions
+              </h4>
               <p>
                 Educational institutions employ ABS to manage tuition fees,
                 track student payments, and generate financial reports for

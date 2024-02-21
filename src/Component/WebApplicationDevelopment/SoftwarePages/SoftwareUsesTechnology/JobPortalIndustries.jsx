@@ -10,7 +10,9 @@ const JobPortalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/protection.png" alt="" />
 
-              <h4>HR Industry</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                HR Industry
+              </h4>
               <p>
                 Job portals are widely used in human resources for recruitment
                 purposes.
@@ -22,7 +24,9 @@ const JobPortalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/sector.png" alt="" />
 
-              <h4>IT Sector </h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                IT Sector{" "}
+              </h4>
               <p>
                 In the IT sector, job portals serve as a primary tool for hiring
                 software developers, engineers, and other tech professionals.
@@ -34,7 +38,9 @@ const JobPortalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/health-care.png" alt="" />
 
-              <h4>Healthcare Industry</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Healthcare Industry
+              </h4>
               <p>
                 Hospitals and healthcare organizations utilize job portals to
                 fill positions for doctors, nurses, and administrative staff
@@ -46,7 +52,9 @@ const JobPortalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/pie-graph.png" alt="" />
 
-              <h4>Education Sector</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Education Sector
+              </h4>
               <p>
                 Educational institutions rely on job portals to hire teachers,
                 professors, and support staff.
@@ -59,7 +67,9 @@ const JobPortalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/retailer.png" alt="" />
 
-              <h4>Retail Industry</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Retail Industry
+              </h4>
               <p>
                 Retail companies use job portals to recruit sales associates,
                 store managers, and customer service representatives.
@@ -71,7 +81,9 @@ const JobPortalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/industrial-robot.png" alt="" />
 
-              <h4>Manufacturing Industry</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Manufacturing Industry
+              </h4>
               <p>
                 Manufacturing companies use job portals to hire production
                 workers, engineers, and technicians.
@@ -82,7 +94,9 @@ const JobPortalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/worker.png" alt="" />
 
-              <h4>Construction Industry</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Construction Industry
+              </h4>
               <p>
                 Construction companies rely on job portals to hire construction
                 workers, engineers, and project managers.
@@ -94,7 +108,9 @@ const JobPortalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/consultation.png" alt="" />
 
-              <h4>Consulting Services</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Consulting Services
+              </h4>
               <p>
                 Consulting firms use job portals for recruiting consultants and
                 analysts for various projects.{" "}

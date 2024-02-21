@@ -10,7 +10,9 @@ const TravelKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/travelflight.png" alt="" />
 
-              <h4>Flight Booking</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Flight Booking
+              </h4>
               <p>
                 Flight Booking facilitates searching, comparing, and booking
                 flights from multiple airlines based on destination, dates, and
@@ -23,7 +25,9 @@ const TravelKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/tavelhotels.png" alt="" />
 
-              <h4>Hotel Reservation</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Hotel Reservation
+              </h4>
               <p>
                 Hotel Reservation allows users to search and book
                 accommodations, including hotels, resorts, and vacation rentals,
@@ -35,7 +39,9 @@ const TravelKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/travelcarrental.png" alt="" />
 
-              <h4>Car Rental</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Car Rental
+              </h4>
               <p>
                 Car Rental Services integrate car rental options, enabling users
                 to book vehicles for transportation during their travels.
@@ -47,7 +53,9 @@ const TravelKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/travelintrimane.png" alt="" />
 
-              <h4>Itinerary Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Itinerary Management
+              </h4>
               <p>
                 Itinerary Management provides tools to organize and manage
                 travel itineraries, including flight details, hotel bookings,
@@ -61,7 +69,9 @@ const TravelKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/travelpaymentgat.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Payment Integration</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Payment Integration
+              </h4>
               <p>
                 Payment Gateway Integration securely processes online payments
                 for flight tickets, hotel reservations, and other travel
@@ -74,7 +84,9 @@ const TravelKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/travelrealtime.png" alt="" />
 
-              <h4>Real-time Updates</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Real-time Updates
+              </h4>
               <p>
                 Real-time Availability offers real-time updates on flight
                 schedules, hotel availability, and car rental options, ensuring
@@ -86,7 +98,9 @@ const TravelKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/travelslaguage.png" alt="" />
 
-              <h4>Multilingual Support</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Multilingual Support
+              </h4>
               <p>
                 Real-time Availability offers real-time updates on flight
                 schedules, hotel availability, and car rental options, ensuring
@@ -99,7 +113,9 @@ const TravelKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/travelslaguage.png" alt="" />
 
-              <h4>Multilingual Support</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Multilingual Support
+              </h4>
               <p>
                 Multi-language and Currency Support caters to a global audience
                 by supporting multiple languages and currencies, facilitating

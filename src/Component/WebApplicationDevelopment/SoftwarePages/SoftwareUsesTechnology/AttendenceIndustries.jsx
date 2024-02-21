@@ -10,7 +10,9 @@ const AttendenceIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/corporate-citizenship.png" alt="" />
 
-              <h4>Corporate Offices</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Corporate Offices
+              </h4>
               <p>
                 Corporate Offices rely on Attendance System Software to monitor
                 employee attendance, track work hours, and manage shifts
@@ -23,7 +25,9 @@ const AttendenceIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/eco-factory.png" alt="" />
 
-              <h4>Manufacturing Plants</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Manufacturing Plants
+              </h4>
               <p>
                 Manufacturing Plants utilize Attendance System Software to track
                 employee attendance on production lines, manage shift schedules,
@@ -36,7 +40,9 @@ const AttendenceIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/devanshuretail.png" alt="" />
 
-              <h4>Retail Stores</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Retail Stores
+              </h4>
               <p>
                 Retail Stores employ Attendance System Software to monitor
                 employee attendance, manage staff schedules, and ensure adequate
@@ -49,7 +55,9 @@ const AttendenceIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/hospital.png" alt="" />
 
-              <h4>Healthcare Facilities</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Healthcare Facilities
+              </h4>
               <p>
                 Healthcare Facilities use Attendance System Software to track
                 healthcare professionals' attendance, manage schedules, and
@@ -63,7 +71,9 @@ const AttendenceIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/hospital.png" alt="" />
 
-              <h4>Hospitality Industry</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Hospitality Industry
+              </h4>
               <p>
                 The Hospitality Industry relies on Attendance System Software to
                 manage employee attendance, track work hours, and ensure proper
@@ -76,7 +86,9 @@ const AttendenceIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/phonedeva.png" alt="" />
 
-              <h4>Call Centers</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Call Centers
+              </h4>
               <p>
                 Call Centers utilize Attendance System Software to monitor agent
                 attendance, track work hours, and ensure optimal staffing to
@@ -88,7 +100,9 @@ const AttendenceIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/devaconstraction.png" alt="" />
 
-              <h4>Construction Sites</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Construction Sites
+              </h4>
               <p>
                 Construction Sites employ Attendance System Software to track
                 worker attendance, manage shift schedules, and ensure compliance
@@ -101,7 +115,9 @@ const AttendenceIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/climate.png" alt="" />
 
-              <h4>Remote Work Environments</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Remote Work Environments
+              </h4>
               <p>
                 Remote Work Environments utilize Attendance System Software to
                 track remote employee attendance, monitor work hours, and ensure

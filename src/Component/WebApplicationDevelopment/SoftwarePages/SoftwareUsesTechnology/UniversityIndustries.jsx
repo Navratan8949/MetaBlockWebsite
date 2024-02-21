@@ -10,7 +10,9 @@ const UniversityIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/letter.png" alt="" />
 
-              <h4>Admissions Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Admissions Management
+              </h4>
               <p>
                 Admissions Management streamlines student applications, tracks
                 admissions statuses, and facilitates enrollment processes
@@ -23,7 +25,9 @@ const UniversityIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/office.png" alt="" />
 
-              <h4>Registrar's Office </h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Registrar's Office{" "}
+              </h4>
               <p>
                 Registrar's Office utilizes the software for student
                 registration, course scheduling, academic record-keeping, and
@@ -36,7 +40,9 @@ const UniversityIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/financial-statement.png" alt="" />
 
-              <h4>Financial Administration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Financial Administration
+              </h4>
               <p>
                 Financial Administration manages tuition fees, financial aid
                 disbursements, budgeting, payroll, and other financial aspects
@@ -49,7 +55,9 @@ const UniversityIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/admaic.png" alt="" />
 
-              <h4>Academic Department</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Academic Department
+              </h4>
               <p>
                 Academic Department relies on the software for course
                 management, faculty assignments, grading, and curriculum
@@ -63,7 +71,9 @@ const UniversityIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/digital-library.png" alt="" />
 
-              <h4>Library Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Library Management
+              </h4>
               <p>
                 Library Management helps in cataloging books, tracking
                 circulation, and providing online access to library databases.
@@ -75,7 +85,9 @@ const UniversityIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/student.png" alt="" />
 
-              <h4>Student Services</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Student Services
+              </h4>
               <p>
                 Student Services use the software for advising, counseling,
                 career services, housing assignments, and managing student
@@ -87,7 +99,9 @@ const UniversityIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/humarespo.png" alt="" />
 
-              <h4>Human Resources</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Human Resources
+              </h4>
               <p>
                 Human Resources manages faculty and staff records, recruitment,
                 performance evaluations, and employee benefits with the
@@ -100,7 +114,9 @@ const UniversityIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/welfare.png" alt="" />
 
-              <h4>Facilities Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Facilities Management
+              </h4>
               <p>
                 Facilities Management streamlines campus facilities, maintenance
                 requests, room scheduling, and ensures campus security.

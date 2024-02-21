@@ -10,7 +10,9 @@ const LMSIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/devanshuunivarcity.png" alt="" />
 
-              <h4>Education Sector</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Education Sector
+              </h4>
               <p>
                 Education Sector integrates LMS with LiveClass Software to adapt
                 to remote learning needs, ensuring educational continuity
@@ -23,7 +25,9 @@ const LMSIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/kooo.png" alt="" />
 
-              <h4>Corporate Training</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Corporate Training
+              </h4>
               <p>
                 Corporate Training relies on LMS with LiveClass Software for
                 efficient delivery of remote training programs, enhancing
@@ -36,7 +40,9 @@ const LMSIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/languages.png" alt="" />
 
-              <h4>Language Learning</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Language Learning
+              </h4>
               <p>
                 Language Learning Centers leverage LMS with LiveClass Software
                 to provide immersive language learning experiences.
@@ -48,7 +54,9 @@ const LMSIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/tutor.png" alt="" />
 
-              <h4>Tutoring Services</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Tutoring Services
+              </h4>
               <p>
                 Tutoring Services utilize LMS with LiveClass Software to offer
                 personalized support and guidance to students, facilitating
@@ -62,7 +70,9 @@ const LMSIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/continuous-improvement.png" alt="" />
 
-              <h4>Continuing Education</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Continuing Education
+              </h4>
               <p>
                 Continuing Education initiatives embrace LMS with LiveClass
                 Software to offer flexible online courses and workshops,
@@ -76,7 +86,9 @@ const LMSIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/workshop.png" alt="" />
 
-              <h4>Remote Workshops</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Remote Workshops
+              </h4>
               <p>
                 Remote Workshops organized with LMS and LiveClass Software
                 enable interactive discussions and knowledge sharing, fostering
@@ -88,7 +100,9 @@ const LMSIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/presentation.png" alt="" />
 
-              <h4>Professional Conferences</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Professional Conferences
+              </h4>
               <p>
                 Professional Conferences transition to virtual platforms powered
                 by LMS with LiveClass Software, facilitating global
@@ -101,7 +115,9 @@ const LMSIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/seo.png" alt="" />
 
-              <h4>Research Collaboration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Research Collaboration
+              </h4>
               <p>
                 Research Collaboration benefits from LMS with LiveClass
                 Software, enabling seamless communication and collaboration

@@ -10,7 +10,9 @@ const POSSystemKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/effectiveness.png" alt="" />
 
-              <h4>Sales Processing</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Sales Processing
+              </h4>
               <p>
                 Sales Processing feature facilitates efficient checkout
                 processes, including scanning items and accepting various
@@ -23,7 +25,9 @@ const POSSystemKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/supply-chain.png" alt="" />
 
-              <h4>Inventory Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Inventory Management
+              </h4>
               <p>
                 Inventory Management tracks real-time stock levels, updates
                 inventory counts, and sends alerts for low stock to prevent
@@ -35,7 +39,9 @@ const POSSystemKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/barcode-scanner.png" alt="" />
 
-              <h4>Barcode Scanning</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Barcode Scanning
+              </h4>
               <p>
                 Barcode Scanning technology expedites checkout, enhances
                 accuracy, and streamlines item identification during
@@ -48,7 +54,9 @@ const POSSystemKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/employee.png" alt="" />
 
-              <h4>Employee Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Employee Management
+              </h4>
               <p>
                 Employee Management module assigns roles, tracks performance,
                 and generates sales reports to optimize staff productivity.
@@ -61,7 +69,9 @@ const POSSystemKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/data-analysis.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Reporting and Analytics</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Reporting and Analytics
+              </h4>
               <p>
                 Reporting and Analytics feature provides insights into sales
                 performance, inventory turnover, and customer demographics for
@@ -74,7 +84,9 @@ const POSSystemKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/support.png" alt="" />
 
-              <h4>Multi-Store Support</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Multi-Store Support
+              </h4>
               <p>
                 Multi-Store Support enables centralized management of inventory,
                 sales, and customer data across multiple locations or branches.
@@ -85,7 +97,9 @@ const POSSystemKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/online-payment.png" alt="" />
 
-              <h4>Mobile POS</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Mobile POS
+              </h4>
               <p>
                 Mobile POS functionality allows staff to process transactions
                 from tablets or smartphones, improving flexibility and customer
@@ -98,7 +112,9 @@ const POSSystemKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/customixw.png" alt="" />
 
-              <h4>Customizable Menus and Layouts</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Customizable Menus and Layouts
+              </h4>
               <p>
                 Customizable Menus and Layouts allow businesses to tailor POS
                 interfaces, menus, and product categories to meet specific

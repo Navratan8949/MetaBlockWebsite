@@ -10,7 +10,9 @@ const AstrologyKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/growth.png" alt="" />
 
-              <h4>Chart Generation</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Chart Generation
+              </h4>
               <p>
                 Chart Generation feature enables users to generate accurate
                 birth charts, horoscopes, and astrological diagrams based on
@@ -23,7 +25,9 @@ const AstrologyKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/planetary-system-data.png" alt="" />
 
-              <h4>Planetary Positions</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Planetary Positions
+              </h4>
               <p>
                 Planetary Positions module displays current and historical
                 positions of planets, stars, and celestial bodies, aiding in
@@ -35,7 +39,9 @@ const AstrologyKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/astrolgyremot.png" alt="" />
 
-              <h4>Remote Access</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Remote Access
+              </h4>
               <p>
                 You can control your business from anywhere in the world with an
                 internet connection. To get remote access you can use our
@@ -49,7 +55,10 @@ const AstrologyKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/astrolgyansylig.png" alt="" />
 
-              <h4> Aspect Analysis</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                {" "}
+                Aspect Analysis
+              </h4>
               <p>
                 Aspect Analysis tool helps users interpret planetary aspects and
                 alignments, providing insights into their influence on an
@@ -63,7 +72,9 @@ const AstrologyKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/process.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Transit Forecasting</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Transit Forecasting
+              </h4>
               <p>
                 Transit Forecasting feature forecasts planetary transits and
                 their impact on a person's natal chart, offering insights into
@@ -76,7 +87,9 @@ const AstrologyKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/unauthorized.png" alt="" />
 
-              <h4>Compatibility Analysis</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Compatibility Analysis
+              </h4>
               <p>
                 Compatibility Analysis tool evaluates astrological compatibility
                 between individuals through synastry and composite charts,
@@ -88,7 +101,9 @@ const AstrologyKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/astrolgyreport.png" alt="" />
 
-              <h4>Astrological Reports</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Astrological Reports
+              </h4>
               <p>
                 Astrological Reports feature generates detailed reports,
                 including natal interpretations, transit forecasts, and
@@ -102,7 +117,9 @@ const AstrologyKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/web.png" alt="" />
 
-              <h4>Customization Options</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Customization Options
+              </h4>
               <p>
                 Customization Options allow users to tailor astrological charts,
                 reports, and interpretations based on personal preferences and

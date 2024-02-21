@@ -118,6 +118,14 @@ p {
     display: inline-block !important;
 }
 
+.software-feature-headings{
+    /* background: linear-gradient(to right, #e91e63 0%, #277b8d 100%) !important; */
+    background: linear-gradient(to right, #7d8dff, #ff4f81) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    display: inline-block !important;
+}
+
 .fs-4 {
     font-size: calc(1.275rem + .3vw) !important;
 }

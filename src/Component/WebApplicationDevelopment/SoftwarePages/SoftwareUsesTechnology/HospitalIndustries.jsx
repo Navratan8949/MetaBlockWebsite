@@ -10,7 +10,9 @@ const HospitalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/registration.png" alt="" />
 
-              <h4>Patient Registration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Patient Registration
+              </h4>
               <p>
                 Seamlessly register patients with accurate demographic details,
                 ensuring efficient record-keeping and streamlined processes.
@@ -22,7 +24,9 @@ const HospitalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/clock.png" alt="" />
 
-              <h4>Appointment Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Appointment Management
+              </h4>
               <p>
                 {" "}
                 Efficiently manage appointments, reducing wait times and
@@ -36,7 +40,9 @@ const HospitalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/medical-record.png" alt="" />
 
-              <h4>Electronic Health Records</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Electronic Health Records
+              </h4>
               <p>
                 Digitally store and manage patient health records, ensuring
                 accessibility, accuracy, and confidentiality in healthcare
@@ -49,7 +55,9 @@ const HospitalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/medical-history.png" alt="" />
 
-              <h4>Billing and Invoicing</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Billing and Invoicing
+              </h4>
               <p>
                 Streamline billing processes, generate accurate invoices, and
                 manage financial transactions effectively for improved revenue
@@ -63,7 +71,9 @@ const HospitalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/prescription.png" alt="" />
 
-              <h4>Prescription Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Prescription Management
+              </h4>
               <p>
                 Digitize prescription processes, enabling accurate medication
                 management, refill tracking, and enhanced patient safety.
@@ -75,7 +85,9 @@ const HospitalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/inventory-management (1).png" alt="" />
 
-              <h4>Inventory Control</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Inventory Control
+              </h4>
               <p>
                 Monitor and manage inventory levels, ensuring adequate stock of
                 medications and supplies, minimizing wastage, and avoiding
@@ -87,7 +99,9 @@ const HospitalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/monitor.png" alt="" />
 
-              <h4>Reporting and Analytics</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Reporting and Analytics
+              </h4>
               <p>
                 Generate comprehensive reports and analyze data to gain insights
                 into clinic performance, patient trends, and operational
@@ -100,7 +114,9 @@ const HospitalIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/diagnostic.png" alt="" />
 
-              <h4>Diagnostic Integration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Diagnostic Integration
+              </h4>
               <p>
                 Seamlessly integrate with diagnostic facilities for streamlined
                 test ordering, results management, and treatment planning.

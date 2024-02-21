@@ -10,7 +10,9 @@ const TradingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/earning.png" alt="" />
 
-              <h4>Finance and Investment</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Finance and Investment
+              </h4>
               <p>
                 Trading is extensively used in the finance and investment
                 industry, including stock markets, forex (foreign exchange),
@@ -23,7 +25,9 @@ const TradingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/supermarket.png" alt="" />
 
-              <h4>Retail </h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Retail{" "}
+              </h4>
               <p>
                 Retailers engage in trading goods and merchandise, whether
                 through physical stores, e-commerce platforms, or wholesale
@@ -36,7 +40,9 @@ const TradingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/factory.png" alt="" />
 
-              <h4>Manufacturing</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Manufacturing
+              </h4>
               <p>
                 {" "}
                 Manufacturers engage in trading raw materials, components, and
@@ -50,7 +56,9 @@ const TradingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/renewable-energy.png" alt="" />
 
-              <h4>Energy</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Energy
+              </h4>
               <p>
                 Trading is prevalent in the energy sector, encompassing
                 commodities such as oil, natural gas, and electricity, where
@@ -65,7 +73,9 @@ const TradingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/technology.png" alt="" />
 
-              <h4>Technology</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Technology
+              </h4>
               <p>
                 Technology companies often engage in trading intellectual
                 property, software licenses, and hardware components with other
@@ -78,7 +88,9 @@ const TradingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/planting.png" alt="" />
 
-              <h4>Agriculture</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Agriculture
+              </h4>
               <p>
                 Agricultural trading involves the buying and selling of crops,
                 livestock, and agricultural commodities such as grains, cotton,
@@ -90,7 +102,9 @@ const TradingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/house.png" alt="" />
 
-              <h4>Real Estate</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Real Estate
+              </h4>
               <p>
                 Real estate trading involves buying, selling, and leasing
                 properties, including residential, commercial, and industrial
@@ -103,7 +117,9 @@ const TradingIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/healthcare.png" alt="" />
 
-              <h4>Healthcare</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Healthcare
+              </h4>
               <p>
                 Healthcare organizations engage in trading pharmaceuticals,
                 medical devices, and healthcare services, both domestically and

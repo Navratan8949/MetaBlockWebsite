@@ -10,7 +10,9 @@ const EmployKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/calendar.png" alt="" />
 
-              <h4>Time and Attendance</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Time and Attendance
+              </h4>
               <p>
                 Time and Attendance Tracking systems accurately record employee
                 work hours and breaks, ensuring compliance with labor
@@ -23,7 +25,9 @@ const EmployKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/hairdresser.png" alt="" />
 
-              <h4>Location Monitoring</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Location Monitoring
+              </h4>
               <p>
                 Location Monitoring tools utilize GPS technology to track
                 employee whereabouts, especially for remote workers, enhancing
@@ -35,7 +39,9 @@ const EmployKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/performance.png" alt="" />
 
-              <h4>Performance Evaluation</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Performance Evaluation
+              </h4>
               <p>
                 ask Management platforms assign tasks, set deadlines, and track
                 progress, facilitating efficient workflow management and team
@@ -48,7 +54,9 @@ const EmployKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/project.png" alt="" />
 
-              <h4>Task and Project Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Task and Project Management
+              </h4>
               <p>
                 These systems often include task and project management
                 features, enabling managers to assign tasks, track project
@@ -58,12 +66,15 @@ const EmployKeyFeature = () => {
             </div>
           </div>
         </div>
+        ss
         <div className="dashboard-container">
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/leave.png" alt="" />
 
-              <h3 style={{ textAlign: "Center" }}>Leave and Absence </h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Leave and Absence{" "}
+              </h4>
               <p>
                 Leave and Absence Management software automates leave requests,
                 approvals, and balances, ensuring adequate staffing levels and
@@ -76,7 +87,9 @@ const EmployKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/maps.png" alt="" />
 
-              <h4>Project Time Tracking</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Project Time Tracking
+              </h4>
               <p>
                 Project Time Tracking applications monitor time spent on
                 specific projects or tasks, enabling accurate billing, cost
@@ -88,7 +101,9 @@ const EmployKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/pc.png" alt="" />
 
-              <h4>Compliance Monitoring</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Compliance Monitoring
+              </h4>
               <p>
                 Compliance Oversight ensures adherence to labor regulations and
                 company policies for legal compliance.
@@ -100,7 +115,9 @@ const EmployKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/folder.png" alt="" />
 
-              <h4>Data Security</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Data Security
+              </h4>
               <p>
                 Data Security protects sensitive employee information through
                 encryption and access controls.

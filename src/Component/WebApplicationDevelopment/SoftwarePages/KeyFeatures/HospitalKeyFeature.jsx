@@ -10,7 +10,9 @@ const HospitalKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/website.png" alt="" />
 
-              <h4>Patient Registration</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Patient Registration
+              </h4>
               <p>
                 {" "}
                 Hospitals streamline patient registration processes, capturing
@@ -23,7 +25,9 @@ const HospitalKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/appointment.png" alt="" />
 
-              <h4>Appointment Scheduling</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Appointment Scheduling
+              </h4>
               <p>
                 Efficient systems manage appointments, optimizing hospital
                 resources and patient flow.
@@ -34,7 +38,9 @@ const HospitalKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/medical-prescription.png" alt="" />
 
-              <h4>Electronic Health Records</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Electronic Health Records
+              </h4>
               <p>
                 Hospitals maintain digital health records, ensuring secure and
                 accessible patient information.
@@ -45,7 +51,9 @@ const HospitalKeyFeature = () => {
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/payment.png" alt="" />
-              <h4>Billing Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Billing Management
+              </h4>
               <p>
                 {" "}
                 Integrated systems streamline billing processes and manage
@@ -58,7 +66,9 @@ const HospitalKeyFeature = () => {
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/inventory-management.png" alt="" />
-              <h3 style={{ textAlign: "Center" }}>Inventory Control</h3>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Inventory Control
+              </h4>
               <p>
                 Hospitals track and manage inventory to ensure timely
                 availability of medical supplies and prevent shortages.
@@ -70,7 +80,9 @@ const HospitalKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/management.png" alt="" />
 
-              <h4>Staff Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Staff Management
+              </h4>
               <p>
                 Systems maintain records and schedules for doctors, nurses, and
                 staff, ensuring adequate staffing levels.
@@ -80,7 +92,9 @@ const HospitalKeyFeature = () => {
           <div className="dashboard-container-box dashboard-boxes">
             <div className="key-feature-heading">
               <img src="./images/online-pharmacy.png" alt="" />
-              <h4>Pharmacy Management</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Pharmacy Management
+              </h4>
               <p>
                 {" "}
                 Hospitals efficiently manage pharmacy operations, including
@@ -93,7 +107,9 @@ const HospitalKeyFeature = () => {
             <div className="key-feature-heading">
               <img src="./images/medical-prescription (1).png" alt="" />
 
-              <h4>Electronic Prescriptions</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Electronic Prescriptions
+              </h4>
               <p>
                 Systems enable the electronic transmission of prescriptions,
                 improving medication management and safety.

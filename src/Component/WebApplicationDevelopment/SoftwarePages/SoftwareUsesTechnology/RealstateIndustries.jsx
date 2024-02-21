@@ -10,7 +10,9 @@ const RealstateIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/real-estate.png" alt="" />
 
-              <h4>Real Estate Agencies</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Real Estate Agencies
+              </h4>
               <p>
                 Real Estate Agencies: Agencies rely on software for listing
                 management, client data, and transactions, enhancing operational
@@ -23,7 +25,9 @@ const RealstateIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/individuality.png" alt="" />
 
-              <h4>Individual Agents and Brokers</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Individual Agents and Brokers
+              </h4>
               <p>
                 Individual Agents and Brokers: Agents utilize software for
                 property management, client communication, and transaction
@@ -36,7 +40,9 @@ const RealstateIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/developer.png" alt="" />
 
-              <h4>Property Developers</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Property Developers
+              </h4>
               <p>
                 Property Developers: Developers use software for project
                 management, sales tracking, and market analysis, ensuring
@@ -49,7 +55,9 @@ const RealstateIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/assets.png" alt="" />
 
-              <h4>Property Managers</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Property Managers
+              </h4>
               <p>
                 Property Managers: Management firms employ software for rental
                 property management, leases, and maintenance, optimizing
@@ -63,7 +71,9 @@ const RealstateIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/negotiation.png" alt="" />
 
-              <h4>Home Buyers and Sellers</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Home Buyers and Sellers
+              </h4>
               <p>
                 Home Buyers and Sellers: Individuals use software-driven
                 platforms to search, connect with agents, and stay informed,
@@ -76,7 +86,9 @@ const RealstateIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/people.png" alt="" />
 
-              <h4>Landlords</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Landlords
+              </h4>
               <p>
                 {" "}
                 Landlords manage rentals, track income, and communicate using
@@ -88,7 +100,9 @@ const RealstateIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/occupation.png" alt="" />
 
-              <h4>Real Estate Associations</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Real Estate Associations
+              </h4>
               <p>
                 Real Estate Associations: Associations utilize software for
                 management, events, and communication, fostering collaboration
@@ -101,7 +115,9 @@ const RealstateIndustries = () => {
             <div className="key-feature-heading">
               <img src="./images/government.png" alt="" />
 
-              <h4>Government Agencies</h4>
+              <h4 className="software-feature-headings d-flex flex-column justify-center align-center">
+                Government Agencies
+              </h4>
               <p>
                 Government Agencies: Governments use software for planning,
                 regulations, and valuation, facilitating effective
