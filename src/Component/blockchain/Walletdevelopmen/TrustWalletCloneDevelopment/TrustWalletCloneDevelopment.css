@@ -8207,11 +8207,17 @@ input[type=range]::-moz-range-track {
 }
 
 header.ondemad_head {
+    margin-top: 30px !important;
     position: relative;
     width: 100%;
     padding-top: 75px !important;
     color: #fff;
-    background: linear-gradient(50deg, #000 25%, #4a4949 76%);
+    /* background: linear-gradient(50deg, #000 25%, #4a4949 76%); */
+    /* background: orange !important; */
+    background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
     height: 100vh;
 }
 

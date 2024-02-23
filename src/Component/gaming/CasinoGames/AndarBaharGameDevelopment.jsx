@@ -17,17 +17,13 @@ const AndarBaharGameDevelopment = () => {
 
 
                 <section className="cta mt-5 position-relative overflow-hidden ">
-                    {/* <img class="bg-img" src="./assets/img/—Pngtree—casino slot with chips and_5986400.png" alt=""> */}
-                    {/* <div class="bg-filter-dark"></div> */}
-                    {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
+
                     <div className="row">
                         <div className="cta-content ps-5 col-lg-6 d-flex align-items-center overflow-hidden">
                             <div className="container px-5 ms-3 row gx-5 py-5 align-items-center">
                                 <h1 className="display-5 txt-center-m glow-text lh-1 mb-3 text-white fw-bold g-text">Andar Bahar Game<span style={{ fontWeight: 'lighter' }}> Development <span>
                                 </span></span></h1>
-                                {/* <h2 class="text-white display-1 lh-1 mb-4 ">
-              WE MAKE DREAMS <br> COME TO LIFE
-          </h2> */}
+
                                 <h3 className=" mb-4 mt-4 txt-center-m">
                                     Top Andar Bahar Game Developer
                                 </h3>
@@ -42,7 +38,7 @@ const AndarBaharGameDevelopment = () => {
                                 <div className="d-flex btn-box flex-column flex-lg-row align-items-center fade-in one w-fit">
                                     <Link to="/Aboutus" style={{ marginLeft: 15 }} className="color-btn btn-hover gap-2">See Our Work <ion-icon name="rocket-outline" className="fs-5 rocket" /></Link>
                                 </div>
-                                {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
+
                             </div>
                         </div>
                         <div className="col-lg-6 ps-0">
@@ -52,8 +48,7 @@ const AndarBaharGameDevelopment = () => {
                 </section>
 
                 <section className=".section bg-main position-relative">
-                    {/* <img class="bg-img" src="./assets/img/—Pngtree—casino slot with chips and_5986400.png" alt="">
-  <div class="bg-filter-dark"></div> */}
+
                     <div className="row">
                         <div className="col-lg-6 ps-0">
                             <img className="cta-content-img" src="./images/multi-gaming-app-development-in-india (2).png" alt />
@@ -62,9 +57,7 @@ const AndarBaharGameDevelopment = () => {
                             <div className="container px-5 ms-3 row gx-5 py-5 align-items-center">
                                 <h1 className="display-5 glow-text lh-1 mb-3 text-white fw-bold g-text">Andar Bahar Game Development Services
                                 </h1>
-                                {/* <h2 class="text-white display-1 lh-1 mb-4 ">
-              WE MAKE DREAMS <br> COME TO LIFE
-          </h2> */}
+
                                 <h3 className="text-white mb-4 mt-4">
                                     Developed 100+ Andar Bahar Game
                                 </h3>
@@ -72,14 +65,11 @@ const AndarBaharGameDevelopment = () => {
                                     MetaBlock Technologies is a leading Andar Bahar Game development company. Our efficient game developers have years of experience in developing Andar Bahar Game and with their expertise, they can develop games that will definitely make you remember your childhood. Rummy is a game in which we hold a successful track record in the market. We have again and again proved with our effective solutions that we are the #1 Rummy Game Development company.
 
                                 </p>
-                                {/* <div class="d-flex flex-column flex-lg-row align-items-center fade-in one w-fit">
-                  <a href="#!" class="color-btn btn-hover gap-2">Explore games <ion-icon name="rocket-outline" class="fs-5 rocket"></ion-icon></a>
-              </div> */}
-                                {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
+
                             </div>
                         </div>
                     </div>
-                    {/* Swiper */}
+
                 </section>
 
 

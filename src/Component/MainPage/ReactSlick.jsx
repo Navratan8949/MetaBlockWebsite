@@ -43,15 +43,10 @@ export default class AutoPlay extends Component {
                       <p className="sub_title1"></p>
                     </div>
                     <div className="star_rating">⭐⭐⭐⭐⭐</div>
-                    
+
                   </div>
                   <p className="sub_contents">
-                    "I needed my website urgently, and MetaBlock did not
-                    disappoint. They delivered the project on time. Their timely
-                    delivery saved my small business. MetaBlock revamped our old
-                    website, and now it’s 10x faster. The website is also
-                    user-friendly and works on all devices. I couldn't ask for
-                    anything else."
+                    "For our company, working with MetaBlock was revolutionary. Our vision was realized via the skill and commitment of their team, who produced a website and app that surpassed our expectations. Strongly advised!"
                   </p>
                 </div>
               </div>
@@ -72,9 +67,9 @@ export default class AutoPlay extends Component {
                         {/* Business Developer at SF Capital */}
                       </p>
                     </div>
-                    
+
                     <div className="star_rating">⭐⭐⭐⭐⭐</div>
-                    
+
                   </div>
                   <p className="sub_contents">
                     "I contacted MetaBlock when I wanted my website in a very
@@ -97,20 +92,17 @@ export default class AutoPlay extends Component {
                 <div className="testMoLst">
                   <div className="testMoImgBg">
                     <div className="head_sec">
-                      <p className="sub_title">Nicky G Khun</p>
+                      <p className="sub_title">Neha Gupta</p>
                       <p className="sub_title1">
-                        Business Developer at SF Capital
+                        {/* Business Developer at SF Capital */}
                       </p>
                     </div>
                     <div className="star_rating">⭐⭐⭐⭐⭐</div>
-                   
+
                   </div>
                   <p className="sub_contents">
-                    "I have been working with Osiz Technologies with three
-                    months until now. I have been very satisfied with the
-                    outcome of the work produced by them. I have dealt with
-                    crypto exchange and trading website, an excellent
-                    professional and with the best customer service."
+                    "One of the best choices we ever made for the development of our website and app was to use MetaBlock. The product genuinely embodies our corporate identity, thanks to the team's experience and dedication to customer satisfaction.
+                    "
                   </p>
                 </div>
               </div>
@@ -126,21 +118,17 @@ export default class AutoPlay extends Component {
                 <div className="testMoLst">
                   <div className="testMoImgBg">
                     <div className="head_sec">
-                      <p className="sub_title">Nicky G Khun</p>
+                      <p className="sub_title">Rajesh Kumar</p>
                       <p className="sub_title1">
-                        Business Developer at SF Capital
+                        {/* Business Developer at SF Capital */}
                       </p>
                     </div>
-                   
+
                     <div className="star_rating">⭐⭐⭐⭐⭐</div>
-                    
+
                   </div>
                   <p className="sub_contents">
-                    "I have been working with Osiz Technologies with three
-                    months until now. I have been very satisfied with the
-                    outcome of the work produced by them. I have dealt with
-                    crypto exchange and trading website, an excellent
-                    professional and with the best customer service."
+                    "The expertise and inventiveness of the MetaBlock team astounded us. They took our ideas and created an amazing website and app that have received positive feedback from users and other professionals in the field. Strongly advised due of their professionalism and dependability!"
                   </p>
                 </div>
               </div>
@@ -156,21 +144,18 @@ export default class AutoPlay extends Component {
                 <div className="testMoLst">
                   <div className="testMoImgBg">
                     <div className="head_sec">
-                      <p className="sub_title">Nicky G Khun</p>
+                      <p className="sub_title">Deepak Kumar</p>
                       <p className="sub_title1">
-                        Business Developer at SF Capital
+                        {/* Business Developer at SF Capital */}
                       </p>
                     </div>
-                   
+
                     <div className="star_rating">⭐⭐⭐⭐⭐</div>
-                    
+
                   </div>
                   <p className="sub_contents">
-                    "I have been working with Osiz Technologies with three
-                    months until now. I have been very satisfied with the
-                    outcome of the work produced by them. I have dealt with
-                    crypto exchange and trading website, an excellent
-                    professional and with the best customer service."
+                    "We are grateful to the excellent team at MetaBlock for their outstanding work on our app and website. They paid attention to our needs, provided insightful advice, and produced a product that greatly improved our internet visibility. An incredibly fruitful and cooperative experience!
+                    "
                   </p>
                 </div>
               </div>

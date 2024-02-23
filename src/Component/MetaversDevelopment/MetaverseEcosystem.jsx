@@ -65,12 +65,10 @@ const MetaverseEcosystem = () => {
                         <div id="ai_development" className="card tab-pane fade active in show">
                           <div className="card-header" role="tab" id="heading-ai_development">
                             <p className="mb-0">
-                              {/* Note: `data-parent` removed from here */}
                               <a data-toggle="collapse" href="#collapse-ai_development" aria-expanded="true" aria-controls="collapse-ai_development">
                                 AI Development                      </a>
                             </p>
                           </div>
-                          {/* Note: New place of `data-parent` */}
                           <div id="collapse-ai_development" className="collapse show" data-parent="#content" role="tabpanel" aria-labelledby="heading-ai_development">
                             <div className="card-body cmpy_Overflow">
                               <div className="row">
@@ -119,12 +117,12 @@ const MetaverseEcosystem = () => {
                         <div id="blockchain_development" className="card tab-pane    ">
                           <div className="card-header" role="tab" id="heading-blockchain_development">
                             <p className="mb-0">
-                              {/* Note: `data-parent` removed from here */}
+
                               <a data-toggle="collapse" href="#collapse-blockchain_development" aria-expanded="true" aria-controls="collapse-blockchain_development">
                                 Blockchain Development                      </a>
                             </p>
                           </div>
-                          {/* Note: New place of `data-parent` */}
+
                           <div id="collapse-blockchain_development" className="collapse " data-parent="#content" role="tabpanel" aria-labelledby="heading-blockchain_development">
                             <div className="card-body cmpy_Overflow">
                               <div className="row">
@@ -989,52 +987,7 @@ const MetaverseEcosystem = () => {
                     </div>
                   </div>
                 </li>
-                {/* <li class="nav-item dropdown menu_res">
-      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-        Services
-      </a>
-      <div class="dropdown-menu">
-        <ul>
-          <li><a href="https://www.osiztechnologies.com/web3-development-company" target="_blank">Web3</a></li>
-          <li><a href="https://www.osiztechnologies.com/metaverse-development-company" target="_blank">Metaverse</a></li>
-          <li><a href="https://www.osiztechnologies.com/blockchain-development-company" target="_blank">Blockchain</a></li>
-          <li><a href="https://www.osiztechnologies.com/cryptocurrency-exchange-software-development" target="_blank">Crypto Exchange</a></li>
-          <li><a href="https://www.osiztechnologies.com/nft-development-company" target="_blank">NFT </a></li>
-          <li><a href="https://www.osiztechnologies.com/defi-development" target="_blank">DeFi </a></li>
-          <li><a href="https://www.osiztechnologies.com/blog/web3.0-crypto-exchange-development" target="_blank"> Game Development</a></li>     
-        </ul>
-      </div>
-    </li> */}
-                {/* <li class="nav-item menu_desk">
-      <a class="nav-link" href="#">Web3</a>
-      <div class="sub-menu">
-        <div class="row">
-          <div class="col-lg-12">
-            <div>
-              <ul >
-                  <li><a href="https://www.osiztechnologies.com/web3-development-company" target="_blank">Web3 Development Company</a></li>
-                  <li><a href="https://www.osiztechnologies.com/blog/web3-game-development" target="_blank">Web 3.0 Game Development Company</a></li>
-                  <li><a href="https://www.osiztechnologies.com/blog/web3.0-crypto-exchange-development" target="_blank">Web 3.0 Crypto Exchange Development</a></li>
-                  <li><a href="https://www.osiztechnologies.com/blog/web3-smart-contract-development" target="_blank">Web3 Smart Contract Development</a></li>
-                  <li><a href="https://www.osiztechnologies.com/blog/web3-wallet-development" target="_blank">Web3 Wallet Development</a></li>
-                  <li><a href="https://www.osiztechnologies.com/blog/top-10-web3-business-ideas-in-2023" target="_blank">Top 10 Web3 Business Ideas</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div>
-              <ul>
-                <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 Enterprise Solutions</a></li>
-                <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 Real Estate Platform</a></li>
-                <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 Games Development</a></li>
-                <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 Application Development</a></li>
-                <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 E-commerce Services</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </li> */}
+
                 <li className="nav-item dropdown menu_res">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                     Blockchain
@@ -1070,16 +1023,7 @@ const MetaverseEcosystem = () => {
                       <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web3 Smart Contract Development</a></li>
                       <li><a href="https://www.osiztechnologies.com/blog/web3-wallet-development" target="_blank">Web3 Wallet Development</a></li>
                       <li><a href="https://www.osiztechnologies.com/blog/top-10-web3-business-ideas-in-2023" target="_blank">Top 10 Web3 Business Ideas</a></li>
-                      {/* <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 Metaverse Development</a></li>
-          
-          <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 Metaverse Game Development</a></li>
-          
-          <li><a href="https://www.osiztechnologies.com/blog/web3-smart-contract-development" target="_blank">Web3 Smart Contract Development</a></li>
-          <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 Enterprise Solutions</a></li>
-          <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 Real Estate Platform</a></li>
-          <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 Games Development</a></li>
-          <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 Application Development</a></li>
-          <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Web 3.0 E-commerce Services</a></li> */}
+
                     </ul>
                   </div>
                 </li>
@@ -1336,17 +1280,7 @@ const MetaverseEcosystem = () => {
                     </ul>
                   </div>
                 </li>
-                {/* <li class="nav-item dropdown menu_res">
-      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-        DApp
-      </a>
-      <div class="dropdown-menu">
-        <ul>
-          <li><a href="https://www.osiztechnologies.com/dapp-development" target="_blank">DApp Development</a></li>
-          <li><a href="https://www.osiztechnologies.com/blog/solana-dapp-development" target="_blank">Solana DApp Development</a></li>
-        </ul>
-      </div>
-    </li> */}
+
                 <li className="nav-item menu_desk">
                   <a className="nav-link" href="#">AI</a>
                   <div className="sub-menu">
@@ -1388,44 +1322,19 @@ const MetaverseEcosystem = () => {
                     </div>
                   </div>
                 </li>
-                {/* <li class="nav-item menu_desk">
-      <a class="nav-link" href="#">Hire Developers</a>
-      <div class="sub-menu">
-        <div class="row">
-          <div class="col-lg-12">
-            <div>
-              <ul >
-                <li><a href="https://www.osiztechnologies.com/hire-web3-developers" target="_blank">Hire Web3 Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/hire-developers" target="_blank">Hire Skilled Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/blog/hire-metaverse-developers" target="_blank">Hire Metaverse Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/blog/hire-dapp-developers" target="_blank">Hire DApp Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/blog/hire-smart-contract-developers" target="_blank">Hire Smart Contract Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/request-for-quotation" target="_blank">Hire Solidity Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/blog/hire-python-developers" target="_blank">Hire Python Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/request-for-quotation" target="_blank">Hire Laravel Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/request-for-quotation" target="_blank">Hire MEAN Stack Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/blog/hire-mern-stack-developers" target="_blank">Hire MERN Stack Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/hire-web3-developers" target="_blank">Hire Web3 Developers</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </li> */}
+
                 <li className="nav-item dropdown menu_res">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                     Hire Developers
                   </a>
                   <div className="dropdown-menu">
                     <ul>
-                      {/* <li><a href="https://www.osiztechnologies.com/hire-developers" target="_blank">Hire Skilled Developers</a></li> */}
+
                       <li><a href="https://www.osiztechnologies.com/blog/hire-metaverse-developers" target="_blank">Hire Metaverse Developers</a></li>
                       <li><a href="https://www.osiztechnologies.com/blog/hire-dapp-developers" target="_blank">Hire DApp Developers</a></li>
                       <li><a href="https://www.osiztechnologies.com/blog/hire-smart-contract-developers" target="_blank">Hire Smart Contract Developers</a></li>
-                      {/* <li><a href="https://www.osiztechnologies.com/request-for-quotation" target="_blank">Hire Solidity Developers</a></li> */}
                       <li><a href="https://www.osiztechnologies.com/blog/hire-python-developers" target="_blank">Hire Python Developers</a></li>
-                      {/* <li><a href="https://www.osiztechnologies.com/request-for-quotation" target="_blank">Hire Laravel Developers</a></li> */}
-                      {/* <li><a href="https://www.osiztechnologies.com/request-for-quotation" target="_blank">Hire MEAN Stack Developers</a></li> */}
+
                       <li><a href="https://www.osiztechnologies.com/blog/hire-mern-stack-developers" target="_blank">Hire MERN Stack Developers</a></li>
                       <li><a href="https://www.osiztechnologies.com/hire-web3-developers" target="_blank">Hire Web3 Developers</a></li>
                     </ul>
@@ -1438,7 +1347,6 @@ const MetaverseEcosystem = () => {
                       <div className="col-lg-12">
                         <div>
                           <ul>
-                            {/* <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a className="dropdown_nav_link dropdown-toggle" href="#" id="Company_navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Company</a>
                               <div className="dropdown-menu drop_right_menu" aria-labelledby="navbarDropdown">
@@ -1473,14 +1381,8 @@ const MetaverseEcosystem = () => {
                             </div>
                             <li><a href="https://www.osiztechnologies.com/news" target="_blank">News</a></li>
                             <li><a href="https://www.osiztechnologies.com/announcement" target="_blank">Announcement</a></li>
-                            {/* <li><a href="https://www.osiztechnologies.com/press-release" target="_blank">Press Release</a></li> */}
                             <li><a href="https://www.osiztechnologies.com/faq" target="_blank">FAQ</a></li>
-                            {/* <li><a href="https://www.osiztechnologies.com/write-a-review" target="_blank">Write a Review</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/testimonials" target="_blank">Testimonials</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/complaints-board" target="_blank">Complaint Board</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/feedback" target="_blank">Feedback</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/scam" target="_blank">Report the Scammers</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/case-studies" target="_blank">Case Studies</a></li> */}
+
                           </ul>
                         </div>
                       </div>
@@ -1496,14 +1398,11 @@ const MetaverseEcosystem = () => {
                       <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li>
                       <li><a href="https://www.osiztechnologies.com/news" target="_blank">News</a></li>
                       <li><a href="https://www.osiztechnologies.com/announcement" target="_blank">Announcement</a></li>
-                      {/* <li><a href="https://www.osiztechnologies.com/press-release" target="_blank">Press Release</a></li> */}
+
                       <li><a href="https://www.osiztechnologies.com/faq" target="_blank">FAQ</a></li>
-                      {/* <li><a href="https://www.osiztechnologies.com/write-a-review" target="_blank">Write a Review</a></li> */}
+
                       <li><a href="https://www.osiztechnologies.com/testimonials" target="_blank">Testimonials</a></li>
-                      {/* <li><a href="https://www.osiztechnologies.com/complaints-board" target="_blank">Complaint Board</a></li> */}
-                      {/* <li><a href="https://www.osiztechnologies.com/feedback" target="_blank">Feedback</a></li> */}
-                      {/* <li><a href="https://www.osiztechnologies.com/scam" target="_blank">Report the Scammers</a></li> */}
-                      {/* <li><a href="https://www.osiztechnologies.com/case-studies" target="_blank">Case Studies</a></li> */}
+
                     </ul>
                   </div>
                 </li>
@@ -1513,42 +1412,7 @@ const MetaverseEcosystem = () => {
                 <li className="nav-item menu_desk">
                   <a className="nav-link" href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a>
                 </li>
-                {/* <li class="nav-item menu_desk">
-      <a class="nav-link" href="#">Company</a>
-      <div class="sub-menu">
-        <div class="row">
-          <div class="col-lg-6">
-              <div>
-                  <ul >
-                      <li><a href="https://www.osiztechnologies.com/about-us" target="_blank">About Us</a></li>
-                      <li><a href="https://www.osiztechnologies.com/osiz-company-profile-brochure.pdf?v1" target="_blank">Company Profile</a></li>
-                      <li><a href="https://www.osiztechnologies.com/osiz-pitchdeck.pdf?v1" target="_blank">Pitch Deck</a></li>
-                      <li><a href="https://www.osiztechnologies.com/vision-mission" target="_blank">Vision & Mission</a></li>
-                      <li><a href="https://www.osiztechnologies.com/infrastructure" target="_blank">Infrastructure</a></li>
-                      <li><a href="https://www.osiztechnologies.com/why-osiz" target="_blank">Why Osiz</a></li>
-                      <li><a href="https://www.osiztechnologies.com/benefits" target="_blank">Benefits</a></li>
-                      <li><a href="https://www.osiztechnologies.com/life-at-osiz" target="_blank">Life@Osiz</a></li>
-                      <li><a href="https://www.osiztechnologies.com/quality-policy" target="_blank">Quality Policy</a></li>
-                  </ul>
-              </div>
-          </div>
-          <div class="col-lg-6">
-            <div>
-              <ul >
-                <li><a href="https://www.osiztechnologies.com/events" target="_blank">Events</a></li>
-                <li><a href="https://www.osiztechnologies.com/celebrations" target="_blank">Celeberations</a></li>
-                <li><a href="https://www.osiztechnologies.com/business-model" target="_blank">Business Model</a></li>
-                <li><a href="https://www.osiztechnologies.com/our-digital-lab" target="_blank">Our Lab</a></li>
-                <li><a href="https://www.osiztechnologies.com/development-process" target="_blank">Development Process</a></li>
-                <li><a href="https://www.osiztechnologies.com/our-expertise" target="_blank">Our Expertise</a></li>
-                <li><a href="https://www.osiztechnologies.com/terms-and-conditions" target="_blank">Terms and Conditions</a></li>
-                <li><a href="https://www.osiztechnologies.com/payment-refund-policy" target="_blank">Privacy Policy</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </li> */}
+
                 <li className="nav-item dropdown menu_res">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                     Company
@@ -1575,21 +1439,7 @@ const MetaverseEcosystem = () => {
                     </ul>
                   </div>
                 </li>
-                {/* <li class="nav-item menu_desk">
-      <a class="nav-link" href="#">Contact Us</a>
-      <div class="sub-menu">
-        <div class="row">
-          <div class="col-lg-12">
-            <div>
-              <ul >
-                <li><a href="https://www.osiztechnologies.com/contact-us" target="_blank">Contact Us</a></li>
-                <li><a href="https://www.osiztechnologies.com/request-for-quotation" target="_blank">Request For Quote</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </li> */}
+
                 <li className="nav-item dropdown menu_res">
                   <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                     Contact Us
@@ -1601,157 +1451,7 @@ const MetaverseEcosystem = () => {
                     </ul>
                   </div>
                 </li>
-                {/* <li class="nav-item tbsMenu menu_desk">
-      <a class="nav-link" href="#">Company</a>
-      <div class="sub-menu">
-          <div class="d-flex">
-              <ul id="tabs" class="nav nav-tabs" role="tablist">
-                  <li class="nav-item cmpyAfter">
-                      <a id="tab-A" href="#pane-A" class="nav-link active " data-toggle="tab" role="tab">Discover Osiz</a>
-                  </li>
-                  <li class="nav-item cmpyAfter">
-                      <a id="tab-B" href="#pane-B" class="nav-link " data-toggle="tab" role="tab">Insights</a>
-                  </li>
-              </ul>
-              <div id="content" class="tab-content" role="tablist">
-                  <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
-                      <div class="card-header" role="tab" id="heading-A">
-                          <h5 class="mb-0">
-                              Note: `data-parent` removed from here
-                              <a data-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A">
-                                  Discover Osiz
-                              </a>
-                          </h5>
-                      </div>
 
-                      Note: New place of `data-parent`
-                      <div id="collapse-A" class="collapse show" data-parent="#content" role="tabpanel" aria-labelledby="heading-A">
-                          <div class="card-body cmpy_Overflow">
-                              <div class="row">
-                                  <div class="col-lg-12">
-                                      <div>
-                                          <ul >
-                                              <li><a href="https://www.osiztechnologies.com/osiz-company-profile-brochure.pdf?v1" target="_blank">Company Profile</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/osiz-pitchdeck.pdf?v1" target="_blank">Pitch Deck</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/vision-mission" target="_blank">Vision & Mission</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/infrastructure" target="_blank">Infrastructure</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/why-osiz" target="_blank">Why Osiz</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/benefits" target="_blank">Benefits</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/life-at-osiz" target="_blank">Life@Osiz</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/quality-policy" target="_blank">Quality Policy</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/events" target="_blank">Events</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/celebrations" target="_blank">Celeberations</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/business-model" target="_blank">Business Model</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/our-digital-lab" target="_blank">Our Lab</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/development-process" target="_blank">Development Process</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/our-expertise" target="_blank">Our Expertise</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/terms-and-conditions" target="_blank">Terms and Conditions</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/payment-refund-policy" target="_blank">Privacy Policy</a></li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div id="pane-B" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
-                      <div class="card-header" role="tab" id="heading-B">
-                          <h5 class="mb-0">
-                              <a class="collapsed" data-toggle="collapse" href="#collapse-B" aria-expanded="false" aria-controls="collapse-B">
-                                  Insights
-                              </a>
-                          </h5>
-                      </div>
-                      <div id="collapse-B" class="collapse" data-parent="#content" role="tabpanel" aria-labelledby="heading-B">
-                          <div class="card-body">
-                              <div class="row">
-                                  <div class="col-lg-12">
-                                      <div>
-                                          <ul >
-                                              <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/news" target="_blank">News</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/press-release" target="_blank">Press Release</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/faq" target="_blank">FAQ</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/write-a-review" target="_blank">Write a Review</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/testimonials" target="_blank">Testimonials</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/complaints-board" target="_blank">Complaint Board</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/feedback" target="_blank">Feedback</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/scam" target="_blank">Report the Scammers</a></li>
-                                              <li><a href="https://www.osiztechnologies.com/case-studies" target="_blank">Case Studies</a></li>
-                                          </ul>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div> 
-              </div>
-          </div>
-      </div>
-    </li> */}
-                {/* <li class="nav-item dropdown menu_res">
-      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-        Company
-      </a>
-      <div class="dropdown-menu compyMenuResHight">
-        <p class="" style="font-size: 20px;font-weight: 700;">Discover Osiz</p>
-        <ul>
-          <li><a href="https://www.osiztechnologies.com/osiz-company-profile-brochure.pdf?v1" target="_blank">Company Profile</a></li>
-          <li><a href="https://www.osiztechnologies.com/osiz-pitchdeck.pdf?v1" target="_blank">Pitch Deck</a></li>
-          <li><a href="https://www.osiztechnologies.com/vision-mission" target="_blank">Vision & Mission</a></li>
-          <li><a href="https://www.osiztechnologies.com/infrastructure" target="_blank">Infrastructure</a></li>
-          <li><a href="https://www.osiztechnologies.com/why-osiz" target="_blank">Why Osiz</a></li>
-          <li><a href="https://www.osiztechnologies.com/benefits" target="_blank">Benefits</a></li>
-          <li><a href="https://www.osiztechnologies.com/life-at-osiz" target="_blank">Life@Osiz</a></li>
-          <li><a href="https://www.osiztechnologies.com/quality-policy" target="_blank">Quality Policy</a></li>
-          <li><a href="https://www.osiztechnologies.com/events" target="_blank">Events</a></li>
-          <li><a href="https://www.osiztechnologies.com/celebrations" target="_blank">Celeberations</a></li>
-          <li><a href="https://www.osiztechnologies.com/business-model" target="_blank">Business Model</a></li>
-          <li><a href="https://www.osiztechnologies.com/our-digital-lab" target="_blank">Our Lab</a></li>
-          <li><a href="https://www.osiztechnologies.com/development-process" target="_blank">Development Process</a></li>
-          <li><a href="https://www.osiztechnologies.com/our-expertise" target="_blank">Our Expertise</a></li>
-          <li><a href="https://www.osiztechnologies.com/terms-and-conditions" target="_blank">Terms and Conditions</a></li>
-          <li><a href="https://www.osiztechnologies.com/payment-refund-policy" target="_blank">Privacy Policy</a></li>             
-        </ul>
-
-        <p class="mt-5" style="font-size: 20px;font-weight: 700;">Insights</p>
-        <ul>
-          <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li>
-          <li><a href="https://www.osiztechnologies.com/press-release" target="_blank">Press Release</a></li>
-          <li><a href="https://www.osiztechnologies.com/faq" target="_blank">FAQ</a></li>
-          <li><a href="https://www.osiztechnologies.com/write-a-review" target="_blank">Write a Review</a></li>
-          <li><a href="https://www.osiztechnologies.com/testimonials" target="_blank">Testimonials</a></li>
-          <li><a href="https://www.osiztechnologies.com/complaints-board" target="_blank">Complaint Board</a></li>
-          <li><a href="https://www.osiztechnologies.com/feedback" target="_blank">Feedback</a></li>
-          <li><a href="https://www.osiztechnologies.com/scam" target="_blank">Report the Scammers</a></li>
-          <li><a href="https://www.osiztechnologies.com/case-studies" target="_blank">Case Studies</a></li>             
-        </ul>
-      </div>
-    </li> */}
-                {/* <li class="nav-item menu_desk ml-auto mr-40">
-      <a class="nav-link cus_title" href="#">Hire Developers</a>
-      <div class="sub-menu">
-        <div class="row">
-          <div class="col-lg-12">
-            <div>
-              <ul >
-                <li><a href="https://www.osiztechnologies.com/hire-web3-developers" target="_blank">Hire Web3 Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/hire-developers" target="_blank">Hire Skilled Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/blog/hire-metaverse-developers" target="_blank">Hire Metaverse Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/blog/hire-dapp-developers" target="_blank">Hire DApp Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/blog/hire-smart-contract-developers" target="_blank">Hire Smart Contract Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/request-for-quotation" target="_blank">Hire Solidity Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/blog/hire-python-developers" target="_blank">Hire Python Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/request-for-quotation" target="_blank">Hire Laravel Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/request-for-quotation" target="_blank">Hire MEAN Stack Developers</a></li>
-                <li><a href="https://www.osiztechnologies.com/blog/hire-mern-stack-developers" target="_blank">Hire MERN Stack Developers</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </li> */}
                 {/* <li class="nav-item menu_desk hasNewMenu ml-10 mr-40" role="button"> */}
                 <li className="nav-item menu_desk hasNewMenu hover_me ml-auto mr-40">
                   <a className="nav-link" href="#">
@@ -1811,28 +1511,11 @@ const MetaverseEcosystem = () => {
                     </div>
                   </article>
                 </li>
-                {/* <ul class="navbar-nav socialIcns d-flex align-items-center">
-        <li class="nav-item">       
-          <a class="desktop nav-link d-none d-lg-block icons_li whatsapp" href="https://web.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20your%20services.%20Shall%20we%20discuss%20now?%20-%20' . full_url() . '" target="_blank">
-           <i class="fab fa-whatsapp"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="https://telegram.me/Osiz_Tech" target="_blank" class="nav-link icons_li telegram">
-           <i class="fab fa-telegram-plane"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="https://join.skype.com/invite/lAF0IYo03Kfu" target="_blank" class="nav-link icons_li skype"><i class="fab fa-skype"></i></a>
-        </li>
-      </ul>  */}
+
                 {/*  */}
                 <li className="HddrBtns co web_menu_btn_sec">
                   <button className="btn menu_btn button_christ" id="proposal_btn" onclick="openContact()">GET A PROPOSAL <img src="https://www.osiztechnologies.com/asset/img/reindeer.webp" className="img-fluid raindeer_img" alt="raindeer-img" title="Raindeer" /> </button>
-                  {/* <button class="btn BtnPrimry TlkBtn menu_btn button_christ" id="proposal_btn" onclick="openContact()">
-          <span><img src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif"  alt="enquiry" class="img-fluid mr-2">GET A PROPOSAL</span>
-          <span><img src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif" alt="enquiry" class="img-fluid mr-2">GET A PROPOSAL</span>
-        </button> */}
+
                   <article className="contact_form_mainsec" id="contact_form_main">
                     <div className="topNewContact">
                       <p className="sub_title">Let's quickly bond.</p>
@@ -2116,17 +1799,7 @@ const MetaverseEcosystem = () => {
                     </div>
                   </article>
                 </li>
-                {/* <li class="single_trending_sec">
-          <div class="single_trending_btn remove_me" id="single_trending_btn"> 
-            <p>
-              <a href="https://www.osiztechnologies.com/exclusive-offers-and-deals" target="_blank">
-                <span class="text_blink_animate">
-                  <img src="https://www.osiztechnologies.com/asset/img/gift-menu-icon.webp" class="img-fluid" height="35" width="35" alt="Metaverse_Image"> Black Friday Deals
-                </span>
-              </a>
-            </p> 
-          </div>
-        </li> */}
+
               </ul>
             </div>
           </div>

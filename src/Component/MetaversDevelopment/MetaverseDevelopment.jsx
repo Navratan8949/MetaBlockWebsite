@@ -25,16 +25,7 @@ const MetaverseDevelopment = () => {
                   Advanced Technology, and Achieve Seamless Integration through
                   Our Expert Services.
                 </p>
-                {/* <div className="HddrBtns banner_btn_sec">
-                  <button
-                    data-toggle="modal"
-                    data-target="#popup_form_modal"
-                    className="btn BtnPrimry TlkBtn banner_btn"
-                  >
-                    <span>Get A Live Quote</span>
-                    <span>Get A Live Quote</span>
-                  </button>
-                </div> */}
+
               </div>
               <div className="col-lg-5 col-12">
                 <img
@@ -83,21 +74,15 @@ const MetaverseDevelopment = () => {
                 <div className="met_game_what_about_btn_sec"
                   onClick={() => navigate('/ContectUsForm')}
                 >
-                  <a
-                    // href="https://web.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20your%20services.%20Shall%20we%20discuss%20now?%20-%20' https://www.osiztechnologies.com/metaverse-development-company '"
-                    className="btn met_game_what_about_btn desktop"
-                  // target="_blank"
-                  >
+                  <a className="btn met_game_what_about_btn desktop" >
 
                     &nbsp;Talk To our Experts
                   </a>
-                  <a
-                    // href="https://api.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20your%20services.%20Shall%20we%20discuss%20now?%20-%20' https://www.osiztechnologies.com/metaverse-development-company '"
+                  {/* <a
                     className="btn met_game_what_about_btn mobile"
-                  // target="_blank"
                   >
                     &nbsp;Talk To our Experts
-                  </a>
+                  </a> */}
 
                 </div>
               </div>
@@ -324,11 +309,7 @@ const MetaverseDevelopment = () => {
                   </a>
                 </div>
                 <div className="col-lg-4 col-12">
-                  {/* <a
-                    href="https://www.osiztechnologies.com/blog/metaverse-social-media-platform-development"
-                    title="Metaverse Social Media Platform"
-                    target="_blank"
-                  > */}
+
                   <div className="platform_box">
                     <img
                       src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
@@ -630,10 +611,7 @@ const MetaverseDevelopment = () => {
               Potential Advantages of Development of the Metaverse
 
             </h2>
-            {/* <p className="contents">
-              Metaverse development offers some comprehensive potential benefits
-              such as
-            </p> */}
+
             <div className="row justify-content-center">
               <div className="col-lg-4 col-12">
                 <div className="benefits_box">
@@ -756,10 +734,7 @@ const MetaverseDevelopment = () => {
             <h2 className="title">
               Characteristics That Influence The Development Of The Metaverse
             </h2>
-            {/* <p className="contents">
-              There are a few basic features that influence the growth of the
-              metaverse such as,
-            </p> */}
+
             <div className="row justify-content-center">
               <div className="col-lg-4 col-12">
                 <div className="feature_box">

@@ -39,22 +39,22 @@ export default function SocialMediaSwiperSlider() {
             >
 
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-1.png" />
+                    <img className='swiper-slider-images' src="./images/SocialMediasliderpic-1.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-2.png" />
+                    <img className='swiper-slider-images' src="./images/SocialMediasliderpic-2.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-3.png" />
+                    <img className='swiper-slider-images' src="./images/SocialMediasliderpic-3.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-4.png" />
+                    <img className='swiper-slider-images' src="./images/SocialMediasliderpic-4.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-5.png" />
+                    <img className='swiper-slider-images' src="./images/SocialMediasliderpic-5.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-6.png" />
+                    <img className='swiper-slider-images' src="./images/SocialMediasliderpic-6.png" />
                 </SwiperSlide>
 
             </Swiper>

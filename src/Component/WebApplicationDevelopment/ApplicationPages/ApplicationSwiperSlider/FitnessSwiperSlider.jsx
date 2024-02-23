@@ -38,22 +38,22 @@ export default function FitnessSwiperSlider() {
             >
 
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-1.png" />
+                    <img className='swiper-slider-images' src="./images/Fitnesssliderpic-1.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-2.png" />
+                    <img className='swiper-slider-images' src="./images/Fitnesssliderpic-2.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-3.png" />
+                    <img className='swiper-slider-images' src="./images/Fitnesssliderpic-3.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-4.png" />
+                    <img className='swiper-slider-images' src="./images/Fitnesssliderpic-4.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-5.png" />
+                    <img className='swiper-slider-images' src="./images/Fitnesssliderpic-5.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-6.png" />
+                    <img className='swiper-slider-images' src="./images/Fitnesssliderpic-6.png" />
                 </SwiperSlide>
 
             </Swiper>

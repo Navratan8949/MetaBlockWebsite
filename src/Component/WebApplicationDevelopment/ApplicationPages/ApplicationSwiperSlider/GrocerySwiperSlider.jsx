@@ -39,22 +39,22 @@ export default function GrocerySwiperSlider() {
             >
 
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-1.png" />
+                    <img className='swiper-slider-images' src="./images/Grocerysliderpic-1.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-2.png" />
+                    <img className='swiper-slider-images' src="./images/Grocerysliderpic-2.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-3.png" />
+                    <img className='swiper-slider-images' src="./images/Grocerysliderpic-3.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-4.png" />
+                    <img className='swiper-slider-images' src="./images/Grocerysliderpic-4.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-5.png" />
+                    <img className='swiper-slider-images' src="./images/Grocerysliderpic-5.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-6.png" />
+                    <img className='swiper-slider-images' src="./images/Grocerysliderpic-6.png" />
                 </SwiperSlide>
 
             </Swiper>

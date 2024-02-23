@@ -36,7 +36,7 @@ const BaccaratGameDevelopment = () => {
                                 <div className="d-flex btn-box flex-column flex-lg-row align-items-center fade-in one w-fit">
                                     <Link to="/Aboutus" style={{ marginLeft: 15 }} className="color-btn btn-hover gap-2">See Our Work <ion-icon name="rocket-outline" className="fs-5 rocket" /></Link>
                                 </div>
-                                {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
+
                             </div>
                         </div>
                         <div className="col-lg-6 ps-0">
@@ -56,9 +56,7 @@ const BaccaratGameDevelopment = () => {
                             <div className="container px-5 ms-3 row gx-5 py-5 align-items-center">
                                 <h1 className="display-5 glow-text lh-1 mb-3 text-white fw-bold g-text">Baccarat Game Development Services
                                 </h1>
-                                {/* <h2 class="text-white display-1 lh-1 mb-4 ">
-              WE MAKE DREAMS <br> COME TO LIFE
-          </h2> */}
+
                                 <h3 className="text-white mb-4 mt-4">
                                     Developed 100+ Rummy Game
                                 </h3>
@@ -66,14 +64,11 @@ const BaccaratGameDevelopment = () => {
                                     MetaBlock Technologies is a leading Baccarat Game app development company. Our efficient game developers have years of experience in developing Rummy games and with their expertise, they can develop games that will definitely make you remember your childhood. Rummy is a game in which we hold a successful track record in the market. We have again and again proved with our effective solutions that we are the #1 Rummy Game Development company.
 
                                 </p>
-                                {/* <div class="d-flex flex-column flex-lg-row align-items-center fade-in one w-fit">
-                  <a href="#!" class="color-btn btn-hover gap-2">Explore games <ion-icon name="rocket-outline" class="fs-5 rocket"></ion-icon></a>
-              </div> */}
-                                {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
+
                             </div>
                         </div>
                     </div>
-                    {/* Swiper */}
+
                 </section>
 
 

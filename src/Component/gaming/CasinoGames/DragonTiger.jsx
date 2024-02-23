@@ -16,17 +16,13 @@ const DragonTiger = () => {
 
 
                 <section className="cta mt-5 position-relative overflow-hidden ">
-                    {/* <img class="bg-img" src="./assets/img/—Pngtree—casino slot with chips and_5986400.png" alt=""> */}
-                    {/* <div class="bg-filter-dark"></div> */}
-                    {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
+
                     <div className="row">
                         <div className="cta-content ps-5 col-lg-6 d-flex align-items-center overflow-hidden">
                             <div className="container px-5 ms-3 row gx-5 py-5 align-items-center">
                                 <h1 className="display-5 txt-center-m glow-text lh-1 mb-3 text-white fw-bold g-text">Dragon Tiger Game<span style={{ fontWeight: 'lighter' }}> Development <span>
                                 </span></span></h1>
-                                {/* <h2 class="text-white display-1 lh-1 mb-4 ">
-              WE MAKE DREAMS <br> COME TO LIFE
-          </h2> */}
+
                                 <h3 className=" mb-4 mt-4 txt-center-m">
                                     Top Rated Dragon Tiger Game Developer
                                 </h3>
@@ -41,7 +37,7 @@ const DragonTiger = () => {
                                 <div className="d-flex btn-box flex-column flex-lg-row align-items-center fade-in one w-fit">
                                     <Link to="/Aboutus" style={{ marginLeft: 15 }} className="color-btn btn-hover gap-2">See Our Work <ion-icon name="rocket-outline" className="fs-5 rocket" /></Link>
                                 </div>
-                                {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
+
                             </div>
                         </div>
                         <div className="col-lg-6 ps-0">
@@ -51,8 +47,7 @@ const DragonTiger = () => {
                 </section>
 
                 <section className=".section bg-main position-relative">
-                    {/* <img class="bg-img" src="./assets/img/—Pngtree—casino slot with chips and_5986400.png" alt="">
-  <div class="bg-filter-dark"></div> */}
+
                     <div className="row">
                         <div className="col-lg-6 ps-0">
                             <img className="cta-content-img" src="./images/dragon-tiger-game-development-in-india-2.png" alt />
@@ -61,9 +56,6 @@ const DragonTiger = () => {
                             <div className="container px-5 ms-3 row gx-5 py-5 align-items-center">
                                 <h1 className="display-5 glow-text lh-1 mb-3 text-white fw-bold g-text">Dragon Tiger Game Development Services
                                 </h1>
-                                {/* <h2 class="text-white display-1 lh-1 mb-4 ">
-              WE MAKE DREAMS <br> COME TO LIFE
-          </h2> */}
                                 <h3 className="text-white mb-4 mt-4">
                                     Developed 100+ Dragon Tiger  Game
                                 </h3>
@@ -71,167 +63,21 @@ const DragonTiger = () => {
                                     MetaBlock Technologies is a leading Dragon Tiger Game app development company. Our efficient game developers have years of experience in developing Rummy games and with their expertise, they can develop games that will definitely make you remember your childhood. Rummy is a game in which we hold a successful track record in the market. We have again and again proved with our effective solutions that we are the #1 Rummy Game Development company.
 
                                 </p>
-                                {/* <div class="d-flex flex-column flex-lg-row align-items-center fade-in one w-fit">
-                  <a href="#!" class="color-btn btn-hover gap-2">Explore games <ion-icon name="rocket-outline" class="fs-5 rocket"></ion-icon></a>
-              </div> */}
-                                {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
+
                             </div>
                         </div>
                     </div>
-                    {/* Swiper */}
+
                 </section>
 
 
 
 
-                {/* <section className="game_dev_comp_banner">
-                    <div className="container">
-                        <div className="row align-items-center justify-content-center">
-                            <div className="col-lg-6 col-12">
-                                <div className="banner_sec">
-                                    <h1 className="title">
-                                        <span className="bnr_clr_title">Dragon Tiger Game </span>{" "}
-                                        <br /> Development
-                                    </h1>
-                                    <p className="contents">
-                                        MetaBlock is a leading Dragon Tiger Game development company. Our experienced team of Dragon Tiger game developers specialized in creating visually captivating and user-friendly Dragon Tiger games. We incorporate advanced features that enhance the overall gaming experience, catering to Dragon Tiger enthusiasts worldwide. Our goal is to deliver an unparalleled Dragon Tiger gaming experience that captures the interest and enjoyment of players globally.
-                                    </p>
-                                    <div className="HddrBtns banner_btn_sec"
-                                        onClick={() => navigate('/ContectUsForm')}
-                                    >
-                                        <button
-                                            data-toggle="modal"
-                                            data-target="#popup_form_modal"
-                                            className="btn banner_btn"
-                                        >
-                                            <span>Tap for a Quotation</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
-
                 <section className="game_dev_comp_services">
                     <div className="container">
                         <h2 className="title">Our Game Development Services Range</h2>
                         <div className="nft-marketplace-usecase slider">
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/blog/web3-game-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service1.webp" className="img-fluid lazyload" alt="Web3_Game_Development" title="Web3 Game Development" />
-                    </div>
-                    <h3 className="sub_title">Web3 Game Development</h3>
-                    <p className="sub_contents">Utilizing blockchain technologies, our group of video game developers constructs secure and decentralized Web3 games. Our specialization includes decentralized governance, player ownership, and the provision of fair gameplay
-                      experiences.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/nft-game-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service2.webp" className="img-fluid lazyload" alt="nft_Game_Development" title="NFT Game Development" />
-                    </div>
-                    <h3 className="sub_title">NFT Game Development</h3>
-                    <p className="sub_contents">Specializing in NFT-infused games, we elevate in-game assets with real-world significance. By utilizing top-tier blockchains, we empower players to craft, trade, and vend NFTs directly within the gaming ecosystem.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/metaverse-game-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service3.webp" className="img-fluid lazyload" alt="Metaverse_Game_Development" title="Metaverse Game Development" />
-                    </div>
-                    <h3 className="sub_title">Metaverse Game Development</h3>
-                    <p className="sub_contents">As a premier video game development company, we strongly prioritize the creation of immersive metaverse games that evolve in sync with their communities. We encompass all the top metaverse features, including interactivity,
-                      user-generated content, and social connectivity.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/blockchain-game-development-company" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service4.webp" className="img-fluid lazyload" alt="Blockchain_Game_Development" title="Blockchain Game Development" />
-                    </div>
-                    <h3 className="sub_title">Blockchain Game Development</h3>
-                    <p className="sub_contents">Covering a spectrum of blockchain game development solutions, our team offers services that span from incorporating smart contracts to conducting security audits. Our blockchain gaming projects encompass the integration
-                      of player-centric economies and the implementation of secure in-game transactions.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service5.webp" className="img-fluid lazyload" alt="Mobile_Game_Development" title="Mobile Game Development" />
-                    </div>
-                    <h3 className="sub_title">Mobile Game Development</h3>
-                    <p className="sub_contents">We specialize in offering complete mobile gaming solutions for iOS and Android platforms. As a premier game development agency, we guarantee the creation of highly polished, high-performance games with captivating player
-                      experiences.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service6.webp" className="img-fluid lazyload" alt="AR_VR_Game_Development" title="AR and VR Game Development" />
-                    </div>
-                    <h3 className="sub_title">AR and VR Game Development</h3>
-                    <p className="sub_contents">We develop AR and VR games that offer players engaging real-time experiences. Our games feature interactive gameplay, high-quality graphics, and leverage advanced AR/VR and devices, platforms, and frameworks.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service7.webp" className="img-fluid lazyload" alt="Unity_3D_Game_Development" title="Unity 3D Game Development" />
-                    </div>
-                    <h3 className="sub_title">Unity 3D Game Development</h3>
-                    <p className="sub_contents">Our team of Unity game developers utilizes the latest attributes of the foremost game engine to produce visually captivating and interactive 2D and 3D games. Furthermore, we ensure the seamless performance of these games
-                      on numerous platforms.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service8.webp" className="img-fluid lazyload" alt="Desktop_Game_Development" title="Desktop Game Development" />
-                    </div>
-                    <h3 className="sub_title">Desktop Game Development</h3>
-                    <p className="sub_contents">Our proficiency lies in crafting intricate, top-tier games through the sophisticated toolkit of Unreal Engine. Our creations enthrall gamers with breathtaking graphics, immersive settings, and exhilarating gameplay moments.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service9.webp" className="img-fluid lazyload" alt="Unreal_Game_Development" title="Unreal Game Development" />
-                    </div>
-                    <h3 className="sub_title">Unreal Game Development</h3>
-                    <p className="sub_contents">Our proficiency lies in crafting intricate, top-tier games through the sophisticated toolkit of Unreal Engine. Our creations enthrall gamers with breathtaking graphics, immersive settings, and exhilarating gameplay moments.</p>
-                  </div>
-                </a>
-              </div> */}
-                            {/* <div className="item">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/game-development-company/service10.webp" className="img-fluid lazyload" alt="HTML5_Game_Development" title="HTML5 Game Development" />
-                    </div>
-                    <h3 className="sub_title">HTML5 Game Development</h3>
-                    <p className="sub_contents">Focusing on HTML5 game development, we design cross-platform games that align with client needs. Our games are engaging, easily accessible, and deliver flawless performance on web browsers across a range of platforms.</p>
-                  </div>
-                </a>
-              </div> */}
+
                             <AutoPlaygame />
                         </div>
                     </div>
@@ -260,7 +106,7 @@ const DragonTiger = () => {
                                                     className="sprite_icons lazyload"
                                                     alt="AR_VR_Icon"
                                                     title="AR and VR"
-                                                // style={{ objectPosition: "0px 0px" }}
+
                                                 />
                                                 <h3 className="sub_title">AR and VR</h3>
                                             </div>
@@ -278,7 +124,7 @@ const DragonTiger = () => {
                                                     className="sprite_icons lazyload"
                                                     alt="Console_Icon"
                                                     title="Console"
-                                                // style={{ objectPosition: "-94px 0px" }}
+
                                                 />
                                                 <h3 className="sub_title">Console</h3>
                                             </div>
@@ -297,7 +143,7 @@ const DragonTiger = () => {
                                                     className="sprite_icons lazyload"
                                                     alt="Mobile_Icon"
                                                     title="Mobile"
-                                                // style={{ objectPosition: "-186px 0px" }}
+
                                                 />
                                                 <h3 className="sub_title">Mobile</h3>
                                             </div>
@@ -315,7 +161,7 @@ const DragonTiger = () => {
                                                     className="sprite_icons lazyload"
                                                     alt="PC_Icon"
                                                     title="PC"
-                                                // style={{ objectPosition: "-280px 0px" }}
+
                                                 />
                                                 <h3 className="sub_title">PC</h3>
                                             </div>
@@ -632,7 +478,7 @@ const DragonTiger = () => {
                                         className="sprite_icons lazyload"
                                         alt="250+_Innovators_Crafting_Games"
                                         title="250+ Innovators Crafting Games"
-                                    // style={{ objectPosition: "0px 0px" }}
+
                                     />
                                     <div className="sub_title">
                                         250+ Innovators Crafting Games
@@ -646,7 +492,7 @@ const DragonTiger = () => {
                                         className="sprite_icons lazyload"
                                         alt="400+_Projects_Set_in_Motion"
                                         title="400+ Projects Set in Motion"
-                                    // style={{ objectPosition: "-318px 0px" }}
+
                                     />
                                     <div className="sub_title">400+ Projects Set in Motion</div>
                                 </div>
@@ -658,7 +504,7 @@ const DragonTiger = () => {
                                         className="sprite_icons lazyload"
                                         alt="15+_Years_of_Gaming_Mastery"
                                         title="15+ Years of Gaming Mastery"
-                                    // style={{ objectPosition: "-647px 0px" }}
+
                                     />
                                     <div className="sub_title">15+ Years of Gaming Mastery</div>
                                 </div>
@@ -670,7 +516,7 @@ const DragonTiger = () => {
                                         className="sprite_icons lazyload"
                                         alt="75+_Countries_Immersed_in_Fun"
                                         title="75+ Countries Immersed in Fun"
-                                    // style={{ objectPosition: "-989px 0px" }}
+
                                     />
                                     <div className="sub_title">75+ Countries Immersed in Fun</div>
                                 </div>
@@ -882,7 +728,7 @@ const DragonTiger = () => {
                             <div className="col-lg-5 col-12">
                                 <div className="img_sec">
                                     <img
-                                        // style={{ paddingLeft: "150px" }}
+
                                         src="./images/3dimage-in.png"
                                         className="img-fluid lazyload go-to-gamedevelopment"
                                         alt="Osiz_Your_go_to_game_development_company"

@@ -125,43 +125,43 @@ const Blog = () => {
                 role="tabpanel"
                 aria-labelledby="metaverse-_tab"
               >
-                <div  className="row justify-content-center">
-                {blog_page_data.map((Item, index) => {
-          return (
-                  <div  className="col-lg-7 col-12">
-                    <div  className="popular_box">
-                     
-                        <div className="img_sec">
-                        <Link to={`/Product/${Item.id}`}>
-                          <img
-                            src={Item.image}
-                            alt="Metaverse Virtual Office Development Company"
-                            title="Virutalizing the workspace: Building the Virutal Offices of tomorrow"
-                            className="img-fluid"
-                          />
-                          </Link>
+                <div className="row justify-content-center">
+                  {blog_page_data.map((Item, index) => {
+                    return (
+                      <div className="col-lg-7 col-12">
+                        <div className="popular_box">
+
+                          <div className="img_sec">
+                            <Link to={`/Product/${Item.id}`}>
+                              <img
+                                src={Item.image}
+                                alt="Metaverse Virtual Office Development Company"
+                                title="Virutalizing the workspace: Building the Virutal Offices of tomorrow"
+                                className="img-fluid"
+                              />
+                            </Link>
+                          </div>
+                          <div className="sub_title">
+                            {Item.name}
+                          </div>
+                          <p className="sub_contents">
+                            {Item.Paragraph}
+                          </p>
+
+                          <div className="like_sec">
+                            <Link to={`/Product/${Item.id}`}>
+                              <button
+                                className="btn like_sec_btn like_big"
+                                onclick="likes_count(297)"
+                              >  Read More
+                                <i className="fa fa-thumbs-up" />
+                              </button>
+                            </Link>
+                          </div>
                         </div>
-                        <div className="sub_title">
-                        {Item.name}
-                        </div>
-                        <p className="sub_contents">
-                          {Item.Paragraph}
-                        </p>
-                     
-                      <div className="like_sec">
-                      <Link to={`/Product/${Item.id}`}>
-                        <button
-                          className="btn like_sec_btn like_big"
-                          onclick="likes_count(297)"
-                        >  Read More
-                          <i className="fa fa-thumbs-up" />
-                        </button>
-                        </Link>
                       </div>
-                    </div>
-                  </div>
                     );
-                })}
+                  })}
                 </div>
                 {/*------------- metavers similers blog-------- */}
                 <div className="row justify-content-center">
@@ -173,13 +173,11 @@ const Blog = () => {
                         </a>
                       </div>
                       <a
-                        href="https://www.osiztechnologies.com/blog/icc-metaverse-fanzone-2023"
                         className
                         target="_blank"
                       >
                         <div className="img_sec">
                           <img
-                            src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/Metaverse-Revolution-in-ICC-2023-With-Roblox.webp"
                             alt=" Metaverse Revolution in ICC 2023 with Roblox"
                             title="Innovations in Action: Metaverse Revolution in ICC 2023 with Roblox"
                             className="img-fluid"
@@ -227,13 +225,11 @@ const Blog = () => {
                   <div className="col-lg-7 col-12">
                     <div className="popular_box">
                       <a
-                        href="https://www.osiztechnologies.com/blog/changelly-clone-script"
                         className
                         target="_blank"
                       >
                         <div className="img_sec">
                           <img
-                            src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/Changelly-Clone-Script.webp"
                             alt="Changelly Clone script"
                             title="Changelly Clone Script: A Budget-Friendly Solution to Launch Your Own Cryptocurrency Exchange"
                             className="img-fluid"
@@ -273,13 +269,11 @@ const Blog = () => {
                         </a>
                       </div>
                       <a
-                        href="https://www.osiztechnologies.com/blog/coindcx-clone-script"
                         className
                         target="_blank"
                       >
                         <div className="img_sec">
                           <img
-                            src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/CoinDCX Clone Script.webp"
                             alt="CoinDCX Clone Script"
                             title="Unlock the Potential of CoinDCX Clone Script: A Ready-Made Software Solution for Your Cryptocurrency Exchange Platform"
                             className="img-fluid"
@@ -326,13 +320,11 @@ const Blog = () => {
                   <div className="col-lg-7 col-12">
                     <div className="popular_box">
                       <a
-                        href="https://www.osiztechnologies.com/blog/blockchain-wallet-development"
                         className
                         target="_blank"
                       >
                         <div className="img_sec">
                           <img
-                            src="https://res.cloudinary.com/dmpcbh91l/image/upload/v1626959227/osizsite/blockchain-wallet-development.jpg"
                             alt="blockchain wallet development "
                             title="Blockchain Wallet Development Company"
                             className="img-fluid"
@@ -372,7 +364,6 @@ const Blog = () => {
                         </a>
                       </div>
                       <a
-                        href="https://www.osiztechnologies.com/blog/coindcx-clone-script"
                         className
                         target="_blank"
                       >
@@ -426,13 +417,11 @@ const Blog = () => {
                   <div className="col-lg-7 col-12">
                     <div className="popular_box">
                       <a
-                        href="https://www.osiztechnologies.com/blog/blockchain-casino-game-development"
                         className
                         target="_blank"
                       >
                         <div className="img_sec">
                           <img
-                            src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/Blockchain-Casino-Game-development-Company.webp"
                             alt="Blockchain Casino Game Development"
                             title="The Future of Gaming, a Revolutionizing Entertainment with Blockchain Casino Game"
                             className="img-fluid"
@@ -472,7 +461,6 @@ const Blog = () => {
                         </a>
                       </div>
                       <a
-                        href="https://www.osiztechnologies.com/blog/gta6-metaverse-and-cryptocurrency-revolution"
                         className
                         target="_blank"
                       >
@@ -525,13 +513,11 @@ const Blog = () => {
                   <div className="col-lg-7 col-12">
                     <div className="popular_box">
                       <a
-                        href="https://www.osiztechnologies.com/blog/web3-smart-contract-development"
                         className
                         target="_blank"
                       >
                         <div className="img_sec">
                           <img
-                            src="https://osiztechnologies.s3.us-east-2.amazonaws.com/blog/Web3 Smart Contract Development Company (1).png"
                             alt="Web3 Smart Contract Development Company"
                             title="Web3 Smart Contract Development | Web3 Smart Contract Development Services | Osiz "
                             className="img-fluid"
@@ -571,7 +557,6 @@ const Blog = () => {
                         </a>
                       </div>
                       <a
-                        href="https://www.osiztechnologies.com/blog/web3-wallet-development"
                         className
                         target="_blank"
                       >

@@ -1,10 +1,8 @@
-
-
-.Contact-Us-Form{
+.Contact-Us-Form {
     /* background-size: cover;
     background-position: center; */
-  padding: 120px 0px 50px 0px;
-  /* margin: 0; */
+    padding: 120px 0px 50px 0px;
+    /* margin: 0; */
     /* height: 110vh; */
     background-color: #000;
 }
@@ -43,6 +41,7 @@
     .fixed_social_icons a.mobile {
         display: none !important;
     }
+
     .popup-form-1 .modal-content .popup_form_left_sec {
         border-radius: 0 !important;
         background: url(https://www.osiztechnologies.com/asset/img/popup-form-new-bg.webp);
@@ -156,7 +155,7 @@
     width: unset;
 }
 
- #popup_contact_form_home_new .christmas_btn {
+#popup_contact_form_home_new .christmas_btn {
     position: relative;
     display: flex;
     align-items: center;
@@ -172,7 +171,7 @@
     margin: 0 auto;
 }
 
- #popup_contact_form_home_new .christmas_btn::before {
+#popup_contact_form_home_new .christmas_btn::before {
     content: '';
     display: block;
     position: absolute;
@@ -215,11 +214,11 @@
     color: #000 !important;
 }
 
- #popup_contact_form_home_new .selecpicker_input_group_div {
+#popup_contact_form_home_new .selecpicker_input_group_div {
     display: flex;
 }
 
- #popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list {
+#popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list {
     background: rgba(217, 217, 217, 0.08) !important;
     border: none !important;
     border-radius: 0px;
@@ -236,7 +235,7 @@
     display: grid;
 }
 
- #popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list .btn {
+#popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list .btn {
     background: transparent;
     border: none;
     box-shadow: none;
@@ -246,7 +245,7 @@
     margin-top: 0px;
 }
 
- #popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list .btn i {
+#popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list .btn i {
     font-size: 16px;
     padding-left: 10px;
 }
@@ -289,7 +288,7 @@
     color: rgba(255, 255, 255, 0.65);
 }
 
- .fitoutform-1 .form-group {
+.fitoutform-1 .form-group {
     margin-bottom: 1em !important;
 }
 
@@ -381,19 +380,24 @@
         background: linear-gradient(186deg, #1e083d -13.43%, #000000 100.49%) !important;
         border: 1px solid #bf47ff61;
     }
+
     .popup-form-1 .modal-dialog .modal-content .modal-body .popup_cus_row {
         display: unset !important;
     }
+
     .fixed_social_icons a.desktop {
         display: none !important;
     }
+
     .popup-form-1 .head_sec {
         display: none;
     }
+
     .popup-form-1 .popup-contact-form {
         padding: 20px 10px;
         text-align: center;
     }
+
     .popup-form-1 .home_popup_submit {
         color: #fff;
         font-size: 18px;
@@ -412,81 +416,99 @@
         -o-animation: glowing 2s ease infinite alternate;
         animation: glowing 2s ease infinite alternate;
     }
+
     .popup-form-1 .home_popup_submit:hover {
         animation: unset;
     }
+
     @-webkit-keyframes glowing {
         0% {
             /*background: linear-gradient(93.79deg, #56f3f5 -13.43%, #ec25f8 100.49%);*/
             transform: scale(1);
         }
+
         50% {
             /*background: linear-gradient(55deg, #ffb516 -13.43%, #e40bf1 100.49%);*/
             transform: scale(0.9);
         }
+
         100% {
             background: linear-gradient(120deg, #6a58fb -25.43%, #3cfff6 100.49%);
             transform: scale(1);
         }
     }
+
     @-moz-keyframes glowing {
         0% {
             /*background: linear-gradient(93.79deg, #56f3f5 -13.43%, #ec25f8 100.49%);*/
             transform: scale(1);
         }
+
         50% {
             /*background: linear-gradient(55deg, #ffb516 -13.43%, #e40bf1 100.49%);*/
             transform: scale(0.9);
         }
+
         100% {
             /*background: linear-gradient(120deg, #6a58fb -25.43%, #3cfff6 100.49%);*/
             transform: scale(1);
         }
     }
+
     @-o-keyframes glowing {
         0% {
             /*background: linear-gradient(93.79deg, #56f3f5 -13.43%, #ec25f8 100.49%);*/
             transform: scale(1);
         }
+
         50% {
             /*background: linear-gradient(55deg, #ffb516 -13.43%, #e40bf1 100.49%);*/
             transform: scale(0.9);
         }
+
         100% {
             /*background: linear-gradient(120deg, #6a58fb -25.43%, #3cfff6 100.49%);*/
             transform: scale(1);
         }
     }
+
     @keyframes glowing {
         0% {
             /*background: linear-gradient(93.79deg, #56f3f5 -13.43%, #ec25f8 100.49%);*/
             transform: scale(1);
         }
+
         50% {
             /*background: linear-gradient(55deg, #ffb516 -13.43%, #e40bf1 100.49%);*/
             transform: scale(0.9);
         }
+
         100% {
             /*background: linear-gradient(120deg, #6a58fb -25.43%, #3cfff6 100.49%);*/
             transform: scale(1);
         }
     }
+
     .popup-form-1 input,
     .popup-form-1 .popup_country select,
-     #popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list {
+    #popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list {
         height: 50px !important;
     }
+
     .popup-form-1 #msg {
         height: 100px;
     }
+
     .popup-form-1 .modal-dialog {
         margin-left: 15px;
         margin-right: 15px;
     }
+
     .popup-form-1 .christ_tit {
         font-size: 55px;
         position: relative;
     }
+
     .popup-form-1 .christ_tit::before {
         background: url(https://www.osiztechnologies.com/asset/inner-pages-new/christmas/santa-hat.svg);
         position: absolute;
@@ -499,20 +521,23 @@
         height: 100px;
         background-repeat: no-repeat;
     }
+
     .popup-form-1 .title-141 {
         color: #00f7ff;
     }
 }
 
 @media (max-width: 767px) {
-     .fitoutform-1 .form-group {
+    .fitoutform-1 .form-group {
         margin-bottom: 0.8em !important;
     }
+
     .popup-contact-form .btn {
         margin-top: 10px;
         font-size: 14px;
         padding: 10px 35px;
     }
+
     .popup-form-1 .title-141 {
         font-size: 30px;
         /*background: linear-gradient(90deg, #CC46FB 0%, #4DFFF4 38.02%, #FFB44A 70.31%, #FF00E5 100%);
@@ -521,18 +546,21 @@
     -webkit-text-fill-color: transparent;*/
         color: #00f7ff;
     }
+
     .popup-form-1 .popup-contact-form .social_list_sec ul {
         justify-content: center;
     }
+
     .popup-form-1 {
         top: 0px !important;
     }
+
     .popup-form-1 .modal-dialog {
         margin-top: 3.5rem;
     }
 }
 
- #popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li.selected a {
+#popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li.selected a {
     background: #101010;
     color: #fff;
     font-size: 16px;
@@ -543,7 +571,7 @@
     height: 40px;
 }
 
- #popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li a {
+#popup_contact_form_home_new .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li a {
     height: 40px;
     font-size: 18px;
     display: flex;
@@ -620,7 +648,7 @@
 
 
 
- .title-14 {
+.title-14 {
     font-size: 30px;
     color: #fff;
     font-weight: 600;
@@ -629,13 +657,13 @@
     font-family: "Urbanist", sans-serif;
 }
 
- .contents {
+.contents {
     font-size: 16px;
     font-weight: 300;
     padding-top: 8px;
 }
 
- .form_sec_main {
+.form_sec_main {
     background: rgba(255, 255, 255, 0.07);
     box-shadow: 3px 3px 0px #B43EFF;
     backdrop-filter: blur(14px);
@@ -643,7 +671,7 @@
     padding: 50px 30px;
 }
 
- #cus_col {
+#cus_col {
     position: relative;
     z-index: 100;
 }
@@ -677,11 +705,11 @@
     }
 }
 
- #contactus_form_new {
+#contactus_form_new {
     padding-top: 30px;
 }
 
- #contactus_form_new #contact_submit {
+#contactus_form_new #contact_submit {
     color: #fff;
     font-size: 16px;
     text-transform: capitalize;
@@ -695,7 +723,7 @@
     width: unset;
 }
 
- #contactus_form_new input {
+#contactus_form_new input {
     border: 1px solid #b09fb896 !important;
     color: #fff !important;
     min-height: 50px;
@@ -712,7 +740,7 @@
     border-radius: 5px;
 }
 
- #contactus_form_new .popup_country select {
+#contactus_form_new .popup_country select {
     border: 1px solid #b09fb896 !important;
     color: #fff !important;
     min-height: 50px;
@@ -729,15 +757,15 @@
     border-radius: 5px;
 }
 
- #contactus_form_new .popup_country select option {
+#contactus_form_new .popup_country select option {
     color: #fff !important;
 }
 
- #contactus_form_new .selecpicker_input_group_div {
+#contactus_form_new .selecpicker_input_group_div {
     display: flex;
 }
 
- #contactus_form_new .selecpicker_input_group_div .select_icon_list {
+#contactus_form_new .selecpicker_input_group_div .select_icon_list {
     background: rgb(16 16 16) !important;
     border: 1px solid #b09fb896 !important;
     border-radius: 5px;
@@ -754,7 +782,7 @@
     display: grid;
 }
 
- #contactus_form_new .selecpicker_input_group_div .select_icon_list .btn {
+#contactus_form_new .selecpicker_input_group_div .select_icon_list .btn {
     background: transparent;
     border: none;
     box-shadow: none;
@@ -764,12 +792,12 @@
     margin-top: 0px;
 }
 
- #contactus_form_new .selecpicker_input_group_div .select_icon_list .btn i {
+#contactus_form_new .selecpicker_input_group_div .select_icon_list .btn i {
     font-size: 16px;
     padding-left: 10px;
 }
 
- #contactus_form_new #msg {
+#contactus_form_new #msg {
     padding-top: 15px;
     border: 1px solid #b09fb896 !important;
     color: #fff !important;
@@ -787,44 +815,44 @@
     border-radius: 5px;
 }
 
- #contactus_form_new input::placeholder,
- #contactus_form_new select::placeholder,
- #contactus_form_new #msg::placeholder {
+#contactus_form_new input::placeholder,
+#contactus_form_new select::placeholder,
+#contactus_form_new #msg::placeholder {
     /*       Chrome, Firefox, Opera, Safari 10.1+ */
     color: #fff;
     opacity: 1;
     /* Firefox */
 }
 
- #contactus_form_new input:-ms-input-placeholder,
- #contactus_form_new select::placeholder,
- #contactus_form_new #msg::placeholder {
+#contactus_form_new input:-ms-input-placeholder,
+#contactus_form_new select::placeholder,
+#contactus_form_new #msg::placeholder {
     /*          Internet Explorer 10-11 */
     color: #fff;
 }
 
- #contactus_form_new input::-ms-input-placeholder,
- #contactus_form_new select::placeholder,
- #contactus_form_new #msg::placeholder {
+#contactus_form_new input::-ms-input-placeholder,
+#contactus_form_new select::placeholder,
+#contactus_form_new #msg::placeholder {
     /*         Microsoft Edge */
     color: #fff;
 }
 
- #contactus_form_new .fitoutform .form-group {
+#contactus_form_new .fitoutform .form-group {
     margin-bottom: 1em !important;
 }
 
- #contactus_form_new input:-webkit-autofill,
- #contactus_form_new select:-webkit-autofill,
- #contactus_form_new textarea:-webkit-autofill,
- #contactus_form_new input:-webkit-autofill:focus  #contactus_form_new input:-webkit-autofill:hover {
+#contactus_form_new input:-webkit-autofill,
+#contactus_form_new select:-webkit-autofill,
+#contactus_form_new textarea:-webkit-autofill,
+#contactus_form_new input:-webkit-autofill:focus #contactus_form_new input:-webkit-autofill:hover {
     -webkit-box-shadow: 0 0 0 30px #101010 inset !important;
     background-image: none;
     -webkit-text-fill-color: #fff !important;
     border: 1px solid #b09fb896 !important;
 }
 
- #contactus_form_new .select2-selection__rendered {
+#contactus_form_new .select2-selection__rendered {
     color: #929292;
     margin: 0px;
     padding: 6px;
@@ -832,17 +860,17 @@
     padding-left: 15px
 }
 
- #contactus_form_new .popup_select {
+#contactus_form_new .popup_select {
     padding-left: 15px;
     font-size: 17px;
     color: #929292 !important;
 }
 
- #contactus_form_new .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+#contactus_form_new .bootstrap-select.btn-group .dropdown-toggle .filter-option {
     display: unset;
 }
 
- #contactus_form_new label.error {
+#contactus_form_new label.error {
     border-radius: 5px;
     background: red;
     color: #fff !important;
@@ -856,7 +884,7 @@
     z-index: 1;
 }
 
- #contactus_form_new label.error:after {
+#contactus_form_new label.error:after {
     content: " ";
     position: absolute;
     top: 100%;
@@ -867,24 +895,26 @@
     border-color: red transparent transparent transparent;
 }
 
-.contact_details_mbl{
-width: 42%;
+.contact_details_mbl {
+    width: 96%;
 }
 
-.Contact-form-map{
+.Contact-form-map {
     /* border-radius: 10px; */
     width: 58%;
 }
 
-.Contact-form-map iframe{
-    width: 560px; /* Set your default width here */
-  height: 500px; /* Set your default height here */
-  border: 0;
-  border-radius: 10px;
+.Contact-form-map iframe {
+    width: 560px;
+    /* Set your default width here */
+    height: 500px;
+    /* Set your default height here */
+    border: 0;
+    border-radius: 10px;
 
 }
 
-.center-down-box{
+.center-down-box {
     gap: 20px;
     /* padding: ; */
     display: flex;
@@ -895,21 +925,21 @@ width: 42%;
 
 }
 
-.down-box-Contact-form{
+.down-box-Contact-form {
     margin-top: 50px;
     width: 100%;
     /* justify-content: center; */
 }
 
-@media (max-width:768px){
-    .center-down-box{
+@media (max-width:768px) {
+    .center-down-box {
         /* flex-direction: column; */
         align-items: center;
     }
 }
 
 @media (min-width: 991px) {
-     .contact_form_new {
+    .contact_form_new {
 
         padding: 30px;
         box-shadow: inset 0px 0px 25px 0px #b4b4b440;
@@ -917,7 +947,7 @@ width: 42%;
     }
 }
 
- .contact-info i {
+.contact-info i {
     background: #b43eff;
     border-radius: 5px;
     height: 30px;
@@ -929,47 +959,54 @@ width: 42%;
     margin-right: 8px;
 }
 
- .contact-info,
- .phone-info {
+.contact-info,
+.phone-info {
     margin-top: 25px;
 }
 
- .sub_title-14 {
+.sub_title-14 {
     font-size: 18px;
     font-weight: 400;
     text-transform: capitalize;
     margin-bottom: 10px;
 }
 
- .contact_info a {
+.contact_info a {
     color: #828282;
 }
 
- .c-social ul li a .fa-facebook {
+.c-social ul li a .fa-facebook {
     background: #0269e3;
 }
 
- .c-social ul li a .fa-twitter {
+.c-social ul li a .fa-twitter {
     background: #00acee;
 }
 
- .c-social ul li a .fa-linkedin {
+.c-social ul li a .fa-linkedin {
     background: #0077b5;
 }
 
- .c-social ul li a .fa-youtube {
+.c-social ul li a .fa-youtube {
     background: #c4302b;
 }
 
- .c-social ul li a .fa-pinterest {
+.c-social ul li a .fa-pinterest {
     background: #c8232c;
 }
 
- .c-social ul li a .fa-instagram {
+.c-social ul li a .fa-instagram {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 
- .c-social ul li a i {
+.c-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c-social ul li a i {
     display: block;
     height: 35px;
     width: 35px;
@@ -983,7 +1020,9 @@ width: 42%;
     margin-right: 4px;
 }
 
- .c-social ul {
+.c-social ul {
+    gap: 20px;
+    display: flex;
     margin-top: 15px;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
@@ -992,7 +1031,7 @@ width: 42%;
     -webkit-padding-start: 0;
 }
 
- .c-social ul li {
+.c-social ul li {
     display: inline-block;
 }
 
@@ -1008,20 +1047,20 @@ width: 42%;
         font-size: 50px;
     }
 
-     .form_sec_main {
+    .form_sec_main {
         background: rgb(18 18 18);
     }
 
-     .title-14 {
+    .title-14 {
         margin-bottom: 10px;
         text-align: center;
     }
 
-     img {
+    img {
         margin-top: 15px;
     }
 
-     .contact_form_new {
+    .contact_form_new {
         display: table;
         margin: 0 auto;
         padding-left: 0px;
@@ -1038,7 +1077,7 @@ width: 42%;
         padding-bottom: 30px;
     }
 
-     .form_sec_main {
+    .form_sec_main {
         padding: 25px 20px;
     }
 
@@ -1051,7 +1090,7 @@ width: 42%;
         margin-top: 70px;
     }
 
-     .title-14,
+    .title-14,
     .contact_us_main .contact_us_achive .title-14,
     .contact_us_main .contact_us_locat .title-14,
     .contact_us_main .contact_us_follow .title-14,
@@ -1059,7 +1098,7 @@ width: 42%;
         font-size: 25px !important;
     }
 
-     #contactus_form_new #footer_submit {
+    #contactus_form_new #footer_submit {
         margin-top: 10px;
         font-size: 14px;
         padding: 10px 35px;
@@ -1099,15 +1138,15 @@ width: 42%;
         padding: 30px 0px;
     }
 
-     #contactus_form_new input,
-     #contactus_form_new .selecpicker_input_group_div .select_icon_list,
-     #contactus_form_new .popup_country select,
-     #contactus_form_new #msg {
+    #contactus_form_new input,
+    #contactus_form_new .selecpicker_input_group_div .select_icon_list,
+    #contactus_form_new .popup_country select,
+    #contactus_form_new #msg {
         margin-bottom: 10px;
     }
 
-     .contact-info,
-     .phone-info {
+    .contact-info,
+    .phone-info {
         margin-top: 20px;
     }
 
@@ -1116,7 +1155,7 @@ width: 42%;
     }
 }
 
- #contactus_form_new .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li.selected a {
+#contactus_form_new .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li.selected a {
     background: #101010;
     color: #fff;
     font-size: 16px;
@@ -1127,7 +1166,7 @@ width: 42%;
     height: 40px;
 }
 
- #contactus_form_new .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li a {
+#contactus_form_new .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li a {
     height: 40px;
     font-size: 18px;
     display: flex;
@@ -1322,11 +1361,10 @@ width: 42%;
     }
 }
 
- .btm_contents {
+.btm_contents {
     font-size: 14px !important;
     margin-bottom: 0px;
     font-weight: 400;
     text-align: center;
     margin-top: 10px;
 }
-

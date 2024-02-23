@@ -13,17 +13,16 @@ const Static = () => {
       <header className="ondemad_head">
         <div className="container h-100">
           <div className="row h-100 justify-content-center align-items-center">
-            {/* <div class="text-left header-content col-lg-12 mt-9">
+            <div class="text-left header-content col-lg-12 mt-9">
 
-  <h1 class="mb-5 desktop" style="text-align: left;">On-Demand App Development <br> Company </h1>
-  <h1 class="mb-5 mobile" style="text-align: left;">On-Demand App Development Company </h1>
+              <h1 className="mb-5 mt-40 Static-heading" style={{ display: "flex", justifyContent: "center", alignItems: 'center' }}>
+                Static Website Development
+              </h1>
 
-  </div> */}
+            </div>
             <div className="col-lg-12 my-auto">
-              <div className="header-content mx-auto">
-                <h1 className="mb-5 mt-0 " style={{ textAlign: "left" }}>
-                  Static Website Development <br />{" "}
-                </h1>
+              <div className="header-content mx-auto E-commerce-header-paragraph">
+
                 {/*  <h1 class="mb-5 mobile" style="text-align: left;">On-Demand App Development Company </h1> */}
                 <h3 className="text-left heading-tagline">
                   Elevate your online presence with our Static Website
@@ -59,7 +58,7 @@ const Static = () => {
       </header>
       <section className="mid_section ondemad_feature">
         <div className="container">
-          <div className="section-heading text-center">
+          <div className="section-heading text-center align-center d-flex flex-column">
             <h2 className="features_title">Embraced Features</h2>
             <p className="text-center">
               We develop Static Website with lots of services like tracking
@@ -74,7 +73,8 @@ const Static = () => {
                   <div className="ver_mid">
                     <div className="img_box">
                       <img
-                        src="./SGimage/global-communication.png"
+                        width={'50px'}
+                        src="./images/map-setting.png"
                         alt="GPS Services"
                         title="GPS Services"
                         className="img-fluid"
@@ -98,7 +98,8 @@ const Static = () => {
                   <div className="ver_mid">
                     <div className="img_box">
                       <img
-                        src="./SGimage/payment-method.png"
+                        width={'50px'}
+                        src="./images/digital-wallet.png"
                         alt="In - App Payments"
                         title="In - App Payments"
                         className="img-fluid"
@@ -120,6 +121,7 @@ const Static = () => {
                   <div className="ver_mid">
                     <div className="img_box">
                       <img
+                        width={'50px'}
                         src="./SGimage/integrated-system.png"
                         alt="Cloud Integration"
                         title="Cloud Integration"
@@ -143,6 +145,7 @@ const Static = () => {
                   <div className="ver_mid">
                     <div className="img_box">
                       <img
+                        width={'50px'}
                         src="./SGimage/analytics.png"
                         alt="Instant Push Notification"
                         title="Instant Push Notification"
@@ -164,7 +167,7 @@ const Static = () => {
       </section>
       <section className="mid_section why-business grey-bg">
         <div className="container">
-          <div className="section-heading text-center">
+          <div className="section-heading text-center d-flex justify-center align-center flex-column">
             <h2 className="why_title">
               Why Should You develop an Static Website for Your Business?
             </h2>
@@ -198,12 +201,7 @@ const Static = () => {
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
-                      {/* <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg"
-                        alt="Customer Comfort"
-                        title="Customer Comfort"
-                        style={{ objectPosition: "-57px -18px" }}
-                      /> */}
+
                       <RiCustomerServiceFill />
                     </abbr>
                     <h3>User Convenience</h3>
@@ -212,12 +210,7 @@ const Static = () => {
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
-                      {/* <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg"
-                        alt="Security & Scalability"
-                        title="Security & Scalability"
-                        style={{ objectPosition: "-110px -18px" }}
-                      /> */}
+
                       <SiSpringsecurity />
                     </abbr>
                     <h3>Reliability & Simplicity</h3>
@@ -226,12 +219,7 @@ const Static = () => {
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
-                      {/* <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg"
-                        alt="Advanced Opportunities"
-                        title="Advanced Opportunities"
-                        style={{ objectPosition: "-160px -18px" }}
-                      /> */}
+
                       <FcManager />
                     </abbr>
                     <h3>Strategic Advancements</h3>
@@ -261,86 +249,86 @@ const Static = () => {
           </div>
         </div>
       </section>
-       <section className="section-heading mid_section-1">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <h2 style={{ color: "#D166AF ", fontSize:"31px" }} className="text-center Technology-Stack">Technology Stack We Use</h2>
-              </div>
-            </div>
-            <div className="row tech p-5 pt-0 mt-5 mb-5">
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/physics.png" className="w-100 h-40" alt="" />
-                <h5>React</h5>
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/python.png" alt="" className="w-100 h-40" />
-                <h5>Python</h5>
-
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
-                <img src="./images/mysql.png" alt="" className="w-100 h-40" />
-                <h5>MySQL</h5>
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
-                <h5>Java Srcipt</h5>
-
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
-                <h5>SQL Lite</h5>
-
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/html.png" alt="" className="w-100 h-40" />
-                <h5>HTML</h5>
-
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
-                <h5>Android</h5>
-
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
-                <h5>Mongo DB</h5>
-
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
-                <h5>App Store</h5>
-
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
-                <h5>Atom</h5>
-
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
-                <h5>Laravel</h5>
-
-              </div>
-
-              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-                <img src="./images/python.png" alt="" className="w-100 h-40" />
-                <h5>Python</h5>
-
-              </div>
+      <section className="section-heading mid_section-1">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <h2 style={{ color: "#D166AF ", fontSize: "31px" }} className="text-center Technology-Stack">Technology Stack We Use</h2>
             </div>
           </div>
-        </section>
+          <div className="row tech p-5 pt-0 mt-5 mb-5">
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/physics.png" className="w-100 h-40" alt="" />
+              <h5>React</h5>
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/python.png" alt="" className="w-100 h-40" />
+              <h5>Python</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+              <img src="./images/mysql.png" alt="" className="w-100 h-40" />
+              <h5>MySQL</h5>
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+              <h5>Java Srcipt</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+              <h5>SQL Lite</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/html.png" alt="" className="w-100 h-40" />
+              <h5>HTML</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+              <h5>Android</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+              <h5>Mongo DB</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+              <h5>App Store</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+              <h5>Atom</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+              <h5>Laravel</h5>
+
+            </div>
+
+            <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+              <img src="./images/python.png" alt="" className="w-100 h-40" />
+              <h5>Python</h5>
+
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="why-osiz-hyp">
         <div className="container">
           <div className="text-center why_hyp_content">

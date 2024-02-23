@@ -1,8 +1,15 @@
+@media (max-width:430pc) {
+
+    .Static-heading {
+        margin-top: 50px !important;
+    }
+}
+
 section.mid_section {
     background: #000 !important;
 }
 
-.section-heading h2{
+.section-heading h2 {
     color: #fff !important;
 }
 
@@ -107,13 +114,16 @@ section.mid_section {
         margin-top: -7px;
         opacity: 1;
     }
+
     0.001% {
         margin-top: -15px;
         opacity: 0;
     }
+
     50% {
         opacity: 1;
     }
+
     100% {
         margin-top: 0;
         opacity: 0;
@@ -193,6 +203,7 @@ section.mid_section {
     #ebook_popup_form_modal.popup-form .head_sec {
         display: none;
     }
+
     #ebook_popup_form_modal.popup-form .popup-contact-form {
         padding: 30px 10px;
         text-align: center;
@@ -203,18 +214,22 @@ section.mid_section {
     #ebook_popup_form_modal.popup-form .modal-dialog {
         margin: 4.75rem auto;
     }
+
     #ebook_popup_form_modal .fitoutform .form-group {
         margin-bottom: 0.8em !important;
         margin-left: 15px;
     }
+
     #ebook_popup_form_modal.popup-form .ebook_btn {
         margin-top: 10px;
         font-size: 14px !important;
     }
+
     #ebook_popup_form_modal.popup-form .title {
         font-size: 20px;
         font-weight: 500;
     }
+
     #ebook_popup_form_modal .fitoutform .form-group label {
         display: none;
     }

@@ -75,7 +75,7 @@ const SimilarFile = () => {
                       aria-controls="PrjctTbb7"
                       aria-selected="false"
                     >
-                      Play To Earn
+                      Website
                     </button>
                     <button
                       className="nav-link"
@@ -108,7 +108,8 @@ const SimilarFile = () => {
                       aria-controls="PrjctTbb4"
                       aria-selected="false"
                     >
-                      Exchange
+                      Coins and token
+
                     </button>
                     <button
                       className="nav-link"
@@ -120,6 +121,7 @@ const SimilarFile = () => {
                       aria-selected="false"
                     >
                       NFT
+
                     </button>
                     <button
                       className="nav-link"
@@ -159,14 +161,13 @@ const SimilarFile = () => {
                               <div className="PrjctDtlCnt">
                                 <div className="port_sub_title">Game</div>
                                 <p>
-                                  Are you prepared to step up your gaming experience to the next level?
-                                  Modern software and skilled developers have made it possible for us to produced
-                                  a number of the most engrossing games available for purchase. We have everything
-                                  you could possibly want, from action-packed shooters to strategic games that will
-                                  keep you on the edge of your seat. Additionally, you may connect with gamers from
-                                  all over the world for an even more thrilling multiplayer experience thanks to our
-                                  smooth multiplayer features. Choose MetaBlock Technologies for the finest gaming
-                                  experience instead of settling for subpar games!
+                                  Welcome to our world of immersive gaming experiences! Where we strive to create immersive and exciting gaming experiences. With cutting-edge technology and a passionate team of developers, we offer a range of services including game design, programming, and much more.
+
+
+                                  We pride ourselves on creating visually stunning games, with cutting-edge graphics and immersive gameplay mechanics that keep players engaged for hours on end.
+
+                                  From indie gems to blockbuster hits, we cater to diverse gaming preferences, ensuring every player finds their perfect escape. Join us and unlock a world of limitless imagination and unforgettable experiences.
+
                                 </p>
                               </div>
                             </div>
@@ -187,29 +188,34 @@ const SimilarFile = () => {
                           <div className="PrjctsBtnSec game_PrjctBtn">
                             <div className="mr-4 mb-4">
                               <div className="PrjctBtn_new Btn211-42">
-                                NFT Game Development
+                                Caasino Game
                               </div>
                             </div>
                             <div className="mr-4 mb-4">
                               <div className="PrjctBtn_new Btn211-42">
-                                Metaverse Game Development
+                                TeenPati Game
                               </div>
                             </div>
                             <div className="mr-4 mb-4">
                               <div className="PrjctBtn_new Btn211-42">
-                                Blockchain Game Development
+                                Ludo Game
+                              </div>
+                            </div>
+                            <div className="mr-4 mb-4">
+                              <div className="PrjctBtn_new Btn211-42">
+                                Fantasy Game
                               </div>
                             </div>
                           </div>
                           <div className="PrjctsBtnSec game_PrjctBtn">
                             <div className="mr-4 mb-4">
                               <div className="PrjctBtn_new Btn211-42">
-                                Crypto Casino Game Development
+                                Avitor Game
                               </div>
                             </div>
                             <div className="mr-4 mb-4">
                               <div className="PrjctBtn_new Btn211-42">
-                                Web3 Game Development
+                                Rummy Game
                               </div>
                             </div>
                           </div>
@@ -220,86 +226,7 @@ const SimilarFile = () => {
                               <div className="h5_title">Related Portfolio</div>
                             </div>
                           </div>
-                          {/* <div className="PrjctExmpls slider">
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/game-portfolio1.webp"
-                                alt="Game Portfolio1"
-                                title="Game Portfolio1"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/game-portfolio2.webp"
-                                alt="Game Portfolio2"
-                                title="Game Portfolio2"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/game-portfolio3.webp"
-                                alt="Game Portfolio3"
-                                title="Game Portfolio3"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/game-portfolio4.webp"
-                                alt="Game Portfolio4"
-                                title="Game Portfolio4"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/game-portfolio5.webp"
-                                alt="Game Portfolio5"
-                                title="Game Portfolio5"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/game-portfolio6.webp"
-                                alt="Game Portfolio6"
-                                title="Game Portfolio6"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                        </div> */}
+
                           <RelatedPortfolioSlider />
                         </div>
                       </div>
@@ -312,13 +239,7 @@ const SimilarFile = () => {
                               <div className="PrjctDtlCnt">
                                 <div className="port_sub_title">Metaverse</div>
                                 <p>
-                                  Are you interested in exploring the Metaverse? Search no more,
-                                  as Metaverse represents the next wave of the internet, fusing the
-                                  digital and physical realms. Offering cutting-edge solutions for both
-                                  individuals and enterprises, MetaBlock is at the forefront of this ground-breaking
-                                  technology. Our team of professionals crafts immersive experiences that let
-                                  people socialize with each other, engage with virtual worlds, and even
-                                  transact business in a decentralized marketplace.
+                                  Metaverse is the new evolution of the internet, a perfect mix of both the digital and physical worlds. Our team combines creativity with technical expertise to ensure every project is unique and engaging. What sets us apart is our commitment to innovation and quality, delivering experiences that exceed expectations. We offer customizable solutions to bring your vision to life in the Metaverse.
 
                                 </p>
                               </div>
@@ -343,7 +264,7 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Metaverse_Game"
                               >
-                                Metaverse Game
+                                Smart Contract Development
                               </button>
                             </div>
                             <div className="mr-4 mb-4">
@@ -352,7 +273,7 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Metaverse_Casino_Game"
                               >
-                                Metaverse Casino Game
+                                Private/Public Blockchain
                               </button>
                             </div>
                             <div className="mr-4 mb-4">
@@ -361,7 +282,7 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Metaverse_NFT_Marketplace"
                               >
-                                Metaverse NFT Marketplace
+                                Blockchain For Industries
                               </button>
                             </div>
                           </div>
@@ -372,7 +293,7 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Metaverse_Wallet"
                               >
-                                Metaverse Wallet
+                                POC Development
                               </button>
                             </div>
                             <div className="mr-4 mb-4">
@@ -381,18 +302,11 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Metaverse_Token"
                               >
-                                Metaverse Token
+                                Enterprise Blockchain Solutions
+
                               </button>
                             </div>
-                            <div className="mr-4 mb-4">
-                              <button
-                                type="button"
-                                className="btn PrjctBtn Btn211-42"
-                                aria-label="Metaverse_Industries"
-                              >
-                                Metaverse For Industries
-                              </button>
-                            </div>
+
                           </div>
                         </div>
                         <div className="RltdPrtflo">
@@ -401,125 +315,7 @@ const SimilarFile = () => {
                               <div className="h5_title">Related Portfolio</div>
                             </div>
                           </div>
-                          {/* <div className="PrjctExmpls slider">
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/metaverse1.webp"
-                                alt="metaverse Portfolio1"
-                                title="metaverse Portfolio1"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/metaverse2.webp"
-                                alt="metaverse Portfolio2"
-                                title="metaverse Portfolio2"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/metaverse3.webp"
-                                alt="metaverse Portfolio3"
-                                title="metaverse Portfolio3"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/metaverse4.webp"
-                                alt="metaverse Portfolio4"
-                                title="metaverse Portfolio4"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/metaverse5.webp"
-                                alt="metaverse Portfolio5"
-                                title="metaverse Portfolio5"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/metaverse6.webp"
-                                alt="metaverse Portfolio6"
-                                title="metaverse Portfolio6"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/metaverse7.webp"
-                                alt="metaverse Portfolio7"
-                                title="metaverse Portfolio7"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/metaverse8.webp"
-                                alt="metaverse Portfolio8"
-                                title="metaverse Portfolio8"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/metaverse9.webp"
-                                alt="metaverse Portfolio9"
-                                title="metaverse Portfolio9"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                        </div> */}
+
                           <PlayTOEarnPortfoliio />
                         </div>
                       </div>
@@ -532,14 +328,7 @@ const SimilarFile = () => {
                               <div className="PrjctDtlCnt">
                                 <div className="port_sub_title">Blockchain</div>
                                 <p>
-                                  Aiming to take a big step toward the blockchain. We can help you with anything
-                                  from creating a brand-new decentralized application from start to integrating
-                                  blockchain into your current systems. Utilize the blockchain's power by
-                                  working with MetaBlock's professionals to provide end-to-end development
-                                  services. We enable companies to handle their data, transactions, and
-                                  operations securely and effectively with the use of state-of-the-art technology.
-                                  With our help, utilize the revolutionary potential of blockchain technology to
-                                  revolutionize your business.
+                                  Enter the decentralized world of the blockchain and leverage the power of the latest technologies to crush your competition. Our team of skilled developers specializes in designing, building, and implementing secure and scalable Blockchain solutions. Our comprehensive services encompass smart contract development, decentralized application (dApp) creation, and blockchain integration for various industries.
 
                                 </p>
                               </div>
@@ -563,7 +352,7 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Smart_Contract_Development"
                               >
-                                Smart Contract Development
+                                Decentralization
                               </button>
                             </div>
                             <div className="mr-4 mb-4">
@@ -572,7 +361,8 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Private/Public Blockchain"
                               >
-                                Private/Public Blockchain
+                                Immutability
+
                               </button>
                             </div>
                             <div className="mr-4 mb-4">
@@ -581,7 +371,7 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Blockchain Industries"
                               >
-                                Blockchain For Industries
+                                Transparency
                               </button>
                             </div>
                           </div>
@@ -592,7 +382,8 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="POC Development"
                               >
-                                POC Development
+                                Security
+
                               </button>
                             </div>
                             <div className="mr-4 mb-4">
@@ -601,7 +392,7 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Enterprise Blockchain Solutions"
                               >
-                                Enterprise Blockchain Solutions
+                                Smart Contracts
                               </button>
                             </div>
                           </div>
@@ -612,73 +403,7 @@ const SimilarFile = () => {
                               <div className="h5_title">Related Portfolio</div>
                             </div>
                           </div>
-                          {/* <div className="PrjctExmpls slider">
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/blockchain1.webp"
-                                alt="Blockchain Portfolio1"
-                                title="Blockchain Portfolio1"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/blockchain2.webp"
-                                alt="Blockchain Portfolio2"
-                                title="Blockchain Portfolio2"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/blockchain3.webp"
-                                alt="Blockchain Portfolio3"
-                                title="Blockchain Portfolio3"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/blockchain4.webp"
-                                alt="Blockchain Portfolio4"
-                                title="Blockchain Portfolio4"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/blockchain5.webp"
-                                alt="Blockchain Portfolio5"
-                                title="Blockchain Portfolio5"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                        </div> */}
+
                           < MetaversePortfolio />
                         </div>
                       </div>
@@ -689,15 +414,9 @@ const SimilarFile = () => {
                           <div className="row align-items-center">
                             <div className="col-lg-7">
                               <div className="PrjctDtlCnt">
-                                <div className="port_sub_title">Exchange</div>
+                                <div className="port_sub_title">Coins and token</div>
                                 <p>
-                                  Searching for a trustworthy and safe platform to exchange cryptocurrencies?
-                                  Take use of MetaBlock's services because we have multi-tested, feature-rich
-                                  white-label cryptocurrency exchange software. Utilize the sophisticated
-                                  security features of our exchange software to guarantee the security of your
-                                  transactions. Purchasing and selling bitcoins has never been simpler thanks
-                                  to an easy-to-use user interface. Get in touch with us to discover how
-                                  future financing could join the digitalization platform.
+                                  Launch your digital coins and tokens with MetaBlock. We specialize in creating innovative and secure digital assets. We offer comprehensive solutions tailored to meet the unique needs of our clients. Our team of skilled professionals ensures a seamless end-to-end development process, from conceptualization to deployment. With our cutting-edge technology and personalized approach, we strive to provide the best value for our clients, enabling them to successfully navigate the dynamic world of cryptocurrency and blockchain.
 
                                 </p>
                               </div>
@@ -721,7 +440,8 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Crypto Exchange"
                               >
-                                Crypto Exchange Development
+                                Crypto MLM Development
+
                               </button>
                             </div>
                             <div className="mr-4 mb-4">
@@ -730,7 +450,7 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Crypto MLM"
                               >
-                                Crypto MLM Development
+                                Crypto HYIP Development
                               </button>
                             </div>
                             <div className="mr-4 mb-4">
@@ -739,7 +459,8 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Crypto HYIP"
                               >
-                                Crypto HYIP Development
+                                Cryptocurrency Development
+
                               </button>
                             </div>
                           </div>
@@ -750,18 +471,11 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Cryptocurrency"
                               >
-                                Cryptocurrency Development
-                              </button>
-                            </div>
-                            <div className="mr-4 mb-4">
-                              <button
-                                type="button"
-                                className="btn PrjctBtn Btn211-42"
-                                aria-label="Stablecoin/Altcoin Development"
-                              >
                                 Stablecoin/Altcoin Development
+
                               </button>
                             </div>
+
                           </div>
                         </div>
                         <div className="RltdPrtflo">
@@ -770,73 +484,7 @@ const SimilarFile = () => {
                               <div className="h5_title">Related Portfolio</div>
                             </div>
                           </div>
-                          {/* <div className="PrjctExmpls slider">
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/exchange1.webp"
-                                alt="Exchange Portfolio1"
-                                title="Exchange Portfolio1"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/exchange2.webp"
-                                alt="Exchange Portfolio2"
-                                title="Exchange Portfolio2"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/exchange3.webp"
-                                alt="Exchange Portfolio3"
-                                title="Exchange Portfolio3"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/exchange4.webp"
-                                alt="Exchange Portfolio4"
-                                title="Exchange Portfolio4"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/exchange5.webp"
-                                alt="Exchange Portfolio1"
-                                title="Exchange Portfolio1"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                        </div> */}
+
                           <BlockchainPorfolio />
                         </div>
                       </div>
@@ -849,14 +497,7 @@ const SimilarFile = () => {
                               <div className="PrjctDtlCnt">
                                 <div className="port_sub_title">NFT</div>
                                 <p>
-                                  Are you looking to purchase a unique, authenticated work of digital art?
-                                  Use MetaBlock's renowned services to explore the future of digital ownership.
-                                  Creators may tokenize their original digital goods, like as music and art,
-                                  with our safe and effective blockchain-based NFT platform. You can make sure
-                                  your works are genuine, precious, and rare with NFTs. Make money from your digital
-                                  works by participating in the NFT revolution today. Start using Osiz to easily
-                                  and securely create, sell, and trade your NFTs.
-
+                                  NFTs are one kind of digital asset or a representation of physical assets in the real world. We specialize in creating unique and secure non-fungible tokens tailored to meet the diverse needs of our clients. Our team of experienced developers employs cutting-edge technology and industry best practices to ensure the utmost quality and innovation in every NFT project. With a proven track record of successful NFT launches, we are committed to delivering exceptional results that exceed expectations and drive tangible value for our clients.
                                 </p>
                               </div>
                             </div>
@@ -938,86 +579,7 @@ const SimilarFile = () => {
                               <div className="h5_title">Related Portfolio</div>
                             </div>
                           </div>
-                          {/* <div className="PrjctExmpls slider">
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/nft1.webp"
-                                alt="NFT Portfolio1"
-                                title="NFT Portfolio1"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/nft2.webp"
-                                alt="NFT Portfolio2"
-                                title="NFT Portfolio2"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/nft3.webp"
-                                alt="NFT Portfolio3"
-                                title="NFT Portfolio3"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/nft4.webp"
-                                alt="NFT Portfolio4"
-                                title="NFT Portfolio4"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/nft5.webp"
-                                alt="NFT Portfolio5"
-                                title="NFT Portfolio5"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/nft6.webp"
-                                alt="NFT Portfolio6"
-                                title="NFT Portfolio6"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                        </div> */}
+
                           <ExchangePorfolio />
                         </div>
                       </div>
@@ -1028,16 +590,10 @@ const SimilarFile = () => {
                           <div className="row align-items-center">
                             <div className="col-lg-7">
                               <div className="PrjctDtlCnt">
-                                <div className="port_sub_title">Play To Earn</div>
+                                <div className="port_sub_title">Website development</div>
                                 <p>
-                                  Take control of the blockchain gaming industry with
-                                  our state-of-the-art solutions from a well-known Play
-                                  To Earn Development firm like MetaBlock. Take use of
-                                  our end-to-end development services, which include designing games,
-                                  creating smart contracts, integrating wallets, and more. Our knowledgeable
-                                  blockchain game developers assist you in building a safe and easy-to-use
-                                  platform for your users, providing them with the opportunity to earn incentives
-                                  while playing.
+                                  Launch your new website with MetaBlock, we specialize in creating visually stunning and functionally robust websites. Our team's unwavering commitment to client satisfaction, ensures transparent communication, timely delivery, and ongoing support.
+                                  We only use the latest technologies for your project ensuring that you receive only the best-performing product.
                                 </p>
                               </div>
                             </div>
@@ -1060,7 +616,7 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Axie Infinity"
                               >
-                                Axie Infinity Clone
+                                Static Website Development
                               </button>
                             </div>
                             <div className="mr-4 mb-4">
@@ -1069,7 +625,7 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Decentraland Clone"
                               >
-                                Decentraland Clone
+                                Dynamic Website Development
                               </button>
                             </div>
                             <div className="mr-4 mb-4">
@@ -1078,38 +634,11 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="Gods Unchained Clone"
                               >
-                                Gods Unchained Clone
+                                E-commerce Website Deveopment
                               </button>
                             </div>
                           </div>
                           <div className="PrjctsBtnSec">
-                            <div className="mr-4 mb-4">
-                              <button
-                                type="button"
-                                className="btn PrjctBtn Btn211-42"
-                                aria-label="Zed Run Clone"
-                              >
-                                Zed Run Clone
-                              </button>
-                            </div>
-                            <div className="mr-4 mb-4">
-                              <button
-                                type="button"
-                                className="btn PrjctBtn Btn211-42"
-                                aria-label="Splinterlands Clone"
-                              >
-                                Splinterlands Clone
-                              </button>
-                            </div>
-                            <div className="mr-4 mb-4">
-                              <button
-                                type="button"
-                                className="btn PrjctBtn Btn211-42"
-                                aria-label="Sandbox Clone"
-                              >
-                                Sandbox Clone
-                              </button>
-                            </div>
                           </div>
                         </div>
                         <div className="RltdPrtflo">
@@ -1118,86 +647,7 @@ const SimilarFile = () => {
                               <div className="h5_title">Related Portfolio</div>
                             </div>
                           </div>
-                          {/* <div className="PrjctExmpls slider">
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/playtoearn1.webp"
-                                alt="Play To Earn Portfolio1"
-                                title="Play To Earn Portfolio1"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/playtoearn2.webp"
-                                alt="Play To Earn Portfolio2"
-                                title="Play To Earn Portfolio2"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/playtoearn3.webp"
-                                alt="Play To Earn Portfolio3"
-                                title="Play To Earn Portfolio3"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/playtoearn4.webp"
-                                alt="Play To Earn Portfolio4"
-                                title="Play To Earn Portfolio4"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/playtoearn5.webp"
-                                alt="Play To Earn Portfolio5"
-                                title="Play To Earn Portfolio5"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/playtoearn6.webp"
-                                alt="Play To Earn Portfolio6"
-                                title="Play To Earn Portfolio6"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                        </div> */}
+
                           <NFTPorfolio />
                         </div>
                       </div>
@@ -1210,14 +660,7 @@ const SimilarFile = () => {
                               <div className="PrjctDtlCnt">
                                 <div className="port_sub_title">DeFi</div>
                                 <p>
-                                  Start a DeFi platform that is safe, reliable, scalable,
-                                  and compatible by using services from a top DeFi development
-                                  company, such as MetaBlock. Use our blockchain specialist to obtain
-                                  our end-to-end defi solution, which includes dApps, DEX and token integration,
-                                  wallet integration, and more. Discover DeFi's potential as it offers a decentralized
-                                  network with improved security, trust, and transparency. Make your money work for you
-                                  in a different way.
-
+                                  Looking to enter into decentralized finance? MetaBlock specializes in creating cutting-edge solutions tailored to meet the evolving needs of the DeFi ecosystem. Our services encompass smart contract development, protocol design, and decentralized application (dApp) creation. By leveraging the latest technologies and adhering to best practices, we ensure that our clients' DeFi projects are not only innovative but also robust and reliable, setting new standards for excellence in the industry.
                                 </p>
                               </div>
                             </div>
@@ -1278,18 +721,10 @@ const SimilarFile = () => {
                                 className="btn PrjctBtn Btn211-42"
                                 aria-label="DeFi Smartcontract"
                               >
-                                DeFi Smartcontract
+                                DeFi Smartcontract Development
                               </button>
                             </div>
-                            <div className="mr-4 mb-4">
-                              <button
-                                type="button"
-                                className="btn PrjctBtn Btn211-42"
-                                aria-label="Pancakeswap Clone"
-                              >
-                                Pancakeswap Clone
-                              </button>
-                            </div>
+
                           </div>
                         </div>
                         <div className="RltdPrtflo">
@@ -1298,73 +733,7 @@ const SimilarFile = () => {
                               <div className="h5_title">Related Portfolio</div>
                             </div>
                           </div>
-                          {/* <div className="PrjctExmpls slider">
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/defi1.webp"
-                                alt="DeFi Portfolio1"
-                                title="DeFi Portfolio1"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/defi2.webp"
-                                alt="DeFi Portfolio2"
-                                title="DeFi Portfolio2"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/defi3.webp"
-                                alt="DeFi Portfolio3"
-                                title="DeFi Portfolio3"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/defi4.webp"
-                                alt="DeFi Portfolio4"
-                                title="DeFi Portfolio4"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/defi5.webp"
-                                alt="DeFi Portfolio5"
-                                title="DeFi Portfolio5"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                        </div> */}
+
                           <DefiPorfolio />
                         </div>
                       </div>
@@ -1377,13 +746,7 @@ const SimilarFile = () => {
                               <div className="PrjctDtlCnt">
                                 <div className="port_sub_title">Dapp</div>
                                 <p>
-                                  Create and implement a scalable, safe decentralized application with
-                                  the help of a top DApp Development Company. Speak with MetaBlock about
-                                  how our skilled developers can assist you in delivering a user-friendly
-                                  experience by incorporating state-of-the-art tools and technology. With
-                                  our expertise, we service a variety of areas, including Metaverse, DeFi,
-                                  NFT, Gaming, Exchanges, and more. With our state-of-the-art Dapp solutions,
-                                  take part in the decentralized revolution.
+                                  Enter the world of decentralized applications. We specialize in crafting decentralized applications tailored to meet diverse needs. We ensure seamless integration of blockchain technology into our solutions. Our team's expertise spans various blockchain platforms, enabling us to offer versatile and scalable solutions. We can bring your idea to life.
                                 </p>
                               </div>
                             </div>
@@ -1436,73 +799,7 @@ const SimilarFile = () => {
                               <div className="h5_title">Related Portfolio</div>
                             </div>
                           </div>
-                          {/* <div className="PrjctExmpls slider">
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/dapp1.webp"
-                                alt="Dapp Portfolio1"
-                                title="Dapp Portfolio1"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/dapp2.webp"
-                                alt="Dapp Portfolio2"
-                                title="Dapp Portfolio2"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/dapp3.webp"
-                                alt="Dapp Portfolio3"
-                                title="Dapp Portfolio3"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/dapp4.webp"
-                                alt="Dapp Portfolio4"
-                                title="Dapp Portfolio4"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                          <div>
-                            <div className="PrjctExmplsImg">
-                              <img
-                                data-toggle="modal"
-                                data-target="#portfolio_modal"
-                                src="https://www.osiztechnologies.com/asset/home-page-new/images/dapp3.webp"
-                                alt="Dapp Portfolio3"
-                                title="Dapp Portfolio3"
-                                loading="eager"
-                                className="img-fluid lazyload"
-                              />
-                            </div>
-                          </div>
-                        </div> */}
+
                           <DAppPorfolio />
                         </div>
                       </div>
@@ -1518,44 +815,7 @@ const SimilarFile = () => {
             <AutoPlay />
           </div>
 
-          {/* <div className="MtaverseSec DapsMainBg OurBlgBg" style={{ background: 'black' }}>
-            <div className="container container-1170">
-              <div className="row align-items-center">
-                <div className="col-xl-9">
-                  <div className="OurSrvcHdd mb-3">
-                    <div className="blog_title">Our Blog</div>
-                  </div>
-                  <div className="BnrCnt OurservHdd mb-4">
-                    <h2 className="mb-4">
-                      Outspoken thoughts related to
-                      <span className="Txt8282 px-2">blockchain</span>
-                    </h2>
-                    <p className="col-lg-6 pl-0">
-                      Get frequent updates on the latest tech trends with our
-                      substantial work guide.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-xl-3 text-right">
-                  <div className=" ">
-                    <Link to="/Blog">
-                    <span className="VwAllLnkHov">
-                        View All
-                        <i
-                          className="fa fa-angle-double-right"
-                          aria-hidden="true"
-                        />
-                      </span>
-                   </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <Card />
-          </div> */}
-          {/* <section>
-          <Card />
-        </section> */}
+
           <main className="faq_main">
             <div className="faq_section_new">
               <div className="container">
@@ -1603,10 +863,8 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                                Blockchain development refers to the process of creating and implementing blockchain-based
-                                solutions and applications. Blockchain technology is a decentralized and distributed ledger
-                                system that securely records transactions across a network of computers. Each transaction is
-                                recorded in a block, which is then linked to previous blocks, forming a chain of blocks.
+                                The process of developing and deploying blockchain-based apps and solutions is referred to as blockchain development. A distributed and decentralized ledger system that securely logs transactions over a network of computers is known as blockchain technology. Every transaction is recorded in a block that is subsequently connected to earlier blocks to create a chain of blocks.
+
                               </p>
                             </div>
                           </div>
@@ -1642,12 +900,8 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                                Launchpad development typically refers to the creation and
-                                management of a platform or infrastructure that facilitates
-                                the launching of new projects, products, or initiatives. This
-                                term is commonly used in the context of technology startups,
-                                where a launchpad serves as a centralized platform for managing
-                                the entire lifecycle of a project,
+                                The term "launchpad development" often pertains to the establishment and administration of a platform or infrastructure that enables the introduction of novel projects, products, or initiatives. This phrase is frequently used in relation to technology firms, where a launchpad acts as a central platform for managing a project's complete lifespan.
+
                               </p>
                             </div>
                           </div>
@@ -1670,7 +924,8 @@ const SimilarFile = () => {
                                 aria-controls="collapseOne3"
                               >
                                 <p className="qus_title">
-                                  3. How can I get started with blockchain development for my project or business?
+                                  3. How can I begin developing a blockchain for my project or company?
+
                                 </p>
                               </a>
                             </div>
@@ -1683,10 +938,8 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                                Getting started with blockchain development for your project or
-                                business involves several steps to understand the technology, select
-                                the appropriate platform, and begin building decentralized applications
-                                (DApps) or blockchain-based solutions.
+                                Beginning blockchain development for your project or business requires a number of steps, including learning about the technology, choosing the right platform, and developing decentralized applications (DApps), or blockchain-based solutions.
+
                               </p>
                             </div>
                           </div>
@@ -1709,7 +962,8 @@ const SimilarFile = () => {
                                 aria-controls="collapseOne4"
                               >
                                 <p className="qus_title">
-                                  4. Which blockchain platform should I choose for my project?
+                                  4. For my project, which blockchain platform should I select?
+
                                 </p>
                               </a>
                             </div>
@@ -1722,10 +976,8 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                                The choice of blockchain platform depends on your project requirements, use cases,
-                                scalability needs, and development preferences. Popular blockchain platforms include
-                                Ethereum, Hyperledger Fabric, Binance Smart Chain, and others, each offering different
-                                features and capabilities.
+                                The blockchain platform that you choose will rely on the goals of your project, use cases, scalability requirements, and development preferences. Blockchain platforms that are widely used include Ethereum, Hyperledger Fabric, Binance Smart Chain, and others. Each platform has its own unique features and functionalities.
+
                               </p>
                             </div>
                           </div>
@@ -1748,7 +1000,8 @@ const SimilarFile = () => {
                                 aria-controls="collapseOne5"
                               >
                                 <p className="qus_title">
-                                  5. How do I deploy a smart contract on the blockchain?
+                                  5. How can I use the blockchain to implement a smart contract?
+
                                 </p>
                               </a>
                             </div>
@@ -1761,10 +1014,8 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                                Smart contracts are deployed on the blockchain using specialized tools and
-                                platforms provided by the blockchain network. Developers typically use command-line tools,
-                                Integrated Development Environments (IDEs), or blockchain-specific platforms to compile, deploy,
-                                and interact with smart contracts.
+                                Using specialized tools and platforms made available by the blockchain network, smart contracts are implemented on the blockchain. For the purpose of compiling, deploying, and interacting with smart contracts, developers usually utilize command-line tools, Integrated Development Environments (IDEs), or blockchain-specific platforms.
+
                               </p>
                             </div>
                           </div>
@@ -1787,7 +1038,8 @@ const SimilarFile = () => {
                                 aria-controls="collapseOne6"
                               >
                                 <p className="qus_title">
-                                  6. What are the security considerations in blockchain development?
+                                  6. What security factors are taken into account when developing a blockchain?
+
                                 </p>
                               </a>
                             </div>
@@ -1800,10 +1052,8 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                                Security is paramount in blockchain development. Developers must consider vulnerabilities
-                                such as reentrancy attacks, front-running, and smart contract bugs. Best practices include
-                                code auditing, secure coding practices, and rigorous testing to ensure the security of smart
-                                contracts and DApps.
+                                In the development of blockchains, security is crucial. Vulnerabilities including reentrancy attacks, front-running, and smart contract issues must be taken into account by developers. Secure coding techniques, stringent testing procedures, and code auditing are examples of best practices that guarantee the security of DApps and smart contracts.
+
                               </p>
                             </div>
                           </div>
@@ -1830,7 +1080,8 @@ const SimilarFile = () => {
                                 aria-controls="collapseOne7"
                               >
                                 <p className="qus_title">
-                                  7. How do I test my blockchain application?
+                                  7. How should my blockchain application be tested?
+
                                 </p>
                               </a>
                             </div>
@@ -1843,10 +1094,8 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                                Blockchain applications are tested using a combination of techniques such as
-                                unit testing, integration testing, and end-to-end testing. Tools like Truffle,
-                                Ganache, and Remix provide frameworks for testing smart contracts and DApps in
-                                simulated or real blockchain environments.
+                                A number of methods, including unit testing, integration testing, and end-to-end testing, are used to test blockchain applications. Frameworks for testing DApps and smart contracts in simulated or real-world blockchain settings are offered by programs like Truffle, Ganache, and Remix.
+
                               </p>
                             </div>
                           </div>
@@ -1873,7 +1122,8 @@ const SimilarFile = () => {
                                 aria-controls="collapseOne8"
                               >
                                 <p className="qus_title">
-                                  8. What are the scalability challenges in blockchain development?
+                                  8. What are the blockchain development's scalability challenges?
+
                                 </p>
                               </a>
                             </div>
@@ -1886,10 +1136,8 @@ const SimilarFile = () => {
                           >
                             <div className="panel-body job-cnt-hd">
                               <p>
-                                Scalability is a significant challenge in blockchain development,
-                                especially for public blockchains. Issues such as transaction throughput,
-                                network congestion, and gas fees need to be addressed. Solutions include
-                                layer 2 scaling solutions, sharding, and off-chain scaling techniques.
+                                One of the biggest obstacles to blockchain development is scalability, particularly for public blockchains. There are issues that must be resolved, including transaction performance, network congestion, and gas fees. Sharding, off-chain scaling methods, and layer 2 scaling solutions are some of the alternatives available.
+
                               </p>
                             </div>
                           </div>
@@ -1916,8 +1164,8 @@ const SimilarFile = () => {
                                 aria-controls="collapseOne9"
                               >
                                 <p className="qus_title">
-                                  9. How can businesses get started with metaverse
-                                  development for their specific needs?
+                                  9. What is the process for enterprises to begin implementing metaverse development for their unique requirements?
+
                                 </p>
                               </a>
                             </div>
@@ -1933,53 +1181,35 @@ const SimilarFile = () => {
                                 <strong> </strong>
                               </p>
                               <p>
-                                Define clear objectives and goals for metaverse
-                                development.
+                                Establish precise aims and goals for the growth of the metaverse.
+
                               </p>
                               <p>
-                                Research and choose a development team or partner
-                                with expertise in metaverse technologies.
+                                Find a development team or partner that specializes in metaverse technologies by doing some research.
+
                               </p>
                               <p>
-                                Create a detailed project plan that aligns with your
-                                business needs.
+                                Make sure your project plan is well-defined and meets your company's requirements.
+
                               </p>
                               <p>
-                                Consider pilot projects or smaller initiatives to
-                                test the waters.
+                                To test the waters, think about implementing pilot programs or smaller efforts.
+
                               </p>
                               <p>
-                                Continuously gather feedback from users and iterate
-                                on the development to improve the user experience
-                                and meet business goals.
+                                It is important to consistently obtain user feedback and make iterations on development in order to enhance user experience and achieve corporate objectives.
+
                               </p>
                               <p> </p>
                               <p>
-                                Our Metaverse expert will guide you throughout the
-                                ideation and project development cycle.
+                                You will receive guidance from our Metaverse expert at every stage of the ideation and project development cycle.
+
                               </p>
                             </div>
                           </div>
                         </div>
                         <br />
-                        {/* <div className="faq_load_btn_sec">
-                          <a
-                            href="#"
-                            id="loadMore"
-                            className="nav-link btn btn_skype faq_load_btn"
-                            style={{ display: "block" }}
-                          >
-                            Load More
-                          </a>
-                          <a
-                            href="#"
-                            id="loadless"
-                            className="nav-link btn btn_skype faq_load_btn"
-                            style={{ display: "none" }}
-                          >
-                            Load Less{" "}
-                          </a>
-                        </div> */}
+
                       </div>
                     </div>
                   </div>

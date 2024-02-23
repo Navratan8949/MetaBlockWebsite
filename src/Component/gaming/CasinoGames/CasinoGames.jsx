@@ -66,7 +66,7 @@ const CasinoGames = () => {
                     </p>
                     <div className="casino_game_dev_about_btn_sec">
                       <a
-                        href="https://web.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20Osiz%20software%20development%20services.%20Shall%20we%20discuss%20now?%20-%20https://www.osiztechnologies.com/casino-game-development"
+
                         className="btn casino_game_dev_about_btn desktop"
                         target="_blank"
                       >
@@ -74,7 +74,7 @@ const CasinoGames = () => {
                         &nbsp;WhatsApp
                       </a>
                       <a
-                        href="https://api.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20Osiz%20software%20development%20services.%20Shall%20we%20discuss%20now?%20-%20https://www.osiztechnologies.com/casino-game-development"
+
                         className="btn casino_game_dev_about_btn mobile"
                         target="_blank"
                       >
@@ -82,7 +82,7 @@ const CasinoGames = () => {
                         &nbsp;WhatsApp
                       </a>
                       <a
-                        href="https://telegram.me/Osiz_Tech"
+
                         className="btn casino_game_dev_about_btn1"
                         target="_blank"
                       >
@@ -109,7 +109,7 @@ const CasinoGames = () => {
                 <div className="col-lg-3 col-md-6 col-12">
                   <div className="service_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/service-icons.webp"
+                      src=""
                       alt="Online-Casino-Game-Development"
                       title="Online Casino Game Development"
                       className="sprite_icons"
@@ -128,7 +128,7 @@ const CasinoGames = () => {
                 <div className="col-lg-3 col-md-6 col-12">
                   <div className="service_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/service-icons.webp"
+                      src=""
                       alt="Mobile-Casino-Development"
                       title="Mobile Casino Development"
                       className="sprite_icons"
@@ -145,7 +145,7 @@ const CasinoGames = () => {
                 <div className="col-lg-3 col-md-6 col-12">
                   <div className="service_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/service-icons.webp"
+                      src=""
                       alt="Live-Casino-Development"
                       title="Live Casino Development"
                       className="sprite_icons"
@@ -162,7 +162,7 @@ const CasinoGames = () => {
                 <div className="col-lg-3 col-md-6 col-12">
                   <div className="service_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/service-icons.webp"
+                      src=""
                       alt="VR-and-AR-Casino-Game-Development"
                       title="VR and AR Casino Game Development"
                       className="sprite_icons"
@@ -181,7 +181,7 @@ const CasinoGames = () => {
                 <div className="col-lg-3 col-md-6 col-12">
                   <div className="service_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/service-icons.webp"
+                      src=""
                       alt="NFT-Casino-Game-Development"
                       title="NFT Casino Game Development"
                       className="sprite_icons"
@@ -198,7 +198,7 @@ const CasinoGames = () => {
                 <div className="col-lg-3 col-md-6 col-12">
                   <div className="service_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/service-icons.webp"
+                      src=""
                       alt="Game-Integration"
                       title="Game Integration"
                       className="sprite_icons"
@@ -215,7 +215,7 @@ const CasinoGames = () => {
                 <div className="col-lg-3 col-md-6 col-12">
                   <div className="service_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/service-icons.webp"
+                      src=""
                       alt="Support-and-Maintenance"
                       title="Support and Maintenance"
                       className="sprite_icons"
@@ -231,7 +231,7 @@ const CasinoGames = () => {
                 <div className="col-lg-3 col-md-6 col-12">
                   <div className="service_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/service-icons.webp"
+                      src=""
                       alt="RNG-Icon"
                       title="RNG"
                       className="sprite_icons"
@@ -276,7 +276,7 @@ const CasinoGames = () => {
           </section>
           <section className="casino_game_dev_varieties">
             <img
-              src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-game-varieties.webp"
+              src=""
               alt="Exciting Varieties-of-Our-Casino-Thrills"
               title="Exciting Varieties of Our Casino Thrills"
               className="img-fluid"
@@ -295,7 +295,7 @@ const CasinoGames = () => {
                   <div className="col-lg-5 col-md-6 col-12">
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -304,7 +304,7 @@ const CasinoGames = () => {
                     </div>
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -313,7 +313,7 @@ const CasinoGames = () => {
                     </div>
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -322,7 +322,7 @@ const CasinoGames = () => {
                     </div>
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -331,7 +331,7 @@ const CasinoGames = () => {
                     </div>
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -340,7 +340,7 @@ const CasinoGames = () => {
                     </div>
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -351,7 +351,7 @@ const CasinoGames = () => {
                   <div className="col-lg-5 col-md-6 col-12">
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -360,7 +360,7 @@ const CasinoGames = () => {
                     </div>
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -369,7 +369,7 @@ const CasinoGames = () => {
                     </div>
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -380,7 +380,7 @@ const CasinoGames = () => {
                     </div>
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -389,7 +389,7 @@ const CasinoGames = () => {
                     </div>
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -398,7 +398,7 @@ const CasinoGames = () => {
                     </div>
                     <div className="varieties_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                        src=""
                         alt="Casino-Card"
                         title="Casino Card"
                         className="img-fluid"
@@ -584,7 +584,7 @@ const CasinoGames = () => {
                   </div>
                   <div className="benefits_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                      src=""
                       alt="Casino-Card"
                       title="Casino Card"
                       className="img-fluid"
@@ -593,7 +593,7 @@ const CasinoGames = () => {
                   </div>
                   <div className="benefits_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                      src=" "
                       alt="Casino-Card"
                       title="Casino Card"
                       className="img-fluid"
@@ -604,7 +604,7 @@ const CasinoGames = () => {
                   </div>
                   <div className="benefits_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                      src=" "
                       alt="Casino-Card"
                       title="Casino Card"
                       className="img-fluid"
@@ -613,7 +613,7 @@ const CasinoGames = () => {
                   </div>
                   <div className="benefits_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                      src=" "
                       alt="Casino-Card"
                       title="Casino Card"
                       className="img-fluid"
@@ -622,7 +622,7 @@ const CasinoGames = () => {
                   </div>
                   <div className="benefits_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                      src=" "
                       alt="Casino-Card"
                       title="Casino Card"
                       className="img-fluid"
@@ -632,7 +632,7 @@ const CasinoGames = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 col-12">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/why-img.webp"
+                    src=" "
                     alt="Why-to-Invest-in-Casino-Game-Development?"
                     title="Why to Invest in Casino Game Development?"
                     className="benefits_img img-fluid"
@@ -644,7 +644,7 @@ const CasinoGames = () => {
                   </div>
                   <div className="benefits_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                      src=" "
                       alt="Casino-Card"
                       title="Casino Card"
                       className="img-fluid"
@@ -653,7 +653,7 @@ const CasinoGames = () => {
                   </div>
                   <div className="benefits_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                      src=" "
                       alt="Casino-Card"
                       title="Casino Card"
                       className="img-fluid"
@@ -662,7 +662,7 @@ const CasinoGames = () => {
                   </div>
                   <div className="benefits_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                      src=" "
                       alt="Casino-Card"
                       title="Casino Card"
                       className="img-fluid"
@@ -671,7 +671,7 @@ const CasinoGames = () => {
                   </div>
                   <div className="benefits_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                      src=" "
                       alt="Casino-Card"
                       title="Casino Card"
                       className="img-fluid"
@@ -680,7 +680,7 @@ const CasinoGames = () => {
                   </div>
                   <div className="benefits_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/casino-card.svg"
+                      src=" "
                       alt="Casino-Card"
                       title="Casino Card"
                       className="img-fluid"
@@ -716,14 +716,14 @@ const CasinoGames = () => {
                       <li className="nav-item">
                         <a
                           className="nav-link active"
-                          href="#process1"
+
                           role="tab"
                           data-toggle="tab"
                         >
                           <div className="sub_title">Idea Generation</div>
                           <span>
                             <img
-                              src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/process-icons.svg"
+                              src=" "
                               alt="Idea-Generation"
                               title="Idea Generation"
                               className="sprite_icons"
@@ -735,14 +735,14 @@ const CasinoGames = () => {
                       <li className="nav-item">
                         <a
                           className="nav-link"
-                          href="#process2"
+
                           role="tab"
                           data-toggle="tab"
                         >
                           <div className="sub_title">Designing the Game</div>
                           <span>
                             <img
-                              src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/process-icons.svg"
+                              src=" "
                               alt="Designing-the-Game"
                               title="Designing the Game"
                               className="sprite_icons"
@@ -754,7 +754,7 @@ const CasinoGames = () => {
                       <li className="nav-item">
                         <a
                           className="nav-link"
-                          href="#process3"
+
                           role="tab"
                           data-toggle="tab"
                         >
@@ -763,7 +763,7 @@ const CasinoGames = () => {
                           </div>
                           <span>
                             <img
-                              src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/process-icons.svg"
+                              src=""
                               alt="Coding-and-Development"
                               title="Coding and Development"
                               className="sprite_icons"
@@ -775,13 +775,13 @@ const CasinoGames = () => {
                       <li className="nav-item">
                         <a
                           className="nav-link"
-                          href="#process4"
+
                           role="tab"
                           data-toggle="tab"
                         >
                           <span>
                             <img
-                              src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/process-icons.svg"
+                              src=""
                               alt="Game-Testing"
                               title="Game Testing"
                               className="sprite_icons"
@@ -794,14 +794,14 @@ const CasinoGames = () => {
                       <li className="nav-item">
                         <a
                           className="nav-link"
-                          href="#process5"
+
                           role="tab"
                           data-toggle="tab"
                         >
                           <div className="sub_title">UI/UX Design</div>
                           <span>
                             <img
-                              src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/process-icons.svg"
+                              src=""
                               alt="UI/UX-Design"
                               title="UI/UX Design"
                               className="sprite_icons"
@@ -813,14 +813,14 @@ const CasinoGames = () => {
                       <li className="nav-item">
                         <a
                           className="nav-link"
-                          href="#process6"
+
                           role="tab"
                           data-toggle="tab"
                         >
                           <div className="sub_title">Revenue Generation</div>
                           <span>
                             <img
-                              src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/process-icons.svg"
+                              src=""
                               alt="Revenue-Generation"
                               title="Revenue Generation"
                               className="sprite_icons"
@@ -832,14 +832,14 @@ const CasinoGames = () => {
                       <li className="nav-item">
                         <a
                           className="nav-link"
-                          href="#process7"
+
                           role="tab"
                           data-toggle="tab"
                         >
                           <div className="sub_title">Launch</div>
                           <span>
                             <img
-                              src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/process-icons.svg"
+                              src=""
                               alt="Launch-Icon"
                               title="Launch"
                               className="sprite_icons"
@@ -950,7 +950,7 @@ const CasinoGames = () => {
                 <div className="col-lg-2 col-6">
                   <div className="techstack_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/techstack-icons.webp"
+                      src=""
                       alt="Mongodb-Icon"
                       title="Mongodb"
                       className="sprite_icons"
@@ -962,7 +962,7 @@ const CasinoGames = () => {
                 <div className="col-lg-2 col-6">
                   <div className="techstack_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/techstack-icons.webp"
+                      src=""
                       alt="Angular-Icon"
                       title="Angular"
                       className="sprite_icons"
@@ -974,7 +974,7 @@ const CasinoGames = () => {
                 <div className="col-lg-2 col-6">
                   <div className="techstack_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/techstack-icons.webp"
+                      src=""
                       alt="Stencyl-Icon"
                       title="Stencyl"
                       className="sprite_icons"
@@ -986,7 +986,7 @@ const CasinoGames = () => {
                 <div className="col-lg-2 col-6">
                   <div className="techstack_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/techstack-icons.webp"
+                      src=""
                       alt="Unity-Icon"
                       title="Unity"
                       className="sprite_icons"
@@ -998,7 +998,7 @@ const CasinoGames = () => {
                 <div className="col-lg-2 col-6">
                   <div className="techstack_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/techstack-icons.webp"
+                      src=""
                       alt="Regression-Testing"
                       title="Regression Testing"
                       className="sprite_icons"
@@ -1010,7 +1010,7 @@ const CasinoGames = () => {
                 <div className="col-lg-2 col-6">
                   <div className="techstack_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/techstack-icons.webp"
+                      src=""
                       alt="Compatibility-Testing"
                       title="Compatibility Testing"
                       className="sprite_icons"
@@ -1022,7 +1022,7 @@ const CasinoGames = () => {
                 <div className="col-lg-2 col-6">
                   <div className="techstack_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/techstack-icons.webp"
+                      src=""
                       alt="Play-and-load-Testing"
                       title="Play-and-loadTesting"
                       className="sprite_icons"
@@ -1034,7 +1034,7 @@ const CasinoGames = () => {
                 <div className="col-lg-2 col-6">
                   <div className="techstack_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/techstack-icons.webp"
+                      src=""
                       alt="Vert.X-Icon"
                       title="Vert.X"
                       className="sprite_icons"
@@ -1064,7 +1064,7 @@ const CasinoGames = () => {
                 <div className="col-lg-4 col-md-6 col-12 cus_col">
                   <div className="why_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/whychoose-icons.svg"
+                      src=""
                       alt="Customization-Icon"
                       title="Customization"
                       className="sprite_icons"
@@ -1076,7 +1076,7 @@ const CasinoGames = () => {
                 <div className="col-lg-4 col-md-6 col-12 cus_col">
                   <div className="why_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/whychoose-icons.svg"
+                      src=""
                       alt="High-Quality-Graphics-and-Sound"
                       title="High-Quality Graphics and Sound"
                       className="sprite_icons"
@@ -1090,7 +1090,7 @@ const CasinoGames = () => {
                 <div className="col-lg-4 col-md-6 col-12">
                   <div className="why_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/whychoose-icons.svg"
+                      src=""
                       alt="Cross-Platform-Development"
                       title="Cross-Platform Development"
                       className="sprite_icons"
@@ -1102,7 +1102,7 @@ const CasinoGames = () => {
                 <div className="col-lg-4 col-md-6 col-12 cus_col">
                   <div className="why_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/whychoose-icons.svg"
+                      src=""
                       alt="Proven-Track-Record"
                       title="Proven Track Record"
                       className="sprite_icons"
@@ -1114,7 +1114,7 @@ const CasinoGames = () => {
                 <div className="col-lg-4 col-md-6 col-12">
                   <div className="why_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/casino-game-development/whychoose-icons.svg"
+                      src=" "
                       alt="Ongoing-Support"
                       title="Ongoing Support"
                       className="sprite_icons"

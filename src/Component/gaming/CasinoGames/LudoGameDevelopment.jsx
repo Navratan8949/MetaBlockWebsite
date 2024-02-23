@@ -17,17 +17,13 @@ const LudoGameDevelopment = () => {
 
 
                 <section className="cta mt-5 position-relative overflow-hidden ">
-                    {/* <img class="bg-img" src="./assets/img/—Pngtree—casino slot with chips and_5986400.png" alt=""> */}
-                    {/* <div class="bg-filter-dark"></div> */}
-                    {/* <img class="bg-img" src="./assets/img/h2-img-3.png" alt=""> */}
+
                     <div className="row">
                         <div className="cta-content ps-5 col-lg-6 d-flex align-items-center overflow-hidden">
                             <div className="container px-5 ms-3 row gx-5 py-5 align-items-center">
                                 <h1 className="display-5 txt-center-m glow-text lh-1 mb-3 text-white fw-bold g-text">Ludo Game<span style={{ fontWeight: 'lighter' }}> Development <span>
                                 </span></span></h1>
-                                {/* <h2 class="text-white display-1 lh-1 mb-4 ">
-              WE MAKE DREAMS <br> COME TO LIFE
-          </h2> */}
+
                                 <h3 className=" mb-4 mt-4 txt-center-m">
                                     Top Rated Ludo Game Developer
                                 </h3>
@@ -41,7 +37,7 @@ const LudoGameDevelopment = () => {
                                 <div className="d-flex btn-box flex-column flex-lg-row align-items-center fade-in one w-fit">
                                     <Link to="/Aboutus" style={{ marginLeft: 15 }} className="color-btn btn-hover gap-2">See Our Work <ion-icon name="rocket-outline" className="fs-5 rocket" /></Link>
                                 </div>
-                                {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
+
                             </div>
                         </div>
                         <div className="col-lg-6 ps-0">
@@ -51,8 +47,7 @@ const LudoGameDevelopment = () => {
                 </section>
 
                 <section className=".section bg-main position-relative">
-                    {/* <img class="bg-img" src="./assets/img/—Pngtree—casino slot with chips and_5986400.png" alt="">
-  <div class="bg-filter-dark"></div> */}
+
                     <div className="row">
                         <div className="col-lg-6 ps-0">
                             <img className="cta-content-img" src="./images/ludo-game-development-company-india-4.webp" alt />
@@ -61,56 +56,24 @@ const LudoGameDevelopment = () => {
                             <div className="container px-5 ms-3 row gx-5 py-5 align-items-center">
                                 <h1 className="display-5 glow-text lh-1 mb-3 text-white fw-bold g-text">Ludo Game Development Services
                                 </h1>
-                                {/* <h2 class="text-white display-1 lh-1 mb-4 ">
-              WE MAKE DREAMS <br> COME TO LIFE
-          </h2> */}
+
                                 <h3 className="text-white mb-4 mt-4">
                                     Developed 100+ Ludo Game
                                 </h3>
                                 <p className=" fw-normal text-white mb-4 ">
                                     Our highly skilled game developers possess extensive experience in creating Ludo games that evoke a sense of nostalgia, reminding you of cherished childhood memories. With their expertise, they can craft games that capture the essence of your past, ensuring a delightful gaming experience.  Ludo is a game in which we hold a successful track record in the market. We have again and again proved with our effective solutions that we are the #1 Ludo Game Development company.
                                 </p>
-                                {/* <div class="d-flex flex-column flex-lg-row align-items-center fade-in one w-fit">
-                  <a href="#!" class="color-btn btn-hover gap-2">Explore games <ion-icon name="rocket-outline" class="fs-5 rocket"></ion-icon></a>
-              </div> */}
-                                {/* <a href="#!" class="btn btn-outline-primary text-primary1 bg-transparent">Explore games</a> */}
+
                             </div>
                         </div>
                     </div>
-                    {/* Swiper */}
+
                 </section>
 
 
 
 
-                {/* <section className="game_dev_comp_banner">
-                    <div className="container">
-                        <div className="row align-items-center justify-content-center">
-                            <div className="col-lg-6 col-12">
-                                <div className="banner_sec">
-                                    <h1 className="title">
-                                        <span className="bnr_clr_title">Ludo Game </span>{" "}
-                                        <br /> Development
-                                    </h1>
-                                    <p className="contents">
-                                        MetaBlock is a leading Ludo Game development company. Our experienced team of Ludo game developers specialized in creating visually captivating and user-friendly ludo games. We incorporate advanced features that enhance the overall gaming experience, catering to Ludo enthusiasts worldwide. Our goal is to deliver an unparalleled Ludo gaming experience that captures the interest and enjoyment of players globally.
-                                    </p>
-                                    <div className="HddrBtns banner_btn_sec"
-                                        onClick={() => navigate('/ContectUsForm')}
-                                    >
-                                        <button
-                                            data-toggle="modal"
-                                            data-target="#popup_form_modal"
-                                            className="btn banner_btn"
-                                        >
-                                            <span>Tap for a Quotation</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
+
 
 
                 <section className="game_dev_comp_platform">
@@ -155,7 +118,7 @@ const LudoGameDevelopment = () => {
                                                     className="sprite_icons lazyload"
                                                     alt="Console_Icon"
                                                     title="Console"
-                                                // style={{ objectPosition: "-94px 0px" }}
+
                                                 />
                                                 <h3 className="sub_title">Console</h3>
                                             </div>
@@ -174,7 +137,7 @@ const LudoGameDevelopment = () => {
                                                     className="sprite_icons lazyload"
                                                     alt="Mobile_Icon"
                                                     title="Mobile"
-                                                // style={{ objectPosition: "-186px 0px" }}
+
                                                 />
                                                 <h3 className="sub_title">Mobile</h3>
                                             </div>
@@ -192,7 +155,7 @@ const LudoGameDevelopment = () => {
                                                     className="sprite_icons lazyload"
                                                     alt="PC_Icon"
                                                     title="PC"
-                                                // style={{ objectPosition: "-280px 0px" }}
+
                                                 />
                                                 <h3 className="sub_title">PC</h3>
                                             </div>
@@ -509,7 +472,6 @@ const LudoGameDevelopment = () => {
                                         className="sprite_icons lazyload"
                                         alt="250+_Innovators_Crafting_Games"
                                         title="250+ Innovators Crafting Games"
-                                    // style={{ objectPosition: "0px 0px" }}
                                     />
                                     <div className="sub_title">
                                         250+ Innovators Crafting Games
@@ -523,7 +485,6 @@ const LudoGameDevelopment = () => {
                                         className="sprite_icons lazyload"
                                         alt="400+_Projects_Set_in_Motion"
                                         title="400+ Projects Set in Motion"
-                                    // style={{ objectPosition: "-318px 0px" }}
                                     />
                                     <div className="sub_title">400+ Projects Set in Motion</div>
                                 </div>
@@ -535,7 +496,6 @@ const LudoGameDevelopment = () => {
                                         className="sprite_icons lazyload"
                                         alt="15+_Years_of_Gaming_Mastery"
                                         title="15+ Years of Gaming Mastery"
-                                    // style={{ objectPosition: "-647px 0px" }}
                                     />
                                     <div className="sub_title">15+ Years of Gaming Mastery</div>
                                 </div>
@@ -547,7 +507,6 @@ const LudoGameDevelopment = () => {
                                         className="sprite_icons lazyload"
                                         alt="75+_Countries_Immersed_in_Fun"
                                         title="75+ Countries Immersed in Fun"
-                                    // style={{ objectPosition: "-989px 0px" }}
                                     />
                                     <div className="sub_title">75+ Countries Immersed in Fun</div>
                                 </div>
@@ -758,7 +717,6 @@ const LudoGameDevelopment = () => {
                             <div className="col-lg-5 col-12">
                                 <div className="img_sec">
                                     <img
-                                        // style={{ paddingLeft: "150px" }}
                                         src="./images/3dimage-in.png"
                                         className="img-fluid lazyload go-to-gamedevelopment"
                                         alt="Osiz_Your_go_to_game_development_company"

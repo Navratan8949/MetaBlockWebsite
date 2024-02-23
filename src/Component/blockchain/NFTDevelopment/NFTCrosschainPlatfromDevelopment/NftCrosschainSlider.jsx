@@ -27,37 +27,37 @@ export default class AutoPlaycrosschain extends Component {
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Interoperable NFTs",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          " Cross-chain NFT platforms enable the creation and transfer of non-fungible tokens (NFTs) across different blockchain networks. This interoperability allows users to access and interact with NFTs seamlessly across multiple blockchains, expanding their reach and utility.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Asset Portability",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "Users can transfer NFTs representing digital assets, such as art, collectibles, and virtual real estate, between different blockchain networks using cross-chain platforms. This enables asset portability and liquidity, allowing users to leverage their NFT holdings across various blockchain ecosystems.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Cross-Platform Gaming Assets:",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "NFTs representing in-game items, characters, and assets can be transferred across different gaming platforms and virtual worlds using cross-chain solutions. Players can own and use their NFT assets in multiple games, enhancing interoperability and cross-platform gaming experiences.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Decentralized Finance (DeFi) Integration",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "Cross-chain NFT platforms can integrate with decentralized finance (DeFi) protocols, allowing users to leverage their NFT assets as collateral for borrowing, lending, and yield farming across different blockchain networks. This expands the utility and liquidity of NFTs within the DeFi ecosystem.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Cross-Chain Marketplace Integration",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "NFT marketplaces operating on different blockchain networks can be interconnected through cross-chain platforms, enabling seamless trading and exchange of digital assets across diverse ecosystems. Users can buy, sell, and trade NFTs across multiple marketplaces, expanding market liquidity and accessibility.",
       },
     ];
     return (
@@ -69,17 +69,17 @@ export default class AutoPlaycrosschain extends Component {
         <Slider {...settings}>
           {sliderdata.map((item, index) => (
             <div key={index}>
-               <div className="item">
-          <div className="usecase_box ">
-            <div className="head_sec">
-              <img src= {item.image} className="sprite_icons" alt="NFT for Art" title="NFT for Art" style={{objectPosition: '0px 0px'}} />
-              <div className="head_sec">
-                                  <h3 className="sub_title">{item.name }</h3>
+              <div className="item">
+                <div className="usecase_box ">
+                  <div className="head_sec">
+                    <img src={item.image} className="sprite_icons" alt="NFT for Art" title="NFT for Art" style={{ objectPosition: '0px 0px' }} />
+                    <div className="head_sec">
+                      <h3 className="sub_title">{item.name}</h3>
+                    </div>
+                  </div>
+                  <p className="sub_contents">{item.paragraph}</p>
+                </div>
               </div>
-            </div>
-                          <p className="sub_contents">{item.paragraph }</p>
-          </div>
-        </div>
             </div>
           ))}
         </Slider>

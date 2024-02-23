@@ -27,37 +27,37 @@ export default class AutoPlaybinance extends Component {
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Digital Art Marketplace",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "As NFTs, Binance might provide a market place for the purchase, sale, and exchange of digital art. Artists may use the Binance platform to tokenize their works, and collectors could buy and sell these exclusive digital assets safely.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Collectibles and Gaming Assets",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "NFTs for in-game items and collectibles from different online games and virtual worlds may be hosted on Binance. NFTs enable players to buy, sell, and trade digital assets in a safe and secure manner. They might be anything from rare in-game items to exclusive characters or properties.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Intellectual Property Rights",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "Binance may make it easier for intellectual property rights like patents, trademarks, and copyrights to be tokenized as NFTs. Tokenizing their intellectual property will allow authors and inventors to safely lease or sell their rights on the Binance platform.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Event Tickets and Experiences",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "Event organizers could be able to tokenize tickets for conferences, concerts, sports events, and other live experiences by using Binance's NFT-based event tickets and experiences. These NFT tickets can offer special advantages, entry to only-available material, or first-class experiences.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Real Estate Fractional Ownership",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "Binance may investigate the tokenization of real estate assets, enabling investors to buy NFTs representing a portion of a property's ownership. On the Binance platform, investors may safely purchase and sell fractions of real estate, releasing liquidity.",
       },
     ];
     return (
@@ -69,17 +69,17 @@ export default class AutoPlaybinance extends Component {
         <Slider {...settings}>
           {sliderdata.map((item, index) => (
             <div key={index}>
-               <div className="item">
-          <div className="usecase_box ">
-            <div className="head_sec">
-              <img src= {item.image} className="sprite_icons" alt="NFT for Art" title="NFT for Art" style={{objectPosition: '0px 0px'}} />
-              <div className="head_sec">
-                                  <h3 className="sub_title">{item.name }</h3>
+              <div className="item">
+                <div className="usecase_box ">
+                  <div className="head_sec">
+                    <img src={item.image} className="sprite_icons" alt="NFT for Art" title="NFT for Art" style={{ objectPosition: '0px 0px' }} />
+                    <div className="head_sec">
+                      <h3 className="sub_title">{item.name}</h3>
+                    </div>
+                  </div>
+                  <p className="sub_contents">{item.paragraph}</p>
+                </div>
               </div>
-            </div>
-                          <p className="sub_contents">{item.paragraph }</p>
-          </div>
-        </div>
             </div>
           ))}
         </Slider>

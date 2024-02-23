@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 import { Link, useNavigate } from "react-router-dom";
-import YourComponent from "./Nav-button";
 import ContactForm from "./Nav-button";
 import TemporaryDrawer from "./ResponsiveNavbar";
 import ResponsiveDrawer from "../Sidebar/Sidebar";
@@ -474,7 +473,7 @@ const Navbar = () => {
         >
           <div className="container-fluid">
             <div className="logo_header">
-              <a onClick={() => navigate("/")} className>
+              <a onClick={() => navigate("/")} >
                 <img
                   src="/NewImages/logo2.png"
                   className="img-fluid mbl_res_logo"
@@ -485,13 +484,7 @@ const Navbar = () => {
               </a>
             </div>
 
-            {/* <button type="button" onclick="this.classList.toggle('active')" className="plate navbar-toggle CollBTn collapsed sm-only ui" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-expanded="false" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
-          <svg className viewBox="0 13 75 75" xmlns="http://www.w3.org/2000/svg" onclick="this.classList.toggle('active')">
-            <path className="line line_1" d="M0 40h62c13 0 6 28-4 18L35 35" />
-            <path className="line line_2" d="M0 50h70" />
-            <path className="line line_3" d="M0 60h62c13 0 6-28-4-18L35 65" />
-          </svg>
-        </button> */}
+
             <div
               className="CllpsMenu collapse navbar-collapse w-100 "
               id="navbarNavAltMarkup"
@@ -599,7 +592,6 @@ const Navbar = () => {
                       <div className="col-lg-12 ">
                         <div>
                           <ul>
-                            {/* <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
@@ -624,7 +616,6 @@ const Navbar = () => {
                                           key={index}
                                         >
                                           <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
                                             target="_blank"
                                             style={{ color: "white" }}
                                           >
@@ -647,7 +638,6 @@ const Navbar = () => {
                       <div className="col-lg-12">
                         <div>
                           <ul>
-                            {/* <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
@@ -673,7 +663,6 @@ const Navbar = () => {
                                           key={index}
                                         >
                                           <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
                                             target="_blank"
                                           >
@@ -694,7 +683,6 @@ const Navbar = () => {
                       <div className="col-lg-12">
                         <div>
                           <ul>
-                            {/* <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
@@ -720,7 +708,6 @@ const Navbar = () => {
                                           key={index}
                                         >
                                           <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
                                             target="_blank"
                                           >
@@ -742,7 +729,6 @@ const Navbar = () => {
                       <div className="col-lg-12">
                         <div>
                           <ul>
-                            {/* <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
@@ -768,7 +754,6 @@ const Navbar = () => {
                                           key={index}
                                         >
                                           <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
                                             target="_blank"
                                           >
@@ -789,7 +774,6 @@ const Navbar = () => {
                       <div className="col-lg-12">
                         <div>
                           <ul>
-                            {/* <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
@@ -815,7 +799,6 @@ const Navbar = () => {
                                           key={index}
                                         >
                                           <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
                                             target="_blank"
                                           >
@@ -836,7 +819,6 @@ const Navbar = () => {
                       <div className="col-lg-12">
                         <div>
                           <ul>
-                            {/* <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
@@ -862,7 +844,6 @@ const Navbar = () => {
                                           key={index}
                                         >
                                           <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
                                             target="_blank"
                                           >
@@ -884,7 +865,6 @@ const Navbar = () => {
                       <div className="col-lg-12">
                         <div>
                           <ul>
-                            {/* <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
@@ -910,7 +890,6 @@ const Navbar = () => {
                                           key={index}
                                         >
                                           <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
                                             style={{ color: "white" }}
                                             target="_blank"
                                           >
@@ -1840,19 +1819,7 @@ const Navbar = () => {
                       <div className="col-lg-6">
                         <div>
                           <ul>
-                            {/* <li
-                              onClick={() =>
-                                navigate("/GeneralGamesDevelopment")
-                              }
-                            >
-                              <a
-                                // href="#"
-                                style={{ width: "200px" }}
-                                target="_blank"
-                              >
-                                General Games Development
-                              </a>
-                            </li> */}
+
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link "
@@ -1868,15 +1835,7 @@ const Navbar = () => {
                               </a>
 
                             </div>
-                            {/* <li onClick={() => navigate("/CasinoGames")}>
-                              <a
-                                // href="#"
-                                style={{ width: "200px" }}
-                                target="_blank"
-                              >
-                                Casino Games Development
-                              </a>
-                            </li> */}
+
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
@@ -1901,7 +1860,6 @@ const Navbar = () => {
                                           key={index}
                                         >
                                           <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
                                             target="_blank"
                                             style={{ color: "white" }}
                                           >
@@ -1914,23 +1872,14 @@ const Navbar = () => {
                                 </div>
                               </div>
                             </div>
-                            {/* <li onClick={() => navigate("/MetaverseGame")}>
-                              <a
-                                // href="#"
-                                style={{ width: "200px" }}
-                                target="_blank"
-                              >
-                                Metaverse Game Development
-                              </a>
-                            </li> */}
+
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link "
                                 id="Company_navbarDropdown"
                                 role="button"
                                 onClick={() => navigate("/MetaverseGame")}
-                                // className="nav-link"
-                                // data-toggle="dropdown"
+
                                 aria-expanded="false"
                                 style={{ textDecoration: "none", width: "250px" }}
                               >
@@ -1938,15 +1887,7 @@ const Navbar = () => {
                               </a>
 
                             </div>
-                            {/* <li onClick={() => navigate("/BlockchainGame")}>
-                              <a
-                                // href="#"
-                                style={{ width: "200px" }}
-                                target="_blank"
-                              >
-                                Web3 Game Development
-                              </a>
-                            </li> */}
+
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
@@ -1971,7 +1912,6 @@ const Navbar = () => {
                                           key={index}
                                         >
                                           <a
-                                            //  href="https://www.osiztechnologies.com/about-us"
                                             target="_blank"
                                             style={{ color: "white" }}
                                           >
@@ -2004,7 +1944,6 @@ const Navbar = () => {
                       <div className="col-lg-12">
                         <div>
                           <ul>
-                            {/* <li><a href="https://www.osiztechnologies.com/blog" target="_blank">Blogs</a></li> */}
                             <div className="dropdown_sub_menu dropright">
                               <a
                                 className="dropdown_nav_link dropdown-toggle"
@@ -2061,7 +2000,6 @@ const Navbar = () => {
                                         }
                                       >
                                         <a
-                                          // href="https://www.osiztechnologies.com/terms-and-conditions"
                                           target="_blank"
                                         >
                                           Terms and Conditions
@@ -2073,7 +2011,6 @@ const Navbar = () => {
                                         }
                                       >
                                         <a
-                                          // href="https://www.osiztechnologies.com/payment-refund-policy"
                                           target="_blank"
                                         >
                                           Privacy Policy
@@ -2084,68 +2021,23 @@ const Navbar = () => {
                                 </div>
                               </div>
                             </div>
-                            {/* <div className="dropdown_sub_menu dropright">
-                              <a
-                                className="dropdown_nav_link dropdown-toggle"
-                                href="#"
-                                id="contact_navbarDropdown"
-                                role="button"
-                                data-toggle="dropdown"
-                                aria-expanded="false"
-                              >
-                                Contact Us
-                              </a>
-                              <div
-                                className="dropdown-menu drop_right_menu"
-                                aria-labelledby="navbarDropdown"
-                              >
-                                <div className="row">
-                                  <div className="col-lg-12">
-                                    <div>
-                                      <li>
-                                        <a
-                                          href="https://www.osiztechnologies.com/contact-us"
-                                          target="_blank"
-                                        >
-                                          Contact Us
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a
-                                          href="https://www.osiztechnologies.com/request-for-quotation"
-                                          target="_blank"
-                                        >
-                                          Request For Quote
-                                        </a>
-                                      </li>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div> */}
+
 
                             <li onClick={() => navigate("/ContectUsForm")}>
                               <a target="_blank">Contact us</a>
                             </li>
                             <li onClick={() => navigate("/News")}>
                               <a
-                              // href="https://www.osiztechnologies.com/news"
-                              // target="_blank"
+
                               >
                                 News
                               </a>
                             </li>
 
-                            {/* <li><a href="https://www.osiztechnologies.com/press-release" target="_blank">Press Release</a></li> */}
                             <li onClick={() => navigate("/InsightsFAQ")}>
                               <a target="_blank">FAQ</a>
                             </li>
-                            {/* <li><a href="https://www.osiztechnologies.com/write-a-review" target="_blank">Write a Review</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/testimonials" target="_blank">Testimonials</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/complaints-board" target="_blank">Complaint Board</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/feedback" target="_blank">Feedback</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/scam" target="_blank">Report the Scammers</a></li> */}
-                            {/* <li><a href="https://www.osiztechnologies.com/case-studies" target="_blank">Case Studies</a></li> */}
+
                           </ul>
                         </div>
                       </div>
@@ -2164,7 +2056,7 @@ const Navbar = () => {
                   >
                     Insights
                   </a>
-                  <div className="dropdown-menu">
+                  {/* <div className="dropdown-menu">
                     <ul>
                       <li onClick={() => navigate("/Blog")}>
                         <a target="_blank">Blogs</a>
@@ -2185,7 +2077,6 @@ const Navbar = () => {
                           Announcement
                         </a>
                       </li>
-                      {/* <li><a href="https://www.osiztechnologies.com/press-release" target="_blank">Press Release</a></li> */}
                       <li>
                         <a
                           href="https://www.osiztechnologies.com/faq"
@@ -2194,26 +2085,21 @@ const Navbar = () => {
                           FAQ
                         </a>
                       </li>
-                      {/* <li><a href="https://www.osiztechnologies.com/write-a-review" target="_blank">Write a Review</a></li> */}
-
-                      {/* <li><a href="https://www.osiztechnologies.com/complaints-board" target="_blank">Complaint Board</a></li> */}
-                      {/* <li><a href="https://www.osiztechnologies.com/feedback" target="_blank">Feedback</a></li> */}
-                      {/* <li><a href="https://www.osiztechnologies.com/scam" target="_blank">Report the Scammers</a></li> */}
-                      {/* <li><a href="https://www.osiztechnologies.com/case-studies" target="_blank">Case Studies</a></li> */}
+                    
                     </ul>
-                  </div>
+                  </div> */}
                 </li>
 
                 {/* ---------------Blogs-------------------- */}
 
-                <li
+                {/* <li
                   onClick={() => navigate("/Blog")}
                   className="nav-item menu_desk"
                 >
                   <a className="nav-link" target="_blank">
                     Blogs
                   </a>
-                </li>
+                </li> */}
 
                 {/* ---------------Case studies-------------------- */}
 
@@ -2223,19 +2109,9 @@ const Navbar = () => {
                 >
                   <a
                     className="nav-link"
-                    // href="https://www.osiztechnologies.com/blog"
                     target="_blank"
                   >
-                    <li
-                      className="nav-item menu_desk"
-                      style={{ width: "150px", marginTop: "-37px" }}
-                    >
-                      <a className="nav-link" target="_blank">
-                        Case Studies
-                      </a>
-                    </li>
 
-                    {/* ----------------------------------- */}
 
                     <li className="nav-item dropdown menu_res">
                       <a
@@ -2372,7 +2248,6 @@ const Navbar = () => {
                           </li>
                           <li>
                             <a
-                              // href="https://www.osiztechnologies.com/terms-and-conditions"
                               target="_blank"
                             >
                               Terms and Conditions
@@ -2380,7 +2255,6 @@ const Navbar = () => {
                           </li>
                           <li>
                             <a
-                              // href="https://www.osiztechnologies.com/payment-refund-policy"
                               target="_blank"
                             >
                               Privacy Policy

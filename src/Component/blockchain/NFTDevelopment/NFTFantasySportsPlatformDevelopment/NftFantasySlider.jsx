@@ -27,37 +27,37 @@ export default class AutoPlayfantasy extends Component {
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Unique Player Cards",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "NFTs can represent unique player cards within the fantasy sports platform, with each card embodying specific attributes and statistics of real-life athletes. Users can collect, trade, and use these NFT player cards to build their fantasy teams.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Player Performance Tracking",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "NFTs can be used to track and verify the performance of real-life athletes in fantasy sports contests. Smart contracts embedded in NFTs can automatically update player statistics and performance metrics based on real-world events, ensuring accuracy and transparency.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Limited Edition Collectibles",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "Fantasy sports platforms can release limited edition or one-of-a-kind NFT collectibles, such as commemorative player cards, championship trophies, or special event memorabilia. Collectors can acquire these NFTs as tokens of participation and achievement within the platform.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Rewards and Prizes",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "NFTs can serve as rewards and prizes for fantasy sports contests and competitions. Winners can receive NFT tokens representing exclusive digital assets, merchandise, or experiences, adding value and prestige to their achievements.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Player Ownership and Trading",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "Users can acquire ownership of real-life athletes as NFTs within the fantasy sports platform, enabling them to buy, sell, and trade players in a secondary marketplace. This introduces a new dimension of strategy and speculation to fantasy sports gameplay.",
       },
     ];
     return (
@@ -69,17 +69,17 @@ export default class AutoPlayfantasy extends Component {
         <Slider {...settings}>
           {sliderdata.map((item, index) => (
             <div key={index}>
-               <div className="item">
-          <div className="usecase_box ">
-            <div className="head_sec">
-              <img src= {item.image} className="sprite_icons" alt="NFT for Art" title="NFT for Art" style={{objectPosition: '0px 0px'}} />
-              <div className="head_sec">
-                                  <h3 className="sub_title">{item.name }</h3>
+              <div className="item">
+                <div className="usecase_box ">
+                  <div className="head_sec">
+                    <img src={item.image} className="sprite_icons" alt="NFT for Art" title="NFT for Art" style={{ objectPosition: '0px 0px' }} />
+                    <div className="head_sec">
+                      <h3 className="sub_title">{item.name}</h3>
+                    </div>
+                  </div>
+                  <p className="sub_contents">{item.paragraph}</p>
+                </div>
               </div>
-            </div>
-                          <p className="sub_contents">{item.paragraph }</p>
-          </div>
-        </div>
             </div>
           ))}
         </Slider>

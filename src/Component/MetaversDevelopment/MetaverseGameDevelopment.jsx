@@ -257,12 +257,7 @@ const MetaverseGameDevelopment = () => {
                   <button className="btn ebook_btn" toggle="modal" target="#met_game_ebook_popup_form_modal">Free Download</button>
                 </div>
               </div>
-              {/* <div className="img_sec">
-          <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/ebook-img.webp" alt="Metaverse Development Strategies - eBook" title="Metaverse Development Strategies - eBook" className="ebook_card_img img-fluid lazyload" />
-        </div>
-        <div className="free_title_sec">
-          <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/free-img.webp" alt="Free Download" title="Free Download" className="free_img lazyload" />
-        </div> */}
+
             </div>
           </div>
         </section>

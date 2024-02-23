@@ -41,21 +41,21 @@ export default function CabSwiperSlider() {
                 <SwiperSlide>
                     <img className='swiper-slider-images' src="./images/cabBookingsliderpic-1.png" />
                 </SwiperSlide>
-                {/* <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-2.png" />
+                <SwiperSlide>
+                    <img className='swiper-slider-images' src="./images/cabBookingsliderpic-2.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-3.png" />
+                    <img className='swiper-slider-images' src="./images/cabBookingsliderpic-3.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-4.png" />
+                    <img className='swiper-slider-images' src="./images/cabBookingsliderpic-4.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-5.png" />
+                    <img className='swiper-slider-images' src="./images/cabBookingsliderpic-5.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-6.png" />
-                </SwiperSlide> */}
+                    <img className='swiper-slider-images' src="./images/cabBookingsliderpic-6.png" />
+                </SwiperSlide>
 
             </Swiper>
         </>

@@ -39,16 +39,16 @@ export default function AstrologySwiperSlider() {
             >
 
                 <SwiperSlide>
-                    <img src="./images/AstrologySliderpic-1.jpg" />
+                    <img src="./images/AstrologySliderpic-1.jpg" alt='' />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AstrologySliderpic-2.png" />
+                    <img src="./images/AstrologySliderpic-2.png" alt='' />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AstrologySliderpic-3.png" />
+                    <img src="./images/AstrologySliderpic-3.png" alt='' />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AstrologySliderpic-4.png" />
+                    <img src="./images/AstrologySliderpic-4.png" alt='' />
                 </SwiperSlide>
 
 

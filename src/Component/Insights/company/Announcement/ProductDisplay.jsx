@@ -5,19 +5,14 @@ import './ProductDisplay.css'
 
 const ProductDisplay = (props) => {
   const { product } = props;
-  // const {addToCart} = useContext(ShopContext);
-  // const {removeToCart} = useContext(ShopContext);
 
-  // Check if the 'product' object is defined
   if (!product) {
-    return null; // or display a loading state or an error message
+    return null;
   }
 
-  // Check if the 'image' property is defined
   if (!product.image) {
     return (
       <div>
-        {/* Display an error message or placeholder image if 'image' is undefined */}
         <p>Error: Product image not available</p>
       </div>
     );
@@ -25,7 +20,7 @@ const ProductDisplay = (props) => {
 
   return (
     <div className="Product-container">
-     
+
       <div className="product-image">
         {/* Displaying a single image */}
         <img src={product.image} alt="" />
@@ -34,8 +29,8 @@ const ProductDisplay = (props) => {
         <h4>{product.name}</h4>
         <div>
           <p>{product.Paragraph}</p>
-              </div>
-              {/* <button onClick={()=>{addToCart(product.id)}}>Add to cart</button> */}
+        </div>
+        {/* <button onClick={()=>{addToCart(product.id)}}>Add to cart</button> */}
       </div>
     </div>
   );

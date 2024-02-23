@@ -35,50 +35,48 @@ const Defi = [
 
 export default function DEFI() {
 
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const [open, setOpen] = React.useState(false);
-    // const navigate = useNavigate()
-    const handleClick = () => {
-        setOpen(!open);
-    };
+  const [open, setOpen] = React.useState(false);
+  // const navigate = useNavigate()
+  const handleClick = () => {
+    setOpen(!open);
+  };
 
-    return (
-      <List sx={{ paddingBlock: '0px' }}>
-          <ListItemButton onClick={handleClick} sx={{ height: '45px' }}>
-              {/* <ListItemIcon>
-        <KeyboardBackspaceIcon sx={{ color: "white" }} />
-      </ListItemIcon> */}
-
-              <ListItemText primary="Defi Development " />
-              {open ? <ExpandLess /> : <ExpandMore />}
-          </ListItemButton>
-          <Collapse in={open} timeout="auto" unmountOnExit>
-              <List component="div" disablePadding>
-
-                  {
-                      Defi.map((item, index) => {
-                          return (
+  return (
+    <List sx={{ paddingBlock: '0px' }}>
+      <ListItemButton onClick={handleClick} sx={{ height: '45px' }}>
 
 
-                              <ListItemButton sx={{ pl: 4 }}
-                                 onClick={() => navigate(item.path)}
-                              >
-                                  {/* <PeopleIcon /> */}
-                                  {/* <ListItemIcon>
+        <ListItemText primary="Defi Development " />
+        {open ? <ExpandLess /> : <ExpandMore />}
+      </ListItemButton>
+      <Collapse in={open} timeout="auto" unmountOnExit>
+        <List component="div" disablePadding>
+
+          {
+            Defi.map((item, index) => {
+              return (
+
+
+                <ListItemButton sx={{ pl: 4 }}
+                  onClick={() => navigate(item.path)}
+                >
+                  {/* <PeopleIcon /> */}
+                  {/* <ListItemIcon>
             <StarBorder />
           </ListItemIcon> */}
-                                  <ListItemText primary={item.name} />
-                              </ListItemButton>
+                  <ListItemText primary={item.name} />
+                </ListItemButton>
 
-                          )
-                      })
-                  }
+              )
+            })
+          }
 
-                  
 
-              </List>
-          </Collapse>
-      </List>
+
+        </List>
+      </Collapse>
+    </List>
   );
 }

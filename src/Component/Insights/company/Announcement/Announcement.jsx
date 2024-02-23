@@ -7,13 +7,13 @@ const Announcement = () => {
   const Card = [
     {
       image: "/images/advantages.png",
-      title: "Osiz offers Black Friday Deals, Save Up to 50%",
+      title: "MetaBlock offers Black Friday Deals, Save Up to 50%",
     },
 
     {
-    image: "/images/advantages.png",
-    title: "Osiz offers Black Friday Deals, Save Up to 50%",
-  },
+      image: "/images/advantages.png",
+      title: "MetaBlock offers Black Friday Deals, Save Up to 50%",
+    },
   ];
 
   return (
@@ -109,8 +109,8 @@ const Announcement = () => {
                     <div className="row align-items-center justify-content-center">
                       <div className="col-lg-7 col-12">
                         <div className="press_lable">Press Release</div>
-                        <h1 className="title">
-                          Osiz{" "}
+                        <h1 className="title d-flex align-center">
+                          MetaBlock{" "}
                           <span className="cus_brn_title">Announcements</span>
                         </h1>
                         <div className="bnr_contents">
@@ -119,14 +119,7 @@ const Announcement = () => {
                           curve in the dynamic realm of Web3 technology.
                         </div>
                         <div className="search_sec">
-                          {/* <form action="{{url('news')}}" method="get"> */}
-                          {/* <div className="sear_fd1">
-                      <div className="input-group">
-                        <input type="text" name="search" className="form-control" placeholder="Search Announcement" id="getsearchtext" />
-                        <span className="input-group-addon"><button className="btn search_btn" onclick="load_data()"><i className="fa fa-search" /></button></span>
-                      </div>
-                    </div> */}
-                          {/* </form> */}
+
                         </div>
                       </div>
                       <div className="col-lg-5 col-12" />
@@ -149,31 +142,9 @@ const Announcement = () => {
                           <span className="cus_title">Trending</span>{" "}
                           Announcement
                         </h2>
-                        {/* <div className="row align-items-center justify-content-center">
-                          {Card.map((item, index) => (
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                  <a 
-                  style={{ textDecoration: "none" }}>
-                            
-                                <div className="announce_card"  key={index}>
-                                 
-                                  <img
-                                    src={item.image}
-                                    alt="Osiz offers Black Friday Deals, Save Up to 50%"
-                                    title="Osiz offers Black Friday Deals, Save Up to 50%"
-                                    className="img-fluid card_img"
-                                  />
-                                  <div className="sub_title">
-                                    {item.title}
-                                  </div>
-                                </div>
-                                </a>
 
-                            </div>
-                          ))}
-                        </div> */}
-                       
-                        <Resizable/>
+
+                        <Resizable />
                       </div>
                       <div
                         role="tabpanel"
@@ -193,20 +164,20 @@ const Announcement = () => {
                         <div className="row align-items-center justify-content-center">
                           <div className="col-lg-9 col-12">
                             <a
-                              href="https://www.osiztechnologies.com/announcement/osiz-technologies-unveils-a-revamped-website"
+                              href=""
                               style={{ textDecoration: "none" }}
                               target="_blank"
                             >
                               <div className="announce_card_big">
                                 <img
-                                  src="https://osiztechnologies.s3.us-east-2.amazonaws.com/images/Osiz Technologies Unveils a Revamped Website.webp"
-                                  alt="Experience the Next-Gen Digital Landscape: Osiz Technologies Unveils a Revamped Website Packed with Exciting New Services."
-                                  title="Experience the Next-Gen Digital Landscape: Osiz Technologies Unveils a Revamped Website Packed with Exciting New Services."
+                                  src=""
+                                  alt="Experience the Next-Gen Digital Landscape: MetaBlock Technologies Unveils a Revamped Website Packed with Exciting New Services."
+                                  title="Experience the Next-Gen Digital Landscape: MetaBlock Technologies Unveils a Revamped Website Packed with Exciting New Services."
                                   className="img-fluid card_img"
                                 />
                                 <div className="sub_title">
                                   Experience the Next-Gen Digital Landscape:
-                                  Osiz Technologies Unveils a Revamped Website
+                                  MetaBlock Technologies Unveils a Revamped Website
                                   Packed with Exciting New Services.
                                 </div>
                               </div>
@@ -220,7 +191,7 @@ const Announcement = () => {
                         </div>
                         <div className="HddrBtns knowmore_btn_sec">
                           <a
-                            href="https://www.osiztechnologies.com/announcement/category/company"
+                            href=""
                             className="btn BtnPrimry TlkBtn knowmore_btn"
                             target="_blank"
                           >
@@ -252,19 +223,19 @@ const Announcement = () => {
                         <div className="row align-items-center justify-content-center">
                           <div className="col-lg-9 col-12">
                             <a
-                              href="https://www.osiztechnologies.com/announcement/osiz-offers-black-friday-deals-2023"
+                              href=""
                               style={{ textDecoration: "none" }}
                               target="_blank"
                             >
                               <div className="announce_card_big">
                                 <img
-                                  src="https://osiztechnologies.s3.us-east-2.amazonaws.com/images/Announcement - Black Friday .webp"
-                                  alt="Osiz offers Black Friday Deals, Save Up to 50%"
-                                  title="Osiz offers Black Friday Deals, Save Up to 50%"
+                                  src=""
+                                  alt="MetaBlock offers Black Friday Deals, Save Up to 50%"
+                                  title="MetaBlock offers Black Friday Deals, Save Up to 50%"
                                   className="img-fluid card_img"
                                 />
                                 <div className="sub_title">
-                                  Osiz offers Black Friday Deals, Save Up to 50%
+                                  MetaBlock offers Black Friday Deals, Save Up to 50%
                                 </div>
                               </div>
                             </a>
@@ -277,7 +248,7 @@ const Announcement = () => {
                         </div>
                         <div className="HddrBtns knowmore_btn_sec">
                           <a
-                            href="https://www.osiztechnologies.com/announcement/category/black-friday-deals"
+                            href=""
                             className="btn BtnPrimry TlkBtn knowmore_btn"
                             target="_blank"
                           >
@@ -302,13 +273,13 @@ const Announcement = () => {
                         <div className="row align-items-center justify-content-center">
                           <div className="col-lg-9 col-12">
                             <a
-                              href="https://www.osiztechnologies.com/announcement/merry-christmas-newyear-2024-offers "
+                              href=""
                               style={{ textDecoration: "none" }}
                               target="_blank"
                             >
                               <div className="announce_card_big">
                                 <img
-                                  src="https://osiztechnologies.s3.us-east-2.amazonaws.com/images/Merry-Christmas- Newyear-2024.webp"
+                                  src=""
                                   alt="Merry Christmas and New Year 2024: Enjoy 10% OFF!"
                                   title="Merry Christmas and New Year 2024: Enjoy 10% OFF!"
                                   className="img-fluid card_img"
@@ -328,7 +299,7 @@ const Announcement = () => {
                         </div>
                         <div className="HddrBtns knowmore_btn_sec">
                           <a
-                            href="https://www.osiztechnologies.com/announcement/category/events"
+                            href=""
                             className="btn BtnPrimry TlkBtn knowmore_btn"
                             target="_blank"
                           >
@@ -352,17 +323,7 @@ const Announcement = () => {
                     </div>
                   </div>
                 </section>
-                {/* <section className="announcement_tab_contents_main" id="search_section">
-            <div className="container">
-              <div className="tab-content">
-                <div role="tabpanel" className="tab-pane in active" id>
-                  <h2 className="title"><span className="cus_title">Search</span> Announcement</h2>
-                  <div className="row align-items-center justify-content-center" id="search_content">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section> */}
+
               </div>
             </div>
           </div>

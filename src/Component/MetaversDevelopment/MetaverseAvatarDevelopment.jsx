@@ -243,25 +243,7 @@ const MetaverseAvatarDevelopment = () => {
             </div>
           </div>
         </section>
-        {/* <section className="metaverse_game_ebook_sec">
-          <div className="container">
-            <div className="row align-items-center" id="ebook_card">
-              <div className="col-lg-7 col-12">
-                <h2 className="title-15">Metaverse Development Strategies - eBook</h2>
-                <p className="contents-15">This eBook will unveil the secret methods &amp; strategies to develop a successful metaverse project. We’ll explore the essentials for Metaverse development, including the proven strategies, requirements, and Development approach.</p>
-                <div className="ebook_btn_sec">
-                  <button className="btn ebook_btn" toggle="modal" target="#met_game_ebook_popup_form_modal">Free Download</button>
-                </div>
-              </div>
-              <div className="img_sec">
-                <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/ebook-img.webp" alt="Metaverse Development Strategies - eBook" title="Metaverse Development Strategies - eBook" className="ebook_card_img img-fluid lazyload" />
-              </div>
-              <div className="free_title_sec">
-                <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/free-img.webp" alt="Free Download" title="Free Download" className="free_img lazyload" />
-              </div>
-            </div>
-          </div>
-        </section> */}
+
         <section className="metaverse_game_unique">
           <div className="container">
             <h2 className="title">Exclusive Features of Developing Metaverse Avatar</h2>

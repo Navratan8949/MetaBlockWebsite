@@ -39,22 +39,22 @@ export default function MultivendorSwiperSlider() {
             >
 
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-1.png" />
+                    <img className='swiper-slider-images' src="./images/Multivendorsliderpic-1.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-2.png" />
+                    <img className='swiper-slider-images' src="./images/Multivendorsliderpic-2.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-3.png" />
+                    <img className='swiper-slider-images' src="./images/Multivendorsliderpic-3.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-4.png" />
+                    <img className='swiper-slider-images' src="./images/Multivendorsliderpic-4.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-5.png" />
+                    <img className='swiper-slider-images' src="./images/Multivendorsliderpic-5.png" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="./images/AccountAndBillingSliderpic-6.png" />
+                    <img className='swiper-slider-images' src="./images/Multivendorsliderpic-6.png" />
                 </SwiperSlide>
 
             </Swiper>

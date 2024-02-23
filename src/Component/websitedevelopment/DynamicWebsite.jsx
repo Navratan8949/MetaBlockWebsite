@@ -14,17 +14,13 @@ const DynamicWebsite = () => {
       <header className="ondemad_head">
         <div className="container h-100">
           <div className="row h-100 justify-content-center align-items-center">
-            {/* <div class="text-left header-content col-lg-12 mt-9">
-      
-        <h1 class="mb-5 desktop" style="text-align: left;">On-Demand App Development <br> Company </h1>
-        <h1 class="mb-5 mobile" style="text-align: left;">On-Demand App Development Company </h1>
-      
-        </div> */}
+            <h1 className="mb-5 mt-40  Dynamic-heading" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>Dynamic Website Company </h1>
             <div className="col-lg-12 my-auto">
-              <div className="header-content mx-auto">
-                <h1 className="mb-5 mt-0 desktop" style={{ textAlign: 'left' }}>Dynamic Website <br /> Company </h1>
-                {/*  <h1 class="mb-5 mobile" style="text-align: left;">On-Demand App Development Company </h1> */}
-                <h3 className="text-left heading-tagline">Digitize your product to expand the business online and reach millions of users worldwide. We help you craft your on-demand application to perfection with our vast library of customization tools &amp; designs. Collaborate with our
+              <div className="header-content mx-auto E-commerce-header-paragraph">
+
+
+
+                <h3 className="text-left heading-tagline ">Digitize your product to expand the business online and reach millions of users worldwide. We help you craft your on-demand application to perfection with our vast library of customization tools &amp; designs. Collaborate with our
                   team and choose your desirable module to utilize our finest on-demand app development services. </h3>
                 <ul className="banr-listing">
                   <li><i className="fa fa-check-circle" /> Meticulous quality analysis cycle.</li>
@@ -379,7 +375,7 @@ const DynamicWebsite = () => {
 
       <section className="mid_section ondemad_feature">
         <div className="container">
-          <div className="section-heading text-center">
+          <div className="section-heading text-center d-flex justify-center align-center flex-column">
             <h2 className="features_title">Features We Inherit</h2>
             <p className="text-center">We develop on-demand apps with lots of services like tracking facilities, payment facilities and so on as follows.</p>
             <div className="why_round"> </div>
@@ -389,7 +385,7 @@ const DynamicWebsite = () => {
               <div className="whybottom_box whybottom_box1 hgt_400">
                 <div className="inr_img">
                   <div className="ver_mid">
-                    <div className="img_box"><img src="./SGimage/global-communication.png" alt="GPS Services" title="GPS Services" className="img-fluid" /></div>
+                    <div className="img_box"><img width={'50px'} src="./images/map-setting.png" alt="GPS Services" title="GPS Services" className="img-fluid" /></div>
                   </div>
                 </div>
                 <h3>GPS Services</h3>
@@ -402,7 +398,7 @@ const DynamicWebsite = () => {
                 <div className="inr_img">
                   <div className="ver_mid">
                     <div className="img_box">
-                      <img src="./SGimage/payment-method.png" alt="In - App Payments" title="In - App Payments" className="img-fluid" /></div>
+                      <img width={'50px'} src="./images/digital-wallet.png" alt="In - App Payments" title="In - App Payments" className="img-fluid" /></div>
                   </div>
                 </div>
                 <p className="text-center">On-Demand app developed by us involves the payment ability. This allows customers to pay for your products within the app in a safer and secured environment. </p>
@@ -414,7 +410,7 @@ const DynamicWebsite = () => {
                 <div className="inr_img">
                   <div className="ver_mid">
                     <div className="img_box">
-                      <img src="/SGimage/integrated-system.png" alt="Cloud Integration" title="Cloud Integration" className="img-fluid" /></div>
+                      <img width={'50px'} src="/SGimage/integrated-system.png" alt="Cloud Integration" title="Cloud Integration" className="img-fluid" /></div>
                   </div>
                 </div>
                 <p className="text-center">Our on-demand app development process includes the process of creating a separated cloud space for data analytics and storages related to the usage of apps. </p>
@@ -426,7 +422,7 @@ const DynamicWebsite = () => {
                 <div className="inr_img">
                   <div className="ver_mid">
                     <div className="img_box">
-                      <img src="./SGimage/analytics.png" alt="Instant Push Notification" title="Instant Push Notification" className="img-fluid" /></div>
+                      <img width={'50px'} src="./SGimage/analytics.png" alt="Instant Push Notification" title="Instant Push Notification" className="img-fluid" /></div>
                   </div>
                 </div>
                 <p className="text-center">We provide a way by which you can acknowledge your new products or discounts or available products to your customers instantly through notifications. This may help you in reaching your customers faster. </p>
@@ -437,7 +433,7 @@ const DynamicWebsite = () => {
       </section>
       <section className="mid_section why-business grey-bg">
         <div className="container">
-          <div className="section-heading text-center">
+          <div className="section-heading text-center d-flex justify-center align-center flex-column">
             <h2 className="why_title">Why Should You develop an On-Demand Delivery App for Your Business?</h2>
             <div className="why_round"> </div>
           </div>
@@ -449,7 +445,7 @@ const DynamicWebsite = () => {
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
-                      {/* <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Global Reach" title="Global Reach" style={{ objectPosition: '-7px -18px' }} /> */}
+
                       <AiOutlineGlobal />
                     </abbr>
                     <h3>Global Reach</h3>
@@ -458,26 +454,26 @@ const DynamicWebsite = () => {
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
-                      {/* <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Customer Comfort" title="Customer Comfort" style={{ objectPosition: '-57px -18px' }} /> */}
+
                       <RiCustomerServiceFill />
-                      </abbr>
+                    </abbr>
                     <h3>Customer Comfort</h3>
                   </div>
                 </div>
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
-                      {/* <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Security & Scalability" title="Security & Scalability" style={{ objectPosition: '-110px -18px' }} /> */}
-                      <SiSpringsecurity />                
-                      </abbr>
-                    
+
+                      <SiSpringsecurity />
+                    </abbr>
+
                     <h3>Security &amp; Scalability</h3>
                   </div>
                 </div>
                 <div className="col-sm-3">
                   <div className="whybottom_box whybottom_box1 hgt_400">
                     <abbr>
-                      {/* <img src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/icons-all.svg" alt="Advanced Opportunities" title="Advanced Opportunities" style={{ objectPosition: '-160px -18px' }} /> */}
+
                       <FcManager />
                     </abbr>
                     <h3>Advanced Opportunities </h3>
@@ -491,7 +487,7 @@ const DynamicWebsite = () => {
 
       <section className="mid_section grey-bg" style={{ background: '#696767' }}>
         <div className="container">
-          <div className="section-heading text-center">
+          <div className="section-heading text-center d-flex justify-center align-center flex-column">
             <h2 className="our_title">Our On-Demand BlockChain Project Development Phase Cycle</h2>
             <div className="why_round"> </div>
           </div>

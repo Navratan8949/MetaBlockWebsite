@@ -12,18 +12,13 @@ const Ecommerce = () => {
       &lt;&gt;
       <header className="ondemad_head">
         <div className="container h-100">
-          <div className="row h-100 justify-content-center align-items-center">
-            {/* <div class="text-left header-content col-lg-12 mt-9">
-
-  <h1 class="mb-5 desktop" style="text-align: left;">On-Demand App Development <br> Company </h1>
-  <h1 class="mb-5 mobile" style="text-align: left;">On-Demand App Development Company </h1>
-
-  </div> */}
+          <div className="row h-100 justify-content-center align-items-center ">
+            <h1 className="mb-5 mt-50 E-commerce-heading" style={{ display: "flex", justifyContent: "center", alignItems: 'center' }}>
+              E-Commerce Website Single & Multi Wendor Development
+            </h1>
             <div className="col-lg-12 my-auto">
-              <div className="header-content " style={{ marginTop: '30px' }} >
-                <h1 className="mb-5 mt-0 " style={{ textAlign: "left" }}>
-                  E-Commerce Website Single & Multi Wendor Development <br />{" "}
-                </h1>
+              <div className="header-content E-commerce-header-paragraph"  >
+
                 {/*  <h1 class="mb-5 mobile" style="text-align: left;">On-Demand App Development Company </h1> */}
                 <h3 className="text-left heading-tagline">
                   Elevate your online presence with our Static Website
@@ -59,7 +54,7 @@ const Ecommerce = () => {
       </header>
       <section className="mid_section ondemad_feature">
         <div className="container">
-          <div className="section-heading text-center">
+          <div className="section-heading text-center d-flex justify-center align-center flex-column">
             <h2 className="features_title">Embraced Features</h2>
             <p className="text-center">
               We develop Static Website with lots of services like tracking
@@ -72,15 +67,7 @@ const Ecommerce = () => {
               <div className="whybottom_box whybottom_box1 hgt_400">
                 <div className="inr_img">
                   <div className="ver_mid">
-                    <div className="img_box">
-                      {/* <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/gps-services.png"
-                        alt="GPS Services"
-                        title="GPS Services"
-                        className="img-fluid"
-                      /> */}
-                       <AiOutlineGlobal />
-                    </div>
+                    <div className="img_box"><img width={'50px'} src="./images/map-setting.png" alt="GPS Services" title="GPS Services" className="img-fluid" /></div>
                   </div>
                 </div>
                 <h3>Location Services</h3>
@@ -97,14 +84,7 @@ const Ecommerce = () => {
                 <h3>Online Payments</h3>
                 <div className="inr_img">
                   <div className="ver_mid">
-                    <div className="img_box">
-                      <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/in-app-payments.png"
-                        alt="In - App Payments"
-                        title="In - App Payments"
-                        className="img-fluid"
-                      />
-                    </div>
+                    <div className="img_box"><img width={'50px'} src="./images/digital-wallet.png" alt="GPS Services" title="GPS Services" className="img-fluid" /></div>
                   </div>
                 </div>
                 <p className="text-center">
@@ -120,12 +100,7 @@ const Ecommerce = () => {
                 <div className="inr_img">
                   <div className="ver_mid">
                     <div className="img_box">
-                      <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/cloud-integration.png"
-                        alt="Cloud Integration"
-                        title="Cloud Integration"
-                        className="img-fluid"
-                      />
+                      <img width={'50px'} src="/SGimage/integrated-system.png" alt="Cloud Integration" title="Cloud Integration" className="img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -143,12 +118,7 @@ const Ecommerce = () => {
                 <div className="inr_img">
                   <div className="ver_mid">
                     <div className="img_box">
-                      <img
-                        src="https://www.osiztechnologies.com/asset/images/inner-pages/demand/instant-push-notification.png"
-                        alt="Instant Push Notification"
-                        title="Instant Push Notification"
-                        className="img-fluid"
-                      />
+                      <img width={'50px'} src="./SGimage/analytics.png" alt="Instant Push Notification" title="Instant Push Notification" className="img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -165,7 +135,7 @@ const Ecommerce = () => {
       </section>
       <section className="mid_section why-business grey-bg">
         <div className="container">
-          <div className="section-heading text-center">
+          <div className="section-heading text-center d-flex justify-center align-center flex-column">
             <h2 className="why_title">
               Why Should You develop an Ecommerce Website for Your Business?
             </h2>
@@ -174,62 +144,63 @@ const Ecommerce = () => {
           <div className="row mar-top-30">
             <div className="col-md-12 col-sm-12">
               <p className="why_para text-center">
-              Developing an ecommerce website for your business offers a multitude 
-              of benefits that can significantly enhance your operations and profitability.
-              An ecommerce website allows you to reach customers beyond geographical boundaries, 
-              enabling you to tap into a global market and increase your customer base.
+                Developing an ecommerce website for your business offers a multitude
+                of benefits that can significantly enhance your operations and profitability.
+                An ecommerce website allows you to reach customers beyond geographical boundaries,
+                enabling you to tap into a global market and increase your customer base.
               </p>
               <div className="row mar-top-30">
-                <div className="col-sm-3">
-                  <div className="whybottom_box whybottom_box1 hgt_400">
-                    <abbr>
-                      <img
+                <div className="col-md-12 col-sm-12">
+                  <p className="why_para text-center">
+                    In today's digital landscape, static websites play a pivotal
+                    role in enhancing online presence. As users seek effortless
+                    access to information, a well-crafted static website serves as
+                    the cornerstone for businesses looking to establish or expand
+                    their digital footprint, ensuring a solid foundation for
+                    sustained growth.
+                  </p>
+                  <div className="row mar-top-30">
+                    <div className="col-sm-3">
+                      <div className="whybottom_box whybottom_box1 hgt_400">
+                        <abbr>
+                          {/* <img
                         src="./SGimage/advertising.png"
                         alt="Global Reach"
                         title="Global Reach"
                         style={{ objectPosition: "-7px -18px" }}
-                      />
-                    </abbr>
-                    <h3>Online Presence</h3>
-                  </div>
-                </div>
-                <div className="col-sm-3">
-                  <div className="whybottom_box whybottom_box1 hgt_400">
-                    <abbr>
-                      <img
-                        src="./SGimage/advertising.png"
-                        alt="Customer Comfort"
-                        title="Customer Comfort"
-                        style={{ objectPosition: "-57px -18px" }}
-                      />
-                    </abbr>
-                    <h3>User Convenience</h3>
-                  </div>
-                </div>
-                <div className="col-sm-3">
-                  <div className="whybottom_box whybottom_box1 hgt_400">
-                    <abbr>
-                      <img
-                        src="./SGimage/advertising.png"
-                        alt="Security & Scalability"
-                        title="Security & Scalability"
-                        style={{ objectPosition: "-110px -18px" }}
-                      />
-                    </abbr>
-                    <h3>Reliability & Simplicity</h3>
-                  </div>
-                </div>
-                <div className="col-sm-3">
-                  <div className="whybottom_box whybottom_box1 hgt_400">
-                    <abbr>
-                      <img
-                        src="./SGimage/advertising.png"
-                        alt="Advanced Opportunities"
-                        title="Advanced Opportunities"
-                        style={{ objectPosition: "-160px -18px" }}
-                      />
-                    </abbr>
-                    <h3>Strategic hello Advancements</h3>
+                      /> */}
+                          <AiOutlineGlobal />
+                        </abbr>
+                        <h3>Online Presence</h3>
+                      </div>
+                    </div>
+                    <div className="col-sm-3">
+                      <div className="whybottom_box whybottom_box1 hgt_400">
+                        <abbr>
+
+                          <RiCustomerServiceFill />
+                        </abbr>
+                        <h3>User Convenience</h3>
+                      </div>
+                    </div>
+                    <div className="col-sm-3">
+                      <div className="whybottom_box whybottom_box1 hgt_400">
+                        <abbr>
+
+                          <SiSpringsecurity />
+                        </abbr>
+                        <h3>Reliability & Simplicity</h3>
+                      </div>
+                    </div>
+                    <div className="col-sm-3">
+                      <div className="whybottom_box whybottom_box1 hgt_400">
+                        <abbr>
+
+                          <FcManager />
+                        </abbr>
+                        <h3>Strategic Advancements</h3>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -239,9 +210,9 @@ const Ecommerce = () => {
       </section>
       <section className="mid_section grey-bg">
         <div className="container" style={{ background: "#696767" }}>
-          <div className="section-heading text-center">
+          <div className="section-heading text-center d-flex justify-center align-center flex-column">
             <h2 className="our_title" style={{ padding: "20px" }}>
-            Our On-Demand BlockChain Project Development Phase Cycle
+              Our On-Demand BlockChain Project Development Phase Cycle
             </h2>
             <div className="why_round"> </div>
           </div>

@@ -27,37 +27,37 @@ export default class AutoPlayminting extends Component {
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Digital Art",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "NFT minting platforms enable artists to tokenize their digital artworks as non-fungible tokens (NFTs), providing proof of ownership and authenticity on the blockchain. Artists can mint NFTs representing their digital art pieces, which collectors can then purchase and trade on NFT marketplaces.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Collectibles",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "NFT minting platforms allow users to create and mint digital collectibles as NFTs, including items such as trading cards, virtual pets, and limited-edition memorabilia. Collectors can mint NFTs representing their collectibles, which can be bought, sold, and traded with other users.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Gaming Assets",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          " NFT minting platforms facilitate the creation and minting of in-game assets and items as NFTs, including characters, weapons, skins, and virtual goods. Gamers can mint NFTs representing their gaming assets, which can be used within games, traded on NFT marketplaces, or integrated with other gaming platforms.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Event Tickets and Experiences",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "NFT minting platforms enable the creation of NFTs representing event tickets and experiences, such as concert tickets, festival passes, and virtual event access tokens. Event organizers can mint NFTs representing their tickets, which attendees can purchase and redeem for access to events and experiences.",
       },
       {
         image:
           "https://www.osiztechnologies.com/asset/inner-pages-new/nft-marketplace-development/usecase-icons.svg",
-        name: "NFT for Art",
+        name: "Environmental Conservation",
         paragraph:
-          "Join the NFT revolution and empower artists by offering them a secure platform to showcase their work to a discerning audience, ensuring fair value and protected ownership. Participate in the vibrant world of non-fungible tokensand support the artistic community.",
+          "NFT minting platforms can be used to create and mint NFTs representing environmental conservation efforts and initiatives. Organizations can mint NFTs representing conservation projects, which supporters can purchase and contribute to environmental preservation while receiving digital collectibles or rewards in return.",
       },
     ];
     return (
@@ -69,17 +69,17 @@ export default class AutoPlayminting extends Component {
         <Slider {...settings}>
           {sliderdata.map((item, index) => (
             <div key={index}>
-               <div className="item">
-          <div className="usecase_box ">
-            <div className="head_sec">
-              <img src= {item.image} className="sprite_icons" alt="NFT for Art" title="NFT for Art" style={{objectPosition: '0px 0px'}} />
-              <div className="head_sec">
-                                  <h3 className="sub_title">{item.name }</h3>
+              <div className="item">
+                <div className="usecase_box ">
+                  <div className="head_sec">
+                    <img src={item.image} className="sprite_icons" alt="NFT for Art" title="NFT for Art" style={{ objectPosition: '0px 0px' }} />
+                    <div className="head_sec">
+                      <h3 className="sub_title">{item.name}</h3>
+                    </div>
+                  </div>
+                  <p className="sub_contents">{item.paragraph}</p>
+                </div>
               </div>
-            </div>
-                          <p className="sub_contents">{item.paragraph }</p>
-          </div>
-        </div>
             </div>
           ))}
         </Slider>
