@@ -244,6 +244,7 @@ const Static = () => {
                 src="./SGimage/BLOCKCHAIN PROJECT DEVELOPMENT LIFE CYCLE.webp"
                 className="img-fluid"
                 style={{ width: "100%", filter: "hue-rotate(253deg)" }}
+                alt=""
               />
             </div>
           </div>
@@ -280,7 +281,7 @@ const Static = () => {
             </div>
 
             <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-              <img src="https://www.metakops.com/assets/img/tech/SQL-Lite.png" alt="" className="w-100 h-40" />
+              <img src="./images/SQL-Lite.png" alt="" className="w-100 h-40" />
               <h5>SQL Lite</h5>
 
             </div>
@@ -292,31 +293,31 @@ const Static = () => {
             </div>
 
             <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-              <img src="https://www.metakops.com/assets/img/tech/android.png" alt="" className="w-100 h-40" />
+              <img src="./images/android.png" alt="" className="w-100 h-40" />
               <h5>Android</h5>
 
             </div>
 
             <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-              <img src="https://www.metakops.com/assets/img/tech/mongo-db-icon.png" alt="" className="w-100 h-40" />
+              <img src="./images/mongo-db-icon.png" alt="" className="w-100 h-40" />
               <h5>Mongo DB</h5>
 
             </div>
 
             <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-              <img src="https://www.metakops.com/assets/img/tech/app-store.png" alt="" className="w-100 h-40" />
+              <img src="./images/app-store.png" alt="" className="w-100 h-40" />
               <h5>App Store</h5>
 
             </div>
 
             <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-              <img src="https://www.metakops.com/assets/img/tech/atom.png" alt="" className="w-100 h-40" />
+              <img src="./images/atom.png" alt="" className="w-100 h-40" />
               <h5>Atom</h5>
 
             </div>
 
             <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
-              <img src="https://www.metakops.com/assets/img/tech/laravel.png" alt="" className="w-100 h-40" />
+              <img src="./images/laravel.png" alt="" className="w-100 h-40" />
               <h5>Laravel</h5>
 
             </div>
@@ -342,33 +343,37 @@ const Static = () => {
                 <ul className="list-unstyled">
                   <li>
                     <img
-                      src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg"
+                      src=""
                       className="hyp-tic-sprite"
                       style={{ objectPosition: "-3357px -39px" }}
+                      alt="loading"
                     />
                     Customizable Static Website Solutions.
                   </li>
                   <li>
                     <img
-                      src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg"
+                      src=""
                       className="hyp-tic-sprite"
                       style={{ objectPosition: "-3357px -39px" }}
+                      alt=""
                     />
                     Professionals backed by 3+ years of industry experience.
                   </li>
                   <li>
                     <img
-                      src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg"
+                      src=""
                       className="hyp-tic-sprite"
                       style={{ objectPosition: "-3357px -39px" }}
+                      alt=""
                     />
                     Direct collaboration with the technical team.{" "}
                   </li>
                   <li>
                     <img
-                      src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg"
+                      src=""
                       className="hyp-tic-sprite"
                       style={{ objectPosition: "-3357px -39px" }}
+                      alt=""
                     />
                     Precise quality assurance process.
                   </li>
@@ -380,33 +385,37 @@ const Static = () => {
                 <ul className="list-unstyled">
                   <li>
                     <img
-                      src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg"
+                      src=""
                       className="hyp-tic-sprite"
                       style={{ objectPosition: "-3357px -39px" }}
+                      alt=""
                     />
                     Websites built on leading-edge software packages.
                   </li>
                   <li>
                     <img
-                      src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg"
+                      src=""
                       className="hyp-tic-sprite"
                       style={{ objectPosition: "-3357px -39px" }}
+                      alt=""
                     />
                     Integration of genuine API tools.
                   </li>
                   <li>
                     <img
-                      src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg"
+                      src=""
                       className="hyp-tic-sprite"
                       style={{ objectPosition: "-3357px -39px" }}
+                      alt=""
                     />
                     Dedicated team for projects.{" "}
                   </li>
                   <li>
                     <img
-                      src="https://www.osiztechnologies.com/asset/images/inner-pages/hyper-ledger/icons.svg"
+                      src=""
                       className="hyp-tic-sprite"
                       style={{ objectPosition: "-3357px -39px" }}
+                      alt=""
                     />
                     On-time delivery at an affordable cost.
                   </li>

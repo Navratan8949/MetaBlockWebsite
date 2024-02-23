@@ -3695,6 +3695,10 @@ header.masthead-mobility:after {
     width: 100px !important;
 }
 
+.foot_logo img {
+    width: 300px !important;
+}
+
 .text-center {
     text-align: center !important
 }
@@ -25090,7 +25094,7 @@ position: absolute;
 
 
 
-.Technology-Stack{
+.Technology-Stack {
     font-size: 31px;
     font-weight: bold;
 }

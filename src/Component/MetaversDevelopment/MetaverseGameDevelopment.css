@@ -2,6 +2,11 @@
     background: #01030B;
 }
 
+.met_game1 img {
+    width: 600px;
+    margin: 50px 0 0 48px;
+}
+
 #metaverse_game_main .metaverse_game_banner {
     padding: 50px 0px;
     height: 100vh;

@@ -12,8 +12,8 @@ const SemiFungibleTokenDevelopment = () => {
             <div className="row align-items-center justify-content-center">
               <div className="col-lg-6 col-12 order-2 order-lg-1">
                 <div className="bnr_img_sec">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/banner-img.webp" alt="Token Development" title="Token Development" className="img-responsive" />
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/banner-img1.webp" alt="Token Development" title="Token Development" className="img-fluid banner_anim_img" />
+                  <img width={'400px'} src="./images/fungiable-tokan-development-1.webp" alt="Token Development" title="Token Development" className="img-responsive" />
+                  {/* <img src="" alt="Token Development" title="Token Development" className="img-fluid banner_anim_img" /> */}
                 </div>
               </div>
               <div className="col-lg-6 col-12 order-1 order-lg-2">
@@ -21,7 +21,7 @@ const SemiFungibleTokenDevelopment = () => {
                   <h1 className="title"><span className="bnr_bld_title">Semi Fungible </span> <br /> Tokan Generation </h1>
                   <p className="contents">The best token production company, MetaBlock, assists companies in producing tokens on any blockchain network swiftly and efficiently. Use our experience to launch your cryptocurrency token project and expand your cryptocurrency company!</p>
                   <div className="HddrBtns banner_btn_sec">
-                  <a href="https://tokendev.osiztechnologies.com/" target="_blank" className="btn banner_btn"><span>Make Your Token Right Now</span></a>
+                    <a href="" target="_blank" className="btn banner_btn"><span>Make Your Token Right Now</span></a>
                     <div className="shadow_img"><svg viewBox="0 0 1320 300"><text x="50%" y="50%" dy=".35em" textAnchor="middle">Instantly</text></svg></div>
                   </div>
                 </div>
@@ -36,7 +36,7 @@ const SemiFungibleTokenDevelopment = () => {
                 <div className="techstack_sli">
                   <h2 className="title">Crypto Token Development</h2>
                   <p className="contents">The process of developing digital tokens, which are usually developed on different blockchain platforms such as Ethereum, Binance Smart Chain, Polygon, TRON, Solana, etc., is known as token development. The process of developing a cryptocurrency token entails determining its objective, creating its framework, and deploying it via blockchain-based smart contracts. The cornerstone of this digital revolution, coins and tokens, with their strong cryptographic underpinnings and decentralized structure, have the potential to influence the direction of banking in the future.
-</p>
+                  </p>
                   <p className="contents">MetaBlock is a cryptocurrency token development company that focuses on creating one-of-a-kind tokens that are compatible with various blockchain networks. We cater to the specific requirements and objectives of our clients by offering end-to-end token development services.</p>
                   <div className="token_dev_crypto_about_btn_sec">
                     <a href="https://wa.me/9828284421" className="btn token_dev_crypto_about_btn desktop" target="_blank"><i className="fab fa-whatsapp" />&nbsp;WhatsApp</a>
@@ -46,7 +46,7 @@ const SemiFungibleTokenDevelopment = () => {
                 </div>
               </div>
               <div className="col-lg-5 col-12">
-                <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/crypto-token-dev-img.webp" alt="Crypto Token Development Company" title="Crypto Token Development Company" className="img-fluid" />
+                <img src="./images/fungiable-tokan-development.webp" alt="Crypto Token Development Company" title="Crypto Token Development Company" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -57,63 +57,63 @@ const SemiFungibleTokenDevelopment = () => {
             <div className="row justify-content-center align-items-center">
               <div className="col-lg-4 col-md-6 col-12 cus_col">
                 <div className="service_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/service-icons.svg" alt="Ethereum Token Development" title="Ethereum Token Development" className="sprite_icons" style={{ objectPosition: '13px 0px' }} />
+                  <img width={'80px'} src="./images/ethereum.png" alt="Ethereum Token Development" title="Ethereum Token Development" />
                   <h3 className="sub_title">Ethereum Token Creation</h3>
                   <p className="sub_contents">With Ethereum tokens that follow a variety of standards, including as ERC-20, ERC-721, ERC-223, ERC-1155, ERC-1400, and more, you may improve your blockchain project.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 cus_col">
                 <div className="service_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/service-icons.svg" alt="Tron Token Development" title="Tron Token Development" className="sprite_icons" style={{ objectPosition: '-68px 0px' }} />
+                  <img width={'80px'} src="./images/coin.png" alt="Tron Token Development" title="Tron Token Development" />
                   <h3 className="sub_title">Development of Tron Tokens</h3>
                   <p className="sub_contents">You may improve your blockchain dApps by developing TRON currencies that adhere to industry standards such as TRC-10, TRC-20, and TRC-721.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="service_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/service-icons.svg" alt="Solana Token Development" title="Solana Token Development" className="sprite_icons" style={{ objectPosition: '-175px 0px' }} />
+                  <img width={'80px'} src="./images/solana.png" alt="Solana Token Development" title="Solana Token Development" />
                   <h3 className="sub_title">Development of Solana Tokens</h3>
                   <p className="sub_contents">Our expertise lies in developing personalized tokens on Solana and other blockchain platforms using customized smart contract solutions.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 cus_col">
                 <div className="service_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/service-icons.svg" alt="Polygon Token Development" title="Polygon Token Development" className="sprite_icons" style={{ objectPosition: '-300px 0px' }} />
+                  <img width={'80px'} src="./images/polygon.png" alt="Polygon Token Development" title="Polygon Token Development" />
                   <h3 className="sub_title">Development of Polygon Tokens</h3>
                   <p className="sub_contents">Our talented team of engineers offers the best-in-class token development service; use it to create your own cryptocurrency token on the Polygon blockchain network.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 cus_col">
                 <div className="service_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/service-icons.svg" alt="Asset Token Development" title="Asset Token Development" className="sprite_icons" style={{ objectPosition: '-403px 0px' }} />
+                  <img width={'80px'} src="./images/virtual-currency.png" alt="Asset Token Development" title="Asset Token Development" />
                   <h3 className="sub_title">Development of Asset Tokens</h3>
                   <p className="sub_contents">Easily convert and tokenize legal securities for tangible assets with our user-friendly asset tokenization services.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="service_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/service-icons.svg" alt="Metaverse Token Development" title="Metaverse Token Development" className="sprite_icons" style={{ objectPosition: '-510px 0px' }} />
+                  <img width={'80px'} src="./images/digital-token.png" alt="Metaverse Token Development" title="Metaverse Token Development" />
                   <h3 className="sub_title">Development of Metaverse Tokens</h3>
                   <p className="sub_contents">We create, develop, and implement virtual tokens for the metaverse on well-known blockchain networks. Explore the immersive metaverse with the help of our knowledgeable staff.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 cus_col">
                 <div className="service_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/service-icons.svg" alt="Smart Contract Development" title="Smart Contract Development" className="sprite_icons" style={{ objectPosition: '-620px 0px' }} />
+                  <img width={'80px'} src="./images/smart-contracts.png" alt="Smart Contract Development" title="Smart Contract Development" />
                   <h3 className="sub_title">Development of Smart Contracts</h3>
                   <p className="sub_contents">Discover comprehensive security audit and smart contract development services catered to your cryptocurrency ventures or business on a variety of blockchain platforms.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 cus_col">
                 <div className="service_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/service-icons.svg" alt="Token Generator Platform Development" title="Token Generator Platform Development" className="sprite_icons" style={{ objectPosition: '-732px 0px' }} />
+                  <img width={'80px'} src="./images/tokens.png" alt="Token Generator Platform Development" title="Token Generator Platform Development" />
                   <h3 className="sub_title">Development of Token Generator Platform</h3>
                   <p className="sub_contents">Build your own unique token generating platform to assist other cryptocurrency entrepreneurs in introducing their tokens to the market with assurance, encouraging creativity and expansion within the blockchain community.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="service_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/token-development/service-icons.svg" alt="Altcoin Token Development" title="Altcoin Token Development" className="sprite_icons" style={{ objectPosition: '-838px 0px' }} />
+                  <img width={'80px'} src="./images/coin.png" alt="Altcoin Token Development" title="Altcoin Token Development" />
                   <h3 className="sub_title">Development of Altcoin Tokens</h3>
                   <p className="sub_contents">Utilize our cutting-edge altcoin development services to realize your vision and create outstanding altcoins that resemble existing cryptocurrencies like Ripple, Ethereum, or others.</p>
                 </div>
@@ -172,26 +172,15 @@ const SemiFungibleTokenDevelopment = () => {
             </div>
           </div>
         </section>
-        <section className="token_dev_idea_cardsec">
-          <div className="container">
-            <div className="row align-items-center" id="token_dev_idea_card">
-              <div className="col-xl-6 col-12">
-                <div className="sub_title">Make Your Tokens Right Away</div>
-                <div className="title">Within A Few Hours</div>
-                <div className="token_dev_btn_sec">
-                  <a href="https://tokendev.osiztechnologies.com/" target="_blank" className="btn token_dev_btn"><span>Create Tokens Now</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
+
         <section className="token_dev_models">
           <div className="container">
             <h2 className="title">Different Models for Token Development</h2>
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="model_box">
-                  <h3 className="sub_title">Tokens for Security</h3>
+                  <h3 className=" text-black text-center">Tokens for Security</h3>
                   <p className="sub_contents">With the help of our security token development services, you may take advantage of dependable and credible blockchain-based fundraising alternatives, realizing the possibility of secure, efficient, and user-friendly fundraising.</p>
                 </div>
               </div>
@@ -577,7 +566,7 @@ const SemiFungibleTokenDevelopment = () => {
                   <h2 className="title">Why Opt for Cryptocurrency Token Development Services From MetaBlock?</h2>
                   <p className="contents">At MetaBlock, we're proud of our all-encompassing approach to token creation. We use market trends and cryptocurrency performance data to deliver top-notch token production services to business owners. Because of our experience, we can design tokens with dynamic properties like fungibility, traceability, and scalability, which guarantee effective performance in the always changing cryptocurrency market.</p>
                   <p className="contents">At a reasonable cost, our token development company provides unique functional aspects that support users' best interests. With the help of our skilled developers, we can provide quick turnaround times for our effective token development solutions, enabling companies to quickly take advantage of market prospects. We provide our Crypto Token Development Solutions worldwide, so companies may take advantage of our knowledge no matter where they are in the world.In addition,
-</p>
+                  </p>
                   <div className="token_dev_btn_sec">
                     <button data-toggle="modal" data-target="#popup_form_modal" className="btn token_dev_btn"><span>Talk To Our Expert</span></button>
                   </div>

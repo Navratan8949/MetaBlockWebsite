@@ -15,7 +15,7 @@ const TrustWalletCloneDevelopment = () => {
                 <h1 className="title wallet-developments-heading">Get reliance on WalletClone Development</h1>
                 <p className="contents">Professional white paper writing services are offered by MetaBlock to help you build your brand and expand your clientele.</p>
                 <div className="text-left mob-text-center">
-                <Link to="/ContectUsForm"> <a className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">Request For Quote</a></Link> 
+                  <Link to="/ContectUsForm"> <a className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">Request For Quote</a></Link>
                 </div>
               </div>
             </div>
@@ -35,29 +35,29 @@ const TrustWalletCloneDevelopment = () => {
           <div className="container">
             <div>
               <h2 className="title">What is a <span style={{ color: '#ff660c' }}>Whitepaper?</span></h2>
-              <p className="contents"> The purpose of a whitepaper is to provide a comprehensive report on a particular topic by presenting an issue and offering a convincing &amp; 
-              and credible solution. It is typical for businesses to draft a whitepaper outlining the objectives and features of a project before it is launched. Whitepapers provide 
-              many advantages, such as establishing your authority in the field or organization and educating your clients on the strategy. Whitepapers are frequently used by businesses
-              as a marketing or sales strategy to increase interest in and knowledge of their goods and services as well as to draw in new clients.</p>
+              <p className="contents"> The purpose of a whitepaper is to provide a comprehensive report on a particular topic by presenting an issue and offering a convincing &amp;
+                and credible solution. It is typical for businesses to draft a whitepaper outlining the objectives and features of a project before it is launched. Whitepapers provide
+                many advantages, such as establishing your authority in the field or organization and educating your clients on the strategy. Whitepapers are frequently used by businesses
+                as a marketing or sales strategy to increase interest in and knowledge of their goods and services as well as to draw in new clients.</p>
               <div className="mt-5">
                 <div className="row align-items-center">
                   <div className="col-md-6">
                     <div>
                       <h2 className="sub_title"><span style={{ color: '#ff660c' }}>ESSENTIALS</span> OF COMMUNICATION IN A<span style={{ color: '#ff660c' }}>White Paper</span></h2>
                       <div className="pt-2 whitepaper_btn_mobile">
-                      <Link to="/ContectUsForm"> <a className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">contact our expert</a></Link>
+                        <Link to="/ContectUsForm"> <a className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">contact our expert</a></Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div>
                       <h2 className="sub_title_1">SERVICES FOR WRITEPAPER WRITING</h2>
-                      <p className="contents_1">In the modern corporate world, whitepaper writing services are 
-                      becoming increasingly important for small, medium, and large organizations. The whitepaper 
-                      writing services provided by Osiz can help you fulfill your content requirements. 
-                      By employing meticulously crafted, superior content, they establish credibility with your 
-                      target audience and exhibit industry thought leadership. Whitepapers are a great complement 
-                      to any sales approach.</p>
+                      <p className="contents_1">In the modern corporate world, whitepaper writing services are
+                        becoming increasingly important for small, medium, and large organizations. The whitepaper
+                        writing services provided by Osiz can help you fulfill your content requirements.
+                        By employing meticulously crafted, superior content, they establish credibility with your
+                        target audience and exhibit industry thought leadership. Whitepapers are a great complement
+                        to any sales approach.</p>
                     </div>
                   </div>
                 </div>
@@ -70,9 +70,9 @@ const TrustWalletCloneDevelopment = () => {
             <div>
               <h2 className="title">What is <span style={{ color: '#ff660c' }}>Litepaper?</span></h2>
               <p className="contents">Whitepapers, which are classified as both technical and business papers, are shortened to
-               "Litepapers." It covers the major topics of the entire document while explaining the substance of the Whitepaper.
+                "Litepapers." It covers the major topics of the entire document while explaining the substance of the Whitepaper.
                 Consider Litepaper to be a preview of the whitepaper. In contrast, the whitepaper's lite edition is shorter. An
-                overview of the company idea that poses an issue and provides the most intriguing details for solving it is 
+                overview of the company idea that poses an issue and provides the most intriguing details for solving it is
                 presented here. It should just be seven or eight pages long.</p>
               <div className>
                 <div className="row align-items-center">
@@ -86,7 +86,7 @@ const TrustWalletCloneDevelopment = () => {
                     <div>
                       <h2 className="sub_title"><span style={{ color: '#ff660c' }}>Essentials</span> of COMMUNICATION in a <span style={{ color: '#ff660c' }}>White Paper</span></h2>
                       <div className="pt-2 whitepaper_btn_mobile">
-                      <Link to="/ContectUsForm"> <a className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">contact our expert</a></Link>
+                        <Link to="/ContectUsForm"> <a className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">contact our expert</a></Link>
                       </div>
                     </div>
                   </div>
@@ -107,15 +107,15 @@ const TrustWalletCloneDevelopment = () => {
                 </div>
                 <div className="col-md-6">
                   <div>
-                    <p className="contents">Whitepapers are frequently employed as sales tools to entice or 
-                    convince prospective clients to find out more about or purchase a certain good, service, 
-                    technology, or approach. They are not meant to be a user manual or other technical document
-                     created to provide after-sale support; rather, they are meant to be used as a marketing tool 
-                     prior to a sale.</p>
-                    <p className="contents">On the other hand, a lite paper is a condensed form of a whitepaper that can be 
-                    utilized for business or technical purposes. It condenses a whitepaper's information while keeping the 
-                    main ideas of the full document. Users can learn the fundamentals of a project faster thanks to this, 
-                    which gives them more time to decide if they want to read the whitepaper in its entirety.</p>
+                    <p className="contents">Whitepapers are frequently employed as sales tools to entice or
+                      convince prospective clients to find out more about or purchase a certain good, service,
+                      technology, or approach. They are not meant to be a user manual or other technical document
+                      created to provide after-sale support; rather, they are meant to be used as a marketing tool
+                      prior to a sale.</p>
+                    <p className="contents">On the other hand, a lite paper is a condensed form of a whitepaper that can be
+                      utilized for business or technical purposes. It condenses a whitepaper's information while keeping the
+                      main ideas of the full document. Users can learn the fundamentals of a project faster thanks to this,
+                      which gives them more time to decide if they want to read the whitepaper in its entirety.</p>
                   </div>
                 </div>
               </div>
@@ -264,9 +264,9 @@ const TrustWalletCloneDevelopment = () => {
                       <p className="whitepaper_investors_card_title">Establish Your Brand</p>
                       <p className="whitepaper_investors_card_content">
                         Whitepapers are mostly used to produce sales leads. The purpose of these persuasive
-                         documents is to persuade readers to purchase your good or service. It encourages 
-                         individuals to do business with you and subtly establishes your corporate bands.
-                         </p>
+                        documents is to persuade readers to purchase your good or service. It encourages
+                        individuals to do business with you and subtly establishes your corporate bands.
+                      </p>
                     </div>
                   </div>
                   <div className="col-md-4">
@@ -278,16 +278,16 @@ const TrustWalletCloneDevelopment = () => {
                   <div className="col-md-4">
                     <div className="whitepaper_investors_card">
                       <p className="whitepaper_investors_card_title">Teach Your Intended Audience</p>
-                      <p className="whitepaper_investors_card_content"> 
-                      A whitepaper can be a useful resource for giving your audience a clear understanding of 
-                      your company. It persuades others to purchase your good or service.</p>
+                      <p className="whitepaper_investors_card_content">
+                        A whitepaper can be a useful resource for giving your audience a clear understanding of
+                        your company. It persuades others to purchase your good or service.</p>
                     </div>
                   </div>
                   <div className="col-md-4">
                     <div className="whitepaper_investors_card">
                       <p className="whitepaper_investors_card_title">Take the Lead in Your Field</p>
                       <p className="whitepaper_investors_card_content">
-                        A whitepaper can help you position yourself as a thought leader in the field and 
+                        A whitepaper can help you position yourself as a thought leader in the field and
                         promote your industry with reliable information.</p>
                     </div>
                   </div>
@@ -295,17 +295,17 @@ const TrustWalletCloneDevelopment = () => {
                     <div className="whitepaper_investors_card">
                       <p className="whitepaper_investors_card_title">Provide you with a competitive advantage</p>
                       <p className="whitepaper_investors_card_content">
-                        If your rival uses blogging and social media content creation to promote their firm. 
-                        You must differentiate yourself from them in some way. It is more important to read 
+                        If your rival uses blogging and social media content creation to promote their firm.
+                        You must differentiate yourself from them in some way. It is more important to read
                         that whitepaper in order to gain more power than them. It is the specifics of an issue
-                         and potential fixes.</p>
+                        and potential fixes.</p>
                     </div>
                   </div>
                   <div className="col-md-4">
                     <div className="whitepaper_investors_card">
                       <p className="whitepaper_investors_card_title">Boost involvement</p>
                       <p className="whitepaper_investors_card_content">
-                        On the internet, people are always being urged to try various marketing 
+                        On the internet, people are always being urged to try various marketing
                         strategies in an attempt to attract potential clients. to encourage consumers
                         to invest in your business by downloading your whitepaper in an effort to boost engagement.</p>
                     </div>
@@ -378,12 +378,12 @@ const TrustWalletCloneDevelopment = () => {
             <div>
               <h2 className="title"><span style={{ color: '#ff660c' }}>Why Do You Require</span> Our Writing Assistance for Whitepapers?</h2>
               <p className="contents">Using the best whitepaper writers in the business, we meticulously
-               create the content according to the brief. We can also determine how to use your whitepaper
+                create the content according to the brief. We can also determine how to use your whitepaper
                 to influence consumers' and purchasers' decisions. Osiz produces whitepapers that assist in
-                 establishing the authority of your company and brand. We work together to introduce the
-                  whitepaper's main objective and potential lead generation strategy. We use data to inform 
-                  our creation of the whitepaper. This ensures that the solutions mentioned in your whitepaper
-                   are backed up by concrete evidence. </p>
+                establishing the authority of your company and brand. We work together to introduce the
+                whitepaper's main objective and potential lead generation strategy. We use data to inform
+                our creation of the whitepaper. This ensures that the solutions mentioned in your whitepaper
+                are backed up by concrete evidence. </p>
               <div className="home-new-abt-btn text-center">
                 <a href="https://wa.me/9828284421" className="btn smart_contract_dev_about_btn desktop" target="_blank" style={{ background: '#25d366', padding: 10 }}><i className="fa fa-whatsapp" /> Connnect on whatsapp</a>
                 {/* <a href="https://api.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20Osiz%20software%20development%20services.%20Shall%20we%20discuss%20now?%20-%20https://www.osiztechnologies.com/white-paper-writing-services" className="btn btn-whatsapp mobile" style={{ background: '#25d366', padding: 10 }}> <i className="fa fa-whatsapp" /> Connnect on whatsapp</a> */}
@@ -427,121 +427,127 @@ const TrustWalletCloneDevelopment = () => {
               <div className="row">
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Blockchain" title="Blockchain " style={{ objectPosition: '-1792px -36px' }} />
+                    <img width={'50px'} src="./images/Blockchain.png" alt=" Blockchain" title="Blockchain " />
                     <div className="white_paper_industry_card_title">Blockchain</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Cryptocurrency" title="Cryptocurrency " style={{ objectPosition: '-1875px -36px' }} />
+                    <img width={'50px'} src="./images/cryptocurrency.png" alt=" Cryptocurrency" title="Cryptocurrency " />
                     <div className="white_paper_industry_card_title">Cryptocurrency</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" ICO" title="ICO " style={{ objectPosition: '-1953px -36px' }} />
+                    <img width={'50px'} src="./images/Ico.png" alt=" ICO" title="ICO " />
                     <div className="white_paper_industry_card_title">ICO</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" STO" title="STO " style={{ objectPosition: '-2033px -36px' }} />
+                    <img width={'50px'} src="./images/sto.png" alt=" STO" title="STO " />
                     <div className="white_paper_industry_card_title">STO</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" IEO" title="IEO " style={{ objectPosition: '-2118px -35px' }} />
+                    <img width={'50px'} src="./images/trust.png" alt=" IEO" title="IEO " />
                     <div className="white_paper_industry_card_title">IEO</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" IDO" title="IDO " style={{ objectPosition: '-2187px -35px' }} />
+                    <img width={'50px'} src="./images/Organization.png" alt=" IDO" title="IDO " />
                     <div className="white_paper_industry_card_title">IDO</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" DeFi" title="DeFi " style={{ objectPosition: '-2263px -35px' }} />
-                    <div className="white_paper_industry_card_title">DeFi</div>
+                    <img width={'50px'} src="./images/finance.png" alt=" IDO" title="IDO " />
+                    <div className="white_paper_industry_card_title">Defi</div>
                   </div>
                 </div>
+                {/* <div className="col-md-3 col-xs-6">
+                  <div className="whitepaper_industries_card">
+                    <img width={'50px'} src="./images/finance.png" alt=" DeFi" title="DeFi " style={{ objectPosition: '-2263px -35px' }} />
+                    <div className="white_paper_industry_card_title">DeFi</div>
+                  </div>
+                </div> */}
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" NFT" title="NFT " style={{ objectPosition: '-2351px -35px' }} />
+                    <img width={'50px'} src="./images/non-fungible-token.png" alt=" NFT" title="NFT " />
                     <div className="white_paper_industry_card_title">NFT</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Retail and E-Commerce" title="Retail and E-Commerce " style={{ objectPosition: '-2423px -35px' }} />
+                    <img width={'50px'} src="./images/online-store.png" alt=" Retail and E-Commerce" title="Retail and E-Commerce " />
                     <div className="white_paper_industry_card_title">Retail and E-Commerce</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Banking and Finance" title="Banking and Finance " style={{ objectPosition: '-2498px -35px' }} />
+                    <img width={'50px'} src="./images/bank.png" alt=" Banking and Finance" title="Banking and Finance " />
                     <div className="white_paper_industry_card_title">Banking and Finance</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Travel and Hospitality" title="Travel and Hospitality " style={{ objectPosition: '-2569px -35px' }} />
+                    <img width={'50px'} src="./images/map.png" alt=" Travel and Hospitality" title="Travel and Hospitality " />
                     <div className="white_paper_industry_card_title">Travel and Hospitality</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Healthcare" title="Healthcare " style={{ objectPosition: '-2640px -35px' }} />
+                    <img width={'50px'} src="./images/healthcare.png" alt=" Healthcare" title="Healthcare " />
                     <div className="white_paper_industry_card_title">Healthcare</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Trading" title="Trading " style={{ objectPosition: '-2722px -35px' }} />
+                    <img width={'50px'} src="./images/increase.png" alt=" Trading" title="Trading " />
                     <div className="white_paper_industry_card_title">Trading</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Gaming" title="Gaming " style={{ objectPosition: '-2791px -35px' }} />
+                    <img width={'50px'} src="./images/game.png" alt=" Gaming" title="Gaming " />
                     <div className="white_paper_industry_card_title">Gaming</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Education" title="Education " style={{ objectPosition: '-2865px -35px' }} />
+                    <img width={'50px'} src="./images/education.png" alt=" Education" title="Education " />
                     <div className="white_paper_industry_card_title">Education</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Insurance" title="Insurance " style={{ objectPosition: '-2927px -35px' }} />
+                    <img width={'50px'} src="./images/insurance.png" alt=" Insurance" title="Insurance " />
                     <div className="white_paper_industry_card_title">Insurance</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Agriculture & mining" title="Agriculture & mining " style={{ objectPosition: '-2999px -35px' }} />
+                    <img width={'50px'} src="./images/planting.png" alt=" Agriculture & mining" title="Agriculture & mining " />
                     <div className="white_paper_industry_card_title">Agriculture &amp; mining</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Entertainment" title="Entertainment " style={{ objectPosition: '-3071px -35px' }} />
+                    <img width={'50px'} src="./images/video-player.png" alt=" Entertainment" title="Entertainment " />
                     <div className="white_paper_industry_card_title">Entertainment</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Public sector" title="Public sector " style={{ objectPosition: '-2498px -35px' }} />
+                    <img width={'50px'} src="./images/public-relation.png" alt=" Public sector" title="Public sector " />
                     <div className="white_paper_industry_card_title">Public sector</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Logistics" title="Logistics " style={{ objectPosition: '-3152px -35px' }} />
+                    <img width={'50px'} src="./images/transportation.png" alt=" Logistics" title="Logistics " />
                     <div className="white_paper_industry_card_title">Logistics</div>
                   </div>
                 </div>
@@ -557,14 +563,14 @@ const TrustWalletCloneDevelopment = () => {
                 <div className="col-md-5">
                   <div>
                     <p className="contents">One of the best marketing tools you can use for a business-to-business
-                     campaign is a whitepaper. They provide a wealth of information at every stage of the sales 
-                     process, from detailed technical specs to product and service category understanding. Nothing 
-                     like that exists for every writer of whitepapers. You are looking for a writer with extensive 
-                     knowledge of your sector and product line. Our staff of knowledgeable whitepaper writers is
-                      multi-specialist in what they do. Creating a shortlist of potential interview subjects is a 
-                      smart move while searching for whitepaper writers. You can use the following criteria to 
+                      campaign is a whitepaper. They provide a wealth of information at every stage of the sales
+                      process, from detailed technical specs to product and service category understanding. Nothing
+                      like that exists for every writer of whitepapers. You are looking for a writer with extensive
+                      knowledge of your sector and product line. Our staff of knowledgeable whitepaper writers is
+                      multi-specialist in what they do. Creating a shortlist of potential interview subjects is a
+                      smart move while searching for whitepaper writers. You can use the following criteria to
                       filter profiles:
-                  </p>
+                    </p>
                   </div>
                 </div>
                 <div className="col-md-7">
@@ -574,16 +580,16 @@ const TrustWalletCloneDevelopment = () => {
                         <div className="whitepaper_hire_card">
                           <p className="whitepaper_hire_card_title">The field Fit</p>
                           <p className="whitepaper_hire_card_content">
-                            To create a whitepaper that will resonate with your target audience, 
-                            you need a writer that is knowledgeable about your industry and can 
+                            To create a whitepaper that will resonate with your target audience,
+                            you need a writer that is knowledgeable about your industry and can
                             provide deep insights.</p>
                         </div>
                       </div>
                       <div className="col-md-4">
                         <div className="whitepaper_hire_card">
                           <p className="whitepaper_hire_card_title">Task expertise</p>
-                          <p className="whitepaper_hire_card_content">Keep an eye out for certain experiences 
-                          and talents in candidate profiles. And the screen test to evaluate their abilities is over.</p>
+                          <p className="whitepaper_hire_card_content">Keep an eye out for certain experiences
+                            and talents in candidate profiles. And the screen test to evaluate their abilities is over.</p>
                         </div>
                       </div>
                       <div className="col-md-4">
@@ -604,8 +610,8 @@ const TrustWalletCloneDevelopment = () => {
             <div>
               <h2 className="title">What Do Our Hired Whitepaper <span style={{ color: '#ff660c' }}>Writers Accomplish?</span></h2>
               <p className="contents">Make sure you have a clear goal in mind before you begin creating a whitepaper.
-               A strong whitepaper should provide leads and build authority. The attainment of such a position is only
-                comprehensible to a proficient and seasoned writer. Our staff is made up of skilled and competent authors 
+                A strong whitepaper should provide leads and build authority. The attainment of such a position is only
+                comprehensible to a proficient and seasoned writer. Our staff is made up of skilled and competent authors
                 who can easily and quickly produce works of art.
               </p>
               <div>
@@ -614,8 +620,8 @@ const TrustWalletCloneDevelopment = () => {
                     <div className="whitepaper_hire_do_card">
                       <div className="whitepaper_hire_card_do_title">Excellent content</div>
                       <p className="whitepaper_hire_card_do_content">
-                        The content of your writing will determine if it meets the requirements to be 
-                        classified as a whitepaper. Our whitepaper writers are skilled at conducting the 
+                        The content of your writing will determine if it meets the requirements to be
+                        classified as a whitepaper. Our whitepaper writers are skilled at conducting the
                         required research and know what to include. </p>
                     </div>
                   </div>
@@ -623,8 +629,8 @@ const TrustWalletCloneDevelopment = () => {
                     <div className="whitepaper_hire_do_card">
                       <div className="whitepaper_hire_card_do_title">Allow your authority to be developed.</div>
                       <p className="whitepaper_hire_card_do_content">
-                        Our writers are skilled in creating authority through whitepaper usage. 
-                        They are aware of the deadlines and the structures that must be adhered to. 
+                        Our writers are skilled in creating authority through whitepaper usage.
+                        They are aware of the deadlines and the structures that must be adhered to.
                         You may hire B2B whitepaper writers at MetaBlock.</p>
                     </div>
                   </div>

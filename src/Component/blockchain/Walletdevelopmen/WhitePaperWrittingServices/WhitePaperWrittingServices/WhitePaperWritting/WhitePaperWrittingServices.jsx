@@ -14,7 +14,7 @@ const WhitePaperWrittingServices = () => {
                 <h1 className="title wallet-developments-heading">Writing Services for Whitepapers</h1>
                 <p className="contents">Professional white paper writing services are offered by MetaBlock to help you build your brand and expand your clientele.</p>
                 <div className="text-left mob-text-center">
-                <Link to="/ContectUsForm">   <span className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">Request For Quote</span></Link>
+                  <Link to="/ContectUsForm">   <span className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">Request For Quote</span></Link>
                 </div>
               </div>
             </div>
@@ -41,7 +41,7 @@ const WhitePaperWrittingServices = () => {
                     <div>
                       <h2 className="sub_title"><span style={{ color: '#ff660c' }}>Essentials</span> OF COMMUNICATION IN A <span style={{ color: '#ff660c' }}>White Paper</span></h2>
                       <div className="pt-2 whitepaper_btn_mobile">
-                      <Link to="/ContectUsForm"><span className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">contact our expert</span></Link>
+                        <Link to="/ContectUsForm"><span className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">contact our expert</span></Link>
                       </div>
                     </div>
                   </div>
@@ -73,7 +73,7 @@ const WhitePaperWrittingServices = () => {
                     <div>
                       <h2 className="sub_title"><span style={{ color: '#ff660c' }}>Essentials</span> OF COMMUNICATION IN A <span style={{ color: '#ff660c' }}>White Paper</span></h2>
                       <div className="pt-2 whitepaper_btn_mobile">
-                      <Link to="/ContectUsForm">  <span className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">contact our expert</span></Link>
+                        <Link to="/ContectUsForm">  <span className="btn whitepaper_btn" data-toggle="modal" data-target="#popup_form_modal">contact our expert</span></Link>
                       </div>
                     </div>
                   </div>
@@ -382,125 +382,126 @@ const WhitePaperWrittingServices = () => {
         <section className="whitepaper_industries mt-5 mb-5">
           <div className="container">
             <div>
-              <h2 className="title"><span style={{ color: '#ff660c' }}>Whitepaper</span> Writing Services For The Industries We Serve</h2>
+              <h2 className="title"><span style={{ color: '#ff660c' }}>Whitepaper</span> Writing Services for the Industries We Serve</h2>
               <div className="row">
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Blockchain" title="Blockchain " style={{ objectPosition: '-1792px -36px' }} />
+                    <img width={'50px'} src="./images/Blockchain.png" alt=" Blockchain" title="Blockchain " />
                     <div className="white_paper_industry_card_title">Blockchain</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Cryptocurrency" title="Cryptocurrency " style={{ objectPosition: '-1875px -36px' }} />
+                    <img width={'50px'} src="./images/cryptocurrency.png" alt=" Cryptocurrency" title="Cryptocurrency " />
                     <div className="white_paper_industry_card_title">Cryptocurrency</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" ICO" title="ICO " style={{ objectPosition: '-1953px -36px' }} />
+                    <img width={'50px'} src="./images/Ico.png" alt=" ICO" title="ICO " />
                     <div className="white_paper_industry_card_title">ICO</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" STO" title="STO " style={{ objectPosition: '-2033px -36px' }} />
+                    <img width={'50px'} src="./images/sto.png" alt=" STO" title="STO " />
                     <div className="white_paper_industry_card_title">STO</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" IEO" title="IEO " style={{ objectPosition: '-2118px -35px' }} />
+                    <img width={'50px'} src="./images/trust.png" alt=" IEO" title="IEO " />
                     <div className="white_paper_industry_card_title">IEO</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" IDO" title="IDO " style={{ objectPosition: '-2187px -35px' }} />
+                    <img width={'50px'} src="./images/Organization.png" alt=" IDO" title="IDO " />
                     <div className="white_paper_industry_card_title">IDO</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" DeFi" title="DeFi " style={{ objectPosition: '-2263px -35px' }} />
-                    <div className="white_paper_industry_card_title">DeFi</div>
+                    <img width={'50px'} src="./images/finance.png" alt=" IDO" title="IDO " />
+                    <div className="white_paper_industry_card_title">Defi</div>
                   </div>
                 </div>
+
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" NFT" title="NFT " style={{ objectPosition: '-2351px -35px' }} />
+                    <img width={'50px'} src="./images/non-fungible-token.png" alt=" NFT" title="NFT " />
                     <div className="white_paper_industry_card_title">NFT</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Retail and E-Commerce" title="Retail and E-Commerce " style={{ objectPosition: '-2423px -35px' }} />
+                    <img width={'50px'} src="./images/online-store.png" alt=" Retail and E-Commerce" title="Retail and E-Commerce " />
                     <div className="white_paper_industry_card_title">Retail and E-Commerce</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Banking and Finance" title="Banking and Finance " style={{ objectPosition: '-2498px -35px' }} />
+                    <img width={'50px'} src="./images/bank.png" alt=" Banking and Finance" title="Banking and Finance " />
                     <div className="white_paper_industry_card_title">Banking and Finance</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Travel and Hospitality" title="Travel and Hospitality " style={{ objectPosition: '-2569px -35px' }} />
+                    <img width={'50px'} src="./images/map.png" alt=" Travel and Hospitality" title="Travel and Hospitality " />
                     <div className="white_paper_industry_card_title">Travel and Hospitality</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Healthcare" title="Healthcare " style={{ objectPosition: '-2640px -35px' }} />
+                    <img width={'50px'} src="./images/healthcare.png" alt=" Healthcare" title="Healthcare " />
                     <div className="white_paper_industry_card_title">Healthcare</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Trading" title="Trading " style={{ objectPosition: '-2722px -35px' }} />
+                    <img width={'50px'} src="./images/increase.png" alt=" Trading" title="Trading " />
                     <div className="white_paper_industry_card_title">Trading</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Gaming" title="Gaming " style={{ objectPosition: '-2791px -35px' }} />
+                    <img width={'50px'} src="./images/game.png" alt=" Gaming" title="Gaming " />
                     <div className="white_paper_industry_card_title">Gaming</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Education" title="Education " style={{ objectPosition: '-2865px -35px' }} />
+                    <img width={'50px'} src="./images/education.png" alt=" Education" title="Education " />
                     <div className="white_paper_industry_card_title">Education</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Insurance" title="Insurance " style={{ objectPosition: '-2927px -35px' }} />
+                    <img width={'50px'} src="./images/insurance.png" alt=" Insurance" title="Insurance " />
                     <div className="white_paper_industry_card_title">Insurance</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Agriculture & mining" title="Agriculture & mining " style={{ objectPosition: '-2999px -35px' }} />
+                    <img width={'50px'} src="./images/planting.png" alt=" Agriculture & mining" title="Agriculture & mining " />
                     <div className="white_paper_industry_card_title">Agriculture &amp; mining</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Entertainment" title="Entertainment " style={{ objectPosition: '-3071px -35px' }} />
+                    <img width={'50px'} src="./images/video-player.png" alt=" Entertainment" title="Entertainment " />
                     <div className="white_paper_industry_card_title">Entertainment</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Public sector" title="Public sector " style={{ objectPosition: '-2498px -35px' }} />
+                    <img width={'50px'} src="./images/public-relation.png" alt=" Public sector" title="Public sector " />
                     <div className="white_paper_industry_card_title">Public sector</div>
                   </div>
                 </div>
                 <div className="col-md-3 col-xs-6">
                   <div className="whitepaper_industries_card">
-                    <img src="https://www.osiztechnologies.com/asset/oimages/white-paper-img/icons.png" className="white_paper_industry_img" alt=" Logistics" title="Logistics " style={{ objectPosition: '-3152px -35px' }} />
+                    <img width={'50px'} src="./images/transportation.png" alt=" Logistics" title="Logistics " />
                     <div className="white_paper_industry_card_title">Logistics</div>
                   </div>
                 </div>

@@ -8,8 +8,8 @@ const MetaverseGameDevelopment = () => {
         <section className="metaverse_game_banner">
           <div className="container-fluid cus_container">
             <div className="row align-items-center justify-content-center">
-              <div className="col-lg-7 col-12 p-0">
-                <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/metaverse-game-banner.webp" alt="Metaverse-Game-Development-Company" title="Metaverse Game Development Company" className="banner_img img-fluid" />
+              <div className="col-lg-7 col-12 p-0 met_game1">
+                <img src="https://www.antiersolutions.com/wp-content/uploads/2022/04/blog-banner-1.jpg" alt="Metaverse-Game-Development-Company" title="Metaverse Game Development Company" className="banner_img img-fluid" />
               </div>
               <div className="col-lg-5 col-12">
                 <div className="banner_contsec">
@@ -17,8 +17,8 @@ const MetaverseGameDevelopment = () => {
                   <p className="contents">Greetings from the metaverse of gaming's future! With our Metaverse game development platform, developers of various skill levels may create unlimited possibilities by fusing creativity and technology.</p>
                   <div className="HddrBtns banner_btn_sec">
                     <button toggle="modal" target="#popup_form_modal" className="btn BtnPrimry TlkBtn banner_btn">
-                      <span><img src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif" alt="" loading="eager" className="img-fluid lazyload mr-2 lazyload" />Get A Live Quote</span>
-                      <span><img src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif" alt="" loading="eager" className="img-fluid lazyload mr-2" />Get A Live Quote</span>
+                      <span alt="" loading="eager" className="img-fluid lazyload mr-2 lazyload" >Get A Live Quote</span>
+                      <span alt="" loading="eager" className="img-fluid lazyload mr-2" >Get A Live Quote</span>
                     </button>
                   </div>
                 </div>
@@ -40,13 +40,13 @@ const MetaverseGameDevelopment = () => {
                   Avalanche, and more, to create metaverse games.</p>
                 <div className="HddrBtns metaverse_game_btn_sec">
                   <button toggle="modal" target="#popup_form_modal" className="btn BtnPrimry TlkBtn metaverse_game_btn">
-                    <span><img src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif" alt="enquiry" loading="eager" className="img-fluid lazyload mr-2 lazyload" />Talk To Our Expert</span>
-                    <span><img src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif" alt="enquiry" loading="eager" className="img-fluid lazyload mr-2" />Talk To Our Expert</span>
+                    <span alt="enquiry" loading="eager" className="img-fluid lazyload mr-2 lazyload" >Talk To Our Expert</span>
+                    <span alt="enquiry" loading="eager" className="img-fluid lazyload mr-2" >Talk To Our Expert</span>
                   </button>
                 </div>
               </div>
               <div className="col-lg-7 col-12">
-                <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/metaverse-game-sec.webp?v1" alt="Metaverse Game Development" title="Metaverse Game Development" className="img-fluid lazyload metav_game_dev_img" />
+                <img src="./images/met_game2.webp" alt="Metaverse Game Development" title="Metaverse Game Development" className="img-fluid lazyload metav_game_dev_img" />
               </div>
             </div>
           </div>
@@ -55,16 +55,16 @@ const MetaverseGameDevelopment = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-12 col-12">
-                <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/what-img.webp?v1" alt="Metaverse Game Development" title="Metaverse Game Development" className="img-fluid lazyload" />
+                <img src="./images/met_game3.jpg" alt="Metaverse Game Development" title="Metaverse Game Development" className="img-fluid lazyload" />
               </div>
               <div className="col-lg-12 col-12">
                 <h2 className="title">What is Metaverse Game ?</h2>
                 <p className="contents">A type of online multiplayer game known as a "metaverse game" allows participants to participate in a shared virtual environment. Avatars created specifically for a metaverse game are used by players to communicate with other players in real time. The game environment is often limitless and provides players with a wide range of activities, including player engagement, virtual world exploration, mission fulfillment, and defeating other players.</p>
                 <p className="contents">Metaverse games allow players to create and modify both their virtual avatar and world, offering a high degree of customisation. They may also feature a virtual marketplace where players can trade in-game currency for virtual goods.As technology develops, metaverse games should get more and more sophisticated, offering players ever-more engaging and enjoyable experiences.                </p>
                 <div className="met_game_what_about_btn_sec">
-                  <a href="https://web.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20Osiz%20software%20development%20services.%20Shall%20we%20discuss%20now?%20-%20https://www.osiztechnologies.com/metaverse-game-development" className="btn met_game_what_about_btn desktop" target="_blank"><i className="fab fa-whatsapp" />&nbsp;WhatsApp</a>
-                  <a href="https://api.whatsapp.com/send?phone=919442164852&text=Hi,%20I%20need%20more%20details%20about%20Osiz%20software%20development%20services.%20Shall%20we%20discuss%20now?%20-%20https://www.osiztechnologies.com/metaverse-game-development" className="btn met_game_what_about_btn mobile" target="_blank"><i className="fab fa-whatsapp" />&nbsp;WhatsApp</a>
-                  <a href="https://telegram.me/Osiz_Tech" className="btn met_game_what_about_btn1" target="_blank"><i className="fab fa-telegram" />&nbsp;Telegram</a>
+                  <a href="https://wa.me/9828284421" className="btn met_game_what_about_btn desktop" target="_blank"><i className="fab fa-whatsapp" />&nbsp;WhatsApp</a>
+                  <a href="https://wa.me/9828284421" className="btn met_game_what_about_btn mobile" target="_blank"><i className="fab fa-whatsapp" />&nbsp;WhatsApp</a>
+                  <a href="https://web.telegram.org/k/#@metablocktechnologies" className="btn met_game_what_about_btn1" target="_blank"><i className="fab fa-telegram" />&nbsp;Telegram</a>
                 </div>
               </div>
             </div>
@@ -89,96 +89,95 @@ const MetaverseGameDevelopment = () => {
             <p className="contents">We provide end-to-end solutions that facilitate your entry into and interaction with the metaverse. A list of our offerings is</p>
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="https://www.osiztechnologies.com/blog/metaverse-3d-space-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service1.webp" alt="3D Space Development" title="3D Space Development" className="sprite_icons lazyload" />
-                    </div>
-                    <h3 className="sub_title">Development of 3D Space</h3>
-                    <p className="sub_contents">Our team of talented game developers uses a variety of technological stacks to adjust to changing game needs, which enables them to create unique 3D maps and environments for different games.
-                    </p>
+
+                <div className="service_box">
+                  <div className="img_sec">
+                    <img src="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/07/18042855/Persistent.png" alt="3D Space Development" title="3D Space Development" className="sprite_icons lazyload" />
                   </div>
-                </a>
+                  <h3 className="sub_title">Development of 3D Space</h3>
+                  <p className="sub_contents">Our team of talented game developers uses a variety of technological stacks to adjust to changing game needs, which enables them to create unique 3D maps and environments for different games.
+                  </p>
+                </div>
+
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="https://www.osiztechnologies.com/play-to-earn-game-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service2.webp" alt="Play to Earn Game Development" title="Play to Earn Game Development" className="sprite_icons lazyload" />
-                    </div>
-                    <h3 className="sub_title">Play to Get Developer Credit for Games</h3>
-                    <p className="sub_contents">The usage of blockchain technology has completely changed the user experience by providing a number of functions including play-to-earn, which includes stake-to-earn, move-to-earn, and create-to-earn.
-                    </p>
+
+                <div className="service_box">
+                  <div className="img_sec">
+                    <img src="https://www.antiersolutions.com/wp-content/uploads/2023/01/End-your-worries-about-metaverse-game-development-with-Antier.png" alt="Play to Earn Game Development" title="Play to Earn Game Development" className="sprite_icons lazyload" />
                   </div>
-                </a>
+                  <h3 className="sub_title">Play to Get Developer Credit for Games</h3>
+                  <p className="sub_contents">The usage of blockchain technology has completely changed the user experience by providing a number of functions including play-to-earn, which includes stake-to-earn, move-to-earn, and create-to-earn.
+                  </p>
+                </div>
+
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="https://www.osiztechnologies.com/game-development-company" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service3.webp" alt="Custom Games Development" title="Custom Games Development" className="sprite_icons lazyload" />
-                    </div>
-                    <h3 className="sub_title">Develop Your Own Video Games</h3>
-                    <p className="sub_contents">We create the game from your distinct concepts, customizing each and every element to fit your vision. Our team of specialists will create a unique gaming experience that connects with your audience, from fascinating tales to captivating gameplay mechanics.
-                    </p>
+
+                <div className="service_box">
+                  <div className="img_sec">
+                    <img src="https://uigstudio.com/uploads/media/blog-post-image/07/1737-top-10-metaverse-games.jpg?v=1-0" alt="Custom Games Development" title="Custom Games Development" className="sprite_icons lazyload" />
                   </div>
-                </a>
+                  <h3 className="sub_title">Develop Your Own Video Games</h3>
+                  <p className="sub_contents">We create the game from your distinct concepts, customizing each and every element to fit your vision. Our team of specialists will create a unique gaming experience that connects with your audience, from fascinating tales to captivating gameplay mechanics.
+                  </p>
+                </div>
+
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="https://www.osiztechnologies.com/nft-game-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service4.webp" alt="NFT Game Development" title="NFT Game Development" className="sprite_icons lazyload" />
-                    </div>
-                    <h3 className="sub_title">NFT Game Creation</h3>
-                    <p className="sub_contents">The goal of game creation is to use NFTs as game assets in order to include them into gameplay, which is a crucial aspect of Metaverse games.
-                    </p>
+
+                <div className="service_box">
+                  <div className="img_sec">
+                    <img src="https://300mind.studio/blog/wp-content/uploads/2023/11/NFT-Game-Development.webp" alt="NFT Game Development" title="NFT Game Development" className="sprite_icons lazyload" />
                   </div>
-                </a>
+                  <h3 className="sub_title">NFT Game Creation</h3>
+                  <p className="sub_contents">The goal of game creation is to use NFTs as game assets in order to include them into gameplay, which is a crucial aspect of Metaverse games.
+                  </p>
+                </div>
+
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="https://www.osiztechnologies.com/blog/metaverse-avatar-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service5.webp" alt="3D Avatar Development" title="3D Avatar Development" className="sprite_icons lazyload" />
-                    </div>
-                    <h3 className="sub_title">Development of 3D Avatars</h3>
-                    <p className="sub_contents">With our state-of-the-art technology, which provides customisable hyper-realistic 3D avatars for games, real estate transactions, NFT trading platforms, educational endeavors, and countless other interesting activities, you may immerse yourself in the metaverse like never before.</p>
+
+                <div className="service_box">
+                  <div className="img_sec">
+                    <img src="https://maticz.com/admin/images/blog/metaverse-avatar-development.jpeg" alt="3D Avatar Development" title="3D Avatar Development" className="sprite_icons lazyload" />
                   </div>
-                </a>
+                  <h3 className="sub_title">Development of 3D Avatars</h3>
+                  <p className="sub_contents">With our state-of-the-art technology, which provides customisable hyper-realistic 3D avatars for games, real estate transactions, NFT trading platforms, educational endeavors, and countless other interesting activities, you may immerse yourself in the metaverse like never before.</p>
+                </div>
+
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="https://www.osiztechnologies.com/blog/metaverse-nft-marketplace-development" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service6.webp" alt="Metaverse Marketplace Development" title="Metaverse Marketplace Development" className="sprite_icons lazyload" />
-                    </div>
-                    <h3 className="sub_title">Development of Metaverse Marketplaces</h3>
-                    <p className="sub_contents">Our skilled staff specializes in creating vibrant markets that enable players to easily trade, purchase, and sell in-game items. Navigate a vibrant marketplace environment to discover unique treasures and connect with other players to unlock an endless world of chances.</p>
+
+                <div className="service_box">
+                  <div className="img_sec">
+                    <img src="https://www.antiersolutions.com/wp-content/uploads/2021/11/Metaverse.jpg" alt="Metaverse Marketplace Development" title="Metaverse Marketplace Development" className="sprite_icons lazyload" />
                   </div>
-                </a>
+                  <h3 className="sub_title">Development of Metaverse Marketplaces</h3>
+                  <p className="sub_contents">Our skilled staff specializes in creating vibrant markets that enable players to easily trade, purchase, and sell in-game items. Navigate a vibrant marketplace environment to discover unique treasures and connect with other players to unlock an endless world of chances.</p>
+                </div>
+
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service7.webp" alt="Gaming dApps" title="Gaming dApps" className="sprite_icons lazyload" />
-                    </div>
-                    <h3 className="sub_title">Games-related dApps</h3>
-                    <p className="sub_contents">Enter a decentralized environment with smooth peer-to-peer transactions, transparent gameplay, and actual ownership of in-game assets for yourself. With the use of blockchain technology, our gaming dApps are revolutionizing the gaming sector by providing safe, equitable, and engaging experiences.                    </p>
+
+                <div className="service_box">
+                  <div className="img_sec">
+                    <img src="https://rejolut.com/wp-content/uploads/2022/09/metaverse-2.png" alt="Gaming dApps" title="Gaming dApps" className="sprite_icons lazyload" />
                   </div>
-                </a>
+                  <h3 className="sub_title">Games-related dApps</h3>
+                  <p className="sub_contents">Enter a decentralized environment with smooth peer-to-peer transactions, transparent gameplay, and actual ownership of in-game assets for yourself. With the use of blockchain technology, our gaming dApps are revolutionizing the gaming sector by providing safe, equitable, and engaging experiences.                    </p>
+                </div>
+
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="https://www.osiztechnologies.com/contact-us" target="_blank">
-                  <div className="service_box">
-                    <div className="img_sec">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/service8.webp" alt="Decentralized Gaming Platform" title="Decentralized Gaming Platform" className="sprite_icons lazyload" />
-                    </div>
-                    <h3 className="sub_title">Decentralized Platform for Gaming</h3>
-                    <p className="sub_contents">A distributed ledger and smart contracts regulate every facet of the gaming experience on a decentralized gaming platform, including player interactions, game development, item ownership, and rewards distribution.</p>
+
+                <div className="service_box">
+                  <div className="img_sec">
+                    <img src="https://media.licdn.com/dms/image/D5612AQFg7ck-i9AjuA/article-cover_image-shrink_600_2000/0/1684419723192?e=2147483647&v=beta&t=QqZe6VXnE3tc4i3hHmEj4DJnNQGquriwqpHtTOXS0HM" alt="Decentralized Gaming Platform" title="Decentralized Gaming Platform" className="sprite_icons lazyload" />
                   </div>
-                </a>
+                  <h3 className="sub_title">Decentralized Platform for Gaming</h3>
+                  <p className="sub_contents">A distributed ledger and smart contracts regulate every facet of the gaming experience on a decentralized gaming platform, including player interactions, game development, item ownership, and rewards distribution.</p>
+                </div>
               </div>
             </div>
           </div>

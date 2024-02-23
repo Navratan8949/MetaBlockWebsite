@@ -1,12 +1,13 @@
-
 #smart_contract_dev_main {
     background: #090909;
 }
 
 #smart_contract_dev_main .smart_contract_dev_banner {
-    background: url('/public/images/banner (4).webp');
+    /* background: url('/public/images/banner (4).webp') !important; */
+    /* background: url(../../../../../public/images/banner\ \(4\).webp) !important; */
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../../../../../public/images/Smart-contract-background-img.jpg) !important;
     /* D:\projects\blockchain\blockchain\public\images\banner (4).webp */
-    background-size: cover;
+    background-size: cover !important;
     background-repeat: no-repeat;
     background-position: top left;
     height: 100vh;
@@ -22,6 +23,7 @@
         background-position: 20% !important;
         height: 650px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_banner:after {
         content: "";
         position: absolute;
@@ -456,31 +458,38 @@
         padding: 50px 0px;
         text-align: center;
     }
+
     #smart_contract_dev_main .smart_contract_dev_banner .banner_btn_sec {
         justify-content: center;
         display: flex;
     }
+
     #smart_contract_dev_main .smart_contract_dev_sec,
     #smart_contract_dev_main .smart_contract_dev_benefits .title {
         text-align: center;
     }
+
     #smart_contract_dev_main .smart_contract_dev_sec img {
         margin-top: 40px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_services .scont-serv-parent .scont-serv-child,
     #smart_contract_dev_main .smart_contract_dev_services .scont-serv-parent .scont-serv-child:nth-child(3n) {
         border: none;
         padding: 15px;
         min-height: 0px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_services .services_box {
         border: solid #dddddd57 1px;
         padding: 20px;
         border-radius: 5px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_services .contents {
         margin-bottom: 20px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_why {
         padding: 50px 10px;
     }
@@ -493,14 +502,17 @@
         height: 550px;
         padding: 50px 0px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_banner .title {
         font-size: 28px !important;
         line-height: 1.5;
         padding-top: 30px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_banner .cus_title {
         font-size: 33px !important;
     }
+
     #smart_contract_dev_main .smart_contract_dev_banner .banner_btn,
     #smart_contract_dev_main .smart_contract_dev_why .smart_contract_btn {
         font-size: 15px !important;
@@ -508,6 +520,7 @@
         margin: 0 auto;
         width: 165px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_sec .title,
     #smart_contract_dev_main .smart_contract_dev_services .title,
     #smart_contract_dev_main .smart_contract_dev_benefits .title,
@@ -518,32 +531,39 @@
         line-height: 1.6 !important;
         text-align: center;
     }
+
     #smart_contract_dev_main .smart_contract_dev_sec .smart_contract_dev_about_btn,
     #smart_contract_dev_main .smart_contract_dev_sec .smart_contract_dev_about_btn1 {
         font-size: 14px !important;
         padding: 8px 18px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_benefits .scont-titl-wra {
         min-height: 200px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     #smart_contract_dev_main .smart_contract_dev_benefits .scont-bt-wra {
         min-height: 200px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_process .num_sec {
         display: none;
     }
+
     #smart_contract_dev_main .smart_contract_dev_process .sub_title,
     #smart_contract_dev_main .smart_contract_dev_process .even_sub_cont,
     #smart_contract_dev_main .smart_contract_dev_process .sub_contents,
     #smart_contract_dev_main .smart_contract_dev_why {
         text-align: center;
     }
+
     #smart_contract_dev_main .smart_contract_dev_industry .industry_box {
         min-height: 0px;
     }
+
     #smart_contract_dev_main .smart_contract_dev_why {
         padding-top: 0px;
     }
@@ -674,20 +694,25 @@
 }
 
 @keyframes ripple {
+
     100%,
     25% {
         box-shadow: 0 0 0 0 rgb(165 115 201 / 30%), 0 0 0 .2em rgb(165 115 201 / 10%)
     }
+
     50% {
         box-shadow: 0 0 0 0.5em rgb(165 115 201 / 30%), 0 0 0 1em rgb(165 115 201 / 30%)
     }
+
     75% {
         box-shadow: 0 0 0 2em rgb(165 115 201 / 30%), 0 0 0 2.5em rgb(165 115 201 / 10%)
     }
+
     from {
         opacity: 1;
         transform: scale(1)
     }
+
     to {
         opacity: 0;
         transform: scale(2)
@@ -852,9 +877,11 @@
     0% {
         transform: scale(1, 1);
     }
+
     50% {
         transform: scale(1.2, 1.2);
     }
+
     100% {
         transform: scale(1, 1);
     }
@@ -867,42 +894,52 @@
         display: flex;
         flex-flow: column nowrap;
     }
+
     .tbsMenu .nav-tabs {
         border-bottom: none;
         border-right: 1px solid #ddd;
         display: flex;
     }
+
     .tbsMenu .nav-tabs {
         margin: 0 15px;
     }
+
     .tbsMenu .nav-tabs .nav-item+.nav-item {
         margin-top: 0.25rem;
     }
+
     .tbsMenu .nav-tabs .nav-link {
         transition: border-color 0.125s ease-in;
         white-space: nowrap;
     }
+
     .tbsMenu .nav-tabs .nav-link:hover {
         background-color: #f7f7f7;
         border-color: transparent;
     }
+
     .tbsMenu .nav-tabs .nav-link.active {
         background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
         border-radius: 5px;
         border: none;
         color: #fff !important;
     }
+
     .tbsMenu .nav-tabs .nav-link.active:hover {
         background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
         color: #fff !important;
         -webkit-text-fill-color: unset;
     }
+
     .tbsMenu .card {
         border: none;
     }
+
     .tbsMenu .card .card-header {
         display: none;
     }
+
     .tbsMenu .card .collapse {
         display: block;
     }
@@ -913,6 +950,7 @@
         display: block !important;
         opacity: 1;
     }
+
     .HddrLnks .HddrBtns .menu_btn {
         margin: 12px 0px;
     }
@@ -988,6 +1026,7 @@
     .menu_desk {
         display: none;
     }
+
     .menu_res .dropdown-menu {
         padding: 15px;
         background-color: #090909;
@@ -996,19 +1035,23 @@
         height: 260px;
         overflow-y: scroll;
     }
+
     .menu_res .dropdown-toggle:after {
         right: -16px;
         top: 22px;
         background: #090909;
         width: 0px !important;
     }
+
     .menu_res .dropdown-toggle:before {
         display: none;
     }
+
     .compyMenuResHight {
         height: 400px;
         overflow-x: hidden;
     }
+
     .serSubMnu {
         position: initial !important;
         height: 350px;
@@ -1017,12 +1060,15 @@
         opacity: 1 !important;
         width: initial !important;
     }
+
     .cmpy_Overflow {
         height: 200px !important;
     }
+
     .card {
         margin-top: 20px;
     }
+
     .navMnuMn .sub-menu {
         margin-bottom: 30px;
     }
@@ -1416,9 +1462,11 @@
     0% {
         transform: scale(1, 1);
     }
+
     50% {
         transform: scale(1.2, 1.2);
     }
+
     100% {
         transform: scale(1, 1);
     }
@@ -1441,6 +1489,7 @@
         border: 1px solid #8650ff;
         box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.25), inset 0 0 6px #be48ff, inset 0 80px 80px -40px #a54cff, 1px 1px 3px rgba(0, 0, 0, 0.75);
     }
+
     .HddrBg .web_menu_btn_sec .side_menu_btn.button_christ::before {
         content: '';
         display: block;
@@ -1458,16 +1507,20 @@
     .HddrBg .navbar .logo_header .mbl_res_logo {
         width: 210px;
     }
+
     .HddrBg .web_menu_btn_sec .side_menu_btn {
         padding: 8px 10px !important;
         font-size: 13px !important;
     }
+
     .HddrBg .web_menu_btn_sec .contact_form_mainsec::after {
         right: 50px !important;
     }
+
     .HddrBg .web_menu_btn_sec .contact_form_mainsec {
         right: -30% !important;
     }
+
     .HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .side_contact_submit_btn {
         font-size: 14px !important;
     }
@@ -1479,9 +1532,11 @@
         padding: 6px 8px !important;
         font-weight: 400 !important;
     }
+
     .HddrBg .logo_header {
         width: 55% !important;
     }
+
     .HddrBg .navbar {
         padding: 0.25rem 0.50rem;
     }

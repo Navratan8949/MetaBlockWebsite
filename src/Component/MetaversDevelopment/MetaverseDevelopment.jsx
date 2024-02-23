@@ -29,7 +29,7 @@ const MetaverseDevelopment = () => {
               </div>
               <div className="col-lg-5 col-12">
                 <img
-                  src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/banner-side.webp"
+                  src="./images/metaverse-top.jpeg"
                   alt="Metaverse-Development-Company"
                   title="Metaverse Development Company"
                   className="banner_img"
@@ -44,7 +44,8 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-5 col-12">
                 <div className="img_sec">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/metaverse-dev-img.webp"
+                    style={{ height: "60vh" }}
+                    src="./images/metaverse-1.png"
                     alt="Metaverse Development"
                     title="Metaverse Development"
                     className="img-fluid met_dev_img"
@@ -101,15 +102,15 @@ const MetaverseDevelopment = () => {
                 <div className="facts_list_sec">
                   <div className="facts_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/check-list.svg"
+                      src="./images/metaverse-2.png"
                       alt="Live Facts of Metaverse"
                       title="Live Facts of Metaverse"
                       loading="eager"
                       className="img-fluid lazyload"
                     />
-                    <div className="sub_title-15">
+                    {/* <div className="sub_title-15">
                       Metaverse market size is $65.5 Billion
-                    </div>
+                    </div> */}
                   </div>
                   <div className="facts_list">
                     <img
@@ -288,11 +289,12 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+
+                        src="./images/game-controller.png"
                         alt="Metaverse Game Development"
                         title="Metaverse Game Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "1px 0px" }}
+                        // className="sprite_icons"
+                        style={{ width: '50px' }}
                       />
                       <h3 className="sub_title-15">
                         Game Development for the Metaverse
@@ -312,11 +314,11 @@ const MetaverseDevelopment = () => {
 
                   <div className="platform_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                      src="./images/social-medias.png"
                       alt="Metaverse Social Media Platform Development"
                       title="Metaverse Social Media Platform Development"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-96px 0px" }}
+                      // className="sprite_icons"
+                      style={{ width: '50px' }}
                     />
                     <h3 className="sub_title-15">
                       Development of Metaverse Social Media Platforms
@@ -338,11 +340,11 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                        src="./images/mall.png"
                         alt="Metaverse Mall Development"
                         title="Metaverse Mall Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-196px 0px" }}
+                        // className="sprite_icons"
+                        style={{ width: "50px" }}
                       />
                       <h3 className="sub_title-15">
                         Development of Metaverse Malls
@@ -365,11 +367,11 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                        src="./images/showroom.png"
                         alt="Metaverse Virtual Showroom Development"
                         title="Metaverse Virtual Showroom Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-297px 0px" }}
+                        // className="sprite_icons"
+                        style={{ width: "50px" }}
                       />
                       <h3 className="sub_title-15">
                         Development of Metaverse Virtual Showroom
@@ -392,11 +394,12 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                        src="./images/nft-doc.png"
                         alt="Metaverse NFT Marketplace Development"
                         title="Metaverse NFT Marketplace Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-402px 0px" }}
+                        // className="sprite_icons"
+                        style={{ width: "50px" }}
+
                       />
                       <h3 className="sub_title-15">
                         Development of the Metaverse NFT Marketplace
@@ -419,11 +422,11 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                        src="./images/eth.png"
                         alt="Metaverse Token Development"
                         title="Metaverse Token Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-508px 0px" }}
+                        // className="sprite_icons"
+                        style={{ width: "50px" }}
                       />
                       <h3 className="sub_title-15">
                         Development of Metaverse Tokens
@@ -446,11 +449,11 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                        src="./images/educations.png"
                         alt="Metaverse-Education-Platform-Development"
                         title="Metaverse Education Platform Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-621px 0px" }}
+                        // className="sprite_icons"
+                        style={{ width: "50px" }}
                       />
                       <h3 className="sub_title-15">
                         Development of Metaverse Education Platforms
@@ -472,11 +475,11 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                        src="./images/real-estates.png"
                         alt="Metaverse-Real-Estate-Development"
                         title="Metaverse Real Estate Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-725px 0px" }}
+                        // className="sprite_icons"
+                        style={{ width: "50px" }}
                       />
                       <h3 className="sub_title-15">
                         Development of Real Estate in the Metaverse
@@ -499,11 +502,11 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                        src="./images/workspace.png"
                         alt="Metaverse Workspace Development"
                         title="Metaverse Workspace Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-823px 0px" }}
+                        // className="sprite_icons"
+                        style={{ width: "50px" }}
                       />
                       <h3 className="sub_title-15">
                         Development of Metaverse Workspaces
@@ -526,11 +529,11 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                        src="./images/nft.png"
                         alt="Metaverse-Art-Galleries-and-Museums-Development"
                         title="Metaverse Art Galleries and Museums Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-926px 0px" }}
+                        // className="sprite_icons"
+                        style={{ width: "50px" }}
                       />
                       <h3 className="sub_title-15">
                         Development of Metaverse Art Galleries and Museums
@@ -553,11 +556,11 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                        src="./images/mockup.png"
                         alt="Metaverse-Theme-Park-Development"
                         title="Metaverse Theme Park Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-1028px -4px" }}
+                        // className="sprite_icons"
+                        style={{ width: "50px" }}
                       />
                       <h3 className="sub_title-15">
                         Development of Metaverse Theme Parks
@@ -580,11 +583,11 @@ const MetaverseDevelopment = () => {
                   >
                     <div className="platform_box">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/platform-icons-new.svg"
+                        src="./images/banners.png"
                         alt="Metaverse-Event-Platform-Development"
                         title="Metaverse Event Platform Development"
-                        className="sprite_icons"
-                        style={{ objectPosition: "-1160px -4px" }}
+                        // className="sprite_icons"
+                        style={{ width: "50px" }}
                       />
                       <h3 className="sub_title-15">
                         Development of Metaverse Event Platforms
@@ -740,12 +743,12 @@ const MetaverseDevelopment = () => {
                 <div className="feature_box">
                   <div className="card-thumbnail">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/features-img.webp?v1"
+                      src="./images/Metaverse-Game-Development-01.webp"
                       alt="Metaverse Game Development"
                       title="Metaverse Game Development"
-                      className="sprite_icons lazyload"
+                      // className="sprite_icons lazyload"
                       loading="eager"
-                      style={{ objectPosition: "0px 0px" }}
+                      style={{ width: "400px" }}
                     />
                   </div>
                   <div className="charcte_conte_sec">
@@ -763,12 +766,12 @@ const MetaverseDevelopment = () => {
                 <div className="feature_box">
                   <div className="card-thumbnail">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/features-img.webp?v1"
+                      src="./images/Metaverse-Game-Development-02.webp"
                       alt="Compatibility"
                       title="Compatibility"
-                      className="sprite_icons lazyload"
+                      // className="sprite_icons lazyload"
                       loading="eager"
-                      style={{ objectPosition: "-452px 0px" }}
+                      style={{ width: "100%" }}
                     />
                   </div>
                   <div className="charcte_conte_sec">
@@ -787,12 +790,12 @@ const MetaverseDevelopment = () => {
                 <div className="feature_box">
                   <div className="card-thumbnail">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/features-img.webp?v1"
+                      src="./images/Metaverse-Game-Development-03.webp"
                       alt="User-generated information"
                       title="User-generated information"
-                      className="sprite_icons lazyload"
+                      // className="sprite_icons lazyload"
                       loading="eager"
-                      style={{ objectPosition: "-904px 0px" }}
+                      style={{ width: "100%" }}
                     />
                   </div>
                   <div className="charcte_conte_sec">
@@ -812,12 +815,12 @@ const MetaverseDevelopment = () => {
                 <div className="feature_box">
                   <div className="card-thumbnail">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/features-img.webp?v1"
+                      src="./images/Metaverse-Game-Development-04.webp"
                       alt="Immersive encounters"
                       title="Immersive encounters"
-                      className="sprite_icons lazyload"
+                      // className="sprite_icons lazyload"
                       loading="eager"
-                      style={{ objectPosition: "-1356px 0px" }}
+                      style={{ width: "100%", height: "35vh" }}
                     />
                   </div>
                   <div className="charcte_conte_sec">
@@ -837,12 +840,12 @@ const MetaverseDevelopment = () => {
                 <div className="feature_box">
                   <div className="card-thumbnail">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/features-img.webp?v1"
+                      src="./images/Metaverse-Game-Development-05.webp"
                       alt="Social characteristics"
                       title="Social characteristics"
-                      className="sprite_icons lazyload"
+                      // className="sprite_icons lazyload"
                       loading="eager"
-                      style={{ objectPosition: "-1808px 0px" }}
+                      style={{ width: '100%', height: "35vh" }}
                     />
                   </div>
                   <div className="charcte_conte_sec">
@@ -861,12 +864,12 @@ const MetaverseDevelopment = () => {
                 <div className="feature_box">
                   <div className="card-thumbnail">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/features-img.webp?v1"
+                      src="./images/Metaverse-Game-Development-06.webp"
                       alt="Integration of blockchain technology"
                       title="Integration of blockchain technology"
-                      className="sprite_icons lazyload"
+                      // className="sprite_icons lazyload"
                       loading="eager"
-                      style={{ objectPosition: "-2260px 0px" }}
+                      style={{ width: "100%" }}
                     />
                   </div>
                   <div className="charcte_conte_sec">
@@ -900,11 +903,11 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-3 col-12 cus_col">
                 <div className="business_box">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/buniness-icons.webp?v1"
+                    src="./images/metavrse-development-1.png"
                     alt="Fashion"
                     title="Fashion"
-                    className="sprite_icons"
-                    style={{ objectPosition: "0px 0px" }}
+                    // className="sprite_icons"
+                    style={{ width: "50px" }}
                   />
                   <div className="sub_title-15">Fashion</div>
                   <p className="sub_contents-15">
@@ -916,11 +919,11 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-3 col-12 cus_col">
                 <div className="business_box">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/buniness-icons.webp?v1"
+                    src="./images/metavrse-development-2.png"
                     alt="Real-Estate"
                     title="Real-Estate"
-                    className="sprite_icons"
-                    style={{ objectPosition: "-123px 0px" }}
+                    // className="sprite_icons"
+                    style={{ width: "50px" }}
                   />
                   <div className="sub_title-15">Real-Estate</div>
                   <p className="sub_contents-15">
@@ -932,11 +935,11 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-3 col-12 cus_col">
                 <div className="business_box">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/buniness-icons.webp?v1"
+                    src="./images/metavrse-development-3.png"
                     alt="Events"
                     title="Events"
-                    className="sprite_icons"
-                    style={{ objectPosition: "-264px 0px" }}
+                    // className="sprite_icons"
+                    style={{ width: "50px" }}
                   />
                   <div className="sub_title-15">Events</div>
                   <p className="sub_contents-15">
@@ -948,11 +951,11 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-3 col-12">
                 <div className="business_box">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/buniness-icons.webp?v1"
+                    src="./images/metavrse-development-4.png"
                     alt="Advertising"
                     title="Advertising"
-                    className="sprite_icons"
-                    style={{ objectPosition: "-396px 0px" }}
+                    // className="sprite_icons"
+                    style={{ width: "50px" }}
                   />
                   <div className="sub_title-15">Advertising</div>
                   <p className="sub_contents-15">
@@ -964,11 +967,11 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-3 col-12 cus_col">
                 <div className="business_box">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/buniness-icons.webp?v1"
+                    src="./images/metavrse-development-5.png"
                     alt="Education"
                     title="Education"
-                    className="sprite_icons"
-                    style={{ objectPosition: "-508px 0px" }}
+                    // className="sprite_icons"
+                    style={{ width: "50px" }}
                   />
                   <div className="sub_title-15">Education</div>
                   <p className="sub_contents-15">
@@ -980,11 +983,11 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-3 col-12 cus_col">
                 <div className="business_box">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/buniness-icons.webp?v1"
+                    src="./images/metavrse-development-6.png"
                     alt="Tourism"
                     title="Tourism"
-                    className="sprite_icons"
-                    style={{ objectPosition: "-618px 0px" }}
+                    // className="sprite_icons"
+                    style={{ width: "50px" }}
                   />
                   <div className="sub_title-15">Tourism</div>
                   <p className="sub_contents-15">
@@ -996,11 +999,11 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-3 col-12 cus_col">
                 <div className="business_box">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/buniness-icons.webp?v1"
+                    src="./images/metavrse-development-7.png"
                     alt="Healthcare"
                     title="Healthcare"
-                    className="sprite_icons"
-                    style={{ objectPosition: "-724px 0px" }}
+                    // className="sprite_icons"
+                    style={{ width: "50px" }}
                   />
                   <div className="sub_title-15">Healthcare</div>
                   <p className="sub_contents-15">
@@ -1012,11 +1015,12 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-3 col-12">
                 <div className="business_box">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/buniness-icons.webp?v1"
+                    src="./images/metavrse-development-8.png"
                     alt="Gaming"
                     title="Gaming"
-                    className="sprite_icons"
-                    style={{ objectPosition: "-830px 0px" }}
+                    // className="sprite_icons"
+                    style={{ width: "50px" }}
+
                   />
                   <div className="sub_title-15">Gaming</div>
                   <p className="sub_contents-15">
@@ -1028,11 +1032,11 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-3 col-12 cus_col">
                 <div className="business_box">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/buniness-icons.webp?v1"
+                    src="./images/metavrse-development-9.png"
                     alt="Finance"
                     title="Finance"
-                    className="sprite_icons"
-                    style={{ objectPosition: "-943px 0px" }}
+                    // className="sprite_icons"
+                    style={{ width: "50px" }}
                   />
                   <div className="sub_title-15">Finance</div>
                   <p className="sub_contents-15">
@@ -1045,11 +1049,11 @@ const MetaverseDevelopment = () => {
               <div className="col-lg-3 col-12">
                 <div className="business_box">
                   <img
-                    src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/buniness-icons.webp?v1"
+                    src="./images/metavrse-development-10.png"
                     alt="Social Networks"
                     title="Social Networks"
-                    className="sprite_icons"
-                    style={{ objectPosition: "-1052px 0px" }}
+                    // className="sprite_icons"
+                    style={{ width: "50px" }}
                   />
                   <div className="sub_title-15">Social Networks</div>
                   <p className="sub_contents-15">

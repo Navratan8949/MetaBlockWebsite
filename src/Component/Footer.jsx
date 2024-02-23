@@ -1,13 +1,18 @@
 import React from "react";
 import "./Footer.css";
+import { useNavigate } from "react-router-dom";
+
+
+
 
 
 const Footer = () => {
+  // const navigate = useNavigate()
 
   return (
 
     <div>
-      <footer>
+      {/* <footer>
         <div className="FtrTopSec">
           <div className="container container-1170">
             <div className="row">
@@ -26,7 +31,7 @@ const Footer = () => {
                   <li>
                     <a href="#">
                       <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/ftr-spprt-logo1.png "
+                        src=" "
                         loading="eager"
                         alt="CMMI"
                         title="CMMI"
@@ -36,11 +41,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.goodfirms.co/company/osiz-technologies-p-ltd"
+                      href=""
                       target="_blank"
                     >
                       <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/ftr-spprt-logo2.png "
+                        src=" "
                         alt="Goodfirms"
                         title="Goodfirms"
                         className="img-fluid lazyload"
@@ -50,11 +55,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://clutch.co/profile/osiztechnologies"
+                      href=""
                       target="_blank"
                     >
                       <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/ftr-spprt-logo3.png "
+                        src=" "
                         alt="Clutch"
                         title="Clutch"
                         className="img-fluid lazyload"
@@ -64,11 +69,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.appfutura.com/developers/osiztechnologies-"
+                      href=""
                       target="_blank"
                     >
                       <img
-                        src="https://www.osiztechnologies.com/asset/home-page-new/images/ftr-spprt-logo4.png "
+                        src=" "
                         alt="Appfutura"
                         title="Appfutura"
                         className="img-fluid lazyload"
@@ -85,7 +90,7 @@ const Footer = () => {
                       <div className="FtrTopCntHdd">
                         <p className="ft_menutitle">
                           <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/ftr-top-icon1.svg "
+                            src=""
                             alt="Location"
                             title="Location"
                             className="img-fluid mr-1"
@@ -101,7 +106,7 @@ const Footer = () => {
                       <div className="FtrPhnIcon">
                         <a href="tel:+91 9442164852" className=" ">
                           <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/ftr-top-icon2.svg "
+                            src=""
                             alt="Phone"
                             title="Phone"
                             className="img-fluid mr-2"
@@ -116,7 +121,7 @@ const Footer = () => {
                       <div className="FtrTopCntHdd">
                         <p className="ft_menutitle">
                           <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/ftr-top-icon1.svg "
+                            src=""
                             alt="Location"
                             title="Location"
                             className="img-fluid mr-1"
@@ -131,7 +136,7 @@ const Footer = () => {
                       <div className="FtrPhnIcon">
                         <a href="tel:+1 9725918175" className=" ">
                           <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/ftr-top-icon2.svg "
+                            src=""
                             alt="Phone"
                             title="Phone"
                             className="img-fluid mr-2"
@@ -146,7 +151,7 @@ const Footer = () => {
                       <div className="FtrTopCntHdd">
                         <p className="ft_menutitle">
                           <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/ftr-top-icon1.svg "
+                            src=""
                             alt="Location"
                             title="Location"
                             className="img-fluid mr-1"
@@ -161,7 +166,7 @@ const Footer = () => {
                       <div className="FtrPhnIcon">
                         <a href="tel:+1 9725918175" className=" ">
                           <img
-                            src="https://www.osiztechnologies.com/asset/home-page-new/images/ftr-top-icon2.svg "
+                            src=" "
                             alt="Phone"
                             title="Phone"
                             className="img-fluid mr-2"
@@ -175,7 +180,7 @@ const Footer = () => {
                 <div className="FttrMailBox">
                   <div className="MailIcon MailBrdRt col-auto">
                     <img
-                      src="https://www.osiztechnologies.com/asset/home-page-new/images/mail-icon.svg"
+                      src=" "
                       alt="Mail"
                       title="Mail"
                       className="img-fluid"
@@ -185,22 +190,22 @@ const Footer = () => {
                     <li>
                       <a
                         target="_blank"
-                        href="mailto:info@osiztechnologies.com"
+                        href=""
                       >
-                        info@osiztechnologies.com
+                        info@.com
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" href="mailto:hr@osiztechnologies.com">
-                        hr@osiztechnologies.com
+                      <a target="_blank" href="">
+                        hr@.com
                       </a>
                     </li>
                     <li>
                       <a
                         target="_blank"
-                        href="mailto:sales@osiztechnologies.com"
+                        href=""
                       >
-                        sales@osiztechnologies.com
+                        sales@.com
                       </a>
                     </li>
                   </ul>
@@ -210,7 +215,112 @@ const Footer = () => {
           </div>
         </div>
        
-      </footer>
+      </footer> */}
+
+      <div className="container-md-12">
+
+        <footer className="text-center text-lg-start text-white" style={{ backgroundColor: '#1c2331', }}>
+
+          <section className="d-flex justify-content-between p-4" style={{ backgroundColor: '#6351ce' }}>
+
+            <div className="me-5">
+              <span>Get connected with us on social networks:</span>
+            </div>
+
+            <div>
+              <a href className="text-white me-4">
+                <i className="fab fa-facebook-f" />
+              </a>
+              <a href className="text-white me-4">
+                <i className="fab fa-twitter" />
+              </a>
+              <a href className="text-white me-4">
+                <i className="fab fa-google" />
+              </a>
+              <a href className="text-white me-4">
+                <i className="fab fa-instagram" />
+              </a>
+              <a href className="text-white me-4">
+                <i className="fab fa-linkedin" />
+              </a>
+              <a href className="text-white me-4">
+                <i className="fab fa-github" />
+              </a>
+            </div>
+
+          </section>
+
+          <section style={{ background: "#181818" }} >
+            <div className="container text-center text-md-start mt-5">
+
+              <div className="row mt-3">
+
+                <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 foot_logo">
+
+                  {/* <h6 className="text-uppercase fw-bold">Company name</h6> */}
+                  <img src="/NewImages/logo2.png" alt="" />
+                  {/* <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
+                  <p>
+                    Here you can use rows and columns to organize your footer
+                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                  </p> */}
+                </div>
+
+                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                  <h6 className="text-uppercase fw-bold">Products</h6>
+                  <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
+                  <p>
+                    <a href="#!" className="text-white">SOFTWARE</a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-white">BLOCKCHAIN</a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-white">APPLICATION</a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-white">METAVERSE</a>
+                  </p>
+                </div>
+
+                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                  <h6 className="text-uppercase fw-bold">Useful links</h6>
+                  <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
+                  <p >
+                    <span className="text-white">CONTACT US</span>
+                  </p>
+                  <p >
+                    <span className="text-white">FAQ</span>
+                  </p>
+                  <p >
+                    <span className="text-white">NEWS</span>
+                  </p>
+
+                </div>
+
+                <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                  <h6 className="text-uppercase fw-bold">Contact</h6>
+                  <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
+                  <p><i className="fas fa-home mr-3" />D-59,Tamanna Building Kashyap Path Shyam Nagar behind Green chilly, Jaipur, Rajasthan, 302019</p>
+                  <p><i className="fas fa-envelope mr-3" />Info@metablocktechnologiea.in</p>
+                  <p><i className="fas fa-phone mr-3" />+91 9358593003</p>
+                  {/* <p><i className="fas fa-print mr-3" /> + 01 234 567 89</p> */}
+                </div>
+
+              </div>
+
+            </div>
+          </section>
+
+        </footer>
+
+      </div>
+
+
     </div>
   );
 };
