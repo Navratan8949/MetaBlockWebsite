@@ -9,7 +9,7 @@ const MetaverseGameDevelopment = () => {
           <div className="container-fluid cus_container">
             <div className="row align-items-center justify-content-center">
               <div className="col-lg-7 col-12 p-0 met_game1">
-                <img src="https://www.antiersolutions.com/wp-content/uploads/2022/04/blog-banner-1.jpg" alt="Metaverse-Game-Development-Company" title="Metaverse Game Development Company" className="banner_img img-fluid" />
+                <img src="./images/metaverse_game1.jpg" alt="Metaverse-Game-Development-Company" title="Metaverse Game Development Company" className="banner_img img-fluid" />
               </div>
               <div className="col-lg-5 col-12">
                 <div className="banner_contsec">
@@ -92,7 +92,7 @@ const MetaverseGameDevelopment = () => {
 
                 <div className="service_box">
                   <div className="img_sec">
-                    <img src="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2022/07/18042855/Persistent.png" alt="3D Space Development" title="3D Space Development" className="sprite_icons lazyload" />
+                    <img src="./images/met_3dspace.png" alt="3D Space Development" title="3D Space Development" className="sprite_icons lazyload" />
                   </div>
                   <h3 className="sub_title">Development of 3D Space</h3>
                   <p className="sub_contents">Our team of talented game developers uses a variety of technological stacks to adjust to changing game needs, which enables them to create unique 3D maps and environments for different games.
@@ -104,7 +104,7 @@ const MetaverseGameDevelopment = () => {
 
                 <div className="service_box">
                   <div className="img_sec">
-                    <img src="https://www.antiersolutions.com/wp-content/uploads/2023/01/End-your-worries-about-metaverse-game-development-with-Antier.png" alt="Play to Earn Game Development" title="Play to Earn Game Development" className="sprite_icons lazyload" />
+                    <img src="./images/met_gamecredit.webp" alt="Play to Earn Game Development" title="Play to Earn Game Development" className="sprite_icons lazyload" />
                   </div>
                   <h3 className="sub_title">Play to Get Developer Credit for Games</h3>
                   <p className="sub_contents">The usage of blockchain technology has completely changed the user experience by providing a number of functions including play-to-earn, which includes stake-to-earn, move-to-earn, and create-to-earn.
@@ -116,7 +116,7 @@ const MetaverseGameDevelopment = () => {
 
                 <div className="service_box">
                   <div className="img_sec">
-                    <img src="https://uigstudio.com/uploads/media/blog-post-image/07/1737-top-10-metaverse-games.jpg?v=1-0" alt="Custom Games Development" title="Custom Games Development" className="sprite_icons lazyload" />
+                    <img src="./images/met_owngame.jpg" alt="Custom Games Development" title="Custom Games Development" className="sprite_icons lazyload" />
                   </div>
                   <h3 className="sub_title">Develop Your Own Video Games</h3>
                   <p className="sub_contents">We create the game from your distinct concepts, customizing each and every element to fit your vision. Our team of specialists will create a unique gaming experience that connects with your audience, from fascinating tales to captivating gameplay mechanics.
@@ -128,7 +128,7 @@ const MetaverseGameDevelopment = () => {
 
                 <div className="service_box">
                   <div className="img_sec">
-                    <img src="https://300mind.studio/blog/wp-content/uploads/2023/11/NFT-Game-Development.webp" alt="NFT Game Development" title="NFT Game Development" className="sprite_icons lazyload" />
+                    <img src="./images/nftgame.webp" alt="NFT Game Development" title="NFT Game Development" className="sprite_icons lazyload" />
                   </div>
                   <h3 className="sub_title">NFT Game Creation</h3>
                   <p className="sub_contents">The goal of game creation is to use NFTs as game assets in order to include them into gameplay, which is a crucial aspect of Metaverse games.
@@ -140,7 +140,7 @@ const MetaverseGameDevelopment = () => {
 
                 <div className="service_box">
                   <div className="img_sec">
-                    <img src="https://maticz.com/admin/images/blog/metaverse-avatar-development.jpeg" alt="3D Avatar Development" title="3D Avatar Development" className="sprite_icons lazyload" />
+                    <img src="./images/met_3davatar.jpeg" alt="3D Avatar Development" title="3D Avatar Development" className="sprite_icons lazyload" />
                   </div>
                   <h3 className="sub_title">Development of 3D Avatars</h3>
                   <p className="sub_contents">With our state-of-the-art technology, which provides customisable hyper-realistic 3D avatars for games, real estate transactions, NFT trading platforms, educational endeavors, and countless other interesting activities, you may immerse yourself in the metaverse like never before.</p>
@@ -151,7 +151,7 @@ const MetaverseGameDevelopment = () => {
 
                 <div className="service_box">
                   <div className="img_sec">
-                    <img src="https://www.antiersolutions.com/wp-content/uploads/2021/11/Metaverse.jpg" alt="Metaverse Marketplace Development" title="Metaverse Marketplace Development" className="sprite_icons lazyload" />
+                    <img src="./images/met_gamecredit.webp" alt="Metaverse Marketplace Development" title="Metaverse Marketplace Development" className="sprite_icons lazyload" />
                   </div>
                   <h3 className="sub_title">Development of Metaverse Marketplaces</h3>
                   <p className="sub_contents">Our skilled staff specializes in creating vibrant markets that enable players to easily trade, purchase, and sell in-game items. Navigate a vibrant marketplace environment to discover unique treasures and connect with other players to unlock an endless world of chances.</p>
@@ -162,7 +162,7 @@ const MetaverseGameDevelopment = () => {
 
                 <div className="service_box">
                   <div className="img_sec">
-                    <img src="https://rejolut.com/wp-content/uploads/2022/09/metaverse-2.png" alt="Gaming dApps" title="Gaming dApps" className="sprite_icons lazyload" />
+                    <img src="./images/gamereleated_dapps.webp" alt="Gaming dApps" title="Gaming dApps" className="sprite_icons lazyload" />
                   </div>
                   <h3 className="sub_title">Games-related dApps</h3>
                   <p className="sub_contents">Enter a decentralized environment with smooth peer-to-peer transactions, transparent gameplay, and actual ownership of in-game assets for yourself. With the use of blockchain technology, our gaming dApps are revolutionizing the gaming sector by providing safe, equitable, and engaging experiences.                    </p>
@@ -173,7 +173,7 @@ const MetaverseGameDevelopment = () => {
 
                 <div className="service_box">
                   <div className="img_sec">
-                    <img src="https://media.licdn.com/dms/image/D5612AQFg7ck-i9AjuA/article-cover_image-shrink_600_2000/0/1684419723192?e=2147483647&v=beta&t=QqZe6VXnE3tc4i3hHmEj4DJnNQGquriwqpHtTOXS0HM" alt="Decentralized Gaming Platform" title="Decentralized Gaming Platform" className="sprite_icons lazyload" />
+                    <img src="./images/game_decentralized.png" alt="Decentralized Gaming Platform" title="Decentralized Gaming Platform" className="sprite_icons lazyload" />
                   </div>
                   <h3 className="sub_title">Decentralized Platform for Gaming</h3>
                   <p className="sub_contents">A distributed ledger and smart contracts regulate every facet of the gaming experience on a decentralized gaming platform, including player interactions, game development, item ownership, and rewards distribution.</p>
@@ -191,7 +191,7 @@ const MetaverseGameDevelopment = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="benefits_box clippath1">
                   <div className="img_sec">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg" alt="Opportunities for the economy" title="Opportunities for the economy" className="sprite_icons lazyload" style={{ objectPosition: '0px 0px' }} />
+                    <img src="./images/met_ecomomy.webp" alt="Opportunities for the economy" title="Opportunities for the economy" className="sprite_icons lazyload" style={{ objectPosition: '0px 0px' }} />
                   </div>
                   <h3 className="sub_title">Prospects for the economy</h3>
                   <p className="sub_contents">Games in the metaverse offer new opportunities for players, developers, and businesses. While players can earn virtual cash or exchange virtual products, developers can create additional revenue streams through in-game advertising or subscription-based business models.</p>
