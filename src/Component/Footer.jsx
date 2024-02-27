@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
-import { useNavigate } from "react-router-dom";
+
 
 
 
@@ -289,9 +290,11 @@ const Footer = () => {
 
                   <h6 className="text-uppercase fw-bold">Useful links</h6>
                   <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#7c4dff', height: 2 }} />
+                 
                   <p >
-                    <span className="text-white">CONTACT US</span>
+                  <span className="text-white">CONTACT US</span>
                   </p>
+                 
                   <p >
                     <span className="text-white">FAQ</span>
                   </p>

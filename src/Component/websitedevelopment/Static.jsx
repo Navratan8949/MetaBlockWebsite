@@ -343,36 +343,35 @@ const Static = () => {
                 <ul className="list-unstyled">
                   <li>
                     <img
-                      src=""
+                      src="./SGimage/arrow_static.png"
                       className="hyp-tic-sprite"
-                      style={{ objectPosition: "-3357px -39px" }}
-                      alt="loading"
+                      alt=""
                     />
                     Customizable Static Website Solutions.
                   </li>
                   <li>
                     <img
-                      src=""
+                      src="./SGimage/arrow_static.png"
                       className="hyp-tic-sprite"
-                      style={{ objectPosition: "-3357px -39px" }}
+                      
                       alt=""
                     />
                     Professionals backed by 3+ years of industry experience.
                   </li>
                   <li>
                     <img
-                      src=""
+                      src="./SGimage/arrow_static.png"
                       className="hyp-tic-sprite"
-                      style={{ objectPosition: "-3357px -39px" }}
+                      
                       alt=""
                     />
                     Direct collaboration with the technical team.{" "}
                   </li>
                   <li>
                     <img
-                      src=""
+                      src="./SGimage/arrow_static.png"
                       className="hyp-tic-sprite"
-                      style={{ objectPosition: "-3357px -39px" }}
+                      
                       alt=""
                     />
                     Precise quality assurance process.
@@ -385,36 +384,36 @@ const Static = () => {
                 <ul className="list-unstyled">
                   <li>
                     <img
-                      src=""
+                      src="./SGimage/arrow_static.png"
                       className="hyp-tic-sprite"
-                      style={{ objectPosition: "-3357px -39px" }}
+                      
                       alt=""
                     />
                     Websites built on leading-edge software packages.
                   </li>
                   <li>
                     <img
-                      src=""
+                      src="./SGimage/arrow_static.png"
                       className="hyp-tic-sprite"
-                      style={{ objectPosition: "-3357px -39px" }}
+                      
                       alt=""
                     />
                     Integration of genuine API tools.
                   </li>
                   <li>
                     <img
-                      src=""
+                      src="./SGimage/arrow_static.png"
                       className="hyp-tic-sprite"
-                      style={{ objectPosition: "-3357px -39px" }}
+                      
                       alt=""
                     />
                     Dedicated team for projects.{" "}
                   </li>
                   <li>
                     <img
-                      src=""
+                      src="./SGimage/arrow_static.png"
                       className="hyp-tic-sprite"
-                      style={{ objectPosition: "-3357px -39px" }}
+                      
                       alt=""
                     />
                     On-time delivery at an affordable cost.

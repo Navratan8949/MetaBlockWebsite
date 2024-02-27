@@ -1,7 +1,7 @@
 import React from "react";
-// import './MetaVerseEcosystem.css'
+// import './MetaVerseEcosystem.css';
 import "./MetaverseDevelopment.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const MetaverseDevelopment = () => {
 
@@ -19,10 +19,10 @@ const MetaverseDevelopment = () => {
                   <br /> DEVELOPMENT COMPANY
                 </h1>
                 <p className="contents">
-                  Forging Tomorrow's Realities Now. Elevate into the Next
-                  Dimension with Our Cutting-edge Metaverse Development
-                  Solutions. Immerse Yourself in Tailored Experiences, Harness
-                  Advanced Technology, and Achieve Seamless Integration through
+                  Forging Tomorrow's Realities Now. Elevate into the Next<br/>
+                  Dimension with Our Cutting-edge Metaverse Development<br/>
+                  Solutions. Immerse Yourself in Tailored Experiences, Harness<br/>
+                  Advanced Technology, and Achieve Seamless Integration through<br/>
                   Our Expert Services.
                 </p>
 
@@ -42,7 +42,7 @@ const MetaverseDevelopment = () => {
           <div className="container">
             <div className="row justify-content-center align-items-center">
               <div className="col-lg-5 col-12">
-                <div className="img_sec">
+                <div className="img_sec ">
                   <img
                     style={{ height: "60vh" }}
                     src="./images/metaverse-1.png"
@@ -75,10 +75,10 @@ const MetaverseDevelopment = () => {
                 <div className="met_game_what_about_btn_sec"
                   onClick={() => navigate('/ContectUsForm')}
                 >
-                  <a className="btn met_game_what_about_btn desktop" >
+                 <Link to="/ContectUsForm"> <a className="btn met_game_what_about_btn desktop" >
 
                     &nbsp;Talk To our Experts
-                  </a>
+                  </a></Link>
                   {/* <a
                     className="btn met_game_what_about_btn mobile"
                   >
@@ -91,16 +91,16 @@ const MetaverseDevelopment = () => {
           </div>
         </section>
         <section className="metaverse_dev_facts">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-5 col-12 pl-0">
                 <div className="left_side_box-1">
-                  <h2 className="title">Live Facts of Metaverse</h2>
+                  <h2 className="title">Live Facts of <br/>Metaverse</h2>
                 </div>
               </div>
               <div className="col-lg-7 col-12 pr-5">
                 <div className="facts_list_sec">
-                  <div className="facts_list">
+                  <div className="facts_list live_meta">
                     <img
                       src="./images/metaverse-2.png"
                       alt="Live Facts of Metaverse"
@@ -114,7 +114,7 @@ const MetaverseDevelopment = () => {
                   </div>
                   <div className="facts_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/check-list.svg"
+                      src="./SGimage/vr-goggles.png"
                       alt="Live Facts of Metaverse"
                       title="Live Facts of Metaverse"
                       loading="eager"
@@ -127,7 +127,7 @@ const MetaverseDevelopment = () => {
                   </div>
                   <div className="facts_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/check-list.svg"
+                      src="./SGimage/vr-goggles.png"
                       alt="Live Facts of Metaverse"
                       title="Live Facts of Metaverse"
                       loading="eager"
@@ -139,7 +139,7 @@ const MetaverseDevelopment = () => {
                   </div>
                   <div className="facts_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/check-list.svg"
+                      src="./SGimage/vr-goggles.png"
                       alt="Live Facts of Metaverse"
                       title="Live Facts of Metaverse"
                       loading="eager"
@@ -152,7 +152,7 @@ const MetaverseDevelopment = () => {
                   </div>
                   <div className="facts_list">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/check-list.svg"
+                      src="./SGimage/vr-goggles.png"
                       alt="Live Facts of Metaverse"
                       title="Live Facts of Metaverse"
                       loading="eager"
@@ -1125,11 +1125,11 @@ const MetaverseDevelopment = () => {
                     <div className="col-lg-6">
                       <div className="cus_line">
                         <img
-                          src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/how-icons.svg"
+                          src="./SGimage/people.png"
                           alt="Gathering The Clients Requirement"
                           title="Gathering The Clients Requirement"
                           className="sprite_icons"
-                          style={{ objectPosition: "7px 0px" }}
+                          // style={{ objectPosition: "7px 0px" }}
                         />
                         <div className="sub_contents-15">
                           As soon as we agreed to begin the task, we fully gathered the specifications and ideas to construct the program exactly as the client requested in noticeable ways.
@@ -1149,11 +1149,11 @@ const MetaverseDevelopment = () => {
                     <div className="col-lg-6">
                       <div className="cus_line">
                         <img
-                          src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/how-icons.svg"
+                          src="./SGimage/Gathering The Clients Requirement .jpg"
                           alt="Complete Demands We Analyze"
                           title="Complete Demands We Analyze"
                           className="sprite_icons"
-                          style={{ objectPosition: "-95px 0px" }}
+                          // style={{ objectPosition: "-95px 0px" }}
                         />
                         <div className="sub_contents-15">
                           Subsequently, we gather the essential knowledge to do
@@ -1174,11 +1174,11 @@ const MetaverseDevelopment = () => {
                     <div className="col-lg-6">
                       <div className="cus_line">
                         <img
-                          src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/how-icons.svg"
+                          src="./SGimage/Gathering The Clients Requirement .jpg"
                           alt="Clear-Edge Development"
                           title="Clear-Edge Development"
                           className="sprite_icons"
-                          style={{ objectPosition: "-203px 0px" }}
+                          // style={{ objectPosition: "-203px 0px" }}
                         />
                         <div className="sub_contents-15">
                           Our nifty tech teams will work in an effective manner
@@ -1199,11 +1199,11 @@ const MetaverseDevelopment = () => {
                     <div className="col-lg-6">
                       <div className="cus_line">
                         <img
-                          src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/how-icons.svg"
+                          src="./SGimage/Gathering The Clients Requirement .jpg"
                           alt="God-Eye Testing"
                           title="God-Eye Testing"
                           className="sprite_icons"
-                          style={{ objectPosition: "-308px 0px" }}
+                          // style={{ objectPosition: "-308px 0px" }}
                         />
                         <div className="sub_contents-15">
                           Before originating the developed software, we
@@ -1225,11 +1225,11 @@ const MetaverseDevelopment = () => {
                     <div className="col-lg-6">
                       <div className="cus_line">
                         <img
-                          src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/how-icons.svg"
+                          src="./SGimage/Gathering The Clients Requirement .jpg"
                           alt="Promptly Delivery"
                           title="Promptly Delivery"
                           className="sprite_icons"
-                          style={{ objectPosition: "-412px 0px" }}
+                          // style={{ objectPosition: "-412px 0px" }}
                         />
                         <div className="sub_contents-15">
                           We always have the stick policy to deliver the
@@ -1250,11 +1250,11 @@ const MetaverseDevelopment = () => {
                     <div className="col-lg-6">
                       <div className="cus_line">
                         <img
-                          src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/how-icons.svg"
+                          src="./SGimage/Gathering The Clients Requirement .jpg"
                           alt="User-Friendly Support"
                           title="User-Friendly Support"
                           className="sprite_icons"
-                          style={{ objectPosition: "-518px 0px" }}
+                          // style={{ objectPosition: "-518px 0px" }}
                         />
                         <div className="sub_contents-15">
                           Even after we deliver the software, our support team
@@ -1285,7 +1285,7 @@ const MetaverseDevelopment = () => {
                     data-target="#popup_form_modal"
                     className="btn BtnPrimry TlkBtn met_dev_btn"
                   >
-                    <span>Get A Live Demo</span>
+                  <Link to="/ContectUsForm">  <span>Get A Live Demo</span></Link>
                     <span>Get A Live Demo</span>
                   </button>
                 </div>
@@ -1295,72 +1295,66 @@ const MetaverseDevelopment = () => {
                   <div className="col-lg-4 col-6">
                     <div className="top_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/top-icons.webp?v1"
+                        src="./SGimage/sandbox (1).png"
                         alt="Sandbox Clone"
                         title="Sandbox Clone"
                         className="sprite_icons"
-                        style={{ objectPosition: "0px -3px" }}
-                      />
+                       />
                       <div className="sub_title-15">Sandbox Clone</div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-6">
                     <div className="top_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/top-icons.webp?v1"
-                        alt="Axie Infinity Clone"
+                        src="./SGimage/axie-infinity (1).png"
+                         alt="Axie Infinity Clone"
                         title="Axie Infinity Clone"
                         className="sprite_icons"
-                        style={{ objectPosition: "-226px -3px" }}
-                      />
+                       />
                       <div className="sub_title-15">Axie Infinity Clone</div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-6">
                     <div className="top_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/top-icons.webp?v1"
+                        src="./SGimage/Decentraland (1).png"
                         alt="Decentraland Clone"
                         title="Decentraland Clone"
                         className="sprite_icons"
-                        style={{ objectPosition: "-452px -3px" }}
-                      />
+                       />
                       <div className="sub_title-15">Decentraland Clone</div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-6">
                     <div className="top_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/top-icons.webp?v1"
+                        src="./SGimage/Polkacity Clone (1).png"
                         alt="Polkacity Clone"
                         title="Polkacity Clone"
                         className="sprite_icons"
-                        style={{ objectPosition: "-620px -3px" }}
-                      />
+                       />
                       <div className="sub_title-15">Polkacity Clone</div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-6">
                     <div className="top_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/top-icons.webp?v1"
-                        alt="Cryptokitties Clone"
+                        src="./SGimage/Cryptokitties Clone (1).png"
+                         alt="Cryptokitties Clone"
                         title="Cryptokitties Clone"
                         className="sprite_icons"
-                        style={{ objectPosition: "-846px -3px" }}
-                      />
+                       />
                       <div className="sub_title-15">Cryptokitties Clone</div>
                     </div>
                   </div>
                   <div className="col-lg-4 col-6">
                     <div className="top_list">
                       <img
-                        src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/top-icons.webp?v1"
-                        alt="Sorare Clone"
+                        src="./SGimage/Sorare Clone (1).png"
+                         alt="Sorare Clone"
                         title="Sorare Clone"
                         className="sprite_icons"
-                        style={{ objectPosition: "-1072px -3px" }}
-                      />
+                       />
                       <div className="sub_title-15">Sorare Clone</div>
                     </div>
                   </div>
@@ -1369,348 +1363,78 @@ const MetaverseDevelopment = () => {
             </div>
           </div>
         </section>
-        <section className="metaverse_dev_techstack">
+        <section className="token_dev_techstack">
           <div className="container">
-            <h2 className="title">Our Technology Stack for Metaverse
-            </h2>
-            <p className="contents">
-              The technology and tools we have gathered to construct the Metaverse are:</p>
-            <div className="row">
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="HTML-Icon"
-                      title="HTML"
-                      className="sprite_icons"
-                      style={{ objectPosition: "0px 0px" }}
-                    />
-                    <div className="sub_title-15">HTML</div>
-                  </div>
-                </div>
+            <h2 className="title">Our Technology Stack</h2>
+            <div className="row tech ">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/physics.png" className="w-100 h-40" alt="" />
+                <h5>React</h5>
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="CSS-Icon"
-                      title="CSS"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-121px 0px" }}
-                    />
-                    <div className="sub_title-15">CSS</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/python.png" alt="" className="w-100 h-40" />
+                <h5>Python</h5>
+
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Reactjs-Icon"
-                      title="Reactjs"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-243px 0px" }}
-                    />
-                    <div className="sub_title-15">React Js</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+                <img src="./images/mysql.png" alt="" className="w-100 h-40" />
+                <h5>MySQL</h5>
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Websocket-Icon"
-                      title="Websocket"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-365px 0px" }}
-                    />
-                    <div className="sub_title-15">Websocket</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+                <h5>Java Srcipt</h5>
+
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="web3js-Icon"
-                      title="web3js"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-489px 0px" }}
-                    />
-                    <div className="sub_title-15">web3 Js</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/SQL-Lite.png" alt="" className="w-100 h-40" />
+                <h5>SQL Lite</h5>
+
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Solidity-Icon"
-                      title="Solidity"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-612px 0px" }}
-                    />
-                    <div className="sub_title-15">Solidity</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/html.png" alt="" className="w-100 h-40" />
+                <h5>HTML</h5>
+
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Rust-Icon"
-                      title="Rust"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-735px 0px" }}
-                    />
-                    <div className="sub_title-15">Rust</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/android.png" alt="" className="w-100 h-40" />
+                <h5>Android</h5>
+
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="NodeJs-Icon"
-                      title="NodeJs"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-857px 0px" }}
-                    />
-                    <div className="sub_title-15">Node.Js</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/mongo-db-icon.png" alt="" className="w-100 h-40" />
+                <h5>Mongo DB</h5>
+
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="React-Native-Icon"
-                      title="React Native"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-980px 0px" }}
-                    />
-                    <div className="sub_title-15">React Native</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/app-store.png" alt="" className="w-100 h-40" />
+                <h5>App Store</h5>
+
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="DocumentDB-Icon"
-                      title="DocumentDB"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-1103px 0px" }}
-                    />
-                    <div className="sub_title-15">DocumentDB</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/atom.png" alt="" className="w-100 h-40" />
+                <h5>Atom</h5>
+
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="MongoDB-Icon"
-                      title="MongoDB"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-1227px 0px" }}
-                    />
-                    <div className="sub_title-15">MongoDB</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/laravel.png" alt="" className="w-100 h-40" />
+                <h5>Laravel</h5>
+
               </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Ethereum-Icon"
-                      title="Ethereum"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-1350px 0px" }}
-                    />
-                    <div className="sub_title-15">Ethereum</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Solana-Icon"
-                      title="Solana"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-1473px 0px" }}
-                    />
-                    <div className="sub_title-15">Solana</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="ARToolkit-Icon"
-                      title="ARToolkit"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-1595px 0px" }}
-                    />
-                    <div className="sub_title-15">ARToolkit</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Unreal-Engine-Icon"
-                      title="Unreal Engine"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-1718px 0px" }}
-                    />
-                    <div className="sub_title-15">Unreal Engine</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Unity-Icon"
-                      title="Unity"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-1842px 0px" }}
-                    />
-                    <div className="sub_title-15">Unity</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Google-ARcore-Icon"
-                      title="Google ARcore"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-1965px 0px" }}
-                    />
-                    <div className="sub_title-15">Google ARcore</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="MQTT-Icon"
-                      title="MQTT"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-2088px -1px" }}
-                    />
-                    <div className="sub_title-15">MQTT</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Azure-IOT-Hub-Icon"
-                      title="Azure IOT Hub"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-2211px -1px" }}
-                    />
-                    <div className="sub_title-15">Azure IOT Hub</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Lorawan-Icon"
-                      title="Lorawan"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-2333px 0px" }}
-                    />
-                    <div className="sub_title-15">Lorawan</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="AWS-Sage-Icon"
-                      title="AWS Sage"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-2456px 0px" }}
-                    />
-                    <div className="sub_title-15">AWS Sage</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="TensorFlow-Icon"
-                      title="TensorFlow"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-2579px 0px" }}
-                    />
-                    <div className="sub_title-15">TensorFlow</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Maxst-AR-Icon"
-                      title="Maxst AR"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-2702px 0px" }}
-                    />
-                    <div className="sub_title-15">Maxst AR</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-6">
-                <div className="techstack_box">
-                  <div className="gradient_box">
-                    <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/techstack-icons.webp"
-                      alt="Apple ARKit-Icon"
-                      title="Apple ARKit"
-                      className="sprite_icons"
-                      style={{ objectPosition: "-2826px 0px" }}
-                    />
-                    <div className="sub_title-15">Apple ARKit</div>
-                  </div>
-                </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/python.png" alt="" className="w-100 h-40" />
+                <h5>Python</h5>
+
               </div>
             </div>
           </div>
@@ -1730,7 +1454,7 @@ const MetaverseDevelopment = () => {
                 <div className="col-lg-4 col-12 cus_col">
                   <div className="blkchn_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/blockchain-cions.svg"
+                      src="./SGimage/blockchain_icon.png"
                       alt="Blockchain-App-Development"
                       title="Blockchain App Development"
                       className="sprite_icons"
@@ -1748,11 +1472,11 @@ const MetaverseDevelopment = () => {
                 <div className="col-lg-4 col-12 cus_col">
                   <div className="blkchn_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/blockchain-cions.svg"
+                      src="./SGimage/integrated-system1.png"
                       alt="Integration-of-Payment-Gateways"
                       title="Integration of Payment Gateways"
                       className="sprite_icons"
-                      style={{ objectPosition: "-252px 0px" }}
+                      // style={{ objectPosition: "-252px 0px" }}
                     />
                     <div className="sub_title-15">
                       Integrating Payment Gateways
@@ -1766,11 +1490,11 @@ const MetaverseDevelopment = () => {
                 <div className="col-lg-4 col-12">
                   <div className="blkchn_box">
                     <img
-                      src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-development-company/blockchain-cions.svg"
+                      src="./SGimage/Providing Crypto Solutions .png"
                       alt="Providing-Crypto-Solutions"
                       title="Providing Crypto Solutions"
                       className="sprite_icons"
-                      style={{ objectPosition: "-123px 0px" }}
+                      // style={{ objectPosition: "-123px 0px" }}
                     />
                     <div className="sub_title-15">
                       Providing Crypto Solutions

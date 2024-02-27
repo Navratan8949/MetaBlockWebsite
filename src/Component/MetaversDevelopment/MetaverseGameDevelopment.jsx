@@ -1,5 +1,6 @@
 import React from 'react'
-import './MetaverseGameDevelopment.css'
+import './MetaverseGameDevelopment.css';
+import { Link } from 'react-router-dom';
 
 const MetaverseGameDevelopment = () => {
   return (
@@ -17,7 +18,7 @@ const MetaverseGameDevelopment = () => {
                   <p className="contents">Greetings from the metaverse of gaming's future! With our Metaverse game development platform, developers of various skill levels may create unlimited possibilities by fusing creativity and technology.</p>
                   <div className="HddrBtns banner_btn_sec">
                     <button toggle="modal" target="#popup_form_modal" className="btn BtnPrimry TlkBtn banner_btn">
-                      <span alt="" loading="eager" className="img-fluid lazyload mr-2 lazyload" >Get A Live Quote</span>
+                    <Link to="/ContectUsForm"> <span alt="" loading="eager" className="img-fluid lazyload mr-2 lazyload" >Get A Live Quote</span></Link>
                       <span alt="" loading="eager" className="img-fluid lazyload mr-2" >Get A Live Quote</span>
                     </button>
                   </div>
@@ -40,7 +41,7 @@ const MetaverseGameDevelopment = () => {
                   Avalanche, and more, to create metaverse games.</p>
                 <div className="HddrBtns metaverse_game_btn_sec">
                   <button toggle="modal" target="#popup_form_modal" className="btn BtnPrimry TlkBtn metaverse_game_btn">
-                    <span alt="enquiry" loading="eager" className="img-fluid lazyload mr-2 lazyload" >Talk To Our Expert</span>
+                  <Link to="/ContectUsForm"><span alt="enquiry" loading="eager" className="img-fluid lazyload mr-2 lazyload" >Talk To Our Expert</span></Link>
                     <span alt="enquiry" loading="eager" className="img-fluid lazyload mr-2" >Talk To Our Expert</span>
                   </button>
                 </div>
@@ -76,7 +77,7 @@ const MetaverseGameDevelopment = () => {
               <div className="col-lg-10 col-12 metaverse_game_comp_cardsec">
                 <div id="metaverse_game_comp_card">
                   <h2 className="title-14">Metaverse Game Development company</h2>
-                  <p className="contents">MetaBlock, the top Metaverse game development company, works with a variety of tech stacks, including Blender and Unreal Engine, to give customers a seamless gaming experience. Our developers have devoted endless hours to producing the greatest metaverse game possible, one that is well-designed to draw in a large number of new players and encourage those who already use the platform to start their extensive new gaming journey. Osiz, an industry pioneer in the metaverse domain, has been utilizing cutting-edge technologies to construct the digital realm.
+                  <p className="contents">MetaBlock, the top Metaverse game development company, works with a variety of tech stacks, including Blender and Unreal Engine, to give customers a seamless gaming experience. Our developers have devoted endless hours to producing the greatest metaverse game possible, one that is well-designed to draw in a large number of new players and encourage those who already use the platform to start their extensive new gaming journey. MetaBlock, an industry pioneer in the metaverse domain, has been utilizing cutting-edge technologies to construct the digital realm.
                   </p>
                 </div>
               </div>
@@ -191,7 +192,7 @@ const MetaverseGameDevelopment = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="benefits_box clippath1">
                   <div className="img_sec">
-                    <img src="./images/met_ecomomy.webp" alt="Opportunities for the economy" title="Opportunities for the economy" className="sprite_icons lazyload" style={{ objectPosition: '0px 0px' }} />
+                    <img style={{width:'80px', height:'fit-content', borderRadius:'50px'}} src="./SGimage/280448-P6AHMF-297-min.jpg" alt="Opportunities for the economy" title="Opportunities for the economy" className="" />
                   </div>
                   <h3 className="sub_title">Prospects for the economy</h3>
                   <p className="sub_contents">Games in the metaverse offer new opportunities for players, developers, and businesses. While players can earn virtual cash or exchange virtual products, developers can create additional revenue streams through in-game advertising or subscription-based business models.</p>
@@ -200,7 +201,8 @@ const MetaverseGameDevelopment = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="benefits_box cp_center">
                   <div className="img_sec">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg" alt="Immersive gameplay" title="Immersive gameplay" className="sprite_icons lazyload" style={{ objectPosition: '-99px 0px' }} />
+                    <img src="./SGimage/3828822.jpg" style={{width:'80px', height:'fit-content', borderRadius:'50px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className=""/>
                   </div>
                   <h3 className="sub_title">Engrossing gameplay</h3>
                   <p className="sub_contents">Players can escape reality and explore new worlds with the rich and captivating gaming environment that metaverse games offer.</p>
@@ -209,7 +211,8 @@ const MetaverseGameDevelopment = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="benefits_box clippath2">
                   <div className="img_sec">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg" alt="Social interaction" title="Social interaction" className="sprite_icons lazyload" style={{ objectPosition: '-225px 0px' }} />
+                    <img src="./SGimage/6213049.jpg" style={{width:'80px', height:'fit-content', borderRadius:'50px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className="" />
                   </div>
                   <h3 className="sub_title">Social exchange</h3>
                   <p className="sub_contents">Metaverse games provide an environment for it, allowing users to socialize and form groups based on shared interests.</p>
@@ -218,7 +221,8 @@ const MetaverseGameDevelopment = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="benefits_box clippath1">
                   <div className="img_sec">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg" alt="Creative expression" title="Creative expression" className="sprite_icons lazyload" style={{ objectPosition: '-345px 0px' }} />
+                    <img src="./SGimage/6681650-min.jpg" style={{width:'80px', height:'fit-content', borderRadius:'50px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className=""  />
                   </div>
                   <h3 className="sub_title">Artistic expression </h3>
                   <p className="sub_contents">Players in metaverse games can express their creativity by creating virtual things, creating avatars, and creating their own virtual spaces.
@@ -228,7 +232,8 @@ const MetaverseGameDevelopment = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="benefits_box cp_center">
                   <div className="img_sec">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg" alt="New ideas" title="New ideas" className="sprite_icons lazyload" style={{ objectPosition: '-448px 0px' }} />
+                    <img src="./SGimage/6594175-min.jpg" style={{width:'80px', height:'fit-content', borderRadius:'50px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className=""  />
                   </div>
                   <h3 className="sub_title">Exciting ideas</h3>
                   <p className="sub_contents">Metaverse games are expanding the boundaries of what is conceivable in gaming by fusing virtual reality, artificial intelligence, and blockchain technology.</p>
@@ -237,7 +242,8 @@ const MetaverseGameDevelopment = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="benefits_box clippath2">
                   <div className="img_sec">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/benefit-icons.svg" alt="Accessible" title="Accessible" className="sprite_icons lazyload" style={{ objectPosition: '-549px 0px' }} />
+                    <img src="./SGimage/52124-min.jpg" style={{width:'80px', height:'fit-content', borderRadius:'50px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className=""  />
                   </div>
                   <h3 className="sub_title">Reachable</h3>
                   <p className="sub_contents">Metaverse games are frequently available to a wider range of gamers, including people who would not have access to conventional gaming platforms.</p>
@@ -246,20 +252,7 @@ const MetaverseGameDevelopment = () => {
             </div>
           </div>
         </section>
-        <section className="metaverse_game_ebook_sec">
-          <div className="container">
-            <div className="row align-items-center" id="ebook_card">
-              <div className="col-lg-7 col-12">
-                <h2 className="title-15">Development Strategies for the Metaverse - eBook</h2>
-                <p className="contents-15">This eBook will provide the trade secrets and tactics for creating a profitable metaverse project. We'll go over the fundamentals of developing a metaverse, such as tested tactics, prerequisites, and development methodology.</p>
-                <div className="ebook_btn_sec">
-                  <button className="btn ebook_btn" toggle="modal" target="#met_game_ebook_popup_form_modal">Free Download</button>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
+      
         <section className="metaverse_game_unique">
           <div className="container">
             <h2 className="title">Particular Features of Developing Metaverse Games</h2>
@@ -267,21 +260,24 @@ const MetaverseGameDevelopment = () => {
             <div className="row justify-content-center row_line">
               <div className="col-lg-4 col-md-6 col-12 col_line">
                 <div className="unique_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/unique-icons.svg" alt="Decentralized Ownership and economy" title="Decentralized Ownership and economy" className="sprite_icons lazyload" style={{ objectPosition: '0px 0px' }} />
+                  <img src="./SGimage/2103.i039.026.cryptographic_art_crypto_art_NFT_isometric-min.jpg" style={{width:'150px', height:'fit-content', borderRadius:'5px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className="" />
                   <h3 className="sub_title">Decentralized Economy and Ownership</h3>
                   <p className="sub_contents">Players can buy, sell, and trade virtual products with other players in a decentralized market by having actual ownership over their virtual assets in a metaverse game that makes use of blockchain technology.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 col_line">
                 <div className="unique_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/unique-icons.svg" alt="Integration of virtual reality technology" title="Integration of virtual reality technology" className="sprite_icons lazyload" style={{ objectPosition: '-139px 0px' }} />
+                <img src="./SGimage/52221.jpg" style={{width:'150px', height:'fit-content', borderRadius:'5px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className="" />
                   <h3 className="sub_title">Incorporating virtual reality technology</h3>
                   <p className="sub_contents">A metaverse game can make players feel more involved and immersed by using virtual reality (VR) technology, which makes it seem as though they are physically within the game world.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 col_line">
                 <div className="unique_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/unique-icons.svg" alt="User generated content" title="User generated content" className="sprite_icons lazyload" style={{ objectPosition: '-263px 0px' }} />
+                <img src="./SGimage/6585595.jpg" style={{width:'200px', height:'fit-content', borderRadius:'5px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className="" />
                   <h3 className="sub_title">Material created by users</h3>
                   <p className="sub_contents">Allows users to create and share their own material within the game world, such as personalized avatars, virtual locations, and items, which can increase player engagement and promote a sense of community.
                   </p>
@@ -289,7 +285,8 @@ const MetaverseGameDevelopment = () => {
               </div>
               <div className="col-lg-4 col-md-6 col-12 col_line">
                 <div className="unique_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/unique-icons.svg" alt="Dynamic and changing world" title="Dynamic and changing world" className="sprite_icons lazyload" style={{ objectPosition: '-387px 0px' }} />
+                <img src="./SGimage/world metaverse.jpg" style={{width:'150px', height:'fit-content', borderRadius:'5px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className="" />
                   <h3 className="sub_title">A world that is dynamic and evolving
                   </h3>
                   <p className="sub_contents">A metaverse game might provide a dynamic, constantly-evolving gaming environment with quests and other features that adapt to the needs of the community and player behavior.</p>
@@ -297,21 +294,24 @@ const MetaverseGameDevelopment = () => {
               </div>
               <div className="col-lg-4 col-md-6 col-12 col_line">
                 <div className="unique_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/unique-icons.svg" alt="Cross-platform compatibility" title="Cross-platform compatibility" className="sprite_icons lazyload" style={{ objectPosition: '-513px 0px' }} />
+                <img src="./SGimage/album artwork.jpg" style={{width:'150px', height:'fit-content', borderRadius:'5px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className="" />
                   <h3 className="sub_title">Compatibility between platforms</h3>
                   <p className="sub_contents">Both the player base and accessibility may grow if players can access the game from a range of platforms, including PCs, smartphones, and gaming consoles.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 col_line">
                 <div className="unique_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/unique-icons.svg" alt="Real world integration" title="Real world integration" className="sprite_icons lazyload" style={{ objectPosition: '-651px 0px' }} />
+                <img src="./SGimage/trending on artstation.jpg" style={{width:'100px', height:'fit-content', borderRadius:'5px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className="" />
                   <h3 className="sub_title">Integration in the real world</h3>
                   <p className="sub_contents">Real-world events like sporting competitions or concerts can be included into the game world to offer players one-of-a-kind experiences and to give brands a chance to market to consumers.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="unique_box">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/unique-icons.svg" alt="Integration of artificial intelligence" title="Integration of artificial intelligence" className="sprite_icons lazyload" style={{ objectPosition: '-754px 0px' }} />
+                <img src="./SGimage/artificial ai.jpg" style={{width:'150px', height:'fit-content', borderRadius:'5px'}} 
+                    alt="Opportunities for the economy" title="Opportunities for the economy" className="" />
                   <h3 className="sub_title">Artificial Intelligence Integration</h3>
                   <p className="sub_contents">By incorporating intelligence, a metaverse game can provide more challenging and realistic non-player characters (NPCs), in addition to dynamically generated events and obstacles.</p>
                 </div>
@@ -329,7 +329,7 @@ const MetaverseGameDevelopment = () => {
             </div>
             <div className="row align-items-center">
               <div className="col-lg-6 col-12 p-lg-0">
-                <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/model-img.webp?v1" alt="Business model for Metaverse game development" title="Business model for Metaverse game development" className="img-fluid lazyload" />
+                <img src="./SGimage/6620122.jpg" alt="Business model for Metaverse game development" title="Business model for Metaverse game development" className="img-fluid lazyload" />
               </div>
               <div className="col-lg-6 col-12 pr-lg-5 p-5">
                 <div className="row justify-content-center pr-lg-5">
@@ -452,95 +452,111 @@ const MetaverseGameDevelopment = () => {
               <div className="col-lg-4 col-md-12 col-12 pr-lg-0">
                 <div className="clone_list_sec">
                   <div className="clone_list">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Clone List" title="Clone List" className="img-fluid lazyload" />
+                    <img src="./SGimage/right-arrow.png" alt="Clone List" title="Clone List" className="img-fluid lazyload"
+                    style={{width:'25px'}} />
                     <div className="sub_title">Clone scripts for alien worlds</div>
                   </div>
                   <div className="clone_list">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Clone List" title="Clone List" className="img-fluid lazyload" />
+                  <img src="./SGimage/right-arrow.png" alt="Clone List" title="Clone List" className="img-fluid lazyload"
+                    style={{width:'25px'}} />
                     <div className="sub_title">Typical clone script
                     </div>
                   </div>
                   <div className="clone_list">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Clone List" title="Clone List" className="img-fluid lazyload" />
+                  <img src="./SGimage/right-arrow.png" alt="Clone List" title="Clone List" className="img-fluid lazyload"
+                    style={{width:'25px'}} />
                     <div className="sub_title">Cloning and decentralization
                     </div>
                   </div>
                   <div className="clone_list">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Clone List" title="Clone List" className="img-fluid lazyload" />
+                  <img src="./SGimage/right-arrow.png" alt="Clone List" title="Clone List" className="img-fluid lazyload"
+                    style={{width:'25px'}} />
                     <div className="sub_title">Neondis clone script</div>
                   </div>
                   <div className="clone_list">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Clone List" title="Clone List" className="img-fluid lazyload" />
+                  <img src="./SGimage/right-arrow.png" alt="Clone List" title="Clone List" className="img-fluid lazyload"
+                    style={{width:'25px'}} />
                     <div className="sub_title">Sandbox clone script</div>
                   </div>
                   <div className="clone_list">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Clone List" title="Clone List" className="img-fluid lazyload" />
+                  <img src="./SGimage/right-arrow.png" alt="Clone List" title="Clone List" className="img-fluid lazyload"
+                    style={{width:'25px'}} />
                     <div className="sub_title">Horizon worlds clone script</div>
                   </div>
                   <div className="clone_list">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Clone List" title="Clone List" className="img-fluid lazyload" />
+                  <img src="./SGimage/right-arrow.png" alt="Clone List" title="Clone List" className="img-fluid lazyload"
+                    style={{width:'25px'}} />
                     <div className="sub_title">Second Life clone script</div>
                   </div>
                   <div className="clone_list">
-                    <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Clone List" title="Clone List" className="img-fluid lazyload" />
+                  <img src="./SGimage/right-arrow.png" alt="Clone List" title="Clone List" className="img-fluid lazyload"
+                    style={{width:'25px'}} />
                     <div className="sub_title">Ember sword clone script</div>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-8 col-12 pl-0">
-                <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-img.webp?v1" alt="List Metaverse Game Clone Scripts" title="List Metaverse Game Clone Scripts" className="img-fluid lazyload" />
+              <div className="col-lg-8 col-12 pl-0 game_devlist">
+              <img src="./SGimage/game_dev.jpg" alt="Clone List" title="Clone List" className="img-fluid lazyload text-center"
+                    style={{width:'500px', borderRadius:'5px'}} />
               </div>
             </div>
           </div>
         </section>
         <section className="metaverse_game_category">
           <div className="container">
+            
             <h2 className="title">Various Metaverse Game Categories that We Create</h2>
             <p className="contents">Utilizing our understanding of numerous popular blockchain networks and tech stacks, we focus on the following areas.</p>
             <div className="row align-items-center justify-content-center category_box">
               <div className="col-lg-7 col-12">
               </div>
+              <div className="col-lg-6 col-12 p-lg-0">
+                <img src="./SGimage/Virtual reality.jpg" alt="Business model for Metaverse game development" title="Business model for Metaverse game development" 
+                className="img-fluid lazyload" style={{width:'500px', borderRadius:'500px'}}/>
+              </div>
               <div className="col-lg-5 col-md-12 col-12">
                 <div className="row justify-content-center">
+                  
                   <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                     <div className="category_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/catagory-icons.svg" alt="Adventure" title="Adventure" className="sprite_icons lazyload" style={{ objectPosition: '-5px -7px' }} />
+                      <img src="./SGimage/video-game.png" alt="Adventure" title="Adventure" className="sprite_icons lazyload" style={{ objectPosition: '-5px -7px' }} />
                       <div className="sub_title">Adventure</div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                     <div className="category_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/catagory-icons.svg" alt="Racing" title="Racing" className="sprite_icons lazyload" style={{ objectPosition: '-127px -7px' }} />
+                      <img src="./SGimage/flags.png" alt="Racing" title="Racing" className="sprite_icons lazyload"  />
                       <div className="sub_title">Racing</div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                     <div className="category_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/catagory-icons.svg" alt="Action" title="Action" className="sprite_icons lazyload" style={{ objectPosition: '-249px -7px' }} />
+                      <img src="./SGimage/action-game.png" alt="Action" title="Action" className="sprite_icons lazyload"  />
                       <div className="sub_title">Action</div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                     <div className="category_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/catagory-icons.svg" alt="Simulation" title="Simulation" className="sprite_icons lazyload" style={{ objectPosition: '-370px -7px' }} />
+                      <img src="./SGimage/video-games.png" alt="Simulation" title="Simulation" className="sprite_icons lazyload"  />
                       <div className="sub_title">Simulation</div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                     <div className="category_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/catagory-icons.svg" alt="Sports" title="Sports" className="sprite_icons lazyload" style={{ objectPosition: '-498px -7px' }} />
+                      <img src="./SGimage/cricket.png" alt="Sports" title="Sports" className="sprite_icons lazyload"  />
                       <div className="sub_title">Sports</div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                     <div className="category_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/catagory-icons.svg" alt="Casino" title="Casino" className="sprite_icons lazyload" style={{ objectPosition: '-620px -7px' }} />
+                      <img src="./SGimage/card-game.png" alt="Casino" title="Casino" className="sprite_icons lazyload" 
+                       />
                       <div className="sub_title">Casino</div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                     <div className="category_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/catagory-icons.svg" alt="Puzzle" title="Puzzle" className="sprite_icons lazyload" style={{ objectPosition: '-741px -7px' }} />
+                      <img src="./SGimage/jigsaw.png" alt="Puzzle" title="Puzzle" className="sprite_icons lazyload"  />
                       <div className="sub_title">Puzzle</div>
                     </div>
                   </div>
@@ -557,91 +573,120 @@ const MetaverseGameDevelopment = () => {
               <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div className="industry_box">
                   <div className="sub_title">Property</div>
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/industry-icons.svg" alt="Real-estate" title="Real-estate" className="sprite_icons lazyload" style={{ objectPosition: '0px 0px' }} />
+                  <img  src="./images/real-estate2.png" alt="Real Estate" title="Real Estate" className="sprite_icons lazyload" style={{border: '1px solid #C434E5', borderRadius:'1px'}} />
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div className="industry_box">
                   <div className="sub_title">Gaming</div>
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/industry-icons.svg" alt="Gaming" title="Gaming" className="sprite_icons lazyload" style={{ objectPosition: '-109px 0px' }} />
+                  <img  src="./images/gamings.png" alt="Real Estate" title="Real Estate" className="sprite_icons lazyload" style={{border: '1px solid #C434E5', borderRadius:'1px'}} />
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div className="industry_box">
                   <div className="sub_title">Fashion</div>
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/industry-icons.svg" alt="Fashion" title="Fashion" className="sprite_icons lazyload" style={{ objectPosition: '-218px 0px' }} />
+                  <img  src="./images/dress.png" alt="Real Estate" title="Real Estate" className="sprite_icons lazyload" style={{border: '1px solid #C434E5', borderRadius:'1px'}} />
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div className="industry_box">
                   <div className="sub_title">Entertainment</div>
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/industry-icons.svg" alt="Entertainment" title="Entertainment" className="sprite_icons lazyload" style={{ objectPosition: '-327px 0px' }} />
+                  <img  src="./images/entertainment.png" alt="Real Estate" title="Real Estate" className="sprite_icons lazyload" style={{border: '1px solid #C434E5', borderRadius:'1px'}} />
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div className="industry_box">
-                  <div className="sub_title">Social media</div>
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/industry-icons.svg" alt="Social media" title="Social media" className="sprite_icons lazyload" style={{ objectPosition: '-436px 0px' }} />
+                <div className="sub_title">Social media</div>
+                <img  src="./images/social.png" alt="Real Estate" title="Real Estate" className="sprite_icons lazyload" style={{border: '1px solid #C434E5', borderRadius:'1px'}} />
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div className="industry_box">
                   <div className="sub_title">Tourism</div>
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/industry-icons.svg" alt="Tourism" title="Tourism" className="sprite_icons lazyload" style={{ objectPosition: '-545px 0px' }} />
+                  <img  src="./images/tourisrs.png" alt="Real Estate" title="Real Estate" className="sprite_icons lazyload" style={{border: '1px solid #C434E5', borderRadius:'1px'}} />
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div className="industry_box">
                   <div className="sub_title">Ecommerce</div>
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/industry-icons.svg" alt="Ecommerce" title="Ecommerce" className="sprite_icons lazyload" style={{ objectPosition: '-545px 0px' }} />
+                  <img  src="./images/ecommerces.png" alt="Real Estate" title="Real Estate" className="sprite_icons lazyload" style={{border: '1px solid #C434E5', borderRadius:'1px'}} />
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="metaverse_game_techstack">
-          <div className="container-fluid">
-            <h2 className="title">Our tech stack</h2>
-            <div className="row justify-content-center" id="techstack_box">
-              <div className="col-lg-10">
-                <div className="row justify-content-center">
-                  <div className="col-lg-2 col-md-2 col-6">
-                    <div className="techstack_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/techstack-icons.svg" alt="Blockchain" title="Blockchain" className="sprite_icons lazyload" style={{ objectPosition: '0px 0px' }} />
-                      <div className="sub_title">Blockchain</div>
-                    </div>
-                  </div>
-                  <div className="col-lg-2 col-md-2 col-6">
-                    <div className="techstack_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/techstack-icons.svg" alt="AR/VR" title="AR/VR" className="sprite_icons lazyload" style={{ objectPosition: '-148px 0px' }} />
-                      <div className="sub_title">AR/VR</div>
-                    </div>
-                  </div>
-                  <div className="col-lg-2 col-md-2 col-6">
-                    <div className="techstack_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/techstack-icons.svg" alt="3D reconstruction" title="3D reconstruction" className="sprite_icons lazyload" style={{ objectPosition: '-295px 0px' }} />
-                      <div className="sub_title">3D reconstruction</div>
-                    </div>
-                  </div>
-                  <div className="col-lg-2 col-md-2 col-6">
-                    <div className="techstack_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/techstack-icons.svg" alt="Artificial Intelligence" title="Artificial Intelligence" className="sprite_icons lazyload" style={{ objectPosition: '-445px 0px' }} />
-                      <div className="sub_title">Artificial Intelligence</div>
-                    </div>
-                  </div>
-                  <div className="col-lg-2 col-md-2 col-6">
-                    <div className="techstack_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/techstack-icons.svg" alt="Spatial computing" title="Spatial computing" className="sprite_icons lazyload" style={{ objectPosition: '-609px 0px' }} />
-                      <div className="sub_title">Spatial computing</div>
-                    </div>
-                  </div>
-                  <div className="col-lg-2 col-md-2 col-6">
-                    <div className="techstack_list">
-                      <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/techstack-icons.svg" alt="IoT (internet of things)" title="IoT (internet of things)" className="sprite_icons lazyload" style={{ objectPosition: '-757px 0px' }} />
-                      <div className="sub_title">IoT (internet of things)</div>
-                    </div>
-                  </div>
-                </div>
+        <section className="token_dev_techstack">
+          <div className="container">
+            <h2 className="title">Our Technology Stack</h2>
+            <div className="row tech ">
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/physics.png" className="w-100 h-40" alt="" />
+                <h5>React</h5>
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/python.png" alt="" className="w-100 h-40" />
+                <h5>Python</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3" >
+                <img src="./images/mysql.png" alt="" className="w-100 h-40" />
+                <h5>MySQL</h5>
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/java-script.png" alt="" className="w-100 h-40" />
+                <h5>Java Srcipt</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/SQL-Lite.png" alt="" className="w-100 h-40" />
+                <h5>SQL Lite</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/html.png" alt="" className="w-100 h-40" />
+                <h5>HTML</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/android.png" alt="" className="w-100 h-40" />
+                <h5>Android</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/mongo-db-icon.png" alt="" className="w-100 h-40" />
+                <h5>Mongo DB</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/app-store.png" alt="" className="w-100 h-40" />
+                <h5>App Store</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/atom.png" alt="" className="w-100 h-40" />
+                <h5>Atom</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/laravel.png" alt="" className="w-100 h-40" />
+                <h5>Laravel</h5>
+
+              </div>
+
+              <div className="col-md-2 mt-5 d-flex justify-center align-center flex-column gap-3">
+                <img src="./images/python.png" alt="" className="w-100 h-40" />
+                <h5>Python</h5>
+
               </div>
             </div>
           </div>
@@ -658,14 +703,14 @@ const MetaverseGameDevelopment = () => {
                   </p>
                   <div className="metaverse_game_btn_sec">
                     <button toggle="modal" target="#popup_form_modal" className="btn BtnPrimry TlkBtn metaverse_game_btn">
-                      <span><img src="https://www.osiztechnologies.com/asset/home-page-new/images/btn-call-icon.gif" alt="enquiry" loading="eager" className="img-fluid lazyload mr-2 lazyload" />Get A Live Demo</span>
-                      <span><img src="https://www.osiztechnologies.com/asset/home-page-new//images/btn-call-icon.gif" alt="enquiry" loading="eager" className="img-fluid lazyload mr-2 lazyload" />Get A Live Demo</span>
+                    <Link to="/ContectUsForm">  <span className="img-fluid lazyload mr-2 lazyload" >Get A Live Demo</span></Link>
+                    <Link to="/ContectUsForm">    <span className="img-fluid lazyload mr-2 lazyload" >Get A Live Demo</span></Link>
                     </button>
                   </div>
-                </div>
+                </div >
               </div>
-              <div className="col-lg-6 col-md-6 col-12 p-lg-0">
-                <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/hire-dev-img.webp" alt="Hire Metaverse Game Developers" title="Hire Metaverse Game Developers" className="img-fluid lazyload" />
+              <div className="col-lg-6 col-md-6 col-12 p-lg-0 hire_metblock_game">
+                <img src="./images/employ_develpoer.jpg" alt="Hire Metaverse Game Developers" title="Hire Metaverse Game Developers" className="img-fluid lazyload" />
               </div>
             </div>
           </div>
@@ -674,9 +719,7 @@ const MetaverseGameDevelopment = () => {
           <div className="container">
             <div className="row justify-content-center align-items-center">
               <div className="col-lg-12 col-12">
-                {/* <div className="img_sec">
-                  <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/why-do.webp" alt="Why do you need Osiz for Metaverse Game development ?" title="Why do you need Osiz for Metaverse Game development ?" className="img-fluid lazyload" />
-                </div> */}
+                
                 <div className="why_do_box">
                   <h2 className="title">For the production of Metaverse games, why is MetaBlock necessary?</h2>
                   <p className="contents">One of the best Metaverse game developers in India, MetaBlock, is currently developing a futuristic game with cutting-edge features. MetaBlock has access to a group of around fifty highly qualified developers. Regarding the current blockchain ecosystem, which includes Ethereum, Binance Smart Chain, Solana, Cardano, Polygon, and others, the professionals at MetaBlock are quite knowledgeable.
@@ -687,38 +730,38 @@ const MetaverseGameDevelopment = () => {
                   <div className="row justify-content-center">
                     <div className="col-lg-4 col-12">
                       <div className="whydo_list">
-                        <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Game-Pad" title="Game Pad" className="img-fluid lazyload" />
+                        <img src="./SGimage/right-arrow.png" alt="Game-Pad" title="Game Pad" className="met_advant" />
                         <h4 className="sub_contents">Development Across Platforms</h4>
                       </div>
                     </div>
                     <div className="col-lg-4 col-12">
                       <div className="whydo_list">
-                        <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Game-Pad" title="Game Pad" className="img-fluid lazyload" />
+                        <img src="./SGimage/right-arrow.png" alt="Game-Pad" title="Game Pad" className="met_advant" />
                         <h4 className="sub_contents">Low-Cost Innovation</h4>
                       </div>
                     </div>
                     <div className="col-lg-4 col-12">
                       <div className="whydo_list">
-                        <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Game-Pad" title="Game Pad" className="img-fluid lazyload" />
+                        <img src="./SGimage/right-arrow.png" alt="Game-Pad" title="Game Pad" className="met_advant" />
                         <h4 className="sub_contents">A track record of success</h4>
                       </div>
                     </div>
                     <div className="col-lg-4 col-12">
                       <div className="whydo_list">
-                        <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Game-Pad" title="Game Pad" className="img-fluid lazyload" />
+                        <img src="./SGimage/right-arrow.png" alt="Game-Pad" title="Game Pad" className="met_advant" />
                         <h4 className="sub_contents">Customization</h4>
                       </div>
                     </div>
                     <div className="col-lg-4 col-12">
                       <div className="whydo_list">
-                        <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Game-Pad" title="Game Pad" className="img-fluid lazyload" />
+                        <img src="./SGimage/right-arrow.png" alt="Game-Pad" title="Game Pad" className="met_advant" />
                         <h4 className="sub_contents">Integrated Media
                         </h4>
                       </div>
                     </div>
                     <div className="col-lg-4 col-12">
                       <div className="whydo_list">
-                        <img src="https://www.osiztechnologies.com/asset/inner-pages-new/metaverse-game-development/clone-list.webp" alt="Game-Pad" title="Game Pad" className="img-fluid lazyload" />
+                        <img src="./SGimage/right-arrow.png" alt="Game-Pad" title="Game Pad" className="met_advant" />
                         <h4 className="sub_contents">Continuous Assistance
                         </h4>
                       </div>

@@ -8,6 +8,27 @@
     display: flex;
     align-items: center;
 }
+.nft_top {
+   display: flex;
+   justify-content: center;
+}
+.nft_top img {
+    width: 600px;
+    border-radius: 5px;
+}
+.nft_tops {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+ .nft_tops img {
+     width: 600px;
+     border-radius: 5px;
+ }
+ .live_meta img {
+    width: 500px;
+ }
+
 
 #metaverse_dev_main .metaverse_dev_banner .banner_img {
     transform: translate(-20%, -10%);

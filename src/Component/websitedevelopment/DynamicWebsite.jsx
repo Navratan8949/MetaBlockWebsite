@@ -254,13 +254,13 @@ const DynamicWebsite = () => {
               <div className="list_item">
                 <ul className="list-unstyled">
                   <li>
-                    <img src="" alt="" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Customizable On-Demand App Solutions.</li>
+                    <img src="./SGimage/arrow_static.png" alt="" className="hyp-tic-sprite"  />Customizable On-Demand App Solutions.</li>
                   <li>
-                    <img src="" alt="" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Professionals backed by 10+ years of industry experience.</li>
+                    <img src="./SGimage/arrow_static.png" alt="" className="hyp-tic-sprite"  />Professionals backed by 10+ years of industry experience.</li>
                   <li>
-                    <img src="" alt="" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Direct collaboration with the technical team. </li>
+                    <img src="./SGimage/arrow_static.png" alt="" className="hyp-tic-sprite"  />Direct collaboration with the technical team. </li>
                   <li>
-                    <img src="" alt="" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Meticulous quality analysis cycle.</li>
+                    <img src="./SGimage/arrow_static.png" alt="" className="hyp-tic-sprite"  />Meticulous quality analysis cycle.</li>
                 </ul>
               </div>
             </div>
@@ -268,13 +268,13 @@ const DynamicWebsite = () => {
               <div className="list_item">
                 <ul className="list-unstyled">
                   <li>
-                    <img src="" alt="" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Apps built on leading-edge software packages.</li>
+                    <img src="./SGimage/arrow_static.png" alt="" className="hyp-tic-sprite"  />Apps built on leading-edge software packages.</li>
                   <li>
-                    <img src="" alt="" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Incorporation of authentic API tools.</li>
+                    <img src="./SGimage/arrow_static.png" alt="" className="hyp-tic-sprite"  />Incorporation of authentic API tools.</li>
                   <li>
-                    <img src="" alt="" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />Exclusive Offshore project development team.</li>
+                    <img src="./SGimage/arrow_static.png" alt="" className="hyp-tic-sprite"  />Exclusive Offshore project development team.</li>
                   <li>
-                    <img src="" alt="" className="hyp-tic-sprite" style={{ objectPosition: '-3357px -39px' }} />On-time delivery at an affordable cost.</li>
+                    <img src="./SGimage/arrow_static.png" alt="" className="hyp-tic-sprite"  />On-time delivery at an affordable cost.</li>
                 </ul>
               </div>
             </div>

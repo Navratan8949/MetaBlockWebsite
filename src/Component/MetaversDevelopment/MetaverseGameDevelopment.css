@@ -6,6 +6,22 @@
     width: 600px;
     margin: 50px 0 0 48px;
 }
+.game_devlist {
+    display: flex;
+    justify-content: center;
+}
+.hire_metblock_game {
+    display: flex;
+    justify-content: center;
+}
+.hire_metblock_game img {
+    width: 500px;
+    border-radius: 50px;
+}
+.met_advant {
+    width: 25px;
+    padding-top: 15px;
+}
 
 #metaverse_game_main .metaverse_game_banner {
     padding: 50px 0px;
@@ -1294,6 +1310,9 @@
     #metaverse_game_main .metaverse_game_whydo .sub_title {
         font-size: 18px;
     }
+    .met_advant {
+        padding-top: 0px !important;
+    }
 }
 
 @media(max-width: 576px) {
@@ -1304,11 +1323,17 @@
     #metaverse_game_main .metaverse_game_process .process_list_after:after {
         left: 4.2%;
     }
+    .met_advant {
+        padding-top: 0px !important;
+    }
 }
 
 @media(max-width: 467px) {
     #metaverse_game_main .metaverse_game_ebook_sec .free_title_sec {
         right: -10%;
         top: -10%;
+    }
+    .met_advant {
+        padding-top: 0px !important;
     }
 }
